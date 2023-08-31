@@ -1,26 +1,31 @@
 # Floorp English Localization
 
-This repo is the English localization for Floorp.
+This repository contains the English localization for Floorp.
 
-## Fix English Localization
+## Fixing the English Localization
 
-You can modify or Fix the translation of the Floorp English localization.
+If you notice any issues with the English localization, you can modify or fix it by following these steps:
 
-1. Fork this repo.
+1. Fork this repository by clicking the [Fork](https://github.com/Floorp-Projects/Floorp-Strings/fork) button.
 
-[Fork Repo](https://github.com/Floorp-Projects/Floorp-Strings/fork)
-
-2. Clone your forked repo.
+2. Clone your forked repository to your local machine using the following command:
 
 ```bash
 git clone https://github.com/{YOUR_USERNAME}/Floorp-Strings.git 
 ```
 
+3. Create a new branch for your improvements using the following command:
+
+```bash
+git checkout -b your_branch
+```
+
 3. Edit `floorp.ftl` file.
 
-ftl file is Fluent localization file. You can learn more about it [here](https://projectfluent.org/fluent/guide/).
+The `ftl` file extension is used for Fluent localization files. You can learn more about the Fluent localization format by visiting the [official Fluent documentation](https://projectfluent.org/fluent/guide/).
 
-For a brief explanation, localize after the `=`.
+To localize a string, simply modify the text after the `=` sign.
+
 
 4. Commit your changes.
 
@@ -32,13 +37,13 @@ git commit -m "Your commit message"
 5. Push your changes.
 
 ```bash
-git push
+git push origin your_branch
 ```
 
 6. Create a pull request.
 
 [Create Pull Request](https://github.com/Floorp-Projects/Floorp/compare)
 
-## Add New Language
+## Adding a New Language
 
-We will create new Pontoon Instance for localization of Floorp. Wait for it.
+We are currently working on creating a new Pontoon instance for localizing Floorp. Please stay tuned for further updates. 
