@@ -815,8 +815,8 @@ gf-floorp-open-browser-manager-sidebar-description =  Open Browser Manager Sideb
 gf-floorp-close-browser-manager-sidebar-name = [Floorp] Close BMS
 gf-floorp-close-browser-manager-sidebar-description = Close Browser Manager Sidebar
 
-gf-floorp-toggle-browser-manager-sidebar-name = [Floorp] Toggle BMS
-gf-floorp-toggle-browser-manager-sidebar-description = Toggle Browser Manager Sidebar
+gf-floorp-show-browser-manager-sidebar-name = [Floorp] Toggle BMS
+gf-floorp-show-browser-manager-sidebar-description = Toggle Browser Manager Sidebar
 
 gf-floorp-show-statusbar-name = [Floorp] Show Status Bar
 gf-floorp-show-statusbar-description = Show Status Bar
@@ -824,8 +824,8 @@ gf-floorp-show-statusbar-description = Show Status Bar
 gf-floorp-hide-statusbar-name = [Floorp] Hide Status Bar
 gf-floorp-hide-statusbar-description = Hide Status Bar
 
-gf-floorp-toggle-statusbar-name = [Floorp] Toggle Status Bar
-gf-floorp-toggle-statusbar-description = Show or Hide Status Bar
+gf-floorp-show-statusbar-name = [Floorp] Toggle Status Bar
+gf-floorp-show-statusbar-description = Show or Hide Status Bar
 
 gf-floorp-open-extension-sidebar-name = [Floorp] Open selected add-on of Sidebar
 gf-floorp-open-extension-sidebar-description = Open selected add-on of Sidebar
@@ -1048,7 +1048,7 @@ floorp-custom-actions-open-bookmark-add-toolbar = Open bookmark add toolbar
   .label = Add to Bookmarks Toolbar
 floorp-custom-actions-open-bookmarks-manager = Open bookmarks manager
   .label = Open Bookmarks Manager
-floorp-custom-actions-toggle-bookmark-toolbar = Toggle bookmark toolbar
+floorp-custom-actions-show-bookmark-toolbar = Toggle bookmark toolbar
   .label = Toggle Bookmarks Toolbar
 floorp-custom-actions-open-general-preferences = Open general preferences
   .label = Open General Preferences
@@ -1094,13 +1094,32 @@ floorp-custom-actions-reverse-sidebar = Reverse sidebar position
   .label = Reverse sidebar position
 floorp-custom-actions-hide-sidebar = Hide sidebar
   .label = Hide sidebar
-floorp-custom-actions-toggle-sidebar = Toggle sidebar
+floorp-custom-actions-show-sidebar = Toggle sidebar
   .label = Toggle sidebar
 floorp-custom-actions-open-previous-workspace = Open previous workspace
   .label = Open previous workspace
 floorp-custom-actions-open-next-workspace = Open next workspace
   .label = Open next workspace
-
+floorp-custom-actions-show-panel-1 = Toggle panel 1
+  .label = Toggle panel 1
+floorp-custom-actions-show-panel-2 = Toggle panel 2
+  .label = Toggle panel 2
+floorp-custom-actions-show-panel-3 = Toggle panel 3
+  .label = Toggle panel 3
+floorp-custom-actions-show-panel-4 = Toggle panel 4
+  .label = Toggle panel 4
+floorp-custom-actions-show-panel-5 = Toggle panel 5
+  .label = Toggle panel 5
+floorp-custom-actions-show-panel-6 = Toggle panel 6
+  .label = Toggle panel 6
+floorp-custom-actions-show-panel-7 = Toggle panel 7
+  .label = Toggle panel 7
+floorp-custom-actions-show-panel-8 = Toggle panel 8
+  .label = Toggle panel 8
+floorp-custom-actions-show-panel-9 = Toggle panel 9
+  .label = Toggle panel 9
+floorp-custom-actions-show-panel-10 = Toggle panel 10
+  .label = Toggle panel 10
 
 ##################################################################### Profile Switcher ###############################################################
 
