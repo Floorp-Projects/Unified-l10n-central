@@ -845,6 +845,12 @@ update-portable-notification-failed-title = Update failed.
 update-portable-notification-failed-redirector-message = Update failed. Restarting your browser may solve the problem.
 update-portable-notification-failed-prepare-message = Failed to prepare update.
 
+##################################################################### Floorp Portable Preferences ###############################################################
+
+floorp-portable-update-application-allow = { -brand-short-name } Portable Update
+floorp-update-application-auto-enabled-option =
+  .label = Automatically check for updates to { -brand-short-name } portable. (Recommended)
+  
 ##################################################################### Open link in external ###############################################################
 openInExternal-title = Open in external browser
 open-link-in-external-enabled-option =
