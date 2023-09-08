@@ -818,9 +818,6 @@ gf-floorp-close-browser-manager-sidebar-description = Close Browser Manager Side
 gf-floorp-show-browser-manager-sidebar-name = [Floorp] Toggle BMS
 gf-floorp-show-browser-manager-sidebar-description = Toggle Browser Manager Sidebar
 
-gf-floorp-show-statusbar-name = [Floorp] Show Status Bar
-gf-floorp-show-statusbar-description = Show Status Bar
-
 gf-floorp-hide-statusbar-name = [Floorp] Hide Status Bar
 gf-floorp-hide-statusbar-description = Hide Status Bar
 
@@ -1080,8 +1077,6 @@ floorp-custom-actions-quick-forget-history = Quick forget history
   .label = Quick forget history
 floorp-custom-actions-clear-recent-history = Clear recent history
   .label = Clear recent history
-floorp-custom-actions-restore-last-session = Restore last session
-  .label = Restore last session
 floorp-custom-actions-search-history = Search history
   .label = Search history
 floorp-custom-actions-manage-history = Manage history
