@@ -1135,3 +1135,4 @@ floorp-profiles-create = Create Profile
 floorp-profile = Profile
  .label = Profile Manager
  .tooltiptext = Open Profile Manager
+fxa-not-signed-in = Not signed in
