@@ -57,7 +57,7 @@ enable-show-pinned-tabs-title =
 Mouse-side-button =
   .label = Optimise browser for mouse with side buttons
 
-tabbar-preference = Tab Bar (not supported in macOS)
+tabbar-preference = Tab Bar
 
 None-mode = 
  .label= Normal mode
