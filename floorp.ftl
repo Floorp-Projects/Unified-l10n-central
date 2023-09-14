@@ -117,7 +117,7 @@ other-preference = Other Preferences
 
 enable-userscript =
  .label = Enable legacy components
-about-legacy-components = Enabling this feature may cause unexpected bugs or fatal errors
+about-legacy-components = Enabling this feature may cause unexpected bugs or fatal errors.
 
 Search-positon-top =
  .label = Display the Find Bar at the top of the page
@@ -338,7 +338,7 @@ newtab-background-folder-reload =
   .label = Reload images
 
 newtab-background-folder-default = 
-  .label = Restore defaults
+  .label = Restore Defaults
 
 newtab-background-folder-open = 
   .label = Open folder
@@ -527,7 +527,7 @@ manage-workspace-on-bms-option =
 show-workspace-name-option =
     .label = Show Workspace Name on Tab Bar's Workspace Button
 change-workspace-with-default-key-option =
-    .label = Change Workspace with ↑ and ↓ keys with SHIFT.
+    .label = Change Workspace with Shift and ↑ and ↓ keys.
 
 workspaces-manage-title = Manage Workspaces
 workspaces-manage-description = Manage your Workspaces. Change workspace icon.
@@ -571,29 +571,29 @@ workspace-icon-chill =
  .label = Private
 
 # CSK
-floorp-CSK-title = Custom Shortcut Keys
-floorp-CSK-description = Customize the shortcut keys of { -brand-short-name }. Floorp provides more 80 shortcut keys. Reboot { -brand-short-name } to apply these settings. Duplicates do not work.
+floorp-CSK-title = Custom keyboard shortcuts
+floorp-CSK-description = Customize { -brand-short-name }'s keyboard shortcuts. Floorp provides more than 80 customizable keyboard shortcuts - restart { -brand-short-name } to apply these settings. Duplicate keyboard shortcuts will not work.
 disable-fx-actions =
- .label = Disable Firefox's default shortcut keys
+ .label = Disable built-in keyboard shortcuts
 customize-Action =
- .label = Customize Action
+ .label = Add shortcut
 remove-Action =
- .label = Remove Action
-CSK-reset-title = Reset Custom Shortcut Keys
-CSK-reset-description = Reset the shortcut keys of { -brand-short-name } to the default settings.
-CSK-reset-label = Reset Custom Shortcut Keys
-CSK-reset-button = Reset Custom Shortcut Keys
-CSK-manage-title = Manage Custom Shortcut Keys
+ .label = Remove shortcut
+CSK-reset-title = Reset custom keyboard shortcuts
+CSK-reset-description = Reset custom keyboard shortcuts to { -brand-short-name }'s defaults.
+CSK-reset-label = Reset custom keyboard shortcuts
+CSK-reset-button = Restore Defaults
+CSK-manage-title = Manage keyboard shortcuts
 
-CSK-remove-shortcutkey = Remove Shortcut Key
-CSK-remove-shortcutkey-description = Are you sure you want to remove this shortcut key?
+CSK-remove-shortcutkey = Remove custom keyboard shortcut?
+CSK-remove-shortcutkey-description = Are you sure you want to remove this keyboard shortcut?
 
-CSK-restore-default = Restore Default
-CSK-restore-default-description = Restore these settings to the default. Your current settings will be lost.
+CSK-restore-default = Restore Defaults?
+CSK-restore-default-description = Restore Floorp's default keyboard shortcuts? Your current shortcuts will be lost.
 
 ### Exsit shortcut key: "S", "shift"
-CSK-keyborad-shortcut-info = Exist shortcut key: { $key } & { $modifiers }.
-CSK-keyborad-shortcut-info-with-keycode = Exist shortcut key: { $key }.
+CSK-keyborad-shortcut-info = Current keyboard shortcut: { $key } & { $modifiers }.
+CSK-keyborad-shortcut-info-with-keycode = Current keyboard shortcut: { $key }.
 
 floorp-custom-actions-tab-action = Tab Actions
 floorp-custom-actions-page-action = Page Actions
@@ -769,8 +769,8 @@ edit-userChromeCss-editor =
 edit-userContentCss-editor =
     .label = Edit userContent.css file
 
-not-found-editor-path = Could not find the editor path.
-set-pref-description = Set the path to the editor you want to use.
+not-found-editor-path = Could not find a CSS file editor
+set-pref-description = Input the file location of the CSS file editor you want to use:
 rebuild-complete = Rebuild has been completed.
 please-enter-filename = Please enter a file name.
 
@@ -782,7 +782,7 @@ undo-closed-tab = Reopen closed tab
 
 # DualTheme
 dual-theme-enable-addon-button = Enable as a sub-theme
-dual-theme-disable-addon-button = Disable as a sub-theme
+dual-theme-disable-addon-button = Disable sub-theme
 dual-theme-enabled-heading = Enabled as a sub-theme
 
 ##################################################################### toolbar ###############################################################
@@ -839,8 +839,8 @@ update-portable-notification-ready-message = { -brand-short-name } will be updat
 update-portable-notification-success-title = Update succeeded!
 update-portable-notification-success-message = Update succeeded! Hope you enjoy the new version of Floorp!
 update-portable-notification-failed-title = Update failed.
-update-portable-notification-failed-redirector-message = Update failed. Restarting your browser may solve the problem.
-update-portable-notification-failed-prepare-message = Failed to prepare update.
+update-portable-notification-failed-redirector-message = Update failed. Restarting your browser may solve this problem.
+update-portable-notification-failed-prepare-message = Failed to prepare the update.
 
 ##################################################################### Floorp Portable Preferences ###############################################################
 
@@ -857,7 +857,7 @@ open-link-in-external-select-browser-option-default =
  .label = Default browser
 open-link-in-external-tab-context-menu = Open in external browser
 open-link-in-external-tab-dialog-title-error = An error occurred:
-open-link-in-external-tab-dialog-message-default-browser-not-found = Default browser is not found or is not configured.
+open-link-in-external-tab-dialog-message-default-browser-not-found = Default browser was not found or is not configured.
 open-link-in-external-tab-dialog-message-selected-browser-not-found = The selected browser does not exist.
 
 
@@ -960,17 +960,17 @@ welcomet-finish-setup = Start Browsing the Web
 ############################################################# Custom Shortcutkey ###############################################################
 
 category-CSK =
- .label = Custom Shortcut Key
- .tooltiptext = Custom Shortcut Key
-category-CSK-title = Custom Shortcut Key
+ .label = Keyboard shortcuts
+ .tooltiptext = Keyboard shortcuts
+category-CSK-title = Keyboard shortcuts
 shortcutkey-customize = 
- .title = Custom Shortcut Key
-select-shortcutkeyAction = Select Shortcut Key Action
-shortcutkey-customize-key-list-placeholder = Input key list
-shortcut-key-label = Key for shortcut
+ .title = Keyboard shortcuts
+select-shortcutkeyAction = Select an action to trigger
+shortcutkey-customize-key-list-placeholder = Your keyboard shortcut will appear here
+shortcut-key-label = Keyboard shortcut
 start-input-button-listen = Start listening
 end-input-button-listen = Stop listening
-shortcut-key-description = Click "Start listening" and press the key you want to use as a shortcut key. Multiple keys can be used. Duplicate other action keys are not working.
+shortcut-key-description = Click "Start listening" and enter your new keyboard shortcut for this action. Multiple keys can be used, however keyboard shortcuts will not work if already assigned to other actions.
 
 floorp-custom-actions-open-new-tab = Open a new tab
   .label = Open a new tab
@@ -992,9 +992,9 @@ floorp-custom-actions-show-next-tab = Show the next tab
 floorp-custom-actions-show-previous-tab = Show the previous tab
   .label = Show the previous tab
 floorp-custom-actions-show-all-tabs-panel = Show all tabs panel
-  .label = Show all tabs panel
+  .label = Show the tabs list
 floorp-custom-actions-send-with-mail = Send with mail
-  .label = Send with mail
+  .label = Send via email
 floorp-custom-actions-save-page = Save page
   .label = Save page
 floorp-custom-actions-print-page = Print page
@@ -1002,11 +1002,11 @@ floorp-custom-actions-print-page = Print page
 floorp-custom-actions-mute-current-tab = Toggle mute/unmute current tab
   .label = Toggle mute/unmute current tab
 floorp-custom-actions-toggle-bookmark-toolbar =
-  .label = Toggle Bookmark Toolbar
+  .label = Toggle Bookmarks Toolbar
 floorp-custom-actions-show-source-of-page = Show source of page
-  .label = Show source of page
+  .label = Open Page Source
 floorp-custom-actions-show-page-info = Show page info
-  .label = Show page info
+  .label = Open Page Info
 floorp-custom-actions-zoom-in = Zoom in
   .label = Zoom in
 floorp-custom-actions-zoom-out = Zoom out
@@ -1024,7 +1024,7 @@ floorp-custom-actions-stop = Stop
 floorp-custom-actions-force-reload = Force reload
   .label = Force reload
 floorp-custom-actions-search-in-this-page = Search in this page
-  .label = Search this page
+  .label = Find in page
 floorp-custom-actions-show-next-search-result = Show next search word in this page result
   .label = Next "Find in page" result
 floorp-custom-actions-show-previous-search-result = Show previous search word in this page result
@@ -1046,7 +1046,7 @@ floorp-custom-actions-show-pip = Show picture in picture
 floorp-custom-actions-bookmark-this-page = Bookmark this page
   .label = Bookmark this page
 floorp-custom-actions-open-bookmarks-sidebar = Open bookmarks sidebar
-  .label = Open bookmarks sidebar
+  .label = Open Bookmarks sidebar
 floorp-custom-actions-open-bookmark-add-tool = Open bookmark add tool
   .label = Add Bookmark
 floorp-custom-actions-open-bookmark-add-toolbar = Open bookmark add toolbar
@@ -1070,7 +1070,7 @@ floorp-custom-actions-open-sync-preferences = Open sync preferences
 floorp-custom-actions-open-task-manager = Open task manager
   .label = Open { -brand-short-name }'s Task Manager
 floorp-custom-actions-open-home-page = Open { -brand-short-name }'s home page
-  .label = Open { -brand-short-name }'s home page
+  .label = Open { -brand-short-name }'s homepage
 floorp-custom-actions-open-addons-manager = Open addons manager
   .label = Open Add-ons and themes
 floorp-custom-actions-forget-history = Forget history
