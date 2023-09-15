@@ -1144,3 +1144,7 @@ floorp-profile = Profile
  .label = Profile Manager
  .tooltiptext = Open Profile Manager
 fxa-not-signed-in = Not signed in
+
+
+###################################################################### Private Container ##############################################################
+floorp-private-container-name = Private Container
