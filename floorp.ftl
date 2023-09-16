@@ -1147,4 +1147,4 @@ fxa-not-signed-in = Not signed in
 
 
 ###################################################################### Private Container ##############################################################
-floorp-private-container-name = Private Container
+floorp-private-container-name = Private
