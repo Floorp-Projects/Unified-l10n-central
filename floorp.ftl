@@ -230,7 +230,8 @@ enable-sidebar2 =
  .label = Enable the Browser Manager Sidebar
 visible-bms = 
  .label = Show the Browser Manager Sidebar
-
+hide-bms-to-unload-panel =
+  .label = Unload panel when hiding panel
 custom-URL-option = Set Web Panel URLs
 set-custom-URL-button =
     .label = Set Custom URLs...
