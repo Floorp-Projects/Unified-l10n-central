@@ -540,7 +540,8 @@ workspaces-manage-button = Open Workspace Manager...
 select-workspace = Select Workspace
 workspace-select-icon = Select Workspace Icon
  .label = Select Workspace Icon
-
+workspace-select-container = Select Container Tab
+ .label = Select Container Tab
 workspace-customize = 
  .title = Customize Workspace
 
@@ -923,11 +924,13 @@ workspace-context-menu-selected-tab =
 move-tab-another-workspace =
  .label = Move to another Workspace
 workspace-rename = 
-  .label = Rename this Workspace...
+  .label = Rename this Workspace
 
 workspace-delete = 
-  .label = Delete workspace
+  .label = Delete Workspace
 
+manage-workspace = Manage this Workspace
+  .label = Manage this workspace
 ######################################################################### menubar item ###############################################################
 
 sharemode-menuitem =
