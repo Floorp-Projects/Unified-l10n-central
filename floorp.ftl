@@ -1157,3 +1157,8 @@ fxa-not-signed-in = Not signed in
 
 ###################################################################### Private Container ##############################################################
 floorp-private-container-name = Private
+floorp-toggle-private-container =
+  .label = Reopen in Private/No Container
+  .accesskey = P
+open-in_private-container =
+  .label = Open in Newtab with Private Container
