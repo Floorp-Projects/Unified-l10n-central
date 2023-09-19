@@ -601,6 +601,9 @@ CSK-remove-shortcutkey-description = Are you sure you want to remove this keyboa
 CSK-restore-default = Restore Defaults?
 CSK-restore-default-description = Restore Floorp's default keyboard shortcuts? Your current shortcuts will be lost.
 
+CSK-reboot-browser-label = Restart { -brand-short-name } to apply these settings
+CSK-reboot-browser-button = Restart { -brand-short-name }
+
 ### Exsit shortcut key: "S", "shift"
 CSK-keyborad-shortcut-info = Current keyboard shortcut: { $key } & { $modifiers }.
 CSK-keyborad-shortcut-info-with-keycode = Current keyboard shortcut: { $key }.
