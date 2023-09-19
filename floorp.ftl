@@ -608,6 +608,8 @@ CSK-reboot-browser-button = Restart { -brand-short-name }
 CSK-keyborad-shortcut-info = Current keyboard shortcut: { $key } & { $modifiers }.
 CSK-keyborad-shortcut-info-with-keycode = Current keyboard shortcut: { $key }.
 
+CSK-keyborad-shortcut-is-changed = (Not Applied)
+
 floorp-custom-actions-tab-action = Tab Actions
 floorp-custom-actions-page-action = Page Actions
 floorp-custom-actions-visible-action = Visible Actions
