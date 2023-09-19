@@ -136,7 +136,7 @@ enable-floorp-updater =
 floorp-update-latest =
  .label = Notify me if { -brand-short-name } is up-to-date during automatic update checks
 
-## system theme color
+## Browser Theme
 
 system-color-settings = Some themes have both light and dark modes - choose which mode you'd like these themes to use.
 preferences-theme-appearance-header = Theme Mode
@@ -150,7 +150,7 @@ system-theme-light =
 system-theme-auto =
  .label = Follow my system appearance
 
-## user interface prefernces
+## User interface preferences
 
 ui-preference = Browser appearance
 preferences-browser-appearance-description = Choose a built-in third-party design to use in { -brand-short-name }. Some designs may not be compatible with your configuration.
@@ -176,7 +176,7 @@ floorp-fluerialUI =
 floorp-gnomeUI =
  .label = GNOME Theme
 
-## download mgr
+## Download Manager
 download-notification-preferences = Download Notifications
 start-always-notify =
  .label = Notify only when starting downloads
@@ -192,14 +192,14 @@ click-to-option =
     .label = Open Settings...
     .accesskey = O
 
-## sidebar
+## Sidebar
 profiles-button-label = Manage Profiles
 floorp-help-button-label = { -brand-short-name } Support
 
 appmenuitem-reboot =
  .label = Restart
 
-## useagent
+## UserAgent
 
 UserAgent-preference = User Agent
 default-useragent-mode =
@@ -351,7 +351,7 @@ newtab-background-extensions = Use images with these file extensions (separated 
 disable-blur-on-newtab = 
   .label = Disable blur effect on { -brand-short-name } Home
 
-## lepton preferences
+## Lepton Preferences
 
 about-lepton = Customize { -brand-short-name } with Lepton
 
@@ -580,7 +580,7 @@ workspace-icon-tree =
 workspace-icon-chill =
  .label = Private
 
-# CSK
+# Custom Keyboard Shortcuts
 floorp-CSK-title = Custom keyboard shortcuts
 floorp-CSK-description = Customize { -brand-short-name }'s keyboard shortcuts. Floorp provides more than 80 customizable keyboard shortcuts - restart { -brand-short-name } to apply these settings. Duplicate keyboard shortcuts will not work.
 disable-fx-actions =
@@ -604,7 +604,7 @@ CSK-restore-default-description = Restore Floorp's default keyboard shortcuts? Y
 CSK-reboot-browser-label = Restart { -brand-short-name } to apply these settings
 CSK-reboot-browser-button = Restart { -brand-short-name }
 
-### Exsit shortcut key: "S", "shift"
+# Exist shortcut key: "S", "shift"
 CSK-keyborad-shortcut-info = Current keyboard shortcut: { $key } & { $modifiers }.
 CSK-keyborad-shortcut-info-with-keycode = Current keyboard shortcut: { $key }.
 
@@ -622,7 +622,7 @@ floorp-custom-actions-sidebar-action = Sidebar Actions
 floorp-custom-actions-bms-action = Browser Manager Sidebar Actions
 floorp-custom-actions-workspace-action = Workspaces Actions
 
-## Mouse Gesture
+## Mouse Gestures
 mouse-gesture = Mouse Gestures
 mouse-gesture-description = Gesturefy must be installed to use mouse gestures with { -brand-short-name }.
 Gesturefy = Gesturefy
@@ -633,7 +633,7 @@ TWS = Translate Web Page
 about-TWS = Translate your page in real time using Google or Yandex. You can also translate selected text or the entire page.
 
 # Privacy Hub
-## BlockMoreTracker
+## BlockMoreTrackers
 privacy-hub-header = Privacy Hub
 block-more-tracker = Block more Ads and Trackers
 block-tracker = This section contains a set of extensions designed to block ads and trackers
@@ -643,7 +643,7 @@ about-uboori = uBlock Origin blocks ads, extensive trackers, and additional dang
 Facebook-Container = Facebook Container
 about-Facebook-Container = Prevent Facebook from tracking you around the web. Facebook Container extension helps you take control and isolate your web activity from Facebook.
 
-## Fingerprint
+## Fingerprinting
 fingerprint-header = Resist Fingerprinting & IP address leaks
 block-fingerprint = Fingerprinting is a tracking mechanism that relies on the unique features of your browser and operating system. This section contains settings to further enhance this protection beyond the default blocking.
 enable-firefox-fingerprint-protections = Enable strong protection against fingerprinting
@@ -793,7 +793,7 @@ undo-closed-tab = Reopen closed tab
 
 ################################################################### about:addons ###############################################################
 
-# DualTheme
+# Dual Theme
 dual-theme-enable-addon-button = Enable as a sub-theme
 dual-theme-disable-addon-button = Disable sub-theme
 dual-theme-enabled-heading = Enabled as a sub-theme
