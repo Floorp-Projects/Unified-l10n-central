@@ -1162,3 +1162,8 @@ floorp-toggle-private-container =
   .accesskey = P
 open-in_private-container =
   .label = Open in Newtab with Private Container
+
+######################################################################## Split View ###############################################################
+
+floorp-split-view-menu =
+ .label = Fix this tab to split view
