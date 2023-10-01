@@ -2,7 +2,7 @@
 
 This repository contains the English localization for Floorp.
 
-## Fixing the English Localization
+## Improving the English Localization
 
 If you notice any issues with the English localization, you can modify or fix it by following these steps:
 
