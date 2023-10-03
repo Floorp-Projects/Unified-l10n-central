@@ -1167,3 +1167,6 @@ open-in_private-container =
 
 floorp-split-view-menu =
  .label = Fix this tab to split view
+
+######################################################################### Page Actions ###############################################################
+qrcode-generate-page-action-title = Scan QR Code with your Phone
