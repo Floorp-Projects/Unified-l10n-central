@@ -1170,3 +1170,5 @@ floorp-split-view-menu =
 
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = Scan QR Code with your Phone
+qrcode-generate-page-action =
+ .tooltiptext = Share this page with your phone
