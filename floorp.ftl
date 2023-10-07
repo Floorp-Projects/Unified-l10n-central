@@ -623,6 +623,7 @@ floorp-custom-actions-downloads-action = Downloads Actions
 floorp-custom-actions-sidebar-action = Sidebar Actions
 floorp-custom-actions-bms-action = Browser Manager Sidebar Actions
 floorp-custom-actions-workspace-action = Workspaces Actions
+floorp-custom-actions-custom-action = Custom Actions (Experimental)
 
 ## Mouse Gestures
 mouse-gesture = Mouse Gestures
@@ -991,7 +992,6 @@ shortcut-key-description = Click "Start listening" and enter your new keyboard s
 
 floorp-custom-actions-open-new-tab = Open a new tab
   .label = Open a new tab
-
 floorp-custom-actions-close-tab = Close the current tab
   .label = Close the current tab
 floorp-custom-actions-open-new-window = Open a new window
@@ -1140,6 +1140,16 @@ floorp-custom-actions-show-panel-9 = Toggle panel 9
   .label = Toggle panel 9
 floorp-custom-actions-show-panel-10 = Toggle panel 10
   .label = Toggle panel 10
+floorp-custom-actions-custom-action-1 = Custom action 1
+  .label = Custom action 1
+floorp-custom-actions-custom-action-2 = Custom action 2
+  .label = Custom action 2
+floorp-custom-actions-custom-action-3 = Custom action 3
+  .label = Custom action 3
+floorp-custom-actions-custom-action-4 = Custom action 4
+  .label = Custom action 4
+floorp-custom-actions-custom-action-5 = Custom action 5
+  .label = Custom action 5
 
 ##################################################################### Profile Switcher ###############################################################
 
