@@ -1182,3 +1182,7 @@ floorp-split-view-menu =
 qrcode-generate-page-action-title = Scan QR Code with your Phone
 qrcode-generate-page-action =
  .tooltiptext = Share this page with your phone
+
+######################################################################### Customize Mode ###############################################################
+floorp-customize-mode-unified-extensions-button =
+ .label = Unified Extensions Button
