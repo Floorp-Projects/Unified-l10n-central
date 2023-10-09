@@ -545,6 +545,9 @@ workspace-select-container = Select Container Tab
 workspace-customize = 
  .title = Customize Workspace
 
+floorp-no-workspace-conatiner =
+  .label = No Container
+
 workspace-icon-briefcase =
  .label = Job
 workspace-icon-cart =
