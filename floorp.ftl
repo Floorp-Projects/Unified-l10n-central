@@ -12,7 +12,7 @@ contributors = A list of <label data-l10n-name="about-contributor">contributors 
 
 pane-design-title = Design
 category-design =
-    .tooltiptext = { pane-design-title }
+  .tooltiptext = { pane-design-title }
 design-header = Design
 
 feature-requires-restart = A restart is required to apply changes
@@ -20,124 +20,136 @@ feature-requires-restart = A restart is required to apply changes
 tab-width = Minimum width of tabs
 preferences-tabs-newtab-position = New Tab position
 open-new-tab-use-default =
- .label = Open new tabs at default position
+  .label = Open new tabs at default position
+
 open-new-tab-at-the-end =
- .label = Open new tabs at the end of the Tab Bar
+  .label = Open new tabs at the end of the Tab Bar
 open-new-tab-next-to-current =
- .label = Open new tabs next to the current tab
-enable-multitab = 
- .label = Enable multi-row tabs
-multirow-tabs-limit = 
- .label = Enable row limit for multi-row tabs
-multirow-tabs-newtab = 
- .label = Place the "Open a new tab" button at the end of the lowest row of tabs
+  .label = Open new tabs next to the current tab
+enable-multitab =
+  .label = Enable multi-row tabs
+multirow-tabs-limit =
+  .label = Enable row limit for multi-row tabs
+multirow-tabs-newtab =
+  .label = Place the "Open a new tab" button at the end of the lowest row of tabs
 multirow-tabs-value = Number of rows when multi-row tabs are enabled
-enable-tab-sleep = 
- .label = Enable Sleeping Tabs
-tab-sleep-timeout-minutes-value = Tabs will sleep after being inactive for (minutes)
-tab-sleep-settings-button = Settings...
+enable-tab-sleep =
+  .label = Enable Sleeping Tabs
+tab-sleep-settings-button =
+  .label = Sleeping Tabs Settings
+  .accesskey = S
+
 tab-sleep-settings-dialog-title =
- .title = Sleeping Tabs Settings
+  .title = Sleeping Tabs Settings
 tab-sleep-settings-dialog-excludehosts-label = Exclude hosts
 tab-sleep-settings-dialog-excludehosts-label-2 = Enter one host per line.
 tab-sleep-tab-context-menu-excludetab = Keep Tab awake
+
 enable-floorp-workspace =
- .label = Enable Workspaces
+  .label = Enable Workspaces (experimental)
 workspace-warring = Workspaces cannot be used with Tab Group add-ons. If you want to use tab group add-ons, please disable Workspaces and restart { -brand-short-name }.
-enable-tab-scroll-change =
- .label = Switch tabs by scrolling with your mouse
+floorp-workspace-settings-button =
+  .label = Workspace Settings
+  .accesskey = B
 enable-tab-scroll-reverse =
- .label = Reverse direction of scrolling tabs
+  .label = Reverse direction of scrolling tabs
 enable-tab-scroll-wrap =
- .label = Wrap scrolling tabs at the edge
+  .label = Wrap scrolling tabs at the edge
+tab-sleep-timeout-minutes-value = Tabs will sleep after being inactive for (minutes)
+enable-tab-scroll-change =
+  .label = Switch tabs by scrolling with your mouse
 enable-double-click-block =
- .label = Close tabs when double-clicking them
+  .label = Close tabs when double-clicking them
 enable-show-pinned-tabs-title =
- .label = Show the title of pinned tabs
+  .label = Show the title of pinned tabs
 Mouse-side-button =
   .label = Optimise browser for mouse with side buttons
 
-tabbar-preference = Tab Bar
+tabbar-preference = Tab Bar (experimental)
 
-None-mode = 
- .label= Normal mode
+None-mode =
+  .label= Normal mode
 
 hide-horizontality-tabs =
- .label= Hide tabs on Horizontal Tab Bar
+  .label= Hide tabs on Horizontal Tab Bar
 
 verticalTab-setting =
- .label = Optimise browser for Vertical Tab Bar
+  .label = Optimise browser for Vertical Tab Bar
 
 move-tabbar-position =
- .label = Display Tab Bar underneath the Toolbar
+  .label = Display Tab Bar underneath the Toolbar
 
 tabbar-on-bottom =
- .label = Display Tab Bar at the bottom of the window
+  .label = Display Tab Bar at the bottom of the window
 
 tabbar-favicon-color =
- .label = Color the Tab Bar using the current website's favicon color
+  .label = Color the Tab Bar using the current website's favicon color
 
 tabbar-style-preference = Tab Bar Style
-
-horizontal-tabbar =
- .label = Horizontal Tab Bar
-
 tabbar-style-description = A restart of { -brand-short-name } is required to fully apply this setting.
+horizontal-tabbar =
+  .label = Horizontal Tab Bar
 multirow-tabbar =
- .label = Multi-Row Tab Bar
+  .label = Multi-Row Tab Bar
 vertical-tabbar =
- .label = Vertical Tab Bar (experimental)
+  .label = Vertical Tab Bar (experimental)
+
 native-tabbar-tip = Sidebar add-ons and in-built sidebars cannot be used at the same time as Vertical Tabs as this leverages the Firefox sidebar.
 
 native-vertical-tab-show-right =
- .label = Show Vertical Tab Bar on the right side of the window
+  .label = Show Vertical Tab Bar on the right side of the window
 
 hover-vertical-tab =
- .label = Collapse Vertical Tab Bar
+  .label = Collapse Vertical Tab Bar
 
 TST = Tree Style Tab
+
+treestyletab-Settings =
+  .label = Collapse Tree Style Tab
+
 about-TST = Tree Style Tab is a popular add-on that allows you to display tabs in a tree structure. Floorp 10 has a built-in this add-on. Please install the add-on restore Floorp 10's built-in Tree Style Tab.
-treestyletab-Settings = 
- .label = Collapse Tree Style Tab
+
+## ↓ Will be deleted
+vertical-tab-reverse-position = Invert the position of the vertical tab
 
 sidebar-reverse-position-toolbar = Show Sidebars on the other side
 
 bookmarks-bar-settings = Bookmarks Toolbar (only one option can be used at a time)
 bookmarks-focus-mode =
- .label = Hide the Bookmarks Toolbar unless hovering over the navigation bar
+  .label = Hide the Bookmarks Toolbar unless hovering over the navigation bar
 bookmarks-bottom-mode =
- .label = Show the Bookmarks Toolbar at the bottom of { -brand-short-name }
+  .label = Show the Bookmarks Toolbar at the bottom of { -brand-short-name }
 
 nav-bar-settings = Toolbar
 show-nav-bar-bottom =
- .label = Show the Toolbar at the bottom of { -brand-short-name } (experimental)
+  .label = Show the Toolbar at the bottom of { -brand-short-name } (experimental)
 
 material-effect =
- .label = Allow Mica For Everyone to modify the browser design
+  .label = Allow Mica For Everyone to modify the browser design
 disable-extension-check-compatibility-option =
- .label = Do not check for compatibility with add-ons
+  .label = Do not check for compatibility with add-ons
 other-preference = Other Preferences
 
 enable-userscript =
- .label = Enable legacy components
+  .label = Enable legacy components
 about-legacy-components = Enabling this feature may cause unexpected bugs or fatal errors.
 
 Search-positon-top =
- .label = Display the Find Bar at the top of the page
+  .label = Display the Find Bar at the top of the page
 allow-auto-restart =
- .label = Restart automatically when settings that require a restart are changed
+  .label = Restart automatically when settings that require a restart are changed
 
 browser-rest-mode =
- .label = Enable Rest Mode shortcut (F9)
+  .label = Enable Rest Mode shortcut (F9)
 
 disable-fullscreen-notification =
- .label = Do not show a notification when entering full screen
+  .label = Do not show a notification when entering full screen
 
 floorp-updater = { -brand-short-name } Updates
 enable-floorp-updater =
- .label = Check for { -brand-short-name } updates on startup
+  .label = Check for { -brand-short-name } updates on startup
 floorp-update-latest =
- .label = Notify me if { -brand-short-name } is up-to-date during automatic update checks
+  .label = Notify me if { -brand-short-name } is up-to-date during automatic update checks
 
 ## Browser Theme
 
@@ -145,13 +157,13 @@ system-color-settings = Some themes have both light and dark modes - choose whic
 preferences-theme-appearance-header = Theme Mode
 
 system-theme-dark =
- .label = Dark
+  .label = Dark
 
 system-theme-light =
- .label = Light
+  .label = Light
 
 system-theme-auto =
- .label = Follow my system appearance
+  .label = Follow my system appearance
 
 ## User interface preferences
 
@@ -159,97 +171,91 @@ ui-preference = Browser appearance
 preferences-browser-appearance-description = Choose a built-in third-party design to use in { -brand-short-name }. Some designs may not be compatible with your configuration.
 
 firefox-proton =
- .label = Firefox Proton UI
+  .label = Firefox Proton UI
 
 firefox-proton-fix =
- .label = Firefox Proton Fix UI
+  .label = Firefox Proton Fix UI
 
 firefox-photon-lepton =
- .label = Firefox Photon・Lepton UI
- 
+  .label = Firefox Photon・Lepton UI
+
 floorp-legacy =
- .label = Floorp Legacy UI・Unsupported
+  .label = Floorp Legacy UI・Unsupported
 
 floorp-fluentUI =
- .label = Microsoft Fluent UI
- 
+  .label = Microsoft Fluent UI
+
 floorp-fluerialUI =
- .label = Floorp Fluerial UI
+  .label = Floorp Fluerial UI
 
 floorp-gnomeUI =
- .label = GNOME Theme
+  .label = GNOME Theme
 
 ## Download Manager
 download-notification-preferences = Download Notifications
 start-always-notify =
- .label = Notify only when starting downloads
+  .label = Notify only when starting downloads
 finish-always-notify =
- .label = Notify only when a download finishes
+  .label = Notify only when a download finishes
 always-notify =
- .label = Notify when starting downloads and when a download finishes
+  .label = Notify when starting downloads and when a download finishes
 do-not-notify =
- .label = Disable download notifications
+  .label = Disable download notifications
 
 floorp-translater = Translator Settings
 click-to-option =
-    .label = Open Settings...
-    .accesskey = O
+  .label = Open Settings...
+  .accesskey = O
 
 ## Sidebar
 profiles-button-label = Manage Profiles
 floorp-help-button-label = { -brand-short-name } Support
 
 appmenuitem-reboot =
- .label = Restart
+  .label = Restart
 
 ## UserAgent
 
 UserAgent-preference = User Agent
 default-useragent-mode =
- .label = Use Firefox User Agent (Default)
+  .label = Use Firefox User Agent (Default)
+
 windows-chrome-useragent-mode =
- .label = Spoof Chrome on Windows
+  .label = Spoof Chrome on Windows
 macOS-chrome-useragent-mode =
- .label = Spoof Chrome on macOS
+  .label = Spoof Chrome on macOS
 linux-chrome-useragent-mode =
- .label = Spoof Chrome on Linux
+  .label = Spoof Chrome on Linux
 mobile-chrome-useragent-mode =
- .label = Spoof Chrome on iOS
+  .label = Spoof Chrome on iOS
 use-custom-useragent-mode =
- .label = Use Custom User Agent
+  .label = Use Custom User Agent
 
 ## DMR UI
 download-mgr-UI =
- .label = Enable the SimpleUI Download Manager
+  .label = Enable the SimpleUI Download Manager
 downloading-red-color =
- .label = Use the red downloads icon when downloading
+  .label = Use the red downloads icon when downloading
 
 sidebar-preferences = Sidebar
-
-bsb-preferences = Browser Manager Sidebar Settings
-view-sidebar2-right = 
- .label = Display the Browser Manager Sidebar on the right
+view-sidebar2-right =
+  .label = Display the Browser Manager Sidebar on the right
 enable-sidebar2 =
- .label = Enable the Browser Manager Sidebar
-visible-bms = 
- .label = Show the Browser Manager Sidebar
-hide-bms-to-unload-panel =
-  .label = Unload panel when hiding panel
+  .label = Enable the Browser Manager Sidebar
+
 custom-URL-option = Set Web Panel URLs
 set-custom-URL-button =
-    .label = Set Custom URLs...
-    .accesskey = S
-
-pane-BSB-title = { bsb-header }
-category-BSB =
-    .tooltiptext = { pane-BSB-title }
-
-category-downloads = 
-    .tooltiptext = { files-and-applications-title }
-
+  .label = Set Custom URLs...
+  .accesskey = S
 bsb-header = Browser Manager Sidebar
+bsb-preferences = Browser Manager Sidebar Settings
+visible-bms =
+  .label = Show the Browser Manager Sidebar
+hide-bms-to-unload-panel =
+  .label = Unload panel when hiding panel
+pane-BSB-title = { bsb-header }
 bsb-context = Use the following Container Tab
-bsb-userAgent-label = 
+bsb-userAgent-label =
   .label = Use Mobile User Agent in this Web Panel
 bsb-width = Width (if set to 0, the global value will be used)
 bsb-page = Page to open
@@ -258,11 +264,17 @@ bsb-add = Add Web Panel on Browser Manager Sidebar
 
 bsb-setting = Web Panel Settings
 
-bsb-add-title =
- .title = { bsb-add }
+category-BSB =
+  .tooltiptext = { pane-BSB-title }
 
-bsb-setting-title = 
- .title = { bsb-setting }
+category-downloads =
+  .tooltiptext = { files-and-applications-title }
+
+bsb-add-title =
+  .title = { bsb-add }
+
+bsb-setting-title =
+  .title = { bsb-setting }
 
 bsb-browser-manager-sidebar =
   .label = { sidebar2-browser-manager-sidebar }
@@ -279,79 +291,82 @@ bsb-download-sidebar =
 bsb-notes-sidebar =
   .label = { sidebar2-notes-sidebar }
 
-bsb-website = 
+bsb-TST-sidebar =
+  .label = { sidebar2-TST-sidebar }
+
+bsb-website =
   .label = Website
 
 sidebar2-pref-delete =
- .label = Delete
+  .label = Delete
 
 sidebar2-pref-setting =
- .label = Settings
+  .label = Settings
 
 sidebar2-global-width = Global Web Panels width
 
 use-icon-provider-option = Use Icon Provider
 
 use-icon-provider-option-google =
- .label = Google
+  .label = Google
 
 use-icon-provider-option-duckduckgo =
- .label = DuckDuckGo
+  .label = DuckDuckGo
 
 use-icon-provider-option-yandex =
- .label = Yandex (available in China)
+  .label = Yandex (available in China)
 
 use-icon-provider-option-hatena =
- .label = Hatena (available in China)
+  .label = Hatena (available in China)
 
 memory-and-performance = Memory and Performance
 
-min-memory = 
-    .label = Minimum Memory Usage (low performance)
+min-memory =
+  .label = Minimum Memory Usage (low performance)
 
-balance-memory = 
-    .label = Balance Memory Usage and Performance
+balance-memory =
+  .label = Balance Memory Usage and Performance
 
-max-memory = 
-    .label = Best Speed and Performance (high memory usage)
+max-memory =
+  .label = Best Speed and Performance (high memory usage)
 
 delete-border-and-roundup-option =
   .label = Round the corners of pages
 
 ## DualTheme
 dualtheme-enable =
- .label = Enable Dual Theme
+  .label = Enable Dual Theme
 
 newtab-background = { -brand-short-name } Home Background
 
 newtab-background-random-image =
-    .label = Random images from Unsplash
+  .label = Random images from Unsplash
 
 newtab-background-gradation =
-    .label = Gradient
+  .label = Gradient
 
 newtab-background-not-background =
-    .label = Disable background
+  .label = Disable background
 
 newtab-background-selected-image =
-    .label = Custom folder...
+  .label = Custom folder...
 
 newtab-background-folder = Use images from this folder:
 
-newtab-background-folder-reload = 
+newtab-background-folder-reload =
   .label = Reload images
 
-newtab-background-folder-default = 
+newtab-background-folder-default =
   .label = Restore Defaults
 
-newtab-background-folder-open = 
+newtab-background-folder-open =
   .label = Open folder
 
 newtab-background-folder-choose = Choose images folder...
 
 newtab-background-extensions = Use images with these file extensions (separated by ",")
 
-disable-blur-on-newtab = 
+disable-blur-on-newtab =
   .label = Disable blur effect on { -brand-short-name } Home
 
 ## Lepton Preferences
@@ -359,105 +374,105 @@ disable-blur-on-newtab =
 about-lepton = Customize { -brand-short-name } with Lepton
 
 lepton-preference-button =
-    .label = Lepton Settings...
-    .accesskey = L
+  .label = Lepton Settings...
+  .accesskey = L
 
 lepton-header = Lepton Settings
 
 lepton-preference = Lepton Settings
 photon-mode =
-    .label = Use Photon design
+  .label = Use Photon design
 
-lepton-mode = 
-    .label = Use Lepton design
+lepton-mode =
+  .label = Use Lepton design
 
 protonfix-mode =
-    .label = Use tweaked Proton design
+  .label = Use tweaked Proton design
 
 autohide-preference = Automatically hide browser elements
 
 floorp-lepton-enable-tab-autohide =
-    .label = Automatically hide tabs
+  .label = Automatically hide tabs
 floorp-lepton-enable-navbar-autohide =
-    .label = Automatically hide Toolbar
+  .label = Automatically hide Toolbar
 floorp-lepton-enable-sidebar-autohide =
-    .label = Automatically hide Sidebar
+  .label = Automatically hide Sidebar
 floorp-lepton-enable-urlbar-autohide =
-    .label = Automatically hide Address Bar
+  .label = Automatically hide Address Bar
 floorp-lepton-enable-back-button-autohide =
-    .label = Automatically hide back button
+  .label = Automatically hide back button
 floorp-lepton-enable-forward-button-autohide =
-    .label = Automatically hide forward button
+  .label = Automatically hide forward button
 floorp-lepton-enable-page-action-button-autohide =
-    .label = Automatically hide buttons on the Address Bar
+  .label = Automatically hide buttons on the Address Bar
 floorp-lepton-enable-toolbar-overlap =
-    .label = Show Toolbar over website content
+  .label = Show Toolbar over website content
 floorp-lepton-enable-toolbar-overlap-allow-layout-shift-autohide =
-    .label = Automatically hide Toolbar when displaying "ltr" content
+  .label = Automatically hide Toolbar when displaying "ltr" content
 
 hide-preference = Manage browser elements
 
 floorp-lepton-enable-tab_icon-hide =
-    .label = Hide Tab icons
+  .label = Hide Tab icons
 floorp-lepton-enable-tabbar-hide =
-    .label = Hide Tab Bar
+  .label = Hide Tab Bar
 floorp-lepton-enable-navbar-hide =
-    .label = Hide Toolbar
+  .label = Hide Toolbar
 floorp-lepton-enable-sidebar_header-hide =
-    .label = Hide Sidebar Headers
+  .label = Hide Sidebar Headers
 floorp-lepton-enable-urlbar_iconbox-hide =
-    .label = Hide Address Bar icons
+  .label = Hide Address Bar icons
 floorp-lepton-enable-bookmarkbar_icon-hide =
-    .label = Hide Bookmarks Bar icons
+  .label = Hide Bookmarks Bar icons
 floorp-lepton-enable-bookmarkbar_label-hide =
-    .label = Hide Bookmarks Bar labels
+  .label = Hide Bookmarks Bar labels
 floorp-lepton-enable-disabled_menu-hide =
-    .label = Hide disabled context menu items
+  .label = Hide disabled context menu items
 
 floorp-lepton-disable-userChrome-icon =
-    .label = Disable Lepton's context menu and panel menu icons
+  .label = Disable Lepton's context menu and panel menu icons
 floorp-lepton-disable-userChrome-menu-icon =
-    .label = Enable Lepton's context menu icons
+  .label = Enable Lepton's context menu icons
 
 positon-preferences = Position adjustments
 
 floorp-lepton-enable-centered-tab =
-    .label = Center labels in tabs
+  .label = Center labels in tabs
 floorp-lepton-enable-centered-urlbar =
-    .label = Center text in the Address Bar
+  .label = Center text in the Address Bar
 floorp-lepton-enable-centered-bookmarkbar =
-    .label = Center Bookmarks Bar items
+  .label = Center Bookmarks Bar items
 
 urlbar-preferences = Address Bar
 
 floorp-lepton-enable-urlbar-icon-move-to-left =
-    .label = Move Address Bar icons to the left side
+  .label = Move Address Bar icons to the left side
 floorp-lepton-enable-urlname-go_button_when_typing =
-    .label = When typing, show a Go button
+  .label = When typing, show a Go button
 floorp-lepton-enable-always-show-page_action =
-    .label = Always show page actions in the Address Bar
+  .label = Always show page actions in the Address Bar
 
 tabbar-preferences = Tab Bar
 
 floorp-lepton-enable-tabbar-positon-as-titlebar =
-    .label = Tab Bar in the titlebar
+  .label = Tab Bar in the titlebar
 floorp-lepton-enable-tabbar-as-urlbar =
-    .label = Combine Tab Bar and Toolbar
+  .label = Combine Tab Bar and Toolbar
 
 lepton-sidebar-preferences = Sidebar
 floorp-lepton-enable-overlap-sidebar =
-    .label = Show Sidebar over website content
+  .label = Show Sidebar over website content
 
 floorp-home-mode-choice-default =
-    .label = { -brand-short-name } Home (Default)
+  .label = { -brand-short-name } Home (Default)
 floorp-home-prefs-content-header = { -brand-short-name } Home Content
 floorp-home-prefs-content-description = Choose the content you want to see on the { -brand-short-name } Home Page.
 
 ## Notes
 floorp-notes = { -brand-short-name } Notes
 restore-from-backup = Restore Notes from backup
-enable-notes-sync = 
- .label = Enable { -brand-short-name } Notes Sync
+enable-notes-sync =
+  .label = Enable { -brand-short-name } Notes Sync
 about-notes-backup-tips = Floorp Notes uses Firefox Sync to sync your notes with other devices. If you lose your notes, you can restore them from a backup. A backup is created when you start { -brand-short-name }.
 notes-sync-description = This can solve the problem of losing content due to overwriting notes during synchronization.
 backuped-time = Backed up at
@@ -470,6 +485,10 @@ restore-from-this-backup = Restore Notes back to the state they were in this bac
 restore-button = Restore
 
 ## user.js
+
+userjs-button = user.js Settings...
+userjs-select-option = Manage the user.js currently used in { -brand-short-name } to improve performance and privacy.
+
 header-userjs = user.js
 userjs-customize = Customize { -brand-short-name } with user.js
 about-userjs-customize = user.js is a configuration file that allows you to customize { -brand-short-name }. user.js files are downloaded from the Internet and overwrite your current user.js file. Please back up your current user.js file before continuing. user.js configurations will be applied automatically after restarting { -brand-short-name }.
@@ -479,10 +498,8 @@ userjs-prompt = Apply this user.js?
 apply-userjs-attention = Applying a new user.js will overwrite your current user.js file.
 apply-userjs-attention2 = Please back up your current user.js file before continuing.
 
-userjs-button = user.js Settings...
-userjs-select-option = Manage the user.js currently used in { -brand-short-name } to improve performance and privacy.
-
 apply-userjs-button = Apply
+
 ## userjs Options
 
 default-userjs-label = Floorp Default
@@ -504,21 +521,20 @@ Smoothfox-label = Yokoffing Smoothfox
 about-Smoothfox = Get Edge-like smooth scrolling on your favorite browser — or choose something more your style. 
 
 ## Workspaces
+
 floorp-workspaces-title = { -brand-short-name } Workspaces
 workspaces-backup-discription = Backup and restore your Workspaces
-
 workspaces-restore-service-title = Floorp Workspaces Backup Service
 workspaces-restore-warning = Warning! Running this operation will cause the browser to freeze temporarily and restart automatically.
-floorp-workspace-settings-button = Workspace Settings...
 
-change-to-close-workspace-popup-option = 
- .label = Close workspaces popup when selecting a Workspace
-pinned-tabs-exclude-workspace-option = 
- .label = Exclude pinned tabs from Workspaces
+change-to-close-workspace-popup-option =
+  .label = Close workspaces popup when selecting a Workspace
+pinned-tabs-exclude-workspace-option =
+  .label = Exclude pinned tabs from Workspaces
 
 workspaces-reset-title = Reset Workspaces
 workspaces-reset-label =
-    .label = Reset Workspaces
+  .label = Reset Workspaces
 workspaces-reset-description = If a backup does not work and the Workspace does not start, reset the Workspace.
 workspaces-reset-button = Reset Workspaces
 
@@ -526,75 +542,68 @@ workspaces-reset-service-title = Floorp Workspaces
 workspaces-reset-warning = Warning! Running this operation will delete all your Workspaces and restart the browser.
 
 manage-workspace-on-bms-option =
-    .label = Manage Workspace on Browser Manager Sidebar
-
+  .label = Manage Workspace on Browser Manager Sidebar
 show-workspace-name-option =
-    .label = Show Workspace Name on Tab Bar's Workspace Button
+  .label = Show Workspace Name on Tab Bar's Workspace Button
 change-workspace-with-default-key-option =
-    .label = Change Workspace with Shift and ↑ and ↓ keys.
-
+  .label = Change Workspace with Shift and ↑ and ↓ keys.
 workspaces-manage-title = Manage Workspaces
 workspaces-manage-description = Manage your Workspaces. Change workspace icon.
 workspaces-manage-label =
-    .label = Manage Workspaces
+  .label = Manage Workspaces
 
 workspaces-manage-button = Open Workspace Manager...
 
 select-workspace = Select Workspace
 workspace-select-icon = Select Workspace Icon
- .label = Select Workspace Icon
+  .label = Select Workspace Icon
 workspace-select-container = Select Container Tab
- .label = Select Container Tab
-workspace-customize = 
- .title = Customize Workspace
+  .label = Select Container Tab
+workspace-customize =
+  .title = Customize Workspace
 
 floorp-no-workspace-conatiner =
   .label = No Container
 
 workspace-icon-briefcase =
- .label = Job
+  .label = Job
 workspace-icon-cart =
- .label = Shopping
+  .label = Shopping
 workspace-icon-circle =
- .label = Circle
+  .label = Circle
 workspace-icon-compass =
- .label = Compass
-workspace-icon-dollar =
- .label = Bank
-workspace-icon-fence =
- .label = Fence
-workspace-icon-fingerprint =
- .label = Personal
-workspace-icon-gift =
- .label = Gift
-workspace-icon-vacation =
- .label = Vacation
-workspace-icon-food =
- .label = Food
-workspace-icon-fruit =
- .label = Fruit
+  .label = Compass
 workspace-icon-gear =
- .label = Gear
+  .label = Gear
+workspace-icon-dollar =
+  .label = Bank
+workspace-icon-fence =
+  .label = Fence
+workspace-icon-fingerprint =
+  .label = Personal
+workspace-icon-gift =
+  .label = Gift
+workspace-icon-vacation =
+  .label = Vacation
+workspace-icon-food =
+  .label = Food
+workspace-icon-fruit =
+  .label = Fruit
 workspace-icon-pet =
- .label = Pet
-workspace-icon-question =
- .label = Question
-workspace-icon-star =
- .label = Star
+  .label = Pet
 workspace-icon-tree =
- .label = Tree
+  .label = Tree
 workspace-icon-chill =
- .label = Private
+  .label = Private
+workspace-icon-question =
+  .label = Question
+workspace-icon-star =
+  .label = Star
 
 # Custom Keyboard Shortcuts
+
 floorp-CSK-title = Custom keyboard shortcuts
 floorp-CSK-description = Customize { -brand-short-name }'s keyboard shortcuts. Floorp provides more than 80 customizable keyboard shortcuts - restart { -brand-short-name } to apply these settings. Duplicate keyboard shortcuts will not work.
-disable-fx-actions =
- .label = Disable Mozilla Firefox's keyboard shortcuts
-customize-Action =
- .label = Add shortcut
-remove-Action =
- .label = Remove shortcut
 CSK-reset-title = Reset custom keyboard shortcuts
 CSK-reset-description = Reset custom keyboard shortcuts to { -brand-short-name }'s defaults.
 CSK-reset-label = Reset custom keyboard shortcuts
@@ -605,16 +614,23 @@ CSK-remove-shortcutkey = Remove custom keyboard shortcut?
 CSK-remove-shortcutkey-description = Are you sure you want to remove this keyboard shortcut?
 
 CSK-restore-default = Restore Defaults?
+
 CSK-restore-default-description = Restore Floorp's default keyboard shortcuts? Your current shortcuts will be lost.
 
 CSK-reboot-browser-label = Restart { -brand-short-name } to apply these settings
 CSK-reboot-browser-button = Restart { -brand-short-name }
-
 # Exist shortcut key: "S", "shift"
 CSK-keyborad-shortcut-info = Current keyboard shortcut: { $key } & { $modifiers }.
 CSK-keyborad-shortcut-info-with-keycode = Current keyboard shortcut: { $key }.
 
 CSK-keyborad-shortcut-is-changed = (Not Applied)
+
+disable-fx-actions =
+  .label = Disable Mozilla Firefox's keyboard shortcuts
+customize-Action =
+  .label = Add shortcut
+remove-Action =
+  .label = Remove shortcut
 
 floorp-custom-actions-tab-action = Tab Actions
 floorp-custom-actions-page-action = Page Actions
@@ -638,6 +654,7 @@ Gesturefy = Gesturefy
 about-Gesturefy = Gesturefy is an extension that adds mouse gestures to your browser. If { -brand-short-name } detects the installation of this add-on, it will add gesture commands to Gesturefy that are only available in { -brand-short-name }. Also, this add-on can work with new tabs!
 
 # Translate
+
 TWS = Translate Web Page
 about-TWS = Translate your page in real time using Google or Yandex. You can also translate selected text or the entire page.
 
@@ -658,18 +675,18 @@ block-fingerprint = Fingerprinting is a tracking mechanism that relies on the un
 enable-firefox-fingerprint-protections = Enable strong protection against fingerprinting
 about-firefox-fingerprint-protection = Enabling protection by Firefox includes forced light mode, disabling some APIs, etc. Some sites may be broken.
 fingerprint-Protection =
- .label =  Anti-fingerprinting protections
+  .label =  Anti-fingerprinting protections
 html5-canvas-prompt-settings =
- .label =  Automatically dismiss access confirmation prompts for HTML5 image data
+  .label =  Automatically dismiss access confirmation prompts for HTML5 image data
 canvas-prompt = Prevents websites from using the canvas-reading prompt unless manually permitted.
 disable-webgl =
- .label =  Disable WebGL
+  .label =  Disable WebGL
 about-webgl = WebGL is a Javascript API used to render graphics, which can be used to identify GPU.
+WebRTC-connection = WebRTC is a standard that provides real-time calling. If you disable this setting, you will not be able to use Discord, etc.
 Canvas-Blocker = Canvas Blocker
 about-CB = This add-on spoofs data used by fingerprinting techniques.
-WebRTC-connection = WebRTC is a standard that provides real-time calling. If you disable this setting, you will not be able to use Discord, etc.
-WebRTC = 
- .label = Enable WebRTC Connection
+WebRTC =
+  .label = Enable WebRTC Connection
 
 ################################################################### browser ###############################################################
 
@@ -701,7 +718,7 @@ sidebar-back-button =
 sidebar-forward-button =
   .tooltiptext = Forward
 
-sidebar-reload-button = 
+sidebar-reload-button =
   .tooltiptext = Reload
 
 sidebar-go-index-button =
@@ -735,6 +752,11 @@ sidebar2-notes-sidebar = Notes
 show-notes-sidebar =
   .tooltiptext = Show { sidebar2-notes-sidebar } Sidebar
 
+sidebar2-TST-sidebar = TST
+
+show-TST-sidebar =
+  .tooltiptext = Show { sidebar2-TST-sidebar } Sidebar
+
 sidebar-add-button =
   .tooltiptext = { bsb-add }
 
@@ -753,43 +775,47 @@ sidebar-keepWidth-button =
 sidebar2-keep-width-for-global =
   .label = Apply this width to all panels without a custom width
 
-bsb-context-add = 
+bsb-context-add =
   .label = Add page to Web Panel...
 
-bsb-context-link-add = 
+bsb-context-link-add =
   .label = Add link to Web Panel...
+
+
 #################################################################### menu panel ############################################################
 
-open-profile-dir = 
-    .label = Open Profile Directory
+open-profile-dir =
+  .label = Open Profile Directory
+appmenuitem-reboot =
+  .label = reboot
 
 ####################################################################### menu ###############################################################
 
 css-menu =
-    .label = CSS
-    .accesskey = C
+  .label = CSS
+  .accesskey = C
 
 css-menubar =
-    .label = CSS
-    .accesskey = C
+  .label = CSS
+  .accesskey = C
 
 rebuild-css =
-    .label = Rebuild browser CSS files
-    .accesskey = R
+  .label = Rebuild browser CSS files
+  .accesskey = R
 
 make-browsercss-file =
-    .label = Create browser CSS file
-    .accesskey = M
+  .label = Create browser CSS file
+  .accesskey = M
 
 open-css-folder =
-    .label = Open CSS folder
-    .accesskey = O
+  .label = Open CSS folder
+  .accesskey = O
 
 edit-userChromeCss-editor =
-    .label = Edit userChrome.css file
+  .label = Edit userChrome.css file
 
 edit-userContentCss-editor =
-    .label = Edit userContent.css file
+  .label = Edit userContent.css file
 
 not-found-editor-path = Could not find a CSS file editor
 set-pref-description = Input the file location of the CSS file editor you want to use:
@@ -807,13 +833,19 @@ dual-theme-enable-addon-button = Enable as a sub-theme
 dual-theme-disable-addon-button = Disable sub-theme
 dual-theme-enabled-heading = Enabled as a sub-theme
 
+##################################################################### migration  ###############################################################
+
+import-from-vivaldi =
+  .label = Vivaldi
+  .accesskey = V
+
 ##################################################################### toolbar ###############################################################
 
 status-bar =
-    .label = Status Bar
-     .accesskey = S
+  .label = Status Bar
+  .accesskey = S
 
-##################################################################### Gesturefy ###############################################################
+##################################################################### Gesturefly ###############################################################
 
 gf-floorp-open-tree-style-tab-name = [Floorp] Open Tree Style Tab Panel
 gf-floorp-open-tree-style-tab-description = Open Tree Style Tab Panel of Sidebar
@@ -830,21 +862,26 @@ gf-floorp-open-synctabs-sidebar-description = Open Synced Tabs Panel of Sidebar
 gf-floorp-close-sidebar-name = [Floorp] Close Sidebar
 gf-floorp-close-sidebar-description = Close Sidebar
 
-
 gf-floorp-open-browser-manager-sidebar-name = [Floorp] Open BMS
 gf-floorp-open-browser-manager-sidebar-description =  Open Browser Manager Sidebar, if webpanel of Browser Manager Sidebar was loaded
 
 gf-floorp-close-browser-manager-sidebar-name = [Floorp] Close BMS
 gf-floorp-close-browser-manager-sidebar-description = Close Browser Manager Sidebar
 
-gf-floorp-show-browser-manager-sidebar-name = [Floorp] Toggle BMS
-gf-floorp-show-browser-manager-sidebar-description = Toggle Browser Manager Sidebar
+gf-floorp-togle-browser-manager-sidebar-name = [Floorp] Toggle BMS
+gf-floorp-toggle-browser-manager-sidebar-description = Toggle Browser Manager Sidebar
+
+gf-floorp-show-statusbar-name = [Floorp] Show Status Bar
+gf-floorp-show-statusbar-description = Show Status Bar
 
 gf-floorp-hide-statusbar-name = [Floorp] Hide Status Bar
 gf-floorp-hide-statusbar-description = Hide Status Bar
 
-gf-floorp-show-statusbar-name = [Floorp] Toggle Status Bar
-gf-floorp-show-statusbar-description = Show or Hide Status Bar
+gf-floorp-toggle-statusbar-name = [Floorp] Toggle Status Bar
+gf-floorp-toggle-statusbar-description = Show or Hide Status Bar
+
+gf-floorp-show-browser-manager-sidebar-name = [Floorp] Toggle BMS
+gf-floorp-show-browser-manager-sidebar-description = Toggle Browser Manager Sidebar
 
 gf-floorp-open-extension-sidebar-name = [Floorp] Open selected add-on of Sidebar
 gf-floorp-open-extension-sidebar-description = Open selected add-on of Sidebar
@@ -864,24 +901,17 @@ update-portable-notification-failed-title = Update failed.
 update-portable-notification-failed-redirector-message = Update failed. Restarting your browser may solve this problem.
 update-portable-notification-failed-prepare-message = Failed to prepare the update.
 
-##################################################################### Floorp Portable Preferences ###############################################################
-
-floorp-portable-update-application-allow = { -brand-short-name } Portable Update
-floorp-update-application-auto-enabled-option =
-  .label = Automatically check for updates to { -brand-short-name } portable. (Recommended)
-  
 ##################################################################### Open link in external ###############################################################
 openInExternal-title = Open in external browser
 open-link-in-external-enabled-option =
- .label = Enable the "Open in external browser" feature
+  .label = Enable the "Open in external browser" feature
 open-link-in-external-select-browser-option = Choose what browser will be opened
 open-link-in-external-select-browser-option-default =
- .label = Default browser
+  .label = Default browser
 open-link-in-external-tab-context-menu = Open in external browser
 open-link-in-external-tab-dialog-title-error = An error occurred:
 open-link-in-external-tab-dialog-message-default-browser-not-found = Default browser was not found or is not configured.
 open-link-in-external-tab-dialog-message-selected-browser-not-found = The selected browser does not exist.
-
 
 ######################################################################### Floorp Notes ###############################################################
 
@@ -894,6 +924,7 @@ memo-welcome-title = Welcome!
 memo-first-tip = Welcome to Floorp Notes! Here are some instructions on how to use it!
 memo-second-tip = Floorp Notes is a notepad that lets you store multiple notes that sync across devices. To enable synchronization, you need to sign in to Floorp with your Firefox account.
 memo-third-tip = Floorp Notes will be saved in your Floorp settings and synchronized across devices using Firefox Sync. Firefox Sync encrypts the contents of the sync with your Firefox account password, so no one but you knows its contents.
+memo-fourth-tip = Floorp Notes can be accessed by opening the Floorp browser manager sidebar or by entering about:notes in the URL.
 memo-import-data-tip = Firefox Sync is not a backup service. We recommend you to create backups.
 memo-new-title = New Note
 chage-view-mode = Toggle View/Edit Mode
@@ -902,18 +933,6 @@ readonly-mode = Offline (Read-only)
 ######################################################################### Default bookmarks ###############################################################
 default-bookmark-ablaze-support = Ablaze Support
 default-bookmark-notes = Floorp Notes
-
-######################################################################### Like Chrome Download mgr ###############################################################
-
-floorp-delete-all-downloads = 
-  .label = Clear Downloads
-  .accesskey = D
-  .tooltiptext = Clear Downloads
-
-floorp-show-all-downloads =
-  .label = Show all downloads
-  .accesskey = S
-  .tooltiptext = Show all downloads
 
 ######################################################################### workspace ###############################################################
 
@@ -927,28 +946,40 @@ workspace-button = Workspaces
   .label = Workspaces
   .tooltiptext = Select a Workspace...
 
-workspace-default = Default
-workspace-add = 
- .label= New Workspace...
+workspace-default =
+  .label = Default
+
+workspace-add =
+  .label= New Workspace...
 
 workspace-context-menu-selected-tab =
- .label = Selected tab cannot be moved
+  .label = Selected tab cannot be moved
 move-tab-another-workspace =
- .label = Move to another Workspace
-workspace-rename = 
+  .label = Move to another Workspace
+workspace-rename =
   .label = Rename this Workspace
-
-workspace-delete = 
+workspace-delete =
   .label = Delete Workspace
-
 manage-workspace = Manage this Workspace
   .label = Manage this workspace
-######################################################################### menubar item ###############################################################
+
+######################################################################### Share mode ###############################################################
 
 sharemode-menuitem =
   .label = Share Mode
   .accesskey = S
 
+######################################################################### Like Chrome Download mgr ###############################################################
+
+floorp-delete-all-downloads =
+  .label = Clear Downloads
+  .accesskey = D
+  .tooltiptext = Clear Downloads
+
+floorp-show-all-downloads =
+  .label = Show all downloads
+  .accesskey = S
+  .tooltiptext = Show all downloads
 
 ############################################################################## Welcome page ###############################################################
 
@@ -984,11 +1015,11 @@ welcomet-finish-setup = Start Browsing the Web
 ############################################################# Custom Shortcutkey ###############################################################
 
 category-CSK =
- .label = Keyboard shortcuts
- .tooltiptext = Keyboard shortcuts
+  .label = Keyboard shortcuts
+  .tooltiptext = Keyboard shortcuts
 category-CSK-title = Keyboard shortcuts
-shortcutkey-customize = 
- .title = Keyboard shortcuts
+shortcutkey-customize =
+  .title = Keyboard shortcuts
 select-shortcutkeyAction = Select an action to trigger
 shortcutkey-customize-key-list-placeholder = Your keyboard shortcut will appear here
 shortcut-key-label = Keyboard shortcut
@@ -1024,8 +1055,6 @@ floorp-custom-actions-print-page = Print page
   .label = Print page
 floorp-custom-actions-mute-current-tab = Toggle mute/unmute current tab
   .label = Toggle mute/unmute current tab
-floorp-custom-actions-toggle-bookmark-toolbar =
-  .label = Toggle Bookmarks Toolbar
 floorp-custom-actions-show-source-of-page = Show source of page
   .label = Open Page Source
 floorp-custom-actions-show-page-info = Show page info
@@ -1078,6 +1107,8 @@ floorp-custom-actions-open-bookmarks-manager = Open bookmarks manager
   .label = Open Bookmarks Manager
 floorp-custom-actions-show-bookmark-toolbar = Toggle bookmark toolbar
   .label = Toggle Bookmarks Toolbar
+floorp-custom-actions-toggle-bookmark-toolbar =
+  .label = Toggle Bookmarks Toolbar
 floorp-custom-actions-open-general-preferences = Open general preferences
   .label = Open General Preferences
 floorp-custom-actions-open-privacy-preferences = Open privacy preferences
@@ -1126,6 +1157,7 @@ floorp-custom-actions-open-previous-workspace = Open previous workspace
   .label = Open previous workspace
 floorp-custom-actions-open-next-workspace = Open next workspace
   .label = Open next workspace
+
 floorp-custom-actions-show-panel-1 = Toggle panel 1
   .label = Toggle panel 1
 floorp-custom-actions-show-panel-2 = Toggle panel 2
@@ -1146,6 +1178,7 @@ floorp-custom-actions-show-panel-9 = Toggle panel 9
   .label = Toggle panel 9
 floorp-custom-actions-show-panel-10 = Toggle panel 10
   .label = Toggle panel 10
+
 floorp-custom-actions-custom-action-1 = Custom action 1
   .label = Custom action 1
 floorp-custom-actions-custom-action-2 = Custom action 2
@@ -1159,19 +1192,25 @@ floorp-custom-actions-custom-action-5 = Custom action 5
 
 ##################################################################### Profile Switcher ###############################################################
 
+floorp-profile = Profile
 floorp-open-profile-with-new-instance = Launch
- .tooltiptext = Launch { -brand-short-name } with this profile
+  .tooltiptext = Launch { -brand-short-name } with this profile
 floorp-profiles-in-use = This profile is in use.
 floorp-profiles-title = Profiles
-floorp-profile-manager = Profile Manager
 floorp-profiles-create = Create Profile
-floorp-profile = Profile
- .label = Profile Manager
- .tooltiptext = Open Profile Manager
+floorp-profile-manager = Profile Manager
+  .label = Profile Manager
+  .tooltiptext = Open Profile Manager
 fxa-not-signed-in = Not signed in
 
+##################################################################### Floorp Portable Preferences ###############################################################
+
+floorp-portable-update-application-allow = { -brand-short-name } Portable Update
+floorp-update-application-auto-enabled-option =
+  .label = Automatically check for updates to { -brand-short-name } portable. (Recommended)
 
 ###################################################################### Private Container ##############################################################
+
 floorp-private-container-name = Private
 floorp-toggle-private-container =
   .label = Reopen in Private/No Container
@@ -1179,16 +1218,17 @@ floorp-toggle-private-container =
 open-in_private-container =
   .label = Open in New Tab with Private Container
 
-######################################################################## Split View ###############################################################
-
-floorp-split-view-menu =
- .label = Fix this tab to split view
-
 ######################################################################### Page Actions ###############################################################
+
 qrcode-generate-page-action-title = Scan QR Code with your Phone
 qrcode-generate-page-action =
- .tooltiptext = Share this page with your phone
+  .tooltiptext = Share this page with your phone
 
 ######################################################################### Customize Mode ###############################################################
 floorp-customize-mode-unified-extensions-button =
- .label = Unified Extensions Button
+  .label = Unified Extensions Button
+
+######################################################################## Split View ###############################################################
+
+floorp-split-view-menu =
+  .label = Fix this tab to split view
