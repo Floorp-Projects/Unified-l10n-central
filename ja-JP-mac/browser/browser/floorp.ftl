@@ -4,24 +4,24 @@
 
 ###################################################################### about:Dialog #################################################################################
 
-about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> is one of the domestic browsers developed in Japan. It is based on Firefox and continues to operate under <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>, to improve the web. Want to help? <label data-l10n-name="helpus-donateLink">Make a donation</label>
-icon-creator = Icon creator <label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> and <label data-l10n-name="brand-logo-twitter">@mwxdxx.</label>
-contributors = A list of <label data-l10n-name="about-contributor">contributors and Developers</label>
+about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> は日本で開発される独立した１つの Web ブラウザです。 Firefox ベースで <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label> の下で Web をより良くするために作られています。 参加・応援をしたいですか？ <label data-l10n-name="helpus-donateLink">寄付</label> をご検討ください。
+icon-creator = アイコン作成者：<label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> と <label data-l10n-name="brand-logo-twitter">@mwxdxx</label>
+contributors = <label data-l10n-name="about-contributor">貢献者・開発者</label> のリストもご確認ください
 #################################################################### about:preferences ####################################################################
 
-pane-design-title = Design
+pane-design-title = デザイン
 category-design = 
     .tooltiptext = { pane-design-title }
-design-header = Design
-feature-requires-restart = A restart is required to apply changes
-tab-width = Minimum width of tabs
-preferences-tabs-newtab-position = New Tab position
+design-header = デザイン
+feature-requires-restart = 変更を適用するには再起動が必要です
+tab-width = タブの最小幅
+preferences-tabs-newtab-position = 新規タブの開く位置
 open-new-tab-use-default = 
-    .label = Open new tabs at default position
+    .label = デフォルト設定を使用
 open-new-tab-at-the-end = 
-    .label = Open new tabs at the end of the Tab Bar
+    .label = タブバーの最後尾に開く
 open-new-tab-next-to-current = 
-    .label = Open new tabs next to the current tab
+    .label = 現在のタブの隣に開く
 enable-multitab = 
     .label = Enable multi-row tabs
 multirow-tabs-limit = 
