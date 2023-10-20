@@ -1,0 +1,3 @@
+files:
+  - source: floorp.ftl
+    translation: l10n/%locale%/floorp.ftl
