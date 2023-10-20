@@ -1,3 +1,3 @@
 files:
-  - source: floorp.ftl
+  - source: en-US/floorp.ftl
     translation: browser/browser/floorp.ftl
