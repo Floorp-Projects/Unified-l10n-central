@@ -4,8 +4,8 @@
 
 ###################################################################### about:Dialog #################################################################################
 
-about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> 는 일본에서 개발된 국산 브라우저 중 하나입니다. Firefox를 기반으로 하며 웹을 개선하기 위해 <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>에서 계속 운영되고 있습니다. 도움을 주고 싶으신가요? <label data-l10n-name="helpus-donateLink">기부하기</label>
-icon-creator = 아이콘 제작자 <label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> 및 <label data-l10n-name="brand-logo-twitter">@mwxdxx.</label>
+about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> 는 일본에서 개발되는 웹 브라우저입니다. Firefox를 기반으로 <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>에서 웹을 더 좋게 하기 위해 만들어지고 있습니다. 도움을 주고 싶으신가요? <label data-l10n-name="helpus-donateLink">기부</label>를 고려해 주세요.
+icon-creator = 아이콘 제작자 : <label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> 와 <label data-l10n-name="brand-logo-twitter">@mwxdxx.</label>
 contributors = <label data-l10n-name="about-contributor">기여자 및 개발자 목록</label>
 #################################################################### about:preferences ####################################################################
 
@@ -13,7 +13,7 @@ pane-design-title = 디자인
 category-design = 
     .tooltiptext = { pane-design-title }
 design-header = 디자인
-feature-requires-restart = 변경 사항을 적용하려면 다시 시작해야 합니다.
+feature-requires-restart = 변경 사항을 적용하려면 재시작해야 합니다.
 tab-width = 탭의 최소 너비
 preferences-tabs-newtab-position = 새 탭 위치
 open-new-tab-use-default = 
@@ -39,12 +39,12 @@ tab-sleep-settings-dialog-excludehosts-label = 호스트 제외
 tab-sleep-settings-dialog-excludehosts-label-2 = 한 줄에 호스트 하나를 입력합니다.
 tab-sleep-tab-context-menu-excludetab = 탭 깨어있기
 enable-floorp-workspace = 
-    .label = 작업 공간 사용
-workspace-warring = 탭 그룹 추가 기능에서는 작업 공간을 사용할 수 없습니다. 탭 그룹 추가 기능을 사용하려면 작업 영역을 비활성화하고 { -brand-short-name }을 다시 시작하세요.
+    .label = 워크스페이스 사용
+workspace-warring = 탭 그룹 부가 기능에서는 워크스페이스를 사용할 수 없습니다. 탭 그룹 추가 기능을 사용하려면 작업 영역을 비활성화하고 { -brand-short-name }을 재시작하세요.
 enable-tab-scroll-change = 
     .label = 마우스로 스크롤하여 탭 전환
 enable-tab-scroll-reverse = 
-    .label = 스크롤 탭의 반대 방향
+    .label = 탭 전환 스크롤을 반대로
 enable-tab-scroll-wrap = 
     .label = 스크롤 탭을 가장자리로 감싸기
 enable-double-click-block = 
@@ -686,7 +686,7 @@ gf-floorp-open-extension-sidebar-name = [Floorp] 사이드바에서 선택한 �
 gf-floorp-open-extension-sidebar-description = 사이드바에서 선택한 애드온 열기
 gf-floorp-open-extension-sidebar-settings-addons-id = 사이드바 애드온
 gf-floorp-open-extension-sidebar-settings-addons-id-description = 사이드바의 애드온 열기 확장
-gf-floorp-open-extension-sidebar-settings-list-default = 추가 기능을 선택하세요.
+gf-floorp-open-extension-sidebar-settings-list-default = 부가 기능을 선택하세요.
 gf-floorp-open-extension-sidebar-settings-list-unknwon = 알 수 없는 애드온
 ##################################################################### Floorp System Update Portable Version ###############################################################
 
