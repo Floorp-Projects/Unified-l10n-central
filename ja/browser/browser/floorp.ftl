@@ -4,9 +4,9 @@
 
 ###################################################################### about:Dialog #################################################################################
 
-about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> は、日本で開発された国産ブラウザの一つである。Firefoxをベースとし、 <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>、ウェブをより良くするために開発が進められています。支援したいですか？ <label data-l10n-name="helpus-donateLink">寄付をご検討ください！</label>
-icon-creator = アイコン作成者: <label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> と <label data-l10n-name="brand-logo-twitter">@mwxdxx</label>
-contributors = <label data-l10n-name="about-contributor">貢献者と開発者のリスト</label>もご確認ください！
+about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> は日本で開発される独立した１つのウェブブラウザーです。 Firefox ベースで <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label> の下でウェブをより良くするために作られています。 参加・応援をしたいですか？ <label data-l10n-name="helpus-donateLink">寄付</label> をご検討ください。
+icon-creator = アイコン作成者：<label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> と <label data-l10n-name="brand-logo-twitter">@mwxdxx</label>
+contributors = <label data-l10n-name="about-contributor">貢献者・開発者</label> のリストもご確認ください
 #################################################################### about:preferences ####################################################################
 
 pane-design-title = デザイン
@@ -15,60 +15,60 @@ category-design =
 design-header = デザイン
 feature-requires-restart = 変更を適用するには再起動が必要です
 tab-width = タブの最小幅
-preferences-tabs-newtab-position = 新しいタブを開く位置
+preferences-tabs-newtab-position = 新しいタブの開く位置
 open-new-tab-use-default = 
     .label = 新しいタブをデフォルトの位置で開く
 open-new-tab-at-the-end = 
-    .label = タブの一番後ろに新しいタブを開く
+    .label = 新しいタブをタブバーの最後の位置に開く
 open-new-tab-next-to-current = 
     .label = 現在のタブの隣に新しいタブを開く
 enable-multitab = 
     .label = 多段タブを有効にする
 multirow-tabs-limit = 
-    .label = 複数行タブの行数制限を有効にする
+    .label = 多段タブの行制限を有効にする
 multirow-tabs-newtab = 
-    .label = タブの一番下の行末に「新しいタブを開く」ボタンを配置する
-multirow-tabs-value = 複数行の行数制限
+    .label = 新しいタブボタンを常にタブの列内に配置する
+multirow-tabs-value = 多段タブの有効化時の行制限数
 enable-tab-sleep = 
     .label = タブスリープを有効にする
-tab-sleep-timeout-minutes-value = タブがスリープするまでの時間 (分)
-tab-sleep-settings-button = 設定...
+tab-sleep-timeout-minutes-value = タブをスリープ状態にするまでの時間 (分)
+tab-sleep-settings-button = タブスリープの設定
 tab-sleep-settings-dialog-title = 
     .title = タブスリープの設定
 tab-sleep-settings-dialog-excludehosts-label = 除外するホスト名
 tab-sleep-settings-dialog-excludehosts-label-2 = 1行に1つのホストを入力してください
 tab-sleep-tab-context-menu-excludetab = タブをスリープ状態にしない
 enable-floorp-workspace = 
-    .label = ワークスペースを有効にする
-workspace-warring = タブグループアドオンではワークスペースを使用できません。タブグループアドオンを使用する場合は、ワークスペースを無効にして、 { -brand-short-name } を再起動してください。
+    .label = ワークスペース機能を有効にする
+workspace-warring = ワークスペースはタブグループアドオンと併用できません。タブグループアドオンを使用したい場合は、ワークスペースを無効にし、{ -brand-short-name} を再起動してください。
 enable-tab-scroll-change = 
-    .label = マウスでスクロールしてタブを切り替える
+    .label = タブをスクロールで切り替える
 enable-tab-scroll-reverse = 
-    .label = タブのスクロール方向を逆にする
+    .label = タブバーでのスクロールを反転させる
 enable-tab-scroll-wrap = 
-    .label = タブをスクロールで折り返す
+    .label = タブバーでのスクロールをループさせる
 enable-double-click-block = 
     .label = ダブルクリックでタブを閉じる
 enable-show-pinned-tabs-title = 
-    .label = ピン留めタブのタイトルを表示する
+    .label = ピン留めされたタブのタイトルを表示する
 Mouse-side-button = 
-    .label = サイドボタン付きマウス用にブラウザを最適化
-tabbar-preference = タブバー
+    .label = 「進む」・「戻る」ボタンを隠す
+tabbar-preference = タブバーの設定
 None-mode = 
-    .label = 通常モード
+    .label = 通常モード（変更なし）
 hide-horizontality-tabs = 
     .label = 水平タブバーを隠す
 verticalTab-setting = 
     .label = 垂直タブバー用にブラウザを最適化する
 move-tabbar-position = 
-    .label = ツールバーの下にタブバーを表示する
+    .label = タブバーの位置をツールバーの下部に表示
 tabbar-on-bottom = 
     .label = ウィンドウの下部にタブバーを表示する
 tabbar-favicon-color = 
     .label = 現在のウェブサイトのファビコンの色を用いてタブバーの色を決める
 tabbar-style-preference = タブバーのスタイル
 horizontal-tabbar = 
-    .label = 水平タブバー
+    .label = 水平タブ
 tabbar-style-description = この設定を完全に適用するには、 { -brand-short-name } の再起動が必要です。
 multirow-tabbar = 
     .label = 多段タブ
@@ -78,12 +78,12 @@ native-tabbar-tip = サイドバーを使用するアドオンと垂直タブは
 native-vertical-tab-show-right = 
     .label = ウィンドウの右側に垂直タブバーを表示
 hover-vertical-tab = 
-    .label = 垂直タブバーを折りたたむ
+    .label = フォーカスされた場合に垂直タブを展開する
 TST = ツリースタイルタブ
-about-TST = ツリー型タブは、ツリー構造でタブを表示することができる人気のアドオンです。 Floorp 10 の垂直タブはこれを用いていました。 Floorp 10 を再現するにはこのアドオンをインストールしてください。
+about-TST = ツリー型タブは Floorp 10 で内蔵されていた垂直タブを作成するアドオンです。このアドオンをインストールすると、固有の設定が使用でき、Floorp 10 と同じ使用感に戻せます。
 treestyletab-Settings = 
-    .label = ツリースタイルタブを折りたたむ
-sidebar-reverse-position-toolbar = 反対側にサイドバーを表示
+    .label = フォーカスされた場合にツリースタイルタブを展開する
+sidebar-reverse-position-toolbar = サイドバーの位置を反転させる
 bookmarks-bar-settings = ブックマークツールバー（同時に1つのオプションのみ使用可能）
 bookmarks-focus-mode = 
     .label = ナビゲーションバーにフォーカス時のみブックマークツールバーを表示する
