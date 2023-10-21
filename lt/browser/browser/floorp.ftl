@@ -12,7 +12,7 @@ contributors = <label data-l10n-name="about-contributor">autorių ir kūrėjų s
 pane-design-title = Dizainas
 category-design = 
     .tooltiptext = { pane-design-title }
-design-header = Dizainas
+design-header = { pane-design-title }
 feature-requires-restart = Norint pritaikyti pakeitimus, reikia iš naujo paleisti
 tab-width = Mažiausias skirtukų plotis
 preferences-tabs-newtab-position = Naujo skirtuko padėtis
@@ -22,8 +22,6 @@ open-new-tab-at-the-end =
     .label = Atidaryti naujus skirtukus skirtukų juostos pabaigoje
 open-new-tab-next-to-current = 
     .label = Atidaryti naujus skirtukus šalia esamo skirtuko
-enable-multitab = 
-    .label = Įgalinti kelių eilučių skirtukus
 multirow-tabs-limit = 
     .label = Įjungti eilučių apribojimą kelių eilučių skirtukuose
 multirow-tabs-newtab = 
@@ -40,7 +38,7 @@ tab-sleep-settings-dialog-excludehosts-label-2 = Vienoje eilutėje įveskite po 
 tab-sleep-tab-context-menu-excludetab = Laikykite skirtuką "Tab" budrų
 enable-floorp-workspace = 
     .label = Įgalinti darbo vietas
-workspace-warring = Darbo vietų negalima naudoti su skirtukų grupių priedais. Jei norite naudoti skirtukų grupės priedus, išjunkite "Workspaces" ir iš naujo paleiskite { -brand-short-name }.
+workspace-warning = Workspaces cannot be used with Tab Group add-ons. If you want to use tab group add-ons, please disable Workspaces and restart { -brand-short-name }.
 enable-tab-scroll-change = 
     .label = Perjungti skirtukus slinkdami pele
 enable-tab-scroll-reverse = 
@@ -51,11 +49,9 @@ enable-double-click-block =
     .label = Uždaryti skirtukus juos dukart spustelėjus
 enable-show-pinned-tabs-title = 
     .label = Rodyti prisegtų skirtukų pavadinimus
-Mouse-side-button = 
-    .label = Optimizuoti naršyklę pelei su šoniniais mygtukais
 tabbar-preference = Skirtukų juosta
-None-mode = 
-    .label = Įprastas režimas
+tab-normal-mode = 
+    .label = Normal mode
 hide-horizontality-tabs = 
     .label = Paslėpti skirtukus horizontalioje skirtukų juostoje
 verticalTab-setting = 
@@ -74,11 +70,8 @@ multirow-tabbar =
     .label = Kelių eilučių skirtukų juosta
 vertical-tabbar = 
     .label = Vertikali skirtukų juosta (eksperimentinė)
-native-tabbar-tip = Šoninės juostos priedų ir integruotų šoninių juostų negalima naudoti kartu su vertikaliaisiais skirtukais, nes jie naudoja "Firefox" šoninę juostą.
 native-vertical-tab-show-right = 
     .label = Rodyti vertikalią skirtukų juostą dešinėje lango pusėje
-hover-vertical-tab = 
-    .label = Žlugdyti vertikalią skirtukų juostą
 TST = Medžio stiliaus skirtukas
 about-TST = Medžio stiliaus skirtukas yra populiarus papildinys, leidžiantis rodyti skirtukus medžio struktūroje. "Floorp 10" turi integruotą šį priedą. Įdiekite priedą atkurti "Floorp 10" integruotą "Tree Style Tab".
 treestyletab-Settings = 
@@ -89,7 +82,7 @@ bookmarks-focus-mode =
     .label = Paslėpti žymeklių įrankių juostą, nebent naršymo juosta būtų užkelta
 bookmarks-bottom-mode = 
     .label = Rodyti žymeklių įrankių juostą { -brand-short-name }apačioje
-nav-bar-settings = Įrankių juosta
+navbar-settings = Navigation Bar
 show-nav-bar-bottom = 
     .label = Rodyti įrankių juostą { -brand-short-name } apačioje (eksperimentinis variantas)
 material-effect = 
@@ -98,21 +91,16 @@ disable-extension-check-compatibility-option =
     .label = Netikrinkite suderinamumo su priedais
 other-preference = Kitos nuostatos
 enable-userscript = 
-    .label = Įgalinti senesnius komponentus
-about-legacy-components = Įjungus šią funkciją gali atsirasti netikėtų klaidų arba lemtingų klaidų.
-Search-positon-top = 
-    .label = Rodyti puslapio viršuje esančią paieškos juostą
+    .label = Enable "userChrome.js" and "Bootstrap extensions" Loading
+about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
+search-positon-top = 
+    .label = Display the Find Bar at the top of the page
 allow-auto-restart = 
     .label = Automatiškai paleisti iš naujo, kai pakeičiami nustatymai, kuriuos reikia paleisti iš naujo
-browser-rest-mode = 
-    .label = Įjungti poilsio režimą sparčiuoju klavišu (F9)
+enable-rest-mode = 
+    .label = Enable Rest Mode shortcut (F9)
 disable-fullscreen-notification = 
     .label = Nerodyti pranešimo įėjus į visą ekraną
-floorp-updater = { -brand-short-name } Atnaujinimai
-enable-floorp-updater = 
-    .label = Patikrinkite, ar paleidimo metu yra { -brand-short-name } atnaujinimų
-floorp-update-latest = 
-    .label = Praneškite man, ar { -brand-short-name } yra atnaujintas automatinių atnaujinimų patikrinimų metu
 
 ## Browser Theme
 
@@ -135,8 +123,6 @@ firefox-proton-fix =
     .label = "Firefox" "Proton" vartotojo sąsajos taisymas
 firefox-photon-lepton = 
     .label = "Firefox Photon・Lepton" vartotojo sąsaja
-floorp-legacy = 
-    .label = "Floorp Legacy UI"・Nepalaikoma
 floorp-fluentUI = 
     .label = "Microsoft Fluent UI
 floorp-fluerialUI = 
@@ -155,10 +141,6 @@ always-notify =
     .label = Pranešti, kai pradedamas atsisiuntimas ir kai atsisiuntimas baigiamas
 do-not-notify = 
     .label = Išjungti atsisiuntimo pranešimus
-floorp-translater = Vertėjo nustatymai
-click-to-option = 
-    .label = Atidarykite nustatymus...
-    .accesskey = O
 
 ## Sidebar
 
@@ -169,7 +151,7 @@ appmenuitem-reboot =
 
 ## UserAgent
 
-UserAgent-preference = Vartotojo agentas
+userAgent-preference = User Agent
 default-useragent-mode = 
     .label = Naudoti "Firefox" naudotojo agentą (numatytasis nustatymas)
 windows-chrome-useragent-mode = 
@@ -237,7 +219,7 @@ sidebar2-pref-delete =
 sidebar2-pref-setting = 
     .label = Nustatymai
 sidebar2-global-width = Pasaulinės žiniatinklio panelės plotis
-use-icon-provider-option = Naudoti piktogramos teikėją
+use-icon-provider-option = Use Following Icon Provider
 use-icon-provider-option-google = 
     .label = "Google"
 use-icon-provider-option-duckduckgo = 
@@ -523,7 +505,7 @@ mouse-gesture-description = Norint naudoti pelės gestus su { -brand-short-name 
 Gesturefy = Gestikuliuoti
 about-Gesturefy = "Gesturefy" - tai plėtinys, kuris į naršyklę įtraukia pelės gestus. Jei { -brand-short-name } aptinka šio priedo įdiegimą, į "Gesturefy" bus pridėtos gestų komandos, kurios yra prieinamos tik { -brand-short-name }. Be to, šis papildinys gali veikti su naujais skirtukais!
 # Translate
-TWS = Versti žiniatinklio puslapį
+TWS = Translate Web Pages
 about-TWS = Išverskite puslapį realiuoju laiku naudodami "Google" arba "Yandex". Taip pat galite išversti pasirinktą tekstą arba visą puslapį.
 
 # Privacy Hub
