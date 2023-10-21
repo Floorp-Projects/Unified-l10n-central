@@ -13,7 +13,7 @@ contributors = A list of <label data-l10n-name="about-contributor">contributors 
 pane-design-title = Design
 category-design =
     .tooltiptext = { pane-design-title }
-design-header = Design
+design-header = { pane-design-title }
 
 feature-requires-restart = A restart is required to apply changes
 
@@ -25,8 +25,6 @@ open-new-tab-at-the-end =
  .label = Open new tabs at the end of the Tab Bar
 open-new-tab-next-to-current =
  .label = Open new tabs next to the current tab
-enable-multitab = 
- .label = Enable multi-row tabs
 multirow-tabs-limit = 
  .label = Enable row limit for multi-row tabs
 multirow-tabs-newtab = 
@@ -43,7 +41,7 @@ tab-sleep-settings-dialog-excludehosts-label-2 = Enter one host per line.
 tab-sleep-tab-context-menu-excludetab = Keep Tab awake
 enable-floorp-workspace =
  .label = Enable Workspaces
-workspace-warring = Workspaces cannot be used with Tab Group add-ons. If you want to use tab group add-ons, please disable Workspaces and restart { -brand-short-name }.
+workspace-warning = Workspaces cannot be used with Tab Group add-ons. If you want to use tab group add-ons, please disable Workspaces and restart { -brand-short-name }.
 enable-tab-scroll-change =
  .label = Switch tabs by scrolling with your mouse
 enable-tab-scroll-reverse =
@@ -54,12 +52,10 @@ enable-double-click-block =
  .label = Close tabs when double-clicking them
 enable-show-pinned-tabs-title =
  .label = Show the title of pinned tabs
-Mouse-side-button =
-  .label = Optimise browser for mouse with side buttons
 
 tabbar-preference = Tab Bar
 
-None-mode = 
+tab-normal-mode = 
  .label= Normal mode
 
 hide-horizontality-tabs =
@@ -87,13 +83,9 @@ multirow-tabbar =
  .label = Multi-Row Tab Bar
 vertical-tabbar =
  .label = Vertical Tab Bar (experimental)
-native-tabbar-tip = Sidebar add-ons and in-built sidebars cannot be used at the same time as Vertical Tabs as this leverages the Firefox sidebar.
 
 native-vertical-tab-show-right =
  .label = Show Vertical Tab Bar on the right side of the window
-
-hover-vertical-tab =
- .label = Collapse Vertical Tab Bar
 
 TST = Tree Style Tab
 about-TST = Tree Style Tab is a popular add-on that allows you to display tabs in a tree structure. Floorp 10 has a built-in this add-on. Please install the add-on restore Floorp 10's built-in Tree Style Tab.
@@ -108,7 +100,7 @@ bookmarks-focus-mode =
 bookmarks-bottom-mode =
  .label = Show the Bookmarks Toolbar at the bottom of { -brand-short-name }
 
-nav-bar-settings = Toolbar
+navbar-settings = Navigation Bar
 show-nav-bar-bottom =
  .label = Show the Toolbar at the bottom of { -brand-short-name } (experimental)
 
@@ -119,25 +111,19 @@ disable-extension-check-compatibility-option =
 other-preference = Other Preferences
 
 enable-userscript =
- .label = Enable legacy components
-about-legacy-components = Enabling this feature may cause unexpected bugs or fatal errors.
+ .label = Enable "userChrome.js" and "Bootstrap extensions" Loading
+about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
 
-Search-positon-top =
+search-positon-top =
  .label = Display the Find Bar at the top of the page
 allow-auto-restart =
  .label = Restart automatically when settings that require a restart are changed
 
-browser-rest-mode =
+enable-rest-mode =
  .label = Enable Rest Mode shortcut (F9)
 
 disable-fullscreen-notification =
  .label = Do not show a notification when entering full screen
-
-floorp-updater = { -brand-short-name } Updates
-enable-floorp-updater =
- .label = Check for { -brand-short-name } updates on startup
-floorp-update-latest =
- .label = Notify me if { -brand-short-name } is up-to-date during automatic update checks
 
 ## Browser Theme
 
@@ -166,9 +152,6 @@ firefox-proton-fix =
 
 firefox-photon-lepton =
  .label = Firefox Photon・Lepton UI
- 
-floorp-legacy =
- .label = Floorp Legacy UI・Unsupported
 
 floorp-fluentUI =
  .label = Microsoft Fluent UI
@@ -190,11 +173,6 @@ always-notify =
 do-not-notify =
  .label = Disable download notifications
 
-floorp-translater = Translator Settings
-click-to-option =
-    .label = Open Settings...
-    .accesskey = O
-
 ## Sidebar
 profiles-button-label = Manage Profiles
 floorp-help-button-label = { -brand-short-name } Support
@@ -204,7 +182,7 @@ appmenuitem-reboot =
 
 ## UserAgent
 
-UserAgent-preference = User Agent
+userAgent-preference = User Agent
 default-useragent-mode =
  .label = Use Firefox User Agent (Default)
 windows-chrome-useragent-mode =
@@ -290,7 +268,7 @@ sidebar2-pref-setting =
 
 sidebar2-global-width = Global Web Panels width
 
-use-icon-provider-option = Use Icon Provider
+use-icon-provider-option = Use Following Icon Provider
 
 use-icon-provider-option-google =
  .label = Google
@@ -638,7 +616,7 @@ Gesturefy = Gesturefy
 about-Gesturefy = Gesturefy is an extension that adds mouse gestures to your browser. If { -brand-short-name } detects the installation of this add-on, it will add gesture commands to Gesturefy that are only available in { -brand-short-name }. Also, this add-on can work with new tabs!
 
 # Translate
-TWS = Translate Web Page
+TWS = Translate Web Pages
 about-TWS = Translate your page in real time using Google or Yandex. You can also translate selected text or the entire page.
 
 # Privacy Hub
