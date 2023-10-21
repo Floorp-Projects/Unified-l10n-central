@@ -12,7 +12,7 @@ contributors = Een lijst van <label data-l10n-name="about-contributor">bijdrager
 pane-design-title = Ontwerp
 category-design = 
     .tooltiptext = { pane-design-title }
-design-header = Ontwerp
+design-header = { pane-design-title }
 feature-requires-restart = Een herstart is nodig om wijzigingen toe te passen
 tab-width = Minimale breedte van tabbladen
 preferences-tabs-newtab-position = Nieuwe tab positie
@@ -22,8 +22,6 @@ open-new-tab-at-the-end =
     .label = Open nieuwe tabbladen aan het einde van de tabbalk
 open-new-tab-next-to-current = 
     .label = Nieuwe tabbladen naast het huidige tabblad openen
-enable-multitab = 
-    .label = Meerdere rij-tabbladen inschakelen
 multirow-tabs-limit = 
     .label = Rijlimiet inschakelen voor meervoudige tabbladen
 multirow-tabs-newtab = 
@@ -40,7 +38,7 @@ tab-sleep-settings-dialog-excludehosts-label-2 = Voer één host per regel in.
 tab-sleep-tab-context-menu-excludetab = Tabblad wakker houden
 enable-floorp-workspace = 
     .label = Werkruimtes inschakelen
-workspace-warring = Werkruimtes kunnen niet worden gebruikt met Tab Group add-ons. Als u tabgroep add-ons wilt gebruiken, schakel dan werkruimtes uit en herstart { -brand-short-name }.
+workspace-warning = Workspaces cannot be used with Tab Group add-ons. If you want to use tab group add-ons, please disable Workspaces and restart { -brand-short-name }.
 enable-tab-scroll-change = 
     .label = Tabbladen wisselen door met je muis te scrollen
 enable-tab-scroll-reverse = 
@@ -51,11 +49,9 @@ enable-double-click-block =
     .label = Tabbladen sluiten bij dubbel klikken
 enable-show-pinned-tabs-title = 
     .label = Titel van vastgezette tabbladen weergeven
-Mouse-side-button = 
-    .label = Browser optimaliseren voor muis met knoppen aan de zijkant
 tabbar-preference = Tabbalk
-None-mode = 
-    .label = Normale modus
+tab-normal-mode = 
+    .label = Normal mode
 hide-horizontality-tabs = 
     .label = Tabbladen op Horizontale Tabbalk verbergen
 verticalTab-setting = 
@@ -74,11 +70,8 @@ multirow-tabbar =
     .label = Multi-Rij tabbalk
 vertical-tabbar = 
     .label = Verticale tabbalk (experimenteel)
-native-tabbar-tip = Sidebar add-ons en ingebouwde sidebars kunnen niet op hetzelfde moment als verticale tabbladen worden gebruikt omdat dit de Firefox sidebar gebruikt.
 native-vertical-tab-show-right = 
     .label = Toon Verticale Tabbalk aan de rechterkant van het venster
-hover-vertical-tab = 
-    .label = Verticale tabbalk inklappen
 TST = Tree Style Tab
 about-TST = Tree Style Tab is een populaire add-on waarmee tabbladen in een boomstructuur getoond kunnen worden. Floorp 10 heeft een ingebouwde deze add-on. Installeer de add-on om Floorp 10's ingebouwde Tree Style tab te herstellen.
 treestyletab-Settings = 
@@ -89,7 +82,7 @@ bookmarks-focus-mode =
     .label = De bladwijzerwerkbalk verbergen tenzij over de navigatiebalk zweeft
 bookmarks-bottom-mode = 
     .label = Bladwijzerwerkbalk aan de onderkant van { -brand-short-name } tonen
-nav-bar-settings = Werkbalk
+navbar-settings = Navigation Bar
 show-nav-bar-bottom = 
     .label = Toon de werkbalk onderaan { -brand-short-name } (experimenteel)
 material-effect = 
@@ -98,21 +91,16 @@ disable-extension-check-compatibility-option =
     .label = Controleer niet op compatibiliteit met add-ons
 other-preference = Andere voorkeuren
 enable-userscript = 
-    .label = Oudere componenten inschakelen
-about-legacy-components = Het inschakelen van deze functie kan onverwachte fouten of fatale fouten veroorzaken.
-Search-positon-top = 
-    .label = De zoekbalk bovenaan de pagina weergeven
+    .label = Enable "userChrome.js" and "Bootstrap extensions" Loading
+about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
+search-positon-top = 
+    .label = Display the Find Bar at the top of the page
 allow-auto-restart = 
     .label = Herstart automatisch wanneer instellingen waarvoor een herstart vereist zijn gewijzigd
-browser-rest-mode = 
-    .label = Activeer sneltoets rust-modus (F9)
+enable-rest-mode = 
+    .label = Enable Rest Mode shortcut (F9)
 disable-fullscreen-notification = 
     .label = Melding niet weergeven bij het invoeren van volledig scherm
-floorp-updater = { -brand-short-name } updates
-enable-floorp-updater = 
-    .label = Controleer op { -brand-short-name } updates bij het opstarten
-floorp-update-latest = 
-    .label = Informeer me als { -brand-short-name } up-to-date is tijdens automatische updatecontroles
 
 ## Browser Theme
 
@@ -135,8 +123,6 @@ firefox-proton-fix =
     .label = Firefox Proton Fix UI
 firefox-photon-lepton = 
     .label = Firefox Photon・Lepton UI
-floorp-legacy = 
-    .label = Floorp Legacy UI・Niet ondersteund
 floorp-fluentUI = 
     .label = Microsoft Fluent UI
 floorp-fluerialUI = 
@@ -155,10 +141,6 @@ always-notify =
     .label = Waarschuw bij het starten van downloads en wanneer een download klaar is
 do-not-notify = 
     .label = Zet downloadmeldingen uit
-floorp-translater = Instellingen voor vertaler
-click-to-option = 
-    .label = Open instellingen...
-    .accesskey = OO
 
 ## Sidebar
 
@@ -169,7 +151,7 @@ appmenuitem-reboot =
 
 ## UserAgent
 
-UserAgent-preference = User Agent
+userAgent-preference = User Agent
 default-useragent-mode = 
     .label = Gebruik Firefox User Agent (standaard)
 windows-chrome-useragent-mode = 
@@ -237,7 +219,7 @@ sidebar2-pref-delete =
 sidebar2-pref-setting = 
     .label = Instellingen
 sidebar2-global-width = Globale webpanelen breedte
-use-icon-provider-option = Gebruik pictogram Provider
+use-icon-provider-option = Use Following Icon Provider
 use-icon-provider-option-google = 
     .label = Google
 use-icon-provider-option-duckduckgo = 
@@ -523,7 +505,7 @@ mouse-gesture-description = Gebaar moet worden geïnstalleerd om muisgebaren met
 Gesturefy = Gesturefy
 about-Gesturefy = Gebaar is een extensie die muisgebaren toevoegt aan uw browser. Als { -brand-short-name } de installatie van deze add-on detecteert, zullen er gebaren commando's worden toegevoegd om te Gebaar te Gebaar die alleen beschikbaar zijn in { -brand-short-name }. Ook kan deze add-on werken met nieuwe tabbladen!
 # Translate
-TWS = Webpagina vertalen
+TWS = Translate Web Pages
 about-TWS = Vertaal uw pagina in realtime met behulp van Google of Yandex. U kunt ook geselecteerde tekst of de hele pagina vertalen.
 
 # Privacy Hub
