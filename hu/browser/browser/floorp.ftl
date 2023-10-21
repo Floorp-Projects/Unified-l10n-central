@@ -12,7 +12,7 @@ contributors = A <label data-l10n-name="about-contributor">közreműködők és 
 pane-design-title = Tervezés
 category-design = 
     .tooltiptext = { pane-design-title }
-design-header = Tervezés
+design-header = { pane-design-title }
 feature-requires-restart = A változások alkalmazásához újraindítás szükséges
 tab-width = A fülek minimális szélessége
 preferences-tabs-newtab-position = Új lap pozíciója
@@ -22,8 +22,6 @@ open-new-tab-at-the-end =
     .label = Új lapok megnyitása a Tab Bar végén
 open-new-tab-next-to-current = 
     .label = Új lapok megnyitása az aktuális lap mellett
-enable-multitab = 
-    .label = Többsoros lapok engedélyezése
 multirow-tabs-limit = 
     .label = Sorhatár engedélyezése többsoros lapok esetén
 multirow-tabs-newtab = 
@@ -40,7 +38,7 @@ tab-sleep-settings-dialog-excludehosts-label-2 = Soronként egy állomás megad�
 tab-sleep-tab-context-menu-excludetab = Tartsa ébren a Tab-ot
 enable-floorp-workspace = 
     .label = Munkaterületek engedélyezése
-workspace-warring = A munkaterületek nem használhatók a Tab-csoport bővítményekkel. Ha tabulátorcsoport-kiegészítőket szeretne használni, kérjük, tiltsa le a Munkaterületeket, és indítsa újra a { -brand-short-name }weboldalt.
+workspace-warning = Workspaces cannot be used with Tab Group add-ons. If you want to use tab group add-ons, please disable Workspaces and restart { -brand-short-name }.
 enable-tab-scroll-change = 
     .label = Lapok váltása az egérrel történő görgetéssel
 enable-tab-scroll-reverse = 
@@ -51,11 +49,9 @@ enable-double-click-block =
     .label = Lapok bezárása dupla kattintáskor
 enable-show-pinned-tabs-title = 
     .label = A kitűzött lapok címének megjelenítése
-Mouse-side-button = 
-    .label = A böngésző optimalizálása az oldalsó gombokkal rendelkező egérhez
 tabbar-preference = Tab Bar
-None-mode = 
-    .label = Normál üzemmód
+tab-normal-mode = 
+    .label = Normal mode
 hide-horizontality-tabs = 
     .label = Lapok elrejtése a vízszintes lapszalagon
 verticalTab-setting = 
@@ -74,11 +70,8 @@ multirow-tabbar =
     .label = Többsoros laprúd
 vertical-tabbar = 
     .label = Függőleges tabulátor sáv (kísérleti)
-native-tabbar-tip = Az oldalsáv-kiegészítők és a beépített oldalsávok nem használhatók a Függőleges lapok funkcióval egyidejűleg, mivel ez a Firefox oldalsávját használja.
 native-vertical-tab-show-right = 
     .label = Függőleges tabulátor sáv megjelenítése az ablak jobb oldalán
-hover-vertical-tab = 
-    .label = Függőleges tabulátor sáv összecsukása
 TST = Fa stílus lap
 about-TST = A Tree Style Tab egy népszerű bővítmény, amely lehetővé teszi, hogy a lapokat fa szerkezetben jelenítse meg. A Floorp 10 rendelkezik beépített ilyen bővítménnyel. Kérjük, telepítse a bővítményt a Floorp 10 beépített Tree Style Tab visszaállításához.
 treestyletab-Settings = 
@@ -89,7 +82,7 @@ bookmarks-focus-mode =
     .label = A Könyvjelzők eszköztár elrejtése, hacsak nem a navigációs sáv fölé mozgatja a gépet.
 bookmarks-bottom-mode = 
     .label = A Könyvjelzők eszköztár megjelenítése a { -brand-short-name }alján.
-nav-bar-settings = Eszköztár
+navbar-settings = Navigation Bar
 show-nav-bar-bottom = 
     .label = Az eszköztár megjelenítése a { -brand-short-name } alján (kísérleti)
 material-effect = 
@@ -98,21 +91,16 @@ disable-extension-check-compatibility-option =
     .label = Ne ellenőrizze a kompatibilitást a bővítményekkel
 other-preference = Egyéb preferenciák
 enable-userscript = 
-    .label = Régi komponensek engedélyezése
-about-legacy-components = A funkció engedélyezése váratlan hibákat vagy végzetes hibákat okozhat.
-Search-positon-top = 
-    .label = A keresősáv megjelenítése az oldal tetején
+    .label = Enable "userChrome.js" and "Bootstrap extensions" Loading
+about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
+search-positon-top = 
+    .label = Display the Find Bar at the top of the page
 allow-auto-restart = 
     .label = Automatikus újraindítás, ha az újraindítást igénylő beállítások megváltoznak.
-browser-rest-mode = 
-    .label = Pihenő üzemmód engedélyezése parancsikon (F9)
+enable-rest-mode = 
+    .label = Enable Rest Mode shortcut (F9)
 disable-fullscreen-notification = 
     .label = Teljes képernyőre lépéskor ne jelenjen meg értesítés
-floorp-updater = { -brand-short-name } Frissítések
-enable-floorp-updater = 
-    .label = A { -brand-short-name } frissítések ellenőrzése indításkor
-floorp-update-latest = 
-    .label = Értesítés, ha a { -brand-short-name } frissítve van az automatikus frissítési ellenőrzések során
 
 ## Browser Theme
 
@@ -135,8 +123,6 @@ firefox-proton-fix =
     .label = Firefox Proton Fix UI
 firefox-photon-lepton = 
     .label = Firefox Photon・Lepton felhasználói felület
-floorp-legacy = 
-    .label = Floorp Legacy UI・Nem támogatott
 floorp-fluentUI = 
     .label = Microsoft Fluent UI
 floorp-fluerialUI = 
@@ -155,10 +141,6 @@ always-notify =
     .label = Értesítés a letöltések indításakor és a letöltés befejezésekor
 do-not-notify = 
     .label = Letöltési értesítések letiltása
-floorp-translater = Fordító beállításai
-click-to-option = 
-    .label = Beállítások megnyitása...
-    .accesskey = O
 
 ## Sidebar
 
@@ -169,7 +151,7 @@ appmenuitem-reboot =
 
 ## UserAgent
 
-UserAgent-preference = Felhasználói ügynök
+userAgent-preference = User Agent
 default-useragent-mode = 
     .label = Firefox felhasználói ügynök használata (alapértelmezett)
 windows-chrome-useragent-mode = 
@@ -237,7 +219,7 @@ sidebar2-pref-delete =
 sidebar2-pref-setting = 
     .label = Beállítások
 sidebar2-global-width = Globális webpanelek szélessége
-use-icon-provider-option = Ikonszolgáltató használata
+use-icon-provider-option = Use Following Icon Provider
 use-icon-provider-option-google = 
     .label = Google
 use-icon-provider-option-duckduckgo = 
@@ -523,7 +505,7 @@ mouse-gesture-description = A Gesturefy-t telepíteni kell ahhoz, hogy az egér 
 Gesturefy = Gesturefy
 about-Gesturefy = A Gesturefy egy olyan bővítmény, amely egérmozdulatokat ad a böngészőhöz. Ha a { -brand-short-name } észleli ennek a bővítménynek a telepítését, akkor a Gesturefy olyan gesztusparancsokat ad hozzá, amelyek csak a { -brand-short-name }oldalon érhetőek el. Emellett ez a bővítmény új lapokkal is működhet!
 # Translate
-TWS = Weboldal lefordítása
+TWS = Translate Web Pages
 about-TWS = Fordítsa le oldalát valós időben a Google vagy a Yandex segítségével. Kijelölt szöveget vagy az egész oldalt is lefordíthatja.
 
 # Privacy Hub
