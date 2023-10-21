@@ -91,7 +91,7 @@ disable-extension-check-compatibility-option =
     .label = Ne ellenőrizze a kompatibilitást a bővítményekkel
 other-preference = Egyéb preferenciák
 enable-userscript = 
-    .label = Enable "userChrome.js" and "Bootstrap extensions" Loading
+    .label = Régi komponensek engedélyezése
 about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
 search-positon-top = 
     .label = Display the Find Bar at the top of the page
@@ -219,7 +219,7 @@ sidebar2-pref-delete =
 sidebar2-pref-setting = 
     .label = Beállítások
 sidebar2-global-width = Globális webpanelek szélessége
-use-icon-provider-option = Use Following Icon Provider
+use-icon-provider-option = Ikonszolgáltató használata
 use-icon-provider-option-google = 
     .label = Google
 use-icon-provider-option-duckduckgo = 
@@ -505,7 +505,7 @@ mouse-gesture-description = A Gesturefy-t telepíteni kell ahhoz, hogy az egér 
 Gesturefy = Gesturefy
 about-Gesturefy = A Gesturefy egy olyan bővítmény, amely egérmozdulatokat ad a böngészőhöz. Ha a { -brand-short-name } észleli ennek a bővítménynek a telepítését, akkor a Gesturefy olyan gesztusparancsokat ad hozzá, amelyek csak a { -brand-short-name }oldalon érhetőek el. Emellett ez a bővítmény új lapokkal is működhet!
 # Translate
-TWS = Translate Web Pages
+TWS = Weboldal lefordítása
 about-TWS = Fordítsa le oldalát valós időben a Google vagy a Yandex segítségével. Kijelölt szöveget vagy az egész oldalt is lefordíthatja.
 
 # Privacy Hub
