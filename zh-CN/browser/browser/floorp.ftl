@@ -91,7 +91,7 @@ disable-extension-check-compatibility-option =
     .label = 不要检查与附加组件的兼容性
 other-preference = 其他首选项
 enable-userscript = 
-    .label = Enable "userChrome.js" and "Bootstrap extensions" Loading
+    .label = Enable legacy components
 about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
 search-positon-top = 
     .label = Display the Find Bar at the top of the page
@@ -219,7 +219,7 @@ sidebar2-pref-delete =
 sidebar2-pref-setting = 
     .label = 设置
 sidebar2-global-width = 全局网页宽度
-use-icon-provider-option = Use Following Icon Provider
+use-icon-provider-option = Use Icon Provider
 use-icon-provider-option-google = 
     .label = Google
 use-icon-provider-option-duckduckgo = 
@@ -505,7 +505,7 @@ mouse-gesture-description = 要在 { -brand-short-name }中使用鼠标手势，
 Gesturefy = Gesturefy
 about-Gesturefy = Gesturefy 是一款可在浏览器中添加鼠标手势的扩展程序。如果 { -brand-short-name } 检测到安装了此附加组件，它将为 Gesturefy 添加仅在 { -brand-short-name }中可用的手势命令。此外，该附加组件还可用于新标签页！
 # Translate
-TWS = Translate Web Pages
+TWS = Translate Web Page
 about-TWS = 使用Google或Yandex实时翻译您的页面。您也可以翻译选定的文本或整个页面。
 
 # Privacy Hub
