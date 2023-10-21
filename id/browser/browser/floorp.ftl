@@ -91,7 +91,7 @@ disable-extension-check-compatibility-option =
     .label = Jangan memeriksa kompatibilitas dengan pengaya
 other-preference = Preferensi Lainnya
 enable-userscript = 
-    .label = Enable "userChrome.js" and "Bootstrap extensions" Loading
+    .label = Mengaktifkan komponen lama
 about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
 search-positon-top = 
     .label = Display the Find Bar at the top of the page
@@ -219,7 +219,7 @@ sidebar2-pref-delete =
 sidebar2-pref-setting = 
     .label = Pengaturan
 sidebar2-global-width = Lebar Panel Web Global
-use-icon-provider-option = Use Following Icon Provider
+use-icon-provider-option = Gunakan Penyedia Ikon
 use-icon-provider-option-google = 
     .label = Google
 use-icon-provider-option-duckduckgo = 
@@ -505,7 +505,7 @@ mouse-gesture-description = Gesturefy harus diinstal untuk menggunakan gerakan m
 Gesturefy = Gesturefy
 about-Gesturefy = Gesturefy adalah ekstensi yang menambahkan gerakan mouse ke peramban Anda. Jika { -brand-short-name } mendeteksi pemasangan pengaya ini, ia akan menambahkan perintah gerakan ke Gesturefy yang hanya tersedia di { -brand-short-name }. Selain itu, pengaya ini juga dapat bekerja dengan tab baru!
 # Translate
-TWS = Translate Web Pages
+TWS = Terjemahkan Halaman Web
 about-TWS = Terjemahkan halaman Anda secara real time menggunakan Google atau Yandex. Anda juga dapat menerjemahkan teks yang dipilih atau seluruh halaman.
 
 # Privacy Hub
