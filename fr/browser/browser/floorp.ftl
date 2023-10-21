@@ -12,7 +12,7 @@ contributors = Une liste de <label data-l10n-name="about-contributor">contribute
 pane-design-title = Conception
 category-design = 
     .tooltiptext = { pane-design-title }
-design-header = Conception
+design-header = { pane-design-title }
 feature-requires-restart = Un redémarrage est nécessaire pour appliquer les modifications
 tab-width = Largeur minimale des onglets
 preferences-tabs-newtab-position = Position du nouvel onglet
@@ -22,8 +22,6 @@ open-new-tab-at-the-end =
     .label = Ouvrir de nouveaux onglets à la fin de la barre d'onglets
 open-new-tab-next-to-current = 
     .label = Ouvrir de nouveaux onglets à côté de l'onglet actuel
-enable-multitab = 
-    .label = Activer les onglets multi-lignes
 multirow-tabs-limit = 
     .label = Activer la limite de lignes pour les onglets multi-lignes
 multirow-tabs-newtab = 
@@ -40,7 +38,7 @@ tab-sleep-settings-dialog-excludehosts-label-2 = Entrez un hôte par ligne.
 tab-sleep-tab-context-menu-excludetab = Garder l'onglet éveillé
 enable-floorp-workspace = 
     .label = Activer les espaces de travail
-workspace-warring = Les espaces de travail ne peuvent pas être utilisés avec les modules complémentaires du groupe d'onglets. Si vous souhaitez utiliser des modules de groupe d'onglets, veuillez désactiver les espaces de travail et redémarrer { -brand-short-name }.
+workspace-warning = Workspaces cannot be used with Tab Group add-ons. If you want to use tab group add-ons, please disable Workspaces and restart { -brand-short-name }.
 enable-tab-scroll-change = 
     .label = Changer d'onglet en faisant défiler avec la souris
 enable-tab-scroll-reverse = 
@@ -51,11 +49,9 @@ enable-double-click-block =
     .label = Fermer les onglets en double-cliquant dessus
 enable-show-pinned-tabs-title = 
     .label = Afficher le titre des onglets épinglés
-Mouse-side-button = 
-    .label = Optimiser le navigateur pour la souris avec les boutons latéraux
 tabbar-preference = Barre d'onglets
-None-mode = 
-    .label = Mode normal
+tab-normal-mode = 
+    .label = Normal mode
 hide-horizontality-tabs = 
     .label = Masquer les onglets dans la barre d'onglets horizontaux
 verticalTab-setting = 
@@ -74,11 +70,8 @@ multirow-tabbar =
     .label = Barre d'onglets multi-rangées
 vertical-tabbar = 
     .label = Barre d'onglets verticale (expérimentale)
-native-tabbar-tip = Les modules complémentaires de la barre latérale et les barres latérales intégrées ne peuvent pas être utilisés en même temps que les onglets verticaux, car cela tire parti de la barre latérale Firefox.
 native-vertical-tab-show-right = 
     .label = Afficher la barre d'onglets verticale sur le côté droit de la fenêtre
-hover-vertical-tab = 
-    .label = Réduire la barre verticale d'onglets
 TST = Onglet de style arborescent
 about-TST = Tree Style Tab est un add-on populaire qui vous permet d'afficher des onglets dans une structure d'arborescence. Floorp 10 a un module intégré à ce module. Veuillez installer le module de restauration de l’onglet de style arbre intégré de Floorp 10.
 treestyletab-Settings = 
@@ -89,7 +82,7 @@ bookmarks-focus-mode =
     .label = Masquer la barre de signets à moins de passer au-dessus de la barre de navigation
 bookmarks-bottom-mode = 
     .label = Afficher la barre de signets en bas de { -brand-short-name }
-nav-bar-settings = Barre d'outils
+navbar-settings = Navigation Bar
 show-nav-bar-bottom = 
     .label = Afficher la barre d'outils en bas de { -brand-short-name } (expérimental)
 material-effect = 
@@ -98,21 +91,16 @@ disable-extension-check-compatibility-option =
     .label = Ne pas vérifier la compatibilité avec les modules complémentaires
 other-preference = Autres préférences
 enable-userscript = 
-    .label = Activer les composants existants
-about-legacy-components = L'activation de cette fonctionnalité peut causer des bugs inattendus ou des erreurs fatales.
-Search-positon-top = 
-    .label = Afficher la barre de recherche en haut de la page
+    .label = Enable "userChrome.js" and "Bootstrap extensions" Loading
+about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
+search-positon-top = 
+    .label = Display the Find Bar at the top of the page
 allow-auto-restart = 
     .label = Redémarrer automatiquement lorsque les paramètres nécessitant un redémarrage sont modifiés
-browser-rest-mode = 
-    .label = Activer le raccourci du mode repos (F9)
+enable-rest-mode = 
+    .label = Enable Rest Mode shortcut (F9)
 disable-fullscreen-notification = 
     .label = Ne pas afficher de notification lorsque vous entrez en plein écran
-floorp-updater = Mises à jour { -brand-short-name }
-enable-floorp-updater = 
-    .label = Vérifier les mises à jour { -brand-short-name } au démarrage
-floorp-update-latest = 
-    .label = M'avertir si { -brand-short-name } est à jour lors des vérifications automatiques de mises à jour
 
 ## Browser Theme
 
@@ -135,8 +123,6 @@ firefox-proton-fix =
     .label = Fix de Firefox Proton
 firefox-photon-lepton = 
     .label = Firefox Photon・Interface de Lepton
-floorp-legacy = 
-    .label = UI・Héritage Floorp non pris en charge
 floorp-fluentUI = 
     .label = Microsoft Fluent UI
 floorp-fluerialUI = 
@@ -155,10 +141,6 @@ always-notify =
     .label = Notifier lors du démarrage des téléchargements et quand un téléchargement se termine
 do-not-notify = 
     .label = Désactiver les notifications de téléchargement
-floorp-translater = Paramètres du traducteur
-click-to-option = 
-    .label = Ouvrir les paramètres...
-    .accesskey = O
 
 ## Sidebar
 
@@ -169,7 +151,7 @@ appmenuitem-reboot =
 
 ## UserAgent
 
-UserAgent-preference = Agent Utilisateur
+userAgent-preference = User Agent
 default-useragent-mode = 
     .label = Utiliser Firefox User Agent (par défaut)
 windows-chrome-useragent-mode = 
@@ -237,7 +219,7 @@ sidebar2-pref-delete =
 sidebar2-pref-setting = 
     .label = Réglages
 sidebar2-global-width = Largeur globale des panneaux Web
-use-icon-provider-option = Utiliser le fournisseur d'icônes
+use-icon-provider-option = Use Following Icon Provider
 use-icon-provider-option-google = 
     .label = Google
 use-icon-provider-option-duckduckgo = 
@@ -523,7 +505,7 @@ mouse-gesture-description = Gesturefy doit être installé pour utiliser les ges
 Gesturefy = Gesturefy
 about-Gesturefy = Gesturefy est une extension qui ajoute des gestes de souris à votre navigateur. Si { -brand-short-name } détecte l'installation de ce module, il ajoutera des commandes de gestes à Gesturefy qui ne sont disponibles que dans { -brand-short-name }. De plus, ce module peut fonctionner avec de nouveaux onglets !
 # Translate
-TWS = Traduire la page Web
+TWS = Translate Web Pages
 about-TWS = Traduisez votre page en temps réel en utilisant Google ou Yandex. Vous pouvez également traduire le texte sélectionné ou la page entière.
 
 # Privacy Hub
