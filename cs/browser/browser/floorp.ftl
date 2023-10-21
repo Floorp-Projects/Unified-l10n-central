@@ -12,7 +12,7 @@ contributors = Seznam <label data-l10n-name="about-contributor">přispěvatelů 
 pane-design-title = Vzhled
 category-design = 
     .tooltiptext = { pane-design-title }
-design-header = Vzhled
+design-header = { pane-design-title }
 feature-requires-restart = Pro použití změn je vyžadován restart
 tab-width = Minimální šířka záložek
 preferences-tabs-newtab-position = Pozice nové karty
@@ -22,8 +22,6 @@ open-new-tab-at-the-end =
     .label = Otevřít nové panely na konci panelu karet
 open-new-tab-next-to-current = 
     .label = Otevřít nové panely vedle aktuální karty
-enable-multitab = 
-    .label = Povolit vícero řádkových karet
 multirow-tabs-limit = 
     .label = Povolit limit řádků pro více řádků
 multirow-tabs-newtab = 
@@ -40,7 +38,7 @@ tab-sleep-settings-dialog-excludehosts-label-2 = Zadejte jednoho hostitele na ř
 tab-sleep-tab-context-menu-excludetab = Zachovat záložku probuzenou
 enable-floorp-workspace = 
     .label = Povolit pracovní prostory
-workspace-warring = Pracovní prostory nelze použít s doplňky skupiny karet. Pokud chcete použít záložky skupiny doplňků, vypněte Workspace a restartujte { -brand-short-name }.
+workspace-warning = Workspaces cannot be used with Tab Group add-ons. If you want to use tab group add-ons, please disable Workspaces and restart { -brand-short-name }.
 enable-tab-scroll-change = 
     .label = Přepněte panely posouváním pomocí myši
 enable-tab-scroll-reverse = 
@@ -51,11 +49,9 @@ enable-double-click-block =
     .label = Zavřít panely po dvojitém kliknutí
 enable-show-pinned-tabs-title = 
     .label = Zobrazit název připnutých panelů
-Mouse-side-button = 
-    .label = Optimalizovat prohlížeč pro myší pomocí bočních tlačítek
 tabbar-preference = Panel záložek
-None-mode = 
-    .label = Běžný režim
+tab-normal-mode = 
+    .label = Normal mode
 hide-horizontality-tabs = 
     .label = Skrýt panely na horizontálním panelu karet
 verticalTab-setting = 
@@ -74,11 +70,8 @@ multirow-tabbar =
     .label = Panel karet více řádků
 vertical-tabbar = 
     .label = Vertikální panel (experimentální)
-native-tabbar-tip = Boční doplňky a vestavěné postranní panely nemohou být použity současně s vertikálními panely jako pásky postranního panelu Firefoxu.
 native-vertical-tab-show-right = 
     .label = Zobrazit vertikální panel na pravé straně okna
-hover-vertical-tab = 
-    .label = Sbalit vertikální panel
 TST = Styl stromu
 about-TST = Karta Styl stromu je populární doplněk, který vám umožňuje zobrazit panely ve stromové struktuře. Floorp 10 má vestavěný doplněk. Nainstalujte prosím doplněk pro obnovu podlahy 10 vestavěné karty Styl stromu.
 treestyletab-Settings = 
@@ -89,7 +82,7 @@ bookmarks-focus-mode =
     .label = Skrýt panel záložek, pokud se nenachází přes navigační panel
 bookmarks-bottom-mode = 
     .label = Zobrazit panel záložek v dolní části { -brand-short-name }
-nav-bar-settings = Panel nástrojů
+navbar-settings = Navigation Bar
 show-nav-bar-bottom = 
     .label = Zobrazit panel nástrojů v dolní části { -brand-short-name } (experimentální)
 material-effect = 
@@ -98,21 +91,16 @@ disable-extension-check-compatibility-option =
     .label = Nekontrolovat kompatibilitu s doplňky
 other-preference = Další předvolby
 enable-userscript = 
-    .label = Povolit starší komponenty
-about-legacy-components = Povolení této funkce může způsobit neočekávané chyby nebo smrtelné chyby.
-Search-positon-top = 
-    .label = Zobrazit panel Najít v horní části stránky
+    .label = Enable "userChrome.js" and "Bootstrap extensions" Loading
+about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
+search-positon-top = 
+    .label = Display the Find Bar at the top of the page
 allow-auto-restart = 
     .label = Automaticky restartovat při změně nastavení, která vyžadují restartování
-browser-rest-mode = 
-    .label = Povolit zástupce odpočinku (F9)
+enable-rest-mode = 
+    .label = Enable Rest Mode shortcut (F9)
 disable-fullscreen-notification = 
     .label = Nezobrazovat oznámení při vstupu na celou obrazovku
-floorp-updater = Aktualizace { -brand-short-name }
-enable-floorp-updater = 
-    .label = Zkontrolovat aktualizace { -brand-short-name } při spuštění
-floorp-update-latest = 
-    .label = Upozornit mě, pokud je { -brand-short-name } aktuální při automatických kontrolách aktualizací
 
 ## Browser Theme
 
@@ -135,8 +123,6 @@ firefox-proton-fix =
     .label = Oprava uživatelského rozhraní Firefox
 firefox-photon-lepton = 
     .label = Firefoxové fotografie – uživatelské rozhraní
-floorp-legacy = 
-    .label = Podlaha stará UI nepodporovaná
 floorp-fluentUI = 
     .label = Microsoft Fluent UI
 floorp-fluerialUI = 
@@ -155,10 +141,6 @@ always-notify =
     .label = Upozornit při spuštění stahování a po ukončení stahování
 do-not-notify = 
     .label = Zakázat oznámení ke stažení
-floorp-translater = Nastavení překladatele
-click-to-option = 
-    .label = Otevřít nastavení...
-    .accesskey = O
 
 ## Sidebar
 
@@ -169,7 +151,7 @@ appmenuitem-reboot =
 
 ## UserAgent
 
-UserAgent-preference = Uživatelský agent
+userAgent-preference = User Agent
 default-useragent-mode = 
     .label = Použít User Agent Firefoxu (výchozí)
 windows-chrome-useragent-mode = 
@@ -237,7 +219,7 @@ sidebar2-pref-delete =
 sidebar2-pref-setting = 
     .label = Nastavení
 sidebar2-global-width = Šířka globálních webových panelů
-use-icon-provider-option = Použít ikonu poskytovatele
+use-icon-provider-option = Use Following Icon Provider
 use-icon-provider-option-google = 
     .label = Google
 use-icon-provider-option-duckduckgo = 
@@ -523,7 +505,7 @@ mouse-gesture-description = Gesturefy musí být nainstalovány pro použití ge
 Gesturefy = Gesturefy
 about-Gesturefy = Gesturefy je rozšíření, které přidává gesta myší do vašeho prohlížeče. Pokud { -brand-short-name } zjistí instalaci doplňku, přidá příkazy gesta k Gesturefy, které jsou dostupné pouze v { -brand-short-name }. Tento doplněk může také fungovat s novými záložkami!
 # Translate
-TWS = Přeložit webovou stránku
+TWS = Translate Web Pages
 about-TWS = Přeložte svou stránku v reálném čase pomocí Google nebo Yandex. Můžete také přeložit vybraný text nebo celou stránku.
 
 # Privacy Hub
