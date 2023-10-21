@@ -91,7 +91,7 @@ disable-extension-check-compatibility-option =
     .label = 애드온과의 호환성을 확인하지 않기
 other-preference = 기타 설정
 enable-userscript = 
-    .label = Enable "userChrome.js" and "Bootstrap extensions" Loading
+    .label = 레거시 구성 요소 사용
 about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
 search-positon-top = 
     .label = Display the Find Bar at the top of the page
@@ -219,7 +219,7 @@ sidebar2-pref-delete =
 sidebar2-pref-setting = 
     .label = 설정
 sidebar2-global-width = 글로벌 웹 패널 너비
-use-icon-provider-option = Use Following Icon Provider
+use-icon-provider-option = 아이콘 공급자 사용
 use-icon-provider-option-google = 
     .label = Google
 use-icon-provider-option-duckduckgo = 
@@ -505,7 +505,7 @@ mouse-gesture-description = { -brand-short-name }에서 마우스 제스처를 �
 Gesturefy = 제스처피
 about-Gesturefy = Gesturefy는 브라우저에 마우스 제스처를 추가하는 확장 프로그램입니다. { -brand-short-name } 에서 이 부가 기능의 설치를 감지하면 { -brand-short-name }에서만 사용할 수 있는 제스처 명령이 Gesturefy에 추가됩니다. 또한 이 애드온은 새 탭에서 작동할 수 있습니다!
 # Translate
-TWS = Translate Web Pages
+TWS = 웹 페이지 번역
 about-TWS = Google 또는 Yandex를 사용하여 페이지를 실시간으로 번역하세요. 선택한 텍스트 또는 전체 페이지를 번역할 수도 있습니다.
 
 # Privacy Hub
