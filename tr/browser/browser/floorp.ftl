@@ -91,7 +91,7 @@ disable-extension-check-compatibility-option =
     .label = Eklentilerle uyumluluğu kontrol etmeyin
 other-preference = Diğer Tercihler
 enable-userscript = 
-    .label = Enable "userChrome.js" and "Bootstrap extensions" Loading
+    .label = Eski bileşenleri etkinleştirin
 about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
 search-positon-top = 
     .label = Display the Find Bar at the top of the page
@@ -219,7 +219,7 @@ sidebar2-pref-delete =
 sidebar2-pref-setting = 
     .label = Ayarlar
 sidebar2-global-width = Global Web Panelleri genişliği
-use-icon-provider-option = Use Following Icon Provider
+use-icon-provider-option = Simge Sağlayıcıyı Kullan
 use-icon-provider-option-google = 
     .label = Google
 use-icon-provider-option-duckduckgo = 
@@ -505,7 +505,7 @@ mouse-gesture-description = { -brand-short-name }ile fare hareketlerini kullanma
 Gesturefy = Gesturefy
 about-Gesturefy = Gesturefy, tarayıcınıza fare hareketleri ekleyen bir uzantıdır. Eğer { -brand-short-name } bu eklentinin yüklendiğini algılarsa, Gesturefy'ye sadece { -brand-short-name }adresinde bulunan hareket komutlarını ekleyecektir. Ayrıca, bu eklenti yeni sekmelerle de çalışabilir!
 # Translate
-TWS = Translate Web Pages
+TWS = Web Sayfasını Çevir
 about-TWS = Sayfanızı Google veya Yandex kullanarak gerçek zamanlı olarak çevirin. Seçili metni veya sayfanın tamamını da çevirebilirsiniz.
 
 # Privacy Hub
