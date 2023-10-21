@@ -12,7 +12,7 @@ contributors = Daftar kontributor dan Pengembang <label data-l10n-name="about-co
 pane-design-title = Desain
 category-design = 
     .tooltiptext = { pane-design-title }
-design-header = Desain
+design-header = { pane-design-title }
 feature-requires-restart = Diperlukan pengaktifan ulang untuk menerapkan perubahan
 tab-width = Lebar minimum tab
 preferences-tabs-newtab-position = Posisi Tab Baru
@@ -22,8 +22,6 @@ open-new-tab-at-the-end =
     .label = Buka tab baru di ujung Tab Bar
 open-new-tab-next-to-current = 
     .label = Membuka tab baru di samping tab yang sedang dibuka
-enable-multitab = 
-    .label = Mengaktifkan tab multi-baris
 multirow-tabs-limit = 
     .label = Mengaktifkan batas baris untuk tab multi-baris
 multirow-tabs-newtab = 
@@ -40,7 +38,7 @@ tab-sleep-settings-dialog-excludehosts-label-2 = Masukkan satu host per baris.
 tab-sleep-tab-context-menu-excludetab = Jaga Tab tetap terjaga
 enable-floorp-workspace = 
     .label = Mengaktifkan Ruang Kerja
-workspace-warring = Ruang kerja tidak dapat digunakan dengan add-on Grup Tab. Jika Anda ingin menggunakan add-on Grup Tab, nonaktifkan Ruang Kerja dan buka kembali { -brand-short-name }.
+workspace-warning = Workspaces cannot be used with Tab Group add-ons. If you want to use tab group add-ons, please disable Workspaces and restart { -brand-short-name }.
 enable-tab-scroll-change = 
     .label = Beralih tab dengan menggulir dengan mouse Anda
 enable-tab-scroll-reverse = 
@@ -51,11 +49,9 @@ enable-double-click-block =
     .label = Menutup tab saat mengklik dua kali tab tersebut
 enable-show-pinned-tabs-title = 
     .label = Menampilkan judul tab yang disematkan
-Mouse-side-button = 
-    .label = Mengoptimalkan browser untuk mouse dengan tombol samping
 tabbar-preference = Bilah Tab
-None-mode = 
-    .label = Mode normal
+tab-normal-mode = 
+    .label = Normal mode
 hide-horizontality-tabs = 
     .label = Menyembunyikan tab pada Bilah Tab Horizontal
 verticalTab-setting = 
@@ -74,11 +70,8 @@ multirow-tabbar =
     .label = Bilah Tab Beberapa Baris
 vertical-tabbar = 
     .label = Bilah Tab Vertikal (eksperimental)
-native-tabbar-tip = Pengaya bilah sisi dan bilah sisi bawaan tidak dapat digunakan secara bersamaan dengan Tab Vertikal karena memanfaatkan bilah sisi Firefox.
 native-vertical-tab-show-right = 
     .label = Tampilkan Tab Bar Vertikal di sisi kanan jendela
-hover-vertical-tab = 
-    .label = Menciutkan Bilah Tab Vertikal
 TST = Tab Gaya Pohon
 about-TST = Tree Style Tab adalah pengaya populer yang memungkinkan Anda menampilkan tab dalam struktur pohon. Floorp 10 memiliki pengaya bawaan ini. Silakan instal pengaya untuk mengembalikan Tab Gaya Pohon bawaan Floorp 10.
 treestyletab-Settings = 
@@ -89,7 +82,7 @@ bookmarks-focus-mode =
     .label = Menyembunyikan Bilah Alat Penanda kecuali jika Anda mengarahkan kursor ke bilah navigasi
 bookmarks-bottom-mode = 
     .label = Tampilkan Bilah Alat Penanda di bagian bawah { -brand-short-name }
-nav-bar-settings = Bilah alat
+navbar-settings = Navigation Bar
 show-nav-bar-bottom = 
     .label = Tampilkan Bilah Alat di bagian bawah { -brand-short-name } (eksperimental)
 material-effect = 
@@ -98,21 +91,16 @@ disable-extension-check-compatibility-option =
     .label = Jangan memeriksa kompatibilitas dengan pengaya
 other-preference = Preferensi Lainnya
 enable-userscript = 
-    .label = Mengaktifkan komponen lama
-about-legacy-components = Mengaktifkan fitur ini dapat menyebabkan bug yang tidak terduga atau kesalahan fatal.
-Search-positon-top = 
-    .label = Menampilkan Bilah Pencarian di bagian atas halaman
+    .label = Enable "userChrome.js" and "Bootstrap extensions" Loading
+about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
+search-positon-top = 
+    .label = Display the Find Bar at the top of the page
 allow-auto-restart = 
     .label = Mulai ulang secara otomatis ketika pengaturan yang memerlukan pengaktifan ulang diubah
-browser-rest-mode = 
-    .label = Mengaktifkan pintasan Mode Istirahat (F9)
+enable-rest-mode = 
+    .label = Enable Rest Mode shortcut (F9)
 disable-fullscreen-notification = 
     .label = Tidak menampilkan notifikasi saat memasuki layar penuh
-floorp-updater = { -brand-short-name } Pembaruan
-enable-floorp-updater = 
-    .label = Periksa { -brand-short-name } untuk pembaruan saat memulai
-floorp-update-latest = 
-    .label = Beri tahu saya jika { -brand-short-name } sudah diperbarui selama pemeriksaan pembaruan otomatis
 
 ## Browser Theme
 
@@ -135,8 +123,6 @@ firefox-proton-fix =
     .label = Firefox Proton Memperbaiki UI
 firefox-photon-lepton = 
     .label = Firefox Photon・Lepton UI
-floorp-legacy = 
-    .label = Floorp Legacy UI・Tidak didukung
 floorp-fluentUI = 
     .label = Microsoft Fluent UI
 floorp-fluerialUI = 
@@ -155,10 +141,6 @@ always-notify =
     .label = Memberitahukan saat memulai unduhan dan saat unduhan selesai
 do-not-notify = 
     .label = Menonaktifkan notifikasi unduhan
-floorp-translater = Pengaturan Penerjemah
-click-to-option = 
-    .label = Buka Pengaturan...
-    .accesskey = O
 
 ## Sidebar
 
@@ -169,7 +151,7 @@ appmenuitem-reboot =
 
 ## UserAgent
 
-UserAgent-preference = Agen Pengguna
+userAgent-preference = User Agent
 default-useragent-mode = 
     .label = Gunakan Agen Pengguna Firefox (Default)
 windows-chrome-useragent-mode = 
@@ -237,7 +219,7 @@ sidebar2-pref-delete =
 sidebar2-pref-setting = 
     .label = Pengaturan
 sidebar2-global-width = Lebar Panel Web Global
-use-icon-provider-option = Gunakan Penyedia Ikon
+use-icon-provider-option = Use Following Icon Provider
 use-icon-provider-option-google = 
     .label = Google
 use-icon-provider-option-duckduckgo = 
@@ -523,7 +505,7 @@ mouse-gesture-description = Gesturefy harus diinstal untuk menggunakan gerakan m
 Gesturefy = Gesturefy
 about-Gesturefy = Gesturefy adalah ekstensi yang menambahkan gerakan mouse ke peramban Anda. Jika { -brand-short-name } mendeteksi pemasangan pengaya ini, ia akan menambahkan perintah gerakan ke Gesturefy yang hanya tersedia di { -brand-short-name }. Selain itu, pengaya ini juga dapat bekerja dengan tab baru!
 # Translate
-TWS = Terjemahkan Halaman Web
+TWS = Translate Web Pages
 about-TWS = Terjemahkan halaman Anda secara real time menggunakan Google atau Yandex. Anda juga dapat menerjemahkan teks yang dipilih atau seluruh halaman.
 
 # Privacy Hub
