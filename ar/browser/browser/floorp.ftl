@@ -91,7 +91,7 @@ disable-extension-check-compatibility-option =
     .label = لا تتحقق من التوافق مع الإضافات
 other-preference = تفضيلات أخرى
 enable-userscript = 
-    .label = Enable "userChrome.js" and "Bootstrap extensions" Loading
+    .label = Enable legacy components
 about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
 search-positon-top = 
     .label = Display the Find Bar at the top of the page
@@ -219,7 +219,7 @@ sidebar2-pref-delete =
 sidebar2-pref-setting = 
     .label = الإعدادات
 sidebar2-global-width = عرض لوحات الويب العالمية
-use-icon-provider-option = Use Following Icon Provider
+use-icon-provider-option = Use Icon Provider
 use-icon-provider-option-google = 
     .label = جوجل
 use-icon-provider-option-duckduckgo = 
@@ -505,7 +505,7 @@ mouse-gesture-description = يجب تثبيت Gesturefy لاستخدام إيم�
 Gesturefy = Gesturefy
 about-Gesturefy = Gesturefy هو ملحق يضيف إيماءات الماوس إلى المتصفح الخاص بك. إذا اكتشف { -brand-short-name } تثبيت هذه الإضافة، فإنه سيضيف أوامر إيماءات إلى Gesturefy المتاحة فقط في { -brand-short-name }. أيضا، يمكن لهذه الإضافة أن تعمل مع علامات تبويب جديدة!
 # Translate
-TWS = Translate Web Pages
+TWS = Translate Web Page
 about-TWS = ترجمة صفحتك في الوقت الحقيقي باستخدام Google أو Yandex. يمكنك أيضا ترجمة النص المحدد أو الصفحة بأكملها.
 
 # Privacy Hub
