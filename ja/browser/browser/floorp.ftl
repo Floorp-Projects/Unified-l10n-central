@@ -146,15 +146,15 @@ floorp-gnomeUI =
 
 ## Download Manager
 
-download-notification-preferences = 通知をダウンロード
+download-notification-preferences = ダウンロード通知の設定
 start-always-notify = 
-    .label = ダウンロードを開始したときにのみ通知
+    .label = 開始時にのみ通知する
 finish-always-notify = 
-    .label = ダウンロードが終了したときにのみ通知
+    .label = 終了時にのみ通知する
 always-notify = 
-    .label = ダウンロードが終了したときに通知
+    .label = 開始時と終了時に通知する
 do-not-notify = 
-    .label = ダウンロード通知を無効にする
+    .label = 通知しない
 floorp-translater = 翻訳の設定
 click-to-option = 
     .label = 設定を開く...
