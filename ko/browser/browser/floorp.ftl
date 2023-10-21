@@ -12,7 +12,7 @@ contributors = <label data-l10n-name="about-contributor">기여자 및 개발자
 pane-design-title = 디자인
 category-design = 
     .tooltiptext = { pane-design-title }
-design-header = 디자인
+design-header = { pane-design-title }
 feature-requires-restart = 변경 사항을 적용하려면 재시작해야 합니다.
 tab-width = 탭의 최소 너비
 preferences-tabs-newtab-position = 새 탭 위치
@@ -22,8 +22,6 @@ open-new-tab-at-the-end =
     .label = 탭 표시줄 끝에서 새 탭 열기
 open-new-tab-next-to-current = 
     .label = 현재 탭 옆에 새 탭을 엽니다.
-enable-multitab = 
-    .label = 여러줄 탭 사용
 multirow-tabs-limit = 
     .label = 여러줄 탭에 줄 갯수 제한 사용
 multirow-tabs-newtab = 
@@ -40,7 +38,7 @@ tab-sleep-settings-dialog-excludehosts-label-2 = 한 줄에 호스트 하나를 
 tab-sleep-tab-context-menu-excludetab = 탭 깨어있기
 enable-floorp-workspace = 
     .label = 워크스페이스 사용
-workspace-warring = 탭 그룹 부가 기능에서는 워크스페이스를 사용할 수 없습니다. 탭 그룹 추가 기능을 사용하려면 작업 영역을 비활성화하고 { -brand-short-name }을 재시작하세요.
+workspace-warning = Workspaces cannot be used with Tab Group add-ons. If you want to use tab group add-ons, please disable Workspaces and restart { -brand-short-name }.
 enable-tab-scroll-change = 
     .label = 마우스로 스크롤하여 탭 전환
 enable-tab-scroll-reverse = 
@@ -51,11 +49,9 @@ enable-double-click-block =
     .label = 탭을 두 번 클릭하면 탭 닫기
 enable-show-pinned-tabs-title = 
     .label = 핀 꼽힌 탭의 제목 표시
-Mouse-side-button = 
-    .label = 사이드 버튼이 있는 마우스에 맞게 브라우저 최적화
 tabbar-preference = 탭 바
-None-mode = 
-    .label = 일반 모드
+tab-normal-mode = 
+    .label = Normal mode
 hide-horizontality-tabs = 
     .label = 가로 탭 바에서 탭 숨기기
 verticalTab-setting = 
@@ -74,11 +70,8 @@ multirow-tabbar =
     .label = 여러줄 탭 바
 vertical-tabbar = 
     .label = 세로 탭 바(실험적)
-native-tabbar-tip = 사이드바 애드온과 내장 사이드바는 세로 탭과 동시에 사용할 수 없어요. 이는 Firefox 사이드바를 활용하기 때문이예요.
 native-vertical-tab-show-right = 
     .label = 창 오른쪽에 세로 탭 표시줄 표시
-hover-vertical-tab = 
-    .label = 세로 탭 바 접기
 TST = 트리 스타일 탭
 about-TST = 트리 스타일 탭은 탭을 트리 구조로 표시할 수 있는 인기 있는 애드온입니다. Floorp 10에는 이 애드온이 내장되어 있습니다. 애드온을 설치하여 Floorp 10에 내장된 트리 스타일 탭을 복원하세요.
 treestyletab-Settings = 
@@ -89,7 +82,7 @@ bookmarks-focus-mode =
     .label = 탐색 모음 위로 마우스를 가져가지 않는 한 북마크 도구 모음 숨기기
 bookmarks-bottom-mode = 
     .label = { -brand-short-name }하단에 북마크 툴바를 표시합니다.
-nav-bar-settings = 툴바
+navbar-settings = Navigation Bar
 show-nav-bar-bottom = 
     .label = { -brand-short-name } 하단에 툴바 표시(실험적)
 material-effect = 
@@ -98,21 +91,16 @@ disable-extension-check-compatibility-option =
     .label = 애드온과의 호환성을 확인하지 않기
 other-preference = 기타 설정
 enable-userscript = 
-    .label = 레거시 구성 요소 사용
-about-legacy-components = 이 기능을 활성화하면 예기치 않은 버그나 치명적인 오류가 발생할 수 있습니다.
-Search-positon-top = 
-    .label = 페이지 상단에 찾기 표시줄을 표시합니다.
+    .label = Enable "userChrome.js" and "Bootstrap extensions" Loading
+about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
+search-positon-top = 
+    .label = Display the Find Bar at the top of the page
 allow-auto-restart = 
     .label = 재시작이 필요한 설정이 변경되면 자동으로 재시작하기
-browser-rest-mode = 
-    .label = 휴식 모드 바로 가기 활성화(F9)
+enable-rest-mode = 
+    .label = Enable Rest Mode shortcut (F9)
 disable-fullscreen-notification = 
     .label = 전체 화면으로 전환할 때 알림을 표시하지 않음
-floorp-updater = { -brand-short-name } 업데이트
-enable-floorp-updater = 
-    .label = 시작 시 { -brand-short-name } 업데이트 확인
-floorp-update-latest = 
-    .label = 자동 업데이트 확인 시 { -brand-short-name } 가 최신 상태인지 알리기
 
 ## Browser Theme
 
@@ -135,8 +123,6 @@ firefox-proton-fix =
     .label = Firefox Proton Fix UI
 firefox-photon-lepton = 
     .label = Firefox Photon・Lepton UI
-floorp-legacy = 
-    .label = Floorp 레거시 UI・미지원
 floorp-fluentUI = 
     .label = Microsoft Fluent UI
 floorp-fluerialUI = 
@@ -155,10 +141,6 @@ always-notify =
     .label = 다운로드 시작 시점과 다운로드 완료 시점 알림
 do-not-notify = 
     .label = 다운로드 알림 비활성화
-floorp-translater = 번역기 설정
-click-to-option = 
-    .label = 설정 열기...
-    .accesskey = O
 
 ## Sidebar
 
@@ -169,7 +151,7 @@ appmenuitem-reboot =
 
 ## UserAgent
 
-UserAgent-preference = 사용자 에이전트
+userAgent-preference = User Agent
 default-useragent-mode = 
     .label = Firefox 사용자 에이전트 사용(기본값)
 windows-chrome-useragent-mode = 
@@ -237,7 +219,7 @@ sidebar2-pref-delete =
 sidebar2-pref-setting = 
     .label = 설정
 sidebar2-global-width = 글로벌 웹 패널 너비
-use-icon-provider-option = 아이콘 공급자 사용
+use-icon-provider-option = Use Following Icon Provider
 use-icon-provider-option-google = 
     .label = Google
 use-icon-provider-option-duckduckgo = 
@@ -523,7 +505,7 @@ mouse-gesture-description = { -brand-short-name }에서 마우스 제스처를 �
 Gesturefy = 제스처피
 about-Gesturefy = Gesturefy는 브라우저에 마우스 제스처를 추가하는 확장 프로그램입니다. { -brand-short-name } 에서 이 부가 기능의 설치를 감지하면 { -brand-short-name }에서만 사용할 수 있는 제스처 명령이 Gesturefy에 추가됩니다. 또한 이 애드온은 새 탭에서 작동할 수 있습니다!
 # Translate
-TWS = 웹 페이지 번역
+TWS = Translate Web Pages
 about-TWS = Google 또는 Yandex를 사용하여 페이지를 실시간으로 번역하세요. 선택한 텍스트 또는 전체 페이지를 번역할 수도 있습니다.
 
 # Privacy Hub
