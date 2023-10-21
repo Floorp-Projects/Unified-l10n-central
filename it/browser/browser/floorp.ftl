@@ -12,7 +12,7 @@ contributors = Un elenco di <label data-l10n-name="about-contributor">contributo
 pane-design-title = Design
 category-design = 
     .tooltiptext = { pane-design-title }
-design-header = Design
+design-header = { pane-design-title }
 feature-requires-restart = Per applicare le modifiche è necessario un riavvio
 tab-width = Larghezza minima delle schede
 preferences-tabs-newtab-position = Nuova posizione scheda
@@ -22,8 +22,6 @@ open-new-tab-at-the-end =
     .label = Apri nuove schede alla fine della barra delle schede
 open-new-tab-next-to-current = 
     .label = Apre nuove schede accanto alla scheda corrente
-enable-multitab = 
-    .label = Abilita schede multi-riga
 multirow-tabs-limit = 
     .label = Abilita il limite di riga per le schede multi-riga
 multirow-tabs-newtab = 
@@ -40,7 +38,7 @@ tab-sleep-settings-dialog-excludehosts-label-2 = Inserisci un host per riga.
 tab-sleep-tab-context-menu-excludetab = Mantieni la scheda attiva
 enable-floorp-workspace = 
     .label = Abilita Workspace
-workspace-warring = I workspace non possono essere usati con i componenti aggiuntivi del gruppo di schede. Se si desidera utilizzare componenti aggiuntivi del gruppo di schede, disabilitare i workspace e riavviare { -brand-short-name }.
+workspace-warning = Workspaces cannot be used with Tab Group add-ons. If you want to use tab group add-ons, please disable Workspaces and restart { -brand-short-name }.
 enable-tab-scroll-change = 
     .label = Cambia schede scorrendo con il mouse
 enable-tab-scroll-reverse = 
@@ -51,11 +49,9 @@ enable-double-click-block =
     .label = Chiudi le schede quando fai doppio clic
 enable-show-pinned-tabs-title = 
     .label = Mostra il titolo delle schede bloccate
-Mouse-side-button = 
-    .label = Ottimizza il browser per il mouse con i pulsanti laterali
 tabbar-preference = Barra Delle Schede
-None-mode = 
-    .label = Modalità normale
+tab-normal-mode = 
+    .label = Normal mode
 hide-horizontality-tabs = 
     .label = Nascondi le schede nella barra delle schede orizzontale
 verticalTab-setting = 
@@ -74,11 +70,8 @@ multirow-tabbar =
     .label = Barra Multi-Row Tab
 vertical-tabbar = 
     .label = Barra Verticale Delle Schede (sperimentale)
-native-tabbar-tip = I componenti aggiuntivi della barra laterale e le barre laterali interne non possono essere utilizzati contemporaneamente alle schede verticali in quanto questa leva la barra laterale di Firefox.
 native-vertical-tab-show-right = 
     .label = Mostra la barra delle schede verticali sul lato destro della finestra
-hover-vertical-tab = 
-    .label = Comprimi Barra Verticale
 TST = Scheda Stile Albero
 about-TST = Tree Style Tab è un popolare add-on che consente di visualizzare le schede in una struttura ad albero. Floorp 10 ha un incorporato questo add-on. Si prega di installare l'add-on ripristinare Floorp 10 integrato Tree Style Tab.
 treestyletab-Settings = 
@@ -89,7 +82,7 @@ bookmarks-focus-mode =
     .label = Nascondi la barra dei segnalibri a meno che non si passi sopra la barra di navigazione
 bookmarks-bottom-mode = 
     .label = Mostra la barra dei segnalibri in fondo a { -brand-short-name }
-nav-bar-settings = Barra Strumenti
+navbar-settings = Navigation Bar
 show-nav-bar-bottom = 
     .label = Mostra la barra degli strumenti in fondo a { -brand-short-name } (sperimentale)
 material-effect = 
@@ -98,21 +91,16 @@ disable-extension-check-compatibility-option =
     .label = Non verificare la compatibilità con componenti aggiuntivi
 other-preference = Altre Preferenze
 enable-userscript = 
-    .label = Abilita componenti legacy
-about-legacy-components = Abilitare questa funzione può causare bug inattesi o errori fatali.
-Search-positon-top = 
-    .label = Mostra la barra Trova nella parte superiore della pagina
+    .label = Enable "userChrome.js" and "Bootstrap extensions" Loading
+about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
+search-positon-top = 
+    .label = Display the Find Bar at the top of the page
 allow-auto-restart = 
     .label = Riavvia automaticamente quando le impostazioni che richiedono un riavvio vengono modificate
-browser-rest-mode = 
-    .label = Abilita scorciatoia modalità riposo (F9)
+enable-rest-mode = 
+    .label = Enable Rest Mode shortcut (F9)
 disable-fullscreen-notification = 
     .label = Non mostrare una notifica quando si entra a schermo intero
-floorp-updater = Aggiornamenti { -brand-short-name }
-enable-floorp-updater = 
-    .label = Controlla gli aggiornamenti di { -brand-short-name } all'avvio
-floorp-update-latest = 
-    .label = Avvisami se { -brand-short-name } è aggiornato durante i controlli di aggiornamento automatici
 
 ## Browser Theme
 
@@ -135,8 +123,6 @@ firefox-proton-fix =
     .label = Firefox Proton Correzione UI
 firefox-photon-lepton = 
     .label = Firefox Photon◆ Lepton UI
-floorp-legacy = 
-    .label = Floorp Legacy UI<unk> Non Supportato
 floorp-fluentUI = 
     .label = Microsoft Fluent UI
 floorp-fluerialUI = 
@@ -155,10 +141,6 @@ always-notify =
     .label = Notifica quando si avviano i download e quando finisce un download
 do-not-notify = 
     .label = Disabilita le notifiche di download
-floorp-translater = Impostazioni Traduttore
-click-to-option = 
-    .label = Apri Impostazioni...
-    .accesskey = O
 
 ## Sidebar
 
@@ -169,7 +151,7 @@ appmenuitem-reboot =
 
 ## UserAgent
 
-UserAgent-preference = User Agent
+userAgent-preference = User Agent
 default-useragent-mode = 
     .label = Usa Firefox User Agent (Predefinito)
 windows-chrome-useragent-mode = 
@@ -237,7 +219,7 @@ sidebar2-pref-delete =
 sidebar2-pref-setting = 
     .label = Impostazioni
 sidebar2-global-width = Larghezza pannello Web globale
-use-icon-provider-option = Usa Provider Icone
+use-icon-provider-option = Use Following Icon Provider
 use-icon-provider-option-google = 
     .label = Google
 use-icon-provider-option-duckduckgo = 
@@ -523,7 +505,7 @@ mouse-gesture-description = Gesturefy deve essere installato per usare i gesti d
 Gesturefy = Gesturefy
 about-Gesturefy = Gesturefy è un'estensione che aggiunge i gesti del mouse al browser. Se { -brand-short-name } rileva l'installazione di questo add-on, aggiungerà i comandi di gesture a Gesturefy che sono disponibili solo in { -brand-short-name }. Inoltre, questo componente aggiuntivo può funzionare con nuove schede!
 # Translate
-TWS = Traduci Pagina Web
+TWS = Translate Web Pages
 about-TWS = Traduci la tua pagina in tempo reale usando Google o Yandex. Puoi anche tradurre il testo selezionato o l'intera pagina.
 
 # Privacy Hub
