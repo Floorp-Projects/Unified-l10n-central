@@ -12,7 +12,7 @@ contributors = <label data-l10n-name="about-contributor">投稿者和开发者�
 pane-design-title = 设计
 category-design = 
     .tooltiptext = { pane-design-title }
-design-header = 设计
+design-header = { pane-design-title }
 feature-requires-restart = 需要重启以应用更改
 tab-width = 标签的最小宽度
 preferences-tabs-newtab-position = 新标签位置
@@ -22,8 +22,6 @@ open-new-tab-at-the-end =
     .label = 在标签栏末尾打开新标签页
 open-new-tab-next-to-current = 
     .label = 打开当前标签页旁边的新标签
-enable-multitab = 
-    .label = 启用多行标签
 multirow-tabs-limit = 
     .label = 对多行标签启用行限制
 multirow-tabs-newtab = 
@@ -40,7 +38,7 @@ tab-sleep-settings-dialog-excludehosts-label-2 = 每行输入一个主机。
 tab-sleep-tab-context-menu-excludetab = 保持标签唤醒
 enable-floorp-workspace = 
     .label = 启用工作区
-workspace-warring = 工作区不能与选项卡组加载项一起使用。如果要使用标签组加载项，请禁用 Workspaces 并重新启动 { -brand-short-name }。
+workspace-warning = Workspaces cannot be used with Tab Group add-ons. If you want to use tab group add-ons, please disable Workspaces and restart { -brand-short-name }.
 enable-tab-scroll-change = 
     .label = 用鼠标滚动切换标签
 enable-tab-scroll-reverse = 
@@ -51,11 +49,9 @@ enable-double-click-block =
     .label = 双击时关闭标签
 enable-show-pinned-tabs-title = 
     .label = 显示置顶标签的标题
-Mouse-side-button = 
-    .label = 鼠标使用侧边按钮优化浏览器
 tabbar-preference = 标签栏
-None-mode = 
-    .label = 正常模式
+tab-normal-mode = 
+    .label = Normal mode
 hide-horizontality-tabs = 
     .label = 在水平标签栏上隐藏标签
 verticalTab-setting = 
@@ -74,11 +70,8 @@ multirow-tabbar =
     .label = 多行标签栏
 vertical-tabbar = 
     .label = 垂直标签栏(实验性)
-native-tabbar-tip = 侧边栏附加组件和内置侧边栏不能与垂直标签页同时使用，因为它能带上Firefox侧边栏。
 native-vertical-tab-show-right = 
     .label = 在窗口右侧显示垂直标签栏
-hover-vertical-tab = 
-    .label = 折叠垂直标签栏
 TST = 树样式选项卡
 about-TST = Tree Style Tab 是一个受欢迎的附加组件，允许您在树形结构中显示标签页。 Floorp 10 有一个内置的附加组件。请安装附加组件恢复Floorp 10的内置树样式表。
 treestyletab-Settings = 
@@ -89,7 +82,7 @@ bookmarks-focus-mode =
     .label = 隐藏书签工具栏，除非悬停在导航栏上
 bookmarks-bottom-mode = 
     .label = 在 { -brand-short-name }底部显示书签工具栏
-nav-bar-settings = 工具栏
+navbar-settings = Navigation Bar
 show-nav-bar-bottom = 
     .label = 在 { -brand-short-name } 底部显示工具栏（试验性的）
 material-effect = 
@@ -98,21 +91,16 @@ disable-extension-check-compatibility-option =
     .label = 不要检查与附加组件的兼容性
 other-preference = 其他首选项
 enable-userscript = 
-    .label = 启用旧组件
-about-legacy-components = 启用此功能可能会导致意外的错误或致命错误。
-Search-positon-top = 
-    .label = 在页面顶部显示查找栏
+    .label = Enable "userChrome.js" and "Bootstrap extensions" Loading
+about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
+search-positon-top = 
+    .label = Display the Find Bar at the top of the page
 allow-auto-restart = 
     .label = 当需要重启的设置被更改时自动重启
-browser-rest-mode = 
-    .label = 启用休息模式快捷方式 (F9)
+enable-rest-mode = 
+    .label = Enable Rest Mode shortcut (F9)
 disable-fullscreen-notification = 
     .label = 进入全屏时不显示通知
-floorp-updater = { -brand-short-name } 更新
-enable-floorp-updater = 
-    .label = 启动时检查 { -brand-short-name } 更新
-floorp-update-latest = 
-    .label = 在自动更新检查过程中，如果 { -brand-short-name } 已是最新版本，请通知我
 
 ## Browser Theme
 
@@ -135,8 +123,6 @@ firefox-proton-fix =
     .label = Firefox Proton 修复界面
 firefox-photon-lepton = 
     .label = Firefox Photon・ Lepton UI
-floorp-legacy = 
-    .label = Floorp 旧版UI・ 不支持
 floorp-fluentUI = 
     .label = Microsoft Fluent UI
 floorp-fluerialUI = 
@@ -155,10 +141,6 @@ always-notify =
     .label = 开始下载和下载完成时通知
 do-not-notify = 
     .label = 禁用下载通知
-floorp-translater = 翻译器设置
-click-to-option = 
-    .label = 打开设置...
-    .accesskey = O
 
 ## Sidebar
 
@@ -169,7 +151,7 @@ appmenuitem-reboot =
 
 ## UserAgent
 
-UserAgent-preference = 用户代理
+userAgent-preference = User Agent
 default-useragent-mode = 
     .label = 使用 Firefox 用户代理 (默认)
 windows-chrome-useragent-mode = 
@@ -237,7 +219,7 @@ sidebar2-pref-delete =
 sidebar2-pref-setting = 
     .label = 设置
 sidebar2-global-width = 全局网页宽度
-use-icon-provider-option = 使用图标提供商
+use-icon-provider-option = Use Following Icon Provider
 use-icon-provider-option-google = 
     .label = Google
 use-icon-provider-option-duckduckgo = 
@@ -523,7 +505,7 @@ mouse-gesture-description = 要在 { -brand-short-name }中使用鼠标手势，
 Gesturefy = Gesturefy
 about-Gesturefy = Gesturefy 是一款可在浏览器中添加鼠标手势的扩展程序。如果 { -brand-short-name } 检测到安装了此附加组件，它将为 Gesturefy 添加仅在 { -brand-short-name }中可用的手势命令。此外，该附加组件还可用于新标签页！
 # Translate
-TWS = 翻译网页
+TWS = Translate Web Pages
 about-TWS = 使用Google或Yandex实时翻译您的页面。您也可以翻译选定的文本或整个页面。
 
 # Privacy Hub
