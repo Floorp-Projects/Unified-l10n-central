@@ -12,7 +12,7 @@ contributors = Eine Liste von <label data-l10n-name="about-contributor">Mitwirke
 pane-design-title = Design
 category-design = 
     .tooltiptext = { pane-design-title }
-design-header = Design
+design-header = { pane-design-title }
 feature-requires-restart = Ein Neustart ist erforderlich, um die Änderungen zu übernehmen
 tab-width = Minimale Breite der Tabs
 preferences-tabs-newtab-position = Neue Tab-Position
@@ -22,8 +22,6 @@ open-new-tab-at-the-end =
     .label = Neue Tabs am Ende der Tableiste öffnen
 open-new-tab-next-to-current = 
     .label = Neue Tabs neben dem aktuellen Tab öffnen
-enable-multitab = 
-    .label = Mehrere Tabs aktivieren
 multirow-tabs-limit = 
     .label = Zeilenlimit für mehrere Tabs aktivieren
 multirow-tabs-newtab = 
@@ -40,7 +38,7 @@ tab-sleep-settings-dialog-excludehosts-label-2 = Geben Sie einen Host pro Zeile 
 tab-sleep-tab-context-menu-excludetab = Tab wach halten
 enable-floorp-workspace = 
     .label = Arbeitsbereiche aktivieren
-workspace-warring = Arbeitsbereiche können nicht mit Tab-Gruppen-Add-ons verwendet werden. Wenn Sie Tab-Gruppen-Add-ons verwenden möchten, deaktivieren Sie bitte Arbeitsbereiche und starten Sie { -brand-short-name } neu.
+workspace-warning = Workspaces cannot be used with Tab Group add-ons. If you want to use tab group add-ons, please disable Workspaces and restart { -brand-short-name }.
 enable-tab-scroll-change = 
     .label = Tabs durch Scrollen mit der Maus wechseln
 enable-tab-scroll-reverse = 
@@ -51,11 +49,9 @@ enable-double-click-block =
     .label = Tabs mit Doppelklick schließen
 enable-show-pinned-tabs-title = 
     .label = Titel der angepinnten Tabs anzeigen
-Mouse-side-button = 
-    .label = Browser für Maus mit Seitenknöpfen optimieren
 tabbar-preference = Tableiste
-None-mode = 
-    .label = Normaler Modus
+tab-normal-mode = 
+    .label = Normal mode
 hide-horizontality-tabs = 
     .label = Tabs in der horizontalen Tableiste ausblenden
 verticalTab-setting = 
@@ -74,11 +70,8 @@ multirow-tabbar =
     .label = Mehrere Zeilen Tab Bar
 vertical-tabbar = 
     .label = Vertikale Tab Leiste (experimentell)
-native-tabbar-tip = Sidebar Add-ons und eingebaute Sidebars können nicht zur gleichen Zeit wie vertikale Tabs verwendet werden, da dies die Firefox-Sidebar nutzt.
 native-vertical-tab-show-right = 
     .label = Vertikale Registerleiste auf der rechten Seite des Fensters anzeigen
-hover-vertical-tab = 
-    .label = Vertikale Tableiste einklappen
 TST = Tree Style Tab
 about-TST = Tree Style Tab ist ein beliebtes Add-on, mit dem Sie Tabs in einer Baumstruktur anzeigen können. Floorp 10 hat ein integriertes Add-on. Bitte installieren Sie das Add-on Floorp 10 im integrierten Tree Style Tab wiederherstellen.
 treestyletab-Settings = 
@@ -89,7 +82,7 @@ bookmarks-focus-mode =
     .label = Lesezeichen-Symbolleiste ausblenden, wenn nicht über der Navigationsleiste gefahren wird
 bookmarks-bottom-mode = 
     .label = Lesezeichen-Symbolleiste am unteren Rand von { -brand-short-name } anzeigen
-nav-bar-settings = Symbolleiste
+navbar-settings = Navigation Bar
 show-nav-bar-bottom = 
     .label = Symbolleiste am unteren Rand von { -brand-short-name } (experimentell) anzeigen
 material-effect = 
@@ -98,21 +91,16 @@ disable-extension-check-compatibility-option =
     .label = Nicht auf Kompatibilität mit Add-ons prüfen
 other-preference = Andere Einstellungen
 enable-userscript = 
-    .label = Alte Komponenten aktivieren
-about-legacy-components = Das Aktivieren dieser Funktion kann zu unerwarteten Fehlern oder fatalen Fehlern führen.
-Search-positon-top = 
-    .label = Suchleiste oben auf der Seite anzeigen
+    .label = Enable "userChrome.js" and "Bootstrap extensions" Loading
+about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
+search-positon-top = 
+    .label = Display the Find Bar at the top of the page
 allow-auto-restart = 
     .label = Automatisch neu starten, wenn Einstellungen geändert werden
-browser-rest-mode = 
-    .label = Ruhemodus Verknüpfung aktivieren (F9)
+enable-rest-mode = 
+    .label = Enable Rest Mode shortcut (F9)
 disable-fullscreen-notification = 
     .label = Keine Benachrichtigung beim Eintritt in den Vollbild anzeigen
-floorp-updater = { -brand-short-name } Updates
-enable-floorp-updater = 
-    .label = Beim Start nach { -brand-short-name } Updates suchen
-floorp-update-latest = 
-    .label = Benachrichtigen Sie mich, wenn { -brand-short-name } bei automatischen Update-Prüfungen aktuell ist
 
 ## Browser Theme
 
@@ -135,8 +123,6 @@ firefox-proton-fix =
     .label = Firefox Proton Fix UI
 firefox-photon-lepton = 
     .label = Firefox-Photon Lepton UI
-floorp-legacy = 
-    .label = Floorp Legacy UI nicht unterstützt
 floorp-fluentUI = 
     .label = Microsoft Fluent UI
 floorp-fluerialUI = 
@@ -155,10 +141,6 @@ always-notify =
     .label = Benachrichtigen, wenn Downloads gestartet werden und wenn ein Download beendet ist
 do-not-notify = 
     .label = Download-Benachrichtigungen deaktivieren
-floorp-translater = Übersetzereinstellungen
-click-to-option = 
-    .label = Einstellungen öffnen...
-    .accesskey = O
 
 ## Sidebar
 
@@ -169,7 +151,7 @@ appmenuitem-reboot =
 
 ## UserAgent
 
-UserAgent-preference = User-Agent
+userAgent-preference = User Agent
 default-useragent-mode = 
     .label = Firefox User Agent verwenden (Standard)
 windows-chrome-useragent-mode = 
@@ -237,7 +219,7 @@ sidebar2-pref-delete =
 sidebar2-pref-setting = 
     .label = Einstellungen
 sidebar2-global-width = Breite der globalen Web-Panels
-use-icon-provider-option = Icon-Anbieter verwenden
+use-icon-provider-option = Use Following Icon Provider
 use-icon-provider-option-google = 
     .label = Google
 use-icon-provider-option-duckduckgo = 
@@ -523,7 +505,7 @@ mouse-gesture-description = Gesturefy muss installiert sein, um Mausgesten mit {
 Gesturefy = Gesturefy
 about-Gesturefy = Gesturefy ist eine Erweiterung, die Mausgesten zu Ihrem Browser hinzufügt. Wenn { -brand-short-name } die Installation dieses Add-ons entdeckt, werden Gesten Befehle hinzugefügt, die nur in { -brand-short-name }verfügbar sind. Auch dieses Add-on kann mit neuen Tabs funktionieren!
 # Translate
-TWS = Webseite übersetzen
+TWS = Translate Web Pages
 about-TWS = Übersetzen Sie Ihre Seite in Echtzeit mit Google oder Yandex. Sie können auch den ausgewählten Text oder die gesamte Seite übersetzen.
 
 # Privacy Hub
