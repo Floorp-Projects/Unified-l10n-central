@@ -12,7 +12,7 @@ contributors = <label data-l10n-name="about-contributor">'a katkıda bulunanlar�
 pane-design-title = Tasarım
 category-design = 
     .tooltiptext = { pane-design-title }
-design-header = Tasarım
+design-header = { pane-design-title }
 feature-requires-restart = Değişiklikleri uygulamak için yeniden başlatma gerekir
 tab-width = Sekmelerin minimum genişliği
 preferences-tabs-newtab-position = Yeni Sekme konumu
@@ -22,8 +22,6 @@ open-new-tab-at-the-end =
     .label = Sekme Çubuğunun sonunda yeni sekmeler açma
 open-new-tab-next-to-current = 
     .label = Geçerli sekmenin yanında yeni sekmeler açma
-enable-multitab = 
-    .label = Çok satırlı sekmeleri etkinleştirme
 multirow-tabs-limit = 
     .label = Çok satırlı sekmeler için satır sınırını etkinleştirme
 multirow-tabs-newtab = 
@@ -40,7 +38,7 @@ tab-sleep-settings-dialog-excludehosts-label-2 = Her satıra bir ana bilgisayar 
 tab-sleep-tab-context-menu-excludetab = Tab'ı uyanık tutun
 enable-floorp-workspace = 
     .label = Çalışma Alanlarını Etkinleştir
-workspace-warring = Çalışma Alanları Sekme Grubu eklentileriyle kullanılamaz. Sekme grubu eklentilerini kullanmak istiyorsanız, lütfen Çalışma Alanlarını devre dışı bırakın ve { -brand-short-name }adresini yeniden başlatın.
+workspace-warning = Workspaces cannot be used with Tab Group add-ons. If you want to use tab group add-ons, please disable Workspaces and restart { -brand-short-name }.
 enable-tab-scroll-change = 
     .label = Farenizle kaydırarak sekmeleri değiştirin
 enable-tab-scroll-reverse = 
@@ -51,11 +49,9 @@ enable-double-click-block =
     .label = Çift tıklandığında sekmeleri kapatma
 enable-show-pinned-tabs-title = 
     .label = Sabitlenmiş sekmelerin başlığını göster
-Mouse-side-button = 
-    .label = Tarayıcıyı yan düğmeli fare için optimize edin
 tabbar-preference = Sekme Çubuğu
-None-mode = 
-    .label = Normal mod
+tab-normal-mode = 
+    .label = Normal mode
 hide-horizontality-tabs = 
     .label = Yatay Sekme Çubuğundaki sekmeleri gizleme
 verticalTab-setting = 
@@ -74,11 +70,8 @@ multirow-tabbar =
     .label = Çok Satırlı Sekme Çubuğu
 vertical-tabbar = 
     .label = Dikey Sekme Çubuğu (deneysel)
-native-tabbar-tip = Kenar çubuğu eklentileri ve yerleşik kenar çubukları Dikey Sekmeler ile aynı anda kullanılamaz çünkü bu Firefox kenar çubuğundan yararlanır.
 native-vertical-tab-show-right = 
     .label = Pencerenin sağ tarafında Dikey Sekme Çubuğunu Göster
-hover-vertical-tab = 
-    .label = Dikey Sekme Çubuğunu Daralt
 TST = Ağaç Stili Sekmesi
 about-TST = Ağaç Stili Sekme, sekmeleri bir ağaç yapısında görüntülemenizi sağlayan popüler bir eklentidir. Floorp 10'da bu eklenti yerleşiktir. Lütfen eklentiyi yükleyerek Floorp 10'un yerleşik Ağaç Stili Sekmesini geri yükleyin.
 treestyletab-Settings = 
@@ -89,7 +82,7 @@ bookmarks-focus-mode =
     .label = Gezinme çubuğunun üzerine gelinmediği sürece Yer İmleri Araç Çubuğunu gizleme
 bookmarks-bottom-mode = 
     .label = Yer İmleri Araç Çubuğunu { -brand-short-name }adresinin altında gösterin
-nav-bar-settings = Araç Çubuğu
+navbar-settings = Navigation Bar
 show-nav-bar-bottom = 
     .label = Araç Çubuğunu { -brand-short-name } adresinin altında gösterin (deneysel)
 material-effect = 
@@ -98,21 +91,16 @@ disable-extension-check-compatibility-option =
     .label = Eklentilerle uyumluluğu kontrol etmeyin
 other-preference = Diğer Tercihler
 enable-userscript = 
-    .label = Eski bileşenleri etkinleştirin
-about-legacy-components = Bu özelliğin etkinleştirilmesi beklenmedik hatalara veya ölümcül hatalara neden olabilir.
-Search-positon-top = 
-    .label = Sayfanın üst kısmında Bulma Çubuğunu görüntüleme
+    .label = Enable "userChrome.js" and "Bootstrap extensions" Loading
+about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
+search-positon-top = 
+    .label = Display the Find Bar at the top of the page
 allow-auto-restart = 
     .label = Yeniden başlatma gerektiren ayarlar değiştirildiğinde otomatik olarak yeniden başlatma
-browser-rest-mode = 
-    .label = Dinlenme Modu kısayolunu etkinleştir (F9)
+enable-rest-mode = 
+    .label = Enable Rest Mode shortcut (F9)
 disable-fullscreen-notification = 
     .label = Tam ekrana girerken bildirim gösterme
-floorp-updater = { -brand-short-name } Güncellemeler
-enable-floorp-updater = 
-    .label = Başlangıçta { -brand-short-name } güncellemelerini kontrol edin
-floorp-update-latest = 
-    .label = Otomatik güncelleme kontrolleri sırasında { -brand-short-name } 'un güncel olup olmadığını bana bildir
 
 ## Browser Theme
 
@@ -135,8 +123,6 @@ firefox-proton-fix =
     .label = Firefox Proton Düzeltme Kullanıcı Arayüzü
 firefox-photon-lepton = 
     .label = Firefox Photon ・ Lepton Kullanıcı Arayüzü
-floorp-legacy = 
-    .label = Floorp Eski Kullanıcı Arayüzü ・ Desteklenmiyor
 floorp-fluentUI = 
     .label = Microsoft Fluent UI
 floorp-fluerialUI = 
@@ -155,10 +141,6 @@ always-notify =
     .label = İndirmeler başladığında ve bir indirme bittiğinde bildirimde bulunun
 do-not-notify = 
     .label = İndirme bildirimlerini devre dışı bırakma
-floorp-translater = Çevirmen Ayarları
-click-to-option = 
-    .label = Ayarlar'ı açın...
-    .accesskey = O
 
 ## Sidebar
 
@@ -169,7 +151,7 @@ appmenuitem-reboot =
 
 ## UserAgent
 
-UserAgent-preference = Kullanıcı Aracısı
+userAgent-preference = User Agent
 default-useragent-mode = 
     .label = Firefox Kullanıcı Aracısını Kullan (Varsayılan)
 windows-chrome-useragent-mode = 
@@ -237,7 +219,7 @@ sidebar2-pref-delete =
 sidebar2-pref-setting = 
     .label = Ayarlar
 sidebar2-global-width = Global Web Panelleri genişliği
-use-icon-provider-option = Simge Sağlayıcıyı Kullan
+use-icon-provider-option = Use Following Icon Provider
 use-icon-provider-option-google = 
     .label = Google
 use-icon-provider-option-duckduckgo = 
@@ -523,7 +505,7 @@ mouse-gesture-description = { -brand-short-name }ile fare hareketlerini kullanma
 Gesturefy = Gesturefy
 about-Gesturefy = Gesturefy, tarayıcınıza fare hareketleri ekleyen bir uzantıdır. Eğer { -brand-short-name } bu eklentinin yüklendiğini algılarsa, Gesturefy'ye sadece { -brand-short-name }adresinde bulunan hareket komutlarını ekleyecektir. Ayrıca, bu eklenti yeni sekmelerle de çalışabilir!
 # Translate
-TWS = Web Sayfasını Çevir
+TWS = Translate Web Pages
 about-TWS = Sayfanızı Google veya Yandex kullanarak gerçek zamanlı olarak çevirin. Seçili metni veya sayfanın tamamını da çevirebilirsiniz.
 
 # Privacy Hub
