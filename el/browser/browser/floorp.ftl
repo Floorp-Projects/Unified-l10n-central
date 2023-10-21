@@ -12,7 +12,7 @@ contributors = Μια λίστα με <label data-l10n-name="about-contributor">
 pane-design-title = Σχεδιασμός
 category-design = 
     .tooltiptext = { pane-design-title }
-design-header = Σχεδιασμός
+design-header = { pane-design-title }
 feature-requires-restart = Απαιτείται επανεκκίνηση για να εφαρμοστούν οι αλλαγές
 tab-width = Ελάχιστο πλάτος καρτελών
 preferences-tabs-newtab-position = Νέα θέση καρτέλας
@@ -22,8 +22,6 @@ open-new-tab-at-the-end =
     .label = Άνοιγμα νέων καρτελών στο τέλος της γραμμής καρτέλας
 open-new-tab-next-to-current = 
     .label = Άνοιγμα νέων καρτελών δίπλα στην τρέχουσα καρτέλα
-enable-multitab = 
-    .label = Ενεργοποίηση καρτελών πολλαπλών γραμμών
 multirow-tabs-limit = 
     .label = Ενεργοποίηση ορίου γραμμών για καρτέλες πολλαπλών γραμμών
 multirow-tabs-newtab = 
@@ -40,7 +38,7 @@ tab-sleep-settings-dialog-excludehosts-label-2 = Εισάγετε έναν κε�
 tab-sleep-tab-context-menu-excludetab = Διατήρηση της καρτέλας ενεργής
 enable-floorp-workspace = 
     .label = Ενεργοποίηση Χώρων Εργασίας
-workspace-warring = Οι χώροι εργασίας δεν μπορούν να χρησιμοποιηθούν με πρόσθετα ομάδας καρτελών. Αν θέλετε να χρησιμοποιήσετε πρόσθετα ομάδας, απενεργοποιήστε τους χώρους εργασίας και επανεκκινήστε το { -brand-short-name }.
+workspace-warning = Workspaces cannot be used with Tab Group add-ons. If you want to use tab group add-ons, please disable Workspaces and restart { -brand-short-name }.
 enable-tab-scroll-change = 
     .label = Εναλλαγή καρτελών μετακινώντας με το ποντίκι σας
 enable-tab-scroll-reverse = 
@@ -51,11 +49,9 @@ enable-double-click-block =
     .label = Κλείσιμο καρτελών όταν κάνετε διπλό κλικ σε
 enable-show-pinned-tabs-title = 
     .label = Εμφάνιση τίτλου καρφιτσωμένων καρτελών
-Mouse-side-button = 
-    .label = Βελτιστοποίηση του προγράμματος περιήγησης ποντικιού με πλευρικά πλήκτρα
 tabbar-preference = Γραμμή Καρτελών
-None-mode = 
-    .label = Κανονική λειτουργία
+tab-normal-mode = 
+    .label = Normal mode
 hide-horizontality-tabs = 
     .label = Απόκρυψη καρτελών στην οριζόντια γραμμή καρτελών
 verticalTab-setting = 
@@ -74,11 +70,8 @@ multirow-tabbar =
     .label = Γραμμή Καρτέλας Πολλαπλών Γραμμών
 vertical-tabbar = 
     .label = Κάθετη Γραμμή Καρτελών (Πειραματικό)
-native-tabbar-tip = Τα πρόσθετα πλευρικής μπάρας και οι ενσωματωμένες πλαϊνές μπάρες δεν μπορούν να χρησιμοποιηθούν ταυτόχρονα με τις Κάθετες Καρτέλες, καθώς αυτό αξιοποιεί την πλαϊνή μπάρα του Firefox.
 native-vertical-tab-show-right = 
     .label = Εμφάνιση κατακόρυφης γραμμής καρτέλας στη δεξιά πλευρά του παραθύρου
-hover-vertical-tab = 
-    .label = Σύμπτυξη Κατακόρυφης Γραμμής Καρτελών
 TST = Καρτέλα Στυλ Δέντρου
 about-TST = Tree Style Tab είναι ένα δημοφιλές πρόσθετο που σας επιτρέπει να εμφανίσετε καρτέλες σε μια δομή δέντρου. Το Floorp 10 έχει ενσωματωμένο αυτό το πρόσθετο. Παρακαλώ εγκαταστήστε το πρόσθετο επαναφέρετε την ενσωματωμένη καρτέλα Δέντρου του Floorp 10.
 treestyletab-Settings = 
@@ -89,7 +82,7 @@ bookmarks-focus-mode =
     .label = Απόκρυψη της γραμμής εργαλείων σελιδοδεικτών εκτός αν το αιωρείται πάνω από τη γραμμή πλοήγησης
 bookmarks-bottom-mode = 
     .label = Εμφάνιση της γραμμής εργαλείων σελιδοδεικτών στο κάτω μέρος του { -brand-short-name }
-nav-bar-settings = Γραμμή Εργαλείων
+navbar-settings = Navigation Bar
 show-nav-bar-bottom = 
     .label = Εμφάνιση της γραμμής εργαλείων στο κάτω μέρος του { -brand-short-name } (πειραματικό)
 material-effect = 
@@ -98,21 +91,16 @@ disable-extension-check-compatibility-option =
     .label = Μην ελέγχετε για συμβατότητα με πρόσθετα
 other-preference = Άλλες Προτιμήσεις
 enable-userscript = 
-    .label = Ενεργοποίηση παλαιού τύπου στοιχείων
-about-legacy-components = Η ενεργοποίηση αυτής της λειτουργίας μπορεί να προκαλέσει απροσδόκητα σφάλματα ή μοιραία σφάλματα.
-Search-positon-top = 
-    .label = Εμφάνιση της γραμμής εύρεσης στο πάνω μέρος της σελίδας
+    .label = Enable "userChrome.js" and "Bootstrap extensions" Loading
+about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
+search-positon-top = 
+    .label = Display the Find Bar at the top of the page
 allow-auto-restart = 
     .label = Επανεκκίνηση αυτόματα όταν οι ρυθμίσεις που απαιτούν επανεκκίνηση αλλάζουν
-browser-rest-mode = 
-    .label = Ενεργοποίηση συντόμευσης λειτουργίας ηρεμίας (F9)
+enable-rest-mode = 
+    .label = Enable Rest Mode shortcut (F9)
 disable-fullscreen-notification = 
     .label = Να μην εμφανίζεται ειδοποίηση κατά την είσοδο σε πλήρη οθόνη
-floorp-updater = { -brand-short-name } Ενημερώσεις
-enable-floorp-updater = 
-    .label = Έλεγχος για { -brand-short-name } ενημερώσεις κατά την εκκίνηση
-floorp-update-latest = 
-    .label = Ειδοποιήστε με αν το { -brand-short-name } είναι ενημερωμένο κατά τη διάρκεια αυτόματων ελέγχων ενημερώσεων
 
 ## Browser Theme
 
@@ -135,8 +123,6 @@ firefox-proton-fix =
     .label = Firefox Proton Διόρθωση UI
 firefox-photon-lepton = 
     .label = Firefox Photon Lepton UI
-floorp-legacy = 
-    .label = Κρυφό UIÁ Μη Υποστηριζόμενο Δάπεδο
 floorp-fluentUI = 
     .label = Microsoft Fluent UI
 floorp-fluerialUI = 
@@ -155,10 +141,6 @@ always-notify =
     .label = Ειδοποίηση κατά την εκκίνηση λήψεων και κατά την ολοκλήρωση της λήψης
 do-not-notify = 
     .label = Απενεργοποίηση ειδοποιήσεων λήψης
-floorp-translater = Ρυθμίσεις Μεταφραστή
-click-to-option = 
-    .label = Άνοιγμα Ρυθμίσεων...
-    .accesskey = O
 
 ## Sidebar
 
@@ -169,7 +151,7 @@ appmenuitem-reboot =
 
 ## UserAgent
 
-UserAgent-preference = Πράκτορας Χρήστη
+userAgent-preference = User Agent
 default-useragent-mode = 
     .label = Χρήση Φορέα Χρήστη Firefox (Προεπιλογή)
 windows-chrome-useragent-mode = 
@@ -237,7 +219,7 @@ sidebar2-pref-delete =
 sidebar2-pref-setting = 
     .label = Ρυθμίσεις
 sidebar2-global-width = Καθολικό πλάτος των πινάκων Web
-use-icon-provider-option = Χρήση Παρόχου Εικονιδίων
+use-icon-provider-option = Use Following Icon Provider
 use-icon-provider-option-google = 
     .label = Google
 use-icon-provider-option-duckduckgo = 
@@ -523,7 +505,7 @@ mouse-gesture-description = Το Gesturefy πρέπει να εγκαταστα�
 Gesturefy = Gesturefy
 about-Gesturefy = Το Gesturefy είναι μια επέκταση που προσθέτει χειρονομίες του ποντικιού στον περιηγητή σας. Αν το { -brand-short-name } εντοπίσει την εγκατάσταση αυτού του πρόσθετου, θα προσθέσει εντολές χειρονομίας στο Gesturefy που είναι διαθέσιμες μόνο στο { -brand-short-name }. Επίσης, αυτό το πρόσθετο μπορεί να λειτουργήσει με νέες καρτέλες!
 # Translate
-TWS = Μετάφραση Ιστοσελίδας
+TWS = Translate Web Pages
 about-TWS = Μεταφράστε τη σελίδα σας σε πραγματικό χρόνο χρησιμοποιώντας Google ή Yandex. Μπορείτε επίσης να μεταφράσετε το επιλεγμένο κείμενο ή ολόκληρη τη σελίδα.
 
 # Privacy Hub
