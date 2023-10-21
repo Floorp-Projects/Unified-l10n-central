@@ -12,7 +12,7 @@ contributors = <label data-l10n-name="about-contributor">貢献者・開発者</
 pane-design-title = デザイン
 category-design = 
     .tooltiptext = { pane-design-title }
-design-header = デザイン
+design-header = { pane-design-title }
 feature-requires-restart = 変更を適用するには再起動が必要です
 tab-width = タブの最小幅
 preferences-tabs-newtab-position = 新規タブの開く位置
@@ -22,8 +22,6 @@ open-new-tab-at-the-end =
     .label = タブバーの最後尾に開く
 open-new-tab-next-to-current = 
     .label = 現在のタブの隣に開く
-enable-multitab = 
-    .label = 多段タブを有効にする
 multirow-tabs-limit = 
     .label = 多段タブの行数を制限
 multirow-tabs-newtab = 
@@ -40,7 +38,7 @@ tab-sleep-settings-dialog-excludehosts-label-2 = 1行に1つのホストを入�
 tab-sleep-tab-context-menu-excludetab = タブをスリープさせない
 enable-floorp-workspace = 
     .label = ワークスペースを有効にする
-workspace-warring = ワークスペースはタブグループアドオンと併用できません。タブグループアドオンを使用したい場合は、ワークスペースを無効にし、{ -brand-short-name} を再起動してください。
+workspace-warning = Workspaces cannot be used with Tab Group add-ons. If you want to use tab group add-ons, please disable Workspaces and restart { -brand-short-name }.
 enable-tab-scroll-change = 
     .label = タブをスクロールで切り替える
 enable-tab-scroll-reverse = 
@@ -51,11 +49,9 @@ enable-double-click-block =
     .label = ダブルクリックでタブを閉じる
 enable-show-pinned-tabs-title = 
     .label = ピン固定されたタブのタイトルを表示
-Mouse-side-button = 
-    .label = 「進む」・「戻る」ボタンを隠す
 tabbar-preference = タブバー
-None-mode = 
-    .label = デフォルト
+tab-normal-mode = 
+    .label = Normal mode
 hide-horizontality-tabs = 
     .label = 水平タブバーを隠す
 verticalTab-setting = 
@@ -74,11 +70,8 @@ multirow-tabbar =
     .label = 多段タブ
 vertical-tabbar = 
     .label = 垂直タブ (実験的)
-native-tabbar-tip = サイドバーを使用するアドオンとは併用できません。
 native-vertical-tab-show-right = 
     .label = ウインドウの右側に垂直タブバーを表示
-hover-vertical-tab = 
-    .label = 垂直タブバーを折りたたむ
 TST = ツリー型タブ
 about-TST = ツリー型タブは Floorp 10 で内蔵されていた垂直タブを作成するアドオンです。このアドオンをインストールすると、固有の設定が使用でき、Floorp 10 と同じ使用感に戻せます。
 treestyletab-Settings = 
@@ -89,7 +82,7 @@ bookmarks-focus-mode =
     .label = ブックマークバーを折りたたむ
 bookmarks-bottom-mode = 
     .label = { -brand-short-name } の下部にブックマークバーを表示
-nav-bar-settings = ツールバー
+navbar-settings = Navigation Bar
 show-nav-bar-bottom = 
     .label = { -brand-short-name } の下部にツールバーを表示 (実験的)
 material-effect = 
@@ -98,21 +91,16 @@ disable-extension-check-compatibility-option =
     .label = アドオンとの互換性を確認しない
 other-preference = その他の設定
 enable-userscript = 
-    .label = レガシーコンポーネントを有効にする
-about-legacy-components = この機能を有効にすると予期せぬエラーを発生させる可能性があります。
-Search-positon-top = 
-    .label = 検索バーを上部に表示
+    .label = Enable "userChrome.js" and "Bootstrap extensions" Loading
+about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
+search-positon-top = 
+    .label = Display the Find Bar at the top of the page
 allow-auto-restart = 
     .label = 再起動が必要な設定を変更した時に自動で再起動する
-browser-rest-mode = 
-    .label = 休憩モードのショートカットキー (F9) を有効にする
+enable-rest-mode = 
+    .label = Enable Rest Mode shortcut (F9)
 disable-fullscreen-notification = 
     .label = 動画閲覧時のフルスクリーン通知を無効にする
-floorp-updater = { -brand-short-name } のアップデート
-enable-floorp-updater = 
-    .label = { -brand-short-name } のアップデートを起動時に確認
-floorp-update-latest = 
-    .label = { -brand-short-name } が最新版であることをチェック時に通知
 
 ## Browser Theme
 
@@ -135,8 +123,6 @@ firefox-proton-fix =
     .label = Firefox Proton Fix UI
 firefox-photon-lepton = 
     .label = Firefox Photon・Lepton UI
-floorp-legacy = 
-    .label = Floorp Legacy UI・サポート対象外
 floorp-fluentUI = 
     .label = Microsoft Fluent UI
 floorp-fluerialUI = 
@@ -155,10 +141,6 @@ always-notify =
     .label = 開始時と終了時に通知
 do-not-notify = 
     .label = 通知しない
-floorp-translater = 翻訳の設定
-click-to-option = 
-    .label = 設定...
-    .accesskey = O
 
 ## Sidebar
 
@@ -169,7 +151,7 @@ appmenuitem-reboot =
 
 ## UserAgent
 
-UserAgent-preference = ユーザーエージェント
+userAgent-preference = User Agent
 default-useragent-mode = 
     .label = Firefox のユーザーエージェントを使用 (デフォルト)
 windows-chrome-useragent-mode = 
@@ -237,7 +219,7 @@ sidebar2-pref-delete =
 sidebar2-pref-setting = 
     .label = 設定
 sidebar2-global-width = Web パネルの幅のグローバル値
-use-icon-provider-option = アイコンの提供元
+use-icon-provider-option = Use Following Icon Provider
 use-icon-provider-option-google = 
     .label = Google
 use-icon-provider-option-duckduckgo = 
@@ -523,7 +505,7 @@ mouse-gesture-description = Gesturefy must be installed to use mouse gestures wi
 Gesturefy = Gesturefy
 about-Gesturefy = Gesturefy is an extension that adds mouse gestures to your browser. If { -brand-short-name } detects the installation of this add-on, it will add gesture commands to Gesturefy that are only available in { -brand-short-name }. Also, this add-on can work with new tabs!
 # Translate
-TWS = Translate Web Page
+TWS = Translate Web Pages
 about-TWS = Translate your page in real time using Google or Yandex. You can also translate selected text or the entire page.
 
 # Privacy Hub
