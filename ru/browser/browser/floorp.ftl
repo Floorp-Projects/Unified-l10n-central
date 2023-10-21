@@ -5,7 +5,7 @@
 ###################################################################### about:Dialog #################################################################################
 
 about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> один из отечественных браузеров, разработанный в Японии. Он основан на Firefox и продолжает работать по адресу <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>, чтобы улучшить работу в Интернете. Хотите помочь? <label data-l10n-name="helpus-donateLink">Сделайте пожертвование</label>
-icon-creator = Создатель иконок <label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> и <label data-l10n-name="brand-logo-twitter">@mwxdxx.</label>
+icon-creator = Создатели иконок: <label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> и <label data-l10n-name="brand-logo-twitter">@mwxdxx.</label>
 contributors = Список авторов и разработчиков <label data-l10n-name="about-contributor"></label>
 #################################################################### about:preferences ####################################################################
 
@@ -40,7 +40,7 @@ tab-sleep-settings-dialog-excludehosts-label-2 = Введите один узе�
 tab-sleep-tab-context-menu-excludetab = Держать вкладки пробуждением
 enable-floorp-workspace = 
     .label = Включить рабочие области
-workspace-warring = Рабочие области не могут быть использованы с дополнениями Tab Group. Если вы хотите использовать дополнения tab group дополнений, пожалуйста, отключите рабочие области и перезапустите { -brand-short-name }.
+workspace-warring = Рабочие области не могут быть использованы с дополнением Tab Group. Если вы хотите использовать дополнение Tab Group, пожалуйста, отключите рабочие области и перезапустите { -brand-short-name }.
 enable-tab-scroll-change = 
     .label = Переключать вкладки прокруткой мышью
 enable-tab-scroll-reverse = 
@@ -146,7 +146,7 @@ floorp-gnomeUI =
 
 ## Download Manager
 
-download-notification-preferences = Загрузить уведомления
+download-notification-preferences = Уведомления о загрузке
 start-always-notify = 
     .label = Уведомлять только при запуске загрузок
 finish-always-notify = 
@@ -980,7 +980,7 @@ floorp-custom-actions-custom-action-5 = Пользовательское дей�
 floorp-open-profile-with-new-instance = Запуск
     .tooltiptext = Запустить { -brand-short-name } с этим профилем
 floorp-profiles-in-use = Этот профиль уже используется.
-floorp-profiles-title = Profiles
+floorp-profiles-title = Профили
 floorp-profile-manager = Менеджер профиля
 floorp-profiles-create = Создать профиль
 floorp-profile = Профиль
