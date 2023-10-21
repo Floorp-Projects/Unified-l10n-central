@@ -12,7 +12,7 @@ contributors = En liste over <label data-l10n-name="about-contributor">bidragsyd
 pane-design-title = Design
 category-design = 
     .tooltiptext = { pane-design-title }
-design-header = Design
+design-header = { pane-design-title }
 feature-requires-restart = Genstart er påkrævet for at anvende ændringer
 tab-width = Mindste bredde af faneblade
 preferences-tabs-newtab-position = Nyt faneblad position
@@ -22,8 +22,6 @@ open-new-tab-at-the-end =
     .label = Åbn nye faneblade i slutningen af fanebladet
 open-new-tab-next-to-current = 
     .label = Åbn nye faneblade ved siden af det aktuelle faneblad
-enable-multitab = 
-    .label = Aktiver multi-række faner
 multirow-tabs-limit = 
     .label = Aktiver rækkegrænse for flere rækker faner
 multirow-tabs-newtab = 
@@ -40,7 +38,7 @@ tab-sleep-settings-dialog-excludehosts-label-2 = Angiv en vært pr. linje.
 tab-sleep-tab-context-menu-excludetab = Hold fanen vågen
 enable-floorp-workspace = 
     .label = Aktiver Arbejdsrum
-workspace-warring = Arbejdspladser kan ikke bruges med tilføjelser til fanegruppen. Hvis du ønsker at bruge tilføjelser til faneblade, skal du deaktivere arbejdsområder og genstarte { -brand-short-name }.
+workspace-warning = Workspaces cannot be used with Tab Group add-ons. If you want to use tab group add-ons, please disable Workspaces and restart { -brand-short-name }.
 enable-tab-scroll-change = 
     .label = Skift faneblade ved at rulle med musen
 enable-tab-scroll-reverse = 
@@ -51,11 +49,9 @@ enable-double-click-block =
     .label = Luk faneblade ved dobbeltklik på dem
 enable-show-pinned-tabs-title = 
     .label = Vis titlen på fastgjorte faneblade
-Mouse-side-button = 
-    .label = Optimer browser til mus med sideknapper
 tabbar-preference = Fanebladslinje
-None-mode = 
-    .label = Normal tilstand
+tab-normal-mode = 
+    .label = Normal mode
 hide-horizontality-tabs = 
     .label = Skjul faneblade på fanebladet Vandret
 verticalTab-setting = 
@@ -74,11 +70,8 @@ multirow-tabbar =
     .label = Fanebladsbjælke Til Multirækker
 vertical-tabbar = 
     .label = Lodret Fanebladslinje (eksperimentel)
-native-tabbar-tip = Sidebar add-ons og indbyggede sidebjælker kan ikke bruges på samme tid som vertikale faner, da dette udnytter sidebjælken i Firefox.
 native-vertical-tab-show-right = 
     .label = Vis Lodret fanebladslinje i højre side af vinduet
-hover-vertical-tab = 
-    .label = Sammenfold Lodret Fanebladslinje
 TST = Faneblad For Træstil
 about-TST = Tree Style Tab er en populær tilføjelse, der giver dig mulighed for at vise faner i en træstruktur. Floorp 10 har en indbygget denne add-on. Installér venligst add-on gendanne Floorp 10 indbyggede Tree Style Tab.
 treestyletab-Settings = 
@@ -89,7 +82,7 @@ bookmarks-focus-mode =
     .label = Skjul bogmærkerværktøjslinjen med mindre du svæver over navigationslinjen
 bookmarks-bottom-mode = 
     .label = Vis bogmærkerværktøjslinjen i bunden af { -brand-short-name }
-nav-bar-settings = Værktøjslinje
+navbar-settings = Navigation Bar
 show-nav-bar-bottom = 
     .label = Vis værktøjslinjen i bunden af { -brand-short-name } (eksperimentel)
 material-effect = 
@@ -98,21 +91,16 @@ disable-extension-check-compatibility-option =
     .label = Kontroller ikke for kompatibilitet med tilføjelser
 other-preference = Andre Præferencer
 enable-userscript = 
-    .label = Aktiver ældre komponenter
-about-legacy-components = Aktivering af denne funktion kan forårsage uventede fejl eller fatale fejl.
-Search-positon-top = 
-    .label = Vis Find bjælken øverst på siden
+    .label = Enable "userChrome.js" and "Bootstrap extensions" Loading
+about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
+search-positon-top = 
+    .label = Display the Find Bar at the top of the page
 allow-auto-restart = 
     .label = Genstart automatisk, når indstillinger, der kræver en genstart, ændres
-browser-rest-mode = 
-    .label = Aktivér genvej for hviletilstand (F9)
+enable-rest-mode = 
+    .label = Enable Rest Mode shortcut (F9)
 disable-fullscreen-notification = 
     .label = Vis ikke en notifikation ved indtastning af fuld skærm
-floorp-updater = { -brand-short-name } Opdateringer
-enable-floorp-updater = 
-    .label = Søg efter { -brand-short-name } opdateringer ved opstart
-floorp-update-latest = 
-    .label = Advisér mig hvis { -brand-short-name } er opdateret under automatiske opdateringstjek
 
 ## Browser Theme
 
@@ -135,8 +123,6 @@ firefox-proton-fix =
     .label = Firefox Proton Retter Brugerflade
 firefox-photon-lepton = 
     .label = Firefox Photon- Lepton UI
-floorp-legacy = 
-    .label = Floorp Legacy UI Ikke Understøttet
 floorp-fluentUI = 
     .label = Microsoft Fluent UI
 floorp-fluerialUI = 
@@ -155,10 +141,6 @@ always-notify =
     .label = Giv besked, når du starter downloads og når en download er færdig
 do-not-notify = 
     .label = Deaktiver download notifikationer
-floorp-translater = Oversætter Indstillinger
-click-to-option = 
-    .label = Åbn Indstillinger...
-    .accesskey = O
 
 ## Sidebar
 
@@ -169,7 +151,7 @@ appmenuitem-reboot =
 
 ## UserAgent
 
-UserAgent-preference = Bruger Agent
+userAgent-preference = User Agent
 default-useragent-mode = 
     .label = Brug Firefox User Agent (Standard)
 windows-chrome-useragent-mode = 
@@ -237,7 +219,7 @@ sidebar2-pref-delete =
 sidebar2-pref-setting = 
     .label = Indstillinger
 sidebar2-global-width = Globale webpaneler bredde
-use-icon-provider-option = Brug Ikon Udbyder
+use-icon-provider-option = Use Following Icon Provider
 use-icon-provider-option-google = 
     .label = Google
 use-icon-provider-option-duckduckgo = 
@@ -523,7 +505,7 @@ mouse-gesture-description = Gesturefy skal være installeret for at bruge musebe
 Gesturefy = Gesturefy
 about-Gesturefy = Gesturefy er en udvidelse, der tilføjer mus fagter til din browser. Hvis { -brand-short-name } registrerer installationen af denne tilføjelse, vil den tilføje fagkommandoer til Gesturefy, som kun er tilgængelige i { -brand-short-name }. Også denne tilføjelse kan arbejde med nye faner!
 # Translate
-TWS = Oversæt Webside
+TWS = Translate Web Pages
 about-TWS = Oversæt din side i realtid ved hjælp af Google eller Yandex. Du kan også oversætte den valgte tekst eller hele siden.
 
 # Privacy Hub
