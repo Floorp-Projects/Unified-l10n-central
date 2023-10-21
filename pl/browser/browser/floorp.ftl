@@ -12,7 +12,7 @@ contributors = Lista współtwórców <label data-l10n-name="about-contributor">
 pane-design-title = Projekt
 category-design = 
     .tooltiptext = { pane-design-title }
-design-header = Projekt
+design-header = { pane-design-title }
 feature-requires-restart = Do zastosowania zmian wymagany jest restart
 tab-width = Minimalna szerokość kart
 preferences-tabs-newtab-position = Nowa pozycja karty
@@ -22,8 +22,6 @@ open-new-tab-at-the-end =
     .label = Otwórz nowe karty na końcu paska kart
 open-new-tab-next-to-current = 
     .label = Otwórz nowe karty obok bieżącej karty
-enable-multitab = 
-    .label = Włącz karty wielorzędne
 multirow-tabs-limit = 
     .label = Włącz limit wierszy dla kart wielowierszowych
 multirow-tabs-newtab = 
@@ -40,7 +38,7 @@ tab-sleep-settings-dialog-excludehosts-label-2 = Wprowadź jeden host na linię.
 tab-sleep-tab-context-menu-excludetab = Nie budzaj karty
 enable-floorp-workspace = 
     .label = Włącz Workspace
-workspace-warring = Przestrzeń robocza nie może być użyta z dodatkami grupy zakładek. Jeśli chcesz używać dodatków do grupy zakładek, wyłącz obszar roboczy i zrestartuj { -brand-short-name }.
+workspace-warning = Workspaces cannot be used with Tab Group add-ons. If you want to use tab group add-ons, please disable Workspaces and restart { -brand-short-name }.
 enable-tab-scroll-change = 
     .label = Przełącz zakładki przez przewijanie za pomocą myszy
 enable-tab-scroll-reverse = 
@@ -51,11 +49,9 @@ enable-double-click-block =
     .label = Zamknij karty po dwukrotnym kliknięciu
 enable-show-pinned-tabs-title = 
     .label = Pokaż tytuł przypiętych kart
-Mouse-side-button = 
-    .label = Optymalizacja przeglądarki dla myszy za pomocą przycisków bocznych
 tabbar-preference = Pasek zakładek
-None-mode = 
-    .label = Tryb normalny
+tab-normal-mode = 
+    .label = Normal mode
 hide-horizontality-tabs = 
     .label = Ukryj zakładki na poziomym pasku kart
 verticalTab-setting = 
@@ -74,11 +70,8 @@ multirow-tabbar =
     .label = Pasek wielu wierszy
 vertical-tabbar = 
     .label = Pionowy pasek kart (eksperymentalny)
-native-tabbar-tip = Dodatki panelu bocznego i wbudowane paski boczne nie mogą być używane w tym samym czasie co karty pionowe, ponieważ ta dźwignia pasek boczny Firefoksa.
 native-vertical-tab-show-right = 
     .label = Pokaż pionowy pasek kart po prawej stronie okna
-hover-vertical-tab = 
-    .label = Zwiń pionowy pasek kart
 TST = Karta stylu drzewa
 about-TST = Zakładka Styl Drzewa jest popularnym dodatkiem, który umożliwia wyświetlanie kart w strukturze drzewa. Floorp 10 ma wbudowany dodatek. Zainstaluj dodatek przywracający wbudowaną zakładkę Tree Style
 treestyletab-Settings = 
@@ -89,7 +82,7 @@ bookmarks-focus-mode =
     .label = Ukryj pasek zakładek bez najechania na pasek nawigacyjny
 bookmarks-bottom-mode = 
     .label = Pokaż pasek zakładek u dołu { -brand-short-name }
-nav-bar-settings = Pasek narzędzi
+navbar-settings = Navigation Bar
 show-nav-bar-bottom = 
     .label = Pokaż pasek narzędzi u dołu { -brand-short-name } (eksperymentalne)
 material-effect = 
@@ -98,21 +91,16 @@ disable-extension-check-compatibility-option =
     .label = Nie sprawdzaj zgodności z dodatkami
 other-preference = Inne preferencje
 enable-userscript = 
-    .label = Włącz starsze komponenty
-about-legacy-components = Włączenie tej funkcji może spowodować nieoczekiwane błędy lub krytyczne błędy.
-Search-positon-top = 
-    .label = Wyświetl pasek wyszukiwania u góry strony
+    .label = Enable "userChrome.js" and "Bootstrap extensions" Loading
+about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
+search-positon-top = 
+    .label = Display the Find Bar at the top of the page
 allow-auto-restart = 
     .label = Uruchom ponownie automatycznie, gdy ustawienia, które wymagają restartu zostaną zmienione
-browser-rest-mode = 
-    .label = Włącz skrót do trybu odpoczynku (F9)
+enable-rest-mode = 
+    .label = Enable Rest Mode shortcut (F9)
 disable-fullscreen-notification = 
     .label = Nie pokazuj powiadomienia podczas wchodzenia na pełny ekran
-floorp-updater = Aktualizacje { -brand-short-name }
-enable-floorp-updater = 
-    .label = Sprawdź aktualizacje { -brand-short-name } przy starcie
-floorp-update-latest = 
-    .label = Powiadom mnie, jeśli { -brand-short-name } jest aktualny podczas automatycznego sprawdzania aktualizacji
 
 ## Browser Theme
 
@@ -135,8 +123,6 @@ firefox-proton-fix =
     .label = Napraw interfejs Firefox Proton
 firefox-photon-lepton = 
     .label = Interfejs Photon Firefox
-floorp-legacy = 
-    .label = Przestarzały interfejs podłogowy nieobsługiwany
 floorp-fluentUI = 
     .label = Microsoft Fluent UI
 floorp-fluerialUI = 
@@ -155,10 +141,6 @@ always-notify =
     .label = Powiadom o rozpoczęciu pobierania i zakończeniu pobierania
 do-not-notify = 
     .label = Wyłącz powiadomienia o pobieraniu
-floorp-translater = Ustawienia Tłumacza
-click-to-option = 
-    .label = Otwórz ustawienia...
-    .accesskey = Pr
 
 ## Sidebar
 
@@ -169,7 +151,7 @@ appmenuitem-reboot =
 
 ## UserAgent
 
-UserAgent-preference = Agent użytkownika
+userAgent-preference = User Agent
 default-useragent-mode = 
     .label = Użyj Firefox User Agent (domyślnie)
 windows-chrome-useragent-mode = 
@@ -237,7 +219,7 @@ sidebar2-pref-delete =
 sidebar2-pref-setting = 
     .label = Ustawienia
 sidebar2-global-width = Szerokość globalnych Paneli Web
-use-icon-provider-option = Użyj dostawcy ikon
+use-icon-provider-option = Use Following Icon Provider
 use-icon-provider-option-google = 
     .label = Google
 use-icon-provider-option-duckduckgo = 
@@ -523,7 +505,7 @@ mouse-gesture-description = Gesturefy musi być zainstalowany, aby użyć gestó
 Gesturefy = Gesturefy
 about-Gesturefy = Gesturefy to rozszerzenie, które dodaje gesty myszy do przeglądarki. Jeśli { -brand-short-name } wykryje instalację tego dodatku, doda on polecenia gestów do Gesturefy, które są dostępne tylko w { -brand-short-name }. Dodatek może również działać z nowymi kartami!
 # Translate
-TWS = Przetłumacz stronę internetową
+TWS = Translate Web Pages
 about-TWS = Przetłumacz swoją stronę w czasie rzeczywistym za pomocą Google lub Yandex. Możesz również przetłumaczyć wybrany tekst lub całą stronę.
 
 # Privacy Hub
