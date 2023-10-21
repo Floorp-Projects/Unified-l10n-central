@@ -12,7 +12,7 @@ contributors = En lista över bidragsgivare till <label data-l10n-name="about-co
 pane-design-title = Utformning
 category-design = 
     .tooltiptext = { pane-design-title }
-design-header = Utformning
+design-header = { pane-design-title }
 feature-requires-restart = En omstart krävs för att tillämpa ändringarna
 tab-width = Minsta bredd på flikar
 preferences-tabs-newtab-position = Position för ny flik
@@ -22,8 +22,6 @@ open-new-tab-at-the-end =
     .label = Öppna nya flikar i slutet av flikfältet
 open-new-tab-next-to-current = 
     .label = Öppna nya flikar bredvid den aktuella fliken
-enable-multitab = 
-    .label = Aktivera flikar med flera rader
 multirow-tabs-limit = 
     .label = Aktivera radbegränsning för flikar med flera rader
 multirow-tabs-newtab = 
@@ -40,7 +38,7 @@ tab-sleep-settings-dialog-excludehosts-label-2 = Ange en värd per rad.
 tab-sleep-tab-context-menu-excludetab = Håll Tab vaken
 enable-floorp-workspace = 
     .label = Aktivera arbetsytor
-workspace-warring = Workspaces kan inte användas med Tab Group-tillägg. Om du vill använda tillägg för flikgrupper, inaktivera Workspaces och starta om { -brand-short-name }.
+workspace-warning = Workspaces cannot be used with Tab Group add-ons. If you want to use tab group add-ons, please disable Workspaces and restart { -brand-short-name }.
 enable-tab-scroll-change = 
     .label = Byt flik genom att scrolla med musen
 enable-tab-scroll-reverse = 
@@ -51,11 +49,9 @@ enable-double-click-block =
     .label = Stäng flikar när du dubbelklickar på dem
 enable-show-pinned-tabs-title = 
     .label = Visa titeln på flikar som fästs
-Mouse-side-button = 
-    .label = Optimera webbläsaren för mus med sidoknappar
 tabbar-preference = Flikfält
-None-mode = 
-    .label = Normalt läge
+tab-normal-mode = 
+    .label = Normal mode
 hide-horizontality-tabs = 
     .label = Dölj flikar i horisontellt flikfält
 verticalTab-setting = 
@@ -74,11 +70,8 @@ multirow-tabbar =
     .label = Flikfält med flera rader
 vertical-tabbar = 
     .label = Vertikalt tabbfält (experimentellt)
-native-tabbar-tip = Tillägg för sidofält och inbyggda sidofält kan inte användas samtidigt som Vertikala flikar eftersom detta utnyttjar Firefox sidofält.
 native-vertical-tab-show-right = 
     .label = Visa vertikalt flikfält på höger sida av fönstret
-hover-vertical-tab = 
-    .label = Dölj vertikala flikar
 TST = Flik för trädstil
 about-TST = Tree Style Tab är ett populärt tillägg som gör att du kan visa flikar i en trädstruktur. Floorp 10 har ett inbyggt sådant tillägg. Installera tillägget för att återställa Floorp 10:s inbyggda Tree Style Tab.
 treestyletab-Settings = 
@@ -89,7 +82,7 @@ bookmarks-focus-mode =
     .label = Dölj verktygsfältet för bokmärken om du inte håller muspekaren över navigeringsfältet
 bookmarks-bottom-mode = 
     .label = Visa verktygsfältet Bokmärken längst ned på { -brand-short-name }
-nav-bar-settings = Verktygsfält
+navbar-settings = Navigation Bar
 show-nav-bar-bottom = 
     .label = Visa verktygsfältet längst ner på { -brand-short-name } (experimentellt)
 material-effect = 
@@ -98,21 +91,16 @@ disable-extension-check-compatibility-option =
     .label = Kontrollera inte kompatibilitet med tilläggsprogram
 other-preference = Andra preferenser
 enable-userscript = 
-    .label = Aktivera äldre komponenter
-about-legacy-components = Aktivering av denna funktion kan orsaka oväntade buggar eller fatala fel.
-Search-positon-top = 
-    .label = Visa sökfältet högst upp på sidan
+    .label = Enable "userChrome.js" and "Bootstrap extensions" Loading
+about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
+search-positon-top = 
+    .label = Display the Find Bar at the top of the page
 allow-auto-restart = 
     .label = Starta om automatiskt när inställningar som kräver omstart ändras
-browser-rest-mode = 
-    .label = Aktivera viloläge genväg (F9)
+enable-rest-mode = 
+    .label = Enable Rest Mode shortcut (F9)
 disable-fullscreen-notification = 
     .label = Visa inte ett meddelande när du går till helskärm
-floorp-updater = { -brand-short-name } Uppdateringar
-enable-floorp-updater = 
-    .label = Sök efter uppdateringar på { -brand-short-name } vid start
-floorp-update-latest = 
-    .label = Meddela mig om { -brand-short-name } är uppdaterad under automatiska uppdateringskontroller
 
 ## Browser Theme
 
@@ -135,8 +123,6 @@ firefox-proton-fix =
     .label = Firefox Proton Fix UI
 firefox-photon-lepton = 
     .label = Firefox Photon・Lepton användargränssnitt
-floorp-legacy = 
-    .label = Floorp Legacy UI・Unsupported
 floorp-fluentUI = 
     .label = Microsoft Fluent UI
 floorp-fluerialUI = 
@@ -155,10 +141,6 @@ always-notify =
     .label = Meddela när nedladdningar påbörjas och när en nedladdning avslutas
 do-not-notify = 
     .label = Inaktivera aviseringar om nedladdning
-floorp-translater = Inställningar för översättare
-click-to-option = 
-    .label = Öppna inställningar...
-    .accesskey = O
 
 ## Sidebar
 
@@ -169,7 +151,7 @@ appmenuitem-reboot =
 
 ## UserAgent
 
-UserAgent-preference = Användaragent
+userAgent-preference = User Agent
 default-useragent-mode = 
     .label = Använd Firefox användaragent (standard)
 windows-chrome-useragent-mode = 
@@ -237,7 +219,7 @@ sidebar2-pref-delete =
 sidebar2-pref-setting = 
     .label = Inställningar
 sidebar2-global-width = Globala webbpanelers bredd
-use-icon-provider-option = Använd ikonleverantör
+use-icon-provider-option = Use Following Icon Provider
 use-icon-provider-option-google = 
     .label = Google
 use-icon-provider-option-duckduckgo = 
@@ -523,7 +505,7 @@ mouse-gesture-description = Gesturefy måste installeras för att kunna använda
 Gesturefy = Gesturefy
 about-Gesturefy = Gesturefy är ett tillägg som lägger till musrörelser i din webbläsare. Om { -brand-short-name } upptäcker installationen av detta tillägg kommer den att lägga till gestkommandon i Gesturefy som endast är tillgängliga i { -brand-short-name }. Detta tillägg kan också fungera med nya flikar!
 # Translate
-TWS = Översätt webbsida
+TWS = Translate Web Pages
 about-TWS = Översätt din sida i realtid med hjälp av Google eller Yandex. Du kan också översätta markerad text eller hela sidan.
 
 # Privacy Hub
