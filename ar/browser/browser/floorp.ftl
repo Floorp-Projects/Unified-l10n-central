@@ -12,7 +12,7 @@ contributors = قائمة بالمساهمين <label data-l10n-name="about-cont
 pane-design-title = تصميم
 category-design = 
     .tooltiptext = { pane-design-title }
-design-header = تصميم
+design-header = { pane-design-title }
 feature-requires-restart = مطلوب إعادة تشغيل لتطبيق التغييرات
 tab-width = الحد الأدنى لعرض علامات التبويب
 preferences-tabs-newtab-position = موضع علامة تبويب جديدة
@@ -22,8 +22,6 @@ open-new-tab-at-the-end =
     .label = فتح علامات تبويب جديدة في نهاية شريط التبويب
 open-new-tab-next-to-current = 
     .label = فتح علامات تبويب جديدة بجوار علامة التبويب الحالية
-enable-multitab = 
-    .label = تمكين علامات التبويب متعددة الصفوف
 multirow-tabs-limit = 
     .label = تمكين حد الصف لعلامات التبويب متعددة الصفوف
 multirow-tabs-newtab = 
@@ -40,7 +38,7 @@ tab-sleep-settings-dialog-excludehosts-label-2 = أدخل مضيف واحد لك
 tab-sleep-tab-context-menu-excludetab = إبقاء التبويب مستيقظاً
 enable-floorp-workspace = 
     .label = تمكين مساحات العمل
-workspace-warring = لا يمكن استخدام مساحات العمل مع إضافات مجموعة التبويب. إذا كنت ترغب في استخدام إضافات مجموعة التبويب، يرجى تعطيل مساحات العمل وإعادة تشغيل { -brand-short-name }.
+workspace-warning = Workspaces cannot be used with Tab Group add-ons. If you want to use tab group add-ons, please disable Workspaces and restart { -brand-short-name }.
 enable-tab-scroll-change = 
     .label = تبديل علامات التبويب عن طريق التمرير باستخدام الماوس الخاص بك
 enable-tab-scroll-reverse = 
@@ -51,11 +49,9 @@ enable-double-click-block =
     .label = إغلاق علامات التبويب عند النقر المزدوج عليها
 enable-show-pinned-tabs-title = 
     .label = إظهار عنوان علامات التبويب المثبتة
-Mouse-side-button = 
-    .label = تحسين المتصفح للفأرة مع الأزرار الجانبية
 tabbar-preference = شريط التبويب
-None-mode = 
-    .label = الوضع العادي
+tab-normal-mode = 
+    .label = Normal mode
 hide-horizontality-tabs = 
     .label = إخفاء علامات التبويب على شريط التبويب الأفقي
 verticalTab-setting = 
@@ -74,11 +70,8 @@ multirow-tabbar =
     .label = شريط التبويب المتعدد الصفوف
 vertical-tabbar = 
     .label = شريط التبويب العمودي (تجريبي)
-native-tabbar-tip = لا يمكن استخدام إضافات الشريط الجانبي و الشريط الجانبي الداخلي في نفس الوقت الذي تستخدم فيه علامات التبويب العمودية مع استخدام الشريط الجانبي فايرفوكس.
 native-vertical-tab-show-right = 
     .label = إظهار شريط التبويب العمودي على الجانب الأيمن من النافذة
-hover-vertical-tab = 
-    .label = طي شريط التبويب العمودي
 TST = تبويب نمط الشجرة
 about-TST = علامة تبويب نمط الشجرة هي إضافة شائعة تسمح لك بعرض علامات التبويب في بنية الشجرة. Floorp 10 لديها هذه الإضافة مدمجة. الرجاء تثبيت الإضافة على استعادة التبويب نمط Floorp 10 المدمج في الشجرة.
 treestyletab-Settings = 
@@ -89,7 +82,7 @@ bookmarks-focus-mode =
     .label = إخفاء شريط أدوات الإشارات ما لم يتم تحويله فوق شريط التنقل
 bookmarks-bottom-mode = 
     .label = إظهار شريط أدوات الإشارات في أسفل { -brand-short-name }
-nav-bar-settings = شريط الأدوات
+navbar-settings = Navigation Bar
 show-nav-bar-bottom = 
     .label = إظهار شريط الأدوات في أسفل { -brand-short-name } (تجريبي)
 material-effect = 
@@ -98,21 +91,16 @@ disable-extension-check-compatibility-option =
     .label = لا تتحقق من التوافق مع الإضافات
 other-preference = تفضيلات أخرى
 enable-userscript = 
-    .label = تمكين المكونات القديمة
-about-legacy-components = تمكين هذه الميزة قد يسبب أخطاء غير متوقعة أو أخطاء قاتلة.
-Search-positon-top = 
-    .label = عرض شريط البحث في الجزء العلوي من الصفحة
+    .label = Enable "userChrome.js" and "Bootstrap extensions" Loading
+about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
+search-positon-top = 
+    .label = Display the Find Bar at the top of the page
 allow-auto-restart = 
     .label = إعادة التشغيل تلقائياً عندما يتم تغيير الإعدادات التي تتطلب إعادة تشغيل
-browser-rest-mode = 
-    .label = تمكين اختصار وضع الاستراحة (F9)
+enable-rest-mode = 
+    .label = Enable Rest Mode shortcut (F9)
 disable-fullscreen-notification = 
     .label = عدم إظهار إشعار عند إدخال ملء الشاشة
-floorp-updater = { -brand-short-name } تحديثات
-enable-floorp-updater = 
-    .label = التحقق من وجود تحديثات { -brand-short-name } عند بدء التشغيل
-floorp-update-latest = 
-    .label = أخبرني إذا كان { -brand-short-name } محدثاً أثناء التحقق التلقائي من التحديثات
 
 ## Browser Theme
 
@@ -135,8 +123,6 @@ firefox-proton-fix =
     .label = واجهة إصلاح Firefox Proton
 firefox-photon-lepton = 
     .label = واجهة المستخدم لصور فايرفوكس
-floorp-legacy = 
-    .label = أرضية إرث UI2.2 غير مدعوم
 floorp-fluentUI = 
     .label = Microsoft Fluent UI
 floorp-fluerialUI = 
@@ -155,10 +141,6 @@ always-notify =
     .label = إعلام عند بدء التنزيلات وعند انتهاء التنزيل
 do-not-notify = 
     .label = تعطيل تنبيهات التحميل
-floorp-translater = إعدادات المترجم
-click-to-option = 
-    .label = فتح الإعدادات...
-    .accesskey = ع
 
 ## Sidebar
 
@@ -169,7 +151,7 @@ appmenuitem-reboot =
 
 ## UserAgent
 
-UserAgent-preference = وكيل المستخدم
+userAgent-preference = User Agent
 default-useragent-mode = 
     .label = استخدام وكيل مستخدم Firefox (الافتراضي)
 windows-chrome-useragent-mode = 
@@ -237,7 +219,7 @@ sidebar2-pref-delete =
 sidebar2-pref-setting = 
     .label = الإعدادات
 sidebar2-global-width = عرض لوحات الويب العالمية
-use-icon-provider-option = استخدام موفر الأيقونة
+use-icon-provider-option = Use Following Icon Provider
 use-icon-provider-option-google = 
     .label = جوجل
 use-icon-provider-option-duckduckgo = 
@@ -523,7 +505,7 @@ mouse-gesture-description = يجب تثبيت Gesturefy لاستخدام إيم�
 Gesturefy = Gesturefy
 about-Gesturefy = Gesturefy هو ملحق يضيف إيماءات الماوس إلى المتصفح الخاص بك. إذا اكتشف { -brand-short-name } تثبيت هذه الإضافة، فإنه سيضيف أوامر إيماءات إلى Gesturefy المتاحة فقط في { -brand-short-name }. أيضا، يمكن لهذه الإضافة أن تعمل مع علامات تبويب جديدة!
 # Translate
-TWS = ترجمة صفحة الويب
+TWS = Translate Web Pages
 about-TWS = ترجمة صفحتك في الوقت الحقيقي باستخدام Google أو Yandex. يمكنك أيضا ترجمة النص المحدد أو الصفحة بأكملها.
 
 # Privacy Hub
