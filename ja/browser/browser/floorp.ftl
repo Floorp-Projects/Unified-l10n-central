@@ -38,7 +38,7 @@ tab-sleep-settings-dialog-excludehosts-label-2 = 1行に1つのホストを入�
 tab-sleep-tab-context-menu-excludetab = タブをスリープ状態にしない
 enable-floorp-workspace = 
     .label = ワークスペース機能を有効にする
-workspace-warning = Workspaces cannot be used with Tab Group add-ons. If you want to use tab group add-ons, please disable Workspaces and restart { -brand-short-name }.
+workspace-warning = ワークスペースはタブグループアドオンと併用できません。タブグループアドオンを使用したい場合は、ワークスペースを無効にし、{ -brand-short-name} を再起動してください。
 enable-tab-scroll-change = 
     .label = タブをスクロールで切り替える
 enable-tab-scroll-reverse = 
@@ -51,7 +51,7 @@ enable-show-pinned-tabs-title =
     .label = ピン留めされたタブのタイトルを表示する
 tabbar-preference = タブバーの設定
 tab-normal-mode = 
-    .label = Normal mode
+    .label = 通常モード（変更なし）
 hide-horizontality-tabs = 
     .label = Floorp の組み込みのタブバーを隠す
 verticalTab-setting = 
@@ -82,7 +82,7 @@ bookmarks-focus-mode =
     .label = ブックマークバーをフォーカスされた場合に表示
 bookmarks-bottom-mode = 
     .label = { -brand-short-name } の下部にブックマークバーを表示
-navbar-settings = Navigation Bar
+navbar-settings = ナビゲーションバー
 show-nav-bar-bottom = 
     .label = ナビゲーションバーを { -brand-short-name } の下部に表示 (実験的)
 material-effect = 
@@ -91,14 +91,14 @@ disable-extension-check-compatibility-option =
     .label = アドオンと互換性があるか確認しない
 other-preference = その他の設定
 enable-userscript = 
-    .label = Enable "userChrome.js" and "Bootstrap extensions" Loading
-about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
+    .label = userChrome.js スクリプト・レガシーアドオンのローダーを有効にする
+about-userscript = この機能を有効にすると予期せぬエラーを発生させる可能性があります。
 search-positon-top = 
-    .label = Display the Find Bar at the top of the page
+    .label = 検索バーを上部に表示
 allow-auto-restart = 
     .label = 再起動が必要な設定を変更した時に自動で再起動する
 enable-rest-mode = 
-    .label = Enable Rest Mode shortcut (F9)
+    .label = 休憩モードのショートカットキー（F9）を有効にする
 disable-fullscreen-notification = 
     .label = 全画面表示時の通知を無効にする
 
@@ -151,7 +151,7 @@ appmenuitem-reboot =
 
 ## UserAgent
 
-userAgent-preference = User Agent
+userAgent-preference = ユーザーエージェント
 default-useragent-mode = 
     .label = Firefox のユーザーエージェントを使用する (既定)
 windows-chrome-useragent-mode = 
@@ -219,7 +219,7 @@ sidebar2-pref-delete =
 sidebar2-pref-setting = 
     .label = 設定
 sidebar2-global-width = ウェブパネルの幅のグローバル値
-use-icon-provider-option = Use Following Icon Provider
+use-icon-provider-option = アイコンプロバイダーを選択
 use-icon-provider-option-google = 
     .label = Google
 use-icon-provider-option-duckduckgo = 
@@ -505,7 +505,7 @@ mouse-gesture-description = { -brand-short-name } を使用するには、Gestur
 Gesturefy = Gesturefy
 about-Gesturefy = Gesturefy は、ブラウザーにマウスジェスチャーを追加する拡張機能です。 { -brand-short-name } がこのアドオンのインストールを検出すると、 { -brand-short-name } でのみ利用可能なジェスチャーコマンドを Gesturefy に追加します。 また、このアドオンは新しいタブで動作することができます!
 # Translate
-TWS = Translate Web Pages
+TWS = Translate Web Page
 about-TWS = Google や Yandexを使ってリアルタイムでページを翻訳します。また、選択したテキストまたはページ全体を翻訳することができます。
 
 # Privacy Hub
