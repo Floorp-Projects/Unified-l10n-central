@@ -346,83 +346,83 @@ floorp-home-prefs-content-description = 选择您希望在 { -brand-short-name }
 
 ## Notes
 
-floorp-notes = { -brand-short-name } 笔记
+floorp-notes = { -brand-short-name } Notes
 restore-from-backup = 从备份恢复笔记
 enable-notes-sync = 
     .label = 启用 { -brand-short-name } Notes Sync
-about-notes-backup-tips = Floorp Notes 使用 Firefox Sync 与其他设备同步你的笔记。如果丢失了笔记，可以从备份中恢复。当你启动 { -brand-short-name }时，就会创建一个备份。
+about-notes-backup-tips = Floorp Notes 使用 Firefox Sync 与其他设备同步您的笔记。如果您丢失了笔记，可以从备份中恢复。当您启动 { -brand-short-name } 时，就会创建一个备份。
 notes-sync-description = 这可以解决由于在同步期间覆盖笔记而丢失内容的问题。
 backuped-time = 备份于
 notes-backup-option = 备份设置
 backup-option-button = 备份设置...
-restore-from-backup-prompt-title = 地板备注还原服务
-restore-from-this-backup = 还原备份状态的备注？
-restore-button = 恢复
+restore-from-backup-prompt-title = Floorp Notes 还原服务
+restore-from-this-backup = 将笔记还原到备份时的状态？
+restore-button = 还原
 
 ## user.js
 
-header-userjs = js
+header-userjs = user.js
 userjs-customize = 使用 user.js 自定义 { -brand-short-name }
 about-userjs-customize = user.js 是一个配置文件，允许您自定义 { -brand-short-name }。user.js 文件从互联网下载，会覆盖您当前的 user.js 文件。请在继续之前备份当前的 user.js 文件。重新启动 { -brand-short-name }后，user.js 配置将自动应用。
-userjs-label = 用户.js 列表
-userjs-prompt = 应用此用户.j？
+userjs-label = user.js 列表
+userjs-prompt = 应用这个 user.js？
 apply-userjs-attention = 应用新的 user.js 将覆盖您当前的 user.js 文件。
 apply-userjs-attention2 = 请在继续之前备份您当前的 user.js 文件。
-userjs-button = 用户.js设置
+userjs-button = user.js 设置...
 userjs-select-option = 管理目前在 { -brand-short-name } 中使用的 user.js，以提高性能和隐私保护。
 apply-userjs-button = 应用
 
 ## userjs Options
 
-default-userjs-label = 底层默认
+default-userjs-label = Floorp Default
 about-default-userjs = 遥测功能已禁用。平衡良好的 { -brand-short-name } ，可启用各种自定义功能。
 Securefox-label = Yokoffing Securefox
 about-Securefox = HTTPS-by-Default. Total Cookie Protection with site 隔离. Enhanced state and network distribution. Various other enhancements.
 default-label = Yokoffing Default
 about-default = 所有必需品。没有任何一个中断。这是您的user.js。
 Fastfox-label = Yokoffing Fastfox
-about-Fastfox = 疯狂地提高Firefox的浏览速度。给Chrome一款金钱！
+about-Fastfox = 大大提高 Firefox 的浏览速度。与 Chrome 浏览器一较高下！
 Peskyfox-label = Yokoffing Peskyfox
-about-Peskyfox = 打开新标签页。移除Pocket。恢复紧凑模式作为选项。停止网页通知、弹出窗口和其他批注。
+about-Peskyfox = 简化新标签页。移除 Pocket。恢复紧凑模式作为选项。停止网页通知、弹出窗口和其他骚扰。
 Smoothfox-label = Yokoffsing smoothfox
-about-Smoothfox = 在您最喜欢的浏览器上取得类似边缘的平滑滚动 — — 或选择更多的样式。
+about-Smoothfox = 在您最喜欢的浏览器上取得类似 Edge 的平滑滚动效果，或选择更适合您喜好的样式。
 
 ## Workspaces
 
 floorp-workspaces-title = { -brand-short-name } 工作空间
 workspaces-backup-discription = 备份并恢复您的工作空间
-workspaces-restore-service-title = 地板工作区备份服务
+workspaces-restore-service-title = Floorp 工作空间备份服务
 workspaces-restore-warning = 警告！运行此操作将导致浏览器暂时冻结并自动重启。
-floorp-workspace-settings-button = 工作区设置...
+floorp-workspace-settings-button = 工作空间设置...
 change-to-close-workspace-popup-option = 
-    .label = 选择工作区时关闭工作区弹出窗口
+    .label = 选择工作空间时关闭工作空间弹出窗口
 pinned-tabs-exclude-workspace-option = 
-    .label = 从工作区排除固定的标签
-workspaces-reset-title = 重置工作区
+    .label = 从工作空间排除已固定的标签页
+workspaces-reset-title = 重置工作空间
 workspaces-reset-label = 
-    .label = 重置工作区
-workspaces-reset-description = 如果备份不可用且工作区未启动，请重置工作区。
-workspaces-reset-button = 重置工作区
-workspaces-reset-service-title = 地板工作区
-workspaces-reset-warning = 警告！运行此操作将删除您所有的工作区并重启浏览器。
+    .label = 重置工作空间
+workspaces-reset-description = 如果备份不可用且工作空间未启动，请重置工作空间。
+workspaces-reset-button = 重置工作空间
+workspaces-reset-service-title = Floorp 工作空间
+workspaces-reset-warning = 警告！运行此操作将删除您所有的工作空间并重启浏览器。
 manage-workspace-on-bms-option = 
-    .label = 管理浏览器管理器侧边栏的工作区
+    .label = 管理浏览器管理器侧边栏的工作空间
 show-workspace-name-option = 
-    .label = 在标签栏工作区按钮上显示工作区名称
+    .label = 在标签栏工作区按钮上显示工作空间名称
 change-workspace-with-default-key-option = 
-    .label = 使用 Shift 和 Safe 和 Macedonic 更改工作空间。
-workspaces-manage-title = 管理工作区
-workspaces-manage-description = 管理您的工作区。更改工作区图标。
+    .label = 使用 Shift + ↑ 和 Shift + ↓ 键切换工作空间。
+workspaces-manage-title = 管理工作空间
+workspaces-manage-description = 管理您的工作空间。更改工作空间图标。
 workspaces-manage-label = 
-    .label = 管理工作区
-workspaces-manage-button = 打开工作区管理器...
-select-workspace = 选择工作区
-workspace-select-icon = 选择工作区图标
-    .label = 选择工作区图标
+    .label = 管理工作空间
+workspaces-manage-button = 打开工作空间管理器...
+select-workspace = 选择工作空间
+workspace-select-icon = 选择工作空间图标
+    .label = 选择工作空间图标
 workspace-select-container = 选择容器标签
     .label = 选择容器标签
 workspace-customize = 
-    .title = 自定义工作区
+    .title = 自定义工作空间
 floorp-no-workspace-conatiner = 
     .label = 无容器
 workspace-icon-briefcase = 
