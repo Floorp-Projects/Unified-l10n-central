@@ -82,7 +82,7 @@ bookmarks-focus-mode =
     .label = ブックマークバーをフォーカスされた場合に表示
 bookmarks-bottom-mode = 
     .label = { -brand-short-name } の下部にブックマークバーを表示
-navbar-settings = ナビゲーションバー
+navbar-settings = ナビゲーションバーの設定
 show-nav-bar-bottom = 
     .label = ナビゲーションバーを { -brand-short-name } の下部に表示 (実験的)
 material-effect = 
@@ -219,7 +219,7 @@ sidebar2-pref-delete =
 sidebar2-pref-setting = 
     .label = 設定
 sidebar2-global-width = ウェブパネルの幅のグローバル値
-use-icon-provider-option = アイコンプロバイダーを選択
+use-icon-provider-option = ウェブパネルのアイコン提供元
 use-icon-provider-option-google = 
     .label = Google
 use-icon-provider-option-duckduckgo = 
@@ -505,7 +505,7 @@ mouse-gesture-description = { -brand-short-name } を使用するには、Gestur
 Gesturefy = Gesturefy
 about-Gesturefy = Gesturefy は、ブラウザーにマウスジェスチャーを追加する拡張機能です。 { -brand-short-name } がこのアドオンのインストールを検出すると、 { -brand-short-name } でのみ利用可能なジェスチャーコマンドを Gesturefy に追加します。 また、このアドオンは新しいタブで動作することができます!
 # Translate
-TWS = Translate Web Page
+TWS = Translate Web Pages
 about-TWS = Google や Yandexを使ってリアルタイムでページを翻訳します。また、選択したテキストまたはページ全体を翻訳することができます。
 
 # Privacy Hub
