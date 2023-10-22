@@ -460,53 +460,53 @@ workspace-icon-tree =
 workspace-icon-chill = 
     .label = プライベート
 # Custom Keyboard Shortcuts
-floorp-CSK-title = カスタムキーボードショートカット
-floorp-CSK-description = { -brand-short-name } のキーボードショートカットをカスタマイズします。Floorp は 80 以上のカスタマイズ可能なキーボードショートカットを提供します。 { -brand-short-name } を再起動してこれらの設定を適用します。 重複したキーボードショートカットは機能しません。
+floorp-CSK-title = カスタムショートカットキー
+floorp-CSK-description = { -brand-short-name } のショートカットキーをカスタマイズします。80 以上のアクションでブラウザーを自由自在に操作してください！これらの設定を適用するには、{ -brand-short-name } を再起動してください。
 disable-fx-actions = 
-    .label = Mozilla Firefox のキーボードショートカットを無効にする
+    .label = Firefox のキーボードショートカットを無効にする
 customize-Action = 
-    .label = ショートカットキーを追加
+    .label = このアクションをカスタマイズ
 remove-Action = 
-    .label = ショートカットキーを削除
-CSK-reset-title = カスタムキーボードショートカットをリセット
-CSK-reset-description = カスタムキーボードショートカットを { -brand-short-name } のデフォルトにリセットします。
-CSK-reset-label = カスタムキーボードショートカットをリセット
-CSK-reset-button = デフォルトに戻す
-CSK-manage-title = キーボードショートカットの管理
-CSK-remove-shortcutkey = このカスタムキーボードショートカットを削除しますか？
-CSK-remove-shortcutkey-description = このキーボードショートカットを削除してもよろしいですか？
-CSK-restore-default = デフォルトに戻しますか？
-CSK-restore-default-description = Floorp のデフォルトキーボードショートカットを復元しますか？現在のショートカットは失われます。
-CSK-reboot-browser-label = { -brand-short-name } を再起動してこれらの設定を適用します
-CSK-reboot-browser-button = { -brand-short-name } を再起動
+    .label = このアクションを削除
+CSK-reset-title = カスタムショートカットキーをリセットする
+CSK-reset-description = カスタムショートカットキーを { -brand-short-name } のデフォルトにリセットします。
+CSK-reset-label = カスタムショートカットキーをリセットする
+CSK-reset-button = リセットする...
+CSK-manage-title = カスタムショートカットキーの管理
+CSK-remove-shortcutkey = ショートカットキーの削除
+CSK-remove-shortcutkey-description = 本当にこのショートカットキーを削除しますか？
+CSK-restore-default = カスタムショートカットキー
+CSK-restore-default-description = カスタムショートカットキーの設定を既定に戻します。現在の設定は失われます
+CSK-reboot-browser-label = カスタムショートカットキーの変更は、{ -brand-short-name } の再起動後に適用されます。
+CSK-reboot-browser-button = { -brand-short-name } を再起動する...
 # Exist shortcut key: "S", "shift"
-CSK-keyborad-shortcut-info = 現在のキーボードショートカット: { $key } & { $modifiers }.
-CSK-keyborad-shortcut-info-with-keycode = 現在のキーボードショートカット: { $key }.
-CSK-keyborad-shortcut-is-changed = (未適用）
-floorp-custom-actions-tab-action = タブアクション
-floorp-custom-actions-page-action = ページアクション
-floorp-custom-actions-visible-action = ビジュアルアクション
-floorp-custom-actions-search-action = 検索アクション
-floorp-custom-actions-tools-action = ツールアクション
-floorp-custom-actions-bookmark-action = ブックマークアクション
+CSK-keyborad-shortcut-info = "{ $key }" と "{ $modifiers }" の組み合わせが設定されています。
+CSK-keyborad-shortcut-info-with-keycode = "{ $key }" が設定されています。
+CSK-keyborad-shortcut-is-changed = (変更が未適用)
+floorp-custom-actions-tab-action = タブのアクション
+floorp-custom-actions-page-action = ページのアクション
+floorp-custom-actions-visible-action = 表示方法のアクション
+floorp-custom-actions-search-action = 検索のアクション
+floorp-custom-actions-tools-action = ツールのアクション
+floorp-custom-actions-bookmark-action = ブックマークのアクション
 floorp-custom-actions-open-page-action = ページを開くアクション
-floorp-custom-actions-history-action = 履歴アクション
-floorp-custom-actions-pip-action = ピクチャーインピクチャーアクション
-floorp-custom-actions-downloads-action = ダウンロードアクション
-floorp-custom-actions-sidebar-action = サイドバーアクション
-floorp-custom-actions-bms-action = ブラウザーマネージャーサイドバーアクション
-floorp-custom-actions-workspace-action = ワークスペースアクション
+floorp-custom-actions-history-action = 履歴のアクション
+floorp-custom-actions-pip-action = ピクチャーインピクチャーのアクション
+floorp-custom-actions-downloads-action = ダウンロードのアクション
+floorp-custom-actions-sidebar-action = サイドバーのアクション
+floorp-custom-actions-bms-action = ブラウザーマネージャーサイドバーのアクション
+floorp-custom-actions-workspace-action = ワークスペースのアクション
 floorp-custom-actions-custom-action = カスタムアクション (実験的)
 
 ## Mouse Gestures
 
 mouse-gesture = マウスジェスチャー
-mouse-gesture-description = { -brand-short-name } を使用するには、Gesturefy をインストールする必要があります。
+mouse-gesture-description = { -brand-short-name } でマウスジェスチャを使用するには、Gesturefy がインストールされている必要があります。
 Gesturefy = Gesturefy
-about-Gesturefy = Gesturefy は、ブラウザーにマウスジェスチャーを追加する拡張機能です。 { -brand-short-name } がこのアドオンのインストールを検出すると、 { -brand-short-name } でのみ利用可能なジェスチャーコマンドを Gesturefy に追加します。 また、このアドオンは新しいタブで動作することができます!
+about-Gesturefy = Gesturefy はブラウザにマウスジェスチャを追加する拡張機能です。{ -brand-short-name } がこのアドオンのインストールを検出すると、{ -brand-short-name } でしか利用できないジェスチャーコマンドを Gesturefy に追加します。また、このアドオンは新しいタブで動作可能です。
 # Translate
 TWS = Translate Web Pages
-about-TWS = Google や Yandexを使ってリアルタイムでページを翻訳します。また、選択したテキストまたはページ全体を翻訳することができます。
+about-TWS = Google や Yandexを使って、リアルタイムでページを翻訳します。選択したテキストやページ全体を翻訳することも可能です。新しいタブを開く必要はありません。ウェブページのテキストは、Google や Yandex などに送信されて翻訳されます。
 
 # Privacy Hub
 
@@ -515,36 +515,36 @@ about-TWS = Google や Yandexを使ってリアルタイムでページを翻訳
 
 privacy-hub-header = プライバシーハブ
 block-more-tracker = より多くの広告とトラッカーをブロックする
-block-tracker = このセクションには、広告とトラッカーをブロックするように設計された拡張機能のセットが含まれています。
+block-tracker = このセクションでは、ウイルスやトラッカーをブロックするために設計された拡張機能のセットの情報を提供します。これらの拡張機能は、Floorp によって自動的に検出され、表示されます。
 view-at-AMO = このアドオンを addons.mozilla.org で見る
 uBlock-Origin = uBlock Origin
-about-uboori = uBlock Origin は、広告、広範なトラッカー、およびその他の危険なサイトをブロックします。
+about-uboori = uBlock Originは、コンテンツフィルタリングのためのブラウザ拡張機能の１つであり、効率的かつ使いやすい方法でプライバシーの保護を主な目的としています。uBlock Originは、広告ブロッカーとしても機能します。
 Facebook-Container = Facebook Container
-about-Facebook-Container = Facebook がウェブ上であなたを追跡するのを防ぎましょう。Facebook Container は、あなたのウェブ活動を Facebook からコントロールし、隔離するのに役立ちます。
+about-Facebook-Container = Facebook がウェブ上であなたを追跡するのを防ぎましょう。Mozilla によって提供される Facebook Container アドオンは、あなたのウェブ活動を Facebook から切り離すのに役立ちます。
 
 ## Fingerprinting
 
-fingerprint-header = フィンガープリント採取と IP アドレスの漏洩を制限する
-block-fingerprint = フィンガープリントは、ブラウザとオペレーティングシステムの固有の機能に依存する追跡メカニズムです。 このセクションには、デフォルトのブロックを超えてこの保護をさらに強化するための設定が含まれています。
-enable-firefox-fingerprint-protections = フィンガープリント採取からの強力な保護を有効にする
-about-firefox-fingerprint-protection = この機能を有効にした場合、強制ライトモード、一部の API の無効化などが行われます。一部のサイトが壊れる可能性があります。
+fingerprint-header = フィンガープリント & IP アドレスの漏洩対策
+block-fingerprint = フィンガープリンティングは、ブラウザとオペレーティングシステムの固有の機能に依存する追跡メカニズムです。このセクションでは、既定のブロックを超えてこの保護をさらに強化するための設定が含まれています。
+enable-firefox-fingerprint-protections = フィンガープリントに対する強力な保護を有効にする
+about-firefox-fingerprint-protection = Firefox によるフィンガープリント保護を有効にした場合、強制ライトモード、一部の API を無効にするなどのデメリットがあります。一部のサイトが壊れる可能性もあります。
 fingerprint-Protection = 
-    .label = フィンガープリント対策保護
+    .label = フィンガープリント保護
 html5-canvas-prompt-settings = 
     .label = HTML5 画像データのアクセス確認プロンプトを自動的に拒否する
 canvas-prompt = 手動で許可しない限り、ウェブサイトがキャンバス読み取りプロンプトを使用しないようにする。
 disable-webgl = 
     .label = WebGL を無効にする
-about-webgl = WebGL はグラフィックをレンダリングするために使用される Javascript API で、GPU を識別するために使用できます。
+about-webgl = WebGL は、グラフィックを描画するための Javascript API で、GPU を識別するために使用されることがあります。
 Canvas-Blocker = キャンバスブロッカー
 about-CB = このアドオンは、フィンガープリント技術で使用されるデータを偽装します。
-WebRTC-connection = WebRTC はリアルタイム通話を提供する規格です。この設定を無効にすると、Discord などが使えなくなります。
+WebRTC-connection = WebRTC は、リアルタイム通話を実現する規格です。この設定を無効にすると、Discord などが使えなくなります。
 WebRTC = 
     .label = WebRTC 接続を有効にする
 ################################################################### browser ###############################################################
 
-rest-mode = 休憩中...
-rest-mode-description = Floorp は現在停止中です。ENTER または OK を押して続けます。
+rest-mode = 休憩中
+rest-mode-description = 休憩中は、ブラウザーの機能が制限されます。休憩を終了するには、OK をクリックしてください。
 Sidebar2 = 
     .label = ブラウザーマネージャーサイドバー
     .tooltiptext = サイドバーの表示を切り替える
