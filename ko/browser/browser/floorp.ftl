@@ -138,7 +138,7 @@ start-always-notify =
 finish-always-notify = 
     .label = 다운로드가 완료된 경우에만 알림
 always-notify = 
-    .label = 다운로드 시작 시점과 다운로드 완료 시점 알림
+    .label = 다운로드 시작 시점과 다운로드 완료 시점에 알림
 do-not-notify = 
     .label = 다운로드 알림 비활성화
 
@@ -151,17 +151,17 @@ appmenuitem-reboot =
 
 ## UserAgent
 
-userAgent-preference = User Agent
+userAgent-preference = 사용자 에이전트
 default-useragent-mode = 
     .label = Firefox 사용자 에이전트 사용(기본값)
 windows-chrome-useragent-mode = 
-    .label = Windows에서 스푸핑 크롬
+    .label = Windows의 Chrome 사용자 에이전트 사용
 macOS-chrome-useragent-mode = 
-    .label = macOS의 스푸핑 크롬
+    .label = macOS의 Chrome 사용자 에이전트 사용
 linux-chrome-useragent-mode = 
-    .label = Linux에서 스푸핑 크롬
+    .label = Linux의 Chrome 사용자 에이전트 사용
 mobile-chrome-useragent-mode = 
-    .label = iOS의 스푸핑 크롬
+    .label = iOS의 Chrome 사용자 에이전트 사용
 use-custom-useragent-mode = 
     .label = 사용자 지정 사용자 에이전트 사용
 
@@ -535,7 +535,7 @@ html5-canvas-prompt-settings =
 canvas-prompt = 수동으로 허용하지 않는 한 웹 사이트에서 캔버스 읽기 프롬프트를 사용하지 못하도록 합니다.
 disable-webgl = 
     .label = WebGL 비활성화
-about-webgl = WebGL은 그래픽을 렌더링하는 데 사용되는 자바스크립트 API로, GPU를 식별하는 데 사용할 수 있습니다.
+about-webgl = WebGL은 그래픽을 렌더링하는 데 사용되는 자바스크립트 API로, GPU를 식별하는 데 사용될 수 있습니다.
 Canvas-Blocker = 캔버스 차단기
 about-CB = 이 애드온은 핑거프린팅 기법에 사용되는 데이터를 스푸핑합니다.
 WebRTC-connection = WebRTC는 실시간 통화를 제공하는 표준입니다. 이 설정을 비활성화하면 Discord 등을 사용할 수 없게 됩니다.
@@ -544,7 +544,7 @@ WebRTC =
 ################################################################### browser ###############################################################
 
 rest-mode = 휴식 중...
-rest-mode-description = 플로어가 현재 일시 중단되었습니다. 계속하려면 Enter 또는 확인을 누르세요.
+rest-mode-description = Floorp가 현재 일시 중단되었습니다. 계속하려면 Enter 또는 확인을 누르세요.
 Sidebar2 = 
     .label = 브라우저 관리자 사이드바
     .tooltiptext = 사이드바 가시성 변경
@@ -672,20 +672,20 @@ gf-floorp-open-extension-sidebar-settings-list-default = 부가 기능을 선택
 gf-floorp-open-extension-sidebar-settings-list-unknwon = 알 수 없는 애드온
 ##################################################################### Floorp System Update Portable Version ###############################################################
 
-update-portable-notification-found-title = 업데이트가 발견되었습니다!
+update-portable-notification-found-title = 새로운 업데이트를 찾았어요!
 update-portable-notification-found-message = 업데이트 다운로드 중...
 update-portable-notification-ready-title = 업데이트 준비 완료!
-update-portable-notification-ready-message = { -brand-short-name } 는 다음에 출시될 때 업데이트될 예정입니다.
+update-portable-notification-ready-message = { -brand-short-name } 는 다음에 실행될 때 업데이트될 예정입니다.
 update-portable-notification-success-title = 업데이트에 성공했습니다!
-update-portable-notification-success-message = 업데이트 성공! 플로어프의 새로운 버전을 즐겨주시기 바랍니다!
+update-portable-notification-success-message = 업데이트 성공! Floorp의 새로운 버전을 즐겨주세요!
 update-portable-notification-failed-title = 업데이트하지 못했습니다.
 update-portable-notification-failed-redirector-message = 업데이트하지 못했습니다. 브라우저를 다시 시작하면 이 문제가 해결될 수 있습니다.
 update-portable-notification-failed-prepare-message = 업데이트를 준비하지 못했습니다.
 ##################################################################### Floorp Portable Preferences ###############################################################
 
-floorp-portable-update-application-allow = { -brand-short-name } 휴대용 업데이트
+floorp-portable-update-application-allow = { -brand-short-name } Portable 업데이트
 floorp-update-application-auto-enabled-option = 
-    .label = { -brand-short-name } portable에 대한 업데이트를 자동으로 확인합니다. (권장)
+    .label = { -brand-short-name } Portable에 대한 업데이트를 자동으로 확인합니다. (권장)
 ##################################################################### Open link in external ###############################################################
 openInExternal-title = 외부 브라우저에서 열기
 open-link-in-external-enabled-option = 
@@ -970,18 +970,18 @@ floorp-profile = 프로필
     .tooltiptext = 프로필 관리자 열기
 fxa-not-signed-in = 로그인하지 않음
 ###################################################################### Private Container ##############################################################
-floorp-private-container-name = 비공개
+floorp-private-container-name = 사생활
 floorp-toggle-private-container = 
-    .label = 비공개로 다시 열기/컨테이너 없음
+    .label = 사생활 컨테이너/컨테이너 없음으로 다시 열기
     .accesskey = P
 open-in_private-container = 
-    .label = 비공개 컨테이너로 새 탭에서 열기
+    .label = 사생활 컨테이너로 새 탭에서 열기
 ######################################################################## Split View ###############################################################
 
 floorp-split-view-menu = 
-    .label = 보기를 분할하려면 이 탭을 수정하세요.
+    .label = 이 탭을 분할 화면에 고정하기
 ######################################################################### Page Actions ###############################################################
-qrcode-generate-page-action-title = 휴대폰으로 QR코드 스캔
+qrcode-generate-page-action-title = 휴대폰으로 QR코드 스캔하세요.
 qrcode-generate-page-action = 
     .tooltiptext = 이 페이지를 휴대폰으로 공유하기
 ######################################################################### Customize Mode ###############################################################
