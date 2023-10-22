@@ -362,13 +362,13 @@ restore-button = 復元
 ## user.js
 
 header-userjs = user.js
-userjs-customize = user.js で { -brand-short-name } をカスタマイズ
-about-userjs-customize = user.jsは、 { -brand-short-name }をカスタマイズするための設定ファイルです。user.jsファイルはインターネットからダウンロードされ、現在のuser.jsファイルを上書きします。続行する前に、現在の user.js ファイルをバックアップしてください。user.jsの設定は、 { -brand-short-name }を再起動すると自動的に適用されます。
+userjs-customize = user.js で { -brand-short-name } をカスタマイズする。
+about-userjs-customize = user.jsは、{ -brand-short-name } をカスタマイズするための設定ファイルです。user.js はインターネットからダウンロードされ、元の user.js ファイルを上書きします。元の user.js のバックアップをとってから使用してください。ダウンロード先の user.js により発生した問題は Floorp は無関係として処理します。
 userjs-label = user.js リスト
 userjs-prompt = この user.js を適用しますか？
 apply-userjs-attention = 新しい user.js を適用すると、現在のuser.jsファイルが上書きされます。
 apply-userjs-attention2 = 続行する前に、現在の user.js ファイルをバックアップしてください。
-userjs-button = user.js 設定...
+userjs-button = user.js オプションを開く... 
 userjs-select-option = パフォーマンスとプライバシーを向上させるために現在 { -brand-short-name } で使用されている user.js を管理します。
 apply-userjs-button = 適用する
 
