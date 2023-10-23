@@ -4,7 +4,7 @@
 
 ###################################################################### about:Dialog #################################################################################
 
-about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> は日本で開発される独立した１つの Web ブラウザです。 Firefox ベースで <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label> の下で Web をより良くするために作られています。 参加・応援をしたいですか？ <label data-l10n-name="helpus-donateLink">寄付</label> をご検討ください。
+about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> は日本で開発される独立した１つのウェブブラウザーです。 Firefox ベースで <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label> の下でウェブをより良くするために作られています。 参加・応援をしたいですか？ <label data-l10n-name="helpus-donateLink">寄付</label> をご検討ください。
 icon-creator = アイコン作成者：<label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> と <label data-l10n-name="brand-logo-twitter">@mwxdxx</label>
 contributors = <label data-l10n-name="about-contributor">貢献者・開発者</label> のリストもご確認ください
 #################################################################### about:preferences ####################################################################
@@ -38,7 +38,7 @@ tab-sleep-settings-dialog-excludehosts-label-2 = 1行に1つのホストを入�
 tab-sleep-tab-context-menu-excludetab = タブをスリープさせない
 enable-floorp-workspace = 
     .label = ワークスペースを有効にする
-workspace-warning = Workspaces cannot be used with Tab Group add-ons. If you want to use tab group add-ons, please disable Workspaces and restart { -brand-short-name }.
+workspace-warning = ワークスペースはタブグループアドオンと併用できません。タブグループアドオンを使用したい場合は、ワークスペースを無効にし、{ -brand-short-name} を再起動してください。
 enable-tab-scroll-change = 
     .label = タブをスクロールで切り替える
 enable-tab-scroll-reverse = 
@@ -961,31 +961,31 @@ floorp-custom-actions-custom-action-5 = カスタムアクション 5
     .label = カスタムアクション 5
 ##################################################################### Profile Switcher ###############################################################
 
-floorp-open-profile-with-new-instance = 起動
-    .tooltiptext = Launch { -brand-short-name } with this profile
-floorp-profiles-in-use = This profile is in use.
-floorp-profiles-title = Profiles
-floorp-profile-manager = Profile Manager
-floorp-profiles-create = Create Profile
-floorp-profile = Profile
-    .label = Profile Manager
-    .tooltiptext = Open Profile Manager
-fxa-not-signed-in = Not signed in
+floorp-open-profile-with-new-instance = 開く
+    .tooltiptext = このプロファイルで { -brand-short-name } を開く
+floorp-profiles-in-use = このプロファイルは使用中です。
+floorp-profiles-title = プロファイル
+floorp-profile-manager = プロファイルマネージャー
+floorp-profiles-create = プロファイルを作成
+floorp-profile = プロファイル
+    .label = プロファイルマネージャー
+    .tooltiptext = プロファイルマネージャーを開く
+fxa-not-signed-in = ログインしていません
 ###################################################################### Private Container ##############################################################
-floorp-private-container-name = Private
+floorp-private-container-name = プライベート
 floorp-toggle-private-container = 
-    .label = Reopen in Private/No Container
+    .label = プライベート/コンテナーなしで再度開く
     .accesskey = P
 open-in_private-container = 
-    .label = Open in New Tab with Private Container
+    .label = 新規プライベートコンテナータブで開く
 ######################################################################## Split View ###############################################################
 
 floorp-split-view-menu = 
-    .label = Fix this tab to split view
+    .label = このタブを分割表示に修正
 ######################################################################### Page Actions ###############################################################
-qrcode-generate-page-action-title = Scan QR Code with your Phone
+qrcode-generate-page-action-title = QR コードでウェブページを共有
 qrcode-generate-page-action = 
-    .tooltiptext = Share this page with your phone
+    .tooltiptext = QR コードでウェブページを共有
 ######################################################################### Customize Mode ###############################################################
 floorp-customize-mode-unified-extensions-button = 
-    .label = Unified Extensions Button
+    .label = 統合拡張ボタン
