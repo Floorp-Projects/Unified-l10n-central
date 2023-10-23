@@ -514,11 +514,11 @@ about-TWS = 使用 Google 或 Yandex 来实时翻译您的网页。您还可以�
 ## BlockMoreTrackers
 
 privacy-hub-header = 隐私中心
-block-more-tracker = 屏蔽更多广告和追踪器
-block-tracker = 本节包含一组用于屏蔽广告和追踪器的扩展
-view-at-AMO = 在 addons.mozilla.org 中查看此插件
-uBlock-Origin = uBlock来源
-about-uboori = uBlock源码广告、广泛追踪器和其他危险站点。
+block-more-tracker = 阻止更多的广告和追踪器
+block-tracker = 本节包含一系列旨在阻止广告和追踪器的扩展
+view-at-AMO = 在 addons.mozilla.org 上查看此插件
+uBlock-Origin = uBlock Origin
+about-uboori = uBlock Origin可以屏蔽广告、广泛的追踪器，以及其他危险的网站。
 Facebook-Container = Facebook 容器
 about-Facebook-Container = 阻止Facebook跟踪您的网络。Facebook容器扩展帮助您控制并隔离您的网络活动。
 
