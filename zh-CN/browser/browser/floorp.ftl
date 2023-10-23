@@ -683,38 +683,38 @@ update-portable-notification-failed-redirector-message = 更新失败。重新�
 update-portable-notification-failed-prepare-message = 更新准备失败。
 ##################################################################### Floorp Portable Preferences ###############################################################
 
-floorp-portable-update-application-allow = { -brand-short-name } 便携式更新
+floorp-portable-update-application-allow = { -brand-short-name } 便携版更新
 floorp-update-application-auto-enabled-option = 
-    .label = 自动检查 { -brand-short-name } portable 的更新。推荐
+    .label = 自动检查 { -brand-short-name } 便携版是否有更新。 (推荐)
 ##################################################################### Open link in external ###############################################################
-openInExternal-title = 在外部浏览器打开
+openInExternal-title = 在外部浏览器中打开
 open-link-in-external-enabled-option = 
-    .label = 启用"在外部浏览器中打开"功能
+    .label = 启用 “在外部浏览器中打开” 功能
 open-link-in-external-select-browser-option = 选择要打开的浏览器
 open-link-in-external-select-browser-option-default = 
     .label = 默认浏览器
-open-link-in-external-tab-context-menu = 在外部浏览器打开
-open-link-in-external-tab-dialog-title-error = 发生错误：
+open-link-in-external-tab-context-menu = 在外部浏览器中打开
+open-link-in-external-tab-dialog-title-error = 发生了一个错误：
 open-link-in-external-tab-dialog-message-default-browser-not-found = 未找到或未配置默认浏览器。
 open-link-in-external-tab-dialog-message-selected-browser-not-found = 所选浏览器不存在。
 ######################################################################### Floorp Notes ###############################################################
 
-new-memo = 新的
-memo-title-input-placeholder = 在此处写一个标题
-memo-input-placeholder = 在此处写入或粘贴备注
+new-memo = 新建
+memo-title-input-placeholder = 撰写一个标题
+memo-input-placeholder = 在此处写入或粘贴备忘录
 delete-memo = 删除
 save-memo = 保存
 memo-welcome-title = 欢迎！
-memo-first-tip = 欢迎使用 Floorp 便笺！这里有一些关于如何使用它的说明！
-memo-second-tip = Floorp Notes 是一个便于您存储多个不同设备同步的便笺。 要启用同步，您需要登录到您的 Firefox 帐户的Floorp
-memo-third-tip = 地板笔记将保存在您的地板设置中，并在设备间使用 Firefox Sync 进行同步。 Firefox 同步加密了您的 Firefox 帐户密码的同步内容，所以没有人知道它的内容。
-memo-import-data-tip = Firefox 同步不是备份服务。我们建议您创建备份。
+memo-first-tip = 欢迎使用 Floorp Notes！以下是一些使用说明！
+memo-second-tip = Floorp Notes 是一个记事本应用，允许您存储多个便签并在不同设备之间同步。要启用同步功能，您需要使用您的 Firefox 账户登录 Floorp。
+memo-third-tip = Floorp Notes 将会保存在您的 Floorp 设置中，并通过 Firefox Sync 在不同设备之间同步。Firefox Sync 会使用您的 Firefox 账户密码对同步的内容进行加密，因此除了您自己，没有其他人能够知道其内容。
+memo-import-data-tip = Firefox 同步不是备份服务。我们建议您创建数据备份。
 memo-new-title = 新建笔记
-chage-view-mode = 切换视图/编辑模式
-readonly-mode = 离线(只读)
+chage-view-mode = 切换查看/编辑模式
+readonly-mode = 离线 (只读)
 ######################################################################### Default bookmarks ###############################################################
 default-bookmark-ablaze-support = Ablaze 支持
-default-bookmark-notes = 地板笔记
+default-bookmark-notes = Floorp Notes
 ######################################################################### Like Chrome Download mgr ###############################################################
 
 floorp-delete-all-downloads = 
@@ -723,23 +723,23 @@ floorp-delete-all-downloads =
     .tooltiptext = 清除下载
 floorp-show-all-downloads = 
     .label = 显示所有下载
-    .accesskey = 秒
+    .accesskey = S
     .tooltiptext = 显示所有下载
 ######################################################################### workspace ###############################################################
 
-workspace-prompt-title = 地板工作区
+workspace-prompt-title = Floorp 工作区
 please-enter-workspace-name = 请输入工作区的新名称。
-please-enter-workspace-name-2 = 工作区名称不能包含符号和空格。
-workspace-error = 发生错误：
-workspace-error-discription = 要么存在此名称的工作区，要么名称无效。
+please-enter-workspace-name-2 = 工作区的名称不能包含符号和空格。
+workspace-error = 发生了一个错误：
+workspace-error-discription = 要么已存在此名称的工作区，要么该名称无效。
 workspace-button = 工作区
     .label = 工作区
     .tooltiptext = 选择一个工作区...
-workspace-default = 默认设置
+workspace-default = 默认
 workspace-add = 
-    .label = 新工作区...
+    .label = 新建工作区…
 workspace-context-menu-selected-tab = 
-    .label = 无法移动所选标签
+    .label = 无法移动选定的标签
 move-tab-another-workspace = 
     .label = 移动到另一个工作区
 workspace-rename = 
@@ -751,11 +751,11 @@ manage-workspace = 管理此工作区
 ######################################################################### menubar item ###############################################################
 
 sharemode-menuitem = 
-    .label = 分享模式
-    .accesskey = 秒
+    .label = 共享模式
+    .accesskey = S
 ############################################################################## Welcome page ###############################################################
 
-welcome-login-to-firefox-account = 登录您的 Firefox 帐户
+welcome-login-to-firefox-account = 登录您的 Firefox 账户
 welcome-to-floorp = 欢迎访问 { -brand-short-name }！
 welcome-discribe-floorp = { -brand-short-name } 是一款功能丰富、灵活的浏览器，支持各种环境，基于 Firefox。
 welcome-start-setup = 准备好跳进？
