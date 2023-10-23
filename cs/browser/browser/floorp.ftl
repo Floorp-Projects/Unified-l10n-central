@@ -91,7 +91,7 @@ disable-extension-check-compatibility-option =
     .label = Nekontrolovat kompatibilitu s doplňky
 other-preference = Další předvolby
 enable-userscript = 
-    .label = Enable "userChrome.js" and "Bootstrap extensions" Loading
+    .label = Enable legacy components
 about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
 search-positon-top = 
     .label = Display the Find Bar at the top of the page
@@ -219,7 +219,7 @@ sidebar2-pref-delete =
 sidebar2-pref-setting = 
     .label = Nastavení
 sidebar2-global-width = Šířka globálních webových panelů
-use-icon-provider-option = Use Following Icon Provider
+use-icon-provider-option = Use Icon Provider
 use-icon-provider-option-google = 
     .label = Google
 use-icon-provider-option-duckduckgo = 
@@ -505,7 +505,7 @@ mouse-gesture-description = Gesturefy musí být nainstalovány pro použití ge
 Gesturefy = Gesturefy
 about-Gesturefy = Gesturefy je rozšíření, které přidává gesta myší do vašeho prohlížeče. Pokud { -brand-short-name } zjistí instalaci doplňku, přidá příkazy gesta k Gesturefy, které jsou dostupné pouze v { -brand-short-name }. Tento doplněk může také fungovat s novými záložkami!
 # Translate
-TWS = Translate Web Pages
+TWS = Translate Web Page
 about-TWS = Přeložte svou stránku v reálném čase pomocí Google nebo Yandex. Můžete také přeložit vybraný text nebo celou stránku.
 
 # Privacy Hub

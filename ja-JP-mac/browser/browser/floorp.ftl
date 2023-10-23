@@ -91,7 +91,7 @@ disable-extension-check-compatibility-option =
     .label = アドオンとの互換性を確認しない
 other-preference = その他の設定
 enable-userscript = 
-    .label = Enable "userChrome.js" and "Bootstrap extensions" Loading
+    .label = レガシーコンポーネントを有効にする
 about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
 search-positon-top = 
     .label = Display the Find Bar at the top of the page
@@ -219,7 +219,7 @@ sidebar2-pref-delete =
 sidebar2-pref-setting = 
     .label = 設定
 sidebar2-global-width = Web パネルの幅のグローバル値
-use-icon-provider-option = Use Following Icon Provider
+use-icon-provider-option = アイコンの提供元
 use-icon-provider-option-google = 
     .label = Google
 use-icon-provider-option-duckduckgo = 
@@ -505,7 +505,7 @@ mouse-gesture-description = Gesturefy must be installed to use mouse gestures wi
 Gesturefy = Gesturefy
 about-Gesturefy = Gesturefy is an extension that adds mouse gestures to your browser. If { -brand-short-name } detects the installation of this add-on, it will add gesture commands to Gesturefy that are only available in { -brand-short-name }. Also, this add-on can work with new tabs!
 # Translate
-TWS = Translate Web Pages
+TWS = Translate Web Page
 about-TWS = Translate your page in real time using Google or Yandex. You can also translate selected text or the entire page.
 
 # Privacy Hub

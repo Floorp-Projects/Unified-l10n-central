@@ -91,7 +91,7 @@ disable-extension-check-compatibility-option =
     .label = Kontroller ikke for kompatibilitet med tilføjelser
 other-preference = Andre Præferencer
 enable-userscript = 
-    .label = Enable "userChrome.js" and "Bootstrap extensions" Loading
+    .label = Enable legacy components
 about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
 search-positon-top = 
     .label = Display the Find Bar at the top of the page
@@ -219,7 +219,7 @@ sidebar2-pref-delete =
 sidebar2-pref-setting = 
     .label = Indstillinger
 sidebar2-global-width = Globale webpaneler bredde
-use-icon-provider-option = Use Following Icon Provider
+use-icon-provider-option = Use Icon Provider
 use-icon-provider-option-google = 
     .label = Google
 use-icon-provider-option-duckduckgo = 
@@ -505,7 +505,7 @@ mouse-gesture-description = Gesturefy skal være installeret for at bruge musebe
 Gesturefy = Gesturefy
 about-Gesturefy = Gesturefy er en udvidelse, der tilføjer mus fagter til din browser. Hvis { -brand-short-name } registrerer installationen af denne tilføjelse, vil den tilføje fagkommandoer til Gesturefy, som kun er tilgængelige i { -brand-short-name }. Også denne tilføjelse kan arbejde med nye faner!
 # Translate
-TWS = Translate Web Pages
+TWS = Translate Web Page
 about-TWS = Oversæt din side i realtid ved hjælp af Google eller Yandex. Du kan også oversætte den valgte tekst eller hele siden.
 
 # Privacy Hub

@@ -91,7 +91,7 @@ disable-extension-check-compatibility-option =
     .label = Controleer niet op compatibiliteit met add-ons
 other-preference = Andere voorkeuren
 enable-userscript = 
-    .label = Enable "userChrome.js" and "Bootstrap extensions" Loading
+    .label = Enable legacy components
 about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
 search-positon-top = 
     .label = Display the Find Bar at the top of the page
@@ -219,7 +219,7 @@ sidebar2-pref-delete =
 sidebar2-pref-setting = 
     .label = Instellingen
 sidebar2-global-width = Globale webpanelen breedte
-use-icon-provider-option = Use Following Icon Provider
+use-icon-provider-option = Use Icon Provider
 use-icon-provider-option-google = 
     .label = Google
 use-icon-provider-option-duckduckgo = 
@@ -505,7 +505,7 @@ mouse-gesture-description = Gebaar moet worden geïnstalleerd om muisgebaren met
 Gesturefy = Gesturefy
 about-Gesturefy = Gebaar is een extensie die muisgebaren toevoegt aan uw browser. Als { -brand-short-name } de installatie van deze add-on detecteert, zullen er gebaren commando's worden toegevoegd om te Gebaar te Gebaar die alleen beschikbaar zijn in { -brand-short-name }. Ook kan deze add-on werken met nieuwe tabbladen!
 # Translate
-TWS = Translate Web Pages
+TWS = Translate Web Page
 about-TWS = Vertaal uw pagina in realtime met behulp van Google of Yandex. U kunt ook geselecteerde tekst of de hele pagina vertalen.
 
 # Privacy Hub

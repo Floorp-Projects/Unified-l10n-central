@@ -91,7 +91,7 @@ disable-extension-check-compatibility-option =
     .label = Nie sprawdzaj zgodności z dodatkami
 other-preference = Inne preferencje
 enable-userscript = 
-    .label = Enable "userChrome.js" and "Bootstrap extensions" Loading
+    .label = Enable legacy components
 about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
 search-positon-top = 
     .label = Display the Find Bar at the top of the page
@@ -219,7 +219,7 @@ sidebar2-pref-delete =
 sidebar2-pref-setting = 
     .label = Ustawienia
 sidebar2-global-width = Szerokość globalnych Paneli Web
-use-icon-provider-option = Use Following Icon Provider
+use-icon-provider-option = Use Icon Provider
 use-icon-provider-option-google = 
     .label = Google
 use-icon-provider-option-duckduckgo = 
@@ -505,7 +505,7 @@ mouse-gesture-description = Gesturefy musi być zainstalowany, aby użyć gestó
 Gesturefy = Gesturefy
 about-Gesturefy = Gesturefy to rozszerzenie, które dodaje gesty myszy do przeglądarki. Jeśli { -brand-short-name } wykryje instalację tego dodatku, doda on polecenia gestów do Gesturefy, które są dostępne tylko w { -brand-short-name }. Dodatek może również działać z nowymi kartami!
 # Translate
-TWS = Translate Web Pages
+TWS = Translate Web Page
 about-TWS = Przetłumacz swoją stronę w czasie rzeczywistym za pomocą Google lub Yandex. Możesz również przetłumaczyć wybrany tekst lub całą stronę.
 
 # Privacy Hub

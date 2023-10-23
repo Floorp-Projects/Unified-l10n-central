@@ -91,7 +91,7 @@ disable-extension-check-compatibility-option =
     .label = Non verificare la compatibilità con componenti aggiuntivi
 other-preference = Altre Preferenze
 enable-userscript = 
-    .label = Enable "userChrome.js" and "Bootstrap extensions" Loading
+    .label = Enable legacy components
 about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
 search-positon-top = 
     .label = Display the Find Bar at the top of the page
@@ -219,7 +219,7 @@ sidebar2-pref-delete =
 sidebar2-pref-setting = 
     .label = Impostazioni
 sidebar2-global-width = Larghezza pannello Web globale
-use-icon-provider-option = Use Following Icon Provider
+use-icon-provider-option = Use Icon Provider
 use-icon-provider-option-google = 
     .label = Google
 use-icon-provider-option-duckduckgo = 
@@ -505,7 +505,7 @@ mouse-gesture-description = Gesturefy deve essere installato per usare i gesti d
 Gesturefy = Gesturefy
 about-Gesturefy = Gesturefy è un'estensione che aggiunge i gesti del mouse al browser. Se { -brand-short-name } rileva l'installazione di questo add-on, aggiungerà i comandi di gesture a Gesturefy che sono disponibili solo in { -brand-short-name }. Inoltre, questo componente aggiuntivo può funzionare con nuove schede!
 # Translate
-TWS = Translate Web Pages
+TWS = Translate Web Page
 about-TWS = Traduci la tua pagina in tempo reale usando Google o Yandex. Puoi anche tradurre il testo selezionato o l'intera pagina.
 
 # Privacy Hub

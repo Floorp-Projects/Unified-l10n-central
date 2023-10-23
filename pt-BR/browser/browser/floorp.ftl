@@ -91,7 +91,7 @@ disable-extension-check-compatibility-option =
     .label = Não verificar a compatibilidade com os complementos
 other-preference = Outras Preferências
 enable-userscript = 
-    .label = Enable "userChrome.js" and "Bootstrap extensions" Loading
+    .label = Enable legacy components
 about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
 search-positon-top = 
     .label = Display the Find Bar at the top of the page
@@ -219,7 +219,7 @@ sidebar2-pref-delete =
 sidebar2-pref-setting = 
     .label = Confirgurações
 sidebar2-global-width = Largura de painéis web globais
-use-icon-provider-option = Use Following Icon Provider
+use-icon-provider-option = Use Icon Provider
 use-icon-provider-option-google = 
     .label = Google
 use-icon-provider-option-duckduckgo = 
@@ -505,7 +505,7 @@ mouse-gesture-description = Gesturefy deve ser instalado para usar gestos do mou
 Gesturefy = Gesturefy
 about-Gesturefy = Gesturefy é uma extensão que adiciona gestos do mouse ao seu navegador. Se { -brand-short-name } detectar a instalação deste complemento, ele adicionará comandos de gesto ao Gesturefy que só estão disponíveis em { -brand-short-name }. Além disso, este complemento pode funcionar em novas abas!
 # Translate
-TWS = Translate Web Pages
+TWS = Translate Web Page
 about-TWS = Traduza sua página em tempo real usando Google ou Yandex. Você também pode traduzir o texto selecionado ou a página inteira.
 
 # Privacy Hub

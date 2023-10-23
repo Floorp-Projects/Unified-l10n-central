@@ -91,7 +91,7 @@ disable-extension-check-compatibility-option =
     .label = Μην ελέγχετε για συμβατότητα με πρόσθετα
 other-preference = Άλλες Προτιμήσεις
 enable-userscript = 
-    .label = Enable "userChrome.js" and "Bootstrap extensions" Loading
+    .label = Enable legacy components
 about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
 search-positon-top = 
     .label = Display the Find Bar at the top of the page
@@ -219,7 +219,7 @@ sidebar2-pref-delete =
 sidebar2-pref-setting = 
     .label = Ρυθμίσεις
 sidebar2-global-width = Καθολικό πλάτος των πινάκων Web
-use-icon-provider-option = Use Following Icon Provider
+use-icon-provider-option = Use Icon Provider
 use-icon-provider-option-google = 
     .label = Google
 use-icon-provider-option-duckduckgo = 
@@ -505,7 +505,7 @@ mouse-gesture-description = Το Gesturefy πρέπει να εγκαταστα�
 Gesturefy = Gesturefy
 about-Gesturefy = Το Gesturefy είναι μια επέκταση που προσθέτει χειρονομίες του ποντικιού στον περιηγητή σας. Αν το { -brand-short-name } εντοπίσει την εγκατάσταση αυτού του πρόσθετου, θα προσθέσει εντολές χειρονομίας στο Gesturefy που είναι διαθέσιμες μόνο στο { -brand-short-name }. Επίσης, αυτό το πρόσθετο μπορεί να λειτουργήσει με νέες καρτέλες!
 # Translate
-TWS = Translate Web Pages
+TWS = Translate Web Page
 about-TWS = Μεταφράστε τη σελίδα σας σε πραγματικό χρόνο χρησιμοποιώντας Google ή Yandex. Μπορείτε επίσης να μεταφράσετε το επιλεγμένο κείμενο ή ολόκληρη τη σελίδα.
 
 # Privacy Hub

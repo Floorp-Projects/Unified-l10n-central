@@ -91,7 +91,7 @@ disable-extension-check-compatibility-option =
     .label = Не проверять совместимость с дополнениями
 other-preference = Другие настройки
 enable-userscript = 
-    .label = Enable "userChrome.js" and "Bootstrap extensions" Loading
+    .label = Enable legacy components
 about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
 search-positon-top = 
     .label = Display the Find Bar at the top of the page
@@ -219,7 +219,7 @@ sidebar2-pref-delete =
 sidebar2-pref-setting = 
     .label = Настройки
 sidebar2-global-width = Глобальная ширина веб-панелей
-use-icon-provider-option = Use Following Icon Provider
+use-icon-provider-option = Use Icon Provider
 use-icon-provider-option-google = 
     .label = Google
 use-icon-provider-option-duckduckgo = 
@@ -505,7 +505,7 @@ mouse-gesture-description = Жесты мыши должны быть устан
 Gesturefy = Gesturefy
 about-Gesturefy = Gesturefy - это расширение, которое добавляет жесты мыши в ваш браузер. Если { -brand-short-name } обнаруживает установку этого дополнения, он добавит команды жестов к жестам, которые доступны только в { -brand-short-name }. Кроме того, это дополнение может работать с новыми вкладками!
 # Translate
-TWS = Translate Web Pages
+TWS = Translate Web Page
 about-TWS = Переводите свою страницу в режиме реального времени с помощью Google или Yandex. Вы также можете перевести выделенный текст или всю страницу.
 
 # Privacy Hub

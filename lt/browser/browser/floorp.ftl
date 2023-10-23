@@ -91,7 +91,7 @@ disable-extension-check-compatibility-option =
     .label = Netikrinkite suderinamumo su priedais
 other-preference = Kitos nuostatos
 enable-userscript = 
-    .label = Enable "userChrome.js" and "Bootstrap extensions" Loading
+    .label = Įgalinti senesnius komponentus
 about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
 search-positon-top = 
     .label = Display the Find Bar at the top of the page
@@ -219,7 +219,7 @@ sidebar2-pref-delete =
 sidebar2-pref-setting = 
     .label = Nustatymai
 sidebar2-global-width = Pasaulinės žiniatinklio panelės plotis
-use-icon-provider-option = Use Following Icon Provider
+use-icon-provider-option = Naudoti piktogramos teikėją
 use-icon-provider-option-google = 
     .label = "Google"
 use-icon-provider-option-duckduckgo = 
@@ -505,7 +505,7 @@ mouse-gesture-description = Norint naudoti pelės gestus su { -brand-short-name 
 Gesturefy = Gestikuliuoti
 about-Gesturefy = "Gesturefy" - tai plėtinys, kuris į naršyklę įtraukia pelės gestus. Jei { -brand-short-name } aptinka šio priedo įdiegimą, į "Gesturefy" bus pridėtos gestų komandos, kurios yra prieinamos tik { -brand-short-name }. Be to, šis papildinys gali veikti su naujais skirtukais!
 # Translate
-TWS = Translate Web Pages
+TWS = Versti žiniatinklio puslapį
 about-TWS = Išverskite puslapį realiuoju laiku naudodami "Google" arba "Yandex". Taip pat galite išversti pasirinktą tekstą arba visą puslapį.
 
 # Privacy Hub
