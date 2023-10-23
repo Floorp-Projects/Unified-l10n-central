@@ -352,19 +352,19 @@ floorp-notes = { -brand-short-name } Notes
 restore-from-backup = Notes をバックアップから復元する
 enable-notes-sync = 
     .label = { -brand-short-name } Notes の同期を有効にする
-about-notes-backup-tips = Floorp Notes は、Firefox Sync を使用して、他のデバイスとノートを同期します。ノートを紛失した場合、バックアップから復元することができます。バックアップは { -brand-short-name } を起動すると作成されます。
-notes-sync-description = This can solve the problem of losing content due to overwriting notes during synchronization.
-backuped-time = Backed up at
-notes-backup-option = Backup Settings
-backup-option-button = Backup Settings...
-restore-from-backup-prompt-title = Floorp Notes Restore Service
-restore-from-this-backup = Restore Notes back to the state they were in this backup?
-restore-button = Restore
+about-notes-backup-tips = Floorp Notes は、Firefox Sync を使用して、他のデバイスとメモを同期します。メモを紛失した場合は、バックアップから復元できます。バックアップは { -brand-short-name } を起動すると作成されます。
+notes-sync-description = これにより、同期時にメモが上書きされ、コンテンツが失われる問題を解決することができます。
+backuped-time = バックアップ日時
+notes-backup-option = バックアップ設定
+backup-option-button = バックアップ設定...
+restore-from-backup-prompt-title = Floorp Notes 復元サービス
+restore-from-this-backup = このバックアップの状態に Notes を復元しますか？
+restore-button = 復元
 
 ## user.js
 
 header-userjs = user.js
-userjs-customize = Customize { -brand-short-name } with user.js
+userjs-customize = user.js で { -brand-short-name } をカスタマイズ
 about-userjs-customize = user.js is a configuration file that allows you to customize { -brand-short-name }. user.js files are downloaded from the Internet and overwrite your current user.js file. Please back up your current user.js file before continuing. user.js configurations will be applied automatically after restarting { -brand-short-name }.
 userjs-label = user.js list
 userjs-prompt = Apply this user.js?
