@@ -236,7 +236,7 @@ min-memory =
 balance-memory = 
     .label = Speicherauslastung und -leistung ausgleichen
 max-memory = 
-    .label = Beste Geschwindigkeit und Leistung (hohe Speicherauslastung)
+    .label = Best Performance (high memory usage)
 delete-border-and-roundup-option = 
     .label = Seitenrundgang
 
