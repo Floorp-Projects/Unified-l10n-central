@@ -236,7 +236,7 @@ min-memory =
 balance-memory = 
     .label = Użycie i wydajność pamięci bilansowej
 max-memory = 
-    .label = Najlepsza prędkość i wydajność (wysokie zużycie pamięci)
+    .label = Best Performance (high memory usage)
 delete-border-and-roundup-option = 
     .label = Zaokrąglij narożniki stron
 
