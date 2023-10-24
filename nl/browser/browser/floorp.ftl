@@ -236,7 +236,7 @@ min-memory =
 balance-memory = 
     .label = Saldo geheugen gebruik en prestatie
 max-memory = 
-    .label = Beste snelheid en prestaties (hoog geheugengebruik)
+    .label = Best Performance (high memory usage)
 delete-border-and-roundup-option = 
     .label = Rond de hoeken af van pagina's
 
