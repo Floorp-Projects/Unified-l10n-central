@@ -96,7 +96,7 @@ enable-userscript =
     .label = 启用 “userChrome.js” 和 “Bootstrap 扩展” 加载
 about-userscript = 启用此功能可能会引发意料之外的错误或致命性问题。
 search-positon-top = 
-    .label = 将搜索栏显示在页面顶部
+    .label = 在页面顶部显示搜索栏
 allow-auto-restart = 
     .label = 在更改需要重启的设置时，会自动重新启动
 enable-rest-mode = 
@@ -118,7 +118,7 @@ system-theme-auto =
 ## User interface preferences
 
 ui-preference = 浏览器外观
-preferences-browser-appearance-description = 选择一个内置的第三方设计以在 { -brand-short-name } 中使用。某些设计可能与您的配置不兼容。
+preferences-browser-appearance-description = 选择一个内置的第三方设计来应用于 { -brand-short-name }。某些设计可能与您的配置不兼容。
 firefox-proton = 
     .label = Firefox Proton UI
 firefox-proton-fix = 
@@ -157,15 +157,15 @@ userAgent-preference = User Agent
 default-useragent-mode = 
     .label = 使用 Firefox 用户代理 (默认)
 windows-chrome-useragent-mode = 
-    .label = 模拟 Chrome（Windows）
+    .label = 模拟 Chrome (Windows)
 macOS-chrome-useragent-mode = 
-    .label = 模拟 Chrome（macOS）
+    .label = 模拟 Chrome (macOS)
 linux-chrome-useragent-mode = 
-    .label = 模拟 Chrome（Linux）
+    .label = 模拟 Chrome (Linux)
 mobile-chrome-useragent-mode = 
-    .label = 模拟 Chrome（iOS）
+    .label = 模拟 Chrome (iOS)
 use-custom-useragent-mode = 
-    .label = 使用自定义的 User Agent
+    .label = 使用自定义的用户代理
 
 ## DMR UI
 
@@ -195,7 +195,7 @@ category-downloads =
 bsb-header = 浏览器管理器侧边栏
 bsb-context = 使用以下容器标签
 bsb-userAgent-label = 
-    .label = 在此网页面板中使用移动端 User Agent
+    .label = 在此 Web 面板中使用移动端用户代理
 bsb-width = 宽度 (如果设置为 0，将使用全局值)
 bsb-page = 要打开的页面
 bsb-add = 在浏览器管理器的侧边栏上添加 Web 面板
@@ -463,7 +463,7 @@ workspace-icon-chill =
     .label = 私人
 # Custom Keyboard Shortcuts
 floorp-CSK-title = 自定义键盘快捷键
-floorp-CSK-description = 自定义 { -brand-short-name } 的键盘快捷键。Floorp 提供 80 多个可自定义的键盘快捷键 - 重启 { -brand-short-name } 可应用这些设置。重复的键盘快捷键将不起作用。
+floorp-CSK-description = 自定义 { -brand-short-name } 的键盘快捷键。Floorp 提供了超过 80 个可自定义的键盘快捷键。重启 { -brand-short-name } 以应用这些设置。重复的键盘快捷键将无效。
 disable-fx-actions = 
     .label = 禁用 Mozilla Firefox 的键盘快捷键
 customize-Action = 
