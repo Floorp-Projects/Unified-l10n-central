@@ -985,7 +985,7 @@ floorp-split-view-menu =
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = QR コードをスキャンしてください
 qrcode-generate-page-action = 
-    .tooltiptext = QR コードをスキャンしてください
+    .tooltiptext = QR コードでウェブページを共有
 ######################################################################### Customize Mode ###############################################################
 floorp-customize-mode-unified-extensions-button = 
     .label = 統合拡張機能ボタン
