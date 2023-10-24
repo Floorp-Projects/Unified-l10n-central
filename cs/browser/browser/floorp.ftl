@@ -236,7 +236,7 @@ min-memory =
 balance-memory = 
     .label = Vyvážení využití a výkon paměti
 max-memory = 
-    .label = Nejlepší rychlost a výkon (využití vysoké paměti)
+    .label = Best Performance (high memory usage)
 delete-border-and-roundup-option = 
     .label = Zaokrouhlit rohy stránek
 
