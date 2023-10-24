@@ -236,7 +236,7 @@ min-memory =
 balance-memory = 
     .label = パフォーマンスとメモリ使用量のバランスを取る
 max-memory = 
-    .label = 最高パフォーマンスを得るためにメモリ使用量を最大限にする（既定）
+    .label = Best Performance (high memory usage)
 delete-border-and-roundup-option = 
     .label = 枠線をサイトの枠のみにし、Floorp 自体を丸くする
 
@@ -646,10 +646,10 @@ status-bar =
     .accesskey = S
 ##################################################################### Gesturefy ###############################################################
 
-gf-floorp-open-tree-style-tab-name = [Floorp] ツリースタイルタブパネルを開く
-gf-floorp-open-tree-style-tab-description = サイドバーのツリースタイルタブパネルを開く
-gf-floorp-open-bookmarks-sidebar-name = [Floorp] サイドバーのブックマークパネルを開く
-gf-floorp-open-bookmarks-sidebar-description = サイドバーのブックマークパネルを開く
+gf-floorp-open-tree-style-tab-name = [Floorp] ツリー型タブを開く
+gf-floorp-open-tree-style-tab-description = Floorpのツリー型タブをサイドバーで開きます。
+gf-floorp-open-bookmarks-sidebar-name = [Floorp] サイドバーでブックマークを開く
+gf-floorp-open-bookmarks-sidebar-description = Floorpのサイドバーでブックマークを開きます。
 gf-floorp-open-history-sidebar-name = [Floorp] サイドバーの履歴パネルを開く
 gf-floorp-open-history-sidebar-description = サイドバーの履歴パネルを開く
 gf-floorp-open-synctabs-sidebar-name = [Floorp] サイドバーの同期タブパネルを開く
