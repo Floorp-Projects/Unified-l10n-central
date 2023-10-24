@@ -236,7 +236,7 @@ min-memory =
 balance-memory = 
     .label = Cân bằng hiệu năng và bộ nhớ
 max-memory = 
-    .label = Hiệu năng cao nhất ( sử dụng nhiều bộ nhớ)
+    .label = Best Performance (high memory usage)
 delete-border-and-roundup-option = 
     .label = Bo tròn các góc của trang
 
