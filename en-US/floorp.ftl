@@ -294,7 +294,7 @@ balance-memory =
     .label = Balance Memory Usage and Performance
 
 max-memory = 
-    .label = Best Speed and Performance (high memory usage)
+    .label = Best Performance (high memory usage)
 
 delete-border-and-roundup-option =
   .label = Round the corners of pages
