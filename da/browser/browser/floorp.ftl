@@ -236,7 +236,7 @@ min-memory =
 balance-memory = 
     .label = Balance hukommelse forbrug og ydeevne
 max-memory = 
-    .label = Bedste hastighed og ydeevne (høj hukommelsesforbrug)
+    .label = Best Performance (high memory usage)
 delete-border-and-roundup-option = 
     .label = Rund hjørnerne af siderne
 
