@@ -38,7 +38,7 @@ tab-sleep-settings-dialog-excludehosts-label-2 = 1行に1つのホストを入�
 tab-sleep-tab-context-menu-excludetab = タブをスリープさせない
 enable-floorp-workspace = 
     .label = ワークスペースを有効にする
-workspace-warning = ワークスペースはタブグループアドオンと併用できません。タブグループアドオンを使用したい場合は、ワークスペースを無効にし、{ -brand-short-name} を再起動してください。
+workspace-warning = ワークスペースはタブグループアドオンと併用できません。タブグループアドオンを使用したい場合は、ワークスペースを無効にし、{ -brand-short-name } を再起動してください。
 enable-tab-scroll-change = 
     .label = タブをスクロールで切り替える
 enable-tab-scroll-reverse = 
@@ -961,7 +961,7 @@ floorp-custom-actions-custom-action-5 = カスタムアクション 5
     .label = カスタムアクション 5
 ##################################################################### Profile Switcher ###############################################################
 
-floorp-open-profile-with-new-instance = 開く
+floorp-open-profile-with-new-instance = 起動
     .tooltiptext = このプロファイルで { -brand-short-name } を開く
 floorp-profiles-in-use = このプロファイルは使用中です。
 floorp-profiles-title = プロファイル
