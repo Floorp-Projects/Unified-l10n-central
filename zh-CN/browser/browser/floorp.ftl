@@ -236,7 +236,7 @@ min-memory =
 balance-memory = 
     .label = 平衡内存使用率和性能
 max-memory = 
-    .label = 最佳速度和性能 (高内存使用率)
+    .label = Best Performance (high memory usage)
 delete-border-and-roundup-option = 
     .label = 将页面边角修圆
 
