@@ -236,7 +236,7 @@ min-memory =
 balance-memory = 
     .label = メモリとパフォーマンスのバランスを取る
 max-memory = 
-    .label = Best Performance (high memory usage)
+    .label = 最高のパフォーマンス (高メモリ使用量)
 delete-border-and-roundup-option = 
     .label = ページの角を丸くする
 
@@ -876,7 +876,7 @@ floorp-custom-actions-open-bookmarks-sidebar = ブックマークサイドバー
 floorp-custom-actions-open-bookmark-add-tool = ブックマーク追加ツールを開く
     .label = ブックマークを追加
 floorp-custom-actions-open-bookmark-add-toolbar = ブックマーク追加ツールバーを開く
-    .label = ブックマーク追加ツールバーを開く
+    .label = ブックマークツールバーに追加
 floorp-custom-actions-open-bookmarks-manager = ブックマークマネージャーを開く
     .label = ブックマークマネージャーを開く
 floorp-custom-actions-show-bookmark-toolbar = ブックマークツールバーの表示を切り替える
@@ -961,7 +961,7 @@ floorp-custom-actions-custom-action-5 = カスタムアクション 5
     .label = カスタムアクション 5
 ##################################################################### Profile Switcher ###############################################################
 
-floorp-open-profile-with-new-instance = 起動
+floorp-open-profile-with-new-instance = 開く
     .tooltiptext = このプロファイルで { -brand-short-name } を開く
 floorp-profiles-in-use = このプロファイルは使用中です。
 floorp-profiles-title = プロファイル
@@ -983,9 +983,9 @@ open-in_private-container =
 floorp-split-view-menu = 
     .label = このタブを分割表示に修正
 ######################################################################### Page Actions ###############################################################
-qrcode-generate-page-action-title = QR コードでウェブページを共有
+qrcode-generate-page-action-title = QR コードをスキャンしてください
 qrcode-generate-page-action = 
-    .tooltiptext = QR コードでウェブページを共有
+    .tooltiptext = QR コードをスキャンしてください
 ######################################################################### Customize Mode ###############################################################
 floorp-customize-mode-unified-extensions-button = 
-    .label = 統合拡張ボタン
+    .label = 統合拡張機能ボタン
