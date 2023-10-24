@@ -236,7 +236,7 @@ min-memory =
 balance-memory = 
     .label = Menyeimbangkan Penggunaan Memori dan Kinerja
 max-memory = 
-    .label = Kecepatan dan Performa Terbaik (penggunaan memori yang tinggi)
+    .label = Best Performance (high memory usage)
 delete-border-and-roundup-option = 
     .label = Mengitari sudut-sudut halaman
 
