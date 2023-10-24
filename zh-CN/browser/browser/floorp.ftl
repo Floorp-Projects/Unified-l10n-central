@@ -261,7 +261,7 @@ newtab-background-folder-default =
 newtab-background-folder-open = 
     .label = 打开文件夹
 newtab-background-folder-choose = 选择图像文件夹...
-newtab-background-extensions = 使用以下文件扩展名的图像 (用", "分隔)
+newtab-background-extensions = 使用以下文件扩展名的图像 (用 “,” 分隔)
 disable-blur-on-newtab = 
     .label = 在 { -brand-short-name } 主页上禁用模糊效果
 
