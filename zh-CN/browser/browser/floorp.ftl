@@ -236,7 +236,7 @@ min-memory =
 balance-memory = 
     .label = 平衡内存使用率和性能
 max-memory = 
-    .label = Best Performance (high memory usage)
+    .label = 最佳速度和性能 (高内存使用率)
 delete-border-and-roundup-option = 
     .label = 将页面边角修圆
 
@@ -358,7 +358,7 @@ backuped-time = 备份于
 notes-backup-option = 备份设置
 backup-option-button = 备份设置...
 restore-from-backup-prompt-title = Floorp Notes 还原服务
-restore-from-this-backup = 将笔记还原到备份时的状态？
+restore-from-this-backup = 将笔记还原到备份时的状态吗？
 restore-button = 还原
 
 ## user.js
@@ -505,7 +505,7 @@ floorp-custom-actions-custom-action = 自定义操作 (实验性)
 mouse-gesture = Mouse Gestures
 mouse-gesture-description = 要在 { -brand-short-name } 中使用鼠标手势，需要先安装 Gesturefy。
 Gesturefy = Gesturefy
-about-Gesturefy = "Gesturefy" 是一个能够为您的浏览器添加鼠标手势的扩展。如果 { -brand-short-name } 检测到安装了这个插件，它将为 Gesturefy 添加仅在 { -brand-short-name } 中可用的手势命令。此外，这个插件还可以在新标签页中使用！
+about-Gesturefy = Gesturefy 是一个能够为您的浏览器添加鼠标手势的扩展。如果 { -brand-short-name } 检测到安装了这个插件，它将为 Gesturefy 添加仅在 { -brand-short-name } 中可用的手势命令。此外，这个插件还可以在新标签页中使用！
 # Translate
 TWS = Translate Web Page
 about-TWS = 使用 Google 或 Yandex 来实时翻译您的网页。您还可以选择翻译特定的文本或整个页面。
@@ -539,7 +539,7 @@ disable-webgl =
     .label = 禁用 WebGL
 about-webgl = WebGL 是一个用于渲染图形的 JavaScript API，可用于识别 GPU。
 Canvas-Blocker = Canvas 拦截器
-about-CB = 此扩展用于指纹技术的假冒数据。
+about-CB = 这个插件伪装了用于指纹识别技术的数据。
 WebRTC-connection = WebRTC 是一项提供实时通话功能的标准。如果您禁用此设置，您将无法使用Discord等应用。
 WebRTC = 
     .label = 启用 WebRTC 连接
