@@ -236,7 +236,7 @@ min-memory =
 balance-memory = 
     .label = パフォーマンスとメモリ使用量のバランスを取る
 max-memory = 
-    .label = Best Performance (high memory usage)
+    .label = 最高パフォーマンスを得るためにメモリ使用量を最大限にする（既定）
 delete-border-and-roundup-option = 
     .label = 枠線をサイトの枠のみにし、Floorp 自体を丸くする
 
