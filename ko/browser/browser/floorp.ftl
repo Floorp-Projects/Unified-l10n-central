@@ -236,7 +236,7 @@ min-memory =
 balance-memory = 
     .label = 메모리 사용량과 성능의 균형
 max-memory = 
-    .label = 최고의 속도 및 성능(높은 메모리 사용량)
+    .label = Best Performance (high memory usage)
 delete-border-and-roundup-option = 
     .label = 페이지 모서리 둥글게 처리
 
