@@ -236,7 +236,7 @@ min-memory =
 balance-memory = 
     .label = Memóriahasználat és teljesítmény egyensúlya
 max-memory = 
-    .label = Legjobb sebesség és teljesítmény (magas memóriahasználat)
+    .label = Best Performance (high memory usage)
 delete-border-and-roundup-option = 
     .label = Az oldalak sarkainak lekerekítése
 
