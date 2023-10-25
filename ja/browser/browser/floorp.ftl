@@ -715,14 +715,14 @@ memo-new-title = 新規メモ
 chage-view-mode = 編集/表示モード切り替え
 readonly-mode = オフライン (読み取り専用)
 ######################################################################### Default bookmarks ###############################################################
-default-bookmark-ablaze-support = Abrazeサポート
+default-bookmark-ablaze-support = Ablaze Support
 default-bookmark-notes = Floorp Notes
 ######################################################################### Like Chrome Download mgr ###############################################################
 
 floorp-delete-all-downloads = 
-    .label = ダウンロードをクリア
+    .label = すべてのダウンロードを隠す
     .accesskey = D
-    .tooltiptext = ダウンロードをクリア
+    .tooltiptext = すべてのダウンロードを隠す
 floorp-show-all-downloads = 
     .label = すべてのダウンロードを表示
     .accesskey = S
@@ -730,60 +730,60 @@ floorp-show-all-downloads =
 ######################################################################### workspace ###############################################################
 
 workspace-prompt-title = Floorp ワークスペース
-please-enter-workspace-name = 作業スペースの新しい名前を入力してください。
-please-enter-workspace-name-2 = ワークスペースの名前には、記号とスペースを含めることはできません。
-workspace-error = エラーが発生:
-workspace-error-discription = この名前のワークスペースが存在するか、または名前が無効です。
+please-enter-workspace-name = 新しいワークスペース名を入力してください。
+please-enter-workspace-name-2 = 記号と空白以外の文字かつ20文字以内で入力してください。
+workspace-error = エラー！
+workspace-error-discription = ワークスペース名が空白、長すぎるか既に存在します。
 workspace-button = ワークスペース
     .label = ワークスペース
-    .tooltiptext = ワークスペースを選択...
-workspace-default = デフォルト
+    .tooltiptext = ワークスペース
+workspace-default = 既定
 workspace-add = 
-    .label = 新しいワークスペース...
+    .label = ワークスペースを追加
 workspace-context-menu-selected-tab = 
-    .label = 選択したタブは移動できません
+    .label = 表示中のタブは他のワークスペースに移動できません。
 move-tab-another-workspace = 
-    .label = 別のワークスペースに移動
+    .label = 他のワークスペースに移動
 workspace-rename = 
-    .label = このワークスペースの名前を変更
+    .label = ワークスペース名を変更
 workspace-delete = 
     .label = ワークスペースを削除
-manage-workspace = このワークスペースを管理
-    .label = このワークスペースを管理
+manage-workspace = ワークスペースを管理
+    .label = ワークスペースを管理
 ######################################################################### menubar item ###############################################################
 
 sharemode-menuitem = 
-    .label = 共有モード
+    .label = 画面共有モード
     .accesskey = S
 ############################################################################## Welcome page ###############################################################
 
-welcome-login-to-firefox-account = Firefoxアカウントにログイン
+welcome-login-to-firefox-account = Firefox アカウントにログイン
 welcome-to-floorp = { -brand-short-name } へようこそ！
-welcome-discribe-floorp = { -brand-short-name } は、さまざまな環境に対応し、Firefox をベースにした機能豊富な柔軟なブラウザです。
-welcome-start-setup = 飛び込む準備はできましたか？
-welcome-skip-to-start-browsing = スキップしてブラウズを開始
+welcome-discribe-floorp = { -brand-short-name } は、Firefox ベースの、様々な機能を搭載した日本で開発されているフレキシブルなブラウザーです！
+welcome-start-setup = セットアップを開始する
+welcome-skip-to-start-browsing = 今すぐブラウジングを開始する
 welcome-select-preferences-template = テンプレートを選択
-welcome-minimum-template = 基本
-welcome-enable-basic-features = 簡単な操作で基本的な機能と設定を有効にします。
-welcome-medium-template = デフォルト
-welcome-enable-some-features = より良い体験のために追加の機能と設定を有効にします。
-welcome-maximum-template = 高度な設定
-welcome-enable-most-of-features = 高度な機能と設定を有効にします。経験豊富なユーザーに推奨します。
-welcome-go-next-setup = 次へ
-welcome-select-browser-design = ブラウザのデザインを選択
-welcome-discribe-browser-design = あなたは素晴らしいサードパーティ製の { -brand-short-name } デザインのいずれかを選択することができます。OS固有のデザインは、環境設定でも利用できます。
-welcome-design-lepton-name = レプトンオリジナルデザイン
-welcome-design-photon-name = Lepton Photon Design
-welcome-design-ProtonFix-name = Lepton ProtonFix Design
-welcome-design-floorp-fluerial-name = Floorp Fluerial Design
-welcome-design-firefox-proton-name = Firefox Proton Design
-welcome-import-data = ブラウザデータをインポート
-welcome-import-data-description = 早いセットアップ！ブックマークやパスワードなどを古いブラウザからインポートします。FirefoxユーザーはFirefoxの同期からデータをインポートできます。
-welcome-import-data-button = データのインポート...
-welcome-import-data-skip = インポートをスキップ
+welcome-minimum-template = 梅
+welcome-enable-basic-features = 基本的な機能と設定を有効にして、シンプルな体験を。
+welcome-medium-template = 竹 (既定)
+welcome-enable-some-features = より良い体験のための追加機能と設定を有効にします。
+welcome-maximum-template = 松
+welcome-enable-most-of-features = 高度な機能と設定を有効にします。ギークなユーザーにお勧めします。
+welcome-go-next-setup = 次へ進む
+welcome-select-browser-design = ブラウザーのデザインを選択
+welcome-discribe-browser-design = サードパーティによる素晴らしいデザインから { -brand-short-name } のデザインを 1 つを選ぶことができます。OS 固有のデザインも about:preferences で利用可能です。
+welcome-design-lepton-name = Lepton オリジナルデザイン
+welcome-design-photon-name = Lepton Photon デザイン
+welcome-design-ProtonFix-name = Lepton ProtonFix デザイン
+welcome-design-floorp-fluerial-name = Floorp Fluerial デザイン
+welcome-design-firefox-proton-name = Firefox Proton デザイン
+welcome-import-data = ユーザーデータのインポート
+welcome-import-data-description = 迅速なセットアップ！古いブラウザからブックマークやパスワードなどをインポートできます。Firefox ユーザーは Firefox Sync からデータをインポートできます。
+welcome-import-data-button = インポートを実行する
+welcome-import-data-skip = インポートをスキップする
 welcome-select-button = 選択
-welcome-finish-setup = セットアップ完了！
-welcome-finish-setup-description = 準備完了です！Vertical TabsやAdd-onのようなその他の設定はabout:preferenceで見つけることができます。 { -brand-short-name } をお楽しみください！
+welcome-finish-setup = セットアップを完了！
+welcome-finish-setup-description = これで設定完了です！垂直タブ・アドオン等のその他の設定は、about:preferences から確認できます。{ -brand-short-name } をお楽しみください !
 welcomet-finish-setup = ウェブの閲覧を開始
 ############################################################# Custom Shortcutkey ###############################################################
 
