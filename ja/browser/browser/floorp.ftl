@@ -784,7 +784,7 @@ welcome-import-data-skip = インポートをスキップする
 welcome-select-button = 選択
 welcome-finish-setup = セットアップを完了！
 welcome-finish-setup-description = これで設定完了です！垂直タブ・アドオン等のその他の設定は、about:preferences から確認できます。{ -brand-short-name } をお楽しみください !
-welcomet-finish-setup = ウェブの閲覧を開始
+welcomet-finish-setup = ブラウジングを開始する
 ############################################################# Custom Shortcutkey ###############################################################
 
 category-CSK = 
