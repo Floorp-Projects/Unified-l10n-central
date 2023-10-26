@@ -236,7 +236,7 @@ min-memory =
 balance-memory = 
     .label = Uso e desempenho de memória de saldo
 max-memory = 
-    .label = Melhor velocidade e desempenho (uso alto de memória)
+    .label = Best Performance (high memory usage)
 delete-border-and-roundup-option = 
     .label = Arredondar os cantos das páginas
 

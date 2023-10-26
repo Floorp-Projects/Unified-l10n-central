@@ -236,7 +236,7 @@ min-memory =
 balance-memory = 
     .label = Χρήση και απόδοση μνήμης ισορροπίας
 max-memory = 
-    .label = Βέλτιστη ταχύτητα και απόδοση (υψηλή χρήση μνήμης)
+    .label = Best Performance (high memory usage)
 delete-border-and-roundup-option = 
     .label = Στρογγυλοποίηση των γωνιών των σελίδων
 

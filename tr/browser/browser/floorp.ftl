@@ -236,7 +236,7 @@ min-memory =
 balance-memory = 
     .label = Bellek Kullanımı ve Performansı Dengeleme
 max-memory = 
-    .label = En İyi Hız ve Performans (yüksek bellek kullanımı)
+    .label = Best Performance (high memory usage)
 delete-border-and-roundup-option = 
     .label = Sayfaların köşelerini yuvarlayın
 

@@ -236,7 +236,7 @@ min-memory =
 balance-memory = 
     .label = التوازن في استخدام الذاكرة وأدائها
 max-memory = 
-    .label = أفضل سرعة وأداء (استخدام كبير للذاكرة)
+    .label = Best Performance (high memory usage)
 delete-border-and-roundup-option = 
     .label = تقريب زوايا الصفحات
 

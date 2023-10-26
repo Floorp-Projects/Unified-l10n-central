@@ -236,7 +236,7 @@ min-memory =
 balance-memory = 
     .label = Atminties naudojimo ir našumo balansas
 max-memory = 
-    .label = Geriausias greitis ir našumas (didelis atminties naudojimas)
+    .label = Best Performance (high memory usage)
 delete-border-and-roundup-option = 
     .label = Suapvalinti puslapių kampai
 

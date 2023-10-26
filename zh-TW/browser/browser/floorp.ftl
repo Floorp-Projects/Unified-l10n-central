@@ -4,68 +4,68 @@
 
 ###################################################################### about:Dialog #################################################################################
 
-about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> is one of the domestic browsers developed in Japan. It is based on Firefox and continues to operate under <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>, to improve the web. Want to help? <label data-l10n-name="helpus-donateLink">Make a donation</label>
-icon-creator = Icon creator <label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> and <label data-l10n-name="brand-logo-twitter">@mwxdxx.</label>
-contributors = A list of <label data-l10n-name="about-contributor">contributors and Developers</label>
+about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label>是日本開發的瀏覽器之一。 基於 Firefox 開發並由 <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>運行，旨在促進網絡發展。 想支持我們？ <label data-l10n-name="helpus-donateLink">點此捐款</label>
+icon-creator = 圖示作者： <label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> 和 <label data-l10n-name="brand-logo-twitter">@mwxdxx.</label>
+contributors = <label data-l10n-name="about-contributor">貢獻者和開發者名單</label>。
 #################################################################### about:preferences ####################################################################
 
-pane-design-title = Design
+pane-design-title = 設計
 category-design = 
     .tooltiptext = { pane-design-title }
 design-header = { pane-design-title }
-feature-requires-restart = A restart is required to apply changes
-tab-width = Minimum width of tabs
-preferences-tabs-newtab-position = New Tab position
+feature-requires-restart = 需要重啟以套用變更
+tab-width = 分頁的最小寬度
+preferences-tabs-newtab-position = 新分頁位置
 open-new-tab-use-default = 
-    .label = Open new tabs at default position
+    .label = 在預設位置開啟新分頁
 open-new-tab-at-the-end = 
-    .label = Open new tabs at the end of the Tab Bar
+    .label = 在最右側開啟新分頁
 open-new-tab-next-to-current = 
-    .label = Open new tabs next to the current tab
+    .label = 在右側開啟新分頁
 multirow-tabs-limit = 
-    .label = Enable row limit for multi-row tabs
+    .label = 啟用分頁行數限制
 multirow-tabs-newtab = 
-    .label = Place the "Open a new tab" button at the end of the lowest row of tabs
-multirow-tabs-value = Number of rows when multi-row tabs are enabled
+    .label = 始終將 "開啟新分頁" 按鈕放在多行分頁內
+multirow-tabs-value = 多行分頁列分頁最大行數
 enable-tab-sleep = 
-    .label = Enable Sleeping Tabs
-tab-sleep-timeout-minutes-value = Tabs will sleep after being inactive for (minutes)
-tab-sleep-settings-button = Settings...
+    .label = 啟用分頁休眠
+tab-sleep-timeout-minutes-value = 多久後休眠閒置分頁 (單位：分鐘)
+tab-sleep-settings-button = 設定...
 tab-sleep-settings-dialog-title = 
-    .title = Sleeping Tabs Settings
-tab-sleep-settings-dialog-excludehosts-label = Exclude hosts
-tab-sleep-settings-dialog-excludehosts-label-2 = Enter one host per line.
-tab-sleep-tab-context-menu-excludetab = Keep Tab awake
+    .title = 分頁休眠設定
+tab-sleep-settings-dialog-excludehosts-label = 排除域名
+tab-sleep-settings-dialog-excludehosts-label-2 = 每行輸入一個域名。
+tab-sleep-tab-context-menu-excludetab = 保持分頁於喚醒狀態
 enable-floorp-workspace = 
-    .label = Enable Workspaces
-workspace-warning = Workspaces cannot be used with Tab Group add-ons. If you want to use tab group add-ons, please disable Workspaces and restart { -brand-short-name }.
+    .label = 啟用工作空間
+workspace-warning = 工作空間無法與分頁分組附加元件一同使用。 如果您想要使用分頁分組附加元件，請停用工作空間並重新啟動 { -brand-short-name}。
 enable-tab-scroll-change = 
-    .label = Switch tabs by scrolling with your mouse
+    .label = 透過滾綸切換分頁
 enable-tab-scroll-reverse = 
-    .label = Reverse direction of scrolling tabs
+    .label = 反轉分頁滾動方向
 enable-tab-scroll-wrap = 
-    .label = Wrap scrolling tabs at the edge
+    .label = 在邊緣處循環滾動分頁
 enable-double-click-block = 
-    .label = Close tabs when double-clicking them
+    .label = 點兩下關閉分頁
 enable-show-pinned-tabs-title = 
-    .label = Show the title of pinned tabs
-tabbar-preference = Tab Bar
+    .label = 顯示固定分頁的標題
+tabbar-preference = 分頁列
 tab-normal-mode = 
-    .label = Normal mode
+    .label = 一般模式
 hide-horizontality-tabs = 
-    .label = Hide tabs on Horizontal Tab Bar
+    .label = 隱藏橫向分頁列
 verticalTab-setting = 
-    .label = Optimise browser for Vertical Tab Bar
+    .label = 最佳化瀏覽器垂直分頁列
 move-tabbar-position = 
-    .label = Display Tab Bar underneath the Toolbar
+    .label = 在工具列下方顯示分頁列
 tabbar-on-bottom = 
-    .label = Display Tab Bar at the bottom of the window
+    .label = 在視窗底部顯示分頁列
 tabbar-favicon-color = 
-    .label = Color the Tab Bar using the current website's favicon color
-tabbar-style-preference = Tab Bar Style
+    .label = 使用目前網站的圖示顏色為分頁列著色
+tabbar-style-preference = 分頁列樣式
 horizontal-tabbar = 
-    .label = Horizontal Tab Bar
-tabbar-style-description = A restart of { -brand-short-name } is required to fully apply this setting.
+    .label = 水平分頁列
+tabbar-style-description = 需要重新啟動 { -brand-short-name } 以完全套用此設定。
 multirow-tabbar = 
     .label = Multi-Row Tab Bar
 vertical-tabbar = 
@@ -236,7 +236,7 @@ min-memory =
 balance-memory = 
     .label = Balance Memory Usage and Performance
 max-memory = 
-    .label = Best Speed and Performance (high memory usage)
+    .label = Best Performance (high memory usage)
 delete-border-and-roundup-option = 
     .label = Round the corners of pages
 

@@ -4,9 +4,9 @@
 
 ###################################################################### about:Dialog #################################################################################
 
-about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> is one of the domestic browsers developed in Japan. It is based on Firefox and continues to operate under <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>, to improve the web. Want to help? <label data-l10n-name="helpus-donateLink">Make a donation</label>
-icon-creator = Icon creator <label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> and <label data-l10n-name="brand-logo-twitter">@mwxdxx.</label>
-contributors = A list of <label data-l10n-name="about-contributor">contributors and Developers</label>
+about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label>là một trong những trình duyệt được phát triển tại Nhật Bản. Trình duyệt được dưa trên firefox và tiếp tục vận hành dưới <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>, đễ hỗ trợ sự phát triển của web. Bạn muốn giúp đỡ?<label data-l10n-name="helpus-donateLink">Đóng góp</label>
+icon-creator = Biểu tượng được thiết kể bởi <label data-l10n-name="browser-logo-twitter">@CutterKnife_</label>và<label data-l10n-name="brand-logo-twitter">@mwxdxx.</label>
+contributors = Danh sách<label data-l10n-name="about-contributor">nhà hảo tâm và lập trình viên</label>
 #################################################################### about:preferences ####################################################################
 
 pane-design-title = Thiết kế
@@ -53,37 +53,37 @@ tabbar-preference = Tab Bar
 tab-normal-mode = 
     .label = Chế độ bình thường
 hide-horizontality-tabs = 
-    .label = Hide tabs on Horizontal Tab Bar
+    .label = Ẩn tabs khi sử dụng Tab bar ngang
 verticalTab-setting = 
-    .label = Optimise browser for Vertical Tab Bar
+    .label = Tối ưu trình duyệt cho Tab bar dọc
 move-tabbar-position = 
-    .label = Display Tab Bar underneath the Toolbar
+    .label = Hiển thị Tab bar dưới thanh công cụ
 tabbar-on-bottom = 
-    .label = Display Tab Bar at the bottom of the window
+    .label = Hiển thị Tab Bar ở cuối cửa sổ
 tabbar-favicon-color = 
-    .label = Color the Tab Bar using the current website's favicon color
-tabbar-style-preference = Tab Bar Style
+    .label = Sử dụng màu của website's favicon để hiển thị màu cho Tab Bar
+tabbar-style-preference = Kiểu Tab Bar
 horizontal-tabbar = 
-    .label = Horizontal Tab Bar
-tabbar-style-description = A restart of { -brand-short-name } is required to fully apply this setting.
+    .label = Tab Bar ngang
+tabbar-style-description = Cần khởi động lại { -brand-short-name } để áp dụng cài đặt.
 multirow-tabbar = 
-    .label = Multi-Row Tab Bar
+    .label = Tab Bar nhiều dòng
 vertical-tabbar = 
-    .label = Vertical Tab Bar (experimental)
+    .label = Tab Bar dọc ( thử nghiệm)
 native-vertical-tab-show-right = 
-    .label = Show Vertical Tab Bar on the right side of the window
+    .label = Hiển thị Tab Bar dọc bên phải của cửa sổ
 hover-vertical-tab = 
-    .label = Collapse Vertical Tab Bar
-TST = Tree Style Tab
+    .label = Thu gọn Tab bar dọc
+TST = Tab bar dạng Cây thư mục
 about-TST = Tree Style Tab is a popular add-on that allows you to display tabs in a tree structure. Floorp 10 has a built-in this add-on. Please install the add-on restore Floorp 10's built-in Tree Style Tab.
 treestyletab-Settings = 
-    .label = Collapse Tree Style Tab
-sidebar-reverse-position-toolbar = Show Sidebars on the other side
-bookmarks-bar-settings = Bookmarks Toolbar (only one option can be used at a time)
+    .label = Thu gọn Tab bar dạng Cây thư mục
+sidebar-reverse-position-toolbar = Hiển thị Sidebars bên phía đối diện
+bookmarks-bar-settings = Thanh công cụ Đánh dấu ( chỉ có thể sử dụng một lựa chọn)
 bookmarks-focus-mode = 
-    .label = Hide the Bookmarks Toolbar unless hovering over the navigation bar
+    .label = Ẩn thanh công cụ Đánh dấu trừ khi được hover trên thanh điều hướng
 bookmarks-bottom-mode = 
-    .label = Show the Bookmarks Toolbar at the bottom of { -brand-short-name }
+    .label = Hiển thị thanh công cụ Đánh dấu ở cuối { -brand-short-name }
 navbar-settings = Thanh điều hướng
 show-nav-bar-bottom = 
     .label = Hiển thị thanh công cụ ở dưới { -brand-short-name } (thử nghiệm)
@@ -155,17 +155,17 @@ appmenuitem-reboot =
 
 userAgent-preference = User Agent
 default-useragent-mode = 
-    .label = Use Firefox User Agent (Default)
+    .label = Sử dụng Firefox User Agent ( Mặc định)
 windows-chrome-useragent-mode = 
-    .label = Spoof Chrome on Windows
+    .label = Như Chrome trên Windows
 macOS-chrome-useragent-mode = 
-    .label = Spoof Chrome on macOS
+    .label = Như Chrome trên macOS
 linux-chrome-useragent-mode = 
-    .label = Spoof Chrome on Linux
+    .label = Như Chrome trên Linux
 mobile-chrome-useragent-mode = 
-    .label = Spoof Chrome on iOS
+    .label = Như Chrome trên iOS
 use-custom-useragent-mode = 
-    .label = Use Custom User Agent
+    .label = Sử dụng User Agent tuỳ chỉnh
 
 ## DMR UI
 
@@ -753,30 +753,30 @@ manage-workspace = Manage this Workspace
 ######################################################################### menubar item ###############################################################
 
 sharemode-menuitem = 
-    .label = Share Mode
+    .label = Chế độ Chia sẻ
     .accesskey = S
 ############################################################################## Welcome page ###############################################################
 
-welcome-login-to-firefox-account = Sign in to your Firefox Account
-welcome-to-floorp = Welcome to { -brand-short-name }!
-welcome-discribe-floorp = { -brand-short-name } is a feature-rich flexible browser that supports various environments and is based on Firefox.
-welcome-start-setup = Ready to jump in?
-welcome-skip-to-start-browsing = Skip to Start Browsing
-welcome-select-preferences-template = Select a template
-welcome-minimum-template = Basic
-welcome-enable-basic-features = Enable basic features & settings for a simple experience.
-welcome-medium-template = Default
-welcome-enable-some-features = Enable additional features & settings for a better experience.
-welcome-maximum-template = Advanced
-welcome-enable-most-of-features = Enable advanced features & settings. Recommended for experienced users.
-welcome-go-next-setup = Next
-welcome-select-browser-design = Select a Browser Design
-welcome-discribe-browser-design = You can choose one of the wonderful third-party { -brand-short-name } designs. OS specific designs are also available at Preferences.
-welcome-design-lepton-name = Lepton Original Design
-welcome-design-photon-name = Lepton Photon Design
-welcome-design-ProtonFix-name = Lepton ProtonFix Design
-welcome-design-floorp-fluerial-name = Floorp Fluerial Design
-welcome-design-firefox-proton-name = Firefox Proton Design
+welcome-login-to-firefox-account = Đăng nhập vào Tài khoản Firefox của bạn
+welcome-to-floorp = Chào mừng { -brand-short-name }!
+welcome-discribe-floorp = { -brand-short-name } là một trình duyệt dễ dàng mở rộng hỗ trợ nhiều môi trường và dựa trên Firefox.
+welcome-start-setup = Sẵn sàng để bắt đầu?
+welcome-skip-to-start-browsing = Bỏ qua để bắt đầu
+welcome-select-preferences-template = Chọn mẫu
+welcome-minimum-template = Cơ bản
+welcome-enable-basic-features = Kích hoạt tính năng và cài đặt cho trải nghiệm đơn giản.
+welcome-medium-template = Mặc định
+welcome-enable-some-features = Kích hoạt tính năng và cài đặt cho một trải nghiệm tốt hơn.
+welcome-maximum-template = Nâng cao
+welcome-enable-most-of-features = Kích hoạt tính năng và cài đặt nâng cao. Phù hợp cho người sử dụng đã có kinh nghiệm.
+welcome-go-next-setup = Tiếp tục
+welcome-select-browser-design = Chọn giao diện của Trình duyệt
+welcome-discribe-browser-design = Bạn có thể chọn một trong các { -brand-short-name } giao diện từ bên thứ 3. Những giao diện dành riêng cho các hệ điều hành khác nhau cũng sẵn sàng trong Cài Đặt.
+welcome-design-lepton-name = Giao diện Lepton nguyên mẫu
+welcome-design-photon-name = Giao diện Lepton Photon
+welcome-design-ProtonFix-name = Giao diện Lepton ProtonFix
+welcome-design-floorp-fluerial-name = Giao diện Floorp Fluerial
+welcome-design-firefox-proton-name = Giao diện Firefox Proton
 welcome-import-data = Import Your Browser Data
 welcome-import-data-description = Fast setup! Import your bookmarks, passwords, and more from your old browser. Firefox user can import data from Firefox Sync.
 welcome-import-data-button = Import Data...
@@ -961,31 +961,31 @@ floorp-custom-actions-custom-action-5 = Custom action 5
     .label = Custom action 5
 ##################################################################### Profile Switcher ###############################################################
 
-floorp-open-profile-with-new-instance = Launch
-    .tooltiptext = Launch { -brand-short-name } with this profile
-floorp-profiles-in-use = This profile is in use.
-floorp-profiles-title = Profiles
-floorp-profile-manager = Profile Manager
-floorp-profiles-create = Create Profile
-floorp-profile = Profile
-    .label = Profile Manager
-    .tooltiptext = Open Profile Manager
-fxa-not-signed-in = Not signed in
+floorp-open-profile-with-new-instance = Khởi chạy
+    .tooltiptext = Khởi chạy { -brand-short-name } với hồ sơ này
+floorp-profiles-in-use = Hồ sơ này đang được sử dụng.
+floorp-profiles-title = Hồ sơ
+floorp-profile-manager = Quản lý hồ sơ
+floorp-profiles-create = Tạo hồ sơ
+floorp-profile = Hồ sơ
+    .label = Quản lý hồ sơ
+    .tooltiptext = Mở Quản lý hồ sơ
+fxa-not-signed-in = Chưa đăng nhập
 ###################################################################### Private Container ##############################################################
-floorp-private-container-name = Private
+floorp-private-container-name = Riêng tư
 floorp-toggle-private-container = 
-    .label = Reopen in Private/No Container
+    .label = Mở lại trong chế độ Riêng tư/ Không chạy container
     .accesskey = P
 open-in_private-container = 
-    .label = Open in New Tab with Private Container
+    .label = Mở trong tab mới với chế độ riêng tư và trong Container
 ######################################################################## Split View ###############################################################
 
 floorp-split-view-menu = 
     .label = Fix this tab to split view
 ######################################################################### Page Actions ###############################################################
-qrcode-generate-page-action-title = Scan QR Code with your Phone
+qrcode-generate-page-action-title = Quét mã QR bằng điện thoại của bạn
 qrcode-generate-page-action = 
-    .tooltiptext = Share this page with your phone
+    .tooltiptext = Chia sẻ trang này với điện thoại của bạn
 ######################################################################### Customize Mode ###############################################################
 floorp-customize-mode-unified-extensions-button = 
-    .label = Unified Extensions Button
+    .label = Nút công cụ hợp nhất
