@@ -679,9 +679,9 @@ update-portable-notification-found-message = Загружаем обновлен
 update-portable-notification-ready-title = Обновления готовы к установке!
 update-portable-notification-ready-message = { -brand-short-name } will be updated on the next launch.
 update-portable-notification-success-title = Обновление прошло успешно!
-update-portable-notification-success-message = Обновление прошло успешно! Надеемся, что вам понравилась новая версия Floorp!
+update-portable-notification-success-message = Обновление прошло успешно! Надеемся, вам понравится новая версия Floorp!
 update-portable-notification-failed-title = Не удалось установить обновление.
-update-portable-notification-failed-redirector-message = Обновление не удалось. Перезагрузка браузера может решить эту проблему.
+update-portable-notification-failed-redirector-message = Не удалось остановить обновления. Перезагрузка браузера может решить эту проблему.
 update-portable-notification-failed-prepare-message = Не удалось подготовить обновление.
 ##################################################################### Floorp Portable Preferences ###############################################################
 
