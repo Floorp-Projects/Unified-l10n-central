@@ -708,8 +708,8 @@ delete-memo = 削除
 save-memo = 保存
 memo-welcome-title = ようこそ！
 memo-first-tip = Floorp Notes へようこそ！使い方を説明します。
-memo-second-tip = Floorp Notes は、デバイス間で同期できるメモ機能です。 同期を有効にするには、Firefox アカウントで Floorp にサインインする必要があります。
-memo-third-tip = Floorp Notes は Floorp に保存され、Firefox Sync を使用してデバイス間で同期されます。 Firefox Sync は、同期の内容を Firefox アカウントのパスワードで暗号化するため、誰にもその内容を知られることはありません。
+memo-second-tip = Floorp Notes は、デバイス間で同期できるメモ機能です。 同期を有効にするには、Mozilla アカウントで Floorp にサインインする必要があります。
+memo-third-tip = Floorp Notes は Floorp に保存され、Firefox Sync を使用してデバイス間で同期されます。 Firefox Sync は、同期の内容を Mozilla アカウントのパスワードで暗号化するため、誰にもその内容を知られることはありません。
 memo-import-data-tip = Firefox Sync はバックアップサービスではありません。バックアップを作成することをおすすめします。
 memo-new-title = 新規メモ
 chage-view-mode = 表示/編集モード切り替え
@@ -757,7 +757,7 @@ sharemode-menuitem =
     .accesskey = S
 ############################################################################## Welcome page ###############################################################
 
-welcome-login-to-firefox-account = Firefox アカウントにログイン
+welcome-login-to-firefox-account = Mozilla アカウントにログイン
 welcome-to-floorp = { -brand-short-name } へようこそ！
 welcome-discribe-floorp = { -brand-short-name } は、さまざまな環境に対応した、Firefox ベースの多機能ブラウザーです。
 welcome-start-setup = 準備はできましたか？
