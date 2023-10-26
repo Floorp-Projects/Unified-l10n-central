@@ -6,7 +6,7 @@
 
 about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> один из отечественных браузеров, разработанный в Японии. Он основан на Firefox и продолжает работать по адресу <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>, чтобы улучшить работу в Интернете. Хотите помочь? <label data-l10n-name="helpus-donateLink">Сделайте пожертвование</label>
 icon-creator = Создатели иконок: <label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> и <label data-l10n-name="brand-logo-twitter">@mwxdxx.</label>
-contributors = Список авторов и разработчиков <label data-l10n-name="about-contributor"></label>
+contributors = Список <label data-l10n-name="about-contributor">контрибьюторов и разработчиков</label>
 #################################################################### about:preferences ####################################################################
 
 pane-design-title = Дизайн
@@ -354,11 +354,11 @@ enable-notes-sync =
     .label = Включить синхронизацию заметок { -brand-short-name }
 about-notes-backup-tips = Floorp Notes использует Firefox Sync для синхронизации ваших заметок с другими устройствами. Если вы потеряете заметки, вы cможете восстановить их из резервной копии. При запуске { -brand-short-name } создается резервная копия.
 notes-sync-description = Это может решить проблему потери содержимого из-за перезаписи заметок во время синхронизации.
-backuped-time = Резервное копирование в
+backuped-time = Резервная копия создана в
 notes-backup-option = Настройки резервного копирования
 backup-option-button = Настройки резервного копирования...
-restore-from-backup-prompt-title = Служба восстановления заметок на полу
-restore-from-this-backup = Восстановить примечания к состоянию, которое они были в этой резервной копии?
+restore-from-backup-prompt-title = Служба восстановления заметок Floorp
+restore-from-this-backup = Восстановить заметки до состояния, в котором они были в этой резервной копии?
 restore-button = Восстановить
 
 ## user.js
@@ -418,7 +418,7 @@ workspaces-manage-description = Управление рабочими облас
 workspaces-manage-label = 
     .label = Управление проектами
 workspaces-manage-button = Открыть менеджер проекта...
-select-workspace = Выбрать проект
+select-workspace = Выбрать рабочую область
 workspace-select-icon = Выберите значок рабочей области
     .label = Выберите значок рабочей области
 workspace-select-container = Выберите вкладку Контейнер
