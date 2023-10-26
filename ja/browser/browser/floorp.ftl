@@ -484,7 +484,7 @@ CSK-reboot-browser-button = { -brand-short-name } を再起動する...
 # Exist shortcut key: "S", "shift"
 CSK-keyborad-shortcut-info = "{ $key }" と "{ $modifiers }" の組み合わせが設定されています。
 CSK-keyborad-shortcut-info-with-keycode = "{ $key }" が設定されています。
-CSK-keyborad-shortcut-is-changed = (変更が未適用)
+CSK-keyborad-shortcut-is-changed = (未適用）
 floorp-custom-actions-tab-action = タブのアクション
 floorp-custom-actions-page-action = ページのアクション
 floorp-custom-actions-visible-action = 表示方法のアクション
@@ -796,7 +796,7 @@ shortcutkey-customize =
 select-shortcutkeyAction = トリガーするアクションを選択
 shortcutkey-customize-key-list-placeholder = キーボードショートカットがここに表示されます
 shortcut-key-label = キーボードショートカット
-start-input-button-listen = 聴き始めます
+start-input-button-listen = リッスンを開始
 end-input-button-listen = リスニングを停止
 shortcut-key-description = 「リッスンを開始」をクリックし、このアクションの新しいキーボードショートカットを入力します。 複数のキーを使用できますが、すでに他の操作に割り当てられている場合、キーボードショートカットは動作しません。
 floorp-custom-actions-open-new-tab = 新しいタブを開く
