@@ -106,7 +106,7 @@ disable-fullscreen-notification =
 
 ## Browser Theme
 
-system-color-settings = 일부 테마에는 밝은 모드와 어두운 모드가 모두 있으므로 이러한 테마에 사용할 모드를 선택해주세요.
+system-color-settings = 어떤 테마는 라이트와 다크 모드를 모두 갖추고 있어요 - 어떤 모드를 사용할 지 선택해 주세요.
 preferences-theme-appearance-header = 테마 모드
 system-theme-dark = 
     .label = 다크
@@ -118,7 +118,7 @@ system-theme-auto =
 ## User interface preferences
 
 ui-preference = 브라우저 모양
-preferences-browser-appearance-description = { -brand-short-name }에서 사용할 기본 제공 타사 디자인을 선택합니다. 일부 디자인은 사용자 구성과 호환되지 않을 수 있습니다.
+preferences-browser-appearance-description = { -brand-short-name }에서 사용할 기본 제공 외부 디자인을 선택해주세요. 일부 디자인은 사용자 설정과 호환되지 않을 수 있어요.
 firefox-proton = 
     .label = Firefox Proton UI
 firefox-proton-fix = 
@@ -236,7 +236,7 @@ min-memory =
 balance-memory = 
     .label = 메모리 사용량과 성능의 균형
 max-memory = 
-    .label = Best Performance (high memory usage)
+    .label = 최고 성능(높은 메모리 사용량)
 delete-border-and-roundup-option = 
     .label = 페이지 모서리 둥글게 처리
 
@@ -377,7 +377,7 @@ apply-userjs-button = 적용하기
 ## userjs Options
 
 default-userjs-label = Floorp Default
-about-default-userjs = 원격 측정이 비활성화되었습니다. 다양한 사용자 지정이 활성화된 균형 잡힌 { -brand-short-name } .
+about-default-userjs = 원격 측정이 비활성화되었습니다. 다양한 커스텀이 활성화된 균형 잡힌 { -brand-short-name } .
 Securefox-label = Yokoffing Securefox
 about-Securefox = 기본적으로 HTTPS. 사이트 격리를 통한 완벽한 쿠키 보호. 향상된 상태 및 네트워크 파티셔닝. 기타 다양한 개선 사항.
 default-label = Yokoffing Default
