@@ -677,7 +677,7 @@ gf-floorp-open-extension-sidebar-settings-list-unknwon = Complemento desconocido
 update-portable-notification-found-title = ¡Actualizaciones encontradas!
 update-portable-notification-found-message = Descargando actualizaciones...
 update-portable-notification-ready-title = ¡Listo para actualizar!
-update-portable-notification-ready-message = { -brand-short-name } se actualizará cuando se lance a continuación.
+update-portable-notification-ready-message = { -brand-short-name } will be updated on the next launch.
 update-portable-notification-success-title = ¡Actualización exitosa!
 update-portable-notification-success-message = ¡Actualización exitosa! ¡Esperamos que disfrutes de la nueva versión de Floorp!
 update-portable-notification-failed-title = Error al actualizar.
@@ -861,9 +861,9 @@ floorp-custom-actions-open-migration-wizard = Abrir asistente de migración
     .label = Abrir asistente de migración
 floorp-custom-actions-quit-from-application = Salir de la aplicación
     .label = Salir de { -brand-short-name }
-floorp-custom-actions-enter-into-customize-mode = Entrar en modo personalizado de la barra de herramientas
+floorp-custom-actions-enter-into-customize-mode = Enter the toolbar customization mode
     .label = Abrir personalizar { -brand-short-name }
-floorp-custom-actions-enter-into-offline-mode = Entrar en modo sin conexión
+floorp-custom-actions-enter-into-offline-mode = Enter offline mode
     .label = Entrar en modo sin conexión
 floorp-custom-actions-open-screen-capture = Abrir herramienta de captura de pantalla
     .label = Captura de pantalla
@@ -981,7 +981,13 @@ open-in_private-container =
 ######################################################################## Split View ###############################################################
 
 floorp-split-view-menu = 
-    .label = Corregir esta pestaña para dividir la vista
+    .label = Fixed in split view
+splitview-show-on-right = 
+    .label = Show on right
+splitview-show-on-left = 
+    .label = Show on left
+splitview-close-split-tab = 
+    .label = Close split tab
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = Escanea el código QR con tu teléfono
 qrcode-generate-page-action = 

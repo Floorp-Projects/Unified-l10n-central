@@ -677,7 +677,7 @@ gf-floorp-open-extension-sidebar-settings-list-unknwon = Άγνωστο πρόσ
 update-portable-notification-found-title = Βρέθηκαν ενημερώσεις!
 update-portable-notification-found-message = Λήψη ενημερώσεων...
 update-portable-notification-ready-title = Έτοιμο για ενημέρωση!
-update-portable-notification-ready-message = Το { -brand-short-name } θα ενημερωθεί κατά την επόμενη εκκίνηση.
+update-portable-notification-ready-message = { -brand-short-name } will be updated on the next launch.
 update-portable-notification-success-title = Η ενημέρωση πέτυχε!
 update-portable-notification-success-message = Ενημέρωση πέτυχε! Ελπίζω να απολαύσετε τη νέα έκδοση του Floorp!
 update-portable-notification-failed-title = Αποτυχία ενημέρωσης.
@@ -861,9 +861,9 @@ floorp-custom-actions-open-migration-wizard = Οδηγός ανοικτής με
     .label = Οδηγός ανοικτής μετανάστευσης
 floorp-custom-actions-quit-from-application = Έξοδος από την εφαρμογή
     .label = Σταματήστε το { -brand-short-name }
-floorp-custom-actions-enter-into-customize-mode = Εισαγωγή στη γραμμή εργαλείων
+floorp-custom-actions-enter-into-customize-mode = Enter the toolbar customization mode
     .label = Ανοίξτε το Customize { -brand-short-name }
-floorp-custom-actions-enter-into-offline-mode = Εισαγάγετε σε λειτουργία χωρίς σύνδεση
+floorp-custom-actions-enter-into-offline-mode = Enter offline mode
     .label = Εισαγωγή σε λειτουργία χωρίς σύνδεση
 floorp-custom-actions-open-screen-capture = Άνοιγμα εργαλείου καταγραφής οθόνης
     .label = Λήψη στιγμιότυπου οθόνης
@@ -981,7 +981,13 @@ open-in_private-container =
 ######################################################################## Split View ###############################################################
 
 floorp-split-view-menu = 
-    .label = Διόρθωση αυτής της καρτέλας για διαχωρισμό προβολής
+    .label = Fixed in split view
+splitview-show-on-right = 
+    .label = Show on right
+splitview-show-on-left = 
+    .label = Show on left
+splitview-close-split-tab = 
+    .label = Close split tab
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = Σαρώστε τον κωδικό QR με το τηλέφωνό σας
 qrcode-generate-page-action = 

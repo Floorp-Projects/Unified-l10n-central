@@ -677,7 +677,7 @@ gf-floorp-open-extension-sidebar-settings-list-unknwon = Nežinomas priedas
 update-portable-notification-found-title = Atnaujinimai rasti!
 update-portable-notification-found-message = Atsisiunčiami atnaujinimai...
 update-portable-notification-ready-title = Paruošta atnaujinti!
-update-portable-notification-ready-message = { -brand-short-name } bus atnaujinta, kai bus pradėta naudoti.
+update-portable-notification-ready-message = { -brand-short-name } will be updated on the next launch.
 update-portable-notification-success-title = Atnaujinti pavyko!
 update-portable-notification-success-message = Atnaujinti pavyko! Tikimės, kad jums patiks naujoji "Floorp" versija!
 update-portable-notification-failed-title = Atnaujinti nepavyko.
@@ -861,9 +861,9 @@ floorp-custom-actions-open-migration-wizard = Atidarykite migracijos vedlį
     .label = Atidarykite migracijos vedlį
 floorp-custom-actions-quit-from-application = Išeiti iš programos
     .label = Baigti { -brand-short-name }
-floorp-custom-actions-enter-into-customize-mode = Įeikite į įrankių juostą Pritaikymo režimas
+floorp-custom-actions-enter-into-customize-mode = Enter the toolbar customization mode
     .label = Atidarykite Tinkinti { -brand-short-name }
-floorp-custom-actions-enter-into-offline-mode = Įveskite neprisijungusį režimą
+floorp-custom-actions-enter-into-offline-mode = Enter offline mode
     .label = Įeikite į neprisijungusį režimą
 floorp-custom-actions-open-screen-capture = Atidarykite ekrano užfiksavimo įrankį
     .label = Padarykite ekrano nuotrauką
@@ -981,7 +981,13 @@ open-in_private-container =
 ######################################################################## Split View ###############################################################
 
 floorp-split-view-menu = 
-    .label = Nustatykite šį skirtuką į padalintą rodinį
+    .label = Fixed in split view
+splitview-show-on-right = 
+    .label = Show on right
+splitview-show-on-left = 
+    .label = Show on left
+splitview-close-split-tab = 
+    .label = Close split tab
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = QR kodo nuskaitymas telefonu
 qrcode-generate-page-action = 

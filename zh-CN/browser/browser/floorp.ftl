@@ -981,7 +981,13 @@ open-in_private-container =
 ######################################################################## Split View ###############################################################
 
 floorp-split-view-menu = 
-    .label = 将此选项卡固定为分割视图
+    .label = Fixed in split view
+splitview-show-on-right = 
+    .label = Show on right
+splitview-show-on-left = 
+    .label = Show on left
+splitview-close-split-tab = 
+    .label = Close split tab
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = 使用您的手机扫描二维码
 qrcode-generate-page-action = 

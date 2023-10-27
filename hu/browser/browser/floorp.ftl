@@ -677,7 +677,7 @@ gf-floorp-open-extension-sidebar-settings-list-unknwon = Ismeretlen kiegészít�
 update-portable-notification-found-title = Frissítéseket találtunk!
 update-portable-notification-found-message = Frissítések letöltése...
 update-portable-notification-ready-title = Készen áll a frissítésre!
-update-portable-notification-ready-message = { -brand-short-name } frissülni fog, amikor legközelebb elindul.
+update-portable-notification-ready-message = { -brand-short-name } will be updated on the next launch.
 update-portable-notification-success-title = A frissítés sikeres volt!
 update-portable-notification-success-message = A frissítés sikeres volt! Reméljük, hogy tetszik a Floorp új verziója!
 update-portable-notification-failed-title = A frissítés sikertelen.
@@ -861,9 +861,9 @@ floorp-custom-actions-open-migration-wizard = Migrációs varázsló megnyitása
     .label = Migrációs varázsló megnyitása
 floorp-custom-actions-quit-from-application = Kilépés az alkalmazásból
     .label = Kilépés { -brand-short-name }
-floorp-custom-actions-enter-into-customize-mode = Belépés az eszköztár testreszabási módjába
+floorp-custom-actions-enter-into-customize-mode = Enter the toolbar customization mode
     .label = Nyissa meg a Testreszabás { -brand-short-name }
-floorp-custom-actions-enter-into-offline-mode = Belépés offline módban
+floorp-custom-actions-enter-into-offline-mode = Enter offline mode
     .label = Offline üzemmódba lépés
 floorp-custom-actions-open-screen-capture = Képernyőfelvételi eszköz megnyitása
     .label = Készítsen képernyőképet
@@ -981,7 +981,13 @@ open-in_private-container =
 ######################################################################## Split View ###############################################################
 
 floorp-split-view-menu = 
-    .label = Rögzítse ezt a lapot osztott nézetre
+    .label = Fixed in split view
+splitview-show-on-right = 
+    .label = Show on right
+splitview-show-on-left = 
+    .label = Show on left
+splitview-close-split-tab = 
+    .label = Close split tab
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = QR-kód beolvasása telefonjával
 qrcode-generate-page-action = 

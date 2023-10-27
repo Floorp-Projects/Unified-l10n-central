@@ -37,8 +37,8 @@ tab-sleep-settings-dialog-excludehosts-label = Wyklucz hosty
 tab-sleep-settings-dialog-excludehosts-label-2 = Wprowadź jeden host na linię.
 tab-sleep-tab-context-menu-excludetab = Nie budzaj karty
 enable-floorp-workspace = 
-    .label = Włącz Workspace
-workspace-warning = Workspaces cannot be used with Tab Group add-ons. If you want to use tab group add-ons, please disable Workspaces and restart { -brand-short-name }.
+    .label = Włącz stacje robocze
+workspace-warning = Stacje robocze nie mogą być używane z dodatkiem grup kart. Jeśli chcesz używać dodatku grup kart, wyłącz stacje robocze i uruchom ponownie { -brand-short-name }.
 enable-tab-scroll-change = 
     .label = Przełącz zakładki przez przewijanie za pomocą myszy
 enable-tab-scroll-reverse = 
@@ -51,7 +51,7 @@ enable-show-pinned-tabs-title =
     .label = Pokaż tytuł przypiętych kart
 tabbar-preference = Pasek zakładek
 tab-normal-mode = 
-    .label = Normal mode
+    .label = Tryb normalny
 hide-horizontality-tabs = 
     .label = Ukryj zakładki na poziomym pasku kart
 verticalTab-setting = 
@@ -84,9 +84,9 @@ bookmarks-focus-mode =
     .label = Ukryj pasek zakładek bez najechania na pasek nawigacyjny
 bookmarks-bottom-mode = 
     .label = Pokaż pasek zakładek u dołu { -brand-short-name }
-navbar-settings = Navigation Bar
+navbar-settings = Pasek nawigacji
 show-nav-bar-bottom = 
-    .label = Pokaż pasek narzędzi u dołu { -brand-short-name } (eksperymentalne)
+    .label = Pokaż pasek nawigacji u dołu { -brand-short-name } (eksperymentalne)
 material-effect = 
     .label = Pozwól Mica dla wszystkich modyfikować wygląd przeglądarki
 disable-extension-check-compatibility-option = 
@@ -94,13 +94,13 @@ disable-extension-check-compatibility-option =
 other-preference = Inne preferencje
 enable-userscript = 
     .label = Enable legacy components
-about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
+about-userscript = Włączenie tej funkcji może spowodować nieoczekiwane błędy lub błędy krytyczne.
 search-positon-top = 
-    .label = Display the Find Bar at the top of the page
+    .label = Wyświetlanie paska wyszukiwania w górnej części strony
 allow-auto-restart = 
     .label = Uruchom ponownie automatycznie, gdy ustawienia, które wymagają restartu zostaną zmienione
 enable-rest-mode = 
-    .label = Enable Rest Mode shortcut (F9)
+    .label = Włącz skrót trybu spoczynku (F9)
 disable-fullscreen-notification = 
     .label = Nie pokazuj powiadomienia podczas wchodzenia na pełny ekran
 
@@ -111,9 +111,9 @@ preferences-theme-appearance-header = Tryb motywu
 system-theme-dark = 
     .label = Ciemny
 system-theme-light = 
-    .label = Światło
+    .label = Jasny
 system-theme-auto = 
-    .label = Śledź mój system
+    .label = Śledź ustawienia systemu
 
 ## User interface preferences
 
@@ -157,15 +157,15 @@ userAgent-preference = User Agent
 default-useragent-mode = 
     .label = Użyj Firefox User Agent (domyślnie)
 windows-chrome-useragent-mode = 
-    .label = Szkielet Chrome w systemie Windows
+    .label = User Agent Chrome w systemie Windows
 macOS-chrome-useragent-mode = 
-    .label = Szkielet Chrome na macOS
+    .label = User Agent Chrome na macOS
 linux-chrome-useragent-mode = 
-    .label = Szkielet Chrome na Linuxie
+    .label = User Agent Chrome na Linuxie
 mobile-chrome-useragent-mode = 
-    .label = Szpinak Chrome na iOS
+    .label = User Agent Chrome na iOS
 use-custom-useragent-mode = 
-    .label = Użyj niestandardowego agenta użytkownika
+    .label = Użyj niestandardowego user agenta użytkownika
 
 ## DMR UI
 
@@ -428,23 +428,23 @@ workspace-customize =
 floorp-no-workspace-conatiner = 
     .label = Brak kontenera
 workspace-icon-briefcase = 
-    .label = Zadanie
+    .label = Praca
 workspace-icon-cart = 
     .label = Zakupy
 workspace-icon-circle = 
-    .label = Okręg
+    .label = Okrąg
 workspace-icon-compass = 
     .label = Kompas
 workspace-icon-dollar = 
-    .label = Bank
+    .label = Bankowość
 workspace-icon-fence = 
     .label = Ogrodzenie
 workspace-icon-fingerprint = 
-    .label = Osobisty
+    .label = Osobiste
 workspace-icon-gift = 
     .label = Prezent
 workspace-icon-vacation = 
-    .label = Uwolnienie
+    .label = Wakacje
 workspace-icon-food = 
     .label = Żywność
 workspace-icon-fruit = 
@@ -460,7 +460,7 @@ workspace-icon-star =
 workspace-icon-tree = 
     .label = Drzewo
 workspace-icon-chill = 
-    .label = Prywatny
+    .label = Prywatne
 # Custom Keyboard Shortcuts
 floorp-CSK-title = Niestandardowe skróty klawiszowe
 floorp-CSK-description = Dostosuj skróty klawiaturowe { -brand-short-name }. Piętro zapewnia ponad 80 konfigurowalnych skrótów klawiaturowych - zrestartuj { -brand-short-name } aby zastosować te ustawienia. Duplikuj skróty klawiaturowe nie zadziałają.
@@ -503,11 +503,11 @@ floorp-custom-actions-custom-action = Akcje niestandardowe (eksperymentalne)
 ## Mouse Gestures
 
 mouse-gesture = Gesty myszy
-mouse-gesture-description = Gesturefy musi być zainstalowany, aby użyć gestów myszy z { -brand-short-name }.
+mouse-gesture-description = Gesturefy musi być zainstalowane, aby używać gestów myszy z { -brand-short-name }.
 Gesturefy = Gesturefy
 about-Gesturefy = Gesturefy to rozszerzenie, które dodaje gesty myszy do przeglądarki. Jeśli { -brand-short-name } wykryje instalację tego dodatku, doda on polecenia gestów do Gesturefy, które są dostępne tylko w { -brand-short-name }. Dodatek może również działać z nowymi kartami!
 # Translate
-TWS = Translate Web Page
+TWS = Przetłumacz strone internetową
 about-TWS = Przetłumacz swoją stronę w czasie rzeczywistym za pomocą Google lub Yandex. Możesz również przetłumaczyć wybrany tekst lub całą stronę.
 
 # Privacy Hub
@@ -677,7 +677,7 @@ gf-floorp-open-extension-sidebar-settings-list-unknwon = Nieznany dodatek
 update-portable-notification-found-title = Znaleziono aktualizacje!
 update-portable-notification-found-message = Pobieranie aktualizacji...
 update-portable-notification-ready-title = Gotowy do aktualizacji!
-update-portable-notification-ready-message = { -brand-short-name } zostanie zaktualizowany po uruchomieniu następnego.
+update-portable-notification-ready-message = { -brand-short-name } will be updated on the next launch.
 update-portable-notification-success-title = Aktualizacja powiodła się!
 update-portable-notification-success-message = Aktualizacja powiodła się! Mamy nadzieję, że podoba Ci się nowa wersja Piętra!
 update-portable-notification-failed-title = Aktualizacja nie powiodła się.
@@ -861,9 +861,9 @@ floorp-custom-actions-open-migration-wizard = Otwórz kreatora migracji
     .label = Otwórz kreatora migracji
 floorp-custom-actions-quit-from-application = Wyjdź z aplikacji
     .label = Wyjdź z { -brand-short-name }
-floorp-custom-actions-enter-into-customize-mode = Wejdź w trybie dostosowywania paska narzędzi
+floorp-custom-actions-enter-into-customize-mode = Enter the toolbar customization mode
     .label = Otwórz dostosowywanie { -brand-short-name }
-floorp-custom-actions-enter-into-offline-mode = Wejdź w trybie offline
+floorp-custom-actions-enter-into-offline-mode = Enter offline mode
     .label = Wejdź do trybu offline
 floorp-custom-actions-open-screen-capture = Otwórz narzędzie przechwytywania ekranu
     .label = Zrób zrzut ekranu
@@ -981,11 +981,17 @@ open-in_private-container =
 ######################################################################## Split View ###############################################################
 
 floorp-split-view-menu = 
-    .label = Napraw tę kartę aby podzielić widok
+    .label = Fixed in split view
+splitview-show-on-right = 
+    .label = Show on right
+splitview-show-on-left = 
+    .label = Show on left
+splitview-close-split-tab = 
+    .label = Close split tab
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = Zeskanuj kod QR za pomocą telefonu
 qrcode-generate-page-action = 
-    .tooltiptext = Udostępnij tę stronę swojemu telefonowi
+    .tooltiptext = Udostępnij tę strone na telefon
 ######################################################################### Customize Mode ###############################################################
 floorp-customize-mode-unified-extensions-button = 
-    .label = Przycisk jednolitych rozszerzeń
+    .label = Przycisk rozszerzeń

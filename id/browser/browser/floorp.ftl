@@ -677,7 +677,7 @@ gf-floorp-open-extension-sidebar-settings-list-unknwon = Pengaya yang tidak dike
 update-portable-notification-found-title = Pembaruan ditemukan!
 update-portable-notification-found-message = Mengunduh pembaruan...
 update-portable-notification-ready-title = Siap untuk memperbarui!
-update-portable-notification-ready-message = { -brand-short-name } akan diperbarui ketika diluncurkan berikutnya.
+update-portable-notification-ready-message = { -brand-short-name } will be updated on the next launch.
 update-portable-notification-success-title = Pembaruan berhasil!
 update-portable-notification-success-message = Pembaruan berhasil! Semoga Anda menikmati versi baru Floorp!
 update-portable-notification-failed-title = Pembaruan gagal.
@@ -861,9 +861,9 @@ floorp-custom-actions-open-migration-wizard = Buka panduan migrasi
     .label = Buka panduan migrasi
 floorp-custom-actions-quit-from-application = Keluar dari aplikasi
     .label = Keluar { -brand-short-name }
-floorp-custom-actions-enter-into-customize-mode = Masuk ke mode Kustomisasi di bilah alat
+floorp-custom-actions-enter-into-customize-mode = Enter the toolbar customization mode
     .label = Buka Sesuaikan { -brand-short-name }
-floorp-custom-actions-enter-into-offline-mode = Masuk dalam mode offline
+floorp-custom-actions-enter-into-offline-mode = Enter offline mode
     .label = Masuk ke mode offline
 floorp-custom-actions-open-screen-capture = Buka alat penangkap layar
     .label = Mengambil tangkapan layar
@@ -981,7 +981,13 @@ open-in_private-container =
 ######################################################################## Split View ###############################################################
 
 floorp-split-view-menu = 
-    .label = Perbaiki tab ini untuk membagi tampilan
+    .label = Fixed in split view
+splitview-show-on-right = 
+    .label = Show on right
+splitview-show-on-left = 
+    .label = Show on left
+splitview-close-split-tab = 
+    .label = Close split tab
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = Pindai Kode QR dengan Ponsel Anda
 qrcode-generate-page-action = 

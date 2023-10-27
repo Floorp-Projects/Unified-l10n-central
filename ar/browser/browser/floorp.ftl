@@ -677,7 +677,7 @@ gf-floorp-open-extension-sidebar-settings-list-unknwon = إضافة غير مع�
 update-portable-notification-found-title = تم العثور على تحديثات!
 update-portable-notification-found-message = جاري تحميل التحديثات...
 update-portable-notification-ready-title = جاهز للتحديث!
-update-portable-notification-ready-message = سيتم تحديث { -brand-short-name } عند بدء التشغيل التالي.
+update-portable-notification-ready-message = { -brand-short-name } will be updated on the next launch.
 update-portable-notification-success-title = نجاح التحديث!
 update-portable-notification-success-message = تم التحديث بنجاح! أتمنى أن تستمتع بالإصدار الجديد من الأرض!
 update-portable-notification-failed-title = فشل التحديث.
@@ -861,9 +861,9 @@ floorp-custom-actions-open-migration-wizard = فتح معالج الهجرة
     .label = فتح معالج الهجرة
 floorp-custom-actions-quit-from-application = الخروج من التطبيق
     .label = الخروج { -brand-short-name }
-floorp-custom-actions-enter-into-customize-mode = أدخل في وضع تخصيص شريط الأدوات
+floorp-custom-actions-enter-into-customize-mode = Enter the toolbar customization mode
     .label = فتح التخصيص { -brand-short-name }
-floorp-custom-actions-enter-into-offline-mode = أدخل في وضع عدم الاتصال
+floorp-custom-actions-enter-into-offline-mode = Enter offline mode
     .label = أدخل الوضع دون اتصال
 floorp-custom-actions-open-screen-capture = فتح أداة التقاط الشاشة
     .label = التقاط لقطة شاشة
@@ -981,7 +981,13 @@ open-in_private-container =
 ######################################################################## Split View ###############################################################
 
 floorp-split-view-menu = 
-    .label = إصلاح علامة التبويب هذه لتقسيم العرض
+    .label = Fixed in split view
+splitview-show-on-right = 
+    .label = Show on right
+splitview-show-on-left = 
+    .label = Show on left
+splitview-close-split-tab = 
+    .label = Close split tab
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = مسح رمز QR باستخدام هاتفك
 qrcode-generate-page-action = 

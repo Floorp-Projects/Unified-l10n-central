@@ -677,7 +677,7 @@ gf-floorp-open-extension-sidebar-settings-list-unknwon = Neznámý doplněk
 update-portable-notification-found-title = Aktualizace nalezeny!
 update-portable-notification-found-message = Stahování aktualizací...
 update-portable-notification-ready-title = Připraveno k aktualizaci!
-update-portable-notification-ready-message = { -brand-short-name } bude aktualizován, až bude spuštěn dále.
+update-portable-notification-ready-message = { -brand-short-name } will be updated on the next launch.
 update-portable-notification-success-title = Aktualizace byla úspěšná!
 update-portable-notification-success-message = Aktualizace byla úspěšná! Doufáme, že se vám nová verze podlahy líbí!
 update-portable-notification-failed-title = Aktualizace se nezdařila.
@@ -861,9 +861,9 @@ floorp-custom-actions-open-migration-wizard = Otevřít průvodce migrací
     .label = Otevřít průvodce migrací
 floorp-custom-actions-quit-from-application = Ukončit z aplikace
     .label = Ukončit { -brand-short-name }
-floorp-custom-actions-enter-into-customize-mode = Vložit do režimu přizpůsobení panelu nástrojů
+floorp-custom-actions-enter-into-customize-mode = Enter the toolbar customization mode
     .label = Otevřít přizpůsobení { -brand-short-name }
-floorp-custom-actions-enter-into-offline-mode = Vložit do offline režimu
+floorp-custom-actions-enter-into-offline-mode = Enter offline mode
     .label = Vstoupit do offline režimu
 floorp-custom-actions-open-screen-capture = Otevřít nástroj pro zachytávání obrazovky
     .label = Pořídit snímek obrazovky
@@ -981,7 +981,13 @@ open-in_private-container =
 ######################################################################## Split View ###############################################################
 
 floorp-split-view-menu = 
-    .label = Opravit tuto kartu pro rozdělení zobrazení
+    .label = Fixed in split view
+splitview-show-on-right = 
+    .label = Show on right
+splitview-show-on-left = 
+    .label = Show on left
+splitview-close-split-tab = 
+    .label = Close split tab
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = Naskenujte QR kód telefonem
 qrcode-generate-page-action = 

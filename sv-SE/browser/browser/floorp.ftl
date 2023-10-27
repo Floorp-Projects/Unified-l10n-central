@@ -677,7 +677,7 @@ gf-floorp-open-extension-sidebar-settings-list-unknwon = Okänt tillägg
 update-portable-notification-found-title = Uppdateringar hittades!
 update-portable-notification-found-message = Hämtar uppdateringar...
 update-portable-notification-ready-title = Redo att uppdatera!
-update-portable-notification-ready-message = { -brand-short-name } kommer att uppdateras när den startar nästa.
+update-portable-notification-ready-message = { -brand-short-name } will be updated on the next launch.
 update-portable-notification-success-title = Uppdateringen lyckades!
 update-portable-notification-success-message = Uppdateringen lyckades! Hoppas du gillar den nya versionen av Floorp!
 update-portable-notification-failed-title = Uppdateringen misslyckades.
@@ -861,9 +861,9 @@ floorp-custom-actions-open-migration-wizard = Öppen migrationsguide
     .label = Öppen migrationsguide
 floorp-custom-actions-quit-from-application = Avsluta från ansökan
     .label = Avsluta { -brand-short-name }
-floorp-custom-actions-enter-into-customize-mode = Gå in i verktygsfältet Anpassa läge
+floorp-custom-actions-enter-into-customize-mode = Enter the toolbar customization mode
     .label = Öppna Anpassa { -brand-short-name }
-floorp-custom-actions-enter-into-offline-mode = Gå in i offline-läge
+floorp-custom-actions-enter-into-offline-mode = Enter offline mode
     .label = Gå in i offline-läge
 floorp-custom-actions-open-screen-capture = Öppna skärmbildsverktyget
     .label = Ta en skärmdump
@@ -981,7 +981,13 @@ open-in_private-container =
 ######################################################################## Split View ###############################################################
 
 floorp-split-view-menu = 
-    .label = Fixa denna flik för att dela vyn
+    .label = Fixed in split view
+splitview-show-on-right = 
+    .label = Show on right
+splitview-show-on-left = 
+    .label = Show on left
+splitview-close-split-tab = 
+    .label = Close split tab
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = Skanna QR-koden med din telefon
 qrcode-generate-page-action = 

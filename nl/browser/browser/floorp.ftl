@@ -677,7 +677,7 @@ gf-floorp-open-extension-sidebar-settings-list-unknwon = Onbekende add-on
 update-portable-notification-found-title = Updates gevonden!
 update-portable-notification-found-message = Updates downloaden...
 update-portable-notification-ready-title = Klaar om te updaten!
-update-portable-notification-ready-message = { -brand-short-name } zal worden bijgewerkt wanneer het de volgende keer start.
+update-portable-notification-ready-message = { -brand-short-name } will be updated on the next launch.
 update-portable-notification-success-title = Update geslaagd!
 update-portable-notification-success-message = Update gelukt! Hopelijk geniet u van de nieuwe versie van Floorp!
 update-portable-notification-failed-title = Update mislukt.
@@ -861,9 +861,9 @@ floorp-custom-actions-open-migration-wizard = Open migratie wizard
     .label = Open migratie wizard
 floorp-custom-actions-quit-from-application = Afsluiten uit applicatie
     .label = { -brand-short-name } afsluiten
-floorp-custom-actions-enter-into-customize-mode = In werkbalk aanpassen modus invoeren
+floorp-custom-actions-enter-into-customize-mode = Enter the toolbar customization mode
     .label = { -brand-short-name } Aanpassen openen
-floorp-custom-actions-enter-into-offline-mode = Ga in offline modus
+floorp-custom-actions-enter-into-offline-mode = Enter offline mode
     .label = Ga offline modus
 floorp-custom-actions-open-screen-capture = Tool voor schermopname openen
     .label = Maak een schermafbeelding
@@ -981,7 +981,13 @@ open-in_private-container =
 ######################################################################## Split View ###############################################################
 
 floorp-split-view-menu = 
-    .label = Repareer dit tabblad om de weergave te splitsen
+    .label = Fixed in split view
+splitview-show-on-right = 
+    .label = Show on right
+splitview-show-on-left = 
+    .label = Show on left
+splitview-close-split-tab = 
+    .label = Close split tab
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = Scan QR-Code met uw telefoon
 qrcode-generate-page-action = 

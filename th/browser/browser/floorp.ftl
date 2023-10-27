@@ -677,7 +677,7 @@ gf-floorp-open-extension-sidebar-settings-list-unknwon = Unknown add-on
 update-portable-notification-found-title = Updates found!
 update-portable-notification-found-message = Downloading updates...
 update-portable-notification-ready-title = Ready to update!
-update-portable-notification-ready-message = { -brand-short-name } will be updated when it launches next.
+update-portable-notification-ready-message = { -brand-short-name } will be updated on the next launch.
 update-portable-notification-success-title = Update succeeded!
 update-portable-notification-success-message = Update succeeded! Hope you enjoy the new version of Floorp!
 update-portable-notification-failed-title = Update failed.
@@ -861,9 +861,9 @@ floorp-custom-actions-open-migration-wizard = Open migration wizard
     .label = Open migration wizard
 floorp-custom-actions-quit-from-application = Quit from application
     .label = Quit { -brand-short-name }
-floorp-custom-actions-enter-into-customize-mode = Enter in toolbar Customize mode
+floorp-custom-actions-enter-into-customize-mode = Enter the toolbar customization mode
     .label = Open Customize { -brand-short-name }
-floorp-custom-actions-enter-into-offline-mode = Enter in offline mode
+floorp-custom-actions-enter-into-offline-mode = Enter offline mode
     .label = Enter offline mode
 floorp-custom-actions-open-screen-capture = Open screen capture tool
     .label = Take a screenshot
@@ -981,7 +981,13 @@ open-in_private-container =
 ######################################################################## Split View ###############################################################
 
 floorp-split-view-menu = 
-    .label = Fix this tab to split view
+    .label = Fixed in split view
+splitview-show-on-right = 
+    .label = Show on right
+splitview-show-on-left = 
+    .label = Show on left
+splitview-close-split-tab = 
+    .label = Close split tab
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = Scan QR Code with your Phone
 qrcode-generate-page-action = 
