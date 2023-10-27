@@ -981,13 +981,13 @@ open-in_private-container =
 ######################################################################## Split View ###############################################################
 
 floorp-split-view-menu = 
-    .label = Fixed in split view
+    .label = 修复分割视图
 splitview-show-on-right = 
-    .label = Show on right
+    .label = 在右侧显示
 splitview-show-on-left = 
-    .label = Show on left
+    .label = 在左侧显示
 splitview-close-split-tab = 
-    .label = Close split tab
+    .label = 关闭分割标签页
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = 使用您的手机扫描二维码
 qrcode-generate-page-action = 
