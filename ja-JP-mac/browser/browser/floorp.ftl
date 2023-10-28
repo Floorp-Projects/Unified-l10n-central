@@ -981,13 +981,13 @@ open-in_private-container =
 ######################################################################## Split View ###############################################################
 
 floorp-split-view-menu = 
-    .label = Fixed in split view
+    .label = 分割ビューで表示を固定する
 splitview-show-on-right = 
-    .label = Show on right
+    .label = 右側に表示
 splitview-show-on-left = 
-    .label = Show on left
+    .label = 左側に表示
 splitview-close-split-tab = 
-    .label = Close split tab
+    .label = 分割ビューを閉じる
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = QR コードをスキャンしてください
 qrcode-generate-page-action = 
