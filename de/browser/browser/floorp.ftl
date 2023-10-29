@@ -153,7 +153,7 @@ appmenuitem-reboot =
 
 ## UserAgent
 
-userAgent-preference = User Agent
+userAgent-preference = User-Agent
 default-useragent-mode = 
     .label = Firefox User Agent verwenden (Standard)
 windows-chrome-useragent-mode = 
@@ -304,7 +304,7 @@ floorp-lepton-enable-tab_icon-hide =
 floorp-lepton-enable-tabbar-hide = 
     .label = Tab Leiste ausblenden
 floorp-lepton-enable-navbar-hide = 
-    .label = Toolbar ausblenden
+    .label = Werkzeugleiste verstecken
 floorp-lepton-enable-sidebar_header-hide = 
     .label = Sidebar-Kopfzeilen ausblenden
 floorp-lepton-enable-urlbar_iconbox-hide = 
@@ -335,14 +335,14 @@ floorp-lepton-enable-always-show-page_action =
     .label = Seitenaktionen immer in der Adressleiste anzeigen
 tabbar-preferences = Tableiste
 floorp-lepton-enable-tabbar-positon-as-titlebar = 
-    .label = Tab Bar in der Titelleiste
+    .label = Tableiste in der Titelleiste
 floorp-lepton-enable-tabbar-as-urlbar = 
     .label = Tableiste und Symbolleiste kombinieren
-lepton-sidebar-preferences = Sidebar
+lepton-sidebar-preferences = Seitenleiste
 floorp-lepton-enable-overlap-sidebar = 
     .label = Seitenleiste über Webseiteninhalt anzeigen
 floorp-home-mode-choice-default = 
-    .label = { -brand-short-name } Home (Standard)
+    .label = { -brand-short-name } Startseite (Standard)
 floorp-home-prefs-content-header = { -brand-short-name } Home Content
 floorp-home-prefs-content-description = Wählen Sie den Inhalt aus, den Sie auf der { -brand-short-name } Startseite sehen möchten.
 
@@ -354,7 +354,7 @@ enable-notes-sync =
     .label = { -brand-short-name } Notes Sync aktivieren
 about-notes-backup-tips = Floorp-Notizen verwenden Firefox Sync, um Ihre Notizen mit anderen Geräten zu synchronisieren. Wenn du deine Notizen verlierst, kannst du sie aus einem Backup wiederherstellen. Beim Start von { -brand-short-name } wird ein Backup erstellt.
 notes-sync-description = Dies kann das Problem des Verlustes von Inhalten lösen, da während der Synchronisation Notizen überschrieben werden.
-backuped-time = Sichert am
+backuped-time = Gesichert am
 notes-backup-option = Backup-Einstellungen
 backup-option-button = Sicherungseinstellungen...
 restore-from-backup-prompt-title = Floorp Notes Wiederherstellungsdienst
@@ -365,9 +365,9 @@ restore-button = Wiederherstellen
 
 header-userjs = user.js
 userjs-customize = { -brand-short-name } mit user.js anpassen
-about-userjs-customize = user.js ist eine Konfigurationsdatei, mit der Sie { -brand-short-name }anpassen können. user.js Dateien werden aus dem Internet heruntergeladen und überschreiben Ihren aktuellen Benutzer. s Datei. Bitte sichern Sie Ihre aktuelle user.js-Datei, bevor Sie fortfahren. user.js Konfigurationen werden automatisch nach einem Neustart von { -brand-short-name } angewandt.
+about-userjs-customize = user.js ist eine Konfigurationsdatei, mit der Sie { -brand-short-name } anpassen können. user.js Dateien werden aus dem Internet heruntergeladen und überschreiben Ihre aktuelle user.js Datei. Bitte sichern Sie Ihre aktuelle user.js-Datei, bevor Sie fortfahren. user.js Konfigurationen werden automatisch nach einem Neustart von { -brand-short-name } angewendet.
 userjs-label = user.js Liste
-userjs-prompt = Anwenden dieses user.js?
+userjs-prompt = Diese user.js anwenden?
 apply-userjs-attention = Die Anwendung einer neuen user.js überschreibt Ihre aktuelle user.js-Datei.
 apply-userjs-attention2 = Bitte sichern Sie Ihre aktuelle user.js-Datei, bevor Sie fortfahren.
 userjs-button = user.js Einstellungen...
@@ -377,7 +377,7 @@ apply-userjs-button = Anwenden
 ## userjs Options
 
 default-userjs-label = Floorp Standard
-about-default-userjs = Telemetrie deaktiviert. Gut ausgewogene { -brand-short-name } mit verschiedenen Anpassungen aktiviert.
+about-default-userjs = Telemetrie deaktiviert. Ausgewogenes { -brand-short-name } mit verschiedenen Anpassungen aktiviert.
 Securefox-label = Yokoffing Securefox
 about-Securefox = HTTPS-by-Default. Gesamter Cookie-Schutz mit Website-Isolierung. Verbesserter Zustand und Netzwerk-Partitionierung. Verschiedene andere Verbesserungen.
 default-label = Yokoffing Default
@@ -392,7 +392,7 @@ about-Smoothfox = Holen Sie sich Edge-ähnliches Scrollen in Ihrem bevorzugten B
 ## Workspaces
 
 floorp-workspaces-title = { -brand-short-name } Arbeitsbereiche
-workspaces-backup-discription = Sichern und Wiederherstellen Ihrer Arbeitsbereiche
+workspaces-backup-discription = Arbeitsbereiche Sichern und Wiederherstellen
 workspaces-restore-service-title = Floorp Workspaces Backup-Service
 workspaces-restore-warning = Warnung! Wenn Sie diese Operation ausführen, wird der Browser vorübergehend einfrieren und automatisch neu starten.
 floorp-workspace-settings-button = Arbeitsbereichseinstellungen...
@@ -408,11 +408,11 @@ workspaces-reset-button = Arbeitsbereiche zurücksetzen
 workspaces-reset-service-title = Floorp Arbeitsbereiche
 workspaces-reset-warning = Warnung! Wenn Sie diesen Vorgang ausführen, werden alle Ihre Arbeitsbereiche gelöscht und der Browser neu gestartet.
 manage-workspace-on-bms-option = 
-    .label = Arbeitsbereich auf der Browser-Manager-Seitenleiste verwalten
+    .label = Arbeitsbereich auf der Browser Manager Seitenleiste verwalten
 show-workspace-name-option = 
     .label = Arbeitsbereichsname auf der Schaltfläche Arbeitsbereichsleiste anzeigen
 change-workspace-with-default-key-option = 
-    .label = Ändern Sie den Arbeitsbereich mit den Tasten Umschalt- und <unk> <unk> .
+    .label = Wechseln Sie den Arbeitsbereich mit der Umschalttaste und den Tasten ↑ und ↓.
 workspaces-manage-title = Arbeitsbereiche verwalten
 workspaces-manage-description = Arbeitsbereiche verwalten. Ändere das Arbeitsbereichssymbol.
 workspaces-manage-label = 
@@ -463,7 +463,7 @@ workspace-icon-chill =
     .label = Privat
 # Custom Keyboard Shortcuts
 floorp-CSK-title = Benutzerdefinierte Tastaturkürzel
-floorp-CSK-description = Anpassen von { -brand-short-name }Tastaturkürzeln. Floorp bietet mehr als 80 anpassbare Tastenkürzel - Starten Sie { -brand-short-name } neu, um diese Einstellungen zu übernehmen. Doppelte Tastaturkürzel werden nicht funktionieren.
+floorp-CSK-description = Anpassen von { -brand-short-name } Tastaturkürzeln. { -brand-short-name } bietet mehr als 80 anpassbare Tastenkürzel - Starten Sie { -brand-short-name } neu, um diese Einstellungen zu übernehmen. Doppelte Tastaturkürzel funktionieren nicht.
 disable-fx-actions = 
     .label = Deaktiviere die Tastaturkürzel von Mozilla Firefox
 customize-Action = 
@@ -486,28 +486,28 @@ CSK-keyborad-shortcut-info = Aktuelle Tastaturkürzel: { $key } & { $modifiers }
 CSK-keyborad-shortcut-info-with-keycode = Aktuelle Tastaturkürzel: { $key }.
 CSK-keyborad-shortcut-is-changed = (Nicht angewendet)
 floorp-custom-actions-tab-action = Tab Aktionen
-floorp-custom-actions-page-action = Seiten-Aktionen
+floorp-custom-actions-page-action = Seiten Aktionen
 floorp-custom-actions-visible-action = Sichtbare Aktionen
 floorp-custom-actions-search-action = Aktionen durchsuchen
-floorp-custom-actions-tools-action = Tools Aktionen
+floorp-custom-actions-tools-action = Werkzeug Aktionen
 floorp-custom-actions-bookmark-action = Lesezeichen-Aktionen
 floorp-custom-actions-open-page-action = Öffne Seitenaktionen
-floorp-custom-actions-history-action = Verlaufsaktionen
+floorp-custom-actions-history-action = Chronik Aktionen
 floorp-custom-actions-pip-action = Bild-in-Bild-Aktionen
 floorp-custom-actions-downloads-action = Download-Aktionen
 floorp-custom-actions-sidebar-action = Seitenleiste Aktionen
 floorp-custom-actions-bms-action = Seitenleiste des Browser-Managers
-floorp-custom-actions-workspace-action = Arbeitsbereich-Aktionen
+floorp-custom-actions-workspace-action = Arbeitsbereich Aktionen
 floorp-custom-actions-custom-action = Eigene Aktionen (Experimentell)
 
 ## Mouse Gestures
 
-mouse-gesture = Maus Gesten
+mouse-gesture = Mausgesten
 mouse-gesture-description = Gesturefy muss installiert sein, um Mausgesten mit { -brand-short-name } zu verwenden.
 Gesturefy = Gesturefy
-about-Gesturefy = Gesturefy ist eine Erweiterung, die Mausgesten zu Ihrem Browser hinzufügt. Wenn { -brand-short-name } die Installation dieses Add-ons entdeckt, werden Gesten Befehle hinzugefügt, die nur in { -brand-short-name }verfügbar sind. Auch dieses Add-on kann mit neuen Tabs funktionieren!
+about-Gesturefy = Gesturefy ist eine Erweiterung, die Mausgesten hinzufügt. Wenn { -brand-short-name } die Installation dieses Add-ons entdeckt, werden Gesten Befehle hinzugefügt, die nur in { -brand-short-name } verfügbar sind. Dieses Add-on kann mit neuen Tabs funktionieren!
 # Translate
-TWS = Translate Web Page
+TWS = Webseite übersetzen
 about-TWS = Übersetzen Sie Ihre Seite in Echtzeit mit Google oder Yandex. Sie können auch den ausgewählten Text oder die gesamte Seite übersetzen.
 
 # Privacy Hub
@@ -517,35 +517,35 @@ about-TWS = Übersetzen Sie Ihre Seite in Echtzeit mit Google oder Yandex. Sie k
 
 privacy-hub-header = Privatsphäre-Hub
 block-more-tracker = Weitere Werbung und Tracker blockieren
-block-tracker = Dieser Abschnitt enthält eine Reihe von Erweiterungen um Werbung und Tracker zu blockieren
+block-tracker = Dieser Abschnitt enthält eine Reihe von Erweiterungen zum Blockieren von Werbung und Trackern
 view-at-AMO = Dieses Addon in addons.mozilla.org ansehen
-uBlock-Origin = uBlock Ursprung
+uBlock-Origin = uBlock-Origin
 about-uboori = uBlock Origin blockiert Werbung, umfangreiche Tracker und zusätzliche gefährliche Websites.
 Facebook-Container = Facebook-Container
 about-Facebook-Container = Verhindern Sie Facebook daran, Sie im Web zu verfolgen. Facebook-Container-Erweiterung hilft Ihnen, Ihre Web-Aktivitäten von Facebook zu steuern und zu isolieren.
 
 ## Fingerprinting
 
-fingerprint-header = Widerstehen von Fingerabdruck & IP-Adressenlecks
-block-fingerprint = Fingerabdruck ist ein Tracking-Mechanismus, der sich auf die einzigartigen Funktionen Ihres Browsers und Betriebssystems stützt. Dieser Abschnitt enthält Einstellungen, um diesen Schutz über die Standardsperre hinaus weiter zu verbessern.
+fingerprint-header = Widerstehen von Fingerprinting & IP-Adressenlecks
+block-fingerprint = Fingerprinting ist ein Tracking-Mechanismus, der sich auf die einzigartigen Eigenschaften Ihres Browsers und Betriebssystems stützt. Dieser Abschnitt enthält Einstellungen, mit denen Sie diesen Schutz über die standardmäßige Blockierung hinaus weiter verbessern können.
 enable-firefox-fingerprint-protections = Aktiviere starken Schutz gegen Fingerabdrücke
-about-firefox-fingerprint-protection = Zum Aktivieren des Schutzes durch Firefox gehört der erzwungene Lichtmodus, das Deaktivieren einiger APIs, etc. Einige Seiten könnten defekt sein.
+about-firefox-fingerprint-protection = Die Aktivierung des Schutzes durch Firefox umfasst den erzwungenen Light-Modus, die Deaktivierung einiger APIs usw. Einige Websites funktionieren unter Umständen nicht wie erwartet.
 fingerprint-Protection = 
-    .label = Schutz gegen Fingerabdrücke
+    .label = Anti-Fingerprinting-Schutz
 html5-canvas-prompt-settings = 
     .label = Zugriffsbestätigung für HTML5-Bilddaten automatisch ausblenden
 canvas-prompt = Verhindert die Verwendung der Leinwand als Prompt für Webseiten, sofern dies nicht manuell erlaubt ist.
 disable-webgl = 
     .label = WebGL deaktivieren
 about-webgl = WebGL ist eine Javascript-API, die zum Rendern von Grafiken verwendet wird, die verwendet werden kann, um GPU zu identifizieren.
-Canvas-Blocker = Leinenblocker
-about-CB = Mit diesem Add-on werden Daten gespiegelt, die von Fingerabdrucktechniken verwendet werden.
-WebRTC-connection = WebRTC ist ein Standard, der Echtzeitanrufe bereitstellt. Wenn du diese Einstellung deaktivierst, kannst du Discord nicht verwenden usw.
+Canvas-Blocker = Canvas-Blocker
+about-CB = Dieses Add-on fälscht Daten, die von Fingerprinting-Techniken verwendet werden.
+WebRTC-connection = WebRTC ist ein Standard, der Anrufe in Echtzeit ermöglicht. Wenn Sie diese Einstellung deaktivieren, können Sie Discord usw. nicht verwenden.
 WebRTC = 
     .label = WebRTC-Verbindung aktivieren
 ################################################################### browser ###############################################################
 
-rest-mode = Nimm eine Pause...
+rest-mode = Mach eine Pause...
 rest-mode-description = Floorp ist derzeit gesperrt. Drücken Sie ENTER oder OK, um fortzufahren.
 Sidebar2 = 
     .label = Browser Manager Seitenleiste
@@ -565,26 +565,26 @@ sidebar-back-button =
 sidebar-forward-button = 
     .tooltiptext = Vorwärts
 sidebar-reload-button = 
-    .tooltiptext = Reload
+    .tooltiptext = Neu laden
 sidebar-go-index-button = 
-    .tooltiptext = Nach Hause
+    .tooltiptext = Zur Startseite
 sidebar-muteAndUnmute-button = 
-    .tooltiptext = Mute/Unmute sidebar
+    .tooltiptext = Seitenleiste stummschalten/aufheben
 sidebar2-browser-manager-sidebar = Browser-Manager
 show-browser-manager-sidebar = 
-    .tooltiptext = Show { sidebar2-browser-manager-sidebar } Sidebar
+    .tooltiptext = { sidebar2-browser-manager-sidebar } Seitenleiste anzeigen
 sidebar2-bookmark-sidebar = Lesezeichen
 show-bookmark-sidebar = 
-    .tooltiptext = Show { sidebar2-bookmark-sidebar } Sidebar
+    .tooltiptext = { sidebar2-bookmark-sidebar } Seitenleiste anzeigen
 sidebar2-history-sidebar = Verlauf
 show-history-sidebar = 
-    .tooltiptext = Show { sidebar2-history-sidebar } Sidebar
+    .tooltiptext = { sidebar2-history-sidebar } Seitenleiste anzeigen
 sidebar2-download-sidebar = Downloads
 show-download-sidebar = 
-    .tooltiptext = Show { sidebar2-download-sidebar } Sidebar
+    .tooltiptext = { sidebar2-download-sidebar } Seitenleiste anzeigen
 sidebar2-notes-sidebar = Notizen
 show-notes-sidebar = 
-    .tooltiptext = Show { sidebar2-notes-sidebar } Sidebar
+    .tooltiptext = { sidebar2-notes-sidebar } Seitenleiste anzeigen
 sidebar-add-button = 
     .tooltiptext = { bsb-add }
 sidebar-addons-button = 
@@ -623,16 +623,16 @@ open-css-folder =
     .label = CSS-Ordner öffnen
     .accesskey = O
 edit-userChromeCss-editor = 
-    .label = BenutzerChrome.css-Datei bearbeiten
+    .label = userChrome.css Datei bearbeiten
 edit-userContentCss-editor = 
-    .label = Datei userContent.css bearbeiten
-not-found-editor-path = Konnte keinen CSS-Datei-Editor finden
-set-pref-description = Geben Sie den Datei-Speicherort des CSS-Datei-Editors ein, den Sie verwenden möchten:
-rebuild-complete = Der Wiederaufbau wurde abgeschlossen.
+    .label = userContent.css bearbeiten
+not-found-editor-path = CSS-Datei-Editor konnte nicht gefunden werden
+set-pref-description = Geben Sie den Speicherort des CSS-Dateieditors ein, den Sie verwenden möchten:
+rebuild-complete = Wiederherstellung wurde abgeschlossen.
 please-enter-filename = Bitte geben Sie einen Dateinamen ein.
 ################################################################### Undo-Closed-Tab ###############################################################
 
-undo-closed-tab = Geschlossener Tab erneut öffnen
+undo-closed-tab = Geschlossenen Tab erneut öffnen
 ################################################################### about:addons ###############################################################
 
 # Dual Theme
@@ -646,7 +646,7 @@ status-bar =
     .accesskey = S
 ##################################################################### Gesturefy ###############################################################
 
-gf-floorp-open-tree-style-tab-name = [Floorp] Baum Stil Tab Panel öffnen
+gf-floorp-open-tree-style-tab-name = [Floorp] Tree-Style Tab Panel öffnen
 gf-floorp-open-tree-style-tab-description = Tab Panel für die Seitenleiste öffnen
 gf-floorp-open-bookmarks-sidebar-name = [Floorp] Lesezeichenfenster der Seitenleiste öffnen
 gf-floorp-open-bookmarks-sidebar-description = Lesezeichen-Panel der Seitenleiste öffnen
