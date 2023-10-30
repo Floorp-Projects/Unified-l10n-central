@@ -75,7 +75,7 @@ native-vertical-tab-show-right =
 hover-vertical-tab = 
     .label = Collapse Vertical Tab Bar
 TST = Tree Style Tab
-about-TST = Tree Style Tab is een populaire add-on waarmee tabbladen in een boomstructuur getoond kunnen worden. Floorp 10 heeft een ingebouwde deze add-on. Installeer de add-on om Floorp 10's ingebouwde Tree Style tab te herstellen.
+about-TST = Tree Style Tab is a popular add-on that allows you to display tabs in a tree structure. { -brand-short-name } 10 has a built-in this add-on. Please install the add-on restore { -brand-short-name } 10's built-in Tree Style Tab.
 treestyletab-Settings = 
     .label = Tabblad Boomstijl inklappen
 sidebar-reverse-position-toolbar = Toon sidebars aan de andere kant
@@ -128,7 +128,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Microsoft Fluent UI
 floorp-fluerialUI = 
-    .label = Floorp Fluerial UI
+    .label = { -brand-short-name } Fluerial UI
 floorp-gnomeUI = 
     .label = GNOME Thema
 
@@ -352,12 +352,12 @@ floorp-notes = { -brand-short-name } notities
 restore-from-backup = Herstel notities uit back-up
 enable-notes-sync = 
     .label = { -brand-short-name } Notities Synchronisatie inschakelen
-about-notes-backup-tips = Floorp Notes gebruikt Firefox Sync om uw notities met andere apparaten te synchroniseren. Als je je notities verliest, kun je ze herstellen vanuit een back-up. Een back-up wordt gemaakt wanneer je { -brand-short-name } start.
+about-notes-backup-tips = { -brand-short-name } Notes uses Firefox Sync to sync your notes with other devices. If you lose your notes, you can restore them from a backup. A backup is created when you start { -brand-short-name }.
 notes-sync-description = Dit kan het probleem oplossen van het verliezen van inhoud door het overschrijven van notities tijdens het synchroniseren.
 backuped-time = Back-up gemaakt op
 notes-backup-option = Back-up Instellingen
 backup-option-button = Back-up instellingen...
-restore-from-backup-prompt-title = Floorp Notes herstellen service
+restore-from-backup-prompt-title = { -brand-short-name } Notes Restore Service
 restore-from-this-backup = Herstel notities terug naar de status in deze back-up?
 restore-button = Herstellen
 
@@ -376,7 +376,7 @@ apply-userjs-button = Toepassen
 
 ## userjs Options
 
-default-userjs-label = Floorp standaard
+default-userjs-label = { -brand-short-name } Default
 about-default-userjs = Telemetry uitgeschakeld. Goed gebalanceerde { -brand-short-name } met verschillende aanpassingen ingeschakeld.
 Securefox-label = Yokoffing Securevox
 about-Securefox = HTTPS-by-Default. Totale Cookie Bescherming met isolatie van de website. Verbeterde status en netwerkpartitie. Diverse andere verbeteringen.
@@ -393,7 +393,7 @@ about-Smoothfox = Verkrijg Edge-like glad scrollen op je favoriete browser - of 
 
 floorp-workspaces-title = { -brand-short-name } Werkruimtes
 workspaces-backup-discription = Back-up en herstel uw Werkruimtes
-workspaces-restore-service-title = Floorp werkruimtes back-upservice
+workspaces-restore-service-title = { -brand-short-name } Workspaces Backup Service
 workspaces-restore-warning = Waarschuwing! Het uitvoeren van deze actie zal ervoor zorgen dat de browser tijdelijk vastloopt en automatisch herstart.
 floorp-workspace-settings-button = Werkruimte instellingen...
 change-to-close-workspace-popup-option = 
@@ -405,7 +405,7 @@ workspaces-reset-label =
     .label = Werkruimtes resetten
 workspaces-reset-description = Als een back-up niet werkt en de werkruimte niet begint, reset dan de werkruimte.
 workspaces-reset-button = Werkruimtes resetten
-workspaces-reset-service-title = Floorp werkruimtes
+workspaces-reset-service-title = { -brand-short-name } Workspaces
 workspaces-reset-warning = Waarschuwing! Het uitvoeren van deze actie zal al uw Werkruimtes verwijderen en de browser herstarten.
 manage-workspace-on-bms-option = 
     .label = Werkruimte op de browser manager zijbalk beheren
@@ -463,7 +463,7 @@ workspace-icon-chill =
     .label = Privé
 # Custom Keyboard Shortcuts
 floorp-CSK-title = Aangepaste sneltoetsen
-floorp-CSK-description = Verander { -brand-short-name }sneltoetsen. Floorp biedt meer dan 80 aanpasbare sneltoetsen - herstart { -brand-short-name } om deze instellingen toe te passen. Sneltoetsen dupliceren zal niet werken.
+floorp-CSK-description = Customize { -brand-short-name }'s keyboard shortcuts. { -brand-short-name } provides more than 80 customizable keyboard shortcuts - restart { -brand-short-name } to apply these settings. Duplicate keyboard shortcuts will not work.
 disable-fx-actions = 
     .label = Mozilla Firefox's sneltoetsen uitschakelen
 customize-Action = 
@@ -478,7 +478,7 @@ CSK-manage-title = Sneltoetsen beheren
 CSK-remove-shortcutkey = Aangepaste sneltoets verwijderen?
 CSK-remove-shortcutkey-description = Weet je zeker dat je deze sneltoets wilt verwijderen?
 CSK-restore-default = Standaardinstellingen herstellen?
-CSK-restore-default-description = Herstel de standaard sneltoetsen van Floorps? Je huidige snelkoppelingen zullen verloren gaan.
+CSK-restore-default-description = Restore { -brand-short-name }'s default keyboard shortcuts? Your current shortcuts will be lost.
 CSK-reboot-browser-label = Herstart { -brand-short-name } om deze instellingen toe te passen
 CSK-reboot-browser-button = Herstart { -brand-short-name }
 # Exist shortcut key: "S", "shift"
@@ -546,7 +546,7 @@ WebRTC =
 ################################################################### browser ###############################################################
 
 rest-mode = Een pauze nemen...
-rest-mode-description = Floorp is momenteel opgeschort. Druk op ENTER of OK om door te gaan.
+rest-mode-description = { -brand-short-name } is currently suspended. Press ENTER or OK to continue.
 Sidebar2 = 
     .label = Browser Manager Sidebar
     .tooltiptext = Zijbalk zichtbaarheid wijzigen
@@ -646,44 +646,44 @@ status-bar =
     .accesskey = S
 ##################################################################### Gesturefy ###############################################################
 
-gf-floorp-open-tree-style-tab-name = [Floorp] Open Tabblad Boomstijl Paneel
+gf-floorp-open-tree-style-tab-name = [{ -brand-short-name }] Open Tree Style Tab Panel
 gf-floorp-open-tree-style-tab-description = Open Structuurstijl Tab Panel van Sidebar
-gf-floorp-open-bookmarks-sidebar-name = [Floorp] Open Bladwijzerpaneel van Zijbalk
+gf-floorp-open-bookmarks-sidebar-name = [{ -brand-short-name }] Open Bookmarks Panel of Sidebar
 gf-floorp-open-bookmarks-sidebar-description = Open bladwijzerpaneel van sidebar
-gf-floorp-open-history-sidebar-name = [Floorp] Open het geschiedenisvenster van de zijbalk
+gf-floorp-open-history-sidebar-name = [{ -brand-short-name }] Open History Panel of Sidebar
 gf-floorp-open-history-sidebar-description = Open Geschiedenis Paneel van Zijbalk
-gf-floorp-open-synctabs-sidebar-name = [Floorp] Open gesynchroniseerde tabbladen paneel van sidebar
+gf-floorp-open-synctabs-sidebar-name = [{ -brand-short-name }] Open Synced Tabs Panel of Sidebar
 gf-floorp-open-synctabs-sidebar-description = Open gesynchroniseerde tabbladen paneel van zijbalk
-gf-floorp-close-sidebar-name = [Floorp] sluit sidebar
+gf-floorp-close-sidebar-name = [{ -brand-short-name }] Close Sidebar
 gf-floorp-close-sidebar-description = sidebar sluiten
-gf-floorp-open-browser-manager-sidebar-name = [Floorp] Open BMS
+gf-floorp-open-browser-manager-sidebar-name = [{ -brand-short-name }] Open BMS
 gf-floorp-open-browser-manager-sidebar-description = Open browser Manager Sidebar, als het webpaneel van Browser Manager Sidebar is geladen
-gf-floorp-close-browser-manager-sidebar-name = [Floorp] Sluiten BMS
+gf-floorp-close-browser-manager-sidebar-name = [{ -brand-short-name }] Close BMS
 gf-floorp-close-browser-manager-sidebar-description = Sluit Browser Manager Sidebar
-gf-floorp-show-browser-manager-sidebar-name = [Floorp] Wissel BMS
+gf-floorp-show-browser-manager-sidebar-name = [{ -brand-short-name }] Toggle BMS
 gf-floorp-show-browser-manager-sidebar-description = Wissel Browser Manager Sidebar
-gf-floorp-hide-statusbar-name = [Floorp] Verberg Statusbalk
+gf-floorp-hide-statusbar-name = [{ -brand-short-name }] Hide Status Bar
 gf-floorp-hide-statusbar-description = Verberg statusbalk
-gf-floorp-show-statusbar-name = [Floorp] Toggle Status Balk
+gf-floorp-show-statusbar-name = [{ -brand-short-name }] Toggle Status Bar
 gf-floorp-show-statusbar-description = Toon of verberg de statusbalk
-gf-floorp-open-extension-sidebar-name = [Floorp] Open de geselecteerde add-on van de zijbalk
+gf-floorp-open-extension-sidebar-name = [{ -brand-short-name }] Open selected add-on of Sidebar
 gf-floorp-open-extension-sidebar-description = Open de geselecteerde add-on van de zijbalk
 gf-floorp-open-extension-sidebar-settings-addons-id = Add-on van zijbalk
 gf-floorp-open-extension-sidebar-settings-addons-id-description = De uitbreiding van de add-on open van de zijbalk
 gf-floorp-open-extension-sidebar-settings-list-default = Selecteer een add-on
 gf-floorp-open-extension-sidebar-settings-list-unknwon = Onbekende add-on
-##################################################################### Floorp System Update Portable Version ###############################################################
+##################################################################### { -brand-short-name } System Update Portable Version ###############################################################
 
 update-portable-notification-found-title = Updates gevonden!
 update-portable-notification-found-message = Updates downloaden...
 update-portable-notification-ready-title = Klaar om te updaten!
 update-portable-notification-ready-message = { -brand-short-name } will be updated on the next launch.
 update-portable-notification-success-title = Update geslaagd!
-update-portable-notification-success-message = Update gelukt! Hopelijk geniet u van de nieuwe versie van Floorp!
+update-portable-notification-success-message = Update succeeded! Hope you enjoy the new version of { -brand-short-name }!
 update-portable-notification-failed-title = Update mislukt.
 update-portable-notification-failed-redirector-message = Update mislukt. Herstarten van uw browser kan dit probleem oplossen.
 update-portable-notification-failed-prepare-message = Update voorbereiden mislukt.
-##################################################################### Floorp Portable Preferences ###############################################################
+##################################################################### { -brand-short-name } Portable Preferences ###############################################################
 
 floorp-portable-update-application-allow = { -brand-short-name } Draagbare update
 floorp-update-application-auto-enabled-option = 
@@ -699,7 +699,7 @@ open-link-in-external-tab-context-menu = Openen in externe browser
 open-link-in-external-tab-dialog-title-error = Er is een fout opgetreden:
 open-link-in-external-tab-dialog-message-default-browser-not-found = Standaard browser is niet gevonden of niet geconfigureerd.
 open-link-in-external-tab-dialog-message-selected-browser-not-found = De geselecteerde browser bestaat niet.
-######################################################################### Floorp Notes ###############################################################
+######################################################################### { -brand-short-name } Notes ###############################################################
 
 new-memo = Nieuw
 memo-title-input-placeholder = Schrijf hier een titel
@@ -707,16 +707,15 @@ memo-input-placeholder = Schrijf of plak hier een memo
 delete-memo = Verwijderen
 save-memo = Opslaan
 memo-welcome-title = Welkom!
-memo-first-tip = Welkom bij de Floorp notities! Hier zijn enkele instructies over hoe je het gebruikt!
-memo-second-tip = Floorp Notes is een notitieblok waarmee u meerdere notities kunt opslaan die synchroniseren op verschillende apparaten. Om synchronisatie in te schakelen moet u zich aanmelden bij Floorp met uw Firefox-account.
-memo-third-tip = Floorp Notes worden opgeslagen in uw Floorp instellingen en gesynchroniseerd tussen apparaten met behulp van Firefox Sync. Firefox Sync versleutelt de inhoud van de synchronisatie met het wachtwoord van uw Firefox-account, dus niemand behalve u kent de inhoud.
+memo-first-tip = Welcome to { -brand-short-name } Notes! Here are some instructions on how to use it!
+memo-second-tip = { -brand-short-name } Notes is a notepad that lets you store multiple notes that sync across devices. To enable synchronization, you need to sign in to { -brand-short-name } with your Firefox account.
+memo-third-tip = { -brand-short-name } Notes will be saved in your { -brand-short-name } settings and synchronized across devices using Firefox Sync. Firefox Sync encrypts the contents of the sync with your Firefox account password, so no one but you knows its contents.
 memo-import-data-tip = Firefox Sync is geen back-upservice. Wij raden u aan back-ups te maken.
 memo-new-title = Nieuwe notitie
 chage-view-mode = Toggle View/Edit Mode
 readonly-mode = Offline (alleen lezen)
 ######################################################################### Default bookmarks ###############################################################
 default-bookmark-ablaze-support = Ablaze ondersteuning
-default-bookmark-notes = Floorp notities
 ######################################################################### Like Chrome Download mgr ###############################################################
 
 floorp-delete-all-downloads = 
@@ -729,7 +728,7 @@ floorp-show-all-downloads =
     .tooltiptext = Alle downloads weergeven
 ######################################################################### workspace ###############################################################
 
-workspace-prompt-title = Floorp werkruimte
+workspace-prompt-title = { -brand-short-name } Workspace
 please-enter-workspace-name = Voer de nieuwe naam van de werkruimte in.
 please-enter-workspace-name-2 = De naam van de werkruimte mag geen symbolen en spaties bevatten.
 workspace-error = Er is een fout opgetreden:
@@ -775,7 +774,7 @@ welcome-discribe-browser-design = U kunt kiezen uit een van de prachtige { -bran
 welcome-design-lepton-name = Lepton Origineel Ontwerp
 welcome-design-photon-name = Lepton Photon Ontwerp
 welcome-design-ProtonFix-name = Lepton ProtonFix Design
-welcome-design-floorp-fluerial-name = Vloer Fluerial Ontwerp
+welcome-design-floorp-fluerial-name = { -brand-short-name } Fluerial Design
 welcome-design-firefox-proton-name = Firefox Proton Ontwerp
 welcome-import-data = Importeer uw browsergegevens
 welcome-import-data-description = Snel ingesteld! Importeer uw bladwijzers, wachtwoorden en meer van uw oude browser. Firefox gebruikers kunnen gegevens importeren van Firefox Sync.
