@@ -4,7 +4,7 @@
 
 ###################################################################### about:Dialog #################################################################################
 
-about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> は日本で開発される独立した１つのウェブブラウザーです。 Firefox ベースで <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label> の下でウェブをより良くするために作られています。 参加・応援をしたいですか？ <label data-l10n-name="helpus-donateLink">寄付</label> をご検討ください。
+about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> は、日本で開発される国産ブラウザーのひとつです。ウェブをより良くするために、Firefox をベースとして <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label> の下で開発が進められています。支援したいですか？<label data-l10n-name="helpus-donateLink">寄付を検討してください！</label>
 icon-creator = アイコン作成者：<label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> と <label data-l10n-name="brand-logo-twitter">@mwxdxx</label>
 contributors = <label data-l10n-name="about-contributor">貢献者・開発者</label> のリストもご確認ください
 #################################################################### about:preferences ####################################################################
@@ -75,7 +75,7 @@ native-vertical-tab-show-right =
 hover-vertical-tab = 
     .label = 垂直タブバーを折りたたむ
 TST = ツリー型タブ
-about-TST = Tree Style Tab is a popular add-on that allows you to display tabs in a tree structure. { -brand-short-name } 10 has a built-in this add-on. Please install the add-on restore { -brand-short-name } 10's built-in Tree Style Tab.
+about-TST = ツリー型タブは { -brand-short-name } 10 で内蔵されていた垂直タブを作成するアドオンです。このアドオンをインストールすると、固有の設定が使用でき、 { -brand-short-name } 10 と同じ使用感に戻せます。
 treestyletab-Settings = 
     .label = ツリー型タブを折りたたむ
 sidebar-reverse-position-toolbar = 反対側にサイドバーを表示
@@ -352,7 +352,7 @@ floorp-notes = { -brand-short-name } Notes
 restore-from-backup = Notes をバックアップから復元する
 enable-notes-sync = 
     .label = { -brand-short-name } Notes の同期を有効にする
-about-notes-backup-tips = { -brand-short-name } Notes uses Firefox Sync to sync your notes with other devices. If you lose your notes, you can restore them from a backup. A backup is created when you start { -brand-short-name }.
+about-notes-backup-tips = { -brand-short-name } Notes は、Firefox Sync を使用して、他のデバイスとメモを同期します。メモを紛失した場合は、バックアップから復元できます。バックアップは { -brand-short-name } を起動すると作成されます。
 notes-sync-description = これにより、同期時にメモが上書きされ、コンテンツが失われる問題を解決することができます。
 backuped-time = バックアップ日時
 notes-backup-option = バックアップ設定
