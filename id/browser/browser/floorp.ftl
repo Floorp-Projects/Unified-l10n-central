@@ -75,7 +75,7 @@ native-vertical-tab-show-right =
 hover-vertical-tab = 
     .label = Collapse Vertical Tab Bar
 TST = Tab Gaya Pohon
-about-TST = Tree Style Tab adalah pengaya populer yang memungkinkan Anda menampilkan tab dalam struktur pohon. Floorp 10 memiliki pengaya bawaan ini. Silakan instal pengaya untuk mengembalikan Tab Gaya Pohon bawaan Floorp 10.
+about-TST = Tree Style Tab is a popular add-on that allows you to display tabs in a tree structure. { -brand-short-name } 10 has a built-in this add-on. Please install the add-on restore { -brand-short-name } 10's built-in Tree Style Tab.
 treestyletab-Settings = 
     .label = Tab Gaya Pohon Runtuh
 sidebar-reverse-position-toolbar = Tampilkan Bilah Samping di sisi lain
@@ -128,7 +128,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Microsoft Fluent UI
 floorp-fluerialUI = 
-    .label = Floorp Fluerial UI
+    .label = { -brand-short-name } Fluerial UI
 floorp-gnomeUI = 
     .label = Tema GNOME
 
@@ -352,12 +352,12 @@ floorp-notes = { -brand-short-name } Catatan
 restore-from-backup = Memulihkan Catatan dari cadangan
 enable-notes-sync = 
     .label = Aktifkan { -brand-short-name } Sinkronisasi Catatan
-about-notes-backup-tips = Floorp Notes menggunakan Firefox Sync untuk menyinkronkan catatan Anda dengan perangkat lain. Jika Anda kehilangan catatan, Anda dapat memulihkannya dari cadangan. Cadangan dibuat saat Anda membuka { -brand-short-name }.
+about-notes-backup-tips = { -brand-short-name } Notes uses Firefox Sync to sync your notes with other devices. If you lose your notes, you can restore them from a backup. A backup is created when you start { -brand-short-name }.
 notes-sync-description = Hal ini dapat mengatasi masalah kehilangan konten akibat menimpa catatan selama sinkronisasi.
 backuped-time = Didukung di
 notes-backup-option = Pengaturan Pencadangan
 backup-option-button = Pengaturan Pencadangan...
-restore-from-backup-prompt-title = Layanan Pemulihan Catatan Floorp
+restore-from-backup-prompt-title = { -brand-short-name } Notes Restore Service
 restore-from-this-backup = Mengembalikan Catatan kembali ke kondisi awal saat pencadangan ini?
 restore-button = Mengembalikan
 
@@ -376,7 +376,7 @@ apply-userjs-button = Menerapkan
 
 ## userjs Options
 
-default-userjs-label = Floorp Default
+default-userjs-label = { -brand-short-name } Default
 about-default-userjs = Telemetri dinonaktifkan. Seimbang { -brand-short-name } dengan berbagai penyesuaian yang diaktifkan.
 Securefox-label = Yokoffing Securefox
 about-Securefox = HTTPS secara default. Perlindungan Cookie Total dengan isolasi situs. Pemisahan status dan jaringan yang disempurnakan. Berbagai peningkatan lainnya.
@@ -393,7 +393,7 @@ about-Smoothfox = Dapatkan pengguliran yang mulus seperti Edge di browser favori
 
 floorp-workspaces-title = { -brand-short-name } Ruang kerja
 workspaces-backup-discription = Mencadangkan dan memulihkan Ruang Kerja Anda
-workspaces-restore-service-title = Layanan Pencadangan Ruang Kerja Floorp
+workspaces-restore-service-title = { -brand-short-name } Workspaces Backup Service
 workspaces-restore-warning = Peringatan! Menjalankan operasi ini akan menyebabkan browser berhenti sementara dan memulai ulang secara otomatis.
 floorp-workspace-settings-button = Pengaturan Ruang Kerja...
 change-to-close-workspace-popup-option = 
@@ -405,7 +405,7 @@ workspaces-reset-label =
     .label = Atur Ulang Ruang Kerja
 workspaces-reset-description = Jika pencadangan tidak berhasil dan Ruang Kerja tidak dimulai, atur ulang Ruang Kerja.
 workspaces-reset-button = Atur Ulang Ruang Kerja
-workspaces-reset-service-title = Ruang Kerja Floorp
+workspaces-reset-service-title = { -brand-short-name } Workspaces
 workspaces-reset-warning = Peringatan! Menjalankan operasi ini akan menghapus semua Ruang Kerja dan memulai ulang browser.
 manage-workspace-on-bms-option = 
     .label = Mengelola Ruang Kerja di Bilah Sisi Manajer Browser
@@ -463,7 +463,7 @@ workspace-icon-chill =
     .label = Pribadi
 # Custom Keyboard Shortcuts
 floorp-CSK-title = Pintasan keyboard khusus
-floorp-CSK-description = Sesuaikan pintasan keyboard { -brand-short-name }. Floorp menyediakan lebih dari 80 pintasan keyboard yang dapat disesuaikan - buka kembali { -brand-short-name } untuk menerapkan pengaturan ini. Pintasan keyboard duplikat tidak akan berfungsi.
+floorp-CSK-description = Customize { -brand-short-name }'s keyboard shortcuts. { -brand-short-name } provides more than 80 customizable keyboard shortcuts - restart { -brand-short-name } to apply these settings. Duplicate keyboard shortcuts will not work.
 disable-fx-actions = 
     .label = Menonaktifkan pintasan keyboard Mozilla Firefox
 customize-Action = 
@@ -478,7 +478,7 @@ CSK-manage-title = Mengelola pintasan keyboard
 CSK-remove-shortcutkey = Menghapus pintasan keyboard khusus?
 CSK-remove-shortcutkey-description = Apakah Anda yakin ingin menghapus pintasan keyboard ini?
 CSK-restore-default = Kembalikan Default?
-CSK-restore-default-description = Mengembalikan pintasan keyboard default Floorp? Pintasan Anda saat ini akan hilang.
+CSK-restore-default-description = Restore { -brand-short-name }'s default keyboard shortcuts? Your current shortcuts will be lost.
 CSK-reboot-browser-label = Mulai ulang { -brand-short-name } untuk menerapkan pengaturan ini
 CSK-reboot-browser-button = Mulai ulang { -brand-short-name }
 # Exist shortcut key: "S", "shift"
@@ -546,7 +546,7 @@ WebRTC =
 ################################################################### browser ###############################################################
 
 rest-mode = Beristirahat...
-rest-mode-description = Floorp saat ini ditangguhkan. Tekan ENTER atau OK untuk melanjutkan.
+rest-mode-description = { -brand-short-name } is currently suspended. Press ENTER or OK to continue.
 Sidebar2 = 
     .label = Bilah Samping Pengelola Peramban
     .tooltiptext = Mengubah visibilitas bilah sisi
@@ -646,44 +646,44 @@ status-bar =
     .accesskey = S
 ##################################################################### Gesturefy ###############################################################
 
-gf-floorp-open-tree-style-tab-name = [Floorp] Buka Panel Tab Gaya Pohon
+gf-floorp-open-tree-style-tab-name = [{ -brand-short-name }] Open Tree Style Tab Panel
 gf-floorp-open-tree-style-tab-description = Panel Tab Gaya Pohon Terbuka pada Bilah Samping
-gf-floorp-open-bookmarks-sidebar-name = [Floorp] Buka Panel Penanda pada Bilah Samping
+gf-floorp-open-bookmarks-sidebar-name = [{ -brand-short-name }] Open Bookmarks Panel of Sidebar
 gf-floorp-open-bookmarks-sidebar-description = Buka Panel Penanda pada Bilah Samping
-gf-floorp-open-history-sidebar-name = [Floorp] Buka Panel Riwayat pada Bilah Samping
+gf-floorp-open-history-sidebar-name = [{ -brand-short-name }] Open History Panel of Sidebar
 gf-floorp-open-history-sidebar-description = Buka Panel Riwayat pada Bilah Samping
-gf-floorp-open-synctabs-sidebar-name = [Floorp] Buka Panel Tab yang Disinkronkan pada Bilah Samping
+gf-floorp-open-synctabs-sidebar-name = [{ -brand-short-name }] Open Synced Tabs Panel of Sidebar
 gf-floorp-open-synctabs-sidebar-description = Buka Panel Tab yang Disinkronkan pada Bilah Samping
-gf-floorp-close-sidebar-name = [Floorp] Tutup Bilah Sisi
+gf-floorp-close-sidebar-name = [{ -brand-short-name }] Close Sidebar
 gf-floorp-close-sidebar-description = Tutup Bilah Sisi
-gf-floorp-open-browser-manager-sidebar-name = [Floorp] Buka BMS
+gf-floorp-open-browser-manager-sidebar-name = [{ -brand-short-name }] Open BMS
 gf-floorp-open-browser-manager-sidebar-description = Buka Bilah Sisi Pengelola Peramban, jika panel web Bilah Sisi Pengelola Peramban dimuat
-gf-floorp-close-browser-manager-sidebar-name = [Floorp] Tutup BMS
+gf-floorp-close-browser-manager-sidebar-name = [{ -brand-short-name }] Close BMS
 gf-floorp-close-browser-manager-sidebar-description = Menutup Bilah Sisi Pengelola Peramban
-gf-floorp-show-browser-manager-sidebar-name = [Floorp] Alihkan BMS
+gf-floorp-show-browser-manager-sidebar-name = [{ -brand-short-name }] Toggle BMS
 gf-floorp-show-browser-manager-sidebar-description = Beralih ke Bilah Sisi Pengelola Peramban
-gf-floorp-hide-statusbar-name = [Floorp] Sembunyikan Bilah Status
+gf-floorp-hide-statusbar-name = [{ -brand-short-name }] Hide Status Bar
 gf-floorp-hide-statusbar-description = Sembunyikan Bilah Status
-gf-floorp-show-statusbar-name = [Floorp] Alihkan Bilah Status
+gf-floorp-show-statusbar-name = [{ -brand-short-name }] Toggle Status Bar
 gf-floorp-show-statusbar-description = Menampilkan atau Menyembunyikan Bilah Status
-gf-floorp-open-extension-sidebar-name = [Floorp] Buka pengaya yang dipilih dari Bilah Samping
+gf-floorp-open-extension-sidebar-name = [{ -brand-short-name }] Open selected add-on of Sidebar
 gf-floorp-open-extension-sidebar-description = Buka pengaya yang dipilih dari Bilah Samping
 gf-floorp-open-extension-sidebar-settings-addons-id = Penambahan Bilah Samping
 gf-floorp-open-extension-sidebar-settings-addons-id-description = Perpanjangan dari add-on yang terbuka pada bilah sisi
 gf-floorp-open-extension-sidebar-settings-list-default = Silakan pilih add-on
 gf-floorp-open-extension-sidebar-settings-list-unknwon = Pengaya yang tidak dikenal
-##################################################################### Floorp System Update Portable Version ###############################################################
+##################################################################### { -brand-short-name } System Update Portable Version ###############################################################
 
 update-portable-notification-found-title = Pembaruan ditemukan!
 update-portable-notification-found-message = Mengunduh pembaruan...
 update-portable-notification-ready-title = Siap untuk memperbarui!
 update-portable-notification-ready-message = { -brand-short-name } will be updated on the next launch.
 update-portable-notification-success-title = Pembaruan berhasil!
-update-portable-notification-success-message = Pembaruan berhasil! Semoga Anda menikmati versi baru Floorp!
+update-portable-notification-success-message = Update succeeded! Hope you enjoy the new version of { -brand-short-name }!
 update-portable-notification-failed-title = Pembaruan gagal.
 update-portable-notification-failed-redirector-message = Pembaruan gagal. Memulai ulang browser Anda dapat mengatasi masalah ini.
 update-portable-notification-failed-prepare-message = Gagal menyiapkan pembaruan.
-##################################################################### Floorp Portable Preferences ###############################################################
+##################################################################### { -brand-short-name } Portable Preferences ###############################################################
 
 floorp-portable-update-application-allow = { -brand-short-name } Pembaruan Portabel
 floorp-update-application-auto-enabled-option = 
@@ -699,7 +699,7 @@ open-link-in-external-tab-context-menu = Buka di browser eksternal
 open-link-in-external-tab-dialog-title-error = Terjadi kesalahan:
 open-link-in-external-tab-dialog-message-default-browser-not-found = Browser default tidak ditemukan atau tidak dikonfigurasi.
 open-link-in-external-tab-dialog-message-selected-browser-not-found = Browser yang dipilih tidak ada.
-######################################################################### Floorp Notes ###############################################################
+######################################################################### { -brand-short-name } Notes ###############################################################
 
 new-memo = Baru
 memo-title-input-placeholder = Tulis judul di sini
@@ -707,16 +707,15 @@ memo-input-placeholder = Tulis atau tempel memo di sini
 delete-memo = Menghapus
 save-memo = Simpan
 memo-welcome-title = Selamat datang!
-memo-first-tip = Selamat datang di Floorp Notes! Berikut adalah beberapa petunjuk tentang cara menggunakannya!
-memo-second-tip = Floorp Notes adalah notepad yang memungkinkan Anda menyimpan beberapa catatan yang disinkronkan di seluruh perangkat. Untuk mengaktifkan sinkronisasi, Anda harus masuk ke Floorp dengan akun Firefox Anda.
-memo-third-tip = Catatan Floorp akan disimpan di pengaturan Floorp anda dan disinkronkan di seluruh perangkat menggunakan Sinkronisasi Firefox. Sinkronisasi Firefox mengenkripsi isi sinkronisasi dengan kata sandi akun Firefox anda, sehingga tidak ada orang lain yang mengetahui isinya.
+memo-first-tip = Welcome to { -brand-short-name } Notes! Here are some instructions on how to use it!
+memo-second-tip = { -brand-short-name } Notes is a notepad that lets you store multiple notes that sync across devices. To enable synchronization, you need to sign in to { -brand-short-name } with your Firefox account.
+memo-third-tip = { -brand-short-name } Notes will be saved in your { -brand-short-name } settings and synchronized across devices using Firefox Sync. Firefox Sync encrypts the contents of the sync with your Firefox account password, so no one but you knows its contents.
 memo-import-data-tip = Sinkronisasi Firefox bukan merupakan layanan pencadangan. Kami menyarankan anda untuk membuat cadangan.
 memo-new-title = Catatan Baru
 chage-view-mode = Alihkan Mode Tampilan/Edit
 readonly-mode = Offline (Hanya-baca)
 ######################################################################### Default bookmarks ###############################################################
 default-bookmark-ablaze-support = Dukungan Ablaze
-default-bookmark-notes = Catatan Floorp
 ######################################################################### Like Chrome Download mgr ###############################################################
 
 floorp-delete-all-downloads = 
@@ -729,7 +728,7 @@ floorp-show-all-downloads =
     .tooltiptext = Tampilkan semua unduhan
 ######################################################################### workspace ###############################################################
 
-workspace-prompt-title = Ruang Kerja Floorp
+workspace-prompt-title = { -brand-short-name } Workspace
 please-enter-workspace-name = Masukkan nama baru Ruang Kerja.
 please-enter-workspace-name-2 = Nama Ruang Kerja tidak boleh mengandung simbol dan spasi.
 workspace-error = Terjadi kesalahan:
@@ -775,7 +774,7 @@ welcome-discribe-browser-design = Anda dapat memilih salah satu dari desain piha
 welcome-design-lepton-name = Desain Asli Lepton
 welcome-design-photon-name = Desain Foton Lepton
 welcome-design-ProtonFix-name = Desain Lepton ProtonFix
-welcome-design-floorp-fluerial-name = Desain Fluerial Floorp
+welcome-design-floorp-fluerial-name = { -brand-short-name } Fluerial Design
 welcome-design-firefox-proton-name = Desain Firefox Proton
 welcome-import-data = Impor Data Browser Anda
 welcome-import-data-description = Penyiapan yang cepat! Impor bookmark, kata sandi, dan lainnya dari peramban lama Anda. Pengguna Firefox dapat mengimpor data dari Firefox Sync.
