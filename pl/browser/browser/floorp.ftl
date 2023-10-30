@@ -75,7 +75,7 @@ native-vertical-tab-show-right =
 hover-vertical-tab = 
     .label = Collapse Vertical Tab Bar
 TST = Karta stylu drzewa
-about-TST = Zakładka Styl Drzewa jest popularnym dodatkiem, który umożliwia wyświetlanie kart w strukturze drzewa. Floorp 10 ma wbudowany dodatek. Zainstaluj dodatek przywracający wbudowaną zakładkę Tree Style
+about-TST = Tree Style Tab is a popular add-on that allows you to display tabs in a tree structure. { -brand-short-name } 10 has a built-in this add-on. Please install the add-on restore { -brand-short-name } 10's built-in Tree Style Tab.
 treestyletab-Settings = 
     .label = Zwiń kartę stylu drzewa
 sidebar-reverse-position-toolbar = Pokaż paski boczne po drugiej stronie
@@ -128,7 +128,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Microsoft Fluent UI
 floorp-fluerialUI = 
-    .label = Fluerialny interfejs podłogowy
+    .label = { -brand-short-name } Fluerial UI
 floorp-gnomeUI = 
     .label = Motyw GNOME
 
@@ -352,12 +352,12 @@ floorp-notes = Notatki { -brand-short-name }
 restore-from-backup = Przywróć notatki z kopii zapasowej
 enable-notes-sync = 
     .label = Włącz synchronizację notatek { -brand-short-name }
-about-notes-backup-tips = Notatki podłogowe wykorzystują Firefox Sync do synchronizacji notatek z innymi urządzeniami. Jeśli stracisz notatki, możesz je przywrócić z kopii zapasowej. Kopia zapasowa jest tworzona po uruchomieniu { -brand-short-name }.
+about-notes-backup-tips = { -brand-short-name } Notes uses Firefox Sync to sync your notes with other devices. If you lose your notes, you can restore them from a backup. A backup is created when you start { -brand-short-name }.
 notes-sync-description = To może rozwiązać problem utraty treści z powodu nadpisywania notatek podczas synchronizacji.
 backuped-time = Kopia zapasowa
 notes-backup-option = Ustawienia kopii zapasowej
 backup-option-button = Ustawienia kopii zapasowej...
-restore-from-backup-prompt-title = Usługa przywracania notatek podłogowych
+restore-from-backup-prompt-title = { -brand-short-name } Notes Restore Service
 restore-from-this-backup = Przywrócić notatki do stanu, w którym były w tej kopii zapasowej?
 restore-button = Przywróć
 
@@ -376,7 +376,7 @@ apply-userjs-button = Zastosuj
 
 ## userjs Options
 
-default-userjs-label = Domyślne piętro
+default-userjs-label = { -brand-short-name } Default
 about-default-userjs = Telemetria wyłączona. Dobrze wyważone { -brand-short-name } z włączonymi różnymi dostosowaniami.
 Securefox-label = Yokoffing Securefox
 about-Securefox = HTTPS-by-Dedefault. Całkowita ochrona plików cookie z izolacją witryny. Zwiększony podział stanu i sieci. Różne inne ulepszenia.
@@ -393,7 +393,7 @@ about-Smoothfox = Zdobądź gładkie przewijanie Edge-like w swojej ulubionej pr
 
 floorp-workspaces-title = Obszary robocze { -brand-short-name }
 workspaces-backup-discription = Kopia zapasowa i przywracanie projektu
-workspaces-restore-service-title = Usługa tworzenia kopii zapasowych przestrzeni roboczych podłogi
+workspaces-restore-service-title = { -brand-short-name } Workspaces Backup Service
 workspaces-restore-warning = Ostrzeżenie! Uruchomienie tej operacji spowoduje tymczasowe zamrożenie przeglądarki i automatyczne ponowne uruchomienie.
 floorp-workspace-settings-button = Ustawienia projektu...
 change-to-close-workspace-popup-option = 
@@ -405,7 +405,7 @@ workspaces-reset-label =
     .label = Zresetuj projekty
 workspaces-reset-description = Jeśli kopia zapasowa nie działa i obszar roboczy nie zaczyna się, zresetuj obszar roboczy.
 workspaces-reset-button = Zresetuj projekty
-workspaces-reset-service-title = Przestrzenie robocze podłogi
+workspaces-reset-service-title = { -brand-short-name } Workspaces
 workspaces-reset-warning = Ostrzeżenie! Uruchamianie tej operacji spowoduje usunięcie wszystkich Twoich projektów i ponowne uruchomienie przeglądarki.
 manage-workspace-on-bms-option = 
     .label = Zarządzaj obszarem roboczym w panelu bocznym przeglądarki
@@ -463,7 +463,7 @@ workspace-icon-chill =
     .label = Prywatne
 # Custom Keyboard Shortcuts
 floorp-CSK-title = Niestandardowe skróty klawiszowe
-floorp-CSK-description = Dostosuj skróty klawiaturowe { -brand-short-name }. Piętro zapewnia ponad 80 konfigurowalnych skrótów klawiaturowych - zrestartuj { -brand-short-name } aby zastosować te ustawienia. Duplikuj skróty klawiaturowe nie zadziałają.
+floorp-CSK-description = Customize { -brand-short-name }'s keyboard shortcuts. { -brand-short-name } provides more than 80 customizable keyboard shortcuts - restart { -brand-short-name } to apply these settings. Duplicate keyboard shortcuts will not work.
 disable-fx-actions = 
     .label = Wyłącz skróty klawiszowe Mozilla Firefox
 customize-Action = 
@@ -478,7 +478,7 @@ CSK-manage-title = Zarządzaj skrótami klawiszowymi
 CSK-remove-shortcutkey = Usunąć niestandardowy skrót klawiatury?
 CSK-remove-shortcutkey-description = Czy na pewno chcesz usunąć ten skrót klawiaturowy?
 CSK-restore-default = Przywrócić domyślne?
-CSK-restore-default-description = Przywrócić domyślne skróty klawiaturowe? Twoje obecne skróty zostaną utracone.
+CSK-restore-default-description = Restore { -brand-short-name }'s default keyboard shortcuts? Your current shortcuts will be lost.
 CSK-reboot-browser-label = Uruchom ponownie { -brand-short-name } aby zastosować te ustawienia
 CSK-reboot-browser-button = Uruchom ponownie { -brand-short-name }
 # Exist shortcut key: "S", "shift"
@@ -546,7 +546,7 @@ WebRTC =
 ################################################################### browser ###############################################################
 
 rest-mode = Trwa przerwa...
-rest-mode-description = Podłoga jest obecnie zawieszona. Naciśnij ENTER lub OK, aby kontynuować.
+rest-mode-description = { -brand-short-name } is currently suspended. Press ENTER or OK to continue.
 Sidebar2 = 
     .label = Pasek boczny menedżera przeglądarek
     .tooltiptext = Zmień widoczność paska bocznego
@@ -646,44 +646,44 @@ status-bar =
     .accesskey = Pr
 ##################################################################### Gesturefy ###############################################################
 
-gf-floorp-open-tree-style-tab-name = [Floorp] Otwórz panel zakładki stylu drzewa
+gf-floorp-open-tree-style-tab-name = [{ -brand-short-name }] Open Tree Style Tab Panel
 gf-floorp-open-tree-style-tab-description = Otwórz panel zakładek stylu drzewa w panelu bocznym
-gf-floorp-open-bookmarks-sidebar-name = [Floorp] Otwórz panel zakładek w pasku bocznym
+gf-floorp-open-bookmarks-sidebar-name = [{ -brand-short-name }] Open Bookmarks Panel of Sidebar
 gf-floorp-open-bookmarks-sidebar-description = Otwórz panel zakładek w pasku bocznym
-gf-floorp-open-history-sidebar-name = [Floorp] Otwórz panel historii paska bocznego
+gf-floorp-open-history-sidebar-name = [{ -brand-short-name }] Open History Panel of Sidebar
 gf-floorp-open-history-sidebar-description = Otwórz panel historii paska bocznego
-gf-floorp-open-synctabs-sidebar-name = [Floorp] Otwórz panel kart synchronizowanych w panelu bocznym
+gf-floorp-open-synctabs-sidebar-name = [{ -brand-short-name }] Open Synced Tabs Panel of Sidebar
 gf-floorp-open-synctabs-sidebar-description = Otwórz panel zsynchronizowanych kart w panelu bocznym
-gf-floorp-close-sidebar-name = [Floorp] Zamknij pasek boczny
+gf-floorp-close-sidebar-name = [{ -brand-short-name }] Close Sidebar
 gf-floorp-close-sidebar-description = Zamknij pasek boczny
-gf-floorp-open-browser-manager-sidebar-name = [Floorp] Otwórz BMS
+gf-floorp-open-browser-manager-sidebar-name = [{ -brand-short-name }] Open BMS
 gf-floorp-open-browser-manager-sidebar-description = Otwórz pasek menedżera przeglądarki, jeśli panel boczny przeglądarki został załadowany
-gf-floorp-close-browser-manager-sidebar-name = [Floorp] Zamknij BMS
+gf-floorp-close-browser-manager-sidebar-name = [{ -brand-short-name }] Close BMS
 gf-floorp-close-browser-manager-sidebar-description = Zamknij pasek boczny menedżera przeglądarki
-gf-floorp-show-browser-manager-sidebar-name = [Floorp] Przełącz BMS
+gf-floorp-show-browser-manager-sidebar-name = [{ -brand-short-name }] Toggle BMS
 gf-floorp-show-browser-manager-sidebar-description = Przełącz pasek boczny menedżera przeglądarki
-gf-floorp-hide-statusbar-name = [Floorp] Ukryj pasek stanu
+gf-floorp-hide-statusbar-name = [{ -brand-short-name }] Hide Status Bar
 gf-floorp-hide-statusbar-description = Ukryj pasek stanu
-gf-floorp-show-statusbar-name = [Floorp] Przełącz pasek stanu
+gf-floorp-show-statusbar-name = [{ -brand-short-name }] Toggle Status Bar
 gf-floorp-show-statusbar-description = Pokaż lub ukryj pasek statusu
-gf-floorp-open-extension-sidebar-name = [Floorp] Otwórz wybrany dodatek paska bocznego
+gf-floorp-open-extension-sidebar-name = [{ -brand-short-name }] Open selected add-on of Sidebar
 gf-floorp-open-extension-sidebar-description = Otwórz wybrany dodatek paska bocznego
 gf-floorp-open-extension-sidebar-settings-addons-id = Dodatek panelu bocznego
 gf-floorp-open-extension-sidebar-settings-addons-id-description = Rozszerzenie dodatku na pasek boczny
 gf-floorp-open-extension-sidebar-settings-list-default = Wybierz dodatek
 gf-floorp-open-extension-sidebar-settings-list-unknwon = Nieznany dodatek
-##################################################################### Floorp System Update Portable Version ###############################################################
+##################################################################### { -brand-short-name } System Update Portable Version ###############################################################
 
 update-portable-notification-found-title = Znaleziono aktualizacje!
 update-portable-notification-found-message = Pobieranie aktualizacji...
 update-portable-notification-ready-title = Gotowy do aktualizacji!
 update-portable-notification-ready-message = { -brand-short-name } will be updated on the next launch.
 update-portable-notification-success-title = Aktualizacja powiodła się!
-update-portable-notification-success-message = Aktualizacja powiodła się! Mamy nadzieję, że podoba Ci się nowa wersja Piętra!
+update-portable-notification-success-message = Update succeeded! Hope you enjoy the new version of { -brand-short-name }!
 update-portable-notification-failed-title = Aktualizacja nie powiodła się.
 update-portable-notification-failed-redirector-message = Aktualizacja nie powiodła się. Ponowne uruchomienie przeglądarki może rozwiązać ten problem.
 update-portable-notification-failed-prepare-message = Nie udało się przygotować aktualizacji.
-##################################################################### Floorp Portable Preferences ###############################################################
+##################################################################### { -brand-short-name } Portable Preferences ###############################################################
 
 floorp-portable-update-application-allow = Aktualizacja przenośna { -brand-short-name }
 floorp-update-application-auto-enabled-option = 
@@ -699,7 +699,7 @@ open-link-in-external-tab-context-menu = Otwórz w zewnętrznej przeglądarce
 open-link-in-external-tab-dialog-title-error = Wystąpił błąd:
 open-link-in-external-tab-dialog-message-default-browser-not-found = Domyślna przeglądarka nie została znaleziona lub nie została skonfigurowana.
 open-link-in-external-tab-dialog-message-selected-browser-not-found = Wybrana przeglądarka nie istnieje.
-######################################################################### Floorp Notes ###############################################################
+######################################################################### { -brand-short-name } Notes ###############################################################
 
 new-memo = Nowy
 memo-title-input-placeholder = Napisz tutaj tytuł
@@ -707,16 +707,15 @@ memo-input-placeholder = Napisz lub wklej notatkę tutaj
 delete-memo = Usuń
 save-memo = Zapisz
 memo-welcome-title = Witaj!
-memo-first-tip = Witaj w Notatkach podłogowych! Oto kilka instrukcji jak z nich korzystać!
-memo-second-tip = Notatki podłogowe są notatnikiem, który umożliwia przechowywanie wielu notatek synchronizujących między urządzeniami. Aby włączyć synchronizację, musisz zalogować się do Floorp za pomocą konta Firefoks.
-memo-third-tip = Notatki podłogowe zostaną zapisane w ustawieniach podłogowych i zsynchronizowane pomiędzy urządzeniami za pomocą Firefox Sync. Firefox Sync zaszyfrowa zawartość synchronizacji z hasłem konta Firefoksa więc nikt nie zna jego zawartości.
+memo-first-tip = Welcome to { -brand-short-name } Notes! Here are some instructions on how to use it!
+memo-second-tip = { -brand-short-name } Notes is a notepad that lets you store multiple notes that sync across devices. To enable synchronization, you need to sign in to { -brand-short-name } with your Firefox account.
+memo-third-tip = { -brand-short-name } Notes will be saved in your { -brand-short-name } settings and synchronized across devices using Firefox Sync. Firefox Sync encrypts the contents of the sync with your Firefox account password, so no one but you knows its contents.
 memo-import-data-tip = Firefox Sync nie jest usługą tworzenia kopii zapasowych. Zalecamy utworzenie kopii zapasowych.
 memo-new-title = Nowa notatka
 chage-view-mode = Przełącz tryb widoku/edycji
 readonly-mode = Offline (tylko do odczytu)
 ######################################################################### Default bookmarks ###############################################################
 default-bookmark-ablaze-support = Wsparcie Ablaze
-default-bookmark-notes = Notatki podłogowe
 ######################################################################### Like Chrome Download mgr ###############################################################
 
 floorp-delete-all-downloads = 
@@ -729,7 +728,7 @@ floorp-show-all-downloads =
     .tooltiptext = Pokaż wszystkie pobrane pliki
 ######################################################################### workspace ###############################################################
 
-workspace-prompt-title = Obszar roboczy podłogi
+workspace-prompt-title = { -brand-short-name } Workspace
 please-enter-workspace-name = Wprowadź nową nazwę obszaru roboczego.
 please-enter-workspace-name-2 = Nazwa obszaru roboczego nie może zawierać symboli i spacji.
 workspace-error = Wystąpił błąd:
@@ -775,7 +774,7 @@ welcome-discribe-browser-design = Możesz wybrać jeden z wspaniałych projektó
 welcome-design-lepton-name = Oryginalny projekt Leptona
 welcome-design-photon-name = Projektowanie zdjęć Leptona
 welcome-design-ProtonFix-name = Lepton ProtonFix Design
-welcome-design-floorp-fluerial-name = Projektowanie fluorytu podłogowego
+welcome-design-floorp-fluerial-name = { -brand-short-name } Fluerial Design
 welcome-design-firefox-proton-name = Projektowanie Proton Firefox
 welcome-import-data = Importuj dane przeglądarki
 welcome-import-data-description = Szybka konfiguracja! Importuj zakładki, hasła i więcej ze starej przeglądarki. Użytkownik Firefox może importować dane z Firefox Sync.
