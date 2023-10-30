@@ -340,11 +340,11 @@ floorp-lepton-enable-tabbar-as-urlbar =
     .label = Объединить панель вкладок и панель инструментов
 lepton-sidebar-preferences = Боковая панель
 floorp-lepton-enable-overlap-sidebar = 
-    .label = Показывать боковую панель поверх содержимого сайта
+    .label = Отображать боковую панель поверх содержимого сайта
 floorp-home-mode-choice-default = 
     .label = Домашняя страница { -brand-short-name } (по умолчанию)
-floorp-home-prefs-content-header = { -brand-short-name } домашний контент
-floorp-home-prefs-content-description = Выберите контент, который вы хотите увидеть на домашней странице { -brand-short-name }.
+floorp-home-prefs-content-header = Содержимое стартовой страницы { -brand-short-name }
+floorp-home-prefs-content-description = Выберите содержимое, которое вы хотите видеть на главной странице { -brand-short-name }.
 
 ## Notes
 
@@ -460,7 +460,7 @@ workspace-icon-star =
 workspace-icon-tree = 
     .label = Дерево
 workspace-icon-chill = 
-    .label = Приватный
+    .label = Личное
 # Custom Keyboard Shortcuts
 floorp-CSK-title = Пользовательские сочетания клавиш
 floorp-CSK-description = Customize { -brand-short-name }'s keyboard shortcuts. { -brand-short-name } provides more than 80 customizable keyboard shortcuts - restart { -brand-short-name } to apply these settings. Duplicate keyboard shortcuts will not work.
