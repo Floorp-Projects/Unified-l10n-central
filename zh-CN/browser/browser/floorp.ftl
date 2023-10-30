@@ -75,7 +75,7 @@ native-vertical-tab-show-right =
 hover-vertical-tab = 
     .label = 折叠垂直标签栏
 TST = Tree Style Tab
-about-TST = Tree Style Tab 是一个受欢迎的插件，允许您以树状结构显示标签页。 Floorp 10 已经内置了这个插件。请安装此插件以恢复 Floorp 10 内置的垂直标签栏功能。
+about-TST = Tree Style Tab is a popular add-on that allows you to display tabs in a tree structure. { -brand-short-name } 10 has a built-in this add-on. Please install the add-on restore { -brand-short-name } 10's built-in Tree Style Tab.
 treestyletab-Settings = 
     .label = 折叠 Tree Style Tab
 sidebar-reverse-position-toolbar = 在另一侧显示侧边栏
@@ -128,7 +128,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Microsoft Fluent UI
 floorp-fluerialUI = 
-    .label = Floorp Fluerial UI
+    .label = { -brand-short-name } Fluerial UI
 floorp-gnomeUI = 
     .label = GNOME 主题
 
@@ -352,12 +352,12 @@ floorp-notes = { -brand-short-name } 笔记
 restore-from-backup = 从备份恢复笔记
 enable-notes-sync = 
     .label = 启用 { -brand-short-name } Notes Sync
-about-notes-backup-tips = Floorp Notes 使用 Firefox Sync 与其他设备同步您的笔记。如果您丢失了笔记，可以从备份中恢复。当您启动 { -brand-short-name } 时，就会创建一个备份。
+about-notes-backup-tips = { -brand-short-name } Notes uses Firefox Sync to sync your notes with other devices. If you lose your notes, you can restore them from a backup. A backup is created when you start { -brand-short-name }.
 notes-sync-description = 这可以解决在同步期间由于覆盖笔记而导致内容丢失的问题。
 backuped-time = 备份于
 notes-backup-option = 备份设置
 backup-option-button = 备份设置...
-restore-from-backup-prompt-title = Floorp Notes 还原服务
+restore-from-backup-prompt-title = { -brand-short-name } Notes Restore Service
 restore-from-this-backup = 将笔记还原到备份时的状态吗？
 restore-button = 还原
 
@@ -376,7 +376,7 @@ apply-userjs-button = 应用
 
 ## userjs Options
 
-default-userjs-label = Floorp Default
+default-userjs-label = { -brand-short-name } Default
 about-default-userjs = 遥测功能已禁用。平衡良好的 { -brand-short-name } ，可启用各种自定义功能。
 Securefox-label = Yokoffing Securefox
 about-Securefox = 默认启用 HTTPS。拥有站点隔离的全面 Cookie 保护。加强了状态和网络分隔。还有其他一些增强功能。
@@ -393,7 +393,7 @@ about-Smoothfox = 在您钟爱的浏览器上获得类似 Edge 的平滑滚动�
 
 floorp-workspaces-title = { -brand-short-name } 工作区
 workspaces-backup-discription = 备份并恢复您的工作区
-workspaces-restore-service-title = Floorp 工作区备份服务
+workspaces-restore-service-title = { -brand-short-name } Workspaces Backup Service
 workspaces-restore-warning = 警告！运行此操作将导致浏览器暂时冻结并自动重启。
 floorp-workspace-settings-button = 工作区设置...
 change-to-close-workspace-popup-option = 
@@ -405,7 +405,7 @@ workspaces-reset-label =
     .label = 重置工作区
 workspaces-reset-description = 如果备份不可用且工作区未启动，请重置工作区。
 workspaces-reset-button = 重置工作区
-workspaces-reset-service-title = Floorp 工作区
+workspaces-reset-service-title = { -brand-short-name } Workspaces
 workspaces-reset-warning = 警告！运行此操作将删除您所有的工作区并重启浏览器。
 manage-workspace-on-bms-option = 
     .label = 在浏览器管理器侧边栏管理工作区
@@ -463,7 +463,7 @@ workspace-icon-chill =
     .label = 私人
 # Custom Keyboard Shortcuts
 floorp-CSK-title = 自定义键盘快捷键
-floorp-CSK-description = 自定义 { -brand-short-name } 的键盘快捷键。Floorp 提供了超过 80 个可自定义的键盘快捷键。重启 { -brand-short-name } 以应用这些设置。重复的键盘快捷键将无效。
+floorp-CSK-description = Customize { -brand-short-name }'s keyboard shortcuts. { -brand-short-name } provides more than 80 customizable keyboard shortcuts - restart { -brand-short-name } to apply these settings. Duplicate keyboard shortcuts will not work.
 disable-fx-actions = 
     .label = 禁用 Mozilla Firefox 的键盘快捷键
 customize-Action = 
@@ -478,7 +478,7 @@ CSK-manage-title = 管理键盘快捷键
 CSK-remove-shortcutkey = 删除自定义键盘快捷键？
 CSK-remove-shortcutkey-description = 您确定要删除这个键盘快捷键吗？
 CSK-restore-default = 还原默认设置吗？
-CSK-restore-default-description = 还原 Floorp 的默认键盘快捷键吗？您当前的快捷键将会丢失。
+CSK-restore-default-description = Restore { -brand-short-name }'s default keyboard shortcuts? Your current shortcuts will be lost.
 CSK-reboot-browser-label = 重新启动 { -brand-short-name } 以应用这些设置
 CSK-reboot-browser-button = 重新启动 { -brand-short-name }
 # Exist shortcut key: "S", "shift"
@@ -546,7 +546,7 @@ WebRTC =
 ################################################################### browser ###############################################################
 
 rest-mode = 正在休息...
-rest-mode-description = Floorp 目前已经被暂停。请按下 ENTER 或 OK 以继续。
+rest-mode-description = { -brand-short-name } is currently suspended. Press ENTER or OK to continue.
 Sidebar2 = 
     .label = 浏览器管理器侧边栏
     .tooltiptext = 更改侧边栏的可见性
@@ -646,44 +646,44 @@ status-bar =
     .accesskey = S
 ##################################################################### Gesturefy ###############################################################
 
-gf-floorp-open-tree-style-tab-name = [Floorp] 打开树状标签页面板
+gf-floorp-open-tree-style-tab-name = [{ -brand-short-name }] Open Tree Style Tab Panel
 gf-floorp-open-tree-style-tab-description = 打开侧边栏的树状样式标签页面板
-gf-floorp-open-bookmarks-sidebar-name = [Floorp] 打开侧边栏的书签面板
+gf-floorp-open-bookmarks-sidebar-name = [{ -brand-short-name }] Open Bookmarks Panel of Sidebar
 gf-floorp-open-bookmarks-sidebar-description = 打开侧边栏的书签面板
-gf-floorp-open-history-sidebar-name = [Floorp] 打开侧边栏的历史记录面板
+gf-floorp-open-history-sidebar-name = [{ -brand-short-name }] Open History Panel of Sidebar
 gf-floorp-open-history-sidebar-description = 打开侧边栏的历史记录面板
-gf-floorp-open-synctabs-sidebar-name = [Floorp] 打开侧边栏的同步标签页面板
+gf-floorp-open-synctabs-sidebar-name = [{ -brand-short-name }] Open Synced Tabs Panel of Sidebar
 gf-floorp-open-synctabs-sidebar-description = 打开侧边栏的同步标签页面板
-gf-floorp-close-sidebar-name = [Floorp] 关闭侧边栏
+gf-floorp-close-sidebar-name = [{ -brand-short-name }] Close Sidebar
 gf-floorp-close-sidebar-description = 关闭侧边栏
-gf-floorp-open-browser-manager-sidebar-name = [Floorp] 打开 BMS
+gf-floorp-open-browser-manager-sidebar-name = [{ -brand-short-name }] Open BMS
 gf-floorp-open-browser-manager-sidebar-description = 如果浏览器管理器侧边栏的 Web 面板已加载，则打开浏览器管理器侧边栏。
-gf-floorp-close-browser-manager-sidebar-name = [Floorp] 关闭 BMS
+gf-floorp-close-browser-manager-sidebar-name = [{ -brand-short-name }] Close BMS
 gf-floorp-close-browser-manager-sidebar-description = 关闭浏览器管理器侧边栏
-gf-floorp-show-browser-manager-sidebar-name = [Floorp] 切换 BMS
+gf-floorp-show-browser-manager-sidebar-name = [{ -brand-short-name }] Toggle BMS
 gf-floorp-show-browser-manager-sidebar-description = 切换浏览器管理器侧边栏
-gf-floorp-hide-statusbar-name = [Floorp] 隐藏状态栏
+gf-floorp-hide-statusbar-name = [{ -brand-short-name }] Hide Status Bar
 gf-floorp-hide-statusbar-description = 隐藏状态栏
-gf-floorp-show-statusbar-name = [Floorp] 切换状态栏
+gf-floorp-show-statusbar-name = [{ -brand-short-name }] Toggle Status Bar
 gf-floorp-show-statusbar-description = 显示或隐藏状态栏
-gf-floorp-open-extension-sidebar-name = [Floorp] 打开选中的侧边栏插件
+gf-floorp-open-extension-sidebar-name = [{ -brand-short-name }] Open selected add-on of Sidebar
 gf-floorp-open-extension-sidebar-description = 打开选中的侧边栏插件
 gf-floorp-open-extension-sidebar-settings-addons-id = 侧边栏插件
 gf-floorp-open-extension-sidebar-settings-addons-id-description = 扩展侧边栏打开的插件
 gf-floorp-open-extension-sidebar-settings-list-default = 请选择插件
 gf-floorp-open-extension-sidebar-settings-list-unknwon = 未知插件
-##################################################################### Floorp System Update Portable Version ###############################################################
+##################################################################### { -brand-short-name } System Update Portable Version ###############################################################
 
 update-portable-notification-found-title = 有可用的更新！
 update-portable-notification-found-message = 正在下载更新...
 update-portable-notification-ready-title = 准备好更新了！
 update-portable-notification-ready-message = { -brand-short-name } 将在下次启动时进行更新。
 update-portable-notification-success-title = 更新成功！
-update-portable-notification-success-message = 更新成功！希望您喜欢新版本的 Floorp！
+update-portable-notification-success-message = Update succeeded! Hope you enjoy the new version of { -brand-short-name }!
 update-portable-notification-failed-title = 更新失败。
 update-portable-notification-failed-redirector-message = 更新失败。重新启动您的浏览器可能会解决这个问题。
 update-portable-notification-failed-prepare-message = 更新准备失败。
-##################################################################### Floorp Portable Preferences ###############################################################
+##################################################################### { -brand-short-name } Portable Preferences ###############################################################
 
 floorp-portable-update-application-allow = { -brand-short-name } 便携版更新
 floorp-update-application-auto-enabled-option = 
@@ -699,7 +699,7 @@ open-link-in-external-tab-context-menu = 在外部浏览器中打开
 open-link-in-external-tab-dialog-title-error = 发生了一个错误：
 open-link-in-external-tab-dialog-message-default-browser-not-found = 未找到或未配置默认浏览器。
 open-link-in-external-tab-dialog-message-selected-browser-not-found = 所选浏览器不存在。
-######################################################################### Floorp Notes ###############################################################
+######################################################################### { -brand-short-name } Notes ###############################################################
 
 new-memo = 新建
 memo-title-input-placeholder = 撰写一个标题
@@ -707,16 +707,15 @@ memo-input-placeholder = 在此处写入或粘贴备忘录
 delete-memo = 删除
 save-memo = 保存
 memo-welcome-title = 欢迎！
-memo-first-tip = 欢迎使用 Floorp Notes！以下是一些使用说明！
-memo-second-tip = Floorp Notes 是一个记事本应用，允许您存储多个便签并在不同设备之间同步。要启用同步功能，您需要使用您的 Firefox 账户登录 Floorp。
-memo-third-tip = Floorp Notes 将会保存在您的 Floorp 设置中，并通过 Firefox Sync 在不同设备之间同步。Firefox Sync 会使用您的 Firefox 账户密码对同步的内容进行加密，因此除了您自己，没有其他人能够知道其内容。
+memo-first-tip = Welcome to { -brand-short-name } Notes! Here are some instructions on how to use it!
+memo-second-tip = { -brand-short-name } Notes is a notepad that lets you store multiple notes that sync across devices. To enable synchronization, you need to sign in to { -brand-short-name } with your Firefox account.
+memo-third-tip = { -brand-short-name } Notes will be saved in your { -brand-short-name } settings and synchronized across devices using Firefox Sync. Firefox Sync encrypts the contents of the sync with your Firefox account password, so no one but you knows its contents.
 memo-import-data-tip = Firefox 同步不是备份服务。我们建议您创建数据备份。
 memo-new-title = 新建笔记
 chage-view-mode = 切换查看/编辑模式
 readonly-mode = 离线 (只读)
 ######################################################################### Default bookmarks ###############################################################
 default-bookmark-ablaze-support = Ablaze 支持
-default-bookmark-notes = Floorp Notes
 ######################################################################### Like Chrome Download mgr ###############################################################
 
 floorp-delete-all-downloads = 
@@ -729,7 +728,7 @@ floorp-show-all-downloads =
     .tooltiptext = 显示所有下载
 ######################################################################### workspace ###############################################################
 
-workspace-prompt-title = Floorp 工作区
+workspace-prompt-title = { -brand-short-name } Workspace
 please-enter-workspace-name = 请输入工作区的新名称。
 please-enter-workspace-name-2 = 工作区的名称不能包含符号和空格。
 workspace-error = 发生了一个错误：
@@ -775,7 +774,7 @@ welcome-discribe-browser-design = 你可以选择其中一个精美的第三方 
 welcome-design-lepton-name = Lepton 原始设计
 welcome-design-photon-name = Lepton Photon 设计
 welcome-design-ProtonFix-name = Lepton ProtonFix 设计
-welcome-design-floorp-fluerial-name = Floorp Fluerial 设计
+welcome-design-floorp-fluerial-name = { -brand-short-name } Fluerial Design
 welcome-design-firefox-proton-name = Firefox Proton 设计
 welcome-import-data = 导入您的浏览器数据
 welcome-import-data-description = 快速设置！从您的旧浏览器导入书签、密码等数据。Firefox 用户可以使用 Firefox Sync 导入数据。
