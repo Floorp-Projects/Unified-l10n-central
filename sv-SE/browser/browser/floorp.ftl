@@ -75,7 +75,7 @@ native-vertical-tab-show-right =
 hover-vertical-tab = 
     .label = Collapse Vertical Tab Bar
 TST = Träd stil flik
-about-TST = Tree Style Tab är ett populärt tillägg som låter dig visa flikar i ett träd struktur. Floorp 10 har en inbyggd detta tillägg. Installera tillägget återställa Floorp 10 inbyggda Tree Style Tab.
+about-TST = Tree Style Tab is a popular add-on that allows you to display tabs in a tree structure. { -brand-short-name } 10 has a built-in this add-on. Please install the add-on restore { -brand-short-name } 10's built-in Tree Style Tab.
 treestyletab-Settings = 
     .label = Komprimera Trädstil Fliken
 sidebar-reverse-position-toolbar = Visa sidofält på andra sidan
@@ -128,7 +128,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Microsoft Fluent UI
 floorp-fluerialUI = 
-    .label = Floorp Fluerial UI
+    .label = { -brand-short-name } Fluerial UI
 floorp-gnomeUI = 
     .label = GNOME-tema
 
@@ -352,12 +352,12 @@ floorp-notes = { -brand-short-name } Anteckningar
 restore-from-backup = Återställ anteckningar från säkerhetskopia
 enable-notes-sync = 
     .label = Aktivera { -brand-short-name } Notes Sync
-about-notes-backup-tips = Floorp Notes använder Firefox Sync för att synkronisera dina anteckningar med andra enheter. Om du förlorar dina anteckningar kan du återställa dem från en säkerhetskopia. En säkerhetskopia skapas när du startar { -brand-short-name }.
+about-notes-backup-tips = { -brand-short-name } Notes uses Firefox Sync to sync your notes with other devices. If you lose your notes, you can restore them from a backup. A backup is created when you start { -brand-short-name }.
 notes-sync-description = Detta kan lösa problemet med att förlora innehållet på grund av att skriva över anteckningar under synkronisering.
 backuped-time = Säkerhetskopierade den
 notes-backup-option = Inställningar för säkerhetskopiering
 backup-option-button = Säkerhetskopiera inställningar...
-restore-from-backup-prompt-title = Restore Service för Floorp Notes
+restore-from-backup-prompt-title = { -brand-short-name } Notes Restore Service
 restore-from-this-backup = Återställ anteckningar tillbaka till det tillstånd de var i denna backup?
 restore-button = Återställ
 
@@ -376,7 +376,7 @@ apply-userjs-button = Tillämpa
 
 ## userjs Options
 
-default-userjs-label = Floorp standard
+default-userjs-label = { -brand-short-name } Default
 about-default-userjs = Telemetri inaktiverat. Väl balanserad { -brand-short-name } med olika anpassningar aktiverade.
 Securefox-label = Yokoffing Securefox
 about-Securefox = HTTPS-by-Default. Totalt Cookie-skydd med platsisolering. Förbättrad partitionering av tillstånd och nätverk.
@@ -393,7 +393,7 @@ about-Smoothfox = Få Edge-liknande smidig rullning på din favorit webbläsare 
 
 floorp-workspaces-title = { -brand-short-name } Arbetsytor
 workspaces-backup-discription = Säkerhetskopiera och återställ dina arbetsytor
-workspaces-restore-service-title = Säkerhetskopieringstjänst för Floorp Workspaces
+workspaces-restore-service-title = { -brand-short-name } Workspaces Backup Service
 workspaces-restore-warning = Varning! Kör denna åtgärd kommer att orsaka webbläsaren att frysa tillfälligt och starta om automatiskt.
 floorp-workspace-settings-button = Inställningar för arbetsyta...
 change-to-close-workspace-popup-option = 
@@ -405,7 +405,7 @@ workspaces-reset-label =
     .label = Återställ arbetsytor
 workspaces-reset-description = Om en säkerhetskopia inte fungerar och arbetsytan inte startar, återställ arbetsytan.
 workspaces-reset-button = Återställ arbetsytor
-workspaces-reset-service-title = Golv arbetsytor
+workspaces-reset-service-title = { -brand-short-name } Workspaces
 workspaces-reset-warning = Varning! Kör denna åtgärd kommer att ta bort alla dina arbetsytor och starta om webbläsaren.
 manage-workspace-on-bms-option = 
     .label = Hantera arbetsyta på webbläsarhanterarens sidofält
@@ -463,7 +463,7 @@ workspace-icon-chill =
     .label = Privat
 # Custom Keyboard Shortcuts
 floorp-CSK-title = Anpassade kortkommandon
-floorp-CSK-description = Anpassa { -brand-short-name }s kortkommandon. Floorp ger mer än 80 anpassningsbara kortkommandon - starta om { -brand-short-name } för att tillämpa dessa inställningar. Duplicera kortkommandon fungerar inte.
+floorp-CSK-description = Customize { -brand-short-name }'s keyboard shortcuts. { -brand-short-name } provides more than 80 customizable keyboard shortcuts - restart { -brand-short-name } to apply these settings. Duplicate keyboard shortcuts will not work.
 disable-fx-actions = 
     .label = Inaktivera Mozilla Firefox kortkommandon
 customize-Action = 
@@ -478,7 +478,7 @@ CSK-manage-title = Hantera kortkommandon
 CSK-remove-shortcutkey = Ta bort anpassad genväg?
 CSK-remove-shortcutkey-description = Är du säker på att du vill ta bort den här kortkommandot?
 CSK-restore-default = Återställ standard?
-CSK-restore-default-description = Återställ Floorps standard kortkommandon? Dina nuvarande genvägar kommer att gå förlorade.
+CSK-restore-default-description = Restore { -brand-short-name }'s default keyboard shortcuts? Your current shortcuts will be lost.
 CSK-reboot-browser-label = Starta om { -brand-short-name } för att tillämpa dessa inställningar
 CSK-reboot-browser-button = Starta om { -brand-short-name }
 # Exist shortcut key: "S", "shift"
@@ -546,7 +546,7 @@ WebRTC =
 ################################################################### browser ###############################################################
 
 rest-mode = Tar en paus...
-rest-mode-description = Golv är för närvarande avstängd. Tryck ENTER eller OK för att fortsätta.
+rest-mode-description = { -brand-short-name } is currently suspended. Press ENTER or OK to continue.
 Sidebar2 = 
     .label = Webbläsarhanterarens sidofält
     .tooltiptext = Ändra sidofältets synlighet
@@ -646,44 +646,44 @@ status-bar =
     .accesskey = S
 ##################################################################### Gesturefy ###############################################################
 
-gf-floorp-open-tree-style-tab-name = [Floorp] Öppna panelen Trädstil
+gf-floorp-open-tree-style-tab-name = [{ -brand-short-name }] Open Tree Style Tab Panel
 gf-floorp-open-tree-style-tab-description = Öppna Tree Style Tab Panel av sidofält
-gf-floorp-open-bookmarks-sidebar-name = [Floorp] Öppna bokmärkespanelen för sidofält
+gf-floorp-open-bookmarks-sidebar-name = [{ -brand-short-name }] Open Bookmarks Panel of Sidebar
 gf-floorp-open-bookmarks-sidebar-description = Öppna bokmärkespanelen för sidofält
-gf-floorp-open-history-sidebar-name = [Floorp] Öppna sidofältets historik
+gf-floorp-open-history-sidebar-name = [{ -brand-short-name }] Open History Panel of Sidebar
 gf-floorp-open-history-sidebar-description = Öppna sidofältets historikpanel
-gf-floorp-open-synctabs-sidebar-name = [Floorp] Öppna synkroniserade flikar panel av sidofält
+gf-floorp-open-synctabs-sidebar-name = [{ -brand-short-name }] Open Synced Tabs Panel of Sidebar
 gf-floorp-open-synctabs-sidebar-description = Öppna synkroniserade flikar panel av sidofält
-gf-floorp-close-sidebar-name = [Floorp] Stäng sidofält
+gf-floorp-close-sidebar-name = [{ -brand-short-name }] Close Sidebar
 gf-floorp-close-sidebar-description = Stäng sidofält
-gf-floorp-open-browser-manager-sidebar-name = [Floorp] Öppna BMS
+gf-floorp-open-browser-manager-sidebar-name = [{ -brand-short-name }] Open BMS
 gf-floorp-open-browser-manager-sidebar-description = Öppna webbläsarhanteraren Sidofält, om webbpanelen i webbläsarhanteraren Sidofält laddades
-gf-floorp-close-browser-manager-sidebar-name = [Floorp] Stäng BMS
+gf-floorp-close-browser-manager-sidebar-name = [{ -brand-short-name }] Close BMS
 gf-floorp-close-browser-manager-sidebar-description = Stäng webbläsarhanterarens sidofält
-gf-floorp-show-browser-manager-sidebar-name = [Floorp] Växla BMS
+gf-floorp-show-browser-manager-sidebar-name = [{ -brand-short-name }] Toggle BMS
 gf-floorp-show-browser-manager-sidebar-description = Växla webbläsarhanterarens sidofält
-gf-floorp-hide-statusbar-name = [Floorp] Dölj statusfältet
+gf-floorp-hide-statusbar-name = [{ -brand-short-name }] Hide Status Bar
 gf-floorp-hide-statusbar-description = Dölj statusfältet
-gf-floorp-show-statusbar-name = [Floorp] Växla statusfält
+gf-floorp-show-statusbar-name = [{ -brand-short-name }] Toggle Status Bar
 gf-floorp-show-statusbar-description = Visa eller Dölj statusfältet
-gf-floorp-open-extension-sidebar-name = [Floorp] Öppna valda tillägg till sidofältet
+gf-floorp-open-extension-sidebar-name = [{ -brand-short-name }] Open selected add-on of Sidebar
 gf-floorp-open-extension-sidebar-description = Öppna valda tillägg till sidofältet
 gf-floorp-open-extension-sidebar-settings-addons-id = Tillägg till sidofält
 gf-floorp-open-extension-sidebar-settings-addons-id-description = Förlängningen av add-on öppen för sidofält
 gf-floorp-open-extension-sidebar-settings-list-default = Välj tillägg
 gf-floorp-open-extension-sidebar-settings-list-unknwon = Okänt tillägg
-##################################################################### Floorp System Update Portable Version ###############################################################
+##################################################################### { -brand-short-name } System Update Portable Version ###############################################################
 
 update-portable-notification-found-title = Uppdateringar hittades!
 update-portable-notification-found-message = Hämtar uppdateringar...
 update-portable-notification-ready-title = Redo att uppdatera!
 update-portable-notification-ready-message = { -brand-short-name } will be updated on the next launch.
 update-portable-notification-success-title = Uppdateringen lyckades!
-update-portable-notification-success-message = Uppdateringen lyckades! Hoppas du gillar den nya versionen av Floorp!
+update-portable-notification-success-message = Update succeeded! Hope you enjoy the new version of { -brand-short-name }!
 update-portable-notification-failed-title = Uppdateringen misslyckades.
 update-portable-notification-failed-redirector-message = Uppdateringen misslyckades. Om du startar om din webbläsare kan detta problem lösas.
 update-portable-notification-failed-prepare-message = Det gick inte att förbereda uppdateringen.
-##################################################################### Floorp Portable Preferences ###############################################################
+##################################################################### { -brand-short-name } Portable Preferences ###############################################################
 
 floorp-portable-update-application-allow = { -brand-short-name } Portabel uppdatering
 floorp-update-application-auto-enabled-option = 
@@ -699,7 +699,7 @@ open-link-in-external-tab-context-menu = Öppna i extern webbläsare
 open-link-in-external-tab-dialog-title-error = Ett fel uppstod:
 open-link-in-external-tab-dialog-message-default-browser-not-found = Standardwebbläsaren hittades inte eller är inte konfigurerad.
 open-link-in-external-tab-dialog-message-selected-browser-not-found = Den valda webbläsaren finns inte.
-######################################################################### Floorp Notes ###############################################################
+######################################################################### { -brand-short-name } Notes ###############################################################
 
 new-memo = Ny
 memo-title-input-placeholder = Skriv en titel här
@@ -707,16 +707,15 @@ memo-input-placeholder = Skriv eller klistra in ett memo här
 delete-memo = Radera
 save-memo = Spara
 memo-welcome-title = Välkommen!
-memo-first-tip = Välkommen till Floorp Notes! Här är några instruktioner om hur man använder det!
-memo-second-tip = Floorp Notes är ett anteckningsblock som låter dig lagra flera anteckningar som synkroniserar mellan enheter. För att aktivera synkronisering måste du logga in på Floorp med ditt Firefox-konto.
-memo-third-tip = Floorp Notes kommer att sparas i dina Floorp inställningar och synkroniseras mellan enheter med hjälp av Firefox Sync. Firefox Sync krypterar innehållet i synkroniseringen med ditt Firefox-konto lösenord, så ingen utom du vet dess innehåll.
+memo-first-tip = Welcome to { -brand-short-name } Notes! Here are some instructions on how to use it!
+memo-second-tip = { -brand-short-name } Notes is a notepad that lets you store multiple notes that sync across devices. To enable synchronization, you need to sign in to { -brand-short-name } with your Firefox account.
+memo-third-tip = { -brand-short-name } Notes will be saved in your { -brand-short-name } settings and synchronized across devices using Firefox Sync. Firefox Sync encrypts the contents of the sync with your Firefox account password, so no one but you knows its contents.
 memo-import-data-tip = Firefox Sync är inte en säkerhetskopieringstjänst. Vi rekommenderar att du skapar säkerhetskopior.
 memo-new-title = Ny anteckning
 chage-view-mode = Växla visa/redigera läge
 readonly-mode = Offline (skrivskyddad)
 ######################################################################### Default bookmarks ###############################################################
 default-bookmark-ablaze-support = Stöd för Ablaze
-default-bookmark-notes = Golvanteckningar
 ######################################################################### Like Chrome Download mgr ###############################################################
 
 floorp-delete-all-downloads = 
@@ -729,7 +728,7 @@ floorp-show-all-downloads =
     .tooltiptext = Visa alla nedladdningar
 ######################################################################### workspace ###############################################################
 
-workspace-prompt-title = Golv arbetsyta
+workspace-prompt-title = { -brand-short-name } Workspace
 please-enter-workspace-name = Ange arbetsytans nya namn.
 please-enter-workspace-name-2 = Namnet på arbetsytan får inte innehålla symboler och mellanslag.
 workspace-error = Ett fel uppstod:
@@ -775,7 +774,7 @@ welcome-discribe-browser-design = Du kan välja en av de underbara tredje part {
 welcome-design-lepton-name = Lepton originaldesign
 welcome-design-photon-name = Lepton Foton Design
 welcome-design-ProtonFix-name = Lepton ProtonFix Design
-welcome-design-floorp-fluerial-name = Golv Fluerial Design
+welcome-design-floorp-fluerial-name = { -brand-short-name } Fluerial Design
 welcome-design-firefox-proton-name = Firefox Proton Design
 welcome-import-data = Importera din webbläsardata
 welcome-import-data-description = Snabb inställning! Importera dina bokmärken, lösenord och mer från din gamla webbläsare. Firefox-användare kan importera data från Firefox Sync.
