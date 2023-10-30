@@ -75,7 +75,7 @@ native-vertical-tab-show-right =
 hover-vertical-tab = 
     .label = Collapse Vertical Tab Bar
 TST = Medžio stiliaus skirtukas
-about-TST = Medžio stiliaus skirtukas yra populiarus papildinys, leidžiantis rodyti skirtukus medžio struktūroje. "Floorp 10" turi integruotą šį priedą. Įdiekite priedą atkurti "Floorp 10" integruotą "Tree Style Tab".
+about-TST = Tree Style Tab is a popular add-on that allows you to display tabs in a tree structure. { -brand-short-name } 10 has a built-in this add-on. Please install the add-on restore { -brand-short-name } 10's built-in Tree Style Tab.
 treestyletab-Settings = 
     .label = Žlugti medžio stiliaus skirtukas
 sidebar-reverse-position-toolbar = Rodyti šonines juostas kitoje pusėje
@@ -128,7 +128,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = "Microsoft Fluent UI
 floorp-fluerialUI = 
-    .label = "Floorp Fluerial UI
+    .label = { -brand-short-name } Fluerial UI
 floorp-gnomeUI = 
     .label = GNOME tema
 
@@ -352,12 +352,12 @@ floorp-notes = { -brand-short-name } Pastabos
 restore-from-backup = Pastabų atkūrimas iš atsarginės kopijos
 enable-notes-sync = 
     .label = Įjungti { -brand-short-name } Notes Sync
-about-notes-backup-tips = "Floorp Notes" naudoja "Firefox Sync", kad sinchronizuotų jūsų užrašus su kitais prietaisais. Jei prarandate užrašus, galite juos atkurti iš atsarginės kopijos. Atsarginė kopija sukuriama, kai paleidžiate { -brand-short-name }.
+about-notes-backup-tips = { -brand-short-name } Notes uses Firefox Sync to sync your notes with other devices. If you lose your notes, you can restore them from a backup. A backup is created when you start { -brand-short-name }.
 notes-sync-description = Taip galima išspręsti turinio praradimo problemą dėl sinchronizavimo metu perrašytų pastabų.
 backuped-time = Palaikomas prie
 notes-backup-option = Atsarginės kopijos nustatymai
 backup-option-button = Atsarginės kopijos nustatymai...
-restore-from-backup-prompt-title = "Floorp Notes" atkūrimo paslauga
+restore-from-backup-prompt-title = { -brand-short-name } Notes Restore Service
 restore-from-this-backup = Atkurti "Notes" į tokią būseną, kokia buvo šioje atsarginėje kopijoje?
 restore-button = Atkurti
 
@@ -376,7 +376,7 @@ apply-userjs-button = Taikyti
 
 ## userjs Options
 
-default-userjs-label = Standartinis nustatymas Floorp
+default-userjs-label = { -brand-short-name } Default
 about-default-userjs = Telemetrija išjungta. Gerai subalansuotas { -brand-short-name } su įjungtais įvairiais pritaikymais.
 Securefox-label = Yokoffing Securefox
 about-Securefox = HTTPS pagal nutylėjimą. Visiška slapukų apsauga su svetainių izoliavimu. Patobulintas būsenos ir tinklo skaidymas. Įvairūs kiti patobulinimai.
@@ -393,7 +393,7 @@ about-Smoothfox = Mėgstamiausioje naršyklėje sklandžiai slinkite kaip "Edge"
 
 floorp-workspaces-title = { -brand-short-name } Darbo vietos
 workspaces-backup-discription = Atsarginių kopijų kūrimas ir atkūrimas darbo vietose
-workspaces-restore-service-title = "Floorp Workspaces" atsarginės kopijos paslauga
+workspaces-restore-service-title = { -brand-short-name } Workspaces Backup Service
 workspaces-restore-warning = Įspėjimas! Atlikus šią operaciją naršyklė laikinai užšals ir bus automatiškai paleista iš naujo.
 floorp-workspace-settings-button = Darbo vietos nustatymai...
 change-to-close-workspace-popup-option = 
@@ -405,7 +405,7 @@ workspaces-reset-label =
     .label = Iš naujo nustatyti darbo vietas
 workspaces-reset-description = Jei atsarginė kopija neveikia ir darbo vieta neįsijungia, iš naujo nustatykite darbo vietą.
 workspaces-reset-button = Iš naujo nustatyti darbo vietas
-workspaces-reset-service-title = "Floorp Workspaces
+workspaces-reset-service-title = { -brand-short-name } Workspaces
 workspaces-reset-warning = Įspėjimas! Atlikus šią operaciją bus ištrintos visos darbo vietos ir naršyklė bus paleista iš naujo.
 manage-workspace-on-bms-option = 
     .label = Darbo vietos tvarkymas naršyklės tvarkytuvo šoninėje juostoje
@@ -463,7 +463,7 @@ workspace-icon-chill =
     .label = Privatus
 # Custom Keyboard Shortcuts
 floorp-CSK-title = Pasirinktiniai klaviatūros spartieji klavišai
-floorp-CSK-description = Pritaikykite { -brand-short-name }'s klaviatūros sparčiuosius klavišus. Floorp suteikia daugiau nei 80 pritaikomų klaviatūros spartųjų klavišų - norėdami pritaikyti šiuos nustatymus, iš naujo paleiskite { -brand-short-name } . Dubliuoti klaviatūros spartieji klavišai neveiks.
+floorp-CSK-description = Customize { -brand-short-name }'s keyboard shortcuts. { -brand-short-name } provides more than 80 customizable keyboard shortcuts - restart { -brand-short-name } to apply these settings. Duplicate keyboard shortcuts will not work.
 disable-fx-actions = 
     .label = Išjungti "Mozilla Firefox" klaviatūros sparčiuosius klavišus
 customize-Action = 
@@ -478,7 +478,7 @@ CSK-manage-title = Tvarkykite sparčiuosius klavišus
 CSK-remove-shortcutkey = Pašalinti pasirinktinę klaviatūros kombinaciją?
 CSK-remove-shortcutkey-description = Ar tikrai norite pašalinti šią sparčiąją klaviatūros kombinaciją?
 CSK-restore-default = Atkurti numatytąsias nuostatas?
-CSK-restore-default-description = Atkurti numatytąsias "Floorp" klaviatūros nuorodas? Dabartiniai spartieji klavišai bus prarasti.
+CSK-restore-default-description = Restore { -brand-short-name }'s default keyboard shortcuts? Your current shortcuts will be lost.
 CSK-reboot-browser-label = Iš naujo paleiskite { -brand-short-name } , kad pritaikytumėte šiuos nustatymus.
 CSK-reboot-browser-button = Iš naujo paleiskite { -brand-short-name }
 # Exist shortcut key: "S", "shift"
@@ -546,7 +546,7 @@ WebRTC =
 ################################################################### browser ###############################################################
 
 rest-mode = Pertraukėlė...
-rest-mode-description = Šiuo metu "Floorp" veikla sustabdyta. Paspauskite ENTER arba OK, kad tęstumėte.
+rest-mode-description = { -brand-short-name } is currently suspended. Press ENTER or OK to continue.
 Sidebar2 = 
     .label = Naršyklės tvarkyklės šoninė juosta
     .tooltiptext = Pakeisti šoninės juostos matomumą
@@ -646,44 +646,44 @@ status-bar =
     .accesskey = S
 ##################################################################### Gesturefy ###############################################################
 
-gf-floorp-open-tree-style-tab-name = [Floorp] Atidaryti medžio stiliaus skirtuko skydelį
+gf-floorp-open-tree-style-tab-name = [{ -brand-short-name }] Open Tree Style Tab Panel
 gf-floorp-open-tree-style-tab-description = Atidarykite šoninės juostos medžio stiliaus skirtuko skydelį
-gf-floorp-open-bookmarks-sidebar-name = [Floorp] Atidarykite šoninės juostos žymeklių skydelį
+gf-floorp-open-bookmarks-sidebar-name = [{ -brand-short-name }] Open Bookmarks Panel of Sidebar
 gf-floorp-open-bookmarks-sidebar-description = Atidarykite šoninės juostos žymeklių skydelį
-gf-floorp-open-history-sidebar-name = [Floorp] Atidarykite šoninės juostos istorijos skydelį
+gf-floorp-open-history-sidebar-name = [{ -brand-short-name }] Open History Panel of Sidebar
 gf-floorp-open-history-sidebar-description = Atidarykite šoninės juostos istorijos skydelį
-gf-floorp-open-synctabs-sidebar-name = [Floorp] Atidarykite sinchronizuotų skirtukų šoninės juostos skydelį
+gf-floorp-open-synctabs-sidebar-name = [{ -brand-short-name }] Open Synced Tabs Panel of Sidebar
 gf-floorp-open-synctabs-sidebar-description = Atidarykite sinchronizuotų skirtukų šoninės juostos skydelį
-gf-floorp-close-sidebar-name = [Floorp] Uždaryti šoninę juostą
+gf-floorp-close-sidebar-name = [{ -brand-short-name }] Close Sidebar
 gf-floorp-close-sidebar-description = Uždaryti šoninę juostą
-gf-floorp-open-browser-manager-sidebar-name = [Floorp] Atvira BMS
+gf-floorp-open-browser-manager-sidebar-name = [{ -brand-short-name }] Open BMS
 gf-floorp-open-browser-manager-sidebar-description = Atidaryti naršyklės tvarkyklės šoninę juostą, jei buvo įkeltas naršyklės tvarkyklės šoninės juostos žiniatinklio skydelis
-gf-floorp-close-browser-manager-sidebar-name = [Floorp] Uždaryti BMS
+gf-floorp-close-browser-manager-sidebar-name = [{ -brand-short-name }] Close BMS
 gf-floorp-close-browser-manager-sidebar-description = Uždaryti naršyklės tvarkyklės šoninę juostą
-gf-floorp-show-browser-manager-sidebar-name = [Floorp] Perjungti BMS
+gf-floorp-show-browser-manager-sidebar-name = [{ -brand-short-name }] Toggle BMS
 gf-floorp-show-browser-manager-sidebar-description = Naršyklės tvarkyklės šoninės juostos perjungimas
-gf-floorp-hide-statusbar-name = [Floorp] Paslėpti būsenos juostą
+gf-floorp-hide-statusbar-name = [{ -brand-short-name }] Hide Status Bar
 gf-floorp-hide-statusbar-description = Paslėpti būsenos juostą
-gf-floorp-show-statusbar-name = [Floorp] Būsenos juostos perjungimas
+gf-floorp-show-statusbar-name = [{ -brand-short-name }] Toggle Status Bar
 gf-floorp-show-statusbar-description = Rodyti arba slėpti būsenos juostą
-gf-floorp-open-extension-sidebar-name = [Floorp] Atidarykite pasirinktą šoninės juostos priedą
+gf-floorp-open-extension-sidebar-name = [{ -brand-short-name }] Open selected add-on of Sidebar
 gf-floorp-open-extension-sidebar-description = Atidarykite pasirinktą šoninės juostos priedą
 gf-floorp-open-extension-sidebar-settings-addons-id = Šoninės juostos papildymas
 gf-floorp-open-extension-sidebar-settings-addons-id-description = Šoninės juostos atidarymo priedo pratęsimas
 gf-floorp-open-extension-sidebar-settings-list-default = Pasirinkite priedą
 gf-floorp-open-extension-sidebar-settings-list-unknwon = Nežinomas priedas
-##################################################################### Floorp System Update Portable Version ###############################################################
+##################################################################### { -brand-short-name } System Update Portable Version ###############################################################
 
 update-portable-notification-found-title = Atnaujinimai rasti!
 update-portable-notification-found-message = Atsisiunčiami atnaujinimai...
 update-portable-notification-ready-title = Paruošta atnaujinti!
 update-portable-notification-ready-message = { -brand-short-name } will be updated on the next launch.
 update-portable-notification-success-title = Atnaujinti pavyko!
-update-portable-notification-success-message = Atnaujinti pavyko! Tikimės, kad jums patiks naujoji "Floorp" versija!
+update-portable-notification-success-message = Update succeeded! Hope you enjoy the new version of { -brand-short-name }!
 update-portable-notification-failed-title = Atnaujinti nepavyko.
 update-portable-notification-failed-redirector-message = Atnaujinti nepavyko. Iš naujo paleidus naršyklę ši problema gali būti išspręsta.
 update-portable-notification-failed-prepare-message = Nepavyko parengti naujinimo.
-##################################################################### Floorp Portable Preferences ###############################################################
+##################################################################### { -brand-short-name } Portable Preferences ###############################################################
 
 floorp-portable-update-application-allow = { -brand-short-name } Nešiojamasis atnaujinimas
 floorp-update-application-auto-enabled-option = 
@@ -699,7 +699,7 @@ open-link-in-external-tab-context-menu = Atidaryti išorinėje naršyklėje
 open-link-in-external-tab-dialog-title-error = Įvyko klaida:
 open-link-in-external-tab-dialog-message-default-browser-not-found = Numatytoji naršyklė nerasta arba nėra sukonfigūruota.
 open-link-in-external-tab-dialog-message-selected-browser-not-found = Pasirinkta naršyklė neegzistuoja.
-######################################################################### Floorp Notes ###############################################################
+######################################################################### { -brand-short-name } Notes ###############################################################
 
 new-memo = Naujas
 memo-title-input-placeholder = Čia įrašykite pavadinimą
@@ -707,16 +707,15 @@ memo-input-placeholder = Parašykite arba įklijuokite atmintinę čia
 delete-memo = Ištrinti
 save-memo = Išsaugoti
 memo-welcome-title = Sveiki atvykę!
-memo-first-tip = Sveiki atvykę į "Floorp Notes"! Štai keletas instrukcijų, kaip ja naudotis!
-memo-second-tip = "Floorp Notes" yra užrašų knygelė, kurioje galite saugoti kelias pastabas, sinchronizuojamas su visais įrenginiais. Norėdami įjungti sinchronizavimą, turite prisijungti prie "Floorp" su savo "Firefox" paskyra.
-memo-third-tip = "Floorp" pastabos bus išsaugotos "Floorp" nustatymuose ir sinchronizuojamos visuose įrenginiuose naudojant "Firefox Sync". "Firefox Sync" užšifruoja sinchronizavimo turinį jūsų "Firefox" paskyros slaptažodžiu, todėl niekas, išskyrus jus, nežino jo turinio.
+memo-first-tip = Welcome to { -brand-short-name } Notes! Here are some instructions on how to use it!
+memo-second-tip = { -brand-short-name } Notes is a notepad that lets you store multiple notes that sync across devices. To enable synchronization, you need to sign in to { -brand-short-name } with your Firefox account.
+memo-third-tip = { -brand-short-name } Notes will be saved in your { -brand-short-name } settings and synchronized across devices using Firefox Sync. Firefox Sync encrypts the contents of the sync with your Firefox account password, so no one but you knows its contents.
 memo-import-data-tip = "Firefox Sync" nėra atsarginės kopijos kūrimo paslauga. Rekomenduojame kurti atsargines kopijas.
 memo-new-title = Nauja pastaba
 chage-view-mode = Perjungti peržiūros / redagavimo režimą
 readonly-mode = Neprisijungęs (tik nuskaityti)
 ######################################################################### Default bookmarks ###############################################################
 default-bookmark-ablaze-support = "Ablaze" palaikymas
-default-bookmark-notes = Pastabos dėl grindų
 ######################################################################### Like Chrome Download mgr ###############################################################
 
 floorp-delete-all-downloads = 
@@ -729,7 +728,7 @@ floorp-show-all-downloads =
     .tooltiptext = Rodyti visus atsisiuntimus
 ######################################################################### workspace ###############################################################
 
-workspace-prompt-title = "Floorp" darbo vieta
+workspace-prompt-title = { -brand-short-name } Workspace
 please-enter-workspace-name = Įveskite naują darbo vietos pavadinimą.
 please-enter-workspace-name-2 = Darbo vietos pavadinime negali būti simbolių ir tarpų.
 workspace-error = Įvyko klaida:
@@ -775,7 +774,7 @@ welcome-discribe-browser-design = Galite rinktis vieną iš nuostabių trečiosi
 welcome-design-lepton-name = "Lepton" originalus dizainas
 welcome-design-photon-name = "Lepton Photon" dizainas
 welcome-design-ProtonFix-name = "Lepton ProtonFix" dizainas
-welcome-design-floorp-fluerial-name = Grindys Fluerial dizainas
+welcome-design-floorp-fluerial-name = { -brand-short-name } Fluerial Design
 welcome-design-firefox-proton-name = "Firefox Proton" dizainas
 welcome-import-data = Importuokite naršyklės duomenis
 welcome-import-data-description = Greita sąranka! Importuokite žymes, slaptažodžius ir kt. iš senosios naršyklės. "Firefox" naudotojas gali importuoti duomenis iš "Firefox Sync".
