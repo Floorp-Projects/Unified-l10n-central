@@ -75,7 +75,7 @@ native-vertical-tab-show-right =
 hover-vertical-tab = 
     .label = Свернуть вертикальную панель вкладок
 TST = Вкладка Дерево Стиля
-about-TST = Tree Style Tab является популярным дополнением, которое позволяет отображать вкладки в дереве. У Floorp 10 встроено это дополнение. Пожалуйста, установите дополнение, чтобы восстановить вкладку стиля ползунка 10.
+about-TST = Tree Style Tab is a popular add-on that allows you to display tabs in a tree structure. { -brand-short-name } 10 has a built-in this add-on. Please install the add-on restore { -brand-short-name } 10's built-in Tree Style Tab.
 treestyletab-Settings = 
     .label = Свернуть вкладку Дерево
 sidebar-reverse-position-toolbar = Показывать боковые панели с другой стороны
@@ -128,7 +128,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Microsoft Fluent UI
 floorp-fluerialUI = 
-    .label = Floorp Fluerial UI
+    .label = { -brand-short-name } Fluerial UI
 floorp-gnomeUI = 
     .label = Тема GNOME
 
@@ -352,12 +352,12 @@ floorp-notes = Заметки { -brand-short-name }
 restore-from-backup = Восстановить заметки из резервной копии
 enable-notes-sync = 
     .label = Включить синхронизацию заметок { -brand-short-name }
-about-notes-backup-tips = Floorp Notes использует Firefox Sync для синхронизации ваших заметок с другими устройствами. Если вы потеряете заметки, вы cможете восстановить их из резервной копии. При запуске { -brand-short-name } создается резервная копия.
+about-notes-backup-tips = { -brand-short-name } Notes uses Firefox Sync to sync your notes with other devices. If you lose your notes, you can restore them from a backup. A backup is created when you start { -brand-short-name }.
 notes-sync-description = Это может решить проблему потери содержимого из-за перезаписи заметок во время синхронизации.
 backuped-time = Резервная копия создана в
 notes-backup-option = Настройки резервного копирования
 backup-option-button = Настройки резервного копирования...
-restore-from-backup-prompt-title = Служба восстановления заметок Floorp
+restore-from-backup-prompt-title = { -brand-short-name } Notes Restore Service
 restore-from-this-backup = Восстановить заметки до состояния, в котором они были в этой резервной копии?
 restore-button = Восстановить
 
@@ -376,7 +376,7 @@ apply-userjs-button = Применить
 
 ## userjs Options
 
-default-userjs-label = Floorp по умолчанию
+default-userjs-label = { -brand-short-name } Default
 about-default-userjs = Телеметрия отключена. { -brand-short-name } сбалансирован с включенными различными настройками.
 Securefox-label = Йооффисная Securefox
 about-Securefox = HTTPS-по умолчанию. Полная защита Cookie с изоляцией сайта. Расширенное состояние и сетевое разделение. Различные другие улучшения.
@@ -393,7 +393,7 @@ about-Smoothfox = Скачайте Edge-подобную плавную прок
 
 floorp-workspaces-title = Рабочие области { -brand-short-name }
 workspaces-backup-discription = Резервное копирование и восстановление ваших рабочих областей
-workspaces-restore-service-title = Служба резервного копирования рабочих областей Floorp
+workspaces-restore-service-title = { -brand-short-name } Workspaces Backup Service
 workspaces-restore-warning = Внимание! Запуск этой операции приведет к временному зависанию браузера и автоматическому перезапуску.
 floorp-workspace-settings-button = Настройки рабочей области...
 change-to-close-workspace-popup-option = 
@@ -405,7 +405,7 @@ workspaces-reset-label =
     .label = Сбросить рабочие области
 workspaces-reset-description = Если резервная копия не работает, и рабочая область не запускается, сбросить рабочую область.
 workspaces-reset-button = Сбросить рабочие области
-workspaces-reset-service-title = Рабочие области Floorp
+workspaces-reset-service-title = { -brand-short-name } Workspaces
 workspaces-reset-warning = Внимание! Запуск этой операции удалит все ваши рабочие пространства и перезапустит браузер.
 manage-workspace-on-bms-option = 
     .label = Управление проектом на боковой панели менеджера браузера
@@ -463,7 +463,7 @@ workspace-icon-chill =
     .label = Приватный
 # Custom Keyboard Shortcuts
 floorp-CSK-title = Пользовательские сочетания клавиш
-floorp-CSK-description = Настройте клавиши { -brand-short-name }на клавиатуре. Floorp предоставляет более 80 настраиваемых клавиш - перезапустите { -brand-short-name } для применения этих параметров. Дублировать горячие клавиши не будет работать.
+floorp-CSK-description = Customize { -brand-short-name }'s keyboard shortcuts. { -brand-short-name } provides more than 80 customizable keyboard shortcuts - restart { -brand-short-name } to apply these settings. Duplicate keyboard shortcuts will not work.
 disable-fx-actions = 
     .label = Отключить горячие клавиши Mozilla Firefox
 customize-Action = 
@@ -478,7 +478,7 @@ CSK-manage-title = Управление сочетаниями клавиш
 CSK-remove-shortcutkey = Удалить ярлык на клавиатуре?
 CSK-remove-shortcutkey-description = Вы уверены, что хотите удалить комбинацию клавиш?
 CSK-restore-default = Сбросить настройки?
-CSK-restore-default-description = Восстановить стандартные сочетания клавиш Floorp? Текущие сочетания клавиш будут потеряны.
+CSK-restore-default-description = Restore { -brand-short-name }'s default keyboard shortcuts? Your current shortcuts will be lost.
 CSK-reboot-browser-label = Перезапустите { -brand-short-name } , чтобы применить эти настройки
 CSK-reboot-browser-button = Перезапустить { -brand-short-name }
 # Exist shortcut key: "S", "shift"
@@ -546,7 +546,7 @@ WebRTC =
 ################################################################### browser ###############################################################
 
 rest-mode = Берём перерыв...
-rest-mode-description = Floorp остановлен. Нажмите OK или ENTER для возобновления работы.
+rest-mode-description = { -brand-short-name } is currently suspended. Press ENTER or OK to continue.
 Sidebar2 = 
     .label = Панель управления браузера
     .tooltiptext = Изменить видимость боковой панели
@@ -646,44 +646,44 @@ status-bar =
     .accesskey = S
 ##################################################################### Gesturefy ###############################################################
 
-gf-floorp-open-tree-style-tab-name = [Floorp] Открыть панель вкладок в стиле дерева
+gf-floorp-open-tree-style-tab-name = [{ -brand-short-name }] Open Tree Style Tab Panel
 gf-floorp-open-tree-style-tab-description = Открыть панель вкладок в стиле дерева на боковой панели
-gf-floorp-open-bookmarks-sidebar-name = [Floorp] Открывать панель закладок на боковой панели
+gf-floorp-open-bookmarks-sidebar-name = [{ -brand-short-name }] Open Bookmarks Panel of Sidebar
 gf-floorp-open-bookmarks-sidebar-description = Открыть панель закладок на боковой панели
-gf-floorp-open-history-sidebar-name = [Floorp] Открыть панель истории боковой панели
+gf-floorp-open-history-sidebar-name = [{ -brand-short-name }] Open History Panel of Sidebar
 gf-floorp-open-history-sidebar-description = Открыть панель истории боковой панели
-gf-floorp-open-synctabs-sidebar-name = [Floorp] панель открытых синхронизированных вкладок в боковой панели
+gf-floorp-open-synctabs-sidebar-name = [{ -brand-short-name }] Open Synced Tabs Panel of Sidebar
 gf-floorp-open-synctabs-sidebar-description = Открыть панель синхронизированных вкладок в боковой панели
-gf-floorp-close-sidebar-name = [Floorp] Закрыть боковую панель
+gf-floorp-close-sidebar-name = [{ -brand-short-name }] Close Sidebar
 gf-floorp-close-sidebar-description = Закрыть боковую панель
-gf-floorp-open-browser-manager-sidebar-name = [Floorp] открыть BMS
+gf-floorp-open-browser-manager-sidebar-name = [{ -brand-short-name }] Open BMS
 gf-floorp-open-browser-manager-sidebar-description = При загрузке веб-панели боковой панели менеджера браузера
-gf-floorp-close-browser-manager-sidebar-name = [Floorp] Закрыть BMS
+gf-floorp-close-browser-manager-sidebar-name = [{ -brand-short-name }] Close BMS
 gf-floorp-close-browser-manager-sidebar-description = Закрыть панель управления браузера
-gf-floorp-show-browser-manager-sidebar-name = [Floorp] Переключить BMS
+gf-floorp-show-browser-manager-sidebar-name = [{ -brand-short-name }] Toggle BMS
 gf-floorp-show-browser-manager-sidebar-description = Переключить панель управления браузера
-gf-floorp-hide-statusbar-name = [Floorp] Скрыть строку состояния
+gf-floorp-hide-statusbar-name = [{ -brand-short-name }] Hide Status Bar
 gf-floorp-hide-statusbar-description = Скрыть строку состояния
-gf-floorp-show-statusbar-name = [Floorp] Переключить строку состояния
+gf-floorp-show-statusbar-name = [{ -brand-short-name }] Toggle Status Bar
 gf-floorp-show-statusbar-description = Показать или скрыть строку состояния
-gf-floorp-open-extension-sidebar-name = [Floorp] Открыть выбранное дополнение к боковой панели
+gf-floorp-open-extension-sidebar-name = [{ -brand-short-name }] Open selected add-on of Sidebar
 gf-floorp-open-extension-sidebar-description = Открыть выбранное дополнение боковой панели
 gf-floorp-open-extension-sidebar-settings-addons-id = Дополнение к боковой панели
 gf-floorp-open-extension-sidebar-settings-addons-id-description = Расширение дополнения открытого для боковой панели
 gf-floorp-open-extension-sidebar-settings-list-default = Пожалуйста, выберите дополнение
 gf-floorp-open-extension-sidebar-settings-list-unknwon = Неизвестное дополнение
-##################################################################### Floorp System Update Portable Version ###############################################################
+##################################################################### { -brand-short-name } System Update Portable Version ###############################################################
 
 update-portable-notification-found-title = Найдены обновления!
 update-portable-notification-found-message = Загружаем обновления...
 update-portable-notification-ready-title = Обновления готовы к установке!
 update-portable-notification-ready-message = { -brand-short-name } will be updated on the next launch.
 update-portable-notification-success-title = Обновление прошло успешно!
-update-portable-notification-success-message = Обновление прошло успешно! Надеемся, вам понравится новая версия Floorp!
+update-portable-notification-success-message = Update succeeded! Hope you enjoy the new version of { -brand-short-name }!
 update-portable-notification-failed-title = Не удалось установить обновление.
 update-portable-notification-failed-redirector-message = Не удалось остановить обновления. Перезагрузка браузера может решить эту проблему.
 update-portable-notification-failed-prepare-message = Не удалось подготовить обновление.
-##################################################################### Floorp Portable Preferences ###############################################################
+##################################################################### { -brand-short-name } Portable Preferences ###############################################################
 
 floorp-portable-update-application-allow = Обновления { -brand-short-name } Portable
 floorp-update-application-auto-enabled-option = 
@@ -699,7 +699,7 @@ open-link-in-external-tab-context-menu = Открыть в другом брау
 open-link-in-external-tab-dialog-title-error = Произошла ошибка:
 open-link-in-external-tab-dialog-message-default-browser-not-found = Браузер по умолчанию не найден или не настроен.
 open-link-in-external-tab-dialog-message-selected-browser-not-found = Выбранный браузер не найден.
-######################################################################### Floorp Notes ###############################################################
+######################################################################### { -brand-short-name } Notes ###############################################################
 
 new-memo = Новая заметка
 memo-title-input-placeholder = Задайте заголовок
@@ -707,16 +707,15 @@ memo-input-placeholder = Введите или вставьте текст
 delete-memo = Удалить
 save-memo = Сохранить
 memo-welcome-title = Добро пожаловать!
-memo-first-tip = Добро пожаловать в заметки Floorp! Вот несколько инструкций по их использованию!
-memo-second-tip = Floorp Notes - это блокнот, который позволяет хранить несколько заметок, синхронизируемых между устройствами. Чтобы включить синхронизацию, вам нужно войти в Floorp с вашей учетной записью Firefox.
-memo-third-tip = Заметки Floorp будут сохранены в настройках Floorp и синхронизированы между устройствами с помощью Firefox Sync. Firefox Sync шифрует содержимое синхронизации с паролем учетной записи Firefox, поэтому никто, кроме вас, не сможет прочитать их содержимое.
+memo-first-tip = Welcome to { -brand-short-name } Notes! Here are some instructions on how to use it!
+memo-second-tip = { -brand-short-name } Notes is a notepad that lets you store multiple notes that sync across devices. To enable synchronization, you need to sign in to { -brand-short-name } with your Firefox account.
+memo-third-tip = { -brand-short-name } Notes will be saved in your { -brand-short-name } settings and synchronized across devices using Firefox Sync. Firefox Sync encrypts the contents of the sync with your Firefox account password, so no one but you knows its contents.
 memo-import-data-tip = Firefox Sync не является службой резервного копирования. Рекомендуется создавать резервные копии.
 memo-new-title = Новая заметка
 chage-view-mode = Режим просмотра/редактирования
 readonly-mode = Оффлайн (только для чтения)
 ######################################################################### Default bookmarks ###############################################################
 default-bookmark-ablaze-support = Поддержка Ablaze
-default-bookmark-notes = Заметки Floorp
 ######################################################################### Like Chrome Download mgr ###############################################################
 
 floorp-delete-all-downloads = 
@@ -729,7 +728,7 @@ floorp-show-all-downloads =
     .tooltiptext = Отобразить все загрузки
 ######################################################################### workspace ###############################################################
 
-workspace-prompt-title = Рабочие области Floorp
+workspace-prompt-title = { -brand-short-name } Workspace
 please-enter-workspace-name = Введите новое название рабочей области.
 please-enter-workspace-name-2 = Имя рабочей области не может содержать символы и пробелы.
 workspace-error = Произошла ошибка:
@@ -775,7 +774,7 @@ welcome-discribe-browser-design = Вы можете выбрать один из
 welcome-design-lepton-name = Lepton Original Design
 welcome-design-photon-name = Lepton Photon Design
 welcome-design-ProtonFix-name = Lepton ProtonFix Design
-welcome-design-floorp-fluerial-name = Floorp Fluerial Design
+welcome-design-floorp-fluerial-name = { -brand-short-name } Fluerial Design
 welcome-design-firefox-proton-name = Firefox Proton Design
 welcome-import-data = Импортировать ваши данные
 welcome-import-data-description = Быстрая настройка! Импортируйте свои закладки, пароли и многое другое из вашего старого браузера. Пользователи Firefox могут импортировать данные из Firefox Sync.
