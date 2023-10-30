@@ -75,7 +75,7 @@ native-vertical-tab-show-right =
 hover-vertical-tab = 
     .label = Collapse Vertical Tab Bar
 TST = تبويب نمط الشجرة
-about-TST = علامة تبويب نمط الشجرة هي إضافة شائعة تسمح لك بعرض علامات التبويب في بنية الشجرة. Floorp 10 لديها هذه الإضافة مدمجة. الرجاء تثبيت الإضافة على استعادة التبويب نمط Floorp 10 المدمج في الشجرة.
+about-TST = Tree Style Tab is a popular add-on that allows you to display tabs in a tree structure. { -brand-short-name } 10 has a built-in this add-on. Please install the add-on restore { -brand-short-name } 10's built-in Tree Style Tab.
 treestyletab-Settings = 
     .label = طي علامة تبويب نمط الشجرة
 sidebar-reverse-position-toolbar = إظهار الشريط الجانبي على الجانب الآخر
@@ -128,7 +128,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Microsoft Fluent UI
 floorp-fluerialUI = 
-    .label = واجهة الارضيّة المتطايرة الجوية
+    .label = { -brand-short-name } Fluerial UI
 floorp-gnomeUI = 
     .label = غنم السمة
 
@@ -352,12 +352,12 @@ floorp-notes = { -brand-short-name } Notes
 restore-from-backup = استعادة الملاحظات من النسخ الاحتياطي
 enable-notes-sync = 
     .label = تمكين مزامنة الملاحظات { -brand-short-name }
-about-notes-backup-tips = يستخدم Floorp ملاحظات مزامنة Firefox لمزامنة ملاحظاتك مع الأجهزة الأخرى. إذا فقدت ملاحظاتك، يمكنك استعادتها من نسخة احتياطية. يتم إنشاء نسخة احتياطية عند بدء { -brand-short-name }.
+about-notes-backup-tips = { -brand-short-name } Notes uses Firefox Sync to sync your notes with other devices. If you lose your notes, you can restore them from a backup. A backup is created when you start { -brand-short-name }.
 notes-sync-description = هذا يمكن أن يحل مشكلة فقدان المحتوى بسبب الكتابة فوق الملاحظات أثناء المزامنة.
 backuped-time = النسخ الاحتياطي في
 notes-backup-option = إعدادات النسخ الاحتياطي
 backup-option-button = إعدادات النسخ الاحتياطي...
-restore-from-backup-prompt-title = خدمة استعادة ملاحظات الأرضية
+restore-from-backup-prompt-title = { -brand-short-name } Notes Restore Service
 restore-from-this-backup = استعادة الملاحظات إلى الحالة التي كانوا فيها في هذه النسخة الاحتياطية؟
 restore-button = إستعادة
 
@@ -376,7 +376,7 @@ apply-userjs-button = تطبيق
 
 ## userjs Options
 
-default-userjs-label = أرضية الافتراضية
+default-userjs-label = { -brand-short-name } Default
 about-default-userjs = تم تعطيل Telemetry . حسناً توازن { -brand-short-name } مع تمكين مختلف التخصيصات.
 Securefox-label = تأمين يوكيرفوكس
 about-Securefox = HTTPS-بشكل افتراضي. حماية ملفات تعريف الارتباط الشاملة مع عزل الموقع. تعزيز تقسيم الحالة والشبكة. تحسينات أخرى مختلفة.
@@ -393,7 +393,7 @@ about-Smoothfox = احصل على تمرير سلس يشبه الشريط على
 
 floorp-workspaces-title = { -brand-short-name } مساحات عمل
 workspaces-backup-discription = النسخ الاحتياطي واستعادة مساحات العمل الخاصة بك
-workspaces-restore-service-title = خدمة النسخ الاحتياطي لمساحات العمل الأرضية
+workspaces-restore-service-title = { -brand-short-name } Workspaces Backup Service
 workspaces-restore-warning = تحذير! تشغيل هذه العملية سيؤدي إلى تجميد المتصفح مؤقتا وإعادة التشغيل تلقائيا.
 floorp-workspace-settings-button = إعدادات مساحة العمل...
 change-to-close-workspace-popup-option = 
@@ -405,7 +405,7 @@ workspaces-reset-label =
     .label = إعادة تعيين مساحات العمل
 workspaces-reset-description = إذا كانت النسخة الاحتياطية لا تعمل ولم تبدأ مساحة العمل، قم بإعادة تعيين مساحة العمل.
 workspaces-reset-button = إعادة تعيين مساحات العمل
-workspaces-reset-service-title = أرضية مساحات العمل
+workspaces-reset-service-title = { -brand-short-name } Workspaces
 workspaces-reset-warning = تحذير! تشغيل هذه العملية سيؤدي إلى حذف جميع مساحات العمل الخاصة بك وإعادة تشغيل المتصفح.
 manage-workspace-on-bms-option = 
     .label = إدارة مساحة العمل على مدير المتصفح الشريط الجانبي
@@ -463,7 +463,7 @@ workspace-icon-chill =
     .label = خاص
 # Custom Keyboard Shortcuts
 floorp-CSK-title = اختصارات لوحة المفاتيح المخصصة
-floorp-CSK-description = تخصيص اختصارات لوحة المفاتيح { -brand-short-name }. الأرضية توفر أكثر من 80 اختصارات لوحة المفاتيح القابلة للتخصيص - إعادة تشغيل { -brand-short-name } لتطبيق هذه الإعدادات. اختصارات لوحة المفاتيح المكررة لن تعمل.
+floorp-CSK-description = Customize { -brand-short-name }'s keyboard shortcuts. { -brand-short-name } provides more than 80 customizable keyboard shortcuts - restart { -brand-short-name } to apply these settings. Duplicate keyboard shortcuts will not work.
 disable-fx-actions = 
     .label = تعطيل اختصارات لوحة مفاتيح موزيلا فايرفوكس
 customize-Action = 
@@ -478,7 +478,7 @@ CSK-manage-title = إدارة اختصارات لوحة المفاتيح
 CSK-remove-shortcutkey = إزالة اختصار لوحة المفاتيح المخصصة؟
 CSK-remove-shortcutkey-description = هل أنت متأكد من أنك تريد إزالة اختصار لوحة المفاتيح هذا؟
 CSK-restore-default = استعادة الإعدادات الافتراضية؟
-CSK-restore-default-description = استعادة اختصارات لوحة المفاتيح الافتراضية الخاصة بالأرض؟ سيتم فقدان الاختصارات الحالية الخاصة بك.
+CSK-restore-default-description = Restore { -brand-short-name }'s default keyboard shortcuts? Your current shortcuts will be lost.
 CSK-reboot-browser-label = أعد تشغيل { -brand-short-name } لتطبيق هذه الإعدادات
 CSK-reboot-browser-button = إعادة تشغيل { -brand-short-name }
 # Exist shortcut key: "S", "shift"
@@ -546,7 +546,7 @@ WebRTC =
 ################################################################### browser ###############################################################
 
 rest-mode = أخذ راحة...
-rest-mode-description = الأرضية معلقة حاليا. اضغط ENTER أو موافق للمتابعة.
+rest-mode-description = { -brand-short-name } is currently suspended. Press ENTER or OK to continue.
 Sidebar2 = 
     .label = شريط جانبي لمدير المتصفح
     .tooltiptext = تغيير رؤية الشريط الجانبي
@@ -646,44 +646,44 @@ status-bar =
     .accesskey = س
 ##################################################################### Gesturefy ###############################################################
 
-gf-floorp-open-tree-style-tab-name = [Floorp] Open Tree Style Tab Panel
+gf-floorp-open-tree-style-tab-name = [{ -brand-short-name }] Open Tree Style Tab Panel
 gf-floorp-open-tree-style-tab-description = فتح لوحة تبويب نمط الشجرة من الشريط الجانبي
-gf-floorp-open-bookmarks-sidebar-name = [Floorp] Open Bookmarks Panel of Sidebar
+gf-floorp-open-bookmarks-sidebar-name = [{ -brand-short-name }] Open Bookmarks Panel of Sidebar
 gf-floorp-open-bookmarks-sidebar-description = فتح لوحة الإشارات المرجعية من الشريط الجانبي
-gf-floorp-open-history-sidebar-name = [Floorp] Open History Panel of Sidebar
+gf-floorp-open-history-sidebar-name = [{ -brand-short-name }] Open History Panel of Sidebar
 gf-floorp-open-history-sidebar-description = فتح لوحة المحفوظات من الشريط الجانبي
-gf-floorp-open-synctabs-sidebar-name = [Floorp] Open Synced Tabs Panel of Sidebar
+gf-floorp-open-synctabs-sidebar-name = [{ -brand-short-name }] Open Synced Tabs Panel of Sidebar
 gf-floorp-open-synctabs-sidebar-description = فتح علامة التبويب المتزامنة من الشريط الجانبي
-gf-floorp-close-sidebar-name = [Floorp] Close Sidebar
+gf-floorp-close-sidebar-name = [{ -brand-short-name }] Close Sidebar
 gf-floorp-close-sidebar-description = إغلاق الشريط الجانبي
-gf-floorp-open-browser-manager-sidebar-name = [Floorp] Open BMS
+gf-floorp-open-browser-manager-sidebar-name = [{ -brand-short-name }] Open BMS
 gf-floorp-open-browser-manager-sidebar-description = فتح مدير المتصفح Sidebar ، إذا تم تحميل لوحة ويب لمدير المتصفح الجانبي
-gf-floorp-close-browser-manager-sidebar-name = [Floorp] Close BMS
+gf-floorp-close-browser-manager-sidebar-name = [{ -brand-short-name }] Close BMS
 gf-floorp-close-browser-manager-sidebar-description = إغلاق الشريط الجانبي لمدير المتصفح
-gf-floorp-show-browser-manager-sidebar-name = [Floorp] Toggle BMS
+gf-floorp-show-browser-manager-sidebar-name = [{ -brand-short-name }] Toggle BMS
 gf-floorp-show-browser-manager-sidebar-description = تبديل شريط جانبي لمدير المتصفح
-gf-floorp-hide-statusbar-name = [Floorp] Hide Status Bar
+gf-floorp-hide-statusbar-name = [{ -brand-short-name }] Hide Status Bar
 gf-floorp-hide-statusbar-description = إخفاء شريط الحالة
-gf-floorp-show-statusbar-name = [Floorp] Toggle Status Bar
+gf-floorp-show-statusbar-name = [{ -brand-short-name }] Toggle Status Bar
 gf-floorp-show-statusbar-description = إظهار أو إخفاء شريط الحالة
-gf-floorp-open-extension-sidebar-name = [Floorp] Open selected add-on of Sidebar
+gf-floorp-open-extension-sidebar-name = [{ -brand-short-name }] Open selected add-on of Sidebar
 gf-floorp-open-extension-sidebar-description = افتح الإضافات المختارة للشريط الجانبي
 gf-floorp-open-extension-sidebar-settings-addons-id = إضافة الشريط الجانبي
 gf-floorp-open-extension-sidebar-settings-addons-id-description = تمديد الإضافات المفتوحة للشريط الجانبي
 gf-floorp-open-extension-sidebar-settings-list-default = الرجاء تحديد الإضافة
 gf-floorp-open-extension-sidebar-settings-list-unknwon = إضافة غير معروفة
-##################################################################### Floorp System Update Portable Version ###############################################################
+##################################################################### { -brand-short-name } System Update Portable Version ###############################################################
 
 update-portable-notification-found-title = تم العثور على تحديثات!
 update-portable-notification-found-message = جاري تحميل التحديثات...
 update-portable-notification-ready-title = جاهز للتحديث!
 update-portable-notification-ready-message = { -brand-short-name } will be updated on the next launch.
 update-portable-notification-success-title = نجاح التحديث!
-update-portable-notification-success-message = تم التحديث بنجاح! أتمنى أن تستمتع بالإصدار الجديد من الأرض!
+update-portable-notification-success-message = Update succeeded! Hope you enjoy the new version of { -brand-short-name }!
 update-portable-notification-failed-title = فشل التحديث.
 update-portable-notification-failed-redirector-message = فشل التحديث. إعادة تشغيل المتصفح الخاص بك قد تحل هذه المشكلة.
 update-portable-notification-failed-prepare-message = فشل في إعداد التحديث.
-##################################################################### Floorp Portable Preferences ###############################################################
+##################################################################### { -brand-short-name } Portable Preferences ###############################################################
 
 floorp-portable-update-application-allow = { -brand-short-name } تحديث محمول
 floorp-update-application-auto-enabled-option = 
@@ -699,7 +699,7 @@ open-link-in-external-tab-context-menu = فتح في المتصفح الخارج
 open-link-in-external-tab-dialog-title-error = حدث خطأ:
 open-link-in-external-tab-dialog-message-default-browser-not-found = لم يتم العثور على المتصفح الافتراضي أو لم يتم تكوينه.
 open-link-in-external-tab-dialog-message-selected-browser-not-found = المتصفح المحدد غير موجود.
-######################################################################### Floorp Notes ###############################################################
+######################################################################### { -brand-short-name } Notes ###############################################################
 
 new-memo = جديد
 memo-title-input-placeholder = اكتب عنوان هنا
@@ -707,16 +707,15 @@ memo-input-placeholder = كتابة أو لصق مذكرة هنا
 delete-memo = حذف
 save-memo = حفظ
 memo-welcome-title = مرحباً!
-memo-first-tip = مرحبا بكم في ملاحظات الأرض! إليك بعض الإرشادات حول كيفية استخدامها!
-memo-second-tip = ملاحظات فلورب هي لوحة ملاحظات تتيح لك تخزين ملاحظات متعددة مزامنة عبر الأجهزة. لتمكين المزامنة، تحتاج إلى تسجيل الدخول إلى Floorp مع حساب Firefox الخاص بك.
-memo-third-tip = سيتم حفظ ملاحظات الأرضية في إعدادات الأرضية ومزامنة عبر الأجهزة باستخدام مزامنة فايرفوكس. تقوم مزامنة فايرفوكس بتشفير محتويات المزامنة مع كلمة مرور حساب فايرفوكس، لذلك لا أحد إلا أنك تعرف محتوياتها.
+memo-first-tip = Welcome to { -brand-short-name } Notes! Here are some instructions on how to use it!
+memo-second-tip = { -brand-short-name } Notes is a notepad that lets you store multiple notes that sync across devices. To enable synchronization, you need to sign in to { -brand-short-name } with your Firefox account.
+memo-third-tip = { -brand-short-name } Notes will be saved in your { -brand-short-name } settings and synchronized across devices using Firefox Sync. Firefox Sync encrypts the contents of the sync with your Firefox account password, so no one but you knows its contents.
 memo-import-data-tip = مزامنة فايرفوكس ليست خدمة احتياطية. ننصحك بإنشاء نسخ احتياطية.
 memo-new-title = ملاحظة جديدة
 chage-view-mode = تبديل وضع العرض/التعديل
 readonly-mode = غير متصل (مقروء فقط)
 ######################################################################### Default bookmarks ###############################################################
 default-bookmark-ablaze-support = دعم Ablaze
-default-bookmark-notes = ملاحظات الأرضية
 ######################################################################### Like Chrome Download mgr ###############################################################
 
 floorp-delete-all-downloads = 
@@ -729,7 +728,7 @@ floorp-show-all-downloads =
     .tooltiptext = إظهار جميع التنزيلات
 ######################################################################### workspace ###############################################################
 
-workspace-prompt-title = مساحة العمل الأرضية
+workspace-prompt-title = { -brand-short-name } Workspace
 please-enter-workspace-name = الرجاء إدخال الاسم الجديد لفضاء العمل.
 please-enter-workspace-name-2 = لا يمكن أن يحتوي اسم مساحة العمل على رموز ومسافات.
 workspace-error = حدث خطأ:
@@ -775,7 +774,7 @@ welcome-discribe-browser-design = يمكنك اختيار أحد التصامي�
 welcome-design-lepton-name = تصميم ليبتون الأصلي
 welcome-design-photon-name = تصميم ليبتون فوتون
 welcome-design-ProtonFix-name = تصميم ليبتون بروتونفيكس
-welcome-design-floorp-fluerial-name = التصميم الجوي للأرضية
+welcome-design-floorp-fluerial-name = { -brand-short-name } Fluerial Design
 welcome-design-firefox-proton-name = تصميم فايرفوكس بروتون
 welcome-import-data = استيراد بيانات المتصفح الخاصة بك
 welcome-import-data-description = إعداد سريع! استيراد الإشارات المرجعية وكلمات المرور والمزيد من متصفحك القديم. يمكن لمستخدم فايرفوكس استيراد البيانات من مزامنة فايرفوكس.
