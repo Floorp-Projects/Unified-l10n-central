@@ -75,7 +75,7 @@ native-vertical-tab-show-right =
 hover-vertical-tab = 
     .label = Collapse Vertical Tab Bar
 TST = Καρτέλα Στυλ Δέντρου
-about-TST = Tree Style Tab είναι ένα δημοφιλές πρόσθετο που σας επιτρέπει να εμφανίσετε καρτέλες σε μια δομή δέντρου. Το Floorp 10 έχει ενσωματωμένο αυτό το πρόσθετο. Παρακαλώ εγκαταστήστε το πρόσθετο επαναφέρετε την ενσωματωμένη καρτέλα Δέντρου του Floorp 10.
+about-TST = Tree Style Tab is a popular add-on that allows you to display tabs in a tree structure. { -brand-short-name } 10 has a built-in this add-on. Please install the add-on restore { -brand-short-name } 10's built-in Tree Style Tab.
 treestyletab-Settings = 
     .label = Σύμπτυξη Καρτέλας Στυλ Δέντρου
 sidebar-reverse-position-toolbar = Εμφάνιση πλευρικών γραμμών στην άλλη πλευρά
@@ -128,7 +128,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Microsoft Fluent UI
 floorp-fluerialUI = 
-    .label = Floorp Fluerial UI
+    .label = { -brand-short-name } Fluerial UI
 floorp-gnomeUI = 
     .label = Θέμα GNOME
 
@@ -352,12 +352,12 @@ floorp-notes = { -brand-short-name } Σημειώσεις
 restore-from-backup = Επαναφορά σημειώσεων από αντίγραφο ασφαλείας
 enable-notes-sync = 
     .label = Ενεργοποίηση του συγχρονισμού { -brand-short-name } Notes
-about-notes-backup-tips = Το Floorp Notes χρησιμοποιεί Firefox Sync για να συγχρονίσει τις σημειώσεις σας με άλλες συσκευές. Αν χάσετε τις σημειώσεις σας, μπορείτε να τις επαναφέρετε από ένα αντίγραφο ασφαλείας. Ένα αντίγραφο ασφαλείας δημιουργείται όταν ξεκινάτε το { -brand-short-name }.
+about-notes-backup-tips = { -brand-short-name } Notes uses Firefox Sync to sync your notes with other devices. If you lose your notes, you can restore them from a backup. A backup is created when you start { -brand-short-name }.
 notes-sync-description = Αυτό μπορεί να λύσει το πρόβλημα της απώλειας περιεχομένου λόγω αντιγραφής σημειώσεων κατά τον συγχρονισμό.
 backuped-time = Αντίγραφο ασφαλείας στις
 notes-backup-option = Ρυθμίσεις Αντιγράφου Ασφαλείας
 backup-option-button = Ρυθμίσεις Αντιγράφων Ασφαλείας...
-restore-from-backup-prompt-title = Επαναφορά Σημείωσης Δάπεδο
+restore-from-backup-prompt-title = { -brand-short-name } Notes Restore Service
 restore-from-this-backup = Επαναφορά Σημειώσεων πίσω στην κατάσταση που ήταν σε αυτό το αντίγραφο ασφαλείας?
 restore-button = Επαναφορά
 
@@ -376,7 +376,7 @@ apply-userjs-button = Εφαρμογή
 
 ## userjs Options
 
-default-userjs-label = Προεπιλογή Floorp
+default-userjs-label = { -brand-short-name } Default
 about-default-userjs = Απενεργοποιημένη τηλεμετρία. Καλά ισορροπημένο { -brand-short-name } με ενεργοποιημένες διάφορες προσαρμογές.
 Securefox-label = Yokoffing Securefox
 about-Securefox = HTTPS-by-Default. Total Cookie Protection with site isolation. Enhanced state and network partitioning. Διάφορες άλλες βελτιώσεις.
@@ -393,7 +393,7 @@ about-Smoothfox = Πάρτε Edge-όπως ομαλή κύλιση στο αγα
 
 floorp-workspaces-title = { -brand-short-name } Χώροι εργασίας
 workspaces-backup-discription = Δημιουργία αντιγράφων ασφαλείας και επαναφορά των χώρων εργασίας
-workspaces-restore-service-title = Υπηρεσία Αντιγράφων Ασφαλείας Χώρου Εργασίας Δάπεδο
+workspaces-restore-service-title = { -brand-short-name } Workspaces Backup Service
 workspaces-restore-warning = Προσοχή! Η εκτέλεση αυτής της λειτουργίας θα προκαλέσει προσωρινά πάγωμα του περιηγητή και αυτόματη επανεκκίνηση.
 floorp-workspace-settings-button = Ρυθμίσεις Χώρου Εργασίας...
 change-to-close-workspace-popup-option = 
@@ -405,7 +405,7 @@ workspaces-reset-label =
     .label = Επαναφορά Χώρων Εργασίας
 workspaces-reset-description = Εάν ένα αντίγραφο ασφαλείας δεν λειτουργεί και ο χώρος εργασίας δεν ξεκινά, επαναφέρετε το χώρο εργασίας.
 workspaces-reset-button = Επαναφορά Χώρων Εργασίας
-workspaces-reset-service-title = Χώροι Εργασίας Δάπεδο
+workspaces-reset-service-title = { -brand-short-name } Workspaces
 workspaces-reset-warning = Προσοχή! Εκτέλεση αυτής της λειτουργίας θα διαγράψει όλους τους χώρους εργασίας σας και θα επανεκκινήσει το πρόγραμμα περιήγησης.
 manage-workspace-on-bms-option = 
     .label = Διαχείριση χώρου εργασίας στην πλευρική μπάρα του διαχειριστή του προγράμματος περιήγησης
@@ -463,7 +463,7 @@ workspace-icon-chill =
     .label = Ιδιωτικό
 # Custom Keyboard Shortcuts
 floorp-CSK-title = Προσαρμοσμένες συντομεύσεις πληκτρολογίου
-floorp-CSK-description = Προσαρμογή συντομεύσεων πληκτρολογίου { -brand-short-name }. Το Floorp παρέχει περισσότερες από 80 προσαρμόσιμες συντομεύσεις πληκτρολογίου - επανεκκινήστε το { -brand-short-name } για να εφαρμόσετε αυτές τις ρυθμίσεις. Διπλότυπες συντομεύσεις πληκτρολογίου δεν θα λειτουργήσουν.
+floorp-CSK-description = Customize { -brand-short-name }'s keyboard shortcuts. { -brand-short-name } provides more than 80 customizable keyboard shortcuts - restart { -brand-short-name } to apply these settings. Duplicate keyboard shortcuts will not work.
 disable-fx-actions = 
     .label = Απενεργοποίηση συντομεύσεων πληκτρολογίου Mozilla Firefox,
 customize-Action = 
@@ -478,7 +478,7 @@ CSK-manage-title = Διαχείριση συντομεύσεων πληκτρο�
 CSK-remove-shortcutkey = Αφαίρεση προσαρμοσμένης συντόμευσης πληκτρολογίου?
 CSK-remove-shortcutkey-description = Είστε βέβαιοι ότι θέλετε να καταργήσετε αυτή τη συντόμευση πληκτρολογίου?
 CSK-restore-default = Επαναφορά Προεπιλογών?
-CSK-restore-default-description = Επαναφορά προεπιλεγμένων συντομεύσεων πληκτρολογίου Floorp? Οι τρέχουσες συντομεύσεις σας θα χαθούν.
+CSK-restore-default-description = Restore { -brand-short-name }'s default keyboard shortcuts? Your current shortcuts will be lost.
 CSK-reboot-browser-label = Επανεκκίνηση του { -brand-short-name } για εφαρμογή αυτών των ρυθμίσεων
 CSK-reboot-browser-button = Επανεκκίνηση { -brand-short-name }
 # Exist shortcut key: "S", "shift"
@@ -546,7 +546,7 @@ WebRTC =
 ################################################################### browser ###############################################################
 
 rest-mode = Διάλειμμα...
-rest-mode-description = Το Floorp αναστέλλεται. Πατήστε ENTER ή OK για να συνεχίσετε.
+rest-mode-description = { -brand-short-name } is currently suspended. Press ENTER or OK to continue.
 Sidebar2 = 
     .label = Πλευρική Γραμμή Διαχείρισης Περιηγητή
     .tooltiptext = Αλλαγή ορατότητας πλευρικής μπάρας
@@ -646,44 +646,44 @@ status-bar =
     .accesskey = S
 ##################################################################### Gesturefy ###############################################################
 
-gf-floorp-open-tree-style-tab-name = [Floorp] Άνοιγμα πίνακα καρτέλας στυλ δέντρου
+gf-floorp-open-tree-style-tab-name = [{ -brand-short-name }] Open Tree Style Tab Panel
 gf-floorp-open-tree-style-tab-description = Άνοιγμα δέντρου στυλ καρτέλας πίνακα της πλευρικής μπάρας
-gf-floorp-open-bookmarks-sidebar-name = [Floorp] Ανοίξτε τον πίνακα σελιδοδεικτών της πλαϊνής γραμμής
+gf-floorp-open-bookmarks-sidebar-name = [{ -brand-short-name }] Open Bookmarks Panel of Sidebar
 gf-floorp-open-bookmarks-sidebar-description = Άνοιγμα πίνακα σελιδοδεικτών της πλευρικής μπάρας
-gf-floorp-open-history-sidebar-name = [Floorp] Ανοιχτός πίνακας ιστορίας της πλευρικής μπάρας
+gf-floorp-open-history-sidebar-name = [{ -brand-short-name }] Open History Panel of Sidebar
 gf-floorp-open-history-sidebar-description = Άνοιγμα πίνακα ιστορικού της πλευρικής μπάρας
-gf-floorp-open-synctabs-sidebar-name = [Floorp] Ανοίξτε τον πίνακα συγχρονισμένων καρτελών της πλαϊνής γραμμής
+gf-floorp-open-synctabs-sidebar-name = [{ -brand-short-name }] Open Synced Tabs Panel of Sidebar
 gf-floorp-open-synctabs-sidebar-description = Άνοιγμα του πίνακα συγχρονισμένων καρτελών της πλευρικής μπάρας
-gf-floorp-close-sidebar-name = [Floorp] Κλείσιμο πλευρικής μπάρας
+gf-floorp-close-sidebar-name = [{ -brand-short-name }] Close Sidebar
 gf-floorp-close-sidebar-description = Κλείσιμο Πλευρικής Μπάρας
-gf-floorp-open-browser-manager-sidebar-name = [Floorp] Ανοιχτό BMS
+gf-floorp-open-browser-manager-sidebar-name = [{ -brand-short-name }] Open BMS
 gf-floorp-open-browser-manager-sidebar-description = Ανοίξτε την Πλευρική Γραμμή Διαχείρισης του προγράμματος περιήγησης, αν φορτώθηκε webpanel του Διαχειριστή του προγράμματος περιήγησης
-gf-floorp-close-browser-manager-sidebar-name = [Floorp] Κλείσιμο BMS
+gf-floorp-close-browser-manager-sidebar-name = [{ -brand-short-name }] Close BMS
 gf-floorp-close-browser-manager-sidebar-description = Κλείσιμο Πλευρικής Μπάρας Διαχειριστή Περιηγητή
-gf-floorp-show-browser-manager-sidebar-name = [Floorp] Εναλλαγή BMS
+gf-floorp-show-browser-manager-sidebar-name = [{ -brand-short-name }] Toggle BMS
 gf-floorp-show-browser-manager-sidebar-description = Εναλλαγή Πλευρικής Μπάρας Διαχειριστή Περιηγητή
-gf-floorp-hide-statusbar-name = [Floorp] Απόκρυψη γραμμής κατάστασης
+gf-floorp-hide-statusbar-name = [{ -brand-short-name }] Hide Status Bar
 gf-floorp-hide-statusbar-description = Απόκρυψη Γραμμής Κατάστασης
-gf-floorp-show-statusbar-name = [Floorp] Εναλλαγή γραμμής κατάστασης
+gf-floorp-show-statusbar-name = [{ -brand-short-name }] Toggle Status Bar
 gf-floorp-show-statusbar-description = Εμφάνιση ή απόκρυψη γραμμής κατάστασης
-gf-floorp-open-extension-sidebar-name = [Floorp] Άνοιγμα επιλεγμένου πρόσθετου της πλευρικής μπάρας
+gf-floorp-open-extension-sidebar-name = [{ -brand-short-name }] Open selected add-on of Sidebar
 gf-floorp-open-extension-sidebar-description = Άνοιγμα επιλεγμένου πρόσθετου της πλευρικής μπάρας
 gf-floorp-open-extension-sidebar-settings-addons-id = Πρόσθετο της πλευρικής μπάρας
 gf-floorp-open-extension-sidebar-settings-addons-id-description = Η επέκταση του πρόσθετου ανοικτού της πλευρικής μπάρας
 gf-floorp-open-extension-sidebar-settings-list-default = Παρακαλώ επιλέξτε πρόσθετο
 gf-floorp-open-extension-sidebar-settings-list-unknwon = Άγνωστο πρόσθετο
-##################################################################### Floorp System Update Portable Version ###############################################################
+##################################################################### { -brand-short-name } System Update Portable Version ###############################################################
 
 update-portable-notification-found-title = Βρέθηκαν ενημερώσεις!
 update-portable-notification-found-message = Λήψη ενημερώσεων...
 update-portable-notification-ready-title = Έτοιμο για ενημέρωση!
 update-portable-notification-ready-message = { -brand-short-name } will be updated on the next launch.
 update-portable-notification-success-title = Η ενημέρωση πέτυχε!
-update-portable-notification-success-message = Ενημέρωση πέτυχε! Ελπίζω να απολαύσετε τη νέα έκδοση του Floorp!
+update-portable-notification-success-message = Update succeeded! Hope you enjoy the new version of { -brand-short-name }!
 update-portable-notification-failed-title = Αποτυχία ενημέρωσης.
 update-portable-notification-failed-redirector-message = Αποτυχία ενημέρωσης. Η επανεκκίνηση του προγράμματος περιήγησης μπορεί να λύσει αυτό το πρόβλημα.
 update-portable-notification-failed-prepare-message = Αποτυχία προετοιμασίας της ενημέρωσης.
-##################################################################### Floorp Portable Preferences ###############################################################
+##################################################################### { -brand-short-name } Portable Preferences ###############################################################
 
 floorp-portable-update-application-allow = { -brand-short-name } Φορητή Ενημέρωση
 floorp-update-application-auto-enabled-option = 
@@ -699,7 +699,7 @@ open-link-in-external-tab-context-menu = Άνοιγμα σε εξωτερικό 
 open-link-in-external-tab-dialog-title-error = Παρουσιάστηκε σφάλμα:
 open-link-in-external-tab-dialog-message-default-browser-not-found = Το προεπιλεγμένο πρόγραμμα περιήγησης δεν βρέθηκε ή δεν έχει ρυθμιστεί.
 open-link-in-external-tab-dialog-message-selected-browser-not-found = Το επιλεγμένο πρόγραμμα περιήγησης δεν υπάρχει.
-######################################################################### Floorp Notes ###############################################################
+######################################################################### { -brand-short-name } Notes ###############################################################
 
 new-memo = Νέο
 memo-title-input-placeholder = Γράψτε έναν τίτλο εδώ
@@ -707,16 +707,15 @@ memo-input-placeholder = Γράψτε ή επικολλήστε ένα υπόμ�
 delete-memo = Διαγραφή
 save-memo = Αποθήκευση
 memo-welcome-title = Καλωσορίσατε!
-memo-first-tip = Καλώς ήρθατε στις Σημειώσεις Floorp! Εδώ είναι μερικές οδηγίες για το πώς να το χρησιμοποιήσετε!
-memo-second-tip = Το Floorp Notes είναι ένα σημειωματάριο που σας επιτρέπει να αποθηκεύετε πολλαπλές σημειώσεις που συγχρονίζονται σε όλες τις συσκευές. Για να ενεργοποιήσετε το συγχρονισμό, πρέπει να συνδεθείτε στο Floorp με το λογαριασμό σας Firefox.
-memo-third-tip = Οι σημειώσεις δαπέδου θα αποθηκευτούν στις ρυθμίσεις του δαπέδου σας και θα συγχρονιστούν σε συσκευές που χρησιμοποιούν τον συγχρονισμό Firefox. Ο συγχρονισμός Firefox κρυπτογραφεί τα περιεχόμενα του συγχρονισμού με τον κωδικό πρόσβασης του λογαριασμού σας Firefox, οπότε κανείς, αλλά γνωρίζετε τα περιεχόμενά του.
+memo-first-tip = Welcome to { -brand-short-name } Notes! Here are some instructions on how to use it!
+memo-second-tip = { -brand-short-name } Notes is a notepad that lets you store multiple notes that sync across devices. To enable synchronization, you need to sign in to { -brand-short-name } with your Firefox account.
+memo-third-tip = { -brand-short-name } Notes will be saved in your { -brand-short-name } settings and synchronized across devices using Firefox Sync. Firefox Sync encrypts the contents of the sync with your Firefox account password, so no one but you knows its contents.
 memo-import-data-tip = Το Firefox Sync δεν είναι μια υπηρεσία αντιγράφου ασφαλείας. Σας συνιστούμε να δημιουργήσετε αντίγραφα ασφαλείας.
 memo-new-title = Νέα Σημείωση
 chage-view-mode = Εναλλαγή Λειτουργίας Προβολής/Επεξεργασίας
 readonly-mode = Αποσυνδεδεμένος (Μόνο για ανάγνωση)
 ######################################################################### Default bookmarks ###############################################################
 default-bookmark-ablaze-support = Υποστήριξη Ablaze
-default-bookmark-notes = Σημειώσεις Δαπέδου
 ######################################################################### Like Chrome Download mgr ###############################################################
 
 floorp-delete-all-downloads = 
@@ -729,7 +728,7 @@ floorp-show-all-downloads =
     .tooltiptext = Εμφάνιση όλων των λήψεων
 ######################################################################### workspace ###############################################################
 
-workspace-prompt-title = Χώρος Εργασίας Δάπεδο
+workspace-prompt-title = { -brand-short-name } Workspace
 please-enter-workspace-name = Παρακαλώ εισάγετε το νέο όνομα του χώρου εργασίας.
 please-enter-workspace-name-2 = Το όνομα του Χώρου Εργασίας δεν μπορεί να περιέχει σύμβολα και κενά.
 workspace-error = Παρουσιάστηκε σφάλμα:
@@ -775,7 +774,7 @@ welcome-discribe-browser-design = Μπορείτε να επιλέξετε έν�
 welcome-design-lepton-name = Αρχικός Σχεδιασμός Lepton
 welcome-design-photon-name = Lepton Σχεδιασμός Φωτονίων
 welcome-design-ProtonFix-name = Σχεδιασμός ProtonFix Lepton
-welcome-design-floorp-fluerial-name = Σχεδιασμός Φθοριούχων Οροφών
+welcome-design-floorp-fluerial-name = { -brand-short-name } Fluerial Design
 welcome-design-firefox-proton-name = Firefox Proton Σχεδιασμός
 welcome-import-data = Εισαγωγή Δεδομένων Περιηγητή Σας
 welcome-import-data-description = Γρήγορη εγκατάσταση! Εισαγάγετε τους σελιδοδείκτες, τους κωδικούς πρόσβασης και περισσότερα από το παλιό σας πρόγραμμα περιήγησης. Ο χρήστης Firefox μπορεί να εισάγει δεδομένα από τον συγχρονισμό Firefox.
