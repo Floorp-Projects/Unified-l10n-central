@@ -75,7 +75,7 @@ native-vertical-tab-show-right =
 hover-vertical-tab = 
     .label = Collapse Vertical Tab Bar
 TST = 트리 스타일 탭
-about-TST = 트리 스타일 탭은 탭을 트리 구조로 표시할 수 있는 인기 있는 애드온입니다. Floorp 10에는 이 애드온이 내장되어 있습니다. 애드온을 설치하여 Floorp 10에 내장된 트리 스타일 탭을 복원하세요.
+about-TST = Tree Style Tab is a popular add-on that allows you to display tabs in a tree structure. { -brand-short-name } 10 has a built-in this add-on. Please install the add-on restore { -brand-short-name } 10's built-in Tree Style Tab.
 treestyletab-Settings = 
     .label = 트리 스타일 탭 접기
 sidebar-reverse-position-toolbar = 반대편에 사이드바 표시
@@ -128,7 +128,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Microsoft Fluent UI
 floorp-fluerialUI = 
-    .label = Floorp Flurial UI
+    .label = { -brand-short-name } Fluerial UI
 floorp-gnomeUI = 
     .label = GNOME 테마
 
@@ -352,12 +352,12 @@ floorp-notes = { -brand-short-name } 참고
 restore-from-backup = 백업에서 노트 복원
 enable-notes-sync = 
     .label = { -brand-short-name } 노트 동기화 활성화
-about-notes-backup-tips = Floorp Notes는 Firefox 동기화를 사용해 노트를 다른 장치와 동기화합니다. 노트를 잃어버린 경우, 백업에서 복원할 수 있습니다. { -brand-short-name }을 시작하면 백업이 생성됩니다.
+about-notes-backup-tips = { -brand-short-name } Notes uses Firefox Sync to sync your notes with other devices. If you lose your notes, you can restore them from a backup. A backup is created when you start { -brand-short-name }.
 notes-sync-description = 이렇게 하면 동기화 중 노트 덮어쓰기로 인해 콘텐츠가 손실되는 문제를 해결할 수 있습니다.
 backuped-time = 백업 위치
 notes-backup-option = 백업 설정
 backup-option-button = 백업 설정...
-restore-from-backup-prompt-title = Floorp Notes 복원 서비스
+restore-from-backup-prompt-title = { -brand-short-name } Notes Restore Service
 restore-from-this-backup = 노트를 이 백업 상태로 복원하시겠습니까?
 restore-button = 복원
 
@@ -376,7 +376,7 @@ apply-userjs-button = 적용하기
 
 ## userjs Options
 
-default-userjs-label = Floorp Default
+default-userjs-label = { -brand-short-name } Default
 about-default-userjs = 원격 측정이 비활성화되었습니다. 다양한 커스텀이 활성화된 균형 잡힌 { -brand-short-name } .
 Securefox-label = Yokoffing Securefox
 about-Securefox = 기본적으로 HTTPS. 사이트 격리를 통한 완벽한 쿠키 보호. 향상된 상태 및 네트워크 파티셔닝. 기타 다양한 개선 사항.
@@ -393,7 +393,7 @@ about-Smoothfox = 즐겨 사용하는 브라우저에서 Edge와 같은 부드�
 
 floorp-workspaces-title = { -brand-short-name } 워크스페이스
 workspaces-backup-discription = 워크스페이스 백업 및 복원
-workspaces-restore-service-title = Floorp 워크스페이스 백업 서비스
+workspaces-restore-service-title = { -brand-short-name } Workspaces Backup Service
 workspaces-restore-warning = 경고! 이 작업을 실행하면 브라우저가 일시적으로 정지되었다가 자동으로 재시작됩니다.
 floorp-workspace-settings-button = 워크스페이스 설정...
 change-to-close-workspace-popup-option = 
@@ -405,7 +405,7 @@ workspaces-reset-label =
     .label = 워크스페이스 초기화
 workspaces-reset-description = 만약 백업이 작동하지 않고 워크스페이스가 시작되지 않다면, 워크스페이스를 초기화하세요.
 workspaces-reset-button = 워크스페이스 초기화
-workspaces-reset-service-title = Floorp 워크스페이스
+workspaces-reset-service-title = { -brand-short-name } Workspaces
 workspaces-reset-warning = 경고! 이 작업을 실행하면 모든 워크스페이스가 삭제되고 브라우저가 재시작됩니다.
 manage-workspace-on-bms-option = 
     .label = 브라우저 관리자 사이드바에서 워크스페이스 관리하기
@@ -463,7 +463,7 @@ workspace-icon-chill =
     .label = 사생활
 # Custom Keyboard Shortcuts
 floorp-CSK-title = 커스텀 키보드 단축키
-floorp-CSK-description = { -brand-short-name }의 키보드 단축키를 커스텀합니다. Floorp는 80개 이상의 커스텀 가능한 키보드 단축키를 제공합니다. 이러한 설정을 적용하려면 { -brand-short-name } 을 재시작하세요. 중복된 키보드 단축키는 작동하지 않습니다.
+floorp-CSK-description = Customize { -brand-short-name }'s keyboard shortcuts. { -brand-short-name } provides more than 80 customizable keyboard shortcuts - restart { -brand-short-name } to apply these settings. Duplicate keyboard shortcuts will not work.
 disable-fx-actions = 
     .label = Mozilla Firefox의 키보드 단축키 비활성화하기
 customize-Action = 
@@ -478,7 +478,7 @@ CSK-manage-title = 키보드 단축키 관리
 CSK-remove-shortcutkey = 사용자 지정 키보드 단축키를 제거하시겠습니까?
 CSK-remove-shortcutkey-description = 이 키보드 단축키를 제거하시겠습니까?
 CSK-restore-default = 기본값 복원?
-CSK-restore-default-description = Floorp의 기본 키보드 단축키를 복원하시겠습니까? 현재 단축키를 잃게 됩니다.
+CSK-restore-default-description = Restore { -brand-short-name }'s default keyboard shortcuts? Your current shortcuts will be lost.
 CSK-reboot-browser-label = { -brand-short-name } 을 재시작하여 다음 설정을 적용합니다.
 CSK-reboot-browser-button = { -brand-short-name }를 재시작하기
 # Exist shortcut key: "S", "shift"
@@ -546,7 +546,7 @@ WebRTC =
 ################################################################### browser ###############################################################
 
 rest-mode = 휴식 중...
-rest-mode-description = Floorp가 현재 일시 중단되었습니다. 계속하려면 Enter 또는 확인을 누르세요.
+rest-mode-description = { -brand-short-name } is currently suspended. Press ENTER or OK to continue.
 Sidebar2 = 
     .label = 브라우저 관리자 사이드바
     .tooltiptext = 사이드바 가시성 변경
@@ -646,44 +646,44 @@ status-bar =
     .accesskey = S
 ##################################################################### Gesturefy ###############################################################
 
-gf-floorp-open-tree-style-tab-name = [Floorp] 트리 스타일 탭 패널 열기
+gf-floorp-open-tree-style-tab-name = [{ -brand-short-name }] Open Tree Style Tab Panel
 gf-floorp-open-tree-style-tab-description = 사이드바의 트리 스타일 탭 패널 열기
-gf-floorp-open-bookmarks-sidebar-name = [Floorp] 사이드바의 북마크 패널 열기
+gf-floorp-open-bookmarks-sidebar-name = [{ -brand-short-name }] Open Bookmarks Panel of Sidebar
 gf-floorp-open-bookmarks-sidebar-description = 사이드바의 북마크 패널 열기
-gf-floorp-open-history-sidebar-name = [Floorp] 사이드바의 기록 패널 열기
+gf-floorp-open-history-sidebar-name = [{ -brand-short-name }] Open History Panel of Sidebar
 gf-floorp-open-history-sidebar-description = 사이드바의 기록 패널 열기
-gf-floorp-open-synctabs-sidebar-name = [Floorp] 사이드바의 동기화된 탭 패널 열기
+gf-floorp-open-synctabs-sidebar-name = [{ -brand-short-name }] Open Synced Tabs Panel of Sidebar
 gf-floorp-open-synctabs-sidebar-description = 사이드바의 동기화된 탭 패널 열기
-gf-floorp-close-sidebar-name = [Floorp] 사이드바 닫기
+gf-floorp-close-sidebar-name = [{ -brand-short-name }] Close Sidebar
 gf-floorp-close-sidebar-description = 사이드바 닫기
-gf-floorp-open-browser-manager-sidebar-name = [Floorp] BMS 열기
+gf-floorp-open-browser-manager-sidebar-name = [{ -brand-short-name }] Open BMS
 gf-floorp-open-browser-manager-sidebar-description = 브라우저 관리자 사이드바의 웹 패널이 로드된 경우 브라우저 관리자 사이드바 열기
-gf-floorp-close-browser-manager-sidebar-name = [Floorp] BMS 닫기
+gf-floorp-close-browser-manager-sidebar-name = [{ -brand-short-name }] Close BMS
 gf-floorp-close-browser-manager-sidebar-description = 브라우저 관리자 사이드바 닫기
-gf-floorp-show-browser-manager-sidebar-name = [Floorp] BMS 전환
+gf-floorp-show-browser-manager-sidebar-name = [{ -brand-short-name }] Toggle BMS
 gf-floorp-show-browser-manager-sidebar-description = 브라우저 관리자 사이드바 토글
-gf-floorp-hide-statusbar-name = [Floorp] 상태 표시줄 숨기기
+gf-floorp-hide-statusbar-name = [{ -brand-short-name }] Hide Status Bar
 gf-floorp-hide-statusbar-description = 상태 표시줄 숨기기
-gf-floorp-show-statusbar-name = [Floorp] 상태 표시줄 토글
+gf-floorp-show-statusbar-name = [{ -brand-short-name }] Toggle Status Bar
 gf-floorp-show-statusbar-description = 상태 표시줄 표시 또는 숨기기
-gf-floorp-open-extension-sidebar-name = [Floorp] 사이드바에서 선택한 애드온 열기
+gf-floorp-open-extension-sidebar-name = [{ -brand-short-name }] Open selected add-on of Sidebar
 gf-floorp-open-extension-sidebar-description = 사이드바에서 선택한 애드온 열기
 gf-floorp-open-extension-sidebar-settings-addons-id = 사이드바 애드온
 gf-floorp-open-extension-sidebar-settings-addons-id-description = 사이드바의 애드온 열기 확장
 gf-floorp-open-extension-sidebar-settings-list-default = 부가 기능을 선택하세요.
 gf-floorp-open-extension-sidebar-settings-list-unknwon = 알 수 없는 애드온
-##################################################################### Floorp System Update Portable Version ###############################################################
+##################################################################### { -brand-short-name } System Update Portable Version ###############################################################
 
 update-portable-notification-found-title = 새로운 업데이트를 찾았어요!
 update-portable-notification-found-message = 업데이트 다운로드 중...
 update-portable-notification-ready-title = 업데이트 준비 완료!
 update-portable-notification-ready-message = { -brand-short-name } will be updated on the next launch.
 update-portable-notification-success-title = 업데이트에 성공했습니다!
-update-portable-notification-success-message = 업데이트 성공! Floorp의 새로운 버전을 즐겨주세요!
+update-portable-notification-success-message = Update succeeded! Hope you enjoy the new version of { -brand-short-name }!
 update-portable-notification-failed-title = 업데이트하지 못했습니다.
 update-portable-notification-failed-redirector-message = 업데이트하지 못했습니다. 브라우저를 다시 시작하면 이 문제가 해결될 수 있습니다.
 update-portable-notification-failed-prepare-message = 업데이트를 준비하지 못했습니다.
-##################################################################### Floorp Portable Preferences ###############################################################
+##################################################################### { -brand-short-name } Portable Preferences ###############################################################
 
 floorp-portable-update-application-allow = { -brand-short-name } Portable 업데이트
 floorp-update-application-auto-enabled-option = 
@@ -699,7 +699,7 @@ open-link-in-external-tab-context-menu = 외부 브라우저에서 열기
 open-link-in-external-tab-dialog-title-error = 오류가 발생했습니다:
 open-link-in-external-tab-dialog-message-default-browser-not-found = 기본 브라우저를 찾을 수 없거나 구성되지 않았습니다.
 open-link-in-external-tab-dialog-message-selected-browser-not-found = 선택한 브라우저가 존재하지 않습니다.
-######################################################################### Floorp Notes ###############################################################
+######################################################################### { -brand-short-name } Notes ###############################################################
 
 new-memo = 신규
 memo-title-input-placeholder = 여기에 제목을 입력하세요.
@@ -707,16 +707,15 @@ memo-input-placeholder = 여기에 메모를 작성하거나 붙여넣기
 delete-memo = 삭제
 save-memo = 저장
 memo-welcome-title = 환영합니다!
-memo-first-tip = 플로어노트에 오신 것을 환영합니다! 사용 방법에 대한 몇 가지 지침을 알려드립니다!
-memo-second-tip = 플로어피 노트는 여러 장치에서 동기화되는 여러 개의 노트를 저장할 수 있는 메모장입니다. 동기화를 사용하려면 Firefox 계정으로 Floorp에 로그인해야 합니다.
-memo-third-tip = 플로어원 노트는 플로어원 설정에 저장되고 Firefox 동기화를 사용해 여러 장치에서 동기화됩니다. Firefox 동기화는 동기화 내용을 Firefox 계정 비밀번호로 암호화하기 때문에 회원님 외에는 아무도 그 내용을 알 수 없습니다.
+memo-first-tip = Welcome to { -brand-short-name } Notes! Here are some instructions on how to use it!
+memo-second-tip = { -brand-short-name } Notes is a notepad that lets you store multiple notes that sync across devices. To enable synchronization, you need to sign in to { -brand-short-name } with your Firefox account.
+memo-third-tip = { -brand-short-name } Notes will be saved in your { -brand-short-name } settings and synchronized across devices using Firefox Sync. Firefox Sync encrypts the contents of the sync with your Firefox account password, so no one but you knows its contents.
 memo-import-data-tip = Firefox 동기화는 백업 서비스가 아닙니다. 백업을 생성하는 것이 좋습니다.
 memo-new-title = 새 노트
 chage-view-mode = 보기/편집 모드 전환
 readonly-mode = 오프라인(읽기 전용)
 ######################################################################### Default bookmarks ###############################################################
 default-bookmark-ablaze-support = 애블레이즈 지원
-default-bookmark-notes = 플로어 노트
 ######################################################################### Like Chrome Download mgr ###############################################################
 
 floorp-delete-all-downloads = 
@@ -729,7 +728,7 @@ floorp-show-all-downloads =
     .tooltiptext = 모든 다운로드 표시
 ######################################################################### workspace ###############################################################
 
-workspace-prompt-title = 플로어 작업 공간
+workspace-prompt-title = { -brand-short-name } Workspace
 please-enter-workspace-name = 워크스페이스의 새 이름을 입력하세요.
 please-enter-workspace-name-2 = 워크스페이스의 이름에는 기호 및 공백을 포함할 수 없습니다.
 workspace-error = 오류가 발생했습니다:
@@ -775,7 +774,7 @@ welcome-discribe-browser-design = 멋진 타사 디자인( { -brand-short-name }
 welcome-design-lepton-name = 렙톤 오리지널 디자인
 welcome-design-photon-name = 렙톤 광자 디자인
 welcome-design-ProtonFix-name = 렙톤 프로톤픽스 디자인
-welcome-design-floorp-fluerial-name = 플로어 플로어 디자인
+welcome-design-floorp-fluerial-name = { -brand-short-name } Fluerial Design
 welcome-design-firefox-proton-name = 파이어폭스 양성자 디자인
 welcome-import-data = 브라우저 데이터 가져오기
 welcome-import-data-description = 빠른 설정! 이전 브라우저에서 북마크, 비밀번호 등을 가져올 수 있습니다. Firefox 사용자는 Firefox 동기화에서 데이터를 가져올 수 있습니다.
