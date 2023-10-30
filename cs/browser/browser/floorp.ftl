@@ -75,7 +75,7 @@ native-vertical-tab-show-right =
 hover-vertical-tab = 
     .label = Collapse Vertical Tab Bar
 TST = Styl stromu
-about-TST = Karta Styl stromu je populární doplněk, který vám umožňuje zobrazit panely ve stromové struktuře. Floorp 10 má vestavěný doplněk. Nainstalujte prosím doplněk pro obnovu podlahy 10 vestavěné karty Styl stromu.
+about-TST = Tree Style Tab is a popular add-on that allows you to display tabs in a tree structure. { -brand-short-name } 10 has a built-in this add-on. Please install the add-on restore { -brand-short-name } 10's built-in Tree Style Tab.
 treestyletab-Settings = 
     .label = Sbalit styl stromu
 sidebar-reverse-position-toolbar = Zobrazit postranní panely na druhé straně
@@ -128,7 +128,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Microsoft Fluent UI
 floorp-fluerialUI = 
-    .label = Uživatelské rozhraní podlahy
+    .label = { -brand-short-name } Fluerial UI
 floorp-gnomeUI = 
     .label = GNOME šablona
 
@@ -352,12 +352,12 @@ floorp-notes = { -brand-short-name } Poznámky
 restore-from-backup = Obnovit poznámky ze zálohy
 enable-notes-sync = 
     .label = Povolit synchronizaci poznámek { -brand-short-name }
-about-notes-backup-tips = Floorp Notes používá Firefox Sync pro synchronizaci poznámek s ostatními zařízeními. Pokud ztratíte své poznámky, můžete je obnovit ze zálohy. Záloha je vytvořena při spuštění { -brand-short-name }.
+about-notes-backup-tips = { -brand-short-name } Notes uses Firefox Sync to sync your notes with other devices. If you lose your notes, you can restore them from a backup. A backup is created when you start { -brand-short-name }.
 notes-sync-description = To může vyřešit problém ztráty obsahu kvůli přepsání poznámek během synchronizace.
 backuped-time = Zálohováno v
 notes-backup-option = Nastavení zálohování
 backup-option-button = Nastavení zálohy...
-restore-from-backup-prompt-title = Služba obnovení zpráv z Floorp
+restore-from-backup-prompt-title = { -brand-short-name } Notes Restore Service
 restore-from-this-backup = Obnovit poznámky zpět do stavu, ve kterém se nacházeli v této záloze?
 restore-button = Obnovit
 
@@ -376,7 +376,7 @@ apply-userjs-button = Použít
 
 ## userjs Options
 
-default-userjs-label = Výchozí podlaha
+default-userjs-label = { -brand-short-name } Default
 about-default-userjs = Telemetrie je zakázána. Je dobře vyvážená { -brand-short-name } s různými nastaveními.
 Securefox-label = Zabezpečené Yokoffing
 about-Securefox = HTTPS-by-Default. Celková ochrana Cookie s izolací stránek. Vylepšený stav a rozdělení sítí. Různá další vylepšení.
@@ -393,7 +393,7 @@ about-Smoothfox = Získejte hladký posun jako Edge ve svém oblíbeném prohlí
 
 floorp-workspaces-title = { -brand-short-name } Pracovní prostory
 workspaces-backup-discription = Zálohovat a obnovit vaše pracovní prostory
-workspaces-restore-service-title = Zálohovací služba podlahových pracovních prostor
+workspaces-restore-service-title = { -brand-short-name } Workspaces Backup Service
 workspaces-restore-warning = Varování! Spuštění této operace způsobí, že prohlížeč dočasně zmrazí a automaticky restartuje.
 floorp-workspace-settings-button = Nastavení pracovního prostoru...
 change-to-close-workspace-popup-option = 
@@ -405,7 +405,7 @@ workspaces-reset-label =
     .label = Resetovat pracovní prostory
 workspaces-reset-description = Pokud záloha nefunguje a pracovní prostor se nespustí, resetuje pracovní prostor.
 workspaces-reset-button = Resetovat pracovní prostory
-workspaces-reset-service-title = Podlahové pracovní prostory
+workspaces-reset-service-title = { -brand-short-name } Workspaces
 workspaces-reset-warning = Varování! Spuštěním této operace smažete všechny vaše pracovní prostory a restartujte prohlížeč.
 manage-workspace-on-bms-option = 
     .label = Spravovat pracovní prostor v postranním panelu prohlížeče
@@ -463,7 +463,7 @@ workspace-icon-chill =
     .label = Soukromé
 # Custom Keyboard Shortcuts
 floorp-CSK-title = Vlastní klávesové zkratky
-floorp-CSK-description = Přizpůsobte klávesové zkratky { -brand-short-name }. Floorp poskytuje více než 80 přizpůsobitelných klávesových zkratek - restartujte { -brand-short-name } pro použití těchto nastavení. Duplicitní klávesové zkratky nebudou fungovat.
+floorp-CSK-description = Customize { -brand-short-name }'s keyboard shortcuts. { -brand-short-name } provides more than 80 customizable keyboard shortcuts - restart { -brand-short-name } to apply these settings. Duplicate keyboard shortcuts will not work.
 disable-fx-actions = 
     .label = Zakázat klávesové zkratky Mozilla Firefoxu
 customize-Action = 
@@ -478,7 +478,7 @@ CSK-manage-title = Správa klávesových zkratek
 CSK-remove-shortcutkey = Odstranit vlastní klávesovou zkratku?
 CSK-remove-shortcutkey-description = Opravdu chcete odstranit tuto klávesovou zkratku?
 CSK-restore-default = Obnovit výchozí?
-CSK-restore-default-description = Obnovit výchozí klávesové zkratky podlahy? Vaše aktuální zkratky budou ztraceny.
+CSK-restore-default-description = Restore { -brand-short-name }'s default keyboard shortcuts? Your current shortcuts will be lost.
 CSK-reboot-browser-label = Pro použití těchto nastavení restartujte { -brand-short-name }
 CSK-reboot-browser-button = Restartovat { -brand-short-name }
 # Exist shortcut key: "S", "shift"
@@ -546,7 +546,7 @@ WebRTC =
 ################################################################### browser ###############################################################
 
 rest-mode = Probíhá přestávka...
-rest-mode-description = Podlaha je v současné době pozastavena. Pokračujte stisknutím klávesy ENTER nebo OK.
+rest-mode-description = { -brand-short-name } is currently suspended. Press ENTER or OK to continue.
 Sidebar2 = 
     .label = Postranní panel správce prohlížeče
     .tooltiptext = Změnit viditelnost postranního panelu
@@ -646,44 +646,44 @@ status-bar =
     .accesskey = S
 ##################################################################### Gesturefy ###############################################################
 
-gf-floorp-open-tree-style-tab-name = [Floorp] Otevřít panel stylu stromu
+gf-floorp-open-tree-style-tab-name = [{ -brand-short-name }] Open Tree Style Tab Panel
 gf-floorp-open-tree-style-tab-description = Otevřít panel boční lišty stylu
-gf-floorp-open-bookmarks-sidebar-name = [Floorp] Otevřít panel záložek postranního panelu
+gf-floorp-open-bookmarks-sidebar-name = [{ -brand-short-name }] Open Bookmarks Panel of Sidebar
 gf-floorp-open-bookmarks-sidebar-description = Otevřít panel záložek v postranním panelu
-gf-floorp-open-history-sidebar-name = [Floorp] Otevřít panel historie postranního panelu
+gf-floorp-open-history-sidebar-name = [{ -brand-short-name }] Open History Panel of Sidebar
 gf-floorp-open-history-sidebar-description = Otevřít panel historie postranního panelu
-gf-floorp-open-synctabs-sidebar-name = [Floorp] Otevřít synchronizované panely postranního panelu
+gf-floorp-open-synctabs-sidebar-name = [{ -brand-short-name }] Open Synced Tabs Panel of Sidebar
 gf-floorp-open-synctabs-sidebar-description = Otevřít synchronizované panely postranního panelu
-gf-floorp-close-sidebar-name = [Floorp] Zavřít postranní panel
+gf-floorp-close-sidebar-name = [{ -brand-short-name }] Close Sidebar
 gf-floorp-close-sidebar-description = Zavřít postranní panel
-gf-floorp-open-browser-manager-sidebar-name = [Floorp] Otevřít BMS
+gf-floorp-open-browser-manager-sidebar-name = [{ -brand-short-name }] Open BMS
 gf-floorp-open-browser-manager-sidebar-description = Otevřít postranní panel správce prohlížeče, pokud byl načten postranní panel správce prohlížeče
-gf-floorp-close-browser-manager-sidebar-name = [Floorp] Zavřít BMS
+gf-floorp-close-browser-manager-sidebar-name = [{ -brand-short-name }] Close BMS
 gf-floorp-close-browser-manager-sidebar-description = Zavřít postranní panel Správce prohlížeče
-gf-floorp-show-browser-manager-sidebar-name = [Floorp] Přepnout BMS
+gf-floorp-show-browser-manager-sidebar-name = [{ -brand-short-name }] Toggle BMS
 gf-floorp-show-browser-manager-sidebar-description = Přepnout postranní panel prohlížeče
-gf-floorp-hide-statusbar-name = [Floorp] Skrýt stavovou lištu
+gf-floorp-hide-statusbar-name = [{ -brand-short-name }] Hide Status Bar
 gf-floorp-hide-statusbar-description = Skrýt stavovou lištu
-gf-floorp-show-statusbar-name = [Floorp] Přepnout stavovou lištu
+gf-floorp-show-statusbar-name = [{ -brand-short-name }] Toggle Status Bar
 gf-floorp-show-statusbar-description = Zobrazit nebo skrýt stavovou lištu
-gf-floorp-open-extension-sidebar-name = [Floorp] Otevřít vybraný doplněk postranního panelu
+gf-floorp-open-extension-sidebar-name = [{ -brand-short-name }] Open selected add-on of Sidebar
 gf-floorp-open-extension-sidebar-description = Otevřít vybraný doplněk postranního panelu
 gf-floorp-open-extension-sidebar-settings-addons-id = Doplněk postranního panelu
 gf-floorp-open-extension-sidebar-settings-addons-id-description = Prodloužení doplňku otevřeného postranního panelu
 gf-floorp-open-extension-sidebar-settings-list-default = Prosím vyberte doplněk
 gf-floorp-open-extension-sidebar-settings-list-unknwon = Neznámý doplněk
-##################################################################### Floorp System Update Portable Version ###############################################################
+##################################################################### { -brand-short-name } System Update Portable Version ###############################################################
 
 update-portable-notification-found-title = Aktualizace nalezeny!
 update-portable-notification-found-message = Stahování aktualizací...
 update-portable-notification-ready-title = Připraveno k aktualizaci!
 update-portable-notification-ready-message = { -brand-short-name } will be updated on the next launch.
 update-portable-notification-success-title = Aktualizace byla úspěšná!
-update-portable-notification-success-message = Aktualizace byla úspěšná! Doufáme, že se vám nová verze podlahy líbí!
+update-portable-notification-success-message = Update succeeded! Hope you enjoy the new version of { -brand-short-name }!
 update-portable-notification-failed-title = Aktualizace se nezdařila.
 update-portable-notification-failed-redirector-message = Aktualizace se nezdařila. Restartování prohlížeče může tento problém vyřešit.
 update-portable-notification-failed-prepare-message = Nepodařilo se připravit aktualizaci.
-##################################################################### Floorp Portable Preferences ###############################################################
+##################################################################### { -brand-short-name } Portable Preferences ###############################################################
 
 floorp-portable-update-application-allow = Přenosná aktualizace { -brand-short-name }
 floorp-update-application-auto-enabled-option = 
@@ -699,7 +699,7 @@ open-link-in-external-tab-context-menu = Otevřít v externím prohlížeči
 open-link-in-external-tab-dialog-title-error = Došlo k chybě:
 open-link-in-external-tab-dialog-message-default-browser-not-found = Výchozí prohlížeč nebyl nalezen nebo není nakonfigurován.
 open-link-in-external-tab-dialog-message-selected-browser-not-found = Vybraný prohlížeč neexistuje.
-######################################################################### Floorp Notes ###############################################################
+######################################################################### { -brand-short-name } Notes ###############################################################
 
 new-memo = Nové
 memo-title-input-placeholder = Zde napište název
@@ -707,16 +707,15 @@ memo-input-placeholder = Napište nebo vložte poznámku zde
 delete-memo = Vymazat
 save-memo = Uložit
 memo-welcome-title = Vítejte!
-memo-first-tip = Vítejte v Floorp Notes! Zde jsou nějaké pokyny, jak ji používat!
-memo-second-tip = Floorp Notes je poznámka, která umožňuje ukládat více poznámek, které se synchronizují napříč zařízeními. Chcete-li povolit synchronizaci, musíte se přihlásit do Floorp pomocí vašeho účtu Firefox.
-memo-third-tip = Poznámky k Floorp budou uloženy v nastavení Floorp a synchronizovány napříč zařízeními pomocí Firefox synchronizace. Firefox Sync šifruje obsah synchronizace s vaším heslem účtu Firefox, takže nikdo neví, ale jeho obsah.
+memo-first-tip = Welcome to { -brand-short-name } Notes! Here are some instructions on how to use it!
+memo-second-tip = { -brand-short-name } Notes is a notepad that lets you store multiple notes that sync across devices. To enable synchronization, you need to sign in to { -brand-short-name } with your Firefox account.
+memo-third-tip = { -brand-short-name } Notes will be saved in your { -brand-short-name } settings and synchronized across devices using Firefox Sync. Firefox Sync encrypts the contents of the sync with your Firefox account password, so no one but you knows its contents.
 memo-import-data-tip = Firefox Sync není záložní služba. Doporučujeme vám vytvořit zálohy.
 memo-new-title = Nová poznámka
 chage-view-mode = Přepnout režim zobrazení/úpravy
 readonly-mode = Offline (pouze pro čtení)
 ######################################################################### Default bookmarks ###############################################################
 default-bookmark-ablaze-support = Ablaze podpora
-default-bookmark-notes = Poznámky k Floorp
 ######################################################################### Like Chrome Download mgr ###############################################################
 
 floorp-delete-all-downloads = 
@@ -729,7 +728,7 @@ floorp-show-all-downloads =
     .tooltiptext = Zobrazit všechna stahování
 ######################################################################### workspace ###############################################################
 
-workspace-prompt-title = Podlahový pracovní prostor
+workspace-prompt-title = { -brand-short-name } Workspace
 please-enter-workspace-name = Zadejte nový název pracovního prostoru.
 please-enter-workspace-name-2 = Název pracovního prostoru nemůže obsahovat symboly a mezery.
 workspace-error = Došlo k chybě:
@@ -775,7 +774,7 @@ welcome-discribe-browser-design = Můžete si vybrat jeden z nádherných návrh
 welcome-design-lepton-name = Původní vzhled zkosení
 welcome-design-photon-name = Vzhled fotoaparátu
 welcome-design-ProtonFix-name = Lepton ProtonFix Design
-welcome-design-floorp-fluerial-name = Návrh splachování podlahy
+welcome-design-floorp-fluerial-name = { -brand-short-name } Fluerial Design
 welcome-design-firefox-proton-name = Firefox Proton design
 welcome-import-data = Importovat data vašeho prohlížeče
 welcome-import-data-description = Rychlé nastavení! Importujte své záložky, hesla a další z vašeho starého prohlížeče. Uživatel Firefoxu může importovat data z Firefoxu synchronizace.
