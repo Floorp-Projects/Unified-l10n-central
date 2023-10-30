@@ -75,7 +75,7 @@ native-vertical-tab-show-right =
 hover-vertical-tab = 
     .label = Collapse Vertical Tab Bar
 TST = Fa stílus lap
-about-TST = A Tree Style Tab egy népszerű bővítmény, amely lehetővé teszi, hogy a lapokat fa szerkezetben jelenítse meg. A Floorp 10 rendelkezik beépített ilyen bővítménnyel. Kérjük, telepítse a bővítményt a Floorp 10 beépített Tree Style Tab visszaállításához.
+about-TST = Tree Style Tab is a popular add-on that allows you to display tabs in a tree structure. { -brand-short-name } 10 has a built-in this add-on. Please install the add-on restore { -brand-short-name } 10's built-in Tree Style Tab.
 treestyletab-Settings = 
     .label = Összecsukott fa stílus lap
 sidebar-reverse-position-toolbar = Oldalsávok megjelenítése a másik oldalon
@@ -128,7 +128,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Microsoft Fluent UI
 floorp-fluerialUI = 
-    .label = Floorp Fluerial UI
+    .label = { -brand-short-name } Fluerial UI
 floorp-gnomeUI = 
     .label = GNOME téma
 
@@ -352,12 +352,12 @@ floorp-notes = { -brand-short-name } Megjegyzések
 restore-from-backup = Jegyzetek visszaállítása biztonsági másolatból
 enable-notes-sync = 
     .label = Engedélyezze a { -brand-short-name } Notes szinkronizálását
-about-notes-backup-tips = A Floorp Notes a Firefox Sync segítségével szinkronizálja jegyzeteit más eszközökkel. Ha elveszíti a jegyzeteit, visszaállíthatja azokat egy biztonsági mentésből. A biztonsági mentés a { -brand-short-name }elindításakor jön létre.
+about-notes-backup-tips = { -brand-short-name } Notes uses Firefox Sync to sync your notes with other devices. If you lose your notes, you can restore them from a backup. A backup is created when you start { -brand-short-name }.
 notes-sync-description = Ez megoldhatja a szinkronizálás során a jegyzetek felülírása miatti tartalomvesztés problémáját.
 backuped-time = Vissza a
 notes-backup-option = Biztonsági mentés beállításai
 backup-option-button = Biztonsági mentés beállítások...
-restore-from-backup-prompt-title = Floorp Notes visszaállítása szolgáltatás
+restore-from-backup-prompt-title = { -brand-short-name } Notes Restore Service
 restore-from-this-backup = Visszaállítani a jegyzeteket a biztonsági mentéskori állapotukba?
 restore-button = Visszaállítás
 
@@ -376,7 +376,7 @@ apply-userjs-button = Alkalmazás
 
 ## userjs Options
 
-default-userjs-label = Floorp Alapértelmezett
+default-userjs-label = { -brand-short-name } Default
 about-default-userjs = Telemetria letiltva. Jól kiegyensúlyozott { -brand-short-name } különböző testreszabásokkal engedélyezve.
 Securefox-label = Yokoffing Securefox
 about-Securefox = HTTPS-by-Default. Teljes körű cookie-védelem a webhelyek elkülönítésével. Továbbfejlesztett állapot- és hálózati particionálás. Különböző egyéb fejlesztések.
@@ -393,7 +393,7 @@ about-Smoothfox = Az Edge-hez hasonló sima görgetés a kedvenc böngésződben
 
 floorp-workspaces-title = { -brand-short-name } Munkaterületek
 workspaces-backup-discription = Munkaterületek biztonsági mentése és visszaállítása
-workspaces-restore-service-title = Floorp Workspaces biztonsági mentési szolgáltatás
+workspaces-restore-service-title = { -brand-short-name } Workspaces Backup Service
 workspaces-restore-warning = Figyelem! A művelet végrehajtása a böngésző ideiglenes lefagyását és automatikus újraindulását okozza.
 floorp-workspace-settings-button = Munkaterület beállítások...
 change-to-close-workspace-popup-option = 
@@ -405,7 +405,7 @@ workspaces-reset-label =
     .label = Munkaterületek visszaállítása
 workspaces-reset-description = Ha a biztonsági mentés nem működik, és a munkaterület nem indul el, állítsa vissza a munkaterületet.
 workspaces-reset-button = Munkaterületek visszaállítása
-workspaces-reset-service-title = Floorp munkaterületek
+workspaces-reset-service-title = { -brand-short-name } Workspaces
 workspaces-reset-warning = Figyelem! A művelet végrehajtása az összes munkaterületet törli, és újraindítja a böngészőt.
 manage-workspace-on-bms-option = 
     .label = Munkatér kezelése a böngészőkezelő oldalsávján
@@ -463,7 +463,7 @@ workspace-icon-chill =
     .label = Privát
 # Custom Keyboard Shortcuts
 floorp-CSK-title = Egyéni billentyűparancsok
-floorp-CSK-description = A { -brand-short-name }billentyűparancsok testreszabása. A Floorp több mint 80 testreszabható billentyűparancsot biztosít - a beállítások alkalmazásához indítsa újra a { -brand-short-name } oldalt. A duplikált billentyűparancsok nem fognak működni.
+floorp-CSK-description = Customize { -brand-short-name }'s keyboard shortcuts. { -brand-short-name } provides more than 80 customizable keyboard shortcuts - restart { -brand-short-name } to apply these settings. Duplicate keyboard shortcuts will not work.
 disable-fx-actions = 
     .label = A Mozilla Firefox billentyűparancsok letiltása
 customize-Action = 
@@ -478,7 +478,7 @@ CSK-manage-title = Billentyűparancsok kezelése
 CSK-remove-shortcutkey = Egyéni billentyűparancs eltávolítása?
 CSK-remove-shortcutkey-description = Biztos, hogy el akarja távolítani ezt a billentyűparancsot?
 CSK-restore-default = Alapértelmezett beállítások visszaállítása?
-CSK-restore-default-description = Floorp alapértelmezett billentyűparancsainak visszaállítása? A jelenlegi gyorsbillentyűk elvesznek.
+CSK-restore-default-description = Restore { -brand-short-name }'s default keyboard shortcuts? Your current shortcuts will be lost.
 CSK-reboot-browser-label = A beállítások alkalmazásához indítsa újra a { -brand-short-name } weboldalt
 CSK-reboot-browser-button = Újraindítás { -brand-short-name }
 # Exist shortcut key: "S", "shift"
@@ -546,7 +546,7 @@ WebRTC =
 ################################################################### browser ###############################################################
 
 rest-mode = Szünetet tartok...
-rest-mode-description = A Floorp jelenleg felfüggesztve van. A folytatáshoz nyomja meg az ENTER vagy az OK gombot.
+rest-mode-description = { -brand-short-name } is currently suspended. Press ENTER or OK to continue.
 Sidebar2 = 
     .label = Böngésző menedzser oldalsáv
     .tooltiptext = Oldalsáv láthatóságának módosítása
@@ -646,44 +646,44 @@ status-bar =
     .accesskey = S
 ##################################################################### Gesturefy ###############################################################
 
-gf-floorp-open-tree-style-tab-name = [Floorp] Fa stílusú lap panel megnyitása
+gf-floorp-open-tree-style-tab-name = [{ -brand-short-name }] Open Tree Style Tab Panel
 gf-floorp-open-tree-style-tab-description = Az oldalsáv fa stílusú lappanelének megnyitása
-gf-floorp-open-bookmarks-sidebar-name = [Floorp] Az oldalsáv Könyvjelzők panelének megnyitása
+gf-floorp-open-bookmarks-sidebar-name = [{ -brand-short-name }] Open Bookmarks Panel of Sidebar
 gf-floorp-open-bookmarks-sidebar-description = Az oldalsáv Könyvjelzők panelének megnyitása
-gf-floorp-open-history-sidebar-name = [Floorp] Az oldalsáv előzmények paneljének megnyitása
+gf-floorp-open-history-sidebar-name = [{ -brand-short-name }] Open History Panel of Sidebar
 gf-floorp-open-history-sidebar-description = Az oldalsáv előzmények paneljének megnyitása
-gf-floorp-open-synctabs-sidebar-name = [Floorp] Az oldalsáv szinkronizált lapok panelének megnyitása
+gf-floorp-open-synctabs-sidebar-name = [{ -brand-short-name }] Open Synced Tabs Panel of Sidebar
 gf-floorp-open-synctabs-sidebar-description = Az oldalsáv szinkronizált lapok panelének megnyitása
-gf-floorp-close-sidebar-name = [Floorp] Oldalsáv bezárása
+gf-floorp-close-sidebar-name = [{ -brand-short-name }] Close Sidebar
 gf-floorp-close-sidebar-description = Oldalsáv bezárása
-gf-floorp-open-browser-manager-sidebar-name = [Floorp] Nyílt BMS
+gf-floorp-open-browser-manager-sidebar-name = [{ -brand-short-name }] Open BMS
 gf-floorp-open-browser-manager-sidebar-description = A böngészőkezelő oldalsáv megnyitása, ha a böngészőkezelő oldalsáv webpanelje betöltésre került
-gf-floorp-close-browser-manager-sidebar-name = [Floorp] BMS bezárása
+gf-floorp-close-browser-manager-sidebar-name = [{ -brand-short-name }] Close BMS
 gf-floorp-close-browser-manager-sidebar-description = Bezárja a böngészőkezelő oldalsávját
-gf-floorp-show-browser-manager-sidebar-name = [Floorp] BMS átkapcsolása
+gf-floorp-show-browser-manager-sidebar-name = [{ -brand-short-name }] Toggle BMS
 gf-floorp-show-browser-manager-sidebar-description = Böngészőkezelő oldalsávjának átkapcsolása
-gf-floorp-hide-statusbar-name = [Floorp] Állapotsor elrejtése
+gf-floorp-hide-statusbar-name = [{ -brand-short-name }] Hide Status Bar
 gf-floorp-hide-statusbar-description = Állapotsor elrejtése
-gf-floorp-show-statusbar-name = [Floorp] Állapotsor átkapcsolása
+gf-floorp-show-statusbar-name = [{ -brand-short-name }] Toggle Status Bar
 gf-floorp-show-statusbar-description = Állapotsor megjelenítése vagy elrejtése
-gf-floorp-open-extension-sidebar-name = [Floorp] Az Oldalsáv kiválasztott bővítményének megnyitása
+gf-floorp-open-extension-sidebar-name = [{ -brand-short-name }] Open selected add-on of Sidebar
 gf-floorp-open-extension-sidebar-description = Az Oldalsáv kiválasztott bővítményének megnyitása
 gf-floorp-open-extension-sidebar-settings-addons-id = Az oldalsáv kiegészítése
 gf-floorp-open-extension-sidebar-settings-addons-id-description = A bővítmény bővítménye az oldalsáv megnyitásához
 gf-floorp-open-extension-sidebar-settings-list-default = Kérjük, válassza ki a kiegészítőt
 gf-floorp-open-extension-sidebar-settings-list-unknwon = Ismeretlen kiegészítő
-##################################################################### Floorp System Update Portable Version ###############################################################
+##################################################################### { -brand-short-name } System Update Portable Version ###############################################################
 
 update-portable-notification-found-title = Frissítéseket találtunk!
 update-portable-notification-found-message = Frissítések letöltése...
 update-portable-notification-ready-title = Készen áll a frissítésre!
 update-portable-notification-ready-message = { -brand-short-name } will be updated on the next launch.
 update-portable-notification-success-title = A frissítés sikeres volt!
-update-portable-notification-success-message = A frissítés sikeres volt! Reméljük, hogy tetszik a Floorp új verziója!
+update-portable-notification-success-message = Update succeeded! Hope you enjoy the new version of { -brand-short-name }!
 update-portable-notification-failed-title = A frissítés sikertelen.
 update-portable-notification-failed-redirector-message = A frissítés sikertelen. A böngésző újraindítása megoldhatja ezt a problémát.
 update-portable-notification-failed-prepare-message = A frissítés előkészítése nem sikerült.
-##################################################################### Floorp Portable Preferences ###############################################################
+##################################################################### { -brand-short-name } Portable Preferences ###############################################################
 
 floorp-portable-update-application-allow = { -brand-short-name } Hordozható frissítés
 floorp-update-application-auto-enabled-option = 
@@ -699,7 +699,7 @@ open-link-in-external-tab-context-menu = Megnyitás külső böngészőben
 open-link-in-external-tab-dialog-title-error = Hiba történt:
 open-link-in-external-tab-dialog-message-default-browser-not-found = Az alapértelmezett böngésző nem található vagy nincs beállítva.
 open-link-in-external-tab-dialog-message-selected-browser-not-found = A kiválasztott böngésző nem létezik.
-######################################################################### Floorp Notes ###############################################################
+######################################################################### { -brand-short-name } Notes ###############################################################
 
 new-memo = Új
 memo-title-input-placeholder = Írjon ide egy címet
@@ -707,16 +707,15 @@ memo-input-placeholder = Írjon vagy illesszen be egy emlékeztetőt ide
 delete-memo = Törölje a  címet.
 save-memo = Mentés
 memo-welcome-title = Üdvözöljük!
-memo-first-tip = Üdvözöljük a Floorp Notes-on! Íme néhány használati utasítás!
-memo-second-tip = A Floorp Notes egy jegyzettömb, amely lehetővé teszi több jegyzet tárolását, amelyek szinkronizálhatók az eszközök között. A szinkronizálás engedélyezéséhez be kell jelentkeznie a Floorp-be a Firefox-fiókjával.
-memo-third-tip = A Floorp Notes a Floorp beállításai között kerül elmentésre, és a Firefox Sync segítségével szinkronizálódik az eszközök között. A Firefox Sync a szinkronizálás tartalmát a Firefox-fiók jelszavával titkosítja, így a tartalmát Önön kívül senki más nem ismeri.
+memo-first-tip = Welcome to { -brand-short-name } Notes! Here are some instructions on how to use it!
+memo-second-tip = { -brand-short-name } Notes is a notepad that lets you store multiple notes that sync across devices. To enable synchronization, you need to sign in to { -brand-short-name } with your Firefox account.
+memo-third-tip = { -brand-short-name } Notes will be saved in your { -brand-short-name } settings and synchronized across devices using Firefox Sync. Firefox Sync encrypts the contents of the sync with your Firefox account password, so no one but you knows its contents.
 memo-import-data-tip = A Firefox Sync nem biztonsági mentési szolgáltatás. Javasoljuk, hogy készítsen biztonsági mentéseket.
 memo-new-title = Új jegyzet
 chage-view-mode = Nézet/szerkesztési mód váltása
 readonly-mode = Offline (csak olvasható)
 ######################################################################### Default bookmarks ###############################################################
 default-bookmark-ablaze-support = Ablaze támogatás
-default-bookmark-notes = Floorp Megjegyzések
 ######################################################################### Like Chrome Download mgr ###############################################################
 
 floorp-delete-all-downloads = 
@@ -729,7 +728,7 @@ floorp-show-all-downloads =
     .tooltiptext = Összes letöltés megjelenítése
 ######################################################################### workspace ###############################################################
 
-workspace-prompt-title = Floorp munkaterület
+workspace-prompt-title = { -brand-short-name } Workspace
 please-enter-workspace-name = Kérjük, adja meg a munkaterület új nevét.
 please-enter-workspace-name-2 = A munkaterület neve nem tartalmazhat szimbólumokat és szóközöket.
 workspace-error = Hiba történt:
@@ -775,7 +774,7 @@ welcome-discribe-browser-design = Választhat a { -brand-short-name } csodálato
 welcome-design-lepton-name = Lepton eredeti design
 welcome-design-photon-name = Lepton Photon Design
 welcome-design-ProtonFix-name = Lepton ProtonFix tervezés
-welcome-design-floorp-fluerial-name = Floorp Fluerial Design
+welcome-design-floorp-fluerial-name = { -brand-short-name } Fluerial Design
 welcome-design-firefox-proton-name = Firefox Proton Design
 welcome-import-data = Importálja a böngésző adatait
 welcome-import-data-description = Gyors beállítás! Importálja a könyvjelzőit, jelszavait és egyebeket a régi böngészőjéből. A Firefox felhasználó importálhatja az adatokat a Firefox Sync-ből.
