@@ -75,7 +75,7 @@ native-vertical-tab-show-right =
 hover-vertical-tab = 
     .label = Collapse Vertical Tab Bar
 TST = Ağaç Stili Sekmesi
-about-TST = Ağaç Stili Sekme, sekmeleri bir ağaç yapısında görüntülemenizi sağlayan popüler bir eklentidir. Floorp 10'da bu eklenti yerleşiktir. Lütfen eklentiyi yükleyerek Floorp 10'un yerleşik Ağaç Stili Sekmesini geri yükleyin.
+about-TST = Tree Style Tab is a popular add-on that allows you to display tabs in a tree structure. { -brand-short-name } 10 has a built-in this add-on. Please install the add-on restore { -brand-short-name } 10's built-in Tree Style Tab.
 treestyletab-Settings = 
     .label = Ağaç Stili Sekmesini Daralt
 sidebar-reverse-position-toolbar = Kenar Çubuklarını diğer tarafta göster
@@ -128,7 +128,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Microsoft Fluent UI
 floorp-fluerialUI = 
-    .label = Floorp Fluerial Kullanıcı Arayüzü
+    .label = { -brand-short-name } Fluerial UI
 floorp-gnomeUI = 
     .label = GNOME Teması
 
@@ -352,12 +352,12 @@ floorp-notes = { -brand-short-name } Notlar
 restore-from-backup = Notları yedekten geri yükleme
 enable-notes-sync = 
     .label = { -brand-short-name } Notes Senkronizasyonunu Etkinleştir
-about-notes-backup-tips = Floorp Notes, notlarınızı diğer cihazlarla senkronize etmek için Firefox Sync'i kullanır. Notlarınızı kaybederseniz, onları bir yedekten geri yükleyebilirsiniz. { -brand-short-name }adresini başlattığınızda bir yedek oluşturulur.
+about-notes-backup-tips = { -brand-short-name } Notes uses Firefox Sync to sync your notes with other devices. If you lose your notes, you can restore them from a backup. A backup is created when you start { -brand-short-name }.
 notes-sync-description = Bu, senkronizasyon sırasında notların üzerine yazılması nedeniyle içerik kaybı sorununu çözebilir.
 backuped-time = Yedeklendi
 notes-backup-option = Yedekleme Ayarları
 backup-option-button = Yedekleme Ayarları...
-restore-from-backup-prompt-title = Floorp Notes Geri Yükleme Hizmeti
+restore-from-backup-prompt-title = { -brand-short-name } Notes Restore Service
 restore-from-this-backup = Notları bu yedeklemedeki durumlarına geri mi yükleyeceksiniz?
 restore-button = Geri Yükleme
 
@@ -376,7 +376,7 @@ apply-userjs-button = Başvurmak
 
 ## userjs Options
 
-default-userjs-label = Floorp Varsayılan
+default-userjs-label = { -brand-short-name } Default
 about-default-userjs = Telemetri devre dışı. Çeşitli özelleştirmelerin etkin olduğu iyi dengelenmiş { -brand-short-name } .
 Securefox-label = Yokoffing Securefox
 about-Securefox = Varsayılan HTTPS. Site izolasyonu ile Tam Çerez Koruması. Geliştirilmiş durum ve ağ bölümleme. Çeşitli diğer geliştirmeler.
@@ -393,7 +393,7 @@ about-Smoothfox = En sevdiğiniz tarayıcıda Edge benzeri akıcı kaydırma öz
 
 floorp-workspaces-title = { -brand-short-name } Çalışma Alanları
 workspaces-backup-discription = Çalışma Alanlarınızı yedekleme ve geri yükleme
-workspaces-restore-service-title = Floorp Çalışma Alanları Yedekleme Hizmeti
+workspaces-restore-service-title = { -brand-short-name } Workspaces Backup Service
 workspaces-restore-warning = Uyarı! Bu işlemi çalıştırmak tarayıcının geçici olarak donmasına ve otomatik olarak yeniden başlamasına neden olacaktır.
 floorp-workspace-settings-button = Çalışma Alanı Ayarları...
 change-to-close-workspace-popup-option = 
@@ -405,7 +405,7 @@ workspaces-reset-label =
     .label = Çalışma Alanlarını Sıfırla
 workspaces-reset-description = Bir yedekleme çalışmazsa ve Çalışma Alanı başlamazsa, Çalışma Alanını sıfırlayın.
 workspaces-reset-button = Çalışma Alanlarını Sıfırla
-workspaces-reset-service-title = Floorp Çalışma Alanları
+workspaces-reset-service-title = { -brand-short-name } Workspaces
 workspaces-reset-warning = Uyarı! Bu işlemi çalıştırmak tüm Çalışma Alanlarınızı silecek ve tarayıcıyı yeniden başlatacaktır.
 manage-workspace-on-bms-option = 
     .label = Tarayıcı Yöneticisi Kenar Çubuğunda Çalışma Alanını Yönetme
@@ -463,7 +463,7 @@ workspace-icon-chill =
     .label = Özel
 # Custom Keyboard Shortcuts
 floorp-CSK-title = Özel klavye kısayolları
-floorp-CSK-description = { -brand-short-name }'un klavye kısayollarını özelleştirin. Floorp 80'den fazla özelleştirilebilir klavye kısayolu sağlar - bu ayarları uygulamak için { -brand-short-name } adresini yeniden başlatın. Yinelenen klavye kısayolları çalışmayacaktır.
+floorp-CSK-description = Customize { -brand-short-name }'s keyboard shortcuts. { -brand-short-name } provides more than 80 customizable keyboard shortcuts - restart { -brand-short-name } to apply these settings. Duplicate keyboard shortcuts will not work.
 disable-fx-actions = 
     .label = Mozilla Firefox'un klavye kısayollarını devre dışı bırakın
 customize-Action = 
@@ -478,7 +478,7 @@ CSK-manage-title = Klavye kısayollarını yönetme
 CSK-remove-shortcutkey = Özel klavye kısayolunu kaldırayım mı?
 CSK-remove-shortcutkey-description = Bu klavye kısayolunu kaldırmak istediğinizden emin misiniz?
 CSK-restore-default = Varsayılanları Geri Yükle?
-CSK-restore-default-description = Floorp'un varsayılan klavye kısayollarını geri yükleyin? Mevcut kısayollarınız kaybolacaktır.
+CSK-restore-default-description = Restore { -brand-short-name }'s default keyboard shortcuts? Your current shortcuts will be lost.
 CSK-reboot-browser-label = Bu ayarları uygulamak için { -brand-short-name } adresini yeniden başlatın
 CSK-reboot-browser-button = { -brand-short-name }adresini yeniden başlatın
 # Exist shortcut key: "S", "shift"
@@ -546,7 +546,7 @@ WebRTC =
 ################################################################### browser ###############################################################
 
 rest-mode = Mola veriyorum.
-rest-mode-description = Floorp şu anda askıya alınmıştır. Devam etmek için ENTER veya OK tuşuna basın.
+rest-mode-description = { -brand-short-name } is currently suspended. Press ENTER or OK to continue.
 Sidebar2 = 
     .label = Tarayıcı Yöneticisi Kenar Çubuğu
     .tooltiptext = Kenar Çubuğu görünürlüğünü değiştirme
@@ -646,44 +646,44 @@ status-bar =
     .accesskey = S
 ##################################################################### Gesturefy ###############################################################
 
-gf-floorp-open-tree-style-tab-name = [Floorp] Ağaç Stili Sekme Panelini Açın
+gf-floorp-open-tree-style-tab-name = [{ -brand-short-name }] Open Tree Style Tab Panel
 gf-floorp-open-tree-style-tab-description = Kenar Çubuğunun Ağaç Stili Sekme Panelini Açın
-gf-floorp-open-bookmarks-sidebar-name = [Floorp] Kenar Çubuğunun Yer İmleri Panelini Açın
+gf-floorp-open-bookmarks-sidebar-name = [{ -brand-short-name }] Open Bookmarks Panel of Sidebar
 gf-floorp-open-bookmarks-sidebar-description = Kenar Çubuğunun Yer İmleri Panelini Açın
-gf-floorp-open-history-sidebar-name = [Floorp] Kenar Çubuğunun Geçmiş Panelini Açın
+gf-floorp-open-history-sidebar-name = [{ -brand-short-name }] Open History Panel of Sidebar
 gf-floorp-open-history-sidebar-description = Kenar Çubuğunun Geçmiş Panelini Açın
-gf-floorp-open-synctabs-sidebar-name = [Floorp] Kenar Çubuğunun Senkronize Sekmeler Panelini Açın
+gf-floorp-open-synctabs-sidebar-name = [{ -brand-short-name }] Open Synced Tabs Panel of Sidebar
 gf-floorp-open-synctabs-sidebar-description = Kenar Çubuğunun Senkronize Sekmeler Panelini Açın
-gf-floorp-close-sidebar-name = [Floorp] Kenar Çubuğunu Kapat
+gf-floorp-close-sidebar-name = [{ -brand-short-name }] Close Sidebar
 gf-floorp-close-sidebar-description = Kenar Çubuğunu Kapat
-gf-floorp-open-browser-manager-sidebar-name = [Floorp] Açık BMS
+gf-floorp-open-browser-manager-sidebar-name = [{ -brand-short-name }] Open BMS
 gf-floorp-open-browser-manager-sidebar-description = Tarayıcı Yöneticisi Kenar Çubuğu web paneli yüklüyse Tarayıcı Yöneticisi Kenar Çubuğunu açın
-gf-floorp-close-browser-manager-sidebar-name = [Floorp] BMS'yi kapatın
+gf-floorp-close-browser-manager-sidebar-name = [{ -brand-short-name }] Close BMS
 gf-floorp-close-browser-manager-sidebar-description = Tarayıcı Yöneticisi Kenar Çubuğunu Kapat
-gf-floorp-show-browser-manager-sidebar-name = [Floorp] BMS'yi değiştir
+gf-floorp-show-browser-manager-sidebar-name = [{ -brand-short-name }] Toggle BMS
 gf-floorp-show-browser-manager-sidebar-description = Tarayıcı Yöneticisi Kenar Çubuğunu Aç / Kapat
-gf-floorp-hide-statusbar-name = [Floorp] Durum Çubuğunu Gizle
+gf-floorp-hide-statusbar-name = [{ -brand-short-name }] Hide Status Bar
 gf-floorp-hide-statusbar-description = Durum Çubuğunu Gizle
-gf-floorp-show-statusbar-name = [Floorp] Durum Çubuğunu Değiştir
+gf-floorp-show-statusbar-name = [{ -brand-short-name }] Toggle Status Bar
 gf-floorp-show-statusbar-description = Durum Çubuğunu Gösterme veya Gizleme
-gf-floorp-open-extension-sidebar-name = [Floorp] Kenar Çubuğu'nun seçili eklentisini açın
+gf-floorp-open-extension-sidebar-name = [{ -brand-short-name }] Open selected add-on of Sidebar
 gf-floorp-open-extension-sidebar-description = Kenar Çubuğu'nun seçili eklentisini açın
 gf-floorp-open-extension-sidebar-settings-addons-id = Kenar Çubuğu Eklentisi
 gf-floorp-open-extension-sidebar-settings-addons-id-description = Eklentinin uzantısı kenar çubuğunu açar
 gf-floorp-open-extension-sidebar-settings-list-default = Lütfen eklentiyi seçin
 gf-floorp-open-extension-sidebar-settings-list-unknwon = Bilinmeyen eklenti
-##################################################################### Floorp System Update Portable Version ###############################################################
+##################################################################### { -brand-short-name } System Update Portable Version ###############################################################
 
 update-portable-notification-found-title = Güncellemeler bulundu!
 update-portable-notification-found-message = Güncellemeler indiriliyor...
 update-portable-notification-ready-title = Güncellemeye hazır!
 update-portable-notification-ready-message = { -brand-short-name } will be updated on the next launch.
 update-portable-notification-success-title = Güncelleme başarılı oldu!
-update-portable-notification-success-message = Güncelleme başarılı oldu! Umarım Floorp'un yeni sürümünü beğenirsiniz!
+update-portable-notification-success-message = Update succeeded! Hope you enjoy the new version of { -brand-short-name }!
 update-portable-notification-failed-title = Güncelleme başarısız oldu.
 update-portable-notification-failed-redirector-message = Güncelleme başarısız oldu. Tarayıcınızı yeniden başlatmak bu sorunu çözebilir.
 update-portable-notification-failed-prepare-message = Güncelleme hazırlanamadı.
-##################################################################### Floorp Portable Preferences ###############################################################
+##################################################################### { -brand-short-name } Portable Preferences ###############################################################
 
 floorp-portable-update-application-allow = { -brand-short-name } Taşınabilir Güncelleme
 floorp-update-application-auto-enabled-option = 
@@ -699,7 +699,7 @@ open-link-in-external-tab-context-menu = Harici tarayıcıda aç
 open-link-in-external-tab-dialog-title-error = Bir hata oluştu:
 open-link-in-external-tab-dialog-message-default-browser-not-found = Varsayılan tarayıcı bulunamadı veya yapılandırılmadı.
 open-link-in-external-tab-dialog-message-selected-browser-not-found = Seçilen tarayıcı mevcut değil.
-######################################################################### Floorp Notes ###############################################################
+######################################################################### { -brand-short-name } Notes ###############################################################
 
 new-memo = Yeni
 memo-title-input-placeholder = Buraya bir başlık yazın
@@ -707,16 +707,15 @@ memo-input-placeholder = Buraya bir not yazın veya yapıştırın
 delete-memo = Silme
 save-memo = Kaydet
 memo-welcome-title = Hoş geldiniz!
-memo-first-tip = Floorp Notes'a hoş geldiniz! İşte nasıl kullanılacağına dair bazı talimatlar!
-memo-second-tip = Floorp Notes, cihazlar arasında senkronize olan birden fazla not saklamanıza olanak tanıyan bir not defteridir. Senkronizasyonu etkinleştirmek için Firefox hesabınızla Floorp'ta oturum açmanız gerekir.
-memo-third-tip = Floorp Notları, Floorp ayarlarınıza kaydedilecek ve Firefox Sync kullanılarak cihazlar arasında senkronize edilecektir. Firefox Sync, senkronizasyonun içeriğini Firefox hesap parolanızla şifreler, böylece içeriğini sizden başka kimse bilmez.
+memo-first-tip = Welcome to { -brand-short-name } Notes! Here are some instructions on how to use it!
+memo-second-tip = { -brand-short-name } Notes is a notepad that lets you store multiple notes that sync across devices. To enable synchronization, you need to sign in to { -brand-short-name } with your Firefox account.
+memo-third-tip = { -brand-short-name } Notes will be saved in your { -brand-short-name } settings and synchronized across devices using Firefox Sync. Firefox Sync encrypts the contents of the sync with your Firefox account password, so no one but you knows its contents.
 memo-import-data-tip = Firefox Sync bir yedekleme hizmeti değildir. Yedekleme oluşturmanızı öneririz.
 memo-new-title = Yeni Not
 chage-view-mode = Görünüm/Düzenleme Modunu Değiştir
 readonly-mode = Çevrimdışı (Salt okunur)
 ######################################################################### Default bookmarks ###############################################################
 default-bookmark-ablaze-support = Ablaze Destek
-default-bookmark-notes = Zemin Notları
 ######################################################################### Like Chrome Download mgr ###############################################################
 
 floorp-delete-all-downloads = 
@@ -729,7 +728,7 @@ floorp-show-all-downloads =
     .tooltiptext = Tüm indirmeleri göster
 ######################################################################### workspace ###############################################################
 
-workspace-prompt-title = Floorp Çalışma Alanı
+workspace-prompt-title = { -brand-short-name } Workspace
 please-enter-workspace-name = Lütfen Çalışma Alanının yeni adını girin.
 please-enter-workspace-name-2 = Çalışma Alanının adı semboller ve boşluklar içeremez.
 workspace-error = Bir hata oluştu:
@@ -775,7 +774,7 @@ welcome-discribe-browser-design = Harika üçüncü taraf { -brand-short-name } 
 welcome-design-lepton-name = Lepton Özgün Tasarım
 welcome-design-photon-name = Lepton Foton Tasarımı
 welcome-design-ProtonFix-name = Lepton ProtonFix Tasarım
-welcome-design-floorp-fluerial-name = Floorp Fluerial Tasarım
+welcome-design-floorp-fluerial-name = { -brand-short-name } Fluerial Design
 welcome-design-firefox-proton-name = Firefox Proton Tasarımı
 welcome-import-data = Tarayıcı Verilerinizi İçe Aktarın
 welcome-import-data-description = Hızlı kurulum! Yer imlerinizi, parolalarınızı ve daha fazlasını eski tarayıcınızdan içe aktarın. Firefox kullanıcısı Firefox Sync'ten veri aktarabilir.
