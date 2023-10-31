@@ -728,7 +728,7 @@ floorp-show-all-downloads =
     .tooltiptext = Alle Downloads anzeigen
 ######################################################################### workspace ###############################################################
 
-workspace-prompt-title = { -brand-short-name } Workspace
+workspace-prompt-title = { -brand-short-name } Arbeitsbereiche
 please-enter-workspace-name = Bitte geben Sie den neuen Namen des Arbeitsbereichs ein.
 please-enter-workspace-name-2 = Der Name des Arbeitsbereichs darf keine Symbole und Leerzeichen enthalten.
 workspace-error = Ein Fehler ist aufgetreten:
