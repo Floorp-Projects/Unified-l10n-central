@@ -30,7 +30,7 @@
     { $case ->
        *[nom] Floorp
         [gen] Floorpa
-        [dat] Floorpowii
+        [dat] Floorpowi
         [acc] Floorpa
         [ins] Floorpem
         [loc] Floorpie
