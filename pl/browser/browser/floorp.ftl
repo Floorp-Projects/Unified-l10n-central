@@ -9,7 +9,7 @@ icon-creator = Twórca ikon <label data-l10n-name="browser-logo-twitter">@Cutter
 contributors = Lista współtwórców <label data-l10n-name="about-contributor">i programistów</label>
 #################################################################### about:preferences ####################################################################
 
-pane-design-title = Projekt
+pane-design-title = Wygląd
 category-design = 
     .tooltiptext = { pane-design-title }
 design-header = { pane-design-title }
@@ -122,7 +122,7 @@ preferences-browser-appearance-description = Wybierz wbudowany projekt zewnętrz
 firefox-proton = 
     .label = Firefox Proton UI
 firefox-proton-fix = 
-    .label = Naprawiony Firefox Proton UI
+    .label = Firefox Proton Fix UI
 firefox-photon-lepton = 
     .label = Firefox Photon・Lepton UI
 floorp-fluentUI = 
@@ -274,11 +274,11 @@ lepton-preference-button =
 lepton-header = Ustawienia Leptona
 lepton-preference = Ustawienia Leptona
 photon-mode = 
-    .label = Użyj projektu zdjęcia
+    .label = Użyj wyglądu Photon
 lepton-mode = 
-    .label = Użyj wyglądu Leptona
+    .label = Użyj wyglądu Lepton
 protonfix-mode = 
-    .label = Użyj ulepszonego projektu Proton
+    .label = Użyj ulepszonego interfejsu Proton
 autohide-preference = Automatycznie ukryj elementy przeglądarki
 floorp-lepton-enable-tab-autohide = 
     .label = Automatycznie ukryj karty
@@ -300,7 +300,7 @@ floorp-lepton-enable-toolbar-overlap-allow-layout-shift-autohide =
     .label = Automatycznie ukryj pasek narzędzi podczas wyświetlania treści "ltr"
 hide-preference = Zarządzaj elementami przeglądarki
 floorp-lepton-enable-tab_icon-hide = 
-    .label = Hide Tab icons
+    .label = Ukryj ikony kart
 floorp-lepton-enable-tabbar-hide = 
     .label = Ukryj pasek kart
 floorp-lepton-enable-navbar-hide = 
@@ -338,7 +338,7 @@ floorp-lepton-enable-tabbar-positon-as-titlebar =
     .label = Pasek zakładek na pasku tytułów
 floorp-lepton-enable-tabbar-as-urlbar = 
     .label = Połącz pasek kart i pasek narzędzi
-lepton-sidebar-preferences = Sidebar
+lepton-sidebar-preferences = Pasek boczny
 floorp-lepton-enable-overlap-sidebar = 
     .label = Pokaż pasek boczny nad zawartością witryny
 floorp-home-mode-choice-default = 
@@ -363,7 +363,7 @@ restore-button = Przywróć
 
 ## user.js
 
-header-userjs = Użytkownik js
+header-userjs = user.js
 userjs-customize = Dostosuj { -brand-short-name } za pomocą user.js
 about-userjs-customize = user.js to plik konfiguracyjny, który pozwala na dostosowanie { -brand-short-name }. Pliki user.js są pobierane z Internetu i nadpisywane przez bieżącego użytkownika. s plik. Przed kontynuowaniem utwórz kopię zapasową bieżącego pliku user.js. Konfiguracje użytkownika zostaną zastosowane automatycznie po ponownym uruchomieniu { -brand-short-name }.
 userjs-label = Lista użytkowników.js
