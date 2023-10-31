@@ -75,7 +75,7 @@ native-vertical-tab-show-right =
 hover-vertical-tab = 
     .label = 折叠垂直标签栏
 TST = Tree Style Tab
-about-TST = Tree Style Tab is a popular add-on that allows you to display tabs in a tree structure. { -brand-short-name } 10 has a built-in this add-on. Please install the add-on restore { -brand-short-name } 10's built-in Tree Style Tab.
+about-TST = Tree Style Tab 是一个受欢迎的插件，允许您以树状结构显示标签页。 { -brand-short-name } 10 已经内置了这个插件。请安装此插件以恢复 { -brand-short-name } 10 内置的 Tree Style Tab 功能。
 treestyletab-Settings = 
     .label = 折叠 Tree Style Tab
 sidebar-reverse-position-toolbar = 在另一侧显示侧边栏
@@ -349,15 +349,15 @@ floorp-home-prefs-content-description = 选择您希望在 { -brand-short-name }
 ## Notes
 
 floorp-notes = { -brand-short-name } 笔记
-restore-from-backup = 从备份恢复笔记
+restore-from-backup = 从备份还原笔记
 enable-notes-sync = 
     .label = 启用 { -brand-short-name } Notes Sync
-about-notes-backup-tips = { -brand-short-name } Notes uses Firefox Sync to sync your notes with other devices. If you lose your notes, you can restore them from a backup. A backup is created when you start { -brand-short-name }.
+about-notes-backup-tips = Floorp 笔记使用 Firefox Sync 来将您的笔记与其他设备同步。如果您丢失了笔记，可以从备份中还原。备份会在您启动 { -brand-short-name } 时自动创建。
 notes-sync-description = 这可以解决在同步期间由于覆盖笔记而导致内容丢失的问题。
 backuped-time = 备份于
 notes-backup-option = 备份设置
 backup-option-button = 备份设置...
-restore-from-backup-prompt-title = { -brand-short-name } Notes Restore Service
+restore-from-backup-prompt-title = { -brand-short-name } 笔记还原服务
 restore-from-this-backup = 将笔记还原到备份时的状态吗？
 restore-button = 还原
 
@@ -393,7 +393,7 @@ about-Smoothfox = 在您钟爱的浏览器上获得类似 Edge 的平滑滚动�
 
 floorp-workspaces-title = { -brand-short-name } 工作区
 workspaces-backup-discription = 备份并恢复您的工作区
-workspaces-restore-service-title = { -brand-short-name } Workspaces Backup Service
+workspaces-restore-service-title = { -brand-short-name } 工作区备份服务
 workspaces-restore-warning = 警告！运行此操作将导致浏览器暂时冻结并自动重启。
 floorp-workspace-settings-button = 工作区设置...
 change-to-close-workspace-popup-option = 
@@ -405,7 +405,7 @@ workspaces-reset-label =
     .label = 重置工作区
 workspaces-reset-description = 如果备份不可用且工作区未启动，请重置工作区。
 workspaces-reset-button = 重置工作区
-workspaces-reset-service-title = { -brand-short-name } Workspaces
+workspaces-reset-service-title = { -brand-short-name } 工作区
 workspaces-reset-warning = 警告！运行此操作将删除您所有的工作区并重启浏览器。
 manage-workspace-on-bms-option = 
     .label = 在浏览器管理器侧边栏管理工作区
@@ -463,7 +463,7 @@ workspace-icon-chill =
     .label = 私人
 # Custom Keyboard Shortcuts
 floorp-CSK-title = 自定义键盘快捷键
-floorp-CSK-description = Customize { -brand-short-name }'s keyboard shortcuts. { -brand-short-name } provides more than 80 customizable keyboard shortcuts - restart { -brand-short-name } to apply these settings. Duplicate keyboard shortcuts will not work.
+floorp-CSK-description = 自定义 { -brand-short-name } 的键盘快捷键。 { -brand-short-name } 提供了超过 80 个可自定义的键盘快捷键。请重新启动 { -brand-short-name } 以应用这些设置。重复的键盘快捷键将不起作用。
 disable-fx-actions = 
     .label = 禁用 Mozilla Firefox 的键盘快捷键
 customize-Action = 
