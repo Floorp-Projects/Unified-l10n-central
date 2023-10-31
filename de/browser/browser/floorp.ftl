@@ -124,7 +124,7 @@ firefox-proton =
 firefox-proton-fix = 
     .label = Firefox Proton Fix UI
 firefox-photon-lepton = 
-    .label = Firefox-Photon Lepton UI
+    .label = Firefox Photon Lepton UI
 floorp-fluentUI = 
     .label = Microsoft Fluent UI
 floorp-fluerialUI = 
@@ -306,7 +306,7 @@ floorp-lepton-enable-tabbar-hide =
 floorp-lepton-enable-navbar-hide = 
     .label = Werkzeugleiste verstecken
 floorp-lepton-enable-sidebar_header-hide = 
-    .label = Sidebar-Kopfzeilen ausblenden
+    .label = Sidebarüberschriften ausblenden
 floorp-lepton-enable-urlbar_iconbox-hide = 
     .label = Adressleistensymbole ausblenden
 floorp-lepton-enable-bookmarkbar_icon-hide = 
@@ -352,13 +352,13 @@ floorp-notes = { -brand-short-name } Notizen
 restore-from-backup = Notizen aus Backup wiederherstellen
 enable-notes-sync = 
     .label = { -brand-short-name } Notes Sync aktivieren
-about-notes-backup-tips = { -brand-short-name } Notes uses Firefox Sync to sync your notes with other devices. If you lose your notes, you can restore them from a backup. A backup is created when you start { -brand-short-name }.
+about-notes-backup-tips = { -brand-short-name } Notes verwendet Firefox Sync, um Ihre Notizen mit anderen Geräten zu synchronisieren. Wenn Sie Ihre Notizen verlieren, können Sie diese von einer Sicherheitskopie wiederherstellen. Ein automatisches Backup wird erstellt, wenn sie { -brand-short-name } öffnen.
 notes-sync-description = Dies kann das Problem des Verlustes von Inhalten lösen, da während der Synchronisation Notizen überschrieben werden.
 backuped-time = Gesichert am
 notes-backup-option = Backup-Einstellungen
 backup-option-button = Sicherungseinstellungen...
-restore-from-backup-prompt-title = { -brand-short-name } Notes Restore Service
-restore-from-this-backup = Notizen wieder in den Zustand zurücksetzen, in dem sie sich in diesem Backup befanden?
+restore-from-backup-prompt-title = { -brand-short-name } Notizen Wiederherstellungsdienst
+restore-from-this-backup = Notizen in den Zustand zurückversetzen, wie in dieser Sicherung vorhanden sind?
 restore-button = Wiederherstellen
 
 ## user.js
@@ -376,7 +376,7 @@ apply-userjs-button = Anwenden
 
 ## userjs Options
 
-default-userjs-label = { -brand-short-name } Default
+default-userjs-label = { -brand-short-name } Standard
 about-default-userjs = Telemetrie deaktiviert. Ausgewogenes { -brand-short-name } mit verschiedenen Anpassungen aktiviert.
 Securefox-label = Yokoffing Securefox
 about-Securefox = HTTPS-by-Default. Gesamter Cookie-Schutz mit Website-Isolierung. Verbesserter Zustand und Netzwerk-Partitionierung. Verschiedene andere Verbesserungen.
@@ -393,7 +393,7 @@ about-Smoothfox = Holen Sie sich Edge-ähnliches Scrollen in Ihrem bevorzugten B
 
 floorp-workspaces-title = { -brand-short-name } Arbeitsbereiche
 workspaces-backup-discription = Arbeitsbereiche Sichern und Wiederherstellen
-workspaces-restore-service-title = { -brand-short-name } Workspaces Backup Service
+workspaces-restore-service-title = { -brand-short-name } Arbeitsbereich Sicherungsdienst
 workspaces-restore-warning = Warnung! Wenn Sie diese Operation ausführen, wird der Browser vorübergehend einfrieren und automatisch neu starten.
 floorp-workspace-settings-button = Arbeitsbereichseinstellungen...
 change-to-close-workspace-popup-option = 
@@ -405,12 +405,12 @@ workspaces-reset-label =
     .label = Arbeitsbereiche zurücksetzen
 workspaces-reset-description = Wenn eine Sicherung nicht funktioniert und der Arbeitsbereich nicht startet, setzen Sie den Arbeitsbereich zurück.
 workspaces-reset-button = Arbeitsbereiche zurücksetzen
-workspaces-reset-service-title = { -brand-short-name } Workspaces
-workspaces-reset-warning = Warnung! Wenn Sie diesen Vorgang ausführen, werden alle Ihre Arbeitsbereiche gelöscht und der Browser neu gestartet.
+workspaces-reset-service-title = { -brand-short-name } Arbeitsbereiche
+workspaces-reset-warning = Warnung! Wenn Sie diesen Vorgang ausführen, werden alle Ihre Arbeitsbereiche gelöscht und der Browser wird neu gestartet.
 manage-workspace-on-bms-option = 
     .label = Arbeitsbereich auf der Browser Manager Seitenleiste verwalten
 show-workspace-name-option = 
-    .label = Arbeitsbereichsname auf der Schaltfläche Arbeitsbereichsleiste anzeigen
+    .label = Anzeigen des Arbeitsbereichsnamens auf der Schaltfläche Arbeitsbereich in der Registerkarte
 change-workspace-with-default-key-option = 
     .label = Wechseln Sie den Arbeitsbereich mit der Umschalttaste und den Tasten ↑ und ↓.
 workspaces-manage-title = Arbeitsbereiche verwalten
@@ -463,7 +463,7 @@ workspace-icon-chill =
     .label = Privat
 # Custom Keyboard Shortcuts
 floorp-CSK-title = Benutzerdefinierte Tastaturkürzel
-floorp-CSK-description = Customize { -brand-short-name }'s keyboard shortcuts. { -brand-short-name } provides more than 80 customizable keyboard shortcuts - restart { -brand-short-name } to apply these settings. Duplicate keyboard shortcuts will not work.
+floorp-CSK-description = Anpassen von { -brand-short-name } Tastaturkürzeln. { -brand-short-name } bietet mehr als 80 anpassbare Tastenkürzel - Starten Sie { -brand-short-name } neu, um diese Einstellungen zu übernehmen. Doppelte Tastaturkürzel funktionieren nicht.
 disable-fx-actions = 
     .label = Deaktiviere die Tastaturkürzel von Mozilla Firefox
 customize-Action = 
@@ -478,7 +478,7 @@ CSK-manage-title = Tastaturkürzel verwalten
 CSK-remove-shortcutkey = Benutzerdefinierte Tastaturkürzel entfernen?
 CSK-remove-shortcutkey-description = Sind Sie sicher, dass Sie dieses Tastaturkürzel entfernen möchten?
 CSK-restore-default = Standard wiederherstellen?
-CSK-restore-default-description = Restore { -brand-short-name }'s default keyboard shortcuts? Your current shortcuts will be lost.
+CSK-restore-default-description = Die Standard-Tastaturkürzel von { -brand-short-name } wiederherstellen? Ihre aktuellen Tastenkombinationen gehen verloren.
 CSK-reboot-browser-label = { -brand-short-name } neustarten, um diese Einstellungen zu übernehmen
 CSK-reboot-browser-button = { -brand-short-name } neu starten
 # Exist shortcut key: "S", "shift"
@@ -546,7 +546,7 @@ WebRTC =
 ################################################################### browser ###############################################################
 
 rest-mode = Mach eine Pause...
-rest-mode-description = { -brand-short-name } is currently suspended. Press ENTER or OK to continue.
+rest-mode-description = { -brand-short-name } ist zurzeit pausiert. Drücken Sie ENTER oder OK um fortzufahren.
 Sidebar2 = 
     .label = Browser Manager Seitenleiste
     .tooltiptext = Seitenleistensichtbarkeit ändern
@@ -636,9 +636,9 @@ undo-closed-tab = Geschlossenen Tab erneut öffnen
 ################################################################### about:addons ###############################################################
 
 # Dual Theme
-dual-theme-enable-addon-button = Als Unter-Theme aktivieren
-dual-theme-disable-addon-button = Unter-Theme deaktivieren
-dual-theme-enabled-heading = Als Unter-Theme aktiviert
+dual-theme-enable-addon-button = Als duales Theme aktivieren
+dual-theme-disable-addon-button = Duales Theme deaktivieren
+dual-theme-enabled-heading = Als duales Theme aktiviert
 ##################################################################### toolbar ###############################################################
 
 status-bar = 
@@ -646,28 +646,28 @@ status-bar =
     .accesskey = S
 ##################################################################### Gesturefy ###############################################################
 
-gf-floorp-open-tree-style-tab-name = [{ -brand-short-name }] Open Tree Style Tab Panel
-gf-floorp-open-tree-style-tab-description = Tab Panel für die Seitenleiste öffnen
-gf-floorp-open-bookmarks-sidebar-name = [{ -brand-short-name }] Open Bookmarks Panel of Sidebar
+gf-floorp-open-tree-style-tab-name = [{ -brand-short-name }] Tree-Style Tab Panel öffnen
+gf-floorp-open-tree-style-tab-description = Tree-Style Tab Panel für die Seitenleiste öffnen
+gf-floorp-open-bookmarks-sidebar-name = [{ -brand-short-name }] Lesezeichen-Panel der Seitenleiste öffnen
 gf-floorp-open-bookmarks-sidebar-description = Lesezeichen-Panel der Seitenleiste öffnen
-gf-floorp-open-history-sidebar-name = [{ -brand-short-name }] Open History Panel of Sidebar
-gf-floorp-open-history-sidebar-description = Verlauf der Sidebar öffnen
-gf-floorp-open-synctabs-sidebar-name = [{ -brand-short-name }] Open Synced Tabs Panel of Sidebar
+gf-floorp-open-history-sidebar-name = [{ -brand-short-name }] Chronik-Panel der Seitenleiste öffnen
+gf-floorp-open-history-sidebar-description = Chronik-Panel der Seitenleiste öffnen
+gf-floorp-open-synctabs-sidebar-name = [{ -brand-short-name }] Synchronisierte Tabs-Panel der Seitenleiste öffnen
 gf-floorp-open-synctabs-sidebar-description = Öffne synchronisierte Tabs in der Seitenleiste
-gf-floorp-close-sidebar-name = [{ -brand-short-name }] Close Sidebar
+gf-floorp-close-sidebar-name = [{ -brand-short-name }] Seitenleiste schließen
 gf-floorp-close-sidebar-description = Seitenleiste schließen
-gf-floorp-open-browser-manager-sidebar-name = [{ -brand-short-name }] Open BMS
+gf-floorp-open-browser-manager-sidebar-name = [{ -brand-short-name }] Öffne BMS
 gf-floorp-open-browser-manager-sidebar-description = Browser Manager Seitenleiste öffnen, wenn Webpanel der Browser Manager Sidebar geladen wurde
-gf-floorp-close-browser-manager-sidebar-name = [{ -brand-short-name }] Close BMS
+gf-floorp-close-browser-manager-sidebar-name = [{ -brand-short-name }] BMS schließen
 gf-floorp-close-browser-manager-sidebar-description = Browser Manager Seitenleiste schließen
-gf-floorp-show-browser-manager-sidebar-name = [{ -brand-short-name }] Toggle BMS
+gf-floorp-show-browser-manager-sidebar-name = [{ -brand-short-name }] BMS umschalten
 gf-floorp-show-browser-manager-sidebar-description = Browser-Manager-Seitenleiste umschalten
-gf-floorp-hide-statusbar-name = [{ -brand-short-name }] Hide Status Bar
+gf-floorp-hide-statusbar-name = [{ -brand-short-name }] Statusleiste ausblenden
 gf-floorp-hide-statusbar-description = Statusleiste ausblenden
-gf-floorp-show-statusbar-name = [{ -brand-short-name }] Toggle Status Bar
+gf-floorp-show-statusbar-name = [{ -brand-short-name }] Statusleiste umschalten
 gf-floorp-show-statusbar-description = Statusleiste anzeigen oder ausblenden
-gf-floorp-open-extension-sidebar-name = [{ -brand-short-name }] Open selected add-on of Sidebar
-gf-floorp-open-extension-sidebar-description = Ausgewähltes Add-on der Seitenleiste öffnen
+gf-floorp-open-extension-sidebar-name = [{ -brand-short-name }] Ausgewählte Add-ons-Panel in der Seitenleiste öffnen
+gf-floorp-open-extension-sidebar-description = Ausgewähltes Add-on in der Seitenleiste öffnen
 gf-floorp-open-extension-sidebar-settings-addons-id = Add-on der Sidebar
 gf-floorp-open-extension-sidebar-settings-addons-id-description = Die Erweiterung des Add-ons öffnen der Seitenleiste
 gf-floorp-open-extension-sidebar-settings-list-default = Bitte wählen Sie ein Add-on
@@ -679,7 +679,7 @@ update-portable-notification-found-message = Updates werden heruntergeladen...
 update-portable-notification-ready-title = Bereit zum Aktualisieren!
 update-portable-notification-ready-message = { -brand-short-name } wird beim nächsten Start aktualisiert.
 update-portable-notification-success-title = Update erfolgreich!
-update-portable-notification-success-message = Update succeeded! Hope you enjoy the new version of { -brand-short-name }!
+update-portable-notification-success-message = Update erfolgreich! Wir wünschen Ihnen viel Spaß mit der neuen Version von { -brand-short-name }!
 update-portable-notification-failed-title = Update fehlgeschlagen.
 update-portable-notification-failed-redirector-message = Update fehlgeschlagen. Ein Neustart Ihres Browsers könnte dieses Problem beheben.
 update-portable-notification-failed-prepare-message = Fehler bei der Vorbereitung der Aktualisierung.
@@ -707,9 +707,9 @@ memo-input-placeholder = Schreibe oder füge eine Memo hier ein
 delete-memo = Löschen
 save-memo = Speichern
 memo-welcome-title = Willkommen!
-memo-first-tip = Welcome to { -brand-short-name } Notes! Here are some instructions on how to use it!
-memo-second-tip = { -brand-short-name } Notes is a notepad that lets you store multiple notes that sync across devices. To enable synchronization, you need to sign in to { -brand-short-name } with your Firefox account.
-memo-third-tip = { -brand-short-name } Notes will be saved in your { -brand-short-name } settings and synchronized across devices using Firefox Sync. Firefox Sync encrypts the contents of the sync with your Firefox account password, so no one but you knows its contents.
+memo-first-tip = Willkommen bei { -brand-short-name } Notizen! Hier sind einige Tipps, wie man es verwenden kann!
+memo-second-tip = { -brand-short-name } Notizen ist ein Notizblock, mit dem Sie mehrere Notizen speichern können, die geräteübergreifend synchronisiert werden. Um die Synchronisierung zu aktivieren, müssen Sie sich bei { -brand-short-name } mit Ihrem Firefox-Konto anmelden.
+memo-third-tip = { -brand-short-name } Die Notizen werden in den Einstellungen von { -brand-short-name } gespeichert und mit Firefox Sync geräteübergreifend synchronisiert. Firefox Sync verschlüsselt den Inhalt der Synchronisierung mit Ihrem Firefox-Kontopasswort, sodass niemand außer Ihnen den Inhalt kennt.
 memo-import-data-tip = Firefox Sync ist kein Sicherungsdienst. Wir empfehlen Ihnen, Sicherungen zu erstellen.
 memo-new-title = Neue Notiz
 chage-view-mode = Ansicht/Bearbeiten-Modus umschalten
