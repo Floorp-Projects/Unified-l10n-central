@@ -73,4 +73,4 @@
         [ins] Ablaze
         [loc] Ablaze
     }
-trademarkInfo = Firefox oraz logotyp Firefox to znaki towarowe Mozilla Foundation.
+trademarkInfo = Floorp oraz logotyp Floorp to znaki towarowe Ablaze.
