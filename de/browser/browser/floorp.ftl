@@ -4,7 +4,7 @@
 
 ###################################################################### about:Dialog #################################################################################
 
-about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> ist einer der in Japan entwickelten Browser. Es basiert auf Firefox und läuft weiterhin unter <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>, um das Web zu verbessern. Willst du helfen? <label data-l10n-name="helpus-donateLink">Spende</label>
+about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> ist einer der in Japan entwickelten Browser. Es basiert auf Firefox und läuft weiterhin unter <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>, um das Web zu verbessern. Willst du helfen? <label data-l10n-name="helpus-donateLink">Unterstützen sie uns mit einer Spende.</label>
 icon-creator = Icon-Ersteller <label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> und <label data-l10n-name="brand-logo-twitter">@mwxdxx.</label>
 contributors = Eine Liste von <label data-l10n-name="about-contributor">Mitwirkenden und Entwicklern</label>
 #################################################################### about:preferences ####################################################################
@@ -19,7 +19,7 @@ preferences-tabs-newtab-position = Neue Tab-Position
 open-new-tab-use-default = 
     .label = Neue Tabs an der Standardposition öffnen
 open-new-tab-at-the-end = 
-    .label = Neue Tabs am Ende der Tableiste öffnen
+    .label = Neue Tabs am Ende der Tab-Leiste öffnen
 open-new-tab-next-to-current = 
     .label = Neue Tabs neben dem aktuellen Tab öffnen
 multirow-tabs-limit = 
@@ -28,14 +28,14 @@ multirow-tabs-newtab =
     .label = Schaltfläche "Neuen Tab öffnen" am Ende der untersten Tab-Reihe anzeigen
 multirow-tabs-value = Anzahl der Zeilen, wenn mehrzeilige Tabs aktiviert sind
 enable-tab-sleep = 
-    .label = Ruhezustand für Tabs aktivieren
+    .label = Schlafende Tabs aktivieren
 tab-sleep-timeout-minutes-value = Tabs gehen in den Ruhezustand, nachdem sie für (Minuten) inaktiv sind
 tab-sleep-settings-button = Einstellungen...
 tab-sleep-settings-dialog-title = 
-    .title = Ruhezustand Einstellungen für Tabs
+    .title = Einstellungen für Tabs im Ruhezustand
 tab-sleep-settings-dialog-excludehosts-label = Hosts ausschließen
 tab-sleep-settings-dialog-excludehosts-label-2 = Geben Sie einen Host pro Zeile ein.
-tab-sleep-tab-context-menu-excludetab = Tab wach halten
+tab-sleep-tab-context-menu-excludetab = Ruhezustand für Tab deaktivieren
 enable-floorp-workspace = 
     .label = Arbeitsbereiche aktivieren
 workspace-warning = Arbeitsbereiche können nicht zusammen mit Add-ons für Tab-Umgebungen verwendet werden. Wenn Sie Add-ons für Tab-Umgebungen verwenden möchten, deaktivieren Sie die Arbeitsbereiche und starten Sie { -brand-short-name } neu.
