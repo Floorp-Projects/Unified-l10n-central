@@ -73,9 +73,9 @@ vertical-tabbar =
 native-vertical-tab-show-right = 
     .label = Pokaż pionowy pasek kart po prawej stronie okna
 hover-vertical-tab = 
-    .label = Collapse Vertical Tab Bar
+    .label = Zwiń pionowy pasek kart
 TST = Karta stylu drzewa
-about-TST = Tree Style Tab is a popular add-on that allows you to display tabs in a tree structure. { -brand-short-name } 10 has a built-in this add-on. Please install the add-on restore { -brand-short-name } 10's built-in Tree Style Tab.
+about-TST = Tree Style Tab to popularny dodatek umożliwiający wyświetlanie zakładek w strukturze drzewa. { -brand-short-name } 10 ma wbudowany ten dodatek. Zainstaluj dodatek przywracający { -brand-short-name } 10's built-in Tree Style Tab.
 treestyletab-Settings = 
     .label = Zwiń kartę stylu drzewa
 sidebar-reverse-position-toolbar = Pokaż paski boczne po drugiej stronie
@@ -236,7 +236,7 @@ min-memory =
 balance-memory = 
     .label = Użycie i wydajność pamięci bilansowej
 max-memory = 
-    .label = Best Performance (high memory usage)
+    .label = Najlepsza wydajność (wysokie zużycie pamięci)
 delete-border-and-roundup-option = 
     .label = Zaokrąglij narożniki stron
 
@@ -352,12 +352,12 @@ floorp-notes = Notatki { -brand-short-name }
 restore-from-backup = Przywróć notatki z kopii zapasowej
 enable-notes-sync = 
     .label = Włącz synchronizację notatek { -brand-short-name }
-about-notes-backup-tips = { -brand-short-name } Notes uses Firefox Sync to sync your notes with other devices. If you lose your notes, you can restore them from a backup. A backup is created when you start { -brand-short-name }.
+about-notes-backup-tips = { -brand-short-name } Notatki wykorzystują Firefox Sync do synchronizowania notatek z innymi urządzeniami. W przypadku utraty notatek można je przywrócić z kopii zapasowej. Kopia zapasowa tworzona jest po uruchomieniu { -brand-short-name }.
 notes-sync-description = To może rozwiązać problem utraty treści z powodu nadpisywania notatek podczas synchronizacji.
 backuped-time = Kopia zapasowa
 notes-backup-option = Ustawienia kopii zapasowej
 backup-option-button = Ustawienia kopii zapasowej...
-restore-from-backup-prompt-title = { -brand-short-name } Notes Restore Service
+restore-from-backup-prompt-title = { -brand-short-name } Usługa przywracania notatek
 restore-from-this-backup = Przywrócić notatki do stanu, w którym były w tej kopii zapasowej?
 restore-button = Przywróć
 
@@ -376,7 +376,7 @@ apply-userjs-button = Zastosuj
 
 ## userjs Options
 
-default-userjs-label = { -brand-short-name } Default
+default-userjs-label = { -brand-short-name } Domyślne
 about-default-userjs = Telemetria wyłączona. Dobrze zbalansowany { -brand-short-name } z włączonymi różnymi dostosowaniami.
 Securefox-label = Yokoffing Securefox
 about-Securefox = HTTPS-by-Default. Całkowita ochrona plików cookie z izolacją witryny. Zwiększony podział stanu i sieci. Różne inne ulepszenia.
@@ -707,9 +707,9 @@ memo-input-placeholder = Napisz lub wklej notatkę tutaj
 delete-memo = Usuń
 save-memo = Zapisz
 memo-welcome-title = Witaj!
-memo-first-tip = Welcome to { -brand-short-name } Notes! Here are some instructions on how to use it!
-memo-second-tip = { -brand-short-name } Notes is a notepad that lets you store multiple notes that sync across devices. To enable synchronization, you need to sign in to { -brand-short-name } with your Firefox account.
-memo-third-tip = { -brand-short-name } Notes will be saved in your { -brand-short-name } settings and synchronized across devices using Firefox Sync. Firefox Sync encrypts the contents of the sync with your Firefox account password, so no one but you knows its contents.
+memo-first-tip = Witaj w Notatkach { -brand-short-name }! Oto kilka instrukcji, jak z nich korzystać!
+memo-second-tip = { -brand-short-name } Notatki umożliwiają przechowywanie wielu notatek synchronizowanych między urządzeniami. Aby włączyć synchronizację, należy zalogować się w { -brand-short-name } za pomocą konta Firefox.
+memo-third-tip = { -brand-short-name } Notatki będą zapisywane w ustawieniach { -brand-short-name } i synchronizowane między urządzeniami za pomocą Firefox Sync. Firefox Sync szyfruje zawartość synchronizacji za pomocą hasła do konta Firefox, dzięki czemu nikt poza użytkownikiem nie zna jej zawartości.
 memo-import-data-tip = Firefox Sync nie jest usługą tworzenia kopii zapasowych. Zalecamy utworzenie kopii zapasowych.
 memo-new-title = Nowa notatka
 chage-view-mode = Przełącz tryb widoku/edycji
@@ -728,7 +728,7 @@ floorp-show-all-downloads =
     .tooltiptext = Pokaż wszystkie pobrane pliki
 ######################################################################### workspace ###############################################################
 
-workspace-prompt-title = { -brand-short-name } Workspace
+workspace-prompt-title = { -brand-short-name } Obszar roboczy
 please-enter-workspace-name = Wprowadź nową nazwę obszaru roboczego.
 please-enter-workspace-name-2 = Nazwa obszaru roboczego nie może zawierać symboli i spacji.
 workspace-error = Wystąpił błąd:
@@ -860,9 +860,9 @@ floorp-custom-actions-open-migration-wizard = Otwórz kreatora migracji
     .label = Otwórz kreatora migracji
 floorp-custom-actions-quit-from-application = Wyjdź z aplikacji
     .label = Wyjdź z { -brand-short-name }
-floorp-custom-actions-enter-into-customize-mode = Enter the toolbar customization mode
+floorp-custom-actions-enter-into-customize-mode = Wejdź w tryb dostosowywania paska narzędzi
     .label = Otwórz dostosowywanie { -brand-short-name }
-floorp-custom-actions-enter-into-offline-mode = Enter offline mode
+floorp-custom-actions-enter-into-offline-mode = Przejście do trybu offline
     .label = Wejdź do trybu offline
 floorp-custom-actions-open-screen-capture = Otwórz narzędzie przechwytywania ekranu
     .label = Zrób zrzut ekranu
@@ -980,13 +980,13 @@ open-in_private-container =
 ######################################################################## Split View ###############################################################
 
 floorp-split-view-menu = 
-    .label = Fixed in split view
+    .label = Naprawione w widoku podzielonym
 splitview-show-on-right = 
-    .label = Show on right
+    .label = Pokaż po prawej
 splitview-show-on-left = 
-    .label = Show on left
+    .label = Pokaż po lewej
 splitview-close-split-tab = 
-    .label = Close split tab
+    .label = Zamknij podzielone zakładki
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = Zeskanuj kod QR za pomocą telefonu
 qrcode-generate-page-action = 
