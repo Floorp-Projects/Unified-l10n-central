@@ -4,7 +4,7 @@
 
 ###################################################################### about:Dialog #################################################################################
 
-about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> jest jedną z przeglądarek domowych opracowanych w Japonii. Opiera się on na Firefox i nadal działa w ramach <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>, aby ulepszyć stronę internetową. Chcesz pomóc? <label data-l10n-name="helpus-donateLink">Dokonaj darowizny</label>
+about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> jest przeglądarką opracowaną w Japonii. Opiera się ona na Firefox i nadal działa w ramach <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>, aby ulepszyć internet. Chcesz pomóc? <label data-l10n-name="helpus-donateLink">Dokonaj darowizny</label>
 icon-creator = Twórca ikon <label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> i <label data-l10n-name="brand-logo-twitter">@mwxdxx.</label>
 contributors = Lista współtwórców <label data-l10n-name="about-contributor">i programistów</label>
 #################################################################### about:preferences ####################################################################
