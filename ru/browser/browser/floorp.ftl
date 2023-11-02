@@ -382,11 +382,11 @@ Securefox-label = Йооффисная Securefox
 about-Securefox = HTTPS-по умолчанию. Полная защита Cookie с изоляцией сайта. Расширенное состояние и сетевое разделение. Различные другие улучшения.
 default-label = Yokoffing Default
 about-default = Все необходимо. Ни один из прерываний. Это ваш user.js.
-Fastfox-label = Йокофф Fastfox
+Fastfox-label = Yokoffing Fastfox
 about-Fastfox = Значительно увеличивают скорость просмотра в Firefox. Дайте Chrome для запуска за свои деньги!
 Peskyfox-label = Yokoffing Peskyfox
 about-Peskyfox = Выключает страницу с новой вкладкой. Удалить карман. Восстановить компактный режим в качестве опции. Остановить уведомления веб-страниц, всплывающие окна и другие неприятности.
-Smoothfox-label = Йокофф Сглаутфокс
+Smoothfox-label = Yokoffing Fastfox
 about-Smoothfox = Скачайте Edge-подобную плавную прокрутку вашего любимого браузера — или выберите что-нибудь больше вашего стиля.
 
 ## Workspaces
