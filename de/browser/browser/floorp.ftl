@@ -193,7 +193,7 @@ category-BSB =
 category-downloads = 
     .tooltiptext = { files-and-applications-title }
 bsb-header = Browser Manager Seitenleiste
-bsb-context = Use the following Container
+bsb-context = Folgenden Container verwenden
 bsb-userAgent-label = 
     .label = Mobilen User Agent in diesem Web Panel verwenden
 bsb-width = Breite (falls auf 0 gesetzt, wird der globale Wert verwendet)
@@ -715,7 +715,7 @@ memo-new-title = Neue Notiz
 chage-view-mode = Ansicht/Bearbeiten-Modus umschalten
 readonly-mode = Offline (schreibgeschützt)
 ######################################################################### Default bookmarks ###############################################################
-default-bookmark-ablaze-support = Support abbrechen
+default-bookmark-ablaze-support = Unterstützung von Ablaze
 ######################################################################### Like Chrome Download mgr ###############################################################
 
 floorp-delete-all-downloads = 
@@ -752,7 +752,7 @@ manage-workspace = Diesen Arbeitsbereich verwalten
 ######################################################################### menubar item ###############################################################
 
 sharemode-menuitem = 
-    .label = Teilen-Modus
+    .label = Freigabemodus
     .accesskey = S
 ############################################################################## Welcome page ###############################################################
 
@@ -874,7 +874,7 @@ floorp-custom-actions-open-bookmarks-sidebar = Lesezeichen Seitenleiste öffnen
     .label = Lesezeichen-Seitenleiste öffnen
 floorp-custom-actions-open-bookmark-add-tool = Lesezeichen hinzufügen Werkzeug öffnen
     .label = Lesezeichen hinzufügen
-floorp-custom-actions-open-bookmark-add-toolbar = Open "Add a new bookmark" pop-up window
+floorp-custom-actions-open-bookmark-add-toolbar = Pop-up-Fenster "Neues Lesezeichen hinzufügen" öffnen
     .label = Zur Lesezeichen-Symbolleiste hinzufügen
 floorp-custom-actions-open-bookmarks-manager = Lesezeichen-Manager öffnen
     .label = Lesezeichen-Manager öffnen
