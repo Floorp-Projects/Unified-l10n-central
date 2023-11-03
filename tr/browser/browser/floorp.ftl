@@ -994,3 +994,12 @@ qrcode-generate-page-action =
 ######################################################################### Customize Mode ###############################################################
 floorp-customize-mode-unified-extensions-button = 
     .label = Birleşik Uzantılar Düğmesi
+######################################################################### Progressive Web Apps (SSB) ###############################################################
+
+ssb-page-action-title = Install this Site as an App
+ssb-app-open-button = 
+    .label = Open In PWA
+ssb-app-install-button = 
+    .label = Install
+ssb-app-cancel-button = 
+    .label = Cancel
