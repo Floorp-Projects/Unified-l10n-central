@@ -874,7 +874,7 @@ floorp-custom-actions-open-bookmarks-sidebar = فتح الشريط الجانب�
     .label = فتح الشريط الجانبي للعلامات
 floorp-custom-actions-open-bookmark-add-tool = فتح أداة إضافة الإشارة المرجعية
     .label = إضافة إشارة مرجعية
-floorp-custom-actions-open-bookmark-add-toolbar = فتح شريط أدوات إضافة الإشارة المرجعية
+floorp-custom-actions-open-bookmark-add-toolbar = Open "Add a new bookmark" pop-up window
     .label = إضافة إلى شريط أدوات الإشارات المرجعية
 floorp-custom-actions-open-bookmarks-manager = فتح مدير الإشارات المرجعية
     .label = فتح مدير الإشارات المرجعية
