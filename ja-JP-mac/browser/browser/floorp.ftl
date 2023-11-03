@@ -15,7 +15,7 @@ category-design =
 design-header = { pane-design-title }
 feature-requires-restart = 変更を適用するには再起動が必要です
 tab-width = タブの最小幅
-preferences-tabs-newtab-position = 新規タブを開く位置
+preferences-tabs-newtab-position = 新規タブの位置
 open-new-tab-use-default = 
     .label = デフォルト設定を使用
 open-new-tab-at-the-end = 
@@ -994,3 +994,12 @@ qrcode-generate-page-action =
 ######################################################################### Customize Mode ###############################################################
 floorp-customize-mode-unified-extensions-button = 
     .label = 統合拡張機能ボタン
+######################################################################### Progressive Web Apps (SSB) ###############################################################
+
+ssb-page-action-title = Install this Site as an App
+ssb-app-open-button = 
+    .label = Open In PWA
+ssb-app-install-button = 
+    .label = Install
+ssb-app-cancel-button = 
+    .label = Cancel
