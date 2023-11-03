@@ -229,7 +229,7 @@ category-downloads =
     .tooltiptext = { files-and-applications-title }
 
 bsb-header = Browser Manager Sidebar
-bsb-context = Use the following Container Tab
+bsb-context = Use the following Container
 bsb-userAgent-label = 
   .label = Use Mobile User Agent in this Web Panel
 bsb-width = Width (if set to 0, the global value will be used)
