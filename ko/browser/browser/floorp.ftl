@@ -478,7 +478,7 @@ CSK-manage-title = 키보드 단축키 관리
 CSK-remove-shortcutkey = 사용자 지정 키보드 단축키를 제거하시겠습니까?
 CSK-remove-shortcutkey-description = 이 키보드 단축키를 제거하시겠습니까?
 CSK-restore-default = 기본값 복원?
-CSK-restore-default-description = Restore { -brand-short-name }'s default keyboard shortcuts? Your current shortcuts will be lost.
+CSK-restore-default-description = { -brand-short-name }의 기본 단축키를 복원하시겠어요? 현재 설정된 단축키는 잃게 되어요.
 CSK-reboot-browser-label = { -brand-short-name } 을 재시작하여 다음 설정을 적용합니다.
 CSK-reboot-browser-button = { -brand-short-name }를 재시작하기
 # Exist shortcut key: "S", "shift"
@@ -505,7 +505,7 @@ floorp-custom-actions-custom-action = 커스텀 액션(실험적)
 mouse-gesture = 마우스 제스처
 mouse-gesture-description = { -brand-short-name }에서 마우스 제스처를 사용하려면 Gesturefy가 설치되어 있어야 합니다.
 Gesturefy = Gesturefy
-about-Gesturefy = Gesturefy is an extension that adds mouse gestures to your browser. If { -brand-short-name } detects the installation of this add-on, it will add gesture commands to Gesturefy that are only available in { -brand-short-name }. This add-on also create new tabs!
+about-Gesturefy = Gesturefy는 브라우저에 마우스 제스처를 추가하는 확장 기능입니다. 만약 { -brand-short-name }가 이 확장 기능을 감지한다면, { -brand-short-name }에서만 사용할 수 있는 제스처를 추가할 거예요. 또, 이 애드온은 새로운 탭에서도 작동해요!
 # Translate
 TWS = 웹 페이지 번역
 about-TWS = Google 또는 Yandex를 사용하여 페이지를 실시간으로 번역하세요. 선택한 텍스트 또는 전체 페이지를 번역할 수도 있습니다.
