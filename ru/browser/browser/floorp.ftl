@@ -394,7 +394,7 @@ about-Smoothfox = Получите плавную прокрутку, как в 
 floorp-workspaces-title = Рабочие области { -brand-short-name }
 workspaces-backup-discription = Резервное копирование и восстановление ваших рабочих областей
 workspaces-restore-service-title = Служба восстановления заметок { -brand-short-name }
-workspaces-restore-warning = Warning! Running this operation will cause your current Workspaces to be overwritten. The browser will freeze for a few seconds and then proceed to restart.
+workspaces-restore-warning = Внимание! Выполнение этой операции приведет к тому, что текущие рабочие пространства будут перезаписаны. Браузер зависнет на несколько секунд, а затем будет перезапущен.
 floorp-workspace-settings-button = Настройки рабочей области...
 change-to-close-workspace-popup-option = 
     .label = Закрыть всплывающее окно рабочих областей при выборе рабочей области
@@ -503,7 +503,7 @@ floorp-custom-actions-custom-action = Пользовательские дейс�
 ## Mouse Gestures
 
 mouse-gesture = Жесты мышью
-mouse-gesture-description = Жесты мыши должны быть установлены для использования жестов мыши с { -brand-short-name }.
+mouse-gesture-description = Gesturify должен быть установлены для использования жестов мыши с { -brand-short-name }.
 Gesturefy = Gesturefy
 about-Gesturefy = Gesturefy is an extension that adds mouse gestures to your browser. If { -brand-short-name } detects the installation of this add-on, it will add gesture commands to Gesturefy that are only available in { -brand-short-name }. This add-on also create new tabs!
 # Translate
@@ -707,9 +707,9 @@ memo-input-placeholder = Введите или вставьте текст
 delete-memo = Удалить
 save-memo = Сохранить
 memo-welcome-title = Добро пожаловать!
-memo-first-tip = Welcome to { -brand-short-name } Notes! Here are some instructions on how to use it!
-memo-second-tip = { -brand-short-name } Notes is a notepad that lets you store multiple notes that sync across devices. To enable synchronization, you need to sign in to { -brand-short-name } with your Firefox account.
-memo-third-tip = { -brand-short-name } Notes will be saved in your { -brand-short-name } settings and synchronized across devices using Firefox Sync. Firefox Sync encrypts the contents of the sync with your Firefox account password, so no one but you know its contents.
+memo-first-tip = Добро пожаловать в заметки { -brand-short-name }! Вот несколько инструкций по их использованию!
+memo-second-tip = Заметки { -brand-short-name } - это блокнот, позволяющий хранить множество заметок, которые синхронизируются между устройствами. Чтобы включить синхронизацию, необходимо войти в { -brand-short-name } с помощью учетной записи Firefox.
+memo-third-tip = Заметки { -brand-short-name } будут сохранены в настройках { -brand-short-name } и синхронизированы между устройствами с помощью Firefox Sync. Firefox Sync шифрует содержимое синхронизации с паролем учетной записи Firefox, поэтому никто, кроме вас, не сможет прочитать их содержимое.
 memo-import-data-tip = Firefox Sync не является службой резервного копирования. Рекомендуется создавать резервные копии.
 memo-new-title = Новая заметка
 chage-view-mode = Режим просмотра/редактирования
