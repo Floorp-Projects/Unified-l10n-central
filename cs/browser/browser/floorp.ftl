@@ -121,16 +121,14 @@ ui-preference = Vzhled prohlížeče
 preferences-browser-appearance-description = Vyberte vestavěný design třetích stran pro použití v { -brand-short-name }. Některé návrhy nemusí být kompatibilní s vaší konfigurací.
 firefox-proton = 
     .label = Firefox Proton UI
-firefox-proton-fix = 
-    .label = Oprava uživatelského rozhraní Firefox
 firefox-photon-lepton = 
     .label = Firefoxové fotografie – uživatelské rozhraní
 floorp-fluentUI = 
-    .label = Microsoft Fluent UI
+    .label = Microsoft Fluent UI (deprecated)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI
+    .label = { -brand-short-name } Fluerial UI (deprecated)
 floorp-gnomeUI = 
-    .label = GNOME šablona
+    .label = GNOME Theme (deprecated)
 
 ## Download Manager
 
