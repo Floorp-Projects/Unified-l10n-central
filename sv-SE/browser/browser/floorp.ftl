@@ -121,16 +121,14 @@ ui-preference = Webbläsarens utseende
 preferences-browser-appearance-description = Välj en inbyggd tredjepartsdesign att använda i { -brand-short-name }. Vissa konstruktioner kanske inte är kompatibla med din konfiguration.
 firefox-proton = 
     .label = Firefox Proton användargränssnitt
-firefox-proton-fix = 
-    .label = Firefox Proton Rätta UI
 firefox-photon-lepton = 
     .label = Firefox Photon<unk> Lepton UI
 floorp-fluentUI = 
-    .label = Microsoft Fluent UI
+    .label = Microsoft Fluent UI (deprecated)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI
+    .label = { -brand-short-name } Fluerial UI (deprecated)
 floorp-gnomeUI = 
-    .label = GNOME-tema
+    .label = GNOME Theme (deprecated)
 
 ## Download Manager
 
