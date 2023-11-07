@@ -121,16 +121,14 @@ ui-preference = Tarayıcı görünümü
 preferences-browser-appearance-description = { -brand-short-name }adresinde kullanmak için yerleşik bir üçüncü taraf tasarımı seçin. Bazı tasarımlar yapılandırmanızla uyumlu olmayabilir.
 firefox-proton = 
     .label = Firefox Proton Kullanıcı Arayüzü
-firefox-proton-fix = 
-    .label = Firefox Proton Düzeltme Kullanıcı Arayüzü
 firefox-photon-lepton = 
     .label = Firefox Photon ・ Lepton Kullanıcı Arayüzü
 floorp-fluentUI = 
-    .label = Microsoft Fluent UI
+    .label = Microsoft Fluent UI (deprecated)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI
+    .label = { -brand-short-name } Fluerial UI (deprecated)
 floorp-gnomeUI = 
-    .label = GNOME Teması
+    .label = GNOME Theme (deprecated)
 
 ## Download Manager
 
