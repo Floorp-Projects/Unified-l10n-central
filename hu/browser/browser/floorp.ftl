@@ -121,16 +121,14 @@ ui-preference = Böngésző megjelenése
 preferences-browser-appearance-description = Válasszon egy beépített, harmadik féltől származó dizájnt a { -brand-short-name }. Előfordulhat, hogy egyes minták nem kompatibilisek az Ön konfigurációjával.
 firefox-proton = 
     .label = Firefox Proton felhasználói felület
-firefox-proton-fix = 
-    .label = Firefox Proton Fix UI
 firefox-photon-lepton = 
     .label = Firefox Photon・Lepton felhasználói felület
 floorp-fluentUI = 
-    .label = Microsoft Fluent UI
+    .label = Microsoft Fluent UI (deprecated)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI
+    .label = { -brand-short-name } Fluerial UI (deprecated)
 floorp-gnomeUI = 
-    .label = GNOME téma
+    .label = GNOME Theme (deprecated)
 
 ## Download Manager
 
