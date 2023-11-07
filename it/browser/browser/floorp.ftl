@@ -121,16 +121,14 @@ ui-preference = Aspetto del browser
 preferences-browser-appearance-description = Scegli un design di terze parti incorporato da usare in { -brand-short-name }. Alcuni disegni potrebbero non essere compatibili con la tua configurazione.
 firefox-proton = 
     .label = Firefox Proton UI
-firefox-proton-fix = 
-    .label = Firefox Proton Correzione UI
 firefox-photon-lepton = 
     .label = Firefox Photon◆ Lepton UI
 floorp-fluentUI = 
-    .label = Microsoft Fluent UI
+    .label = Microsoft Fluent UI (deprecated)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI
+    .label = { -brand-short-name } Fluerial UI (deprecated)
 floorp-gnomeUI = 
-    .label = Tema Gnome
+    .label = GNOME Theme (deprecated)
 
 ## Download Manager
 
