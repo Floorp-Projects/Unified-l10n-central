@@ -121,16 +121,14 @@ ui-preference = ブラウザーの外観
 preferences-browser-appearance-description = { -brand-short-name } で使用するサードパーティ製のデザインを選択してください。一部のデザインは、あなたの設定と互換性がない可能性があります。
 firefox-proton = 
     .label = Firefox Proton デザイン
-firefox-proton-fix = 
-    .label = Firefox Proton Fix デザイン
 firefox-photon-lepton = 
     .label = Firefox Photon・Lepton デザイン
 floorp-fluentUI = 
-    .label = Microsoft Fluent デザイン
+    .label = Microsoft Fluent UI (deprecated)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial デザイン
+    .label = { -brand-short-name } Fluerial UI (deprecated)
 floorp-gnomeUI = 
-    .label = GNOME テーマ
+    .label = GNOME Theme (deprecated)
 
 ## Download Manager
 
