@@ -121,16 +121,14 @@ ui-preference = Εμφάνιση περιηγητή
 preferences-browser-appearance-description = Επιλέξτε ένα ενσωματωμένο σχέδιο τρίτου μέρους για χρήση στο { -brand-short-name }. Μερικά σχέδια μπορεί να μην είναι συμβατά με τις ρυθμίσεις σας.
 firefox-proton = 
     .label = Firefox Proton UI
-firefox-proton-fix = 
-    .label = Firefox Proton Διόρθωση UI
 firefox-photon-lepton = 
     .label = Firefox Photon Lepton UI
 floorp-fluentUI = 
-    .label = Microsoft Fluent UI
+    .label = Microsoft Fluent UI (deprecated)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI
+    .label = { -brand-short-name } Fluerial UI (deprecated)
 floorp-gnomeUI = 
-    .label = Θέμα GNOME
+    .label = GNOME Theme (deprecated)
 
 ## Download Manager
 
