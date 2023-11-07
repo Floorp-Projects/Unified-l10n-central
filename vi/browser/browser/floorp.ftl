@@ -121,16 +121,14 @@ ui-preference = Giao diện trình duyệt
 preferences-browser-appearance-description = Chọn lựa công cụ thiết kế bên thứ ba để sử dụng { -brand-short-name }. Một số thiết kế có thể không tương thích với cài đặt của bạn.
 firefox-proton = 
     .label = Giao diện Firefox Proton
-firefox-proton-fix = 
-    .label = Giao diện Firefox Proton đã chỉnh sữa
 firefox-photon-lepton = 
     .label = Giao diện Firefox Photon - Lepton
 floorp-fluentUI = 
-    .label = Giao diện Microsoft Fluent UI
+    .label = Microsoft Fluent UI (deprecated)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI
+    .label = { -brand-short-name } Fluerial UI (deprecated)
 floorp-gnomeUI = 
-    .label = Giao diện GNOME
+    .label = GNOME Theme (deprecated)
 
 ## Download Manager
 
