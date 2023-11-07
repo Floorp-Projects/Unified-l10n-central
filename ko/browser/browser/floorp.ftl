@@ -121,16 +121,14 @@ ui-preference = 브라우저 모양
 preferences-browser-appearance-description = { -brand-short-name }에서 사용할 기본 제공 외부 디자인을 선택해주세요. 일부 디자인은 사용자 설정과 호환되지 않을 수 있어요.
 firefox-proton = 
     .label = Firefox Proton UI
-firefox-proton-fix = 
-    .label = Firefox Proton Fix UI
 firefox-photon-lepton = 
     .label = Firefox Photon・Lepton UI
 floorp-fluentUI = 
-    .label = Microsoft Fluent UI
+    .label = Microsoft Fluent UI (deprecated)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI
+    .label = { -brand-short-name } Fluerial UI (deprecated)
 floorp-gnomeUI = 
-    .label = GNOME 테마
+    .label = GNOME Theme (deprecated)
 
 ## Download Manager
 
