@@ -121,16 +121,14 @@ ui-preference = Naršyklės išvaizda
 preferences-browser-appearance-description = Pasirinkite dizainą, kurį norite naudoti „{ -brand-short-name }“ naršyklėje. Kai kurie dizainai gali nesusiderinti su jūsų konfigūracija.
 firefox-proton = 
     .label = „Firefox Proton“ dizainas
-firefox-proton-fix = 
-    .label = „Firefox Proton Fix“ dizainas
 firefox-photon-lepton = 
     .label = „Firefox Photon・Lepton“ dizainas
 floorp-fluentUI = 
-    .label = „Microsoft Fluent“ dizainas
+    .label = Microsoft Fluent UI (deprecated)
 floorp-fluerialUI = 
-    .label = „{ -brand-short-name } Fluerial“ dizainas
+    .label = { -brand-short-name } Fluerial UI (deprecated)
 floorp-gnomeUI = 
-    .label = GNOME dizainas
+    .label = GNOME Theme (deprecated)
 
 ## Download Manager
 
