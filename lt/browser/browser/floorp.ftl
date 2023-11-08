@@ -124,11 +124,11 @@ firefox-proton =
 firefox-photon-lepton = 
     .label = „Firefox Photon・Lepton“ dizainas
 floorp-fluentUI = 
-    .label = Microsoft Fluent UI (deprecated)
+    .label = „Microsoft Fluent“ dizainas (nebenaudojamas)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI (deprecated)
+    .label = „{ -brand-short-name } Fluerial“ dizainas (nebenaudojamas)
 floorp-gnomeUI = 
-    .label = GNOME Theme (deprecated)
+    .label = GNOME dizainas (nebenaudojamas)
 
 ## Download Manager
 
