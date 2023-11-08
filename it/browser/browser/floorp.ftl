@@ -350,7 +350,7 @@ floorp-notes = Note { -brand-short-name }
 restore-from-backup = Ripristina note dal backup
 enable-notes-sync = 
     .label = Abilita Sincronizzazione { -brand-short-name } Note
-about-notes-backup-tips = { -brand-short-name } Notes uses Firefox Sync to sync your notes with other devices. If you lose your notes, you can restore them from a backup. A backup is created when you launch { -brand-short-name }.
+about-notes-backup-tips = { -brand-short-name } Notes usano Firefox Sync per sincronizzare i tuoi appunti con altri dispositivi. Se perdi le tue note, puoi ripristinarli con un backup. Un backup viene creato il momento che lanci { -brand-short-name }.
 notes-sync-description = Questo può risolvere il problema della perdita di contenuto a causa della sovrascrittura delle note durante la sincronizzazione.
 backuped-time = Backup eseguito il
 notes-backup-option = Impostazioni Di Backup
@@ -374,7 +374,7 @@ apply-userjs-button = Applica
 
 ## userjs Options
 
-default-userjs-label = { -brand-short-name } Default
+default-userjs-label = { -brand-short-name } Predefinito
 about-default-userjs = Telemetria disabilitata. Ben bilanciato { -brand-short-name } con varie personalizzazioni abilitate.
 Securefox-label = Yokoffing Securefox
 about-Securefox = HTTPS-by-Default. Total Cookie Protection with site isolation. Enhanced state and network partitioning. Vari altri miglioramenti.
