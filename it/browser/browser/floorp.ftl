@@ -128,7 +128,7 @@ floorp-fluentUI =
 floorp-fluerialUI = 
     .label = { -brand-short-name } Fluerial UI (deprecated)
 floorp-gnomeUI = 
-    .label = GNOME Theme (deprecated)
+    .label = Tema GNOME (deprecato)
 
 ## Download Manager
 
@@ -298,7 +298,7 @@ floorp-lepton-enable-toolbar-overlap-allow-layout-shift-autohide =
     .label = Nascondi automaticamente la barra degli strumenti quando viene visualizzato il contenuto "ltr"
 hide-preference = Gestisci gli elementi del browser
 floorp-lepton-enable-tab_icon-hide = 
-    .label = Hide tab icons
+    .label = Nascondi Icone Delle Schede
 floorp-lepton-enable-tabbar-hide = 
     .label = Nascondi Barra Delle Schede
 floorp-lepton-enable-navbar-hide = 
