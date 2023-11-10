@@ -17,7 +17,7 @@ feature-requires-restart = A restart is required to apply changes
 tab-width = Minimum width of tabs
 preferences-tabs-newtab-position = New tab position
 open-new-tab-use-default = 
-    .label = Open new tabs at default position
+    .label = Open new Tabs at default position
 open-new-tab-at-the-end = 
     .label = Open new tabs at the end of the Tab Bar
 open-new-tab-next-to-current = 
@@ -75,7 +75,7 @@ native-vertical-tab-show-right =
 hover-vertical-tab = 
     .label = Collapse Vertical Tab Bar
 TST = Tree Style Tab
-about-TST = Tree Style Tab is a popular add-on that allows you to display tabs in a tree structure. Floorp 10 has a built-in version of this add-on. Please install the add-on to restore Floorp 10's built-in Tree Style Tab.
+about-TST = Tree Style Tab is a popular add-on that allows you to display tabs in a tree-like structure. This add-on is already pre-integrated in { -brand-short-name }. Please install the add-on to activate { -brand-short-name }'s Tree Style Tab.
 treestyletab-Settings = 
     .label = Collapse Tree Style Tab
 sidebar-reverse-position-toolbar = Show Sidebars on the other side
@@ -121,16 +121,14 @@ ui-preference = Browser appearance
 preferences-browser-appearance-description = Choose a built-in third-party design to use in { -brand-short-name }. Some designs may not be compatible with your configuration.
 firefox-proton = 
     .label = Firefox Proton UI
-firefox-proton-fix = 
-    .label = Firefox Proton Fix UI
 firefox-photon-lepton = 
     .label = Firefox Photon・Lepton UI
 floorp-fluentUI = 
-    .label = Microsoft Fluent UI
+    .label = Microsoft Fluent UI (deprecated)
 floorp-fluerialUI = 
-    .label = Floorp Fluerial UI
+    .label = { -brand-short-name } Fluerial UI (deprecated)
 floorp-gnomeUI = 
-    .label = GNOME Theme
+    .label = GNOME Theme (deprecated)
 
 ## Download Manager
 
@@ -193,7 +191,7 @@ category-BSB =
 category-downloads = 
     .tooltiptext = { files-and-applications-title }
 bsb-header = Browser Manager Sidebar
-bsb-context = Use the following Container Tab
+bsb-context = Use the following Container
 bsb-userAgent-label = 
     .label = Use Mobile User Agent in this Web Panel
 bsb-width = Width (if set to 0, the global value will be used)
@@ -352,12 +350,12 @@ floorp-notes = { -brand-short-name } Notes
 restore-from-backup = Restore Notes from backup
 enable-notes-sync = 
     .label = Enable { -brand-short-name } Notes Sync
-about-notes-backup-tips = Floorp Notes uses Firefox Sync to sync your notes with other devices. If you lose your notes, you can restore them from a backup. A backup is created when you start { -brand-short-name }.
+about-notes-backup-tips = { -brand-short-name } Notes uses Firefox Sync to sync your notes with other devices. If you lose your notes, you can restore them from a backup. A backup is created when you launch { -brand-short-name }.
 notes-sync-description = This can solve the problem of losing content due to overwriting notes during synchronization.
 backuped-time = Backed up at
 notes-backup-option = Backup Settings
 backup-option-button = Backup Settings...
-restore-from-backup-prompt-title = Floorp Notes Restore Service
+restore-from-backup-prompt-title = { -brand-short-name } Notes Restore Service
 restore-from-this-backup = Restore Notes back to the state they were in this backup?
 restore-button = Restore
 
@@ -376,7 +374,7 @@ apply-userjs-button = Apply
 
 ## userjs Options
 
-default-userjs-label = Floorp Default
+default-userjs-label = { -brand-short-name } Default
 about-default-userjs = Telemetry disabled. Well balanced { -brand-short-name } with various customizations enabled.
 Securefox-label = Yokoffing Securefox
 about-Securefox = HTTPS-by-Default. Total Cookie Protection with site isolation. Enhanced state and network partitioning. Various other enhancements.
@@ -393,7 +391,7 @@ about-Smoothfox = Get Edge-like smooth scrolling on your favorite browser — or
 
 floorp-workspaces-title = { -brand-short-name } Workspaces
 workspaces-backup-discription = Backup and restore your Workspaces
-workspaces-restore-service-title = Floorp Workspaces Backup Service
+workspaces-restore-service-title = { -brand-short-name } Workspaces Backup Service
 workspaces-restore-warning = Warning! Running this operation will cause your current Workspaces to be overwritten. The browser will freeze for a few seconds and then proceed to restart.
 floorp-workspace-settings-button = Workspace Settings...
 change-to-close-workspace-popup-option = 
@@ -405,7 +403,7 @@ workspaces-reset-label =
     .label = Reset Workspaces
 workspaces-reset-description = If a backup does not work and the Workspace does not start, reset the Workspace.
 workspaces-reset-button = Reset Workspaces
-workspaces-reset-service-title = Floorp Workspaces
+workspaces-reset-service-title = { -brand-short-name } Workspaces
 workspaces-reset-warning = Warning! Running this operation will delete all your Workspaces and restart the browser.
 manage-workspace-on-bms-option = 
     .label = Manage Workspace on Browser Manager Sidebar
@@ -463,7 +461,7 @@ workspace-icon-chill =
     .label = Private
 # Custom Keyboard Shortcuts
 floorp-CSK-title = Custom keyboard shortcuts
-floorp-CSK-description = Customize { -brand-short-name }'s keyboard shortcuts. Floorp provides more than 80 customizable keyboard shortcuts - restart { -brand-short-name } to apply these settings. Duplicate keyboard shortcuts will not work.
+floorp-CSK-description = Customize { -brand-short-name }'s keyboard shortcuts. { -brand-short-name } provides more than 80 customizable keyboard shortcuts! Duplicate keyboard shortcuts will not work. Restart { -brand-short-name } to apply these settings.
 disable-fx-actions = 
     .label = Disable Mozilla Firefox's keyboard shortcuts
 customize-Action = 
@@ -478,7 +476,7 @@ CSK-manage-title = Manage keyboard shortcuts
 CSK-remove-shortcutkey = Remove custom keyboard shortcut?
 CSK-remove-shortcutkey-description = Are you sure you want to remove this keyboard shortcut?
 CSK-restore-default = Restore Defaults?
-CSK-restore-default-description = Restore Floorp's default keyboard shortcuts? Your current shortcuts will be lost.
+CSK-restore-default-description = Restore { -brand-short-name }'s default keyboard shortcuts? Your current shortcuts will be lost.
 CSK-reboot-browser-label = Restart { -brand-short-name } to apply these settings
 CSK-reboot-browser-button = Restart { -brand-short-name }
 # Exist shortcut key: "S", "shift"
@@ -546,7 +544,7 @@ WebRTC =
 ################################################################### browser ###############################################################
 
 rest-mode = Taking a break...
-rest-mode-description = Floorp is currently suspended. Press ENTER or OK to continue.
+rest-mode-description = { -brand-short-name } is currently suspended. Press ENTER or OK to continue.
 Sidebar2 = 
     .label = Browser Manager Sidebar
     .tooltiptext = Change Sidebar visibility
@@ -646,44 +644,44 @@ status-bar =
     .accesskey = S
 ##################################################################### Gesturefy ###############################################################
 
-gf-floorp-open-tree-style-tab-name = [Floorp] Open Tree Style Tab Panel
-gf-floorp-open-tree-style-tab-description = Open Tree Style Tab Panel of Sidebar
-gf-floorp-open-bookmarks-sidebar-name = [Floorp] Open Bookmarks Panel of Sidebar
-gf-floorp-open-bookmarks-sidebar-description = Open Bookmarks Panel of Sidebar
-gf-floorp-open-history-sidebar-name = [Floorp] Open History Panel of Sidebar
-gf-floorp-open-history-sidebar-description = Open History Panel of Sidebar
-gf-floorp-open-synctabs-sidebar-name = [Floorp] Open Synced Tabs Panel of Sidebar
-gf-floorp-open-synctabs-sidebar-description = Open Synced Tabs Panel of Sidebar
-gf-floorp-close-sidebar-name = [Floorp] Close Sidebar
+gf-floorp-open-tree-style-tab-name = [{ -brand-short-name }] Open Tree Style Tab Panel
+gf-floorp-open-tree-style-tab-description = Open Tree Style Tab Panel on the Sidebar
+gf-floorp-open-bookmarks-sidebar-name = [{ -brand-short-name }] Open Bookmarks Panel
+gf-floorp-open-bookmarks-sidebar-description = Open Bookmarks Panel on the Sidebar
+gf-floorp-open-history-sidebar-name = [{ -brand-short-name }] Open History Panel
+gf-floorp-open-history-sidebar-description = Open History Panel on the Sidebar
+gf-floorp-open-synctabs-sidebar-name = [{ -brand-short-name }] Open Synced Tabs Panel
+gf-floorp-open-synctabs-sidebar-description = Open Synced Tabs Panel on the Sidebar
+gf-floorp-close-sidebar-name = [{ -brand-short-name }] Close Sidebar
 gf-floorp-close-sidebar-description = Close Sidebar
-gf-floorp-open-browser-manager-sidebar-name = [Floorp] Open BMS
-gf-floorp-open-browser-manager-sidebar-description = Open Browser Manager Sidebar if the Web Panel of Browser Manager Sidebar was loaded
-gf-floorp-close-browser-manager-sidebar-name = [Floorp] Close BMS
+gf-floorp-open-browser-manager-sidebar-name = [{ -brand-short-name }] Open BMS
+gf-floorp-open-browser-manager-sidebar-description = Open Browser Manager Sidebar if the Web Panel of Browser Manager Sidebar is loaded
+gf-floorp-close-browser-manager-sidebar-name = [{ -brand-short-name }] Close BMS
 gf-floorp-close-browser-manager-sidebar-description = Close Browser Manager Sidebar
-gf-floorp-show-browser-manager-sidebar-name = [Floorp] Toggle BMS
+gf-floorp-show-browser-manager-sidebar-name = [{ -brand-short-name }] Toggle BMS
 gf-floorp-show-browser-manager-sidebar-description = Toggle Browser Manager Sidebar
-gf-floorp-hide-statusbar-name = [Floorp] Hide Status Bar
+gf-floorp-hide-statusbar-name = [{ -brand-short-name }] Hide Status Bar
 gf-floorp-hide-statusbar-description = Hide Status Bar
-gf-floorp-show-statusbar-name = [Floorp] Toggle Status Bar
+gf-floorp-show-statusbar-name = [{ -brand-short-name }] Toggle Status Bar
 gf-floorp-show-statusbar-description = Show or Hide Status Bar
-gf-floorp-open-extension-sidebar-name = [Floorp] Open selected add-on of Sidebar
-gf-floorp-open-extension-sidebar-description = Open selected add-on of Sidebar
+gf-floorp-open-extension-sidebar-name = [{ -brand-short-name }] Open selected add-on Sidebar
+gf-floorp-open-extension-sidebar-description = Open selected add-on on the Sidebar
 gf-floorp-open-extension-sidebar-settings-addons-id = Add-on of Sidebar
 gf-floorp-open-extension-sidebar-settings-addons-id-description = The extension of the add-on open of sidebar
 gf-floorp-open-extension-sidebar-settings-list-default = Please select add-on
 gf-floorp-open-extension-sidebar-settings-list-unknwon = Unknown add-on
-##################################################################### Floorp System Update Portable Version ###############################################################
+##################################################################### { -brand-short-name } System Update Portable Version ###############################################################
 
 update-portable-notification-found-title = Updates found!
 update-portable-notification-found-message = Downloading updates...
 update-portable-notification-ready-title = Ready to update!
 update-portable-notification-ready-message = { -brand-short-name } will be updated on the next launch.
 update-portable-notification-success-title = Update succeeded!
-update-portable-notification-success-message = Update succeeded! Hope you enjoy the new version of Floorp!
+update-portable-notification-success-message = Update succeeded! Hope you enjoy the new version of { -brand-short-name }!
 update-portable-notification-failed-title = Update failed.
 update-portable-notification-failed-redirector-message = Update failed. Restarting your browser may solve this problem.
 update-portable-notification-failed-prepare-message = Failed to prepare the update.
-##################################################################### Floorp Portable Preferences ###############################################################
+##################################################################### { -brand-short-name } Portable Preferences ###############################################################
 
 floorp-portable-update-application-allow = { -brand-short-name } Portable Update
 floorp-update-application-auto-enabled-option = 
@@ -699,7 +697,7 @@ open-link-in-external-tab-context-menu = Open in external browser
 open-link-in-external-tab-dialog-title-error = An error occurred:
 open-link-in-external-tab-dialog-message-default-browser-not-found = Default browser was not found or is not configured.
 open-link-in-external-tab-dialog-message-selected-browser-not-found = The selected browser does not exist.
-######################################################################### Floorp Notes ###############################################################
+######################################################################### { -brand-short-name } Notes ###############################################################
 
 new-memo = New
 memo-title-input-placeholder = Write a title here
@@ -707,16 +705,15 @@ memo-input-placeholder = Write or paste a memo here
 delete-memo = Delete
 save-memo = Save
 memo-welcome-title = Welcome!
-memo-first-tip = Welcome to Floorp Notes! Here are some instructions on how to use it!
-memo-second-tip = Floorp Notes is a notepad that lets you store multiple notes that sync across devices. To enable synchronization, you need to sign in to Floorp with your Firefox account.
-memo-third-tip = Floorp Notes will be saved in your Floorp settings and synchronized across devices using Firefox Sync. Firefox Sync encrypts the contents of the sync with your Firefox account password, so no one but you know its contents.
+memo-first-tip = Welcome to { -brand-short-name } Notes! Here are some instructions on how to use it!
+memo-second-tip = { -brand-short-name } Notes is a notepad that lets you store multiple notes that sync across devices. To enable synchronization, you need to sign in to { -brand-short-name } with your Firefox account.
+memo-third-tip = { -brand-short-name } Notes will be saved in your { -brand-short-name } settings and synchronized across devices using Firefox Sync. Firefox Sync encrypts the contents of the sync with your Firefox account password, so no one but you know its contents.
 memo-import-data-tip = Firefox Sync is not a backup service. We recommend you to create backups.
 memo-new-title = New Note
 chage-view-mode = Toggle View/Edit Mode
 readonly-mode = Offline (Read-only)
 ######################################################################### Default bookmarks ###############################################################
 default-bookmark-ablaze-support = Ablaze Support
-default-bookmark-notes = Floorp Notes
 ######################################################################### Like Chrome Download mgr ###############################################################
 
 floorp-delete-all-downloads = 
@@ -729,7 +726,7 @@ floorp-show-all-downloads =
     .tooltiptext = Show all downloads
 ######################################################################### workspace ###############################################################
 
-workspace-prompt-title = Floorp Workspace
+workspace-prompt-title = { -brand-short-name } Workspace
 please-enter-workspace-name = Please enter the Workspace's new name.
 please-enter-workspace-name-2 = The Workspace's name cannot contain symbols and spaces.
 workspace-error = An error occurred:
@@ -775,7 +772,7 @@ welcome-discribe-browser-design = You can choose one of the wonderful third-part
 welcome-design-lepton-name = Lepton Original Design
 welcome-design-photon-name = Lepton Photon Design
 welcome-design-ProtonFix-name = Lepton ProtonFix Design
-welcome-design-floorp-fluerial-name = Floorp Fluerial Design
+welcome-design-floorp-fluerial-name = { -brand-short-name } Fluerial Design
 welcome-design-firefox-proton-name = Firefox Proton Design
 welcome-import-data = Import Your Browser Data
 welcome-import-data-description = Fast setup! Import your bookmarks, passwords, and more from your old browser. Firefox users can import data from Firefox Sync.
@@ -863,7 +860,7 @@ floorp-custom-actions-quit-from-application = Quit from application
     .label = Quit { -brand-short-name }
 floorp-custom-actions-enter-into-customize-mode = Customize Toolbar
     .label = Open Customize { -brand-short-name }
-floorp-custom-actions-enter-into-offline-mode = Offline mode
+floorp-custom-actions-enter-into-offline-mode = Enter offline mode
     .label = Enter offline mode
 floorp-custom-actions-open-screen-capture = Open screen capture tool
     .label = Take a screenshot
@@ -875,7 +872,7 @@ floorp-custom-actions-open-bookmarks-sidebar = Open bookmarks sidebar
     .label = Open Bookmarks sidebar
 floorp-custom-actions-open-bookmark-add-tool = Open bookmark add tool
     .label = Add Bookmark
-floorp-custom-actions-open-bookmark-add-toolbar = Open bookmark add toolbar
+floorp-custom-actions-open-bookmark-add-toolbar = Open "Add a new bookmark" pop-up window
     .label = Add to Bookmarks Toolbar
 floorp-custom-actions-open-bookmarks-manager = Open bookmarks manager
     .label = Open Bookmarks Manager
@@ -896,7 +893,7 @@ floorp-custom-actions-open-sync-preferences = Open sync preferences
 floorp-custom-actions-open-task-manager = Open task manager
     .label = Open { -brand-short-name }'s Task Manager
 floorp-custom-actions-open-home-page = Open { -brand-short-name }'s home page
-    .label = Open { -brand-short-name }'s Home Page
+    .label = Open { -brand-short-name }'s homepage
 floorp-custom-actions-open-addons-manager = Open add-ons and themes
     .label = Open Add-ons and themes
 floorp-custom-actions-forget-history = Forget history
@@ -995,3 +992,12 @@ qrcode-generate-page-action =
 ######################################################################### Customize Mode ###############################################################
 floorp-customize-mode-unified-extensions-button = 
     .label = Unified Extensions Button
+######################################################################### Progressive Web Apps (SSB) ###############################################################
+
+ssb-page-action-title = Install this Site as an App
+ssb-app-open-button = 
+    .label = Open In PWA
+ssb-app-install-button = 
+    .label = Install
+ssb-app-cancel-button = 
+    .label = Cancel

@@ -15,7 +15,7 @@ category-design =
 design-header = { pane-design-title }
 feature-requires-restart = 変更を適用するには再起動が必要です
 tab-width = タブの最小幅
-preferences-tabs-newtab-position = 新規タブを開く位置
+preferences-tabs-newtab-position = 新規タブの位置
 open-new-tab-use-default = 
     .label = デフォルト設定を使用
 open-new-tab-at-the-end = 
@@ -51,7 +51,7 @@ enable-show-pinned-tabs-title =
     .label = ピン留めされたタブのタイトルを表示
 tabbar-preference = タブバー
 tab-normal-mode = 
-    .label = 通常モード (変更なし)
+    .label = デフォルト
 hide-horizontality-tabs = 
     .label = 水平タブバーを隠す
 verticalTab-setting = 
@@ -75,7 +75,7 @@ native-vertical-tab-show-right =
 hover-vertical-tab = 
     .label = 垂直タブバーを折りたたむ
 TST = ツリー型タブ
-about-TST = ツリー型タブは Floorp 10 で内蔵されていた垂直タブを作成するアドオンです。このアドオンをインストールすると、固有の設定が使用でき、Floorp 10 と同じ使用感に戻せます。
+about-TST = ツリー型タブは { -brand-short-name } 10 で内蔵されていた垂直タブを作成するアドオンです。このアドオンをインストールすると、固有の設定が使用でき、{ -brand-short-name } 10 と同じ使用感に戻せます。
 treestyletab-Settings = 
     .label = ツリー型タブを折りたたむ
 sidebar-reverse-position-toolbar = 反対側にサイドバーを表示
@@ -121,16 +121,14 @@ ui-preference = ブラウザーの外観
 preferences-browser-appearance-description = { -brand-short-name } で使用するサードパーティ製のデザインを選択してください。一部のデザインは、あなたの設定と互換性がない可能性があります。
 firefox-proton = 
     .label = Firefox Proton デザイン
-firefox-proton-fix = 
-    .label = Firefox Proton Fix デザイン
 firefox-photon-lepton = 
     .label = Firefox Photon・Lepton デザイン
 floorp-fluentUI = 
-    .label = Microsoft Fluent デザイン
+    .label = Microsoft Fluent デザイン (非推奨)
 floorp-fluerialUI = 
-    .label = Floorp Fluerial デザイン
+    .label = { -brand-short-name } Fluerial デザイン (非推奨)
 floorp-gnomeUI = 
-    .label = GNOME テーマ
+    .label = GNOME テーマ (非推奨)
 
 ## Download Manager
 
@@ -193,7 +191,7 @@ category-BSB =
 category-downloads = 
     .tooltiptext = { files-and-applications-title }
 bsb-header = ブラウザーマネージャーサイドバー
-bsb-context = 開くコンテナータブ
+bsb-context = 使用するコンテナー
 bsb-userAgent-label = 
     .label = モバイル版のユーザーエージェントを使用
 bsb-width = ウェブパネルの幅 (0 ならグローバル値が使われます)
@@ -221,7 +219,7 @@ sidebar2-pref-delete =
 sidebar2-pref-setting = 
     .label = 設定
 sidebar2-global-width = ウェブパネルの幅のグローバル値
-use-icon-provider-option = ウェブパネルのアイコン提供元
+use-icon-provider-option = アイコンの提供元
 use-icon-provider-option-google = 
     .label = Google
 use-icon-provider-option-duckduckgo = 
@@ -352,12 +350,12 @@ floorp-notes = { -brand-short-name } Notes
 restore-from-backup = Notes をバックアップから復元する
 enable-notes-sync = 
     .label = { -brand-short-name } Notes の同期を有効にする
-about-notes-backup-tips = Floorp Notes は、Firefox Sync を使用して、他のデバイスとメモを同期します。メモを紛失した場合は、バックアップから復元できます。バックアップは { -brand-short-name } を起動すると作成されます。
+about-notes-backup-tips = { -brand-short-name } Notes は、Firefox Sync を使用して、他のデバイスとメモを同期します。メモを紛失した場合は、バックアップから復元できます。バックアップは { -brand-short-name } を起動すると作成されます。
 notes-sync-description = これにより、同期時にメモが上書きされ、コンテンツが失われる問題を解決することができます。
 backuped-time = バックアップ日時
 notes-backup-option = バックアップ設定
 backup-option-button = バックアップ設定...
-restore-from-backup-prompt-title = Floorp Notes 復元サービス
+restore-from-backup-prompt-title = { -brand-short-name } Notes 復元サービス
 restore-from-this-backup = このバックアップの状態に Notes を復元しますか？
 restore-button = 復元
 
@@ -376,7 +374,7 @@ apply-userjs-button = 適用
 
 ## userjs Options
 
-default-userjs-label = Floorp Default
+default-userjs-label = { -brand-short-name } Default
 about-default-userjs = テレメトリー無効。様々なカスタマイズが有効なバランスの良い { -brand-short-name } 設定です。
 Securefox-label = Yokoffing Securefox
 about-Securefox = HTTPS を既定で有効に。サイト分離による Total Cookie Protection。状態やネットワークのパーティショニングを強化。その他、様々な機能強化。
@@ -393,8 +391,8 @@ about-Smoothfox = Edge のようなスムーズなスクロールを、お気に
 
 floorp-workspaces-title = { -brand-short-name } ワークスペース
 workspaces-backup-discription = ワークスペースのバックアップと復元
-workspaces-restore-service-title = ワークスペース復元サービス
-workspaces-restore-warning = 警告！ この操作を実行すると、ブラウザーが自動的に再起動し、現在のワークスペースに上書きされます。
+workspaces-restore-service-title = { -brand-short-name } ワークスペース復元サービス
+workspaces-restore-warning = 警告！この操作を実行すると、現在のワークスペースが上書きされます。ブラウザーは数秒間フリーズし、その後再起動します。
 floorp-workspace-settings-button = ワークスペース設定...
 change-to-close-workspace-popup-option = 
     .label = ワークスペース選択時にワークスペースのポップアップを閉じる
@@ -405,7 +403,7 @@ workspaces-reset-label =
     .label = ワークスペースをリセット
 workspaces-reset-description = グループ化が解除され、初期状態に戻ります。タブは削除されません。
 workspaces-reset-button = ワークスペースをリセット
-workspaces-reset-service-title = Floorp ワークスペース
+workspaces-reset-service-title = { -brand-short-name } ワークスペース
 workspaces-reset-warning = 警告！ この操作を実行すると、すべてのワークスペースが削除され、ブラウザーが再起動します。
 manage-workspace-on-bms-option = 
     .label = ブラウザーマネージャーサイドバーでワークスペースを管理
@@ -463,7 +461,7 @@ workspace-icon-chill =
     .label = プライベート
 # Custom Keyboard Shortcuts
 floorp-CSK-title = カスタムショートカットキー
-floorp-CSK-description = { -brand-short-name } のショートカットキーをカスタマイズします。80 以上のアクションでブラウザーを自由自在に操作してください！これらの設定を適用するには、{ -brand-short-name } を再起動してください。
+floorp-CSK-description = { -brand-short-name } のキーボードショートカットをカスタマイズしましょう。 { -brand-short-name } には、80 以上のカスタマイズ可能なキーボードショートカットが用意されています！重複したキーボードショートカットは機能しません。これらの設定を適用するには、 { -brand-short-name } を再起動してください。
 disable-fx-actions = 
     .label = Firefox のキーボードショートカットを無効にする
 customize-Action = 
@@ -478,7 +476,7 @@ CSK-manage-title = ショートカットを管理
 CSK-remove-shortcutkey = ショートカットを削除
 CSK-remove-shortcutkey-description = 本当にこのショートカットキーを削除しますか？
 CSK-restore-default = ショートカットをリセット
-CSK-restore-default-description = ショートカットキーの設定をデフォルトに戻します。現在の設定は失われます。
+CSK-restore-default-description = { -brand-short-name } のカスタムショートカットキーをデフォルトに戻します。現在の設定は失われます。
 CSK-reboot-browser-label = 変更は { -brand-short-name } の再起動後に適用されます
 CSK-reboot-browser-button = { -brand-short-name } を再起動
 # Exist shortcut key: "S", "shift"
@@ -546,7 +544,7 @@ WebRTC =
 ################################################################### browser ###############################################################
 
 rest-mode = 休憩中
-rest-mode-description = 休憩中は、ブラウザーの機能が制限されます。終了するには、OK をクリックしてください。
+rest-mode-description = { -brand-short-name } は休憩モードです。終了するには、ENTER キーまたは OK ボタンを押してください。
 Sidebar2 = 
     .label = ブラウザーマネージャーサイドバー
     .tooltiptext = サイドバーの表示を切り替える
@@ -646,44 +644,44 @@ status-bar =
     .accesskey = S
 ##################################################################### Gesturefy ###############################################################
 
-gf-floorp-open-tree-style-tab-name = [Floorp] ツリー型タブを開く
-gf-floorp-open-tree-style-tab-description = ツリー型タブをサイドバーで開きます。
-gf-floorp-open-bookmarks-sidebar-name = [Floorp] サイドバーでブックマークを開く
-gf-floorp-open-bookmarks-sidebar-description = ブックマークをサイドバーで開きます。
-gf-floorp-open-history-sidebar-name = [Floorp] サイドバーで履歴を開く
-gf-floorp-open-history-sidebar-description = 履歴をサイドバーで開く
-gf-floorp-open-synctabs-sidebar-name = [Floorp] サイドバーで同期タブを開く
-gf-floorp-open-synctabs-sidebar-description = 同期タブをサイドバーで開きます。
-gf-floorp-close-sidebar-name = [Floorp] サイドバーを閉じる
+gf-floorp-open-tree-style-tab-name = [{ -brand-short-name }] ツリー型タブを開く
+gf-floorp-open-tree-style-tab-description = Open Tree Style Tab Panel on the Sidebar
+gf-floorp-open-bookmarks-sidebar-name = [{ -brand-short-name }] Open Bookmarks Panel
+gf-floorp-open-bookmarks-sidebar-description = Open Bookmarks Panel on the Sidebar
+gf-floorp-open-history-sidebar-name = [{ -brand-short-name }] Open History Panel
+gf-floorp-open-history-sidebar-description = Open History Panel on the Sidebar
+gf-floorp-open-synctabs-sidebar-name = [{ -brand-short-name }] Open Synced Tabs Panel
+gf-floorp-open-synctabs-sidebar-description = Open Synced Tabs Panel on the Sidebar
+gf-floorp-close-sidebar-name = [{ -brand-short-name }] サイドバーを閉じる
 gf-floorp-close-sidebar-description = サイドバーを閉じる
-gf-floorp-open-browser-manager-sidebar-name = [Floorp] BMS を開く
+gf-floorp-open-browser-manager-sidebar-name = [{ -brand-short-name }] BMS を開く
 gf-floorp-open-browser-manager-sidebar-description = ウェブパネルが読み込まれている場合、ブラウザーマネージャーサイドバーを開きます。
-gf-floorp-close-browser-manager-sidebar-name = [Floorp] BMS を閉じる
+gf-floorp-close-browser-manager-sidebar-name = [{ -brand-short-name }] BMS を閉じる
 gf-floorp-close-browser-manager-sidebar-description = ブラウザーマネージャーサイドバーを閉じます。
-gf-floorp-show-browser-manager-sidebar-name = [Floorp] BMS の表示を切り替える
+gf-floorp-show-browser-manager-sidebar-name = [{ -brand-short-name }] BMS の表示を切り替える
 gf-floorp-show-browser-manager-sidebar-description = ブラウザーマネージャーサイドバーを表示/非表示にします。
-gf-floorp-hide-statusbar-name = [Floorp] ステータスバーを隠す
+gf-floorp-hide-statusbar-name = [{ -brand-short-name }] ステータスバーを隠す
 gf-floorp-hide-statusbar-description = ステータスバーを隠す
-gf-floorp-show-statusbar-name = [Floorp] ステータスバーの表示を切り替える
+gf-floorp-show-statusbar-name = [{ -brand-short-name }] ステータスバーの表示を切り替える
 gf-floorp-show-statusbar-description = ステータスバーを表示/非表示にします。
-gf-floorp-open-extension-sidebar-name = [Floorp] サイドバーで選択したアドオンを開く
-gf-floorp-open-extension-sidebar-description = サイドバーで指定したアドオンを開きます。
+gf-floorp-open-extension-sidebar-name = [{ -brand-short-name }] Open selected add-on Sidebar
+gf-floorp-open-extension-sidebar-description = Open selected add-on on the Sidebar
 gf-floorp-open-extension-sidebar-settings-addons-id = アドオン ID
 gf-floorp-open-extension-sidebar-settings-addons-id-description = サイドバーで開くアドオンです。
 gf-floorp-open-extension-sidebar-settings-list-default = アドオンを選択してください
 gf-floorp-open-extension-sidebar-settings-list-unknwon = 不明なアドオン
-##################################################################### Floorp System Update Portable Version ###############################################################
+##################################################################### { -brand-short-name } System Update Portable Version ###############################################################
 
 update-portable-notification-found-title = アップデートが見つかりました！
 update-portable-notification-found-message = アップデートをダウンロード中...
 update-portable-notification-ready-title = アップデートの準備ができました！
 update-portable-notification-ready-message = { -brand-short-name } は次回起動時にアップデートされます。
 update-portable-notification-success-title = アップデート完了！
-update-portable-notification-success-message = 新しいバージョンの Floorp をお楽しみください。
+update-portable-notification-success-message = 新しいバージョンの { -brand-short-name } をお楽しみください。
 update-portable-notification-failed-title = アップデートに失敗しました。
 update-portable-notification-failed-redirector-message = ブラウザーを再起動すると、問題が解決する場合があります。
 update-portable-notification-failed-prepare-message = アップデートの準備に失敗しました。
-##################################################################### Floorp Portable Preferences ###############################################################
+##################################################################### { -brand-short-name } Portable Preferences ###############################################################
 
 floorp-portable-update-application-allow = { -brand-short-name } ポータブルのアップデート
 floorp-update-application-auto-enabled-option = 
@@ -699,7 +697,7 @@ open-link-in-external-tab-context-menu = 外部ブラウザーで開く
 open-link-in-external-tab-dialog-title-error = エラー:
 open-link-in-external-tab-dialog-message-default-browser-not-found = デフォルトブラウザーが存在しないか、設定されていません。
 open-link-in-external-tab-dialog-message-selected-browser-not-found = 選択したブラウザーは存在しません。
-######################################################################### Floorp Notes ###############################################################
+######################################################################### { -brand-short-name } Notes ###############################################################
 
 new-memo = 新規作成
 memo-title-input-placeholder = ここにタイトルを入力
@@ -707,16 +705,15 @@ memo-input-placeholder = ここにメモを入力またはペースト
 delete-memo = 削除
 save-memo = 保存
 memo-welcome-title = ようこそ！
-memo-first-tip = Floorp Notes へようこそ！使い方を説明します。
-memo-second-tip = Floorp Notes は、デバイス間で同期できるメモ機能です。 同期を有効にするには、Mozilla アカウントで Floorp にサインインする必要があります。
-memo-third-tip = Floorp Notes は Floorp に保存され、Firefox Sync を使用してデバイス間で同期されます。 Firefox Sync は、同期の内容を Mozilla アカウントのパスワードで暗号化するため、誰にもその内容を知られることはありません。
+memo-first-tip = { -brand-short-name } Notes へようこそ！使い方を説明します。
+memo-second-tip = { -brand-short-name } Notes は、デバイス間で同期できるメモ機能です。 同期を有効にするには、Mozilla アカウントで { -brand-short-name } にサインインする必要があります。
+memo-third-tip = { -brand-short-name } Notes は { -brand-short-name } に保存され、Firefox Sync を使用してデバイス間で同期されます。 Firefox Sync は、同期の内容を Mozilla アカウントのパスワードで暗号化するため、誰にもその内容を知られることはありません。
 memo-import-data-tip = Firefox Sync はバックアップサービスではありません。バックアップを作成することをおすすめします。
 memo-new-title = 新規メモ
 chage-view-mode = 表示/編集モード切り替え
 readonly-mode = オフライン (読み取り専用)
 ######################################################################### Default bookmarks ###############################################################
 default-bookmark-ablaze-support = Abraze サポート
-default-bookmark-notes = Floorp Notes
 ######################################################################### Like Chrome Download mgr ###############################################################
 
 floorp-delete-all-downloads = 
@@ -729,7 +726,7 @@ floorp-show-all-downloads =
     .tooltiptext = すべてのダウンロード履歴を表示
 ######################################################################### workspace ###############################################################
 
-workspace-prompt-title = Floorp ワークスペース
+workspace-prompt-title = { -brand-short-name } ワークスペース
 please-enter-workspace-name = 新規ワークスペースの名前を入力してください。
 please-enter-workspace-name-2 = 20 文字以内で入力してください。記号やスペースを含めることはできません。
 workspace-error = エラー:
@@ -775,7 +772,7 @@ welcome-discribe-browser-design = サードパーティによる素晴らしい�
 welcome-design-lepton-name = Lepton オリジナルデザイン
 welcome-design-photon-name = Lepton Photon デザイン
 welcome-design-ProtonFix-name = Lepton Proton Fix デザイン
-welcome-design-floorp-fluerial-name = Floorp Fluerial デザイン
+welcome-design-floorp-fluerial-name = { -brand-short-name } Fluerial デザイン
 welcome-design-firefox-proton-name = Firefox Proton デザイン
 welcome-import-data = ユーザーデータを読み込む
 welcome-import-data-description = 一瞬でセットアップ！以前のブラウザーからブックマークやパスワードなどを読み込めます。Firefox ユーザーは Firefox Sync からデータを読み込めます。
@@ -875,7 +872,7 @@ floorp-custom-actions-open-bookmarks-sidebar = ブックマークサイドバー
     .label = ブックマークサイドバーを開く
 floorp-custom-actions-open-bookmark-add-tool = ブックマーク追加ツールを開く
     .label = ブックマークを追加
-floorp-custom-actions-open-bookmark-add-toolbar = ブックマーク追加ツールバーを開く
+floorp-custom-actions-open-bookmark-add-toolbar = 「新規ブックマークを追加」ポップアップを開く
     .label = ブックマークツールバーに追加
 floorp-custom-actions-open-bookmarks-manager = ブックマークマネージャーを開く
     .label = ブックマークマネージャーを開く
@@ -981,13 +978,13 @@ open-in_private-container =
 ######################################################################## Split View ###############################################################
 
 floorp-split-view-menu = 
-    .label = Fixed in split view
+    .label = 分割ビューで表示を固定する
 splitview-show-on-right = 
-    .label = Show on right
+    .label = 右側に表示
 splitview-show-on-left = 
-    .label = Show on left
+    .label = 左側に表示
 splitview-close-split-tab = 
-    .label = Close split tab
+    .label = 分割ビューを閉じる
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = QR コードをスキャンしてください
 qrcode-generate-page-action = 
@@ -995,3 +992,12 @@ qrcode-generate-page-action =
 ######################################################################### Customize Mode ###############################################################
 floorp-customize-mode-unified-extensions-button = 
     .label = 統合拡張機能ボタン
+######################################################################### Progressive Web Apps (SSB) ###############################################################
+
+ssb-page-action-title = このサイトをアプリとしてインストール
+ssb-app-open-button = 
+    .label = PWA で開く
+ssb-app-install-button = 
+    .label = インストール
+ssb-app-cancel-button = 
+    .label = キャンセル

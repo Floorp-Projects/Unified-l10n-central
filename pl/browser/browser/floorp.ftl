@@ -4,18 +4,18 @@
 
 ###################################################################### about:Dialog #################################################################################
 
-about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> jest jedną z przeglądarek domowych opracowanych w Japonii. Opiera się on na Firefox i nadal działa w ramach <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>, aby ulepszyć stronę internetową. Chcesz pomóc? <label data-l10n-name="helpus-donateLink">Dokonaj darowizny</label>
+about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> jest przeglądarką opracowaną w Japonii. Opiera się ona na Firefox i nadal działa w ramach <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>, aby ulepszyć internet. Chcesz pomóc? <label data-l10n-name="helpus-donateLink">Dokonaj darowizny</label>
 icon-creator = Twórca ikon <label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> i <label data-l10n-name="brand-logo-twitter">@mwxdxx.</label>
 contributors = Lista współtwórców <label data-l10n-name="about-contributor">i programistów</label>
 #################################################################### about:preferences ####################################################################
 
-pane-design-title = Projekt
+pane-design-title = Wygląd
 category-design = 
     .tooltiptext = { pane-design-title }
 design-header = { pane-design-title }
 feature-requires-restart = Do zastosowania zmian wymagany jest restart
 tab-width = Minimalna szerokość kart
-preferences-tabs-newtab-position = Nowa pozycja karty
+preferences-tabs-newtab-position = New tab position
 open-new-tab-use-default = 
     .label = Otwórz nowe karty w domyślnej pozycji
 open-new-tab-at-the-end = 
@@ -35,10 +35,10 @@ tab-sleep-settings-dialog-title =
     .title = Ustawienia Śpiących Zakładek
 tab-sleep-settings-dialog-excludehosts-label = Wyklucz hosty
 tab-sleep-settings-dialog-excludehosts-label-2 = Wprowadź jeden host na linię.
-tab-sleep-tab-context-menu-excludetab = Nie budzaj karty
+tab-sleep-tab-context-menu-excludetab = Keep tab awake
 enable-floorp-workspace = 
     .label = Włącz stacje robocze
-workspace-warning = Stacje robocze nie mogą być używane z dodatkiem grup kart. Jeśli chcesz używać dodatku grup kart, wyłącz stacje robocze i uruchom ponownie { -brand-short-name }.
+workspace-warning = Workspaces cannot be used with Tab Group add-ons. If you want to use Tab Group add-ons, please disable Workspaces and restart { -brand-short-name }.
 enable-tab-scroll-change = 
     .label = Przełącz zakładki przez przewijanie za pomocą myszy
 enable-tab-scroll-reverse = 
@@ -51,7 +51,7 @@ enable-show-pinned-tabs-title =
     .label = Pokaż tytuł przypiętych kart
 tabbar-preference = Pasek zakładek
 tab-normal-mode = 
-    .label = Tryb normalny
+    .label = Default
 hide-horizontality-tabs = 
     .label = Ukryj zakładki na poziomym pasku kart
 verticalTab-setting = 
@@ -73,9 +73,9 @@ vertical-tabbar =
 native-vertical-tab-show-right = 
     .label = Pokaż pionowy pasek kart po prawej stronie okna
 hover-vertical-tab = 
-    .label = Collapse Vertical Tab Bar
+    .label = Zwiń pionowy pasek kart
 TST = Karta stylu drzewa
-about-TST = Zakładka Styl Drzewa jest popularnym dodatkiem, który umożliwia wyświetlanie kart w strukturze drzewa. Floorp 10 ma wbudowany dodatek. Zainstaluj dodatek przywracający wbudowaną zakładkę Tree Style
+about-TST = Tree Style Tab is a popular add-on that allows you to display tabs in a tree-like structure. This add-on is already pre-integrated in { -brand-short-name }. Please install the add-on to activate { -brand-short-name }'s Tree Style Tab.
 treestyletab-Settings = 
     .label = Zwiń kartę stylu drzewa
 sidebar-reverse-position-toolbar = Pokaż paski boczne po drugiej stronie
@@ -121,16 +121,14 @@ ui-preference = Wygląd przeglądarki
 preferences-browser-appearance-description = Wybierz wbudowany projekt zewnętrznej firmy do użycia w { -brand-short-name }. Niektóre projekty mogą nie być kompatybilne z konfiguracją.
 firefox-proton = 
     .label = Firefox Proton UI
-firefox-proton-fix = 
-    .label = Napraw interfejs Firefox Proton
 firefox-photon-lepton = 
-    .label = Interfejs Photon Firefox
+    .label = Firefox Photon・Lepton UI
 floorp-fluentUI = 
-    .label = Microsoft Fluent UI
+    .label = Microsoft Fluent UI (deprecated)
 floorp-fluerialUI = 
-    .label = Fluerialny interfejs podłogowy
+    .label = { -brand-short-name } Fluerial UI (deprecated)
 floorp-gnomeUI = 
-    .label = Motyw GNOME
+    .label = GNOME Theme (deprecated)
 
 ## Download Manager
 
@@ -193,7 +191,7 @@ category-BSB =
 category-downloads = 
     .tooltiptext = { files-and-applications-title }
 bsb-header = Pasek boczny menedżera przeglądarek
-bsb-context = Użyj poniższej karty kontenera
+bsb-context = Use the following Container
 bsb-userAgent-label = 
     .label = Użyj mobilnego Agenta w tym Panelu Web
 bsb-width = Szerokość (jeśli jest ustawiona na 0, zostanie użyta wartość globalna)
@@ -236,7 +234,7 @@ min-memory =
 balance-memory = 
     .label = Użycie i wydajność pamięci bilansowej
 max-memory = 
-    .label = Best Performance (high memory usage)
+    .label = Najlepsza wydajność (wysokie zużycie pamięci)
 delete-border-and-roundup-option = 
     .label = Zaokrąglij narożniki stron
 
@@ -269,16 +267,16 @@ disable-blur-on-newtab =
 
 about-lepton = Dostosuj { -brand-short-name } z Lepton
 lepton-preference-button = 
-    .label = Ustawienia Leptonu...
+    .label = Ustawienia Leptona...
     .accesskey = L
 lepton-header = Ustawienia Leptona
 lepton-preference = Ustawienia Leptona
 photon-mode = 
-    .label = Użyj projektu zdjęcia
+    .label = Użyj wyglądu Photon
 lepton-mode = 
-    .label = Użyj wyglądu Leptona
+    .label = Użyj wyglądu Lepton
 protonfix-mode = 
-    .label = Użyj ulepszonego projektu Proton
+    .label = Użyj ulepszonego interfejsu Proton
 autohide-preference = Automatycznie ukryj elementy przeglądarki
 floorp-lepton-enable-tab-autohide = 
     .label = Automatycznie ukryj karty
@@ -300,7 +298,7 @@ floorp-lepton-enable-toolbar-overlap-allow-layout-shift-autohide =
     .label = Automatycznie ukryj pasek narzędzi podczas wyświetlania treści "ltr"
 hide-preference = Zarządzaj elementami przeglądarki
 floorp-lepton-enable-tab_icon-hide = 
-    .label = Hide Tab icons
+    .label = Hide tab icons
 floorp-lepton-enable-tabbar-hide = 
     .label = Ukryj pasek kart
 floorp-lepton-enable-navbar-hide = 
@@ -330,15 +328,15 @@ urlbar-preferences = Pasek adresu
 floorp-lepton-enable-urlbar-icon-move-to-left = 
     .label = Przenieś ikony paska adresu z lewej strony
 floorp-lepton-enable-urlname-go_button_when_typing = 
-    .label = Podczas wpisywania, pokaż przycisk Go
+    .label = When typing, show a "Go" button
 floorp-lepton-enable-always-show-page_action = 
     .label = Zawsze pokazuj akcje strony na pasku adresu
 tabbar-preferences = Pasek zakładek
 floorp-lepton-enable-tabbar-positon-as-titlebar = 
-    .label = Pasek zakładek na pasku tytułów
+    .label = Tab Bar in the Title Bar
 floorp-lepton-enable-tabbar-as-urlbar = 
     .label = Połącz pasek kart i pasek narzędzi
-lepton-sidebar-preferences = Sidebar
+lepton-sidebar-preferences = Pasek boczny
 floorp-lepton-enable-overlap-sidebar = 
     .label = Pokaż pasek boczny nad zawartością witryny
 floorp-home-mode-choice-default = 
@@ -352,18 +350,18 @@ floorp-notes = Notatki { -brand-short-name }
 restore-from-backup = Przywróć notatki z kopii zapasowej
 enable-notes-sync = 
     .label = Włącz synchronizację notatek { -brand-short-name }
-about-notes-backup-tips = Notatki podłogowe wykorzystują Firefox Sync do synchronizacji notatek z innymi urządzeniami. Jeśli stracisz notatki, możesz je przywrócić z kopii zapasowej. Kopia zapasowa jest tworzona po uruchomieniu { -brand-short-name }.
+about-notes-backup-tips = { -brand-short-name } Notes uses Firefox Sync to sync your notes with other devices. If you lose your notes, you can restore them from a backup. A backup is created when you launch { -brand-short-name }.
 notes-sync-description = To może rozwiązać problem utraty treści z powodu nadpisywania notatek podczas synchronizacji.
 backuped-time = Kopia zapasowa
 notes-backup-option = Ustawienia kopii zapasowej
 backup-option-button = Ustawienia kopii zapasowej...
-restore-from-backup-prompt-title = Usługa przywracania notatek podłogowych
+restore-from-backup-prompt-title = { -brand-short-name } Usługa przywracania notatek
 restore-from-this-backup = Przywrócić notatki do stanu, w którym były w tej kopii zapasowej?
 restore-button = Przywróć
 
 ## user.js
 
-header-userjs = Użytkownik js
+header-userjs = user.js
 userjs-customize = Dostosuj { -brand-short-name } za pomocą user.js
 about-userjs-customize = user.js to plik konfiguracyjny, który pozwala na dostosowanie { -brand-short-name }. Pliki user.js są pobierane z Internetu i nadpisywane przez bieżącego użytkownika. s plik. Przed kontynuowaniem utwórz kopię zapasową bieżącego pliku user.js. Konfiguracje użytkownika zostaną zastosowane automatycznie po ponownym uruchomieniu { -brand-short-name }.
 userjs-label = Lista użytkowników.js
@@ -376,25 +374,25 @@ apply-userjs-button = Zastosuj
 
 ## userjs Options
 
-default-userjs-label = Domyślne piętro
-about-default-userjs = Telemetria wyłączona. Dobrze wyważone { -brand-short-name } z włączonymi różnymi dostosowaniami.
+default-userjs-label = { -brand-short-name } Domyślne
+about-default-userjs = Telemetria wyłączona. Dobrze zbalansowany { -brand-short-name } z włączonymi różnymi dostosowaniami.
 Securefox-label = Yokoffing Securefox
-about-Securefox = HTTPS-by-Dedefault. Całkowita ochrona plików cookie z izolacją witryny. Zwiększony podział stanu i sieci. Różne inne ulepszenia.
+about-Securefox = HTTPS-by-Default. Całkowita ochrona plików cookie z izolacją witryny. Zwiększony podział stanu i sieci. Różne inne ulepszenia.
 default-label = Yokoffing Default
-about-default = Wszystko podstawowe. Żadne z uszkodzeń. To jest twój użytkownik.js.
+about-default = Wszystkie niezbędne elementy. Żadnych uszkodzeń. To jest twój user.js.
 Fastfox-label = Yokoffing Fastfox
-about-Fastfox = Ogromne zwiększenie szybkości przeglądania Firefoksa . Daj Chrome biegu za jego pieniądze!
+about-Fastfox = Zwiększenie wydajności Floorpa!
 Peskyfox-label = Yokoffing Peskyfox
-about-Peskyfox = Odklucz nową stronę zakładki. Usuń Pocket. Przywróć tryb kompaktowy jako opcję. Zatrzymaj powiadomienia na stronie internetowej, wyskakujące okienka i inne irytacje.
+about-Peskyfox = Uporządkuj stronę nowej karty. Usuń Pocket. Przywróć tryb kompaktowy jako opcję. Zatrzymanie powiadomień ze stron internetowych, wyskakujących okienek i innych irytujących elementów.
 Smoothfox-label = Yokoffing Smoothfx
-about-Smoothfox = Zdobądź gładkie przewijanie Edge-like w swojej ulubionej przeglądarce — lub wybierz coś więcej.
+about-Smoothfox = Uzyskaj płynne przewijanie Edge-like w swojej ulubionej przeglądarce — lub wybierz coś innego.
 
 ## Workspaces
 
 floorp-workspaces-title = Obszary robocze { -brand-short-name }
 workspaces-backup-discription = Kopia zapasowa i przywracanie projektu
-workspaces-restore-service-title = Usługa tworzenia kopii zapasowych przestrzeni roboczych podłogi
-workspaces-restore-warning = Ostrzeżenie! Uruchomienie tej operacji spowoduje tymczasowe zamrożenie przeglądarki i automatyczne ponowne uruchomienie.
+workspaces-restore-service-title = { -brand-short-name } Usługa tworzenia kopii zapasowych obszarów roboczych
+workspaces-restore-warning = Warning! Running this operation will cause your current Workspaces to be overwritten. The browser will freeze for a few seconds and then proceed to restart.
 floorp-workspace-settings-button = Ustawienia projektu...
 change-to-close-workspace-popup-option = 
     .label = Zamknij wyskakujące okienko podczas wybierania projektu
@@ -405,7 +403,7 @@ workspaces-reset-label =
     .label = Zresetuj projekty
 workspaces-reset-description = Jeśli kopia zapasowa nie działa i obszar roboczy nie zaczyna się, zresetuj obszar roboczy.
 workspaces-reset-button = Zresetuj projekty
-workspaces-reset-service-title = Przestrzenie robocze podłogi
+workspaces-reset-service-title = { -brand-short-name } Obszary robocze
 workspaces-reset-warning = Ostrzeżenie! Uruchamianie tej operacji spowoduje usunięcie wszystkich Twoich projektów i ponowne uruchomienie przeglądarki.
 manage-workspace-on-bms-option = 
     .label = Zarządzaj obszarem roboczym w panelu bocznym przeglądarki
@@ -414,7 +412,7 @@ show-workspace-name-option =
 change-workspace-with-default-key-option = 
     .label = Zmień obszar roboczy za pomocą klawiszy Shift i ↑ i ↓ .
 workspaces-manage-title = Zarządzaj projektami
-workspaces-manage-description = Zarządzaj projektami. Zmień ikonę obszaru roboczego.
+workspaces-manage-description = Manage your Workspaces. Change your Workspace icons.
 workspaces-manage-label = 
     .label = Zarządzaj projektami
 workspaces-manage-button = Otwórz Menedżera Projektów...
@@ -463,7 +461,7 @@ workspace-icon-chill =
     .label = Prywatne
 # Custom Keyboard Shortcuts
 floorp-CSK-title = Niestandardowe skróty klawiszowe
-floorp-CSK-description = Dostosuj skróty klawiaturowe { -brand-short-name }. Piętro zapewnia ponad 80 konfigurowalnych skrótów klawiaturowych - zrestartuj { -brand-short-name } aby zastosować te ustawienia. Duplikuj skróty klawiaturowe nie zadziałają.
+floorp-CSK-description = Customize { -brand-short-name }'s keyboard shortcuts. { -brand-short-name } provides more than 80 customizable keyboard shortcuts! Duplicate keyboard shortcuts will not work. Restart { -brand-short-name } to apply these settings.
 disable-fx-actions = 
     .label = Wyłącz skróty klawiszowe Mozilla Firefox
 customize-Action = 
@@ -478,7 +476,7 @@ CSK-manage-title = Zarządzaj skrótami klawiszowymi
 CSK-remove-shortcutkey = Usunąć niestandardowy skrót klawiatury?
 CSK-remove-shortcutkey-description = Czy na pewno chcesz usunąć ten skrót klawiaturowy?
 CSK-restore-default = Przywrócić domyślne?
-CSK-restore-default-description = Przywrócić domyślne skróty klawiaturowe? Twoje obecne skróty zostaną utracone.
+CSK-restore-default-description = Przywrócić domyślne skróty klawiaturowe { -brand-short-name }? Bieżące skróty zostaną utracone.
 CSK-reboot-browser-label = Uruchom ponownie { -brand-short-name } aby zastosować te ustawienia
 CSK-reboot-browser-button = Uruchom ponownie { -brand-short-name }
 # Exist shortcut key: "S", "shift"
@@ -505,7 +503,7 @@ floorp-custom-actions-custom-action = Akcje niestandardowe (eksperymentalne)
 mouse-gesture = Gesty myszy
 mouse-gesture-description = Gesturefy musi być zainstalowane, aby używać gestów myszy z { -brand-short-name }.
 Gesturefy = Gesturefy
-about-Gesturefy = Gesturefy to rozszerzenie, które dodaje gesty myszy do przeglądarki. Jeśli { -brand-short-name } wykryje instalację tego dodatku, doda on polecenia gestów do Gesturefy, które są dostępne tylko w { -brand-short-name }. Dodatek może również działać z nowymi kartami!
+about-Gesturefy = Gesturefy is an extension that adds mouse gestures to your browser. If { -brand-short-name } detects the installation of this add-on, it will add gesture commands to Gesturefy that are only available in { -brand-short-name }. This add-on also create new tabs!
 # Translate
 TWS = Przetłumacz strone internetową
 about-TWS = Przetłumacz swoją stronę w czasie rzeczywistym za pomocą Google lub Yandex. Możesz również przetłumaczyć wybrany tekst lub całą stronę.
@@ -546,7 +544,7 @@ WebRTC =
 ################################################################### browser ###############################################################
 
 rest-mode = Trwa przerwa...
-rest-mode-description = Podłoga jest obecnie zawieszona. Naciśnij ENTER lub OK, aby kontynuować.
+rest-mode-description = { -brand-short-name } jest aktualnie uśpiony. Naciśnij ENTER lub OK, aby kontynuować.
 Sidebar2 = 
     .label = Pasek boczny menedżera przeglądarek
     .tooltiptext = Zmień widoczność paska bocznego
@@ -646,44 +644,44 @@ status-bar =
     .accesskey = Pr
 ##################################################################### Gesturefy ###############################################################
 
-gf-floorp-open-tree-style-tab-name = [Floorp] Otwórz panel zakładki stylu drzewa
-gf-floorp-open-tree-style-tab-description = Otwórz panel zakładek stylu drzewa w panelu bocznym
-gf-floorp-open-bookmarks-sidebar-name = [Floorp] Otwórz panel zakładek w pasku bocznym
-gf-floorp-open-bookmarks-sidebar-description = Otwórz panel zakładek w pasku bocznym
-gf-floorp-open-history-sidebar-name = [Floorp] Otwórz panel historii paska bocznego
-gf-floorp-open-history-sidebar-description = Otwórz panel historii paska bocznego
-gf-floorp-open-synctabs-sidebar-name = [Floorp] Otwórz panel kart synchronizowanych w panelu bocznym
-gf-floorp-open-synctabs-sidebar-description = Otwórz panel zsynchronizowanych kart w panelu bocznym
-gf-floorp-close-sidebar-name = [Floorp] Zamknij pasek boczny
+gf-floorp-open-tree-style-tab-name = [{ -brand-short-name }] Otwórz panel zakładek w stylu drzewa
+gf-floorp-open-tree-style-tab-description = Open Tree Style Tab Panel on the Sidebar
+gf-floorp-open-bookmarks-sidebar-name = [{ -brand-short-name }] Open Bookmarks Panel
+gf-floorp-open-bookmarks-sidebar-description = Open Bookmarks Panel on the Sidebar
+gf-floorp-open-history-sidebar-name = [{ -brand-short-name }] Open History Panel
+gf-floorp-open-history-sidebar-description = Open History Panel on the Sidebar
+gf-floorp-open-synctabs-sidebar-name = [{ -brand-short-name }] Open Synced Tabs Panel
+gf-floorp-open-synctabs-sidebar-description = Open Synced Tabs Panel on the Sidebar
+gf-floorp-close-sidebar-name = [{ -brand-short-name }] Zamknij pasek boczny
 gf-floorp-close-sidebar-description = Zamknij pasek boczny
-gf-floorp-open-browser-manager-sidebar-name = [Floorp] Otwórz BMS
-gf-floorp-open-browser-manager-sidebar-description = Otwórz pasek menedżera przeglądarki, jeśli panel boczny przeglądarki został załadowany
-gf-floorp-close-browser-manager-sidebar-name = [Floorp] Zamknij BMS
+gf-floorp-open-browser-manager-sidebar-name = [{ -brand-short-name }] Otwórz BMS
+gf-floorp-open-browser-manager-sidebar-description = Open Browser Manager Sidebar if the Web Panel of Browser Manager Sidebar is loaded
+gf-floorp-close-browser-manager-sidebar-name = [{ -brand-short-name }] Zamknij BMS
 gf-floorp-close-browser-manager-sidebar-description = Zamknij pasek boczny menedżera przeglądarki
-gf-floorp-show-browser-manager-sidebar-name = [Floorp] Przełącz BMS
+gf-floorp-show-browser-manager-sidebar-name = [{ -brand-short-name }] Przełącz BMS
 gf-floorp-show-browser-manager-sidebar-description = Przełącz pasek boczny menedżera przeglądarki
-gf-floorp-hide-statusbar-name = [Floorp] Ukryj pasek stanu
+gf-floorp-hide-statusbar-name = [{ -brand-short-name }] Ukryj pasek stanu
 gf-floorp-hide-statusbar-description = Ukryj pasek stanu
-gf-floorp-show-statusbar-name = [Floorp] Przełącz pasek stanu
+gf-floorp-show-statusbar-name = [{ -brand-short-name }] Przełącz pasek stanu
 gf-floorp-show-statusbar-description = Pokaż lub ukryj pasek statusu
-gf-floorp-open-extension-sidebar-name = [Floorp] Otwórz wybrany dodatek paska bocznego
-gf-floorp-open-extension-sidebar-description = Otwórz wybrany dodatek paska bocznego
+gf-floorp-open-extension-sidebar-name = [{ -brand-short-name }] Open selected add-on Sidebar
+gf-floorp-open-extension-sidebar-description = Open selected add-on on the Sidebar
 gf-floorp-open-extension-sidebar-settings-addons-id = Dodatek panelu bocznego
 gf-floorp-open-extension-sidebar-settings-addons-id-description = Rozszerzenie dodatku na pasek boczny
 gf-floorp-open-extension-sidebar-settings-list-default = Wybierz dodatek
 gf-floorp-open-extension-sidebar-settings-list-unknwon = Nieznany dodatek
-##################################################################### Floorp System Update Portable Version ###############################################################
+##################################################################### { -brand-short-name } System Update Portable Version ###############################################################
 
 update-portable-notification-found-title = Znaleziono aktualizacje!
 update-portable-notification-found-message = Pobieranie aktualizacji...
 update-portable-notification-ready-title = Gotowy do aktualizacji!
-update-portable-notification-ready-message = { -brand-short-name } will be updated on the next launch.
+update-portable-notification-ready-message = { -brand-short-name } zostanie zaktualizowany przy następnym uruchomieniu.
 update-portable-notification-success-title = Aktualizacja powiodła się!
-update-portable-notification-success-message = Aktualizacja powiodła się! Mamy nadzieję, że podoba Ci się nowa wersja Piętra!
+update-portable-notification-success-message = Aktualizacja powiodła się! Mamy nadzieję, że spodoba ci się nowa wersja { -brand-short-name }!
 update-portable-notification-failed-title = Aktualizacja nie powiodła się.
 update-portable-notification-failed-redirector-message = Aktualizacja nie powiodła się. Ponowne uruchomienie przeglądarki może rozwiązać ten problem.
 update-portable-notification-failed-prepare-message = Nie udało się przygotować aktualizacji.
-##################################################################### Floorp Portable Preferences ###############################################################
+##################################################################### { -brand-short-name } Portable Preferences ###############################################################
 
 floorp-portable-update-application-allow = Aktualizacja przenośna { -brand-short-name }
 floorp-update-application-auto-enabled-option = 
@@ -699,7 +697,7 @@ open-link-in-external-tab-context-menu = Otwórz w zewnętrznej przeglądarce
 open-link-in-external-tab-dialog-title-error = Wystąpił błąd:
 open-link-in-external-tab-dialog-message-default-browser-not-found = Domyślna przeglądarka nie została znaleziona lub nie została skonfigurowana.
 open-link-in-external-tab-dialog-message-selected-browser-not-found = Wybrana przeglądarka nie istnieje.
-######################################################################### Floorp Notes ###############################################################
+######################################################################### { -brand-short-name } Notes ###############################################################
 
 new-memo = Nowy
 memo-title-input-placeholder = Napisz tutaj tytuł
@@ -707,16 +705,15 @@ memo-input-placeholder = Napisz lub wklej notatkę tutaj
 delete-memo = Usuń
 save-memo = Zapisz
 memo-welcome-title = Witaj!
-memo-first-tip = Witaj w Notatkach podłogowych! Oto kilka instrukcji jak z nich korzystać!
-memo-second-tip = Notatki podłogowe są notatnikiem, który umożliwia przechowywanie wielu notatek synchronizujących między urządzeniami. Aby włączyć synchronizację, musisz zalogować się do Floorp za pomocą konta Firefoks.
-memo-third-tip = Notatki podłogowe zostaną zapisane w ustawieniach podłogowych i zsynchronizowane pomiędzy urządzeniami za pomocą Firefox Sync. Firefox Sync zaszyfrowa zawartość synchronizacji z hasłem konta Firefoksa więc nikt nie zna jego zawartości.
+memo-first-tip = Witaj w Notatkach { -brand-short-name }! Oto kilka instrukcji, jak z nich korzystać!
+memo-second-tip = { -brand-short-name } Notatki umożliwiają przechowywanie wielu notatek synchronizowanych między urządzeniami. Aby włączyć synchronizację, należy zalogować się w { -brand-short-name } za pomocą konta Firefox.
+memo-third-tip = { -brand-short-name } Notes will be saved in your { -brand-short-name } settings and synchronized across devices using Firefox Sync. Firefox Sync encrypts the contents of the sync with your Firefox account password, so no one but you know its contents.
 memo-import-data-tip = Firefox Sync nie jest usługą tworzenia kopii zapasowych. Zalecamy utworzenie kopii zapasowych.
 memo-new-title = Nowa notatka
 chage-view-mode = Przełącz tryb widoku/edycji
 readonly-mode = Offline (tylko do odczytu)
 ######################################################################### Default bookmarks ###############################################################
 default-bookmark-ablaze-support = Wsparcie Ablaze
-default-bookmark-notes = Notatki podłogowe
 ######################################################################### Like Chrome Download mgr ###############################################################
 
 floorp-delete-all-downloads = 
@@ -729,7 +726,7 @@ floorp-show-all-downloads =
     .tooltiptext = Pokaż wszystkie pobrane pliki
 ######################################################################### workspace ###############################################################
 
-workspace-prompt-title = Obszar roboczy podłogi
+workspace-prompt-title = { -brand-short-name } Obszar roboczy
 please-enter-workspace-name = Wprowadź nową nazwę obszaru roboczego.
 please-enter-workspace-name-2 = Nazwa obszaru roboczego nie może zawierać symboli i spacji.
 workspace-error = Wystąpił błąd:
@@ -775,10 +772,10 @@ welcome-discribe-browser-design = Możesz wybrać jeden z wspaniałych projektó
 welcome-design-lepton-name = Oryginalny projekt Leptona
 welcome-design-photon-name = Projektowanie zdjęć Leptona
 welcome-design-ProtonFix-name = Lepton ProtonFix Design
-welcome-design-floorp-fluerial-name = Projektowanie fluorytu podłogowego
+welcome-design-floorp-fluerial-name = { -brand-short-name } Fluerial Design
 welcome-design-firefox-proton-name = Projektowanie Proton Firefox
 welcome-import-data = Importuj dane przeglądarki
-welcome-import-data-description = Szybka konfiguracja! Importuj zakładki, hasła i więcej ze starej przeglądarki. Użytkownik Firefox może importować dane z Firefox Sync.
+welcome-import-data-description = Fast setup! Import your bookmarks, passwords, and more from your old browser. Firefox users can import data from Firefox Sync.
 welcome-import-data-button = Importuj dane...
 welcome-import-data-skip = Pomiń import
 welcome-select-button = Wybierz
@@ -861,9 +858,9 @@ floorp-custom-actions-open-migration-wizard = Otwórz kreatora migracji
     .label = Otwórz kreatora migracji
 floorp-custom-actions-quit-from-application = Wyjdź z aplikacji
     .label = Wyjdź z { -brand-short-name }
-floorp-custom-actions-enter-into-customize-mode = Enter the toolbar customization mode
+floorp-custom-actions-enter-into-customize-mode = Customize Toolbar
     .label = Otwórz dostosowywanie { -brand-short-name }
-floorp-custom-actions-enter-into-offline-mode = Enter offline mode
+floorp-custom-actions-enter-into-offline-mode = Przejście do trybu offline
     .label = Wejdź do trybu offline
 floorp-custom-actions-open-screen-capture = Otwórz narzędzie przechwytywania ekranu
     .label = Zrób zrzut ekranu
@@ -875,7 +872,7 @@ floorp-custom-actions-open-bookmarks-sidebar = Otwórz pasek boczny zakładek
     .label = Otwórz pasek boczny zakładek
 floorp-custom-actions-open-bookmark-add-tool = Otwórz zakładkę dodawania narzędzia
     .label = Dodaj zakładkę
-floorp-custom-actions-open-bookmark-add-toolbar = Otwórz zakładkę dodawania paska narzędzi
+floorp-custom-actions-open-bookmark-add-toolbar = Open "Add a new bookmark" pop-up window
     .label = Dodaj do paska zakładek
 floorp-custom-actions-open-bookmarks-manager = Otwórz menedżera zakładek
     .label = Otwórz Menedżera Zakładek
@@ -897,7 +894,7 @@ floorp-custom-actions-open-task-manager = Otwórz menedżera zadań
     .label = Otwórz Menedżera zadań { -brand-short-name }
 floorp-custom-actions-open-home-page = Otwórz stronę główną { -brand-short-name }
     .label = Otwórz stronę główną { -brand-short-name }
-floorp-custom-actions-open-addons-manager = Otwórz menedżera dodatków
+floorp-custom-actions-open-addons-manager = Open add-ons and themes
     .label = Otwórz dodatki i motywy
 floorp-custom-actions-forget-history = Zapomnij historii
     .label = Zapomnij historii
@@ -981,13 +978,13 @@ open-in_private-container =
 ######################################################################## Split View ###############################################################
 
 floorp-split-view-menu = 
-    .label = Fixed in split view
+    .label = Naprawione w widoku podzielonym
 splitview-show-on-right = 
-    .label = Show on right
+    .label = Pokaż po prawej
 splitview-show-on-left = 
-    .label = Show on left
+    .label = Pokaż po lewej
 splitview-close-split-tab = 
-    .label = Close split tab
+    .label = Zamknij podzielone zakładki
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = Zeskanuj kod QR za pomocą telefonu
 qrcode-generate-page-action = 
@@ -995,3 +992,12 @@ qrcode-generate-page-action =
 ######################################################################### Customize Mode ###############################################################
 floorp-customize-mode-unified-extensions-button = 
     .label = Przycisk rozszerzeń
+######################################################################### Progressive Web Apps (SSB) ###############################################################
+
+ssb-page-action-title = Install this Site as an App
+ssb-app-open-button = 
+    .label = Open In PWA
+ssb-app-install-button = 
+    .label = Install
+ssb-app-cancel-button = 
+    .label = Cancel
