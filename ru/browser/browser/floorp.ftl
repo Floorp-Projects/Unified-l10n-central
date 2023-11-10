@@ -124,11 +124,11 @@ firefox-proton =
 firefox-photon-lepton = 
     .label = Firefox Photon・Lepton UI
 floorp-fluentUI = 
-    .label = Microsoft Fluent UI (deprecated)
+    .label = Microsoft Fluent UI (устаревший)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI (deprecated)
+    .label = { -brand-short-name } Fluerial UI (устаревший)
 floorp-gnomeUI = 
-    .label = GNOME Theme (deprecated)
+    .label = Тема GNOME (устаревшая)
 
 ## Download Manager
 
@@ -503,7 +503,7 @@ floorp-custom-actions-custom-action = Пользовательские дейс�
 mouse-gesture = Жесты мышью
 mouse-gesture-description = Gesturify должен быть установлены для использования жестов мыши с { -brand-short-name }.
 Gesturefy = Gesturefy
-about-Gesturefy = Gesturefy is an extension that adds mouse gestures to your browser. If { -brand-short-name } detects the installation of this add-on, it will add gesture commands to Gesturefy that are only available in { -brand-short-name }. This add-on also create new tabs!
+about-Gesturefy = Gesturefy - это расширение, которое добавляет жесты мыши в ваш браузер. Если { -brand-short-name } обнаружит установку этого дополнения, он добавит жесты в Gesturefy, которые доступны только в { -brand-short-name }. Кроме того, это дополнение может работать с новыми вкладками!
 # Translate
 TWS = Translate Web Pages
 about-TWS = Переводите свою страницу в режиме реального времени с помощью Google или Yandex. Вы также можете перевести выделенный текст или всю страницу.
@@ -659,7 +659,7 @@ gf-floorp-open-browser-manager-sidebar-description = Open Browser Manager Sideba
 gf-floorp-close-browser-manager-sidebar-name = [{ -brand-short-name }] Close BMS
 gf-floorp-close-browser-manager-sidebar-description = Закрыть панель управления браузера
 gf-floorp-show-browser-manager-sidebar-name = [{ -brand-short-name }] Вкл/выкл боковую панель управления браузером
-gf-floorp-show-browser-manager-sidebar-description = Переключить панель управления браузера
+gf-floorp-show-browser-manager-sidebar-description = Вкл/выкл панель управления браузера
 gf-floorp-hide-statusbar-name = [{ -brand-short-name }] Скрыть строку состояния
 gf-floorp-hide-statusbar-description = Скрыть строку состояния
 gf-floorp-show-statusbar-name = [{ -brand-short-name }] Вкл/выкл строку состояния
