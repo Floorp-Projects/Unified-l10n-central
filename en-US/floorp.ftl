@@ -18,7 +18,7 @@ design-header = { pane-design-title }
 feature-requires-restart = A restart is required to apply changes
 
 tab-width = Minimum width of tabs
-preferences-tabs-newtab-position = New Tab position
+preferences-tabs-newtab-position = New tab position
 open-new-tab-use-default =
  .label = Open new tabs at default position
 open-new-tab-at-the-end =
@@ -38,10 +38,10 @@ tab-sleep-settings-dialog-title =
  .title = Sleeping Tabs Settings
 tab-sleep-settings-dialog-excludehosts-label = Exclude hosts
 tab-sleep-settings-dialog-excludehosts-label-2 = Enter one host per line.
-tab-sleep-tab-context-menu-excludetab = Keep Tab awake
+tab-sleep-tab-context-menu-excludetab = Keep tab awake
 enable-floorp-workspace =
  .label = Enable Workspaces
-workspace-warning = Workspaces cannot be used with Tab Group add-ons. If you want to use tab group add-ons, please disable Workspaces and restart { -brand-short-name }.
+workspace-warning = Workspaces cannot be used with Tab Group add-ons. If you want to use Tab Group add-ons, please disable Workspaces and restart { -brand-short-name }.
 enable-tab-scroll-change =
  .label = Switch tabs by scrolling with your mouse
 enable-tab-scroll-reverse =
@@ -56,7 +56,7 @@ enable-show-pinned-tabs-title =
 tabbar-preference = Tab Bar
 
 tab-normal-mode = 
- .label= Normal mode
+ .label= Default
 
 hide-horizontality-tabs =
  .label= Hide tabs on Horizontal Tab Bar
@@ -91,7 +91,7 @@ hover-vertical-tab =
  .label = Collapse Vertical Tab Bar
 
 TST = Tree Style Tab
-about-TST = Tree Style Tab is a popular add-on that allows you to display tabs in a tree-like structure. { -brand-short-name } 10 has this add-on built in. Please install the add-on to restore { -brand-short-name } 10's built-in Tree Style Tab.
+about-TST = Tree Style Tab is a popular add-on that allows you to display tabs in a tree-like structure. This add-on is already pre-integrated in { -brand-short-name }. Please install the add-on to activate { -brand-short-name }'s Tree Style Tab.
 treestyletab-Settings = 
  .label = Collapse Tree Style Tab
 
@@ -114,7 +114,7 @@ disable-extension-check-compatibility-option =
 other-preference = Other Preferences
 
 enable-userscript =
- .label = Enable "userChrome.js" and "Bootstrap extensions" Loading
+ .label = Enable legacy components
 about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
 
 search-positon-top =
@@ -150,20 +150,17 @@ preferences-browser-appearance-description = Choose a built-in third-party desig
 firefox-proton =
  .label = Firefox Proton UI
 
-firefox-proton-fix =
- .label = Firefox Proton Fix UI
-
 firefox-photon-lepton =
  .label = Firefox Photon・Lepton UI
 
 floorp-fluentUI =
- .label = Microsoft Fluent UI
+ .label = Microsoft Fluent UI (deprecated)
  
 floorp-fluerialUI =
- .label = { -brand-short-name } Fluerial UI
+ .label = { -brand-short-name } Fluerial UI (deprecated)
 
 floorp-gnomeUI =
- .label = GNOME Theme
+ .label = GNOME Theme (deprecated)
 
 ## Download Manager
 download-notification-preferences = Download Notifications
@@ -229,7 +226,7 @@ category-downloads =
     .tooltiptext = { files-and-applications-title }
 
 bsb-header = Browser Manager Sidebar
-bsb-context = Use the following Container Tab
+bsb-context = Use the following Container
 bsb-userAgent-label = 
   .label = Use Mobile User Agent in this Web Panel
 bsb-width = Width (if set to 0, the global value will be used)
@@ -271,7 +268,7 @@ sidebar2-pref-setting =
 
 sidebar2-global-width = Global Web Panels width
 
-use-icon-provider-option = Use Following Icon Provider
+use-icon-provider-option = Use Icon Provider
 
 use-icon-provider-option-google =
  .label = Google
@@ -379,7 +376,7 @@ floorp-lepton-enable-toolbar-overlap-allow-layout-shift-autohide =
 hide-preference = Manage browser elements
 
 floorp-lepton-enable-tab_icon-hide =
-    .label = Hide Tab icons
+    .label = Hide tab icons
 floorp-lepton-enable-tabbar-hide =
     .label = Hide Tab Bar
 floorp-lepton-enable-navbar-hide =
@@ -414,14 +411,14 @@ urlbar-preferences = Address Bar
 floorp-lepton-enable-urlbar-icon-move-to-left =
     .label = Move Address Bar icons to the left side
 floorp-lepton-enable-urlname-go_button_when_typing =
-    .label = When typing, show a Go button
+    .label = When typing, show a "Go" button
 floorp-lepton-enable-always-show-page_action =
     .label = Always show page actions in the Address Bar
 
 tabbar-preferences = Tab Bar
 
 floorp-lepton-enable-tabbar-positon-as-titlebar =
-    .label = Tab Bar in the titlebar
+    .label = Tab Bar in the Title Bar
 floorp-lepton-enable-tabbar-as-urlbar =
     .label = Combine Tab Bar and Toolbar
 
@@ -439,7 +436,7 @@ floorp-notes = { -brand-short-name } Notes
 restore-from-backup = Restore Notes from backup
 enable-notes-sync = 
  .label = Enable { -brand-short-name } Notes Sync
-about-notes-backup-tips = { -brand-short-name } Notes uses Firefox Sync to sync your notes with other devices. If you lose your notes, you can restore them from a backup. A backup is created when you start { -brand-short-name }.
+about-notes-backup-tips = { -brand-short-name } Notes uses Firefox Sync to sync your notes with other devices. If you lose your notes, you can restore them from a backup. A backup is created when you launch { -brand-short-name }.
 notes-sync-description = This can solve the problem of losing content due to overwriting notes during synchronization.
 backuped-time = Backed up at
 notes-backup-option = Backup Settings
@@ -489,7 +486,7 @@ floorp-workspaces-title = { -brand-short-name } Workspaces
 workspaces-backup-discription = Backup and restore your Workspaces
 
 workspaces-restore-service-title = { -brand-short-name } Workspaces Backup Service
-workspaces-restore-warning = Warning! Running this operation will cause the browser to freeze temporarily and restart automatically.
+workspaces-restore-warning = Warning! Running this operation will cause your current Workspaces to be overwritten. The browser will freeze for a few seconds and then proceed to restart.
 floorp-workspace-settings-button = Workspace Settings...
 
 change-to-close-workspace-popup-option = 
@@ -515,7 +512,7 @@ change-workspace-with-default-key-option =
     .label = Change Workspace with Shift and ↑ and ↓ keys.
 
 workspaces-manage-title = Manage Workspaces
-workspaces-manage-description = Manage your Workspaces. Change workspace icon.
+workspaces-manage-description = Manage your Workspaces. Change your Workspace icons.
 workspaces-manage-label =
     .label = Manage Workspaces
 
@@ -569,7 +566,7 @@ workspace-icon-chill =
 
 # Custom Keyboard Shortcuts
 floorp-CSK-title = Custom keyboard shortcuts
-floorp-CSK-description = Customize { -brand-short-name }'s keyboard shortcuts. { -brand-short-name } provides more than 80 customizable keyboard shortcuts - restart { -brand-short-name } to apply these settings. Duplicate keyboard shortcuts will not work.
+floorp-CSK-description = Customize { -brand-short-name }'s keyboard shortcuts. { -brand-short-name } provides more than 80 customizable keyboard shortcuts! Duplicate keyboard shortcuts will not work. Restart { -brand-short-name } to apply these settings.
 disable-fx-actions =
  .label = Disable Mozilla Firefox's keyboard shortcuts
 customize-Action =
@@ -616,7 +613,7 @@ floorp-custom-actions-custom-action = Custom Actions (Experimental)
 mouse-gesture = Mouse Gestures
 mouse-gesture-description = Gesturefy must be installed to use mouse gestures with { -brand-short-name }.
 Gesturefy = Gesturefy
-about-Gesturefy = Gesturefy is an extension that adds mouse gestures to your browser. If { -brand-short-name } detects the installation of this add-on, it will add gesture commands to Gesturefy that are only available in { -brand-short-name }. Also, this add-on can work with new tabs!
+about-Gesturefy = Gesturefy is an extension that adds mouse gestures to your browser. If { -brand-short-name } detects the installation of this add-on, it will add gesture commands to Gesturefy that are only available in { -brand-short-name }. This add-on also create new tabs!
 
 # Translate
 TWS = Translate Web Pages
@@ -813,7 +810,7 @@ gf-floorp-close-sidebar-description = Close Sidebar
 
 
 gf-floorp-open-browser-manager-sidebar-name = [{ -brand-short-name }] Open BMS
-gf-floorp-open-browser-manager-sidebar-description =  Open Browser Manager Sidebar, if webpanel of Browser Manager Sidebar was loaded
+gf-floorp-open-browser-manager-sidebar-description = Open Browser Manager Sidebar if the Web Panel of Browser Manager Sidebar is loaded
 
 gf-floorp-close-browser-manager-sidebar-name = [{ -brand-short-name }] Close BMS
 gf-floorp-close-browser-manager-sidebar-description = Close Browser Manager Sidebar
@@ -874,7 +871,7 @@ save-memo = Save
 memo-welcome-title = Welcome!
 memo-first-tip = Welcome to { -brand-short-name } Notes! Here are some instructions on how to use it!
 memo-second-tip = { -brand-short-name } Notes is a notepad that lets you store multiple notes that sync across devices. To enable synchronization, you need to sign in to { -brand-short-name } with your Firefox account.
-memo-third-tip = { -brand-short-name } Notes will be saved in your { -brand-short-name } settings and synchronized across devices using Firefox Sync. Firefox Sync encrypts the contents of the sync with your Firefox account password, so no one but you knows its contents.
+memo-third-tip = { -brand-short-name } Notes will be saved in your { -brand-short-name } settings and synchronized across devices using Firefox Sync. Firefox Sync encrypts the contents of the sync with your Firefox account password, so no one but you know its contents.
 memo-import-data-tip = Firefox Sync is not a backup service. We recommend you to create backups.
 memo-new-title = New Note
 chage-view-mode = Toggle View/Edit Mode
@@ -953,7 +950,7 @@ welcome-design-ProtonFix-name = Lepton ProtonFix Design
 welcome-design-floorp-fluerial-name = { -brand-short-name } Fluerial Design
 welcome-design-firefox-proton-name = Firefox Proton Design
 welcome-import-data = Import Your Browser Data
-welcome-import-data-description = Fast setup! Import your bookmarks, passwords, and more from your old browser. Firefox user can import data from Firefox Sync.
+welcome-import-data-description = Fast setup! Import your bookmarks, passwords, and more from your old browser. Firefox users can import data from Firefox Sync.
 welcome-import-data-button = Import Data...
 welcome-import-data-skip = Skip Import
 welcome-select-button = Select
@@ -1038,7 +1035,7 @@ floorp-custom-actions-open-migration-wizard = Open migration wizard
   .label = Open migration wizard
 floorp-custom-actions-quit-from-application = Quit from application
   .label = Quit { -brand-short-name }
-floorp-custom-actions-enter-into-customize-mode = Enter the toolbar customization mode
+floorp-custom-actions-enter-into-customize-mode = Customize Toolbar
   .label = Open Customize { -brand-short-name }
 floorp-custom-actions-enter-into-offline-mode = Enter offline mode
   .label = Enter offline mode
@@ -1052,7 +1049,7 @@ floorp-custom-actions-open-bookmarks-sidebar = Open bookmarks sidebar
   .label = Open Bookmarks sidebar
 floorp-custom-actions-open-bookmark-add-tool = Open bookmark add tool
   .label = Add Bookmark
-floorp-custom-actions-open-bookmark-add-toolbar = Open bookmark add toolbar
+floorp-custom-actions-open-bookmark-add-toolbar = Open "Add a new bookmark" pop-up window
   .label = Add to Bookmarks Toolbar
 floorp-custom-actions-open-bookmarks-manager = Open bookmarks manager
   .label = Open Bookmarks Manager
@@ -1074,7 +1071,7 @@ floorp-custom-actions-open-task-manager = Open task manager
   .label = Open { -brand-short-name }'s Task Manager
 floorp-custom-actions-open-home-page = Open { -brand-short-name }'s home page
   .label = Open { -brand-short-name }'s homepage
-floorp-custom-actions-open-addons-manager = Open addons manager
+floorp-custom-actions-open-addons-manager = Open add-ons and themes
   .label = Open Add-ons and themes
 floorp-custom-actions-forget-history = Forget history
   .label = Forget history
@@ -1178,3 +1175,14 @@ qrcode-generate-page-action =
 ######################################################################### Customize Mode ###############################################################
 floorp-customize-mode-unified-extensions-button =
  .label = Unified Extensions Button
+
+######################################################################### Progressive Web Apps (SSB) ###############################################################
+
+ssb-page-action-title = Install this Site as an App
+ssb-app-open-button =
+ .label = Open In PWA
+ssb-app-install-button =
+ .label = Install
+
+ssb-app-cancel-button =
+ .label = Cancel
