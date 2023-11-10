@@ -794,16 +794,16 @@ status-bar =
 ##################################################################### Gesturefy ###############################################################
 
 gf-floorp-open-tree-style-tab-name = [{ -brand-short-name }] Open Tree Style Tab Panel
-gf-floorp-open-tree-style-tab-description = Open Tree Style Tab Panel of Sidebar
+gf-floorp-open-tree-style-tab-description = Open Tree Style Tab Panel on the Sidebar
 
-gf-floorp-open-bookmarks-sidebar-name = [{ -brand-short-name }] Open Bookmarks Panel of Sidebar
-gf-floorp-open-bookmarks-sidebar-description = Open Bookmarks Panel of Sidebar
+gf-floorp-open-bookmarks-sidebar-name = [{ -brand-short-name }] Open Bookmarks Panel
+gf-floorp-open-bookmarks-sidebar-description = Open Bookmarks Panel on the Sidebar
 
-gf-floorp-open-history-sidebar-name = [{ -brand-short-name }] Open History Panel of Sidebar
-gf-floorp-open-history-sidebar-description = Open History Panel of Sidebar
+gf-floorp-open-history-sidebar-name = [{ -brand-short-name }] Open History Panel
+gf-floorp-open-history-sidebar-description = Open History Panel on the Sidebar
 
-gf-floorp-open-synctabs-sidebar-name = [{ -brand-short-name }] Open Synced Tabs Panel of Sidebar
-gf-floorp-open-synctabs-sidebar-description = Open Synced Tabs Panel of Sidebar
+gf-floorp-open-synctabs-sidebar-name = [{ -brand-short-name }] Open Synced Tabs Panel
+gf-floorp-open-synctabs-sidebar-description = Open Synced Tabs Panel on the Sidebar
 
 gf-floorp-close-sidebar-name = [{ -brand-short-name }] Close Sidebar
 gf-floorp-close-sidebar-description = Close Sidebar
@@ -824,8 +824,8 @@ gf-floorp-hide-statusbar-description = Hide Status Bar
 gf-floorp-show-statusbar-name = [{ -brand-short-name }] Toggle Status Bar
 gf-floorp-show-statusbar-description = Show or Hide Status Bar
 
-gf-floorp-open-extension-sidebar-name = [{ -brand-short-name }] Open selected add-on of Sidebar
-gf-floorp-open-extension-sidebar-description = Open selected add-on of Sidebar
+gf-floorp-open-extension-sidebar-name = [{ -brand-short-name }] Open selected add-on Sidebar
+gf-floorp-open-extension-sidebar-description = Open selected add-on on the Sidebar
 gf-floorp-open-extension-sidebar-settings-addons-id = Add-on of Sidebar
 gf-floorp-open-extension-sidebar-settings-addons-id-description = The extension of the add-on open of sidebar
 gf-floorp-open-extension-sidebar-settings-list-default = Please select add-on
