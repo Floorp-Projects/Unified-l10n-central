@@ -223,26 +223,26 @@ use-icon-provider-option = Utilizar proveedor de iconos
 use-icon-provider-option-google = 
     .label = Google
 use-icon-provider-option-duckduckgo = 
-    .label = Suerte
+    .label = DuckDuckGo
 use-icon-provider-option-yandex = 
     .label = Yandex (disponible en China)
 use-icon-provider-option-hatena = 
     .label = Hatena (disponible en China)
-memory-and-performance = Memoria y rendimiento
+memory-and-performance = Memoria y desempeño
 min-memory = 
     .label = Uso mínimo de memoria (bajo rendimiento)
 balance-memory = 
-    .label = Uso de memoria de balance y rendimiento
+    .label = Equilibrar uso de memoria y desempeño
 max-memory = 
     .label = Mejor desempeño (uso de memoria elevado)
 delete-border-and-roundup-option = 
-    .label = Redondea las esquinas de las páginas
+    .label = Redondear esquinas de las páginas
 
 ## DualTheme
 
 dualtheme-enable = 
     .label = Activar tema dual
-newtab-background = { -brand-short-name } Fondo de Inicio
+newtab-background = Fondo de Inicio de { -brand-short-name }
 newtab-background-random-image = 
     .label = Imágenes aleatorias de Unsplash
 newtab-background-gradation = 
@@ -341,7 +341,7 @@ floorp-lepton-enable-overlap-sidebar =
     .label = Mostrar barra lateral sobre el contenido del sitio web
 floorp-home-mode-choice-default = 
     .label = Inicio de { -brand-short-name } (predeterminado)
-floorp-home-prefs-content-header = Contenido del Hogar { -brand-short-name }
+floorp-home-prefs-content-header = Contenido de Inicio de { -brand-short-name }
 floorp-home-prefs-content-description = Elija el contenido que desea ver en la página principal { -brand-short-name }.
 
 ## Notes
@@ -378,13 +378,13 @@ default-userjs-label = Predeterminado de { -brand-short-name }
 about-default-userjs = Telemetría desactivada. { -brand-short-name } bien equilibrado con varias personalizaciones activadas.
 Securefox-label = Securefox Yokoffing
 about-Securefox = HTTPS de manera predeterminada. Protección total de cookies con aislamiento de sitios. Particionado de estado y red optimizado. Mejoras varias.
-default-label = Yokoffing Default
+default-label = Yokoffing predeterminado
 about-default = Todo lo esencial. Ninguna de las roturas. Este es su user.js.
 Fastfox-label = Fastzorro Yokoffing
 about-Fastfox = Incrementar enormemente la velocidad de navegación de Firefox. ¡Dale a Chrome una corrida por su dinero!
 Peskyfox-label = Yokoffing Peskyfox
 about-Peskyfox = Desagüe la nueva página de pestañas. Remover Pocket. Restaurar modo compacto como una opción. Detener notificaciones de páginas web, ventanas emergentes y otras molestias.
-Smoothfox-label = Zorro suavizado
+Smoothfox-label = Yokoffing Smoothfox
 about-Smoothfox = Obtén un desplazamiento suave al estilo Edge en tu navegador favorito, o elige algo más de tu estilo.
 
 ## Workspaces
@@ -414,8 +414,8 @@ change-workspace-with-default-key-option =
 workspaces-manage-title = Administrar espacios de trabajo
 workspaces-manage-description = Gestione sus espacios de trabajo. Cambie los iconos de sus espacios de trabajo.
 workspaces-manage-label = 
-    .label = Administrar espacios de trabajo
-workspaces-manage-button = Abrir Administrador de Espacio de Trabajo...
+    .label = Gestionar espacios de trabajo
+workspaces-manage-button = Abrir gestor de espacios de trabajo...
 select-workspace = Seleccionar espacio de trabajo
 workspace-select-icon = Seleccionar icono del área de trabajo
     .label = Seleccionar icono del área de trabajo
@@ -627,7 +627,7 @@ edit-userContentCss-editor =
 not-found-editor-path = No se pudo encontrar un editor de archivos CSS
 set-pref-description = Introduzca la ubicación del archivo del editor de archivos CSS que desea utilizar:
 rebuild-complete = La reconstrucción ha sido completada.
-please-enter-filename = Por favor, introduzca un nombre de archivo.
+please-enter-filename = Proporcione un nombre de archivo.
 ################################################################### Undo-Closed-Tab ###############################################################
 
 undo-closed-tab = Reabrir pestaña cerrada
@@ -668,7 +668,7 @@ gf-floorp-open-extension-sidebar-name = [{ -brand-short-name }] Abrir barra late
 gf-floorp-open-extension-sidebar-description = Abrir complemento seleccionado en la barra lateral
 gf-floorp-open-extension-sidebar-settings-addons-id = Añadido de barra lateral
 gf-floorp-open-extension-sidebar-settings-addons-id-description = La extensión del complemento abierto de la barra lateral
-gf-floorp-open-extension-sidebar-settings-list-default = Por favor, seleccione el complemento
+gf-floorp-open-extension-sidebar-settings-list-default = Seleccione el complemento
 gf-floorp-open-extension-sidebar-settings-list-unknwon = Complemento desconocido
 ##################################################################### { -brand-short-name } System Update Portable Version ###############################################################
 
@@ -727,7 +727,7 @@ floorp-show-all-downloads =
 ######################################################################### workspace ###############################################################
 
 workspace-prompt-title = Espacio de trabajo de { -brand-short-name }
-please-enter-workspace-name = Por favor, introduzca el nuevo nombre del área de trabajo.
+please-enter-workspace-name = Proporcione el nombre nuevo del espacio de trabajo.
 please-enter-workspace-name-2 = El nombre del espacio de trabajo no puede contener símbolos y espacios.
 workspace-error = Se ha producido un error:
 workspace-error-discription = Un espacio de trabajo con este nombre existe o el nombre no es válido.
