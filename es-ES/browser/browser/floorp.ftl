@@ -4,7 +4,7 @@
 
 ###################################################################### about:Dialog #################################################################################
 
-about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> es uno de los navegadores nacionales desarrollados en Japón. Se basa en Firefox y sigue operando bajo <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>para mejorar la web. ¿Quieres ayudar? <label data-l10n-name="helpus-donateLink">Haz una donación</label>
+about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> es uno de los navegadores nacionales desarrollados en Japón. Se basa en Firefox y sigue operando bajo <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>para mejorar la web. ¿Quiere ayudar? <label data-l10n-name="helpus-donateLink">Haga una donación</label>
 icon-creator = Creador de iconos <label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> y <label data-l10n-name="brand-logo-twitter">@mwxdxx.</label>
 contributors = Lista de colaboradores y desarrolladores de <label data-l10n-name="about-contributor"></label>
 #################################################################### about:preferences ####################################################################
@@ -74,7 +74,7 @@ native-vertical-tab-show-right =
     .label = Mostrar barra de pestañas vertical a la derecha de la ventana
 hover-vertical-tab = 
     .label = Contraer barra de pestañas vertical
-TST = Tabla de estilo árbol
+TST = Pestañas estilo árbol
 about-TST = Tree Style Tab es un complemento popular que le permite mostrar las pestañas en una estructura arbórea. Este complemento ya está preintegrado en { -brand-short-name }. Instale el complemento para activar el Tree Style Tab de { -brand-short-name }.
 treestyletab-Settings = 
     .label = Colapsar pestaña estilo árbol
