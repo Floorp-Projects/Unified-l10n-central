@@ -994,10 +994,17 @@ floorp-customize-mode-unified-extensions-button =
     .label = Suvienodintų plėtinių mygtukas
 ######################################################################### Progressive Web Apps (SSB) ###############################################################
 
-ssb-page-action-title = Įdiekti šią svetainę kaip programėlę
+ssb-page-action-title = Install app
 ssb-app-open-button = 
-    .label = Atidaryti kaip PWA
+    .label = Open In App
 ssb-app-install-button = 
     .label = Įdiegti
 ssb-app-cancel-button = 
     .label = Atšaukti
+floorp-open-manage-ssb-page = 
+    .label = Manage installed Web Apps
+appmenu-open-installed-apps-subheader = Open installed web apps
+appmenuitem-install-current-page = 
+    .label = Install this site as an app
+appmenuitem-open-current-page = 
+    .label = Open this site on installed app
