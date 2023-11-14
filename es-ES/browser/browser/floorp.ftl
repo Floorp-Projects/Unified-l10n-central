@@ -994,10 +994,17 @@ floorp-customize-mode-unified-extensions-button =
     .label = Botón unificado de extensiones
 ######################################################################### Progressive Web Apps (SSB) ###############################################################
 
-ssb-page-action-title = Instalar este sitio como aplicación
+ssb-page-action-title = Install app
 ssb-app-open-button = 
-    .label = Abrir en PWA
+    .label = Open In App
 ssb-app-install-button = 
     .label = Instalar
 ssb-app-cancel-button = 
     .label = Cancelar
+floorp-open-manage-ssb-page = 
+    .label = Manage installed Web Apps
+appmenu-open-installed-apps-subheader = Open installed web apps
+appmenuitem-install-current-page = 
+    .label = Install this site as an app
+appmenuitem-open-current-page = 
+    .label = Open this site on installed app
