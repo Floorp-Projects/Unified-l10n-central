@@ -994,10 +994,17 @@ floorp-customize-mode-unified-extensions-button =
     .label = Nút công cụ hợp nhất
 ######################################################################### Progressive Web Apps (SSB) ###############################################################
 
-ssb-page-action-title = Cài đặt site dưới dạng Pwa App
+ssb-page-action-title = Install app
 ssb-app-open-button = 
-    .label = Mở ở chế độ PWA
+    .label = Open In App
 ssb-app-install-button = 
     .label = Cài đặt
 ssb-app-cancel-button = 
     .label = Hủy
+floorp-open-manage-ssb-page = 
+    .label = Manage installed Web Apps
+appmenu-open-installed-apps-subheader = Open installed web apps
+appmenuitem-install-current-page = 
+    .label = Install this site as an app
+appmenuitem-open-current-page = 
+    .label = Open this site on installed app
