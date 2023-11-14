@@ -994,10 +994,17 @@ floorp-customize-mode-unified-extensions-button =
     .label = 통합 확장 프로그램 버튼
 ######################################################################### Progressive Web Apps (SSB) ###############################################################
 
-ssb-page-action-title = 이 사이트를 앱으로서 설치하기
+ssb-page-action-title = Install app
 ssb-app-open-button = 
-    .label = PWA로 열기
+    .label = Open In App
 ssb-app-install-button = 
     .label = 설치
 ssb-app-cancel-button = 
     .label = 취소
+floorp-open-manage-ssb-page = 
+    .label = Manage installed Web Apps
+appmenu-open-installed-apps-subheader = Open installed web apps
+appmenuitem-install-current-page = 
+    .label = Install this site as an app
+appmenuitem-open-current-page = 
+    .label = Open this site on installed app
