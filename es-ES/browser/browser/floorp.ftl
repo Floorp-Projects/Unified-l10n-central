@@ -1010,3 +1010,7 @@ appmenuitem-install-current-page =
     .label = Instalar este sitio como aplicación
 appmenuitem-open-current-page = 
     .label = Abrir este sitio en aplicación instalada
+appmenuitem-contextmenu-open-app = 
+    .label = Open this app
+appmenuitem-contextmenu-uninstall-app = 
+    .label = Uninstall this app
