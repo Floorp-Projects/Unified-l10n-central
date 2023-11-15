@@ -1194,3 +1194,7 @@ appmenuitem-install-current-page =
   .label = Install this site as an app
 appmenuitem-open-current-page =
   .label = Open this site on installed app
+appmenuitem-contextmenu-open-app =
+  .label = Open this app
+appmenuitem-contextmenu-uninstall-app =
+  .label = Uninstall this app
