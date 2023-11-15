@@ -126,11 +126,11 @@ firefox-proton =
 firefox-photon-lepton = 
     .label = Firefox Photon・Lepton UI
 floorp-fluentUI = 
-    .label = Microsoft Fluent UI (deprecated)
+    .label = Microsoft Fluent UI (지원 중단됨)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI (deprecated)
+    .label = { -brand-short-name } Fluerial UI (지원 중단됨)
 floorp-gnomeUI = 
-    .label = GNOME Theme (deprecated)
+    .label = GNOME Theme (지원 중단됨)
 
 ## Download Manager
 
@@ -393,8 +393,8 @@ about-Smoothfox = 즐겨 사용하는 브라우저에서 Edge와 같은 부드�
 
 floorp-workspaces-title = { -brand-short-name } 워크스페이스
 workspaces-backup-discription = 워크스페이스 백업 및 복원
-workspaces-restore-service-title = { -brand-short-name } Workspaces Backup Service
-workspaces-restore-warning = Warning! Running this operation will cause your current Workspaces to be overwritten. The browser will freeze for a few seconds and then proceed to restart.
+workspaces-restore-service-title = { -brand-short-name } 워크스페이스 백업 서비스
+workspaces-restore-warning = 경고! 이 작업을 실행하면 현재 워크스페이스를 덮어쓰게 됩니다. 브라우저가 몇 초 동안 프리징된 후 재시작됩니다.
 floorp-workspace-settings-button = 워크스페이스 설정...
 change-to-close-workspace-popup-option = 
     .label = 워크스페이스를 선택하면 워크스페이스 닫기 팝업이 나타납니다.
@@ -463,7 +463,7 @@ workspace-icon-chill =
     .label = 사생활
 # Custom Keyboard Shortcuts
 floorp-CSK-title = 커스텀 키보드 단축키
-floorp-CSK-description = Customize { -brand-short-name }'s keyboard shortcuts. { -brand-short-name } provides more than 80 customizable keyboard shortcuts! Duplicate keyboard shortcuts will not work. Restart { -brand-short-name } to apply these settings.
+floorp-CSK-description = { -brand-short-name }의 키보드 단축키를 커스터마이즈하세요. { -brand-short-name }는 80개 이상의 커스터마이즈 가능한 키보드 단축키를 제공합니다! 중복된 키보드 단축키는 작동하지 않습니다. 변경된 설정을 적용하시려면 { -brand-short-name }를 재시작해 주세요.
 disable-fx-actions = 
     .label = Mozilla Firefox의 키보드 단축키 비활성화하기
 customize-Action = 
@@ -546,7 +546,7 @@ WebRTC =
 ################################################################### browser ###############################################################
 
 rest-mode = 휴식 중...
-rest-mode-description = { -brand-short-name } is currently suspended. Press ENTER or OK to continue.
+rest-mode-description = { -brand-short-name }가 현재 일시 중단되었어요. 계속하시려면 Enter 또는 확인을 눌러주세요.
 Sidebar2 = 
     .label = 브라우저 관리자 사이드바
     .tooltiptext = 사이드바 가시성 변경
@@ -646,7 +646,7 @@ status-bar =
     .accesskey = S
 ##################################################################### Gesturefy ###############################################################
 
-gf-floorp-open-tree-style-tab-name = [{ -brand-short-name }] Open Tree Style Tab Panel
+gf-floorp-open-tree-style-tab-name = [{ -brand-short-name }] 트리 스타일 탭 패널 열기
 gf-floorp-open-tree-style-tab-description = Open Tree Style Tab Panel on the Sidebar
 gf-floorp-open-bookmarks-sidebar-name = [{ -brand-short-name }] Open Bookmarks Panel
 gf-floorp-open-bookmarks-sidebar-description = Open Bookmarks Panel on the Sidebar
@@ -996,21 +996,21 @@ floorp-customize-mode-unified-extensions-button =
     .label = 통합 확장 프로그램 버튼
 ######################################################################### Progressive Web Apps (SSB) ###############################################################
 
-ssb-page-action-title = Install app
+ssb-page-action-title = 앱 설치
 ssb-app-open-button = 
-    .label = Open In App
+    .label = 앱으로 열기
 ssb-app-install-button = 
     .label = 설치
 ssb-app-cancel-button = 
     .label = 취소
 floorp-open-manage-ssb-page = 
-    .label = Manage installed Web Apps
-appmenu-open-installed-apps-subheader = Open installed web apps
+    .label = 설치된 웹 앱을 관리하기
+appmenu-open-installed-apps-subheader = 설치된 웹 앱 열기
 appmenuitem-install-current-page = 
-    .label = Install this site as an app
+    .label = 이 사이트를 앱으로서 설치하기
 appmenuitem-open-current-page = 
-    .label = Open this site on installed app
+    .label = 이 사이트를 설치한 앱으로 열기
 appmenuitem-contextmenu-open-app = 
-    .label = Open this app
+    .label = 이 앱을 열기
 appmenuitem-contextmenu-uninstall-app = 
-    .label = Uninstall this app
+    .label = 이 앱을 삭제하기
