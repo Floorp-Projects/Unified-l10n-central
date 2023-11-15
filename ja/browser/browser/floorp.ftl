@@ -1010,3 +1010,7 @@ appmenuitem-install-current-page =
     .label = このサイトをアプリとしてインストール
 appmenuitem-open-current-page = 
     .label = このサイトをインストールしたアプリで開く
+appmenuitem-contextmenu-open-app = 
+    .label = Open this app
+appmenuitem-contextmenu-uninstall-app = 
+    .label = Uninstall this app
