@@ -75,7 +75,7 @@ native-vertical-tab-show-right =
 hover-vertical-tab = 
     .label = Свернуть вертикальную панель вкладок
 floorp-show-vertical-tab-newtab-button = 
-    .label = Show the "Open a new tab" button inside Vertical Tab Bar
+    .label = Отображать кнопку "Открыть новую вкладку" внутри вертикальной панели вкладок
 TST = Tree Style Tab
 about-TST = Tree Style Tab - это популярное дополнение, позволяющее отображать вкладки в виде древовидной структуры. Это дополнение уже предварительно интегрировано в { -brand-short-name }. Для активации дополнения в { -brand-short-name } потребуется его установка.
 treestyletab-Settings = 
@@ -496,7 +496,7 @@ floorp-custom-actions-history-action = Действия истории
 floorp-custom-actions-pip-action = Действия с фотографией
 floorp-custom-actions-downloads-action = Действия загрузок
 floorp-custom-actions-sidebar-action = Действия боковой панели
-floorp-custom-actions-bms-action = Действия в боковой панели браузера
+floorp-custom-actions-bms-action = Действия боковой панели управления браузера
 floorp-custom-actions-workspace-action = Действия рабочих областей
 floorp-custom-actions-custom-action = Пользовательские действия (экспериментально)
 
