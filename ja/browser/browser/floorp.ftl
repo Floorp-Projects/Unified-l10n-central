@@ -5,7 +5,7 @@
 ###################################################################### about:Dialog #################################################################################
 
 about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> は、日本で開発される国産ブラウザーのひとつです。ウェブをより良くするために、Firefox をベースとして <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label> の下で開発が進められています。支援したいですか？<label data-l10n-name="helpus-donateLink">寄付を検討してください！</label>
-icon-creator = アイコン作成者：<label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> と <label data-l10n-name="brand-logo-twitter">@mwxdxx</label>
+icon-creator = アイコン作成者: <label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> と <label data-l10n-name="brand-logo-twitter">@mwxdxx</label>
 contributors = <label data-l10n-name="about-contributor">貢献者・開発者</label> のリストもご確認ください
 #################################################################### about:preferences ####################################################################
 
@@ -75,7 +75,7 @@ native-vertical-tab-show-right =
 hover-vertical-tab = 
     .label = 垂直タブバーを折りたたむ
 floorp-show-vertical-tab-newtab-button = 
-    .label = "新しいタブを開く" ボタンを垂直タブバー内に表示
+    .label = [新しいタブを開く] ボタンを常に垂直タブの最後尾に配置
 TST = ツリー型タブ
 about-TST = ツリー型タブは { -brand-short-name } 10 で内蔵されていた垂直タブを作成するアドオンです。このアドオンをインストールすると、固有の設定が使用でき、{ -brand-short-name } 10 と同じ使用感に戻せます。
 treestyletab-Settings = 
@@ -1005,12 +1005,14 @@ ssb-app-cancel-button =
     .label = キャンセル
 floorp-open-manage-ssb-page = 
     .label = インストールしたウェブアプリを管理
+appmenuitem-webapps = 
+    .label = ウェブアプリ
 appmenu-open-installed-apps-subheader = インストールしたウェブアプリを開く
 appmenuitem-install-current-page = 
     .label = このサイトをアプリとしてインストール
 appmenuitem-open-current-page = 
     .label = このサイトをインストールしたアプリで開く
 appmenuitem-contextmenu-open-app = 
-    .label = Open this app
+    .label = このアプリを開く
 appmenuitem-contextmenu-uninstall-app = 
-    .label = Uninstall this app
+    .label = このアプリをアンインストール
