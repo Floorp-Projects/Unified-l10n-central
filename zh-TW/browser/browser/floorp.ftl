@@ -192,14 +192,14 @@ category-BSB =
     .tooltiptext = { pane-BSB-title }
 category-downloads = 
     .tooltiptext = { files-and-applications-title }
-bsb-header = Browser Manager Sidebar
-bsb-context = Use the following Container
+bsb-header = 管理工具側邊欄
+bsb-context = 使用以下分頁容器
 bsb-userAgent-label = 
-    .label = Use Mobile User Agent in this Web Panel
-bsb-width = Width (if set to 0, the global value will be used)
-bsb-page = Page to open
-bsb-add = Add Web Panel on Browser Manager Sidebar
-bsb-setting = Web Panel Settings
+    .label = 在此Web面板使用手機端User Agent
+bsb-width = 寬度 (如果設為0，將會使用全局默認值)
+bsb-page = 要打開的頁面
+bsb-add = 將Web面板添加至管理工具側邊欄
+bsb-setting = Web面板設定
 bsb-add-title = 
     .title = { bsb-add }
 bsb-setting-title = 
@@ -215,11 +215,11 @@ bsb-download-sidebar =
 bsb-notes-sidebar = 
     .label = { sidebar2-notes-sidebar }
 bsb-website = 
-    .label = Website
+    .label = 網址
 sidebar2-pref-delete = 
-    .label = Delete
+    .label = 刪除
 sidebar2-pref-setting = 
-    .label = Settings
+    .label = 設定
 sidebar2-global-width = 全局Web面板寬度
 use-icon-provider-option = 網站圖標提供者
 use-icon-provider-option-google = 
@@ -244,26 +244,26 @@ delete-border-and-roundup-option =
 
 dualtheme-enable = 
     .label = 啟用雙重主題
-newtab-background = { -brand-short-name } Home Background
+newtab-background = { -brand-short-name } 主頁背景
 newtab-background-random-image = 
-    .label = Random images from Unsplash
+    .label = 來自Unsplash的隨機圖像
 newtab-background-gradation = 
-    .label = Gradient
+    .label = 漸層圖像
 newtab-background-not-background = 
-    .label = Disable background
+    .label = 禁用背景圖像
 newtab-background-selected-image = 
-    .label = Custom folder...
-newtab-background-folder = Use images from this folder:
+    .label = 自定義資料夾
+newtab-background-folder = 從此資料夾使用圖像：
 newtab-background-folder-reload = 
-    .label = Reload images
+    .label = 重新加載圖像
 newtab-background-folder-default = 
-    .label = Restore Defaults
+    .label = 重設為預設值
 newtab-background-folder-open = 
-    .label = Open folder
-newtab-background-folder-choose = Choose images folder...
-newtab-background-extensions = Use images with these file extensions (separated by ",")
+    .label = 開啟資料夾
+newtab-background-folder-choose = 選擇圖像資料夾...
+newtab-background-extensions = 使用擁有以下副檔名的圖像 (以","分割)
 disable-blur-on-newtab = 
-    .label = Disable blur effect on { -brand-short-name } Home
+    .label = 在 { -brand-short-name } 主頁上禁用模糊效果
 
 ## Lepton Preferences
 
@@ -502,13 +502,13 @@ floorp-custom-actions-custom-action = Custom Actions (Experimental)
 
 ## Mouse Gestures
 
-mouse-gesture = Mouse Gestures
-mouse-gesture-description = Gesturefy must be installed to use mouse gestures with { -brand-short-name }.
+mouse-gesture = 滑鼠手勢
+mouse-gesture-description = 欲使用 { -brand-short-name } 的滑鼠手勢功能請先安裝 Gesturefy。
 Gesturefy = Gesturefy
-about-Gesturefy = Gesturefy is an extension that adds mouse gestures to your browser. If { -brand-short-name } detects the installation of this add-on, it will add gesture commands to Gesturefy that are only available in { -brand-short-name }. This add-on also create new tabs!
+about-Gesturefy = Gesturefy 是一款添加滑鼠手勢功能的附加元件。如果 { -brand-short-name } 檢測到此附加元件已安裝即會在 Gesturefy 中添加 { -brand-short-name } 限定的手勢指令。此附加元件也可在新分頁中使用！
 # Translate
-TWS = Translate Web Pages
-about-TWS = Translate your page in real time using Google or Yandex. You can also translate selected text or the entire page.
+TWS = 翻譯網頁
+about-TWS = 使用 Google 或 Yandex 對頁面進行實時翻譯。您也可以選擇只翻譯部分字節或整個頁面。
 
 # Privacy Hub
 
@@ -545,7 +545,7 @@ WebRTC =
     .label = Enable WebRTC Connection
 ################################################################### browser ###############################################################
 
-rest-mode = Taking a break...
+rest-mode = 正在休息中...
 rest-mode-description = { -brand-short-name } is currently suspended. Press ENTER or OK to continue.
 Sidebar2 = 
     .label = Browser Manager Sidebar
