@@ -38,7 +38,7 @@ tab-sleep-settings-dialog-excludehosts-label-2 = 每行輸入一個域名。
 tab-sleep-tab-context-menu-excludetab = 保持分頁於喚醒狀態
 enable-floorp-workspace = 
     .label = 啟用工作空間
-workspace-warning = Workspaces cannot be used with Tab Group add-ons. If you want to use Tab Group add-ons, please disable Workspaces and restart { -brand-short-name }.
+workspace-warning = 工作空間無法與分頁分組附加元件一同使用。 如果您想要使用分頁分組附加元件，請停用工作空間並重新啟動 { -brand-short-name}。
 enable-tab-scroll-change = 
     .label = 透過滾綸切換分頁
 enable-tab-scroll-reverse = 
@@ -96,96 +96,96 @@ disable-extension-check-compatibility-option =
 other-preference = 其他的偏好設定
 enable-userscript = 
     .label = 啟用舊式擴充元件
-about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
+about-userscript = 開啟此功能可能會導致程式出現不可預料的錯誤
 search-positon-top = 
     .label = 在頁面頂端顯示搜索欄
 allow-auto-restart = 
     .label = 當變更需要重啟的設定項時會自動重啟
 enable-rest-mode = 
-    .label = Enable Rest Mode shortcut (F9)
+    .label = 啟用休息模式 (F9)
 disable-fullscreen-notification = 
-    .label = Do not show a notification when entering full screen
+    .label = 全螢幕狀態時不顯示通知
 
 ## Browser Theme
 
-system-color-settings = Some themes have both light and dark modes - choose which mode you'd like these themes to use.
-preferences-theme-appearance-header = Theme Mode
+system-color-settings = 部分主題同時擁有亮色和暗色模式，請選擇自己喜好的主題模式
+preferences-theme-appearance-header = 主題模式
 system-theme-dark = 
-    .label = Dark
+    .label = 暗色
 system-theme-light = 
-    .label = Light
+    .label = 亮色
 system-theme-auto = 
-    .label = Follow my system appearance
+    .label = 根據系統外觀改變
 
 ## User interface preferences
 
-ui-preference = Browser appearance
-preferences-browser-appearance-description = Choose a built-in third-party design to use in { -brand-short-name }. Some designs may not be compatible with your configuration.
+ui-preference = 瀏覽器外觀
+preferences-browser-appearance-description = 選擇一款於 { -brand-short-name } 內建的第三方設計的外觀。部分設計外觀可能與您的設定不相容。
 firefox-proton = 
     .label = Firefox Proton UI
 firefox-photon-lepton = 
     .label = Firefox Photon・Lepton UI
 floorp-fluentUI = 
-    .label = Microsoft Fluent UI (deprecated)
+    .label = Microsoft Fluent UI (不推薦)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI (deprecated)
+    .label = { -brand-short-name } Fluerial UI (不推薦)
 floorp-gnomeUI = 
-    .label = GNOME Theme (deprecated)
+    .label = GNOME 主題 (不推薦)
 
 ## Download Manager
 
-download-notification-preferences = Download Notifications
+download-notification-preferences = 下載通知
 start-always-notify = 
-    .label = Notify only when starting downloads
+    .label = 只在開始下載時通知
 finish-always-notify = 
-    .label = Notify only when a download finishes
+    .label = 只在下載完成後通知
 always-notify = 
-    .label = Notify when starting downloads and when a download finishes
+    .label = 在開始下載以及下載完成時通知
 do-not-notify = 
-    .label = Disable download notifications
+    .label = 禁用下載通知
 
 ## Sidebar
 
 profiles-button-label = Manage Profiles
-floorp-help-button-label = { -brand-short-name } Support
+floorp-help-button-label = { -brand-short-name } 支援
 appmenuitem-reboot = 
-    .label = Restart
+    .label = 重新啟動
 
 ## UserAgent
 
 userAgent-preference = User Agent
 default-useragent-mode = 
-    .label = Use Firefox User Agent (Default)
+    .label = 使用Firefox UA (默認)
 windows-chrome-useragent-mode = 
-    .label = Spoof Chrome on Windows
+    .label = 仿擬為Windows版Chrome
 macOS-chrome-useragent-mode = 
-    .label = Spoof Chrome on macOS
+    .label = 仿擬為macOS版Chrome
 linux-chrome-useragent-mode = 
-    .label = Spoof Chrome on Linux
+    .label = 仿擬為Linux版Chrome
 mobile-chrome-useragent-mode = 
-    .label = Spoof Chrome on iOS
+    .label = 仿擬為iOS版Chrome
 use-custom-useragent-mode = 
-    .label = Use Custom User Agent
+    .label = 使用自訂的User Agent
 
 ## DMR UI
 
 download-mgr-UI = 
-    .label = Enable the SimpleUI Download Manager
+    .label = 啟用SimpleUI下載管理工具
 downloading-red-color = 
-    .label = Use the red downloads icon when downloading
-sidebar-preferences = Sidebar
-bsb-preferences = Browser Manager Sidebar Settings
+    .label = 在下載時使用紅色下載圖示
+sidebar-preferences = 側邊欄
+bsb-preferences = 瀏覽器管理工具側邊欄設定
 view-sidebar2-right = 
-    .label = Display the Browser Manager Sidebar on the right
+    .label = 在窗口右邊顯示管理工具側邊欄
 enable-sidebar2 = 
-    .label = Enable the Browser Manager Sidebar
+    .label = 啟用管理工具側邊欄
 visible-bms = 
-    .label = Show the Browser Manager Sidebar
+    .label = 顯示管理工具側邊欄
 hide-bms-to-unload-panel = 
-    .label = Unload panel when hiding panel
-custom-URL-option = Set Web Panel URLs
+    .label = 隱藏側欄面板時卸下面板內容
+custom-URL-option = 設置Web面板網址
 set-custom-URL-button = 
-    .label = Set Custom URLs...
+    .label = 設定自訂的網址...
     .accesskey = S
 pane-BSB-title = { bsb-header }
 category-BSB = 
@@ -220,30 +220,30 @@ sidebar2-pref-delete =
     .label = Delete
 sidebar2-pref-setting = 
     .label = Settings
-sidebar2-global-width = Global Web Panels width
-use-icon-provider-option = Use Icon Provider
+sidebar2-global-width = 全局Web面板寬度
+use-icon-provider-option = 網站圖標提供者
 use-icon-provider-option-google = 
     .label = Google
 use-icon-provider-option-duckduckgo = 
     .label = DuckDuckGo
 use-icon-provider-option-yandex = 
-    .label = Yandex (available in China)
+    .label = Yandex (可於中國境內直連)
 use-icon-provider-option-hatena = 
-    .label = Hatena (available in China)
-memory-and-performance = Memory and Performance
+    .label = Hatena (可於中國境內直連)
+memory-and-performance = 記憶體及效能
 min-memory = 
-    .label = Minimum Memory Usage (low performance)
+    .label = 最小化記憶體使用 (低效能)
 balance-memory = 
-    .label = Balance Memory Usage and Performance
+    .label = 均衡分配記憶體效能
 max-memory = 
-    .label = Best Performance (high memory usage)
+    .label = 最佳效能 (較高記憶體使用率)
 delete-border-and-roundup-option = 
-    .label = Round the corners of pages
+    .label = 圓化頁面邊緣
 
 ## DualTheme
 
 dualtheme-enable = 
-    .label = Enable Dual Theme
+    .label = 啟用雙重主題
 newtab-background = { -brand-short-name } Home Background
 newtab-background-random-image = 
     .label = Random images from Unsplash
