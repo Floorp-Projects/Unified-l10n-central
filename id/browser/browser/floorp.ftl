@@ -101,8 +101,6 @@ search-positon-top =
     .label = Display the Find Bar at the top of the page
 allow-auto-restart = 
     .label = Mulai ulang secara otomatis ketika pengaturan yang memerlukan pengaktifan ulang diubah
-enable-rest-mode = 
-    .label = Enable Rest Mode shortcut (F9)
 disable-fullscreen-notification = 
     .label = Tidak menampilkan notifikasi saat memasuki layar penuh
 
@@ -826,7 +824,7 @@ floorp-custom-actions-print-page = Halaman cetak
     .label = Halaman cetak
 floorp-custom-actions-mute-current-tab = Beralih ke tab bisu/bukan bisu saat ini
     .label = Beralih ke tab bisu/bukan bisu saat ini
-floorp-custom-actions-toggle-bookmark-toolbar = 
+floorp-custom-actions-toggle-bookmark-toolbar = Toggle bookmark toolbar
     .label = Mengalihkan Bilah Alat Penanda
 floorp-custom-actions-show-source-of-page = Menampilkan sumber halaman
     .label = Buka Sumber Halaman
@@ -958,6 +956,8 @@ floorp-custom-actions-custom-action-4 = Tindakan khusus 4
     .label = Tindakan khusus 4
 floorp-custom-actions-custom-action-5 = Tindakan khusus 5
     .label = Tindakan khusus 5
+floorp-custom-actions-rest-mode = Enable rest mode
+    .label = Enable rest mode
 ##################################################################### Profile Switcher ###############################################################
 
 floorp-open-profile-with-new-instance = Peluncuran
