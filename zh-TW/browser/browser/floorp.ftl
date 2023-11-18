@@ -375,17 +375,17 @@ apply-userjs-button = 套用
 ## userjs Options
 
 default-userjs-label = { -brand-short-name } 預設
-about-default-userjs = Telemetry disabled. Well balanced { -brand-short-name } with various customizations enabled.
+about-default-userjs = 已禁用Telemetry。均衡豐富的可客製化版 { -brand-short-name } 。
 Securefox-label = Yokoffing Securefox
-about-Securefox = HTTPS-by-Default. Total Cookie Protection with site isolation. Enhanced state and network partitioning. Various other enhancements.
+about-Securefox = 默認連接 HTTPS。完全站點區隔的cookies防護。強化狀態與網路區隔。以及其他功能強化。
 default-label = Yokoffing Default
-about-default = All the essentials. None of the breakage. This is your user.js.
+about-default = 所有的必備功能。無任何故障。這個 user.js 由你作主。
 Fastfox-label = Yokoffing Fastfox
-about-Fastfox = Immensely increase Firefox's browsing speed. Give Chrome a run for its money!
+about-Fastfox = 提升強化 Floorp 的瀏覽速度，與 Chrome 對比也毫不遜色！
 Peskyfox-label = Yokoffing Peskyfox
-about-Peskyfox = Unclutter the new tab page. Remove Pocket. Restore compact mode as an option. Stop webpage notifications, pop-ups, and other annoyances.
-Smoothfox-label = Yokoffing Smoothfox
-about-Smoothfox = Get Edge-like smooth scrolling on your favorite browser — or choose something more your style.
+about-Peskyfox = 最佳化新分頁。移除 Pocket。復原 緊密(不支援) 密度選項。停止網站通知，彈窗以及其他煩瑣提示。
+Smoothfox-label = Yokoffsing Smoothfox
+about-Smoothfox = 在 Floorp 上實現類似 Edge 一般順滑的頁面滾動效果 —— 更舒適的瀏覽體驗。
 
 ## Workspaces
 
