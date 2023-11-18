@@ -101,8 +101,6 @@ search-positon-top =
     .label = Display the Find Bar at the top of the page
 allow-auto-restart = 
     .label = Genstart automatisk, når indstillinger, der kræver en genstart, ændres
-enable-rest-mode = 
-    .label = Enable Rest Mode shortcut (F9)
 disable-fullscreen-notification = 
     .label = Vis ikke en notifikation ved indtastning af fuld skærm
 
@@ -826,7 +824,7 @@ floorp-custom-actions-print-page = Print page
     .label = Print page
 floorp-custom-actions-mute-current-tab = Slå til/fra for aktuel fane
     .label = Slå til/fra for aktuel fane
-floorp-custom-actions-toggle-bookmark-toolbar = 
+floorp-custom-actions-toggle-bookmark-toolbar = Toggle bookmark toolbar
     .label = Slå Bogmærkelinje Til/Fra
 floorp-custom-actions-show-source-of-page = Vis kilde til side
     .label = Åbn Sidekilde
@@ -958,6 +956,8 @@ floorp-custom-actions-custom-action-4 = Brugerdefineret handling 4
     .label = Brugerdefineret handling 4
 floorp-custom-actions-custom-action-5 = Brugerdefineret handling 5
     .label = Brugerdefineret handling 5
+floorp-custom-actions-rest-mode = Enable rest mode
+    .label = Enable rest mode
 ##################################################################### Profile Switcher ###############################################################
 
 floorp-open-profile-with-new-instance = Start
