@@ -730,29 +730,29 @@ floorp-show-all-downloads =
 
 workspace-prompt-title = { -brand-short-name } 工作空間
 please-enter-workspace-name = 請輸入工作空間的新名稱。
-please-enter-workspace-name-2 = The Workspace's name cannot contain symbols and spaces.
-workspace-error = An error occurred:
-workspace-error-discription = Either a Workspace with this name exists or the name is invalid.
-workspace-button = Workspaces
-    .label = Workspaces
-    .tooltiptext = Select a Workspace...
-workspace-default = Default
+please-enter-workspace-name-2 = 工作空間的命名不可以包含符號及空格。
+workspace-error = 發生錯誤：
+workspace-error-discription = 已有相同名稱的工作空間存在，或此名稱無效。
+workspace-button = 工作空間
+    .label = 工作空間
+    .tooltiptext = 選擇一個工作空間...
+workspace-default = 預設
 workspace-add = 
-    .label = New Workspace...
+    .label = 新增工作空間...
 workspace-context-menu-selected-tab = 
-    .label = Selected tab cannot be moved
+    .label = 選定的分頁不可被移動
 move-tab-another-workspace = 
-    .label = Move to another Workspace
+    .label = 移至另一個工作空間
 workspace-rename = 
-    .label = Rename this Workspace
+    .label = 重新命名此工作空間
 workspace-delete = 
-    .label = Delete Workspace
-manage-workspace = Manage this Workspace
-    .label = Manage this workspace
+    .label = 刪除工作空間
+manage-workspace = 管理此工作空間
+    .label = 管理此工作空間
 ######################################################################### menubar item ###############################################################
 
 sharemode-menuitem = 
-    .label = Share Mode
+    .label = 共享模式
     .accesskey = S
 ############################################################################## Welcome page ###############################################################
 
