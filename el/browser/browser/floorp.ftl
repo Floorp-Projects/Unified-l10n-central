@@ -101,8 +101,6 @@ search-positon-top =
     .label = Display the Find Bar at the top of the page
 allow-auto-restart = 
     .label = Επανεκκίνηση αυτόματα όταν οι ρυθμίσεις που απαιτούν επανεκκίνηση αλλάζουν
-enable-rest-mode = 
-    .label = Enable Rest Mode shortcut (F9)
 disable-fullscreen-notification = 
     .label = Να μην εμφανίζεται ειδοποίηση κατά την είσοδο σε πλήρη οθόνη
 
@@ -826,7 +824,7 @@ floorp-custom-actions-print-page = Print page
     .label = Print page
 floorp-custom-actions-mute-current-tab = Εναλλαγή σίγασης/κατάργηση σίγασης τρέχουσας καρτέλας
     .label = Εναλλαγή σίγασης/κατάργηση σίγασης τρέχουσας καρτέλας
-floorp-custom-actions-toggle-bookmark-toolbar = 
+floorp-custom-actions-toggle-bookmark-toolbar = Toggle bookmark toolbar
     .label = Εναλλαγή Γραμμής Εργαλείων Σελιδοδεικτών
 floorp-custom-actions-show-source-of-page = Εμφάνιση πηγής σελίδας
     .label = Πηγαίος Κώδικας Ανοιχτής Σελίδας
@@ -958,6 +956,8 @@ floorp-custom-actions-custom-action-4 = Προσαρμοσμένη ενέργε�
     .label = Προσαρμοσμένη ενέργεια 4
 floorp-custom-actions-custom-action-5 = Προσαρμοσμένη ενέργεια 5
     .label = Προσαρμοσμένη ενέργεια 5
+floorp-custom-actions-rest-mode = Enable rest mode
+    .label = Enable rest mode
 ##################################################################### Profile Switcher ###############################################################
 
 floorp-open-profile-with-new-instance = Εκκίνηση
