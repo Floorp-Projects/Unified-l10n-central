@@ -101,8 +101,6 @@ search-positon-top =
     .label = 検索バーを上部に表示
 allow-auto-restart = 
     .label = 再起動が必要な設定を変更したときに自動で再起動する
-enable-rest-mode = 
-    .label = 休憩モードのショートカットキー (F9) を有効にする
 disable-fullscreen-notification = 
     .label = 全画面表示時の通知を無効にする
 
@@ -826,7 +824,7 @@ floorp-custom-actions-print-page = ページを印刷
     .label = ページを印刷
 floorp-custom-actions-mute-current-tab = 現在のタブをミュート/ミュート解除
     .label = 現在のタブをミュート/ミュート解除
-floorp-custom-actions-toggle-bookmark-toolbar = 
+floorp-custom-actions-toggle-bookmark-toolbar = Toggle bookmark toolbar
     .label = ブックマークツールバーの表示を切り替える
 floorp-custom-actions-show-source-of-page = ページのソースを表示
     .label = ページのソースを表示
@@ -958,6 +956,8 @@ floorp-custom-actions-custom-action-4 = カスタムアクション 4
     .label = カスタムアクション 4
 floorp-custom-actions-custom-action-5 = カスタムアクション 5
     .label = カスタムアクション 5
+floorp-custom-actions-rest-mode = Enable rest mode
+    .label = Enable rest mode
 ##################################################################### Profile Switcher ###############################################################
 
 floorp-open-profile-with-new-instance = 起動
