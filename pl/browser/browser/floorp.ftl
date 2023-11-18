@@ -101,8 +101,6 @@ search-positon-top =
     .label = Wyświetlanie paska wyszukiwania w górnej części strony
 allow-auto-restart = 
     .label = Uruchom ponownie automatycznie, gdy ustawienia, które wymagają restartu zostaną zmienione
-enable-rest-mode = 
-    .label = Włącz skrót trybu spoczynku (F9)
 disable-fullscreen-notification = 
     .label = Nie pokazuj powiadomienia podczas wchodzenia na pełny ekran
 
@@ -826,7 +824,7 @@ floorp-custom-actions-print-page = Print page
     .label = Print page
 floorp-custom-actions-mute-current-tab = Przełącz wyciszenie/wycisz aktywną kartę
     .label = Przełącz wyciszenie/wycisz aktywną kartę
-floorp-custom-actions-toggle-bookmark-toolbar = 
+floorp-custom-actions-toggle-bookmark-toolbar = Toggle bookmark toolbar
     .label = Przełącz pasek zakładek
 floorp-custom-actions-show-source-of-page = Pokaż źródło strony
     .label = Źródło otwartej strony
@@ -958,6 +956,8 @@ floorp-custom-actions-custom-action-4 = Niestandardowe działanie 4
     .label = Niestandardowe działanie 4
 floorp-custom-actions-custom-action-5 = Akcja niestandardowa 5
     .label = Akcja niestandardowa 5
+floorp-custom-actions-rest-mode = Enable rest mode
+    .label = Enable rest mode
 ##################################################################### Profile Switcher ###############################################################
 
 floorp-open-profile-with-new-instance = Uruchom
