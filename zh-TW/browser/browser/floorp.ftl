@@ -38,7 +38,7 @@ tab-sleep-settings-dialog-excludehosts-label-2 = 每行輸入一個域名。
 tab-sleep-tab-context-menu-excludetab = 保持分頁於喚醒狀態
 enable-floorp-workspace = 
     .label = 啟用工作空間
-workspace-warning = 工作空間無法與分頁分組附加元件一同使用。 如果您想要使用分頁分組附加元件，請停用工作空間並重新啟動 { -brand-short-name}。
+workspace-warning = 工作空間無法與分頁分組擴充套件一同使用。 如果您想要使用分頁分組擴充套件，請停用工作空間並重新啟動 { -brand-short-name}。
 enable-tab-scroll-change = 
     .label = 透過滾綸切換分頁
 enable-tab-scroll-reverse = 
@@ -77,7 +77,7 @@ hover-vertical-tab =
 floorp-show-vertical-tab-newtab-button = 
     .label = 在垂直分頁列內顯示"開啟新分頁"的選項
 TST = 樹狀分頁列
-about-TST = Tree Style Tab是一款可以讓您使用樹狀結構展示分頁列的附加元件。{ -brand-short-name } 內已經內建設定檔案。請安裝此附加元件以啟用 { -brand-short-name } 的樹狀分頁列功能。
+about-TST = Tree Style Tab是一款可以讓您使用樹狀結構展示分頁列的擴充套件。{ -brand-short-name } 內已經內建設定檔案。請安裝此擴充套件以啟用 { -brand-short-name } 的樹狀分頁列功能。
 treestyletab-Settings = 
     .label = 摺疊樹狀分頁列
 sidebar-reverse-position-toolbar = 在窗口另一邊顯示側邊欄
@@ -333,16 +333,16 @@ floorp-lepton-enable-always-show-page_action =
     .label = 始終在位址欄顯示頁面操作
 tabbar-preferences = 分頁列
 floorp-lepton-enable-tabbar-positon-as-titlebar = 
-    .label = Tab Bar in the Title Bar
+    .label = 分頁列的位置作為單一頁面標題欄
 floorp-lepton-enable-tabbar-as-urlbar = 
-    .label = Combine Tab Bar and Toolbar
-lepton-sidebar-preferences = Sidebar
+    .label = 合併分頁列及工具列
+lepton-sidebar-preferences = 側邊欄
 floorp-lepton-enable-overlap-sidebar = 
-    .label = Show Sidebar over website content
+    .label = 在網站內容上顯示側邊欄
 floorp-home-mode-choice-default = 
-    .label = { -brand-short-name } Home (Default)
-floorp-home-prefs-content-header = { -brand-short-name } Home Content
-floorp-home-prefs-content-description = Choose the content you want to see on the { -brand-short-name } Home Page.
+    .label = { -brand-short-name } 首頁 (默認)
+floorp-home-prefs-content-header = { -brand-short-name } 首頁內容
+floorp-home-prefs-content-description = 選擇要在您的 { -brand-short-name } 首頁畫面顯示哪些內容。
 
 ## Notes
 
@@ -362,19 +362,19 @@ restore-button = Restore
 ## user.js
 
 header-userjs = user.js
-userjs-customize = Customize { -brand-short-name } with user.js
-about-userjs-customize = user.js is a configuration file that allows you to customize { -brand-short-name }. user.js files are downloaded from the Internet and overwrite your current user.js file. Please back up your current user.js file before continuing. user.js configurations will be applied automatically after restarting { -brand-short-name }.
-userjs-label = user.js list
-userjs-prompt = Apply this user.js?
-apply-userjs-attention = Applying a new user.js will overwrite your current user.js file.
-apply-userjs-attention2 = Please back up your current user.js file before continuing.
-userjs-button = user.js Settings...
-userjs-select-option = Manage the user.js currently used in { -brand-short-name } to improve performance and privacy.
-apply-userjs-button = Apply
+userjs-customize = 使用 user.js 客製化 { -brand-short-name }
+about-userjs-customize = user.js 是一種讓您可以客製化 { -brand-short-name } 的配置檔。user.js是從網路上下載的，並會覆寫您現使用的user.js配置檔。請在使用前備份好您現在的user.js。user.js配置檔會在 { -brand-short-name } 重啟後生效。
+userjs-label = user.js 列表
+userjs-prompt = 套用此 user.js？
+apply-userjs-attention = 套用新的 user.js 會覆寫您現在的 user.js 配置檔。
+apply-userjs-attention2 = 請在繼續之前先備份您現在使用的 user.js 配置檔。
+userjs-button = user.js 設定...
+userjs-select-option = 管理目前 { -brand-short-name } 使用的 user.js 以提升效能，增強隱私防護。
+apply-userjs-button = 套用
 
 ## userjs Options
 
-default-userjs-label = { -brand-short-name } Default
+default-userjs-label = { -brand-short-name } 預設
 about-default-userjs = Telemetry disabled. Well balanced { -brand-short-name } with various customizations enabled.
 Securefox-label = Yokoffing Securefox
 about-Securefox = HTTPS-by-Default. Total Cookie Protection with site isolation. Enhanced state and network partitioning. Various other enhancements.
@@ -503,24 +503,24 @@ floorp-custom-actions-custom-action = Custom Actions (Experimental)
 mouse-gesture = 滑鼠手勢
 mouse-gesture-description = 欲使用 { -brand-short-name } 的滑鼠手勢功能請先安裝 Gesturefy。
 Gesturefy = Gesturefy
-about-Gesturefy = Gesturefy 是一款添加滑鼠手勢功能的附加元件。如果 { -brand-short-name } 檢測到此附加元件已安裝即會在 Gesturefy 中添加 { -brand-short-name } 限定的手勢指令。此附加元件也可在新分頁中使用！
+about-Gesturefy = Gesturefy 是一款添加滑鼠手勢功能的擴充套件。如果 { -brand-short-name } 檢測到此擴充套件已安裝即會在 Gesturefy 中添加 { -brand-short-name } 限定的手勢指令。此擴充套件也可在新分頁中使用！
 # Translate
 TWS = Translate Web Pages
-about-TWS = 安裝此附加元件後即可使用 Google 或 Yandex 的翻譯服務對頁面進行實時翻譯。您也可以選擇只翻譯部分字節或整個頁面。
+about-TWS = 安裝此擴充套件後即可使用 Google 或 Yandex 的翻譯服務對頁面進行實時翻譯。您也可以選擇只翻譯部分字節或整個頁面。
 
 # Privacy Hub
 
 
 ## BlockMoreTrackers
 
-privacy-hub-header = Privacy Hub
-block-more-tracker = Block more Ads and Trackers
-block-tracker = This section contains a set of extensions designed to block ads and trackers
-view-at-AMO = View this addon in addons.mozilla.org
+privacy-hub-header = 隱私中心
+block-more-tracker = 屏蔽更多的廣告以及追蹤器
+block-tracker = 此區域旨在推介一系列專為屏蔽廣告以及追蹤器設計的擴充套件
+view-at-AMO = 在 addons.mozilla.org 查看此擴充套件
 uBlock-Origin = uBlock Origin
-about-uboori = uBlock Origin blocks ads, extensive trackers, and additional dangerous sites.
+about-uboori = uBlock Origin可屏蔽廣告，大量的追蹤器，以及危險的網站。
 Facebook-Container = Facebook Container
-about-Facebook-Container = Prevent Facebook from tracking you around the web. Facebook Container extension helps you take control and isolate your web activity from Facebook.
+about-Facebook-Container = 阻止臉書在網絡上追蹤你。Facebook Container擴充套件可幫助您掌握並從Facebook上的活動區隔開來。
 
 ## Fingerprinting
 
@@ -602,35 +602,35 @@ bsb-context-link-add =
 #################################################################### menu panel ############################################################
 
 open-profile-dir = 
-    .label = Open Profile Directory
+    .label = 開啟用戶設定檔目錄
 ####################################################################### menu ###############################################################
 
 css-menu = 
-    .label = CSS
+    .label = CSS樣式
     .accesskey = C
 css-menubar = 
-    .label = CSS
+    .label = CSS樣式
     .accesskey = C
 rebuild-css = 
-    .label = Rebuild browser CSS files
+    .label = 重建瀏覽器CSS樣式檔
     .accesskey = R
 make-browsercss-file = 
-    .label = Create browser CSS file
+    .label = 創建瀏覽器CSS樣式檔
     .accesskey = M
 open-css-folder = 
-    .label = Open CSS folder
+    .label = 開啟CSS樣式資料夾
     .accesskey = O
 edit-userChromeCss-editor = 
-    .label = Edit userChrome.css file
+    .label = 編輯 userChrome.css 配置檔
 edit-userContentCss-editor = 
-    .label = Edit userContent.css file
-not-found-editor-path = Could not find a CSS file editor
-set-pref-description = Input the file location of the CSS file editor you want to use:
-rebuild-complete = Rebuild has been completed.
-please-enter-filename = Please enter a file name.
+    .label = 編輯 userContent.css 配置檔
+not-found-editor-path = 找不到CSS樣式檔編輯器
+set-pref-description = 鍵入您想使用的CSS樣式檔編輯器的程式所在資料夾：
+rebuild-complete = 重建已經完成。
+please-enter-filename = 請鍵入檔案名。
 ################################################################### Undo-Closed-Tab ###############################################################
 
-undo-closed-tab = Reopen closed tab
+undo-closed-tab = 恢復先前關閉的分頁
 ################################################################### about:addons ###############################################################
 
 # Dual Theme
@@ -713,7 +713,7 @@ memo-new-title = New Note
 chage-view-mode = Toggle View/Edit Mode
 readonly-mode = Offline (Read-only)
 ######################################################################### Default bookmarks ###############################################################
-default-bookmark-ablaze-support = Ablaze Support
+default-bookmark-ablaze-support = Ablaze 支援
 ######################################################################### Like Chrome Download mgr ###############################################################
 
 floorp-delete-all-downloads = 
