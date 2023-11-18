@@ -101,8 +101,6 @@ search-positon-top =
     .label = Отображение панели поиска в верхней части страницы
 allow-auto-restart = 
     .label = Автоматический перезапуск при изменении настроек, требующих перезапуска
-enable-rest-mode = 
-    .label = Включить режим сна вкладок (F9)
 disable-fullscreen-notification = 
     .label = Не отображать уведомление при входе в полноэкранный режим
 
@@ -826,7 +824,7 @@ floorp-custom-actions-print-page = Распечатать страницу
     .label = Распечатать страницу
 floorp-custom-actions-mute-current-tab = Вкл/выкл звук текущей вкладки
     .label = Вкл/выкл звук текущей вкладки
-floorp-custom-actions-toggle-bookmark-toolbar = 
+floorp-custom-actions-toggle-bookmark-toolbar = Toggle bookmark toolbar
     .label = Панель закладок
 floorp-custom-actions-show-source-of-page = Показать исходник страницы
     .label = Отобразить информацию о странице
@@ -958,6 +956,8 @@ floorp-custom-actions-custom-action-4 = Действие 4
     .label = Действие 4
 floorp-custom-actions-custom-action-5 = Действие 5
     .label = Действие 5
+floorp-custom-actions-rest-mode = Enable rest mode
+    .label = Enable rest mode
 ##################################################################### Profile Switcher ###############################################################
 
 floorp-open-profile-with-new-instance = Запустить
