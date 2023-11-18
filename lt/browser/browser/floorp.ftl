@@ -101,8 +101,6 @@ search-positon-top =
     .label = Rodyti paieškos juostą puslapio viršunėje
 allow-auto-restart = 
     .label = Automatiškai paleisti iš naujo, kai pakeičiami nustatymai, kuriuos reikia paleisti iš naujo
-enable-rest-mode = 
-    .label = Įgalinti poilsio režimą sparčiuoju klavišu (F9)
 disable-fullscreen-notification = 
     .label = Nerodyti pranešimo įėjus į išplėtus ekraną
 
@@ -826,7 +824,7 @@ floorp-custom-actions-print-page = Spausdinti puslapį
     .label = Spausdinti puslapį
 floorp-custom-actions-mute-current-tab = Perjungti dabartinio skirtuko nutildymą
     .label = Perjungti dabartinio skirtuko nutildymą
-floorp-custom-actions-toggle-bookmark-toolbar = 
+floorp-custom-actions-toggle-bookmark-toolbar = Toggle bookmark toolbar
     .label = Perjungti žymeklių įrankių juostą
 floorp-custom-actions-show-source-of-page = Rodyti puslapio šaltinį
     .label = Atidaryti puslapio šaltinį
@@ -958,6 +956,8 @@ floorp-custom-actions-custom-action-4 = Pasirinktinis veiksmas 4
     .label = Pasirinktinis veiksmas 4
 floorp-custom-actions-custom-action-5 = Pasirinktinis veiksmas 5
     .label = Pasirinktinis veiksmas 5
+floorp-custom-actions-rest-mode = Enable rest mode
+    .label = Enable rest mode
 ##################################################################### Profile Switcher ###############################################################
 
 floorp-open-profile-with-new-instance = Paleisti
