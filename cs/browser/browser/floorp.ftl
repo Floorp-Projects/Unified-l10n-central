@@ -101,8 +101,6 @@ search-positon-top =
     .label = Display the Find Bar at the top of the page
 allow-auto-restart = 
     .label = Automaticky restartovat při změně nastavení, která vyžadují restartování
-enable-rest-mode = 
-    .label = Enable Rest Mode shortcut (F9)
 disable-fullscreen-notification = 
     .label = Nezobrazovat oznámení při vstupu na celou obrazovku
 
@@ -826,7 +824,7 @@ floorp-custom-actions-print-page = Print page
     .label = Print page
 floorp-custom-actions-mute-current-tab = Zapnout/vypnout ztlumit aktuální záložku
     .label = Zapnout/vypnout ztlumit aktuální záložku
-floorp-custom-actions-toggle-bookmark-toolbar = 
+floorp-custom-actions-toggle-bookmark-toolbar = Toggle bookmark toolbar
     .label = Přepnout panel záložek
 floorp-custom-actions-show-source-of-page = Zobrazit zdroj stránky
     .label = Otevřít zdroj stránky
@@ -958,6 +956,8 @@ floorp-custom-actions-custom-action-4 = Vlastní akce 4
     .label = Vlastní akce 4
 floorp-custom-actions-custom-action-5 = Vlastní akce 5
     .label = Vlastní akce 5
+floorp-custom-actions-rest-mode = Enable rest mode
+    .label = Enable rest mode
 ##################################################################### Profile Switcher ###############################################################
 
 floorp-open-profile-with-new-instance = Spustit
