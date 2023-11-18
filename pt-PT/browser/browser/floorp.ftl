@@ -101,8 +101,6 @@ search-positon-top =
     .label = Display the Find Bar at the top of the page
 allow-auto-restart = 
     .label = Reiniciar automaticamente quando as configurações que requerem reinicialização forem alteradas
-enable-rest-mode = 
-    .label = Enable Rest Mode shortcut (F9)
 disable-fullscreen-notification = 
     .label = Não mostrar uma notificação ao entrar em tela cheia
 
@@ -826,7 +824,7 @@ floorp-custom-actions-print-page = Print page
     .label = Print page
 floorp-custom-actions-mute-current-tab = Ativar/desativar som da guia atual
     .label = Ativar/desativar som da guia atual
-floorp-custom-actions-toggle-bookmark-toolbar = 
+floorp-custom-actions-toggle-bookmark-toolbar = Toggle bookmark toolbar
     .label = Alternar barra de favoritos
 floorp-custom-actions-show-source-of-page = Mostrar fonte da página
     .label = Abrir código da página
@@ -958,6 +956,8 @@ floorp-custom-actions-custom-action-4 = Ação personalizada 4
     .label = Ação personalizada 4
 floorp-custom-actions-custom-action-5 = Ação personalizada 5
     .label = Ação personalizada 5
+floorp-custom-actions-rest-mode = Enable rest mode
+    .label = Enable rest mode
 ##################################################################### Profile Switcher ###############################################################
 
 floorp-open-profile-with-new-instance = Lançamento
