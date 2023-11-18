@@ -76,10 +76,10 @@ hover-vertical-tab =
     .label = 摺疊垂直分頁列
 floorp-show-vertical-tab-newtab-button = 
     .label = 在垂直分頁列內顯示"開啟新分頁"的選項
-TST = Tree Style Tab
-about-TST = Tree Style Tab is a popular add-on that allows you to display tabs in a tree-like structure. This add-on is already pre-integrated in { -brand-short-name }. Please install the add-on to activate { -brand-short-name }'s Tree Style Tab.
+TST = 樹狀分頁列
+about-TST = Tree Style Tab是一款可以讓您使用樹狀結構展示分頁列的附加元件。{ -brand-short-name } 內已經內建設定檔案。請安裝此附加元件以啟用 { -brand-short-name } 的樹狀分頁列功能。
 treestyletab-Settings = 
-    .label = Collapse Tree Style Tab
+    .label = 摺疊樹狀分頁列
 sidebar-reverse-position-toolbar = 在窗口另一邊顯示側邊欄
 bookmarks-bar-settings = 書籤工具列 (一次只可使用一個選項)
 bookmarks-focus-mode = 
@@ -146,7 +146,7 @@ do-not-notify =
 
 ## Sidebar
 
-profiles-button-label = Manage Profiles
+profiles-button-label = 管理設定檔
 floorp-help-button-label = { -brand-short-name } 支援
 appmenuitem-reboot = 
     .label = 重新啟動
@@ -719,17 +719,17 @@ default-bookmark-ablaze-support = Ablaze Support
 ######################################################################### Like Chrome Download mgr ###############################################################
 
 floorp-delete-all-downloads = 
-    .label = Clear Downloads
+    .label = 清除下載記錄
     .accesskey = D
-    .tooltiptext = Clear Downloads
+    .tooltiptext = 清除下載記錄
 floorp-show-all-downloads = 
-    .label = Show all downloads
+    .label = 顯示所有下載
     .accesskey = S
-    .tooltiptext = Show all downloads
+    .tooltiptext = 顯示所有下載
 ######################################################################### workspace ###############################################################
 
-workspace-prompt-title = { -brand-short-name } Workspace
-please-enter-workspace-name = Please enter the Workspace's new name.
+workspace-prompt-title = { -brand-short-name } 工作空間
+please-enter-workspace-name = 請輸入工作空間的新名稱。
 please-enter-workspace-name-2 = The Workspace's name cannot contain symbols and spaces.
 workspace-error = An error occurred:
 workspace-error-discription = Either a Workspace with this name exists or the name is invalid.
