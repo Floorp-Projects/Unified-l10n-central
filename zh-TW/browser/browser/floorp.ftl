@@ -124,11 +124,11 @@ firefox-proton =
 firefox-photon-lepton = 
     .label = Firefox Photon・Lepton UI
 floorp-fluentUI = 
-    .label = Microsoft Fluent UI (不推薦)
+    .label = Microsoft Fluent UI (已終止支援)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI (不推薦)
+    .label = { -brand-short-name } Fluerial UI (已終止支援)
 floorp-gnomeUI = 
-    .label = GNOME 主題 (不推薦)
+    .label = GNOME 主題 (已終止支援)
 
 ## Download Manager
 
@@ -144,7 +144,7 @@ do-not-notify =
 
 ## Sidebar
 
-profiles-button-label = 管理設定檔
+profiles-button-label = 管理個人設定檔
 floorp-help-button-label = { -brand-short-name } 支援
 appmenuitem-reboot = 
     .label = 重新啟動
@@ -230,7 +230,7 @@ use-icon-provider-option-hatena =
     .label = Hatena (可於中國境內直連)
 memory-and-performance = 記憶體及效能
 min-memory = 
-    .label = 最小化記憶體使用 (低效能)
+    .label = 最小化記憶體使用量 (低效能)
 balance-memory = 
     .label = 均衡分配記憶體效能
 max-memory = 
@@ -265,33 +265,33 @@ disable-blur-on-newtab =
 
 ## Lepton Preferences
 
-about-lepton = Customize { -brand-short-name } with Lepton
+about-lepton = 使用 Lepton 客製化 { -brand-short-name }
 lepton-preference-button = 
-    .label = Lepton Settings...
+    .label = Lepton 設定...
     .accesskey = L
-lepton-header = Lepton Settings
-lepton-preference = Lepton Settings
+lepton-header = Lepton 設定
+lepton-preference = Lepton 設定
 photon-mode = 
-    .label = Use Photon design
+    .label = 採用 Photon 設計
 lepton-mode = 
-    .label = Use Lepton design
+    .label = 採用 Lepton 設計
 protonfix-mode = 
-    .label = Use tweaked Proton design
-autohide-preference = Automatically hide browser elements
+    .label = 採用改良版 Proton 設計
+autohide-preference = 自動隱藏部分介面
 floorp-lepton-enable-tab-autohide = 
-    .label = Automatically hide tabs
+    .label = 自動隱藏分頁列
 floorp-lepton-enable-navbar-autohide = 
-    .label = Automatically hide Toolbar
+    .label = 自動隱藏工具列
 floorp-lepton-enable-sidebar-autohide = 
-    .label = Automatically hide Sidebar
+    .label = 自動隱藏側邊欄
 floorp-lepton-enable-urlbar-autohide = 
-    .label = Automatically hide Address Bar
+    .label = 自動隱藏位址欄
 floorp-lepton-enable-back-button-autohide = 
-    .label = Automatically hide back button
+    .label = 自動隱藏"返回"鈕
 floorp-lepton-enable-forward-button-autohide = 
-    .label = Automatically hide forward button
+    .label = 自動隱藏"前進"鈕
 floorp-lepton-enable-page-action-button-autohide = 
-    .label = Automatically hide buttons on the Address Bar
+    .label = 自動隱藏位址欄上的按鈕
 floorp-lepton-enable-toolbar-overlap = 
     .label = Show Toolbar over website content
 floorp-lepton-enable-toolbar-overlap-allow-layout-shift-autohide = 
