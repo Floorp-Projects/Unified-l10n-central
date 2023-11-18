@@ -101,8 +101,6 @@ search-positon-top =
     .label = Display the Find Bar at the top of the page
 allow-auto-restart = 
     .label = Yeniden başlatma gerektiren ayarlar değiştirildiğinde otomatik olarak yeniden başlatma
-enable-rest-mode = 
-    .label = Enable Rest Mode shortcut (F9)
 disable-fullscreen-notification = 
     .label = Tam ekrana girerken bildirim gösterme
 
@@ -826,7 +824,7 @@ floorp-custom-actions-print-page = Sayfayı yazdır
     .label = Sayfayı yazdır
 floorp-custom-actions-mute-current-tab = Geçerli sekmenin sesini kapat/aç
     .label = Geçerli sekmenin sesini kapat/aç
-floorp-custom-actions-toggle-bookmark-toolbar = 
+floorp-custom-actions-toggle-bookmark-toolbar = Toggle bookmark toolbar
     .label = Yer İmleri Araç Çubuğunu Aç / Kapat
 floorp-custom-actions-show-source-of-page = Sayfanın kaynağını göster
     .label = Açık Sayfa Kaynağı
@@ -958,6 +956,8 @@ floorp-custom-actions-custom-action-4 = Özel eylem 4
     .label = Özel eylem 4
 floorp-custom-actions-custom-action-5 = Özel eylem 5
     .label = Özel eylem 5
+floorp-custom-actions-rest-mode = Enable rest mode
+    .label = Enable rest mode
 ##################################################################### Profile Switcher ###############################################################
 
 floorp-open-profile-with-new-instance = Fırlatma
