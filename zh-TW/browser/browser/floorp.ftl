@@ -347,17 +347,17 @@ floorp-home-prefs-content-description = 選擇要在您的 { -brand-short-name }
 ## Notes
 
 floorp-notes = { -brand-short-name } 筆記
-restore-from-backup = 從備份中還原筆記
+restore-from-backup = 從備份中復原筆記
 enable-notes-sync = 
     .label = 啟用 { -brand-short-name } 筆記同步功能
-about-notes-backup-tips = { -brand-short-name } Notes uses Firefox Sync to sync your notes with other devices. If you lose your notes, you can restore them from a backup. A backup is created when you launch { -brand-short-name }.
-notes-sync-description = This can solve the problem of losing content due to overwriting notes during synchronization.
-backuped-time = Backed up at
-notes-backup-option = Backup Settings
-backup-option-button = Backup Settings...
-restore-from-backup-prompt-title = { -brand-short-name } Notes Restore Service
-restore-from-this-backup = Restore Notes back to the state they were in this backup?
-restore-button = Restore
+about-notes-backup-tips = { -brand-short-name } 使用 Firefox Sync 來同步您的筆記至其他設備上。如果您失去了筆記內容，您可以從備份中復原。而備份會在每一次啟動 { -brand-short-name } 時自動進行。
+notes-sync-description = 這可以解決同步筆記時內容被覆寫而丟失的問題。
+backuped-time = 備份於
+notes-backup-option = 備份設定
+backup-option-button = 備份設定...
+restore-from-backup-prompt-title = { -brand-short-name } 筆記復原服務
+restore-from-this-backup = 要將筆記復原至備份時的狀態嗎？
+restore-button = 復原
 
 ## user.js
 
@@ -524,23 +524,23 @@ about-Facebook-Container = 阻止臉書在網絡上追蹤你。Facebook Containe
 
 ## Fingerprinting
 
-fingerprint-header = Resist Fingerprinting & IP address leaks
-block-fingerprint = Fingerprinting is a tracking mechanism that relies on the unique features of your browser and operating system. This section contains settings to further enhance this protection beyond the default blocking.
-enable-firefox-fingerprint-protections = Enable strong protection against fingerprinting
-about-firefox-fingerprint-protection = Enabling protection by Firefox includes forced light mode, disabling some APIs, etc. Some sites may be broken.
+fingerprint-header = 制止數位指紋以及 IP 位址洩漏
+block-fingerprint = 數位指紋是一種以採集您的瀏覽器及系統的獨特設定的跟蹤機制。此區域提供比預設防護更加強化隱私的防護選項。
+enable-firefox-fingerprint-protections = 開啟強力數位指紋防護
+about-firefox-fingerprint-protection = 由 Firefox 提供的防護，將強制使用亮色模式，屏蔽部分 API 連結。部分網站頁面可能會出現錯誤。
 fingerprint-Protection = 
-    .label = Anti-fingerprinting protections
+    .label = 數位指紋防護
 html5-canvas-prompt-settings = 
-    .label = Automatically dismiss access confirmation prompts for HTML5 image data
-canvas-prompt = Prevents websites from using the canvas-reading prompt unless manually permitted.
+    .label = 自動拒絕 HTML5 圖像數據的讀取確認提示
+canvas-prompt = 防止網頁在手動准許之前使用 Canvas 讀取提示。
 disable-webgl = 
-    .label = Disable WebGL
-about-webgl = WebGL is a Javascript API used to render graphics, which can be used to identify GPU.
-Canvas-Blocker = Canvas Blocker
-about-CB = This add-on spoofs data used by fingerprinting techniques.
-WebRTC-connection = WebRTC is a standard that provides real-time calling. If you disable this setting, you will not be able to use Discord, etc.
+    .label = 禁止 WebGL
+about-webgl = WebGL 是一款渲染圖形的 Javascript API，可用於識別顯示卡資訊。
+Canvas-Blocker = CanvasBlocker
+about-CB = 此擴充套件可以生成偽裝數據來擾亂網站對數位指紋的收集。
+WebRTC-connection = WebRTC 是一款提供實時通訊的協議。如果禁用此設定，您將無法使用 Discord 等服務。
 WebRTC = 
-    .label = Enable WebRTC Connection
+    .label = 啟用 WebRTC 連結
 ################################################################### browser ###############################################################
 
 rest-mode = 正在休息中...
