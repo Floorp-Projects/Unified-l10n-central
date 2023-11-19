@@ -824,7 +824,7 @@ floorp-custom-actions-print-page = ページを印刷
     .label = ページを印刷
 floorp-custom-actions-mute-current-tab = 現在のタブをミュート/ミュート解除
     .label = 現在のタブをミュート/ミュート解除
-floorp-custom-actions-toggle-bookmark-toolbar = Toggle bookmark toolbar
+floorp-custom-actions-toggle-bookmark-toolbar = ブックマークツールバーの表示を切り替える
     .label = ブックマークツールバーの表示を切り替える
 floorp-custom-actions-show-source-of-page = ページのソースを表示
     .label = ページのソースを表示
@@ -956,8 +956,8 @@ floorp-custom-actions-custom-action-4 = カスタムアクション 4
     .label = カスタムアクション 4
 floorp-custom-actions-custom-action-5 = カスタムアクション 5
     .label = カスタムアクション 5
-floorp-custom-actions-rest-mode = Enable rest mode
-    .label = Enable rest mode
+floorp-custom-actions-rest-mode = 休憩モードを有効にする
+    .label = 休憩モードを有効にする
 ##################################################################### Profile Switcher ###############################################################
 
 floorp-open-profile-with-new-instance = 起動
