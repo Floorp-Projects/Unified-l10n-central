@@ -101,8 +101,6 @@ search-positon-top =
     .label = 페이지 상단에 찾기 표시줄을 표시하기.
 allow-auto-restart = 
     .label = 재시작이 필요한 설정이 변경되면 자동으로 재시작하기
-enable-rest-mode = 
-    .label = 휴식 모드 단축키 (F9)
 disable-fullscreen-notification = 
     .label = 전체 화면으로 전환할 때 알림을 표시하지 않음
 
@@ -826,7 +824,7 @@ floorp-custom-actions-print-page = 인쇄 페이지
     .label = 인쇄 페이지
 floorp-custom-actions-mute-current-tab = 현재 음소거/음소거 해제 탭 전환
     .label = 현재 음소거/음소거 해제 탭 전환
-floorp-custom-actions-toggle-bookmark-toolbar = 
+floorp-custom-actions-toggle-bookmark-toolbar = Toggle bookmark toolbar
     .label = 북마크 도구 모음 토글
 floorp-custom-actions-show-source-of-page = 페이지 소스 표시
     .label = 페이지 소스 열기
@@ -958,6 +956,8 @@ floorp-custom-actions-custom-action-4 = 사용자 지정 작업 4
     .label = 사용자 지정 작업 4
 floorp-custom-actions-custom-action-5 = 사용자 지정 작업 5
     .label = 사용자 지정 작업 5
+floorp-custom-actions-rest-mode = Enable rest mode
+    .label = Enable rest mode
 ##################################################################### Profile Switcher ###############################################################
 
 floorp-open-profile-with-new-instance = 시작

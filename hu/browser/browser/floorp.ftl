@@ -101,8 +101,6 @@ search-positon-top =
     .label = Display the Find Bar at the top of the page
 allow-auto-restart = 
     .label = Automatikus újraindítás, ha az újraindítást igénylő beállítások megváltoznak.
-enable-rest-mode = 
-    .label = Enable Rest Mode shortcut (F9)
 disable-fullscreen-notification = 
     .label = Teljes képernyőre lépéskor ne jelenjen meg értesítés
 
@@ -826,7 +824,7 @@ floorp-custom-actions-print-page = Oldal nyomtatása
     .label = Oldal nyomtatása
 floorp-custom-actions-mute-current-tab = Az aktuális lap elnémításának/feloldásának váltása
     .label = Az aktuális lap elnémításának/feloldásának váltása
-floorp-custom-actions-toggle-bookmark-toolbar = 
+floorp-custom-actions-toggle-bookmark-toolbar = Toggle bookmark toolbar
     .label = Könyvjelzők eszköztár kapcsolása
 floorp-custom-actions-show-source-of-page = Az oldal forrásának megjelenítése
     .label = Nyílt oldal forrás
@@ -958,6 +956,8 @@ floorp-custom-actions-custom-action-4 = Egyéni művelet 4
     .label = Egyéni művelet 4
 floorp-custom-actions-custom-action-5 = Egyéni művelet 5
     .label = Egyéni művelet 5
+floorp-custom-actions-rest-mode = Enable rest mode
+    .label = Enable rest mode
 ##################################################################### Profile Switcher ###############################################################
 
 floorp-open-profile-with-new-instance = Indítsa el a  oldalt.

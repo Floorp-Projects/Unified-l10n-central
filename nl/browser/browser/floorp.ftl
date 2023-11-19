@@ -101,8 +101,6 @@ search-positon-top =
     .label = Display the Find Bar at the top of the page
 allow-auto-restart = 
     .label = Herstart automatisch wanneer instellingen waarvoor een herstart vereist zijn gewijzigd
-enable-rest-mode = 
-    .label = Enable Rest Mode shortcut (F9)
 disable-fullscreen-notification = 
     .label = Melding niet weergeven bij het invoeren van volledig scherm
 
@@ -826,7 +824,7 @@ floorp-custom-actions-print-page = Print page
     .label = Print page
 floorp-custom-actions-mute-current-tab = Huidig tabblad dempen/dempen inschakelen
     .label = Huidig tabblad dempen/dempen inschakelen
-floorp-custom-actions-toggle-bookmark-toolbar = 
+floorp-custom-actions-toggle-bookmark-toolbar = Toggle bookmark toolbar
     .label = Wissel Bladwijzerwerkbalk
 floorp-custom-actions-show-source-of-page = Toon bron van pagina
     .label = Open pagina bron
@@ -958,6 +956,8 @@ floorp-custom-actions-custom-action-4 = Aangepaste actie 4
     .label = Aangepaste actie 4
 floorp-custom-actions-custom-action-5 = Aangepaste actie 5
     .label = Aangepaste actie 5
+floorp-custom-actions-rest-mode = Enable rest mode
+    .label = Enable rest mode
 ##################################################################### Profile Switcher ###############################################################
 
 floorp-open-profile-with-new-instance = Starten

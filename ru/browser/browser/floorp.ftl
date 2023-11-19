@@ -75,7 +75,7 @@ native-vertical-tab-show-right =
 hover-vertical-tab = 
     .label = Свернуть вертикальную панель вкладок
 floorp-show-vertical-tab-newtab-button = 
-    .label = Show the "Open a new tab" button inside Vertical Tab Bar
+    .label = Отображать кнопку "Открыть новую вкладку" внутри вертикальной панели вкладок
 TST = Tree Style Tab
 about-TST = Tree Style Tab - это популярное дополнение, позволяющее отображать вкладки в виде древовидной структуры. Это дополнение уже предварительно интегрировано в { -brand-short-name }. Для активации дополнения в { -brand-short-name } потребуется его установка.
 treestyletab-Settings = 
@@ -101,8 +101,6 @@ search-positon-top =
     .label = Отображение панели поиска в верхней части страницы
 allow-auto-restart = 
     .label = Автоматический перезапуск при изменении настроек, требующих перезапуска
-enable-rest-mode = 
-    .label = Включить режим сна вкладок (F9)
 disable-fullscreen-notification = 
     .label = Не отображать уведомление при входе в полноэкранный режим
 
@@ -496,7 +494,7 @@ floorp-custom-actions-history-action = Действия истории
 floorp-custom-actions-pip-action = Действия с фотографией
 floorp-custom-actions-downloads-action = Действия загрузок
 floorp-custom-actions-sidebar-action = Действия боковой панели
-floorp-custom-actions-bms-action = Действия в боковой панели браузера
+floorp-custom-actions-bms-action = Действия боковой панели управления браузера
 floorp-custom-actions-workspace-action = Действия рабочих областей
 floorp-custom-actions-custom-action = Пользовательские действия (экспериментально)
 
@@ -826,7 +824,7 @@ floorp-custom-actions-print-page = Распечатать страницу
     .label = Распечатать страницу
 floorp-custom-actions-mute-current-tab = Вкл/выкл звук текущей вкладки
     .label = Вкл/выкл звук текущей вкладки
-floorp-custom-actions-toggle-bookmark-toolbar = 
+floorp-custom-actions-toggle-bookmark-toolbar = Toggle bookmark toolbar
     .label = Панель закладок
 floorp-custom-actions-show-source-of-page = Показать исходник страницы
     .label = Отобразить информацию о странице
@@ -958,6 +956,8 @@ floorp-custom-actions-custom-action-4 = Действие 4
     .label = Действие 4
 floorp-custom-actions-custom-action-5 = Действие 5
     .label = Действие 5
+floorp-custom-actions-rest-mode = Enable rest mode
+    .label = Enable rest mode
 ##################################################################### Profile Switcher ###############################################################
 
 floorp-open-profile-with-new-instance = Запустить

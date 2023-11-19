@@ -101,8 +101,6 @@ search-positon-top =
     .label = 在页面顶部显示搜索栏
 allow-auto-restart = 
     .label = 在更改需要重启的设置时，会自动重新启动
-enable-rest-mode = 
-    .label = 启用老板键（F9）
 disable-fullscreen-notification = 
     .label = 进入全屏时不显示通知
 
@@ -826,7 +824,7 @@ floorp-custom-actions-print-page = 打印页面
     .label = 打印页面
 floorp-custom-actions-mute-current-tab = 切换静音/取消静音当前标签页
     .label = 切换静音/取消静音当前标签页
-floorp-custom-actions-toggle-bookmark-toolbar = 
+floorp-custom-actions-toggle-bookmark-toolbar = Toggle bookmark toolbar
     .label = 切换书签工具栏
 floorp-custom-actions-show-source-of-page = 显示页面来源
     .label = 打开页面来源
@@ -958,6 +956,8 @@ floorp-custom-actions-custom-action-4 = 自定义动作 4
     .label = 自定义动作 4
 floorp-custom-actions-custom-action-5 = 自定义动作 5
     .label = 自定义动作 5
+floorp-custom-actions-rest-mode = Enable rest mode
+    .label = Enable rest mode
 ##################################################################### Profile Switcher ###############################################################
 
 floorp-open-profile-with-new-instance = 启动

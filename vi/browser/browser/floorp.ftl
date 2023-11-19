@@ -101,8 +101,6 @@ search-positon-top =
     .label = Hiển thị thanh tiềm kiếm đầu trang
 allow-auto-restart = 
     .label = Tự động khởi động lại trình duyệt khi có thay đổi ở các cài đặt yêu cầu
-enable-rest-mode = 
-    .label = Kích hoạt phím tắt chế độ nghỉ ngơi (F9)
 disable-fullscreen-notification = 
     .label = Không thông báo khi ở chế độ toàn màn hình
 
@@ -826,7 +824,7 @@ floorp-custom-actions-print-page = Print page
     .label = Print page
 floorp-custom-actions-mute-current-tab = Toggle mute/unmute current tab
     .label = Toggle mute/unmute current tab
-floorp-custom-actions-toggle-bookmark-toolbar = 
+floorp-custom-actions-toggle-bookmark-toolbar = Toggle bookmark toolbar
     .label = Toggle Bookmarks Toolbar
 floorp-custom-actions-show-source-of-page = Show source of page
     .label = Open Page Source
@@ -958,6 +956,8 @@ floorp-custom-actions-custom-action-4 = Custom action 4
     .label = Custom action 4
 floorp-custom-actions-custom-action-5 = Custom action 5
     .label = Custom action 5
+floorp-custom-actions-rest-mode = Enable rest mode
+    .label = Enable rest mode
 ##################################################################### Profile Switcher ###############################################################
 
 floorp-open-profile-with-new-instance = Khởi chạy

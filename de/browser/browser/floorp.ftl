@@ -101,8 +101,6 @@ search-positon-top =
     .label = Anzeige der Suchleiste am oberen Rand der Seite
 allow-auto-restart = 
     .label = Automatisch neu starten, wenn Einstellungen geändert werden
-enable-rest-mode = 
-    .label = Tastenkürzel für den Ruhemodus aktivieren (F9)
 disable-fullscreen-notification = 
     .label = Keine Benachrichtigung anzeigen, wenn der Vollbildmodus aktiviert wird
 
@@ -826,7 +824,7 @@ floorp-custom-actions-print-page = Print page
     .label = Print page
 floorp-custom-actions-mute-current-tab = Stumm/Stummschalten des aktuellen Tab
     .label = Stumm/Stummschalten des aktuellen Tab
-floorp-custom-actions-toggle-bookmark-toolbar = 
+floorp-custom-actions-toggle-bookmark-toolbar = Toggle bookmark toolbar
     .label = Lesezeichen-Symbolleiste umschalten
 floorp-custom-actions-show-source-of-page = Seitenquelle anzeigen
     .label = Seitenquelle öffnen
@@ -958,6 +956,8 @@ floorp-custom-actions-custom-action-4 = Benutzerdefinierte Aktion 4
     .label = Benutzerdefinierte Aktion 4
 floorp-custom-actions-custom-action-5 = Benutzerdefinierte Aktion 5
     .label = Benutzerdefinierte Aktion 5
+floorp-custom-actions-rest-mode = Enable rest mode
+    .label = Enable rest mode
 ##################################################################### Profile Switcher ###############################################################
 
 floorp-open-profile-with-new-instance = Starten

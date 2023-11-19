@@ -15,7 +15,7 @@ category-design =
 design-header = { pane-design-title }
 feature-requires-restart = 需要重啟以套用變更
 tab-width = 分頁的最小寬度
-preferences-tabs-newtab-position = New tab position
+preferences-tabs-newtab-position = 新分頁位置
 open-new-tab-use-default = 
     .label = 在預設位置開啟新分頁
 open-new-tab-at-the-end = 
@@ -35,10 +35,10 @@ tab-sleep-settings-dialog-title =
     .title = 分頁休眠設定
 tab-sleep-settings-dialog-excludehosts-label = 排除域名
 tab-sleep-settings-dialog-excludehosts-label-2 = 每行輸入一個域名。
-tab-sleep-tab-context-menu-excludetab = Keep tab awake
+tab-sleep-tab-context-menu-excludetab = 保持分頁於喚醒狀態
 enable-floorp-workspace = 
     .label = 啟用工作空間
-workspace-warning = Workspaces cannot be used with Tab Group add-ons. If you want to use Tab Group add-ons, please disable Workspaces and restart { -brand-short-name }.
+workspace-warning = 工作空間無法與分頁分組擴充套件一同使用。 如果您想要使用分頁分組擴充套件，請停用工作空間並重新啟動 { -brand-short-name}。
 enable-tab-scroll-change = 
     .label = 透過滾綸切換分頁
 enable-tab-scroll-reverse = 
@@ -51,7 +51,7 @@ enable-show-pinned-tabs-title =
     .label = 顯示固定分頁的標題
 tabbar-preference = 分頁列
 tab-normal-mode = 
-    .label = Default
+    .label = 預設
 hide-horizontality-tabs = 
     .label = 隱藏橫向分頁列
 verticalTab-setting = 
@@ -67,139 +67,137 @@ horizontal-tabbar =
     .label = 水平分頁列
 tabbar-style-description = 需要重新啟動 { -brand-short-name } 以完全套用此設定。
 multirow-tabbar = 
-    .label = Multi-Row Tab Bar
+    .label = 多層分頁排列
 vertical-tabbar = 
-    .label = Vertical Tab Bar (experimental)
+    .label = 垂直分頁列 (實驗性質)
 native-vertical-tab-show-right = 
-    .label = Show Vertical Tab Bar on the right side of the window
+    .label = 在窗口右側顯示垂直分頁列
 hover-vertical-tab = 
-    .label = Collapse Vertical Tab Bar
+    .label = 摺疊垂直分頁列
 floorp-show-vertical-tab-newtab-button = 
-    .label = Show the "Open a new tab" button inside Vertical Tab Bar
-TST = Tree Style Tab
-about-TST = Tree Style Tab is a popular add-on that allows you to display tabs in a tree-like structure. This add-on is already pre-integrated in { -brand-short-name }. Please install the add-on to activate { -brand-short-name }'s Tree Style Tab.
+    .label = 在垂直分頁列內顯示"開啟新分頁"的選項
+TST = 樹狀分頁列
+about-TST = Tree Style Tab是一款可以讓您使用樹狀結構展示分頁列的擴充套件。{ -brand-short-name } 內已經內建設定檔案。請安裝此擴充套件以啟用 { -brand-short-name } 的樹狀分頁列功能。
 treestyletab-Settings = 
-    .label = Collapse Tree Style Tab
-sidebar-reverse-position-toolbar = Show Sidebars on the other side
-bookmarks-bar-settings = Bookmarks Toolbar (only one option can be used at a time)
+    .label = 摺疊樹狀分頁列
+sidebar-reverse-position-toolbar = 在窗口另一邊顯示側邊欄
+bookmarks-bar-settings = 書籤工具列 (一次只可使用一個選項)
 bookmarks-focus-mode = 
-    .label = Hide the Bookmarks Toolbar unless hovering over the navigation bar
+    .label = 隱藏書籤工具列，只在滑鼠放置於瀏覽位址列時顯示
 bookmarks-bottom-mode = 
-    .label = Show the Bookmarks Toolbar at the bottom of { -brand-short-name }
-navbar-settings = Navigation Bar
+    .label = 在 { -brand-short-name } 底部顯示書籤工具列
+navbar-settings = 瀏覽位址列
 show-nav-bar-bottom = 
-    .label = Show the Toolbar at the bottom of { -brand-short-name } (experimental)
+    .label = 在 { -brand-short-name } 底部顯示瀏覽位址列 (實驗性質)
 material-effect = 
-    .label = Allow Mica For Everyone to modify the browser design
+    .label = 允許 Mica For Everyone 變更瀏覽器外觀
 disable-extension-check-compatibility-option = 
-    .label = Do not check for compatibility with add-ons
-other-preference = Other Preferences
+    .label = 不檢查擴充套件兼容性
+other-preference = 其他的偏好設定
 enable-userscript = 
-    .label = Enable legacy components
-about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
+    .label = 啟用舊式擴充元件
+about-userscript = 開啟此功能可能會導致程式出現不可預料的錯誤
 search-positon-top = 
-    .label = Display the Find Bar at the top of the page
+    .label = 在頁面頂端顯示搜索欄
 allow-auto-restart = 
-    .label = Restart automatically when settings that require a restart are changed
-enable-rest-mode = 
-    .label = Enable Rest Mode shortcut (F9)
+    .label = 當變更需要重啟的設定項時會自動重啟
 disable-fullscreen-notification = 
-    .label = Do not show a notification when entering full screen
+    .label = 全螢幕狀態時不顯示通知
 
 ## Browser Theme
 
-system-color-settings = Some themes have both light and dark modes - choose which mode you'd like these themes to use.
-preferences-theme-appearance-header = Theme Mode
+system-color-settings = 部分主題同時擁有亮色和暗色模式，請選擇自己喜好的主題模式
+preferences-theme-appearance-header = 主題模式
 system-theme-dark = 
-    .label = Dark
+    .label = 暗色
 system-theme-light = 
-    .label = Light
+    .label = 亮色
 system-theme-auto = 
-    .label = Follow my system appearance
+    .label = 根據系統外觀改變
 
 ## User interface preferences
 
-ui-preference = Browser appearance
-preferences-browser-appearance-description = Choose a built-in third-party design to use in { -brand-short-name }. Some designs may not be compatible with your configuration.
+ui-preference = 瀏覽器外觀
+preferences-browser-appearance-description = 選擇一款於 { -brand-short-name } 內建的第三方設計的外觀。部分設計外觀可能與您的設定不相容。
 firefox-proton = 
     .label = Firefox Proton UI
 firefox-photon-lepton = 
     .label = Firefox Photon・Lepton UI
 floorp-fluentUI = 
-    .label = Microsoft Fluent UI (deprecated)
+    .label = Microsoft Fluent UI (已終止支援)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI (deprecated)
+    .label = { -brand-short-name } Fluerial UI (已終止支援)
 floorp-gnomeUI = 
-    .label = GNOME Theme (deprecated)
+    .label = GNOME 主題 (已終止支援)
 
 ## Download Manager
 
-download-notification-preferences = Download Notifications
+download-notification-preferences = 下載通知
 start-always-notify = 
-    .label = Notify only when starting downloads
+    .label = 只在開始下載時通知
 finish-always-notify = 
-    .label = Notify only when a download finishes
+    .label = 只在下載完成後通知
 always-notify = 
-    .label = Notify when starting downloads and when a download finishes
+    .label = 在開始下載以及下載完成時通知
 do-not-notify = 
-    .label = Disable download notifications
+    .label = 禁用下載通知
 
 ## Sidebar
 
-profiles-button-label = Manage Profiles
-floorp-help-button-label = { -brand-short-name } Support
+profiles-button-label = 管理個人設定檔
+floorp-help-button-label = { -brand-short-name } 支援
 appmenuitem-reboot = 
-    .label = Restart
+    .label = 重新啟動
 
 ## UserAgent
 
 userAgent-preference = User Agent
 default-useragent-mode = 
-    .label = Use Firefox User Agent (Default)
+    .label = 使用Firefox UA (默認)
 windows-chrome-useragent-mode = 
-    .label = Spoof Chrome on Windows
+    .label = 仿擬為Windows版Chrome
 macOS-chrome-useragent-mode = 
-    .label = Spoof Chrome on macOS
+    .label = 仿擬為macOS版Chrome
 linux-chrome-useragent-mode = 
-    .label = Spoof Chrome on Linux
+    .label = 仿擬為Linux版Chrome
 mobile-chrome-useragent-mode = 
-    .label = Spoof Chrome on iOS
+    .label = 仿擬為iOS版Chrome
 use-custom-useragent-mode = 
-    .label = Use Custom User Agent
+    .label = 使用自訂的User Agent
 
 ## DMR UI
 
 download-mgr-UI = 
-    .label = Enable the SimpleUI Download Manager
+    .label = 啟用SimpleUI下載管理工具
 downloading-red-color = 
-    .label = Use the red downloads icon when downloading
-sidebar-preferences = Sidebar
-bsb-preferences = Browser Manager Sidebar Settings
+    .label = 在下載時使用紅色下載圖示
+sidebar-preferences = 側邊欄
+bsb-preferences = 瀏覽器管理工具側邊欄設定
 view-sidebar2-right = 
-    .label = Display the Browser Manager Sidebar on the right
+    .label = 在窗口右邊顯示管理工具側邊欄
 enable-sidebar2 = 
-    .label = Enable the Browser Manager Sidebar
+    .label = 啟用管理工具側邊欄
 visible-bms = 
-    .label = Show the Browser Manager Sidebar
+    .label = 顯示管理工具側邊欄
 hide-bms-to-unload-panel = 
-    .label = Unload panel when hiding panel
-custom-URL-option = Set Web Panel URLs
+    .label = 隱藏側欄面板時卸下面板內容
+custom-URL-option = 設置Web面板網址
 set-custom-URL-button = 
-    .label = Set Custom URLs...
+    .label = 設定自訂的網址...
     .accesskey = S
 pane-BSB-title = { bsb-header }
 category-BSB = 
     .tooltiptext = { pane-BSB-title }
 category-downloads = 
     .tooltiptext = { files-and-applications-title }
-bsb-header = Browser Manager Sidebar
-bsb-context = Use the following Container
+bsb-header = 管理工具側邊欄
+bsb-context = 使用以下分頁容器
 bsb-userAgent-label = 
-    .label = Use Mobile User Agent in this Web Panel
-bsb-width = Width (if set to 0, the global value will be used)
-bsb-page = Page to open
-bsb-add = Add Web Panel on Browser Manager Sidebar
-bsb-setting = Web Panel Settings
+    .label = 在此Web面板使用手機端User Agent
+bsb-width = 寬度 (如果設為0，將會使用全局默認值)
+bsb-page = 要打開的頁面
+bsb-add = 將Web面板添加至管理工具側邊欄
+bsb-setting = Web面板設定
 bsb-add-title = 
     .title = { bsb-add }
 bsb-setting-title = 
@@ -215,136 +213,136 @@ bsb-download-sidebar =
 bsb-notes-sidebar = 
     .label = { sidebar2-notes-sidebar }
 bsb-website = 
-    .label = Website
+    .label = 網址
 sidebar2-pref-delete = 
-    .label = Delete
+    .label = 刪除
 sidebar2-pref-setting = 
-    .label = Settings
-sidebar2-global-width = Global Web Panels width
-use-icon-provider-option = Use Icon Provider
+    .label = 設定
+sidebar2-global-width = 全局Web面板寬度
+use-icon-provider-option = 網站圖標提供者
 use-icon-provider-option-google = 
     .label = Google
 use-icon-provider-option-duckduckgo = 
     .label = DuckDuckGo
 use-icon-provider-option-yandex = 
-    .label = Yandex (available in China)
+    .label = Yandex (可於中國境內直連)
 use-icon-provider-option-hatena = 
-    .label = Hatena (available in China)
-memory-and-performance = Memory and Performance
+    .label = Hatena (可於中國境內直連)
+memory-and-performance = 記憶體及效能
 min-memory = 
-    .label = Minimum Memory Usage (low performance)
+    .label = 最小化記憶體使用量 (低效能)
 balance-memory = 
-    .label = Balance Memory Usage and Performance
+    .label = 均衡分配記憶體效能
 max-memory = 
-    .label = Best Performance (high memory usage)
+    .label = 最佳效能 (較高記憶體使用率)
 delete-border-and-roundup-option = 
-    .label = Round the corners of pages
+    .label = 圓化頁面邊緣
 
 ## DualTheme
 
 dualtheme-enable = 
-    .label = Enable Dual Theme
-newtab-background = { -brand-short-name } Home Background
+    .label = 啟用雙重主題
+newtab-background = { -brand-short-name } 主頁背景
 newtab-background-random-image = 
-    .label = Random images from Unsplash
+    .label = 來自Unsplash的隨機圖像
 newtab-background-gradation = 
-    .label = Gradient
+    .label = 漸層圖像
 newtab-background-not-background = 
-    .label = Disable background
+    .label = 禁用背景圖像
 newtab-background-selected-image = 
-    .label = Custom folder...
-newtab-background-folder = Use images from this folder:
+    .label = 自定義資料夾
+newtab-background-folder = 從此資料夾使用圖像：
 newtab-background-folder-reload = 
-    .label = Reload images
+    .label = 重新加載圖像
 newtab-background-folder-default = 
-    .label = Restore Defaults
+    .label = 重設為預設值
 newtab-background-folder-open = 
-    .label = Open folder
-newtab-background-folder-choose = Choose images folder...
-newtab-background-extensions = Use images with these file extensions (separated by ",")
+    .label = 開啟資料夾
+newtab-background-folder-choose = 選擇圖像資料夾...
+newtab-background-extensions = 使用擁有以下副檔名的圖像 (以","分割)
 disable-blur-on-newtab = 
-    .label = Disable blur effect on { -brand-short-name } Home
+    .label = 在 { -brand-short-name } 主頁上禁用模糊效果
 
 ## Lepton Preferences
 
-about-lepton = Customize { -brand-short-name } with Lepton
+about-lepton = 使用 Lepton 客製化 { -brand-short-name }
 lepton-preference-button = 
-    .label = Lepton Settings...
+    .label = Lepton 設定...
     .accesskey = L
-lepton-header = Lepton Settings
-lepton-preference = Lepton Settings
+lepton-header = Lepton 設定
+lepton-preference = Lepton 設定
 photon-mode = 
-    .label = Use Photon design
+    .label = 採用 Photon 設計
 lepton-mode = 
-    .label = Use Lepton design
+    .label = 採用 Lepton 設計
 protonfix-mode = 
-    .label = Use tweaked Proton design
-autohide-preference = Automatically hide browser elements
+    .label = 採用改良版 Proton 設計
+autohide-preference = 自動隱藏部分介面
 floorp-lepton-enable-tab-autohide = 
-    .label = Automatically hide tabs
+    .label = 自動隱藏分頁列
 floorp-lepton-enable-navbar-autohide = 
-    .label = Automatically hide Toolbar
+    .label = 自動隱藏工具列
 floorp-lepton-enable-sidebar-autohide = 
-    .label = Automatically hide Sidebar
+    .label = 自動隱藏側邊欄
 floorp-lepton-enable-urlbar-autohide = 
-    .label = Automatically hide Address Bar
+    .label = 自動隱藏位址欄
 floorp-lepton-enable-back-button-autohide = 
-    .label = Automatically hide back button
+    .label = 自動隱藏"返回"鈕
 floorp-lepton-enable-forward-button-autohide = 
-    .label = Automatically hide forward button
+    .label = 自動隱藏"前進"鈕
 floorp-lepton-enable-page-action-button-autohide = 
-    .label = Automatically hide buttons on the Address Bar
+    .label = 自動隱藏位址欄上的按鈕
 floorp-lepton-enable-toolbar-overlap = 
-    .label = Show Toolbar over website content
+    .label = 在網站內容上顯示工具列
 floorp-lepton-enable-toolbar-overlap-allow-layout-shift-autohide = 
-    .label = Automatically hide Toolbar when displaying "ltr" content
-hide-preference = Manage browser elements
+    .label = 自動隱藏工具列
+hide-preference = 管理瀏覽器顯示物件
 floorp-lepton-enable-tab_icon-hide = 
-    .label = Hide tab icons
+    .label = 隱藏分頁圖標
 floorp-lepton-enable-tabbar-hide = 
-    .label = Hide Tab Bar
+    .label = 隱藏分頁列
 floorp-lepton-enable-navbar-hide = 
-    .label = Hide Toolbar
+    .label = 隱藏工具列
 floorp-lepton-enable-sidebar_header-hide = 
-    .label = Hide Sidebar Headers
+    .label = 隱藏側邊欄標題
 floorp-lepton-enable-urlbar_iconbox-hide = 
-    .label = Hide Address Bar icons
+    .label = 隱藏位址欄圖標
 floorp-lepton-enable-bookmarkbar_icon-hide = 
-    .label = Hide Bookmarks Bar icons
+    .label = 隱藏書籤列圖標
 floorp-lepton-enable-bookmarkbar_label-hide = 
-    .label = Hide Bookmarks Bar labels
+    .label = 隱藏書籤列文本
 floorp-lepton-enable-disabled_menu-hide = 
-    .label = Hide disabled context menu items
+    .label = 隱藏不可用的選單項目
 floorp-lepton-disable-userChrome-icon = 
-    .label = Disable Lepton's context menu and panel menu icons
+    .label = 禁用 Lepton 的選單項目以及面板的圖標
 floorp-lepton-disable-userChrome-menu-icon = 
-    .label = Enable Lepton's context menu icons
-positon-preferences = Position adjustments
+    .label = 啟用 Lepton 的選單項目圖標
+positon-preferences = 位置調整
 floorp-lepton-enable-centered-tab = 
-    .label = Center labels in tabs
+    .label = 居中顯示分頁標題
 floorp-lepton-enable-centered-urlbar = 
-    .label = Center text in the Address Bar
+    .label = 居中顯示位址欄文本
 floorp-lepton-enable-centered-bookmarkbar = 
-    .label = Center Bookmarks Bar items
-urlbar-preferences = Address Bar
+    .label = 居中顯示書籤列項目
+urlbar-preferences = 位址欄
 floorp-lepton-enable-urlbar-icon-move-to-left = 
-    .label = Move Address Bar icons to the left side
+    .label = 將位址欄圖標移至左邊
 floorp-lepton-enable-urlname-go_button_when_typing = 
-    .label = When typing, show a "Go" button
+    .label = 在鍵入時顯示"前進箭頭"按鈕
 floorp-lepton-enable-always-show-page_action = 
-    .label = Always show page actions in the Address Bar
-tabbar-preferences = Tab Bar
+    .label = 始終在位址欄顯示頁面操作
+tabbar-preferences = 分頁列
 floorp-lepton-enable-tabbar-positon-as-titlebar = 
-    .label = Tab Bar in the Title Bar
+    .label = 分頁列的位置作為單一頁面標題欄
 floorp-lepton-enable-tabbar-as-urlbar = 
-    .label = Combine Tab Bar and Toolbar
-lepton-sidebar-preferences = Sidebar
+    .label = 合併分頁列及工具列
+lepton-sidebar-preferences = 側邊欄
 floorp-lepton-enable-overlap-sidebar = 
-    .label = Show Sidebar over website content
+    .label = 在網站內容上顯示側邊欄
 floorp-home-mode-choice-default = 
-    .label = { -brand-short-name } Home (Default)
-floorp-home-prefs-content-header = { -brand-short-name } Home Content
-floorp-home-prefs-content-description = Choose the content you want to see on the { -brand-short-name } Home Page.
+    .label = { -brand-short-name } 首頁 (默認)
+floorp-home-prefs-content-header = { -brand-short-name } 首頁內容
+floorp-home-prefs-content-description = 選擇要在您的 { -brand-short-name } 首頁畫面顯示哪些內容。
 
 ## Notes
 
@@ -364,30 +362,30 @@ restore-button = Restore
 ## user.js
 
 header-userjs = user.js
-userjs-customize = Customize { -brand-short-name } with user.js
-about-userjs-customize = user.js is a configuration file that allows you to customize { -brand-short-name }. user.js files are downloaded from the Internet and overwrite your current user.js file. Please back up your current user.js file before continuing. user.js configurations will be applied automatically after restarting { -brand-short-name }.
-userjs-label = user.js list
-userjs-prompt = Apply this user.js?
-apply-userjs-attention = Applying a new user.js will overwrite your current user.js file.
-apply-userjs-attention2 = Please back up your current user.js file before continuing.
-userjs-button = user.js Settings...
-userjs-select-option = Manage the user.js currently used in { -brand-short-name } to improve performance and privacy.
-apply-userjs-button = Apply
+userjs-customize = 使用 user.js 客製化 { -brand-short-name }
+about-userjs-customize = user.js 是一種讓您可以客製化 { -brand-short-name } 的配置檔。user.js是從網路上下載的，並會覆寫您現使用的user.js配置檔。請在使用前備份好您現在的user.js。user.js配置檔會在 { -brand-short-name } 重啟後生效。
+userjs-label = user.js 列表
+userjs-prompt = 套用此 user.js？
+apply-userjs-attention = 套用新的 user.js 會覆寫您現在的 user.js 配置檔。
+apply-userjs-attention2 = 請在繼續之前先備份您現在使用的 user.js 配置檔。
+userjs-button = user.js 設定...
+userjs-select-option = 管理目前 { -brand-short-name } 使用的 user.js 以提升效能，增強隱私防護。
+apply-userjs-button = 套用
 
 ## userjs Options
 
-default-userjs-label = { -brand-short-name } Default
-about-default-userjs = Telemetry disabled. Well balanced { -brand-short-name } with various customizations enabled.
+default-userjs-label = { -brand-short-name } 預設
+about-default-userjs = 已禁用Telemetry。均衡豐富的可客製化版 { -brand-short-name } 。
 Securefox-label = Yokoffing Securefox
-about-Securefox = HTTPS-by-Default. Total Cookie Protection with site isolation. Enhanced state and network partitioning. Various other enhancements.
+about-Securefox = 默認連接 HTTPS。完全站點區隔的cookies防護。強化狀態與網路區隔。以及其他功能強化。
 default-label = Yokoffing Default
-about-default = All the essentials. None of the breakage. This is your user.js.
+about-default = 所有的必備功能。無任何故障。這個 user.js 由你作主。
 Fastfox-label = Yokoffing Fastfox
-about-Fastfox = Immensely increase Firefox's browsing speed. Give Chrome a run for its money!
+about-Fastfox = 提升強化 Floorp 的瀏覽速度，與 Chrome 對比也毫不遜色！
 Peskyfox-label = Yokoffing Peskyfox
-about-Peskyfox = Unclutter the new tab page. Remove Pocket. Restore compact mode as an option. Stop webpage notifications, pop-ups, and other annoyances.
-Smoothfox-label = Yokoffing Smoothfox
-about-Smoothfox = Get Edge-like smooth scrolling on your favorite browser — or choose something more your style.
+about-Peskyfox = 最佳化新分頁。移除 Pocket。復原 緊密(不支援) 密度選項。停止網站通知，彈窗以及其他煩瑣提示。
+Smoothfox-label = Yokoffsing Smoothfox
+about-Smoothfox = 在 Floorp 上實現類似 Edge 一般順滑的頁面滾動效果 —— 更舒適的瀏覽體驗。
 
 ## Workspaces
 
@@ -502,27 +500,27 @@ floorp-custom-actions-custom-action = Custom Actions (Experimental)
 
 ## Mouse Gestures
 
-mouse-gesture = Mouse Gestures
-mouse-gesture-description = Gesturefy must be installed to use mouse gestures with { -brand-short-name }.
+mouse-gesture = 滑鼠手勢
+mouse-gesture-description = 欲使用 { -brand-short-name } 的滑鼠手勢功能請先安裝 Gesturefy。
 Gesturefy = Gesturefy
-about-Gesturefy = Gesturefy is an extension that adds mouse gestures to your browser. If { -brand-short-name } detects the installation of this add-on, it will add gesture commands to Gesturefy that are only available in { -brand-short-name }. This add-on also create new tabs!
+about-Gesturefy = Gesturefy 是一款添加滑鼠手勢功能的擴充套件。如果 { -brand-short-name } 檢測到此擴充套件已安裝即會在 Gesturefy 中添加 { -brand-short-name } 限定的手勢指令。此擴充套件也可在新分頁中使用！
 # Translate
 TWS = Translate Web Pages
-about-TWS = Translate your page in real time using Google or Yandex. You can also translate selected text or the entire page.
+about-TWS = 安裝此擴充套件後即可使用 Google 或 Yandex 的翻譯服務對頁面進行實時翻譯。您也可以選擇只翻譯部分字節或整個頁面。
 
 # Privacy Hub
 
 
 ## BlockMoreTrackers
 
-privacy-hub-header = Privacy Hub
-block-more-tracker = Block more Ads and Trackers
-block-tracker = This section contains a set of extensions designed to block ads and trackers
-view-at-AMO = View this addon in addons.mozilla.org
+privacy-hub-header = 隱私中心
+block-more-tracker = 屏蔽更多的廣告以及追蹤器
+block-tracker = 此區域旨在推介一系列專為屏蔽廣告以及追蹤器設計的擴充套件
+view-at-AMO = 在 addons.mozilla.org 查看此擴充套件
 uBlock-Origin = uBlock Origin
-about-uboori = uBlock Origin blocks ads, extensive trackers, and additional dangerous sites.
+about-uboori = uBlock Origin可屏蔽廣告，大量的追蹤器，以及危險的網站。
 Facebook-Container = Facebook Container
-about-Facebook-Container = Prevent Facebook from tracking you around the web. Facebook Container extension helps you take control and isolate your web activity from Facebook.
+about-Facebook-Container = 阻止臉書在網絡上追蹤你。Facebook Container擴充套件可幫助您掌握並從Facebook上的活動區隔開來。
 
 ## Fingerprinting
 
@@ -545,8 +543,8 @@ WebRTC =
     .label = Enable WebRTC Connection
 ################################################################### browser ###############################################################
 
-rest-mode = Taking a break...
-rest-mode-description = { -brand-short-name } is currently suspended. Press ENTER or OK to continue.
+rest-mode = 正在休息中...
+rest-mode-description = { -brand-short-name } 現正休息中。請按 ENTER 或是 確認鈕 繼續瀏覽。
 Sidebar2 = 
     .label = Browser Manager Sidebar
     .tooltiptext = Change Sidebar visibility
@@ -604,35 +602,35 @@ bsb-context-link-add =
 #################################################################### menu panel ############################################################
 
 open-profile-dir = 
-    .label = Open Profile Directory
+    .label = 開啟用戶設定檔目錄
 ####################################################################### menu ###############################################################
 
 css-menu = 
-    .label = CSS
+    .label = CSS樣式
     .accesskey = C
 css-menubar = 
-    .label = CSS
+    .label = CSS樣式
     .accesskey = C
 rebuild-css = 
-    .label = Rebuild browser CSS files
+    .label = 重建瀏覽器CSS樣式檔
     .accesskey = R
 make-browsercss-file = 
-    .label = Create browser CSS file
+    .label = 創建瀏覽器CSS樣式檔
     .accesskey = M
 open-css-folder = 
-    .label = Open CSS folder
+    .label = 開啟CSS樣式資料夾
     .accesskey = O
 edit-userChromeCss-editor = 
-    .label = Edit userChrome.css file
+    .label = 編輯 userChrome.css 配置檔
 edit-userContentCss-editor = 
-    .label = Edit userContent.css file
-not-found-editor-path = Could not find a CSS file editor
-set-pref-description = Input the file location of the CSS file editor you want to use:
-rebuild-complete = Rebuild has been completed.
-please-enter-filename = Please enter a file name.
+    .label = 編輯 userContent.css 配置檔
+not-found-editor-path = 找不到CSS樣式檔編輯器
+set-pref-description = 鍵入您想使用的CSS樣式檔編輯器的程式所在資料夾：
+rebuild-complete = 重建已經完成。
+please-enter-filename = 請鍵入檔案名。
 ################################################################### Undo-Closed-Tab ###############################################################
 
-undo-closed-tab = Reopen closed tab
+undo-closed-tab = 恢復先前關閉的分頁
 ################################################################### about:addons ###############################################################
 
 # Dual Theme
@@ -642,7 +640,7 @@ dual-theme-enabled-heading = Enabled as a sub-theme
 ##################################################################### toolbar ###############################################################
 
 status-bar = 
-    .label = Status Bar
+    .label = 狀態列
     .accesskey = S
 ##################################################################### Gesturefy ###############################################################
 
@@ -715,44 +713,44 @@ memo-new-title = New Note
 chage-view-mode = Toggle View/Edit Mode
 readonly-mode = Offline (Read-only)
 ######################################################################### Default bookmarks ###############################################################
-default-bookmark-ablaze-support = Ablaze Support
+default-bookmark-ablaze-support = Ablaze 支援
 ######################################################################### Like Chrome Download mgr ###############################################################
 
 floorp-delete-all-downloads = 
-    .label = Clear Downloads
+    .label = 清除下載記錄
     .accesskey = D
-    .tooltiptext = Clear Downloads
+    .tooltiptext = 清除下載記錄
 floorp-show-all-downloads = 
-    .label = Show all downloads
+    .label = 顯示所有下載
     .accesskey = S
-    .tooltiptext = Show all downloads
+    .tooltiptext = 顯示所有下載
 ######################################################################### workspace ###############################################################
 
-workspace-prompt-title = { -brand-short-name } Workspace
-please-enter-workspace-name = Please enter the Workspace's new name.
-please-enter-workspace-name-2 = The Workspace's name cannot contain symbols and spaces.
-workspace-error = An error occurred:
-workspace-error-discription = Either a Workspace with this name exists or the name is invalid.
-workspace-button = Workspaces
-    .label = Workspaces
-    .tooltiptext = Select a Workspace...
-workspace-default = Default
+workspace-prompt-title = { -brand-short-name } 工作空間
+please-enter-workspace-name = 請輸入工作空間的新名稱。
+please-enter-workspace-name-2 = 工作空間的命名不可以包含符號及空格。
+workspace-error = 發生錯誤：
+workspace-error-discription = 已有相同名稱的工作空間存在，或此名稱無效。
+workspace-button = 工作空間
+    .label = 工作空間
+    .tooltiptext = 選擇一個工作空間...
+workspace-default = 預設
 workspace-add = 
-    .label = New Workspace...
+    .label = 新增工作空間...
 workspace-context-menu-selected-tab = 
-    .label = Selected tab cannot be moved
+    .label = 選定的分頁不可被移動
 move-tab-another-workspace = 
-    .label = Move to another Workspace
+    .label = 移至另一個工作空間
 workspace-rename = 
-    .label = Rename this Workspace
+    .label = 重新命名此工作空間
 workspace-delete = 
-    .label = Delete Workspace
-manage-workspace = Manage this Workspace
-    .label = Manage this workspace
+    .label = 刪除工作空間
+manage-workspace = 管理此工作空間
+    .label = 管理此工作空間
 ######################################################################### menubar item ###############################################################
 
 sharemode-menuitem = 
-    .label = Share Mode
+    .label = 共享模式
     .accesskey = S
 ############################################################################## Welcome page ###############################################################
 
@@ -826,7 +824,7 @@ floorp-custom-actions-print-page = Print page
     .label = Print page
 floorp-custom-actions-mute-current-tab = Toggle mute/unmute current tab
     .label = Toggle mute/unmute current tab
-floorp-custom-actions-toggle-bookmark-toolbar = 
+floorp-custom-actions-toggle-bookmark-toolbar = Toggle bookmark toolbar
     .label = Toggle Bookmarks Toolbar
 floorp-custom-actions-show-source-of-page = Show source of page
     .label = Open Page Source
@@ -958,6 +956,8 @@ floorp-custom-actions-custom-action-4 = Custom action 4
     .label = Custom action 4
 floorp-custom-actions-custom-action-5 = Custom action 5
     .label = Custom action 5
+floorp-custom-actions-rest-mode = Enable rest mode
+    .label = Enable rest mode
 ##################################################################### Profile Switcher ###############################################################
 
 floorp-open-profile-with-new-instance = Launch

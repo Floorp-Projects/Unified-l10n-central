@@ -101,8 +101,6 @@ search-positon-top =
     .label = Display the Find Bar at the top of the page
 allow-auto-restart = 
     .label = Starta om automatiskt när inställningar som kräver en omstart ändras
-enable-rest-mode = 
-    .label = Enable Rest Mode shortcut (F9)
 disable-fullscreen-notification = 
     .label = Visa inte en avisering när du går in i helskärm
 
@@ -826,7 +824,7 @@ floorp-custom-actions-print-page = Skriv ut sidan
     .label = Skriv ut sidan
 floorp-custom-actions-mute-current-tab = Växla tyst/stäng av aktuell flik
     .label = Växla tyst/stäng av aktuell flik
-floorp-custom-actions-toggle-bookmark-toolbar = 
+floorp-custom-actions-toggle-bookmark-toolbar = Toggle bookmark toolbar
     .label = Växla bokmärken verktygsfält
 floorp-custom-actions-show-source-of-page = Visa källkod för sidan
     .label = Källa för öppen sida
@@ -958,6 +956,8 @@ floorp-custom-actions-custom-action-4 = Anpassad åtgärd 4
     .label = Anpassad åtgärd 4
 floorp-custom-actions-custom-action-5 = Anpassad åtgärd 5
     .label = Anpassad åtgärd 5
+floorp-custom-actions-rest-mode = Enable rest mode
+    .label = Enable rest mode
 ##################################################################### Profile Switcher ###############################################################
 
 floorp-open-profile-with-new-instance = Starta
