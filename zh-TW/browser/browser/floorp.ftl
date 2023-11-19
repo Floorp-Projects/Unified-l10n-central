@@ -544,7 +544,7 @@ WebRTC =
 ################################################################### browser ###############################################################
 
 rest-mode = 正在休息中...
-rest-mode-description = { -brand-short-name } is currently suspended. Press ENTER or OK to continue.
+rest-mode-description = { -brand-short-name } 現正休息中。請按 ENTER 或是 確認鈕 繼續瀏覽。
 Sidebar2 = 
     .label = Browser Manager Sidebar
     .tooltiptext = Change Sidebar visibility
