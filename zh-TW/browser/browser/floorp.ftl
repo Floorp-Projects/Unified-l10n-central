@@ -346,10 +346,10 @@ floorp-home-prefs-content-description = 選擇要在您的 { -brand-short-name }
 
 ## Notes
 
-floorp-notes = { -brand-short-name } Notes
-restore-from-backup = Restore Notes from backup
+floorp-notes = { -brand-short-name } 筆記
+restore-from-backup = 從備份中還原筆記
 enable-notes-sync = 
-    .label = Enable { -brand-short-name } Notes Sync
+    .label = 啟用 { -brand-short-name } 筆記同步功能
 about-notes-backup-tips = { -brand-short-name } Notes uses Firefox Sync to sync your notes with other devices. If you lose your notes, you can restore them from a backup. A backup is created when you launch { -brand-short-name }.
 notes-sync-description = This can solve the problem of losing content due to overwriting notes during synchronization.
 backuped-time = Backed up at
