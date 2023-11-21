@@ -142,7 +142,7 @@ finish-always-notify =
 always-notify = 
     .label = 在開始下載以及下載完成時通知
 do-not-notify = 
-    .label = 禁用下載通知
+    .label = 停用下載通知
 
 ## Sidebar
 
@@ -250,7 +250,7 @@ newtab-background-random-image =
 newtab-background-gradation = 
     .label = 漸層圖像
 newtab-background-not-background = 
-    .label = 禁用背景圖像
+    .label = 停用背景圖像
 newtab-background-selected-image = 
     .label = 自定義資料夾
 newtab-background-folder = 從此資料夾使用圖像：
@@ -263,7 +263,7 @@ newtab-background-folder-open =
 newtab-background-folder-choose = 選擇圖像資料夾...
 newtab-background-extensions = 使用擁有以下副檔名的圖像 (以","分割)
 disable-blur-on-newtab = 
-    .label = 在 { -brand-short-name } 主頁上禁用模糊效果
+    .label = 在 { -brand-short-name } 主頁上停用模糊效果
 
 ## Lepton Preferences
 
@@ -316,7 +316,7 @@ floorp-lepton-enable-bookmarkbar_label-hide =
 floorp-lepton-enable-disabled_menu-hide = 
     .label = 隱藏不可用的選單項目
 floorp-lepton-disable-userChrome-icon = 
-    .label = 禁用 Lepton 的選單項目以及面板的圖標
+    .label = 停用 Lepton 的選單項目以及面板的圖標
 floorp-lepton-disable-userChrome-menu-icon = 
     .label = 啟用 Lepton 的選單項目圖標
 positon-preferences = 位置調整
@@ -465,7 +465,7 @@ workspace-icon-chill =
 floorp-CSK-title = 自訂鍵盤快捷鍵
 floorp-CSK-description = 客製化 { -brand-short-name } 的鍵盤快捷鍵。 { -brand-short-name } 提供超過80種可自訂的鍵盤快捷鍵位！重複的快捷鍵位將不會生效。請重啟 { -brand-short-name } 套用變更。
 disable-fx-actions = 
-    .label = 禁用 Mozilla Firefox 原訂的鍵盤快捷鍵
+    .label = 停用 Mozilla Firefox 原訂的鍵盤快捷鍵
 customize-Action = 
     .label = 添加快捷鍵
 remove-Action = 
@@ -491,14 +491,14 @@ floorp-custom-actions-visible-action = 可見操作
 floorp-custom-actions-search-action = 搜尋操作
 floorp-custom-actions-tools-action = 工具操作
 floorp-custom-actions-bookmark-action = 書籤操作
-floorp-custom-actions-open-page-action = Open Page Actions
-floorp-custom-actions-history-action = History Actions
-floorp-custom-actions-pip-action = Picture-in-Picture Actions
-floorp-custom-actions-downloads-action = Downloads Actions
-floorp-custom-actions-sidebar-action = Sidebar Actions
-floorp-custom-actions-bms-action = Browser Manager Sidebar Actions
-floorp-custom-actions-workspace-action = Workspaces Actions
-floorp-custom-actions-custom-action = Custom Actions (Experimental)
+floorp-custom-actions-open-page-action = 開啟頁面操作
+floorp-custom-actions-history-action = 歷史操作
+floorp-custom-actions-pip-action = 字母畫面操作
+floorp-custom-actions-downloads-action = 下載操作
+floorp-custom-actions-sidebar-action = 側邊欄操作
+floorp-custom-actions-bms-action = 管理工具側邊欄操作
+floorp-custom-actions-workspace-action = 工作空間操作
+floorp-custom-actions-custom-action = 自訂操作 (實驗性質)
 
 ## Mouse Gestures
 
@@ -636,9 +636,9 @@ undo-closed-tab = 恢復先前關閉的分頁
 ################################################################### about:addons ###############################################################
 
 # Dual Theme
-dual-theme-enable-addon-button = Enable as a sub-theme
-dual-theme-disable-addon-button = Disable sub-theme
-dual-theme-enabled-heading = Enabled as a sub-theme
+dual-theme-enable-addon-button = 作為子主題啟用
+dual-theme-disable-addon-button = 停用子主題
+dual-theme-enabled-heading = 已啟用的子主題：
 ##################################################################### toolbar ###############################################################
 
 status-bar = 
@@ -973,29 +973,29 @@ floorp-profile = Profile
     .tooltiptext = Open Profile Manager
 fxa-not-signed-in = Not signed in
 ###################################################################### Private Container ##############################################################
-floorp-private-container-name = Private
+floorp-private-container-name = 私隱
 floorp-toggle-private-container = 
-    .label = Reopen in Private/No Container
+    .label = 在私隱/無容器中重新開啟
     .accesskey = P
 open-in_private-container = 
-    .label = Open in New Tab with Private Container
+    .label = 用私隱容器在新分頁開啟
 ######################################################################## Split View ###############################################################
 
 floorp-split-view-menu = 
-    .label = Fixed in split view
+    .label = 固定至分割視圖中檢視
 splitview-show-on-right = 
-    .label = Show on right
+    .label = 於右側顯示
 splitview-show-on-left = 
-    .label = Show on left
+    .label = 於左側顯示
 splitview-close-split-tab = 
-    .label = Close split tab
+    .label = 關閉分割視圖分頁
 ######################################################################### Page Actions ###############################################################
-qrcode-generate-page-action-title = Scan QR Code with your Phone
+qrcode-generate-page-action-title = 使用手機掃描 QR Code
 qrcode-generate-page-action = 
-    .tooltiptext = Share this page with your phone
+    .tooltiptext = 與手機分享此頁面
 ######################################################################### Customize Mode ###############################################################
 floorp-customize-mode-unified-extensions-button = 
-    .label = Unified Extensions Button
+    .label = 統合擴充套件按鈕
 ######################################################################### Progressive Web Apps (SSB) ###############################################################
 
 ssb-page-action-title = Install app
