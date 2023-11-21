@@ -75,9 +75,11 @@ native-vertical-tab-show-right =
 hover-vertical-tab = 
     .label = 折叠垂直标签栏
 floorp-show-vertical-tab-newtab-button = 
-    .label = Show the "Open a new tab" button inside Vertical Tab Bar
+    .label = 在垂直标签栏内显示 "打开新标签页 "按钮
+floorp-show-vertical-tab-scrollbar = 
+    .label = Show scrollbar on Vertical Tab Bar
 TST = Tree Style Tab
-about-TST = Tree Style Tab 是一个受欢迎的插件，允许您以树状结构显示标签页。 { -brand-short-name } 已经内置了这个插件。请安装此插件以恢复 { -brand-short-name } 内置的垂直标签栏功能。
+about-TST = Tree Style Tab 是一个受欢迎的扩展，允许您以树状结构显示标签页。 { -brand-short-name } 已经内置了这个插件。请安装此插件以恢复 { -brand-short-name } 内置的垂直标签栏功能。
 treestyletab-Settings = 
     .label = 折叠 Tree Style Tab
 sidebar-reverse-position-toolbar = 在另一侧显示侧边栏
@@ -124,11 +126,11 @@ firefox-proton =
 firefox-photon-lepton = 
     .label = Firefox Photon・Lepton UI
 floorp-fluentUI = 
-    .label = Microsoft Fluent UI (deprecated)
+    .label = Microsoft Fluent UI (已废弃)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI (deprecated)
+    .label = { -brand-short-name } Fluerial UI (已废弃)
 floorp-gnomeUI = 
-    .label = GNOME Theme (deprecated)
+    .label = GNOME Theme (已废弃)
 
 ## Download Manager
 
