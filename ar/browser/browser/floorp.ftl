@@ -782,7 +782,7 @@ welcome-import-data-button = استيراد البيانات...
 welcome-import-data-skip = تخطي الاستيراد
 welcome-select-button = حدد
 welcome-finish-setup = اكتمل الإعداد!
-welcome-finish-setup-description = You're all set! Other settings like Vertical Tabs & Add-ons can be found in about:preferences. Enjoy { -brand-short-name }!
+welcome-finish-setup-description = You're all set! Other features like Vertical Tabs & Workspaces can be found in { -brand-short-name }'s Settings. Enjoy { -brand-short-name }!
 welcomet-finish-setup = بدء تصفح الويب
 ############################################################# Custom Shortcutkey ###############################################################
 
