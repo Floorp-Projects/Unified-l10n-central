@@ -782,7 +782,7 @@ welcome-import-data-button = Importuoti duomenis...
 welcome-import-data-skip = Praleisti importą
 welcome-select-button = Pasirinkite
 welcome-finish-setup = Sąranka baigta!
-welcome-finish-setup-description = Viskas paruošta! Kitus nustatymus, kaip pavyzdžiui vertikalūs skirtukai ir papildiniai, rasite skyriuje about:preferences. Mėgaukitės „{ -brand-short-name }“!
+welcome-finish-setup-description = You're all set! Other features like Vertical Tabs & Workspaces can be found in { -brand-short-name }'s Settings. Enjoy { -brand-short-name }!
 welcomet-finish-setup = Pradėkite naršyti internete
 ############################################################# Custom Shortcutkey ###############################################################
 
