@@ -782,7 +782,7 @@ welcome-import-data-button = Importovat data...
 welcome-import-data-skip = Přeskočit import
 welcome-select-button = Vybrat
 welcome-finish-setup = Nastavení dokončeno!
-welcome-finish-setup-description = Všechno je nastaveno! Další nastavení, jako jsou vertikální záložky a doplňky, lze nalézt v about:preferencích. Užijte si { -brand-short-name }!
+welcome-finish-setup-description = You're all set! Other features like Vertical Tabs & Workspaces can be found in { -brand-short-name }'s Settings. Enjoy { -brand-short-name }!
 welcomet-finish-setup = Začněte prohlížet web
 ############################################################# Custom Shortcutkey ###############################################################
 
