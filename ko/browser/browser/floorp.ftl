@@ -782,7 +782,7 @@ welcome-import-data-button = 데이터 가져오기...
 welcome-import-data-skip = 가져오기 건너뛰기
 welcome-select-button = 선택
 welcome-finish-setup = 설정 완료!
-welcome-finish-setup-description = 모든 설정이 완료되었습니다! 세로 탭 및 추가 기능과 같은 다른 설정은 about:환경설정에서 찾을 수 있습니다. { -brand-short-name }즐기세요!
+welcome-finish-setup-description = You're all set! Other features like Vertical Tabs & Workspaces can be found in { -brand-short-name }'s Settings. Enjoy { -brand-short-name }!
 welcomet-finish-setup = 웹 브라우징 시작
 ############################################################# Custom Shortcutkey ###############################################################
 
