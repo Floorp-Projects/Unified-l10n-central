@@ -782,7 +782,7 @@ welcome-import-data-button = Εισαγωγή δεδομένων...
 welcome-import-data-skip = Παράλειψη Εισαγωγής
 welcome-select-button = Επιλογή
 welcome-finish-setup = Η Ρύθμιση Ολοκληρώθηκε!
-welcome-finish-setup-description = Είστε έτοιμοι! Άλλες ρυθμίσεις όπως οι κάθετες καρτέλες και τα πρόσθετα μπορείτε να βρείτε στο about:preferences. Απολαύστε το { -brand-short-name }!
+welcome-finish-setup-description = You're all set! Other features like Vertical Tabs & Workspaces can be found in { -brand-short-name }'s Settings. Enjoy { -brand-short-name }!
 welcomet-finish-setup = Έναρξη περιήγησης στο διαδίκτυο
 ############################################################# Custom Shortcutkey ###############################################################
 
