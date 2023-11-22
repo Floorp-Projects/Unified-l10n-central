@@ -782,7 +782,7 @@ welcome-import-data-button = Importér Data...
 welcome-import-data-skip = Overspring Import
 welcome-select-button = Vælg
 welcome-finish-setup = Opsætning Fuldført!
-welcome-finish-setup-description = Du er alle indstillet! Andre indstillinger såsom Lodrette faneblade og tilføjelser kan findes i om:præferencer. Nyd { -brand-short-name }!
+welcome-finish-setup-description = You're all set! Other features like Vertical Tabs & Workspaces can be found in { -brand-short-name }'s Settings. Enjoy { -brand-short-name }!
 welcomet-finish-setup = Begynd at gennemse internettet
 ############################################################# Custom Shortcutkey ###############################################################
 
