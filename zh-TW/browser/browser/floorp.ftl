@@ -646,12 +646,12 @@ status-bar =
     .accesskey = S
 ##################################################################### Gesturefy ###############################################################
 
-gf-floorp-open-tree-style-tab-name = [{ -brand-short-name }] Open Tree Style Tab Panel
-gf-floorp-open-tree-style-tab-description = Open Tree Style Tab Panel on the Sidebar
-gf-floorp-open-bookmarks-sidebar-name = [{ -brand-short-name }] Open Bookmarks Panel
-gf-floorp-open-bookmarks-sidebar-description = Open Bookmarks Panel on the Sidebar
-gf-floorp-open-history-sidebar-name = [{ -brand-short-name }] Open History Panel
-gf-floorp-open-history-sidebar-description = Open History Panel on the Sidebar
+gf-floorp-open-tree-style-tab-name = [{ -brand-short-name }] 開啟樹狀分頁列
+gf-floorp-open-tree-style-tab-description = 在側邊欄開啟樹狀側邊欄
+gf-floorp-open-bookmarks-sidebar-name = [{ -brand-short-name }] 開啟書籤面板
+gf-floorp-open-bookmarks-sidebar-description = 在側邊欄開啟書籤面板
+gf-floorp-open-history-sidebar-name = [{ -brand-short-name }] 開啟歷史面板
+gf-floorp-open-history-sidebar-description = 在側邊欄開啟歷史面板
 gf-floorp-open-synctabs-sidebar-name = [{ -brand-short-name }] Open Synced Tabs Panel
 gf-floorp-open-synctabs-sidebar-description = Open Synced Tabs Panel on the Sidebar
 gf-floorp-close-sidebar-name = [{ -brand-short-name }] Close Sidebar
