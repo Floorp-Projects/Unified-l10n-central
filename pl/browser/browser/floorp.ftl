@@ -782,7 +782,7 @@ welcome-import-data-button = Importuj dane...
 welcome-import-data-skip = Pomiń import
 welcome-select-button = Wybierz
 welcome-finish-setup = Konfiguracja zakończona!
-welcome-finish-setup-description = Wszystko gotowe! Inne ustawienia, takie jak pionowe karty i dodatki, można znaleźć w about:preferencje. Ciesz się { -brand-short-name }!
+welcome-finish-setup-description = You're all set! Other features like Vertical Tabs & Workspaces can be found in { -brand-short-name }'s Settings. Enjoy { -brand-short-name }!
 welcomet-finish-setup = Rozpocznij przeglądanie sieci Web
 ############################################################# Custom Shortcutkey ###############################################################
 
