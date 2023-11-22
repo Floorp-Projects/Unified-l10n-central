@@ -782,7 +782,7 @@ welcome-import-data-button = Mengimpor Data...
 welcome-import-data-skip = Lewati Impor
 welcome-select-button = Pilih
 welcome-finish-setup = Setup selesai!
-welcome-finish-setup-description = Anda sudah siap! Pengaturan lain seperti Tab Vertikal & Pengaya dapat ditemukan di about:preferensi. Selamat menikmati { -brand-short-name }!
+welcome-finish-setup-description = You're all set! Other features like Vertical Tabs & Workspaces can be found in { -brand-short-name }'s Settings. Enjoy { -brand-short-name }!
 welcomet-finish-setup = Mulai Menjelajahi Web
 ############################################################# Custom Shortcutkey ###############################################################
 
