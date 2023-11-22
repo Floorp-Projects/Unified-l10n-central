@@ -956,7 +956,7 @@ welcome-import-data-button = Import Data...
 welcome-import-data-skip = Skip Import
 welcome-select-button = Select
 welcome-finish-setup = Setup Complete!
-welcome-finish-setup-description = You're all set! Other settings like Vertical Tabs & Add-ons can be found in about:preferences. Enjoy { -brand-short-name }!
+welcome-finish-setup-description = You're all set! Other features like Vertical Tabs & Workspaces can be found in { -brand-short-name }'s Settings. Enjoy { -brand-short-name }!
 welcomet-finish-setup = Start Browsing the Web
 
 ############################################################# Custom Shortcutkey ###############################################################
