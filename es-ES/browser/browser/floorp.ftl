@@ -782,7 +782,7 @@ welcome-import-data-button = Importar datos...
 welcome-import-data-skip = Omitir importación
 welcome-select-button = Seleccionar
 welcome-finish-setup = ¡Configuración completada!
-welcome-finish-setup-description = ¡Listo! Otras configuraciones, como Pestañas verticales y Complementos, pueden encontrarse en about:preferences. Disfrute de { -brand-short-name }.
+welcome-finish-setup-description = You're all set! Other features like Vertical Tabs & Workspaces can be found in { -brand-short-name }'s Settings. Enjoy { -brand-short-name }!
 welcomet-finish-setup = Empezar a navegar por la web
 ############################################################# Custom Shortcutkey ###############################################################
 
