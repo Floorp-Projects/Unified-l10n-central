@@ -782,7 +782,7 @@ welcome-import-data-button = Adatok importálása...
 welcome-import-data-skip = Importálás kihagyása
 welcome-select-button = Válassza ki a  címet.
 welcome-finish-setup = Beállítás befejezve!
-welcome-finish-setup-description = Készen állsz! Az egyéb beállítások, mint például a Függőleges lapok és kiegészítők a about:preferences menüpontban találhatók. Élvezze a { -brand-short-name }!
+welcome-finish-setup-description = You're all set! Other features like Vertical Tabs & Workspaces can be found in { -brand-short-name }'s Settings. Enjoy { -brand-short-name }!
 welcomet-finish-setup = Kezdje el a böngészést a weben
 ############################################################# Custom Shortcutkey ###############################################################
 
