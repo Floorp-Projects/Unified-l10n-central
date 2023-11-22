@@ -782,7 +782,7 @@ welcome-import-data-button = Importera data...
 welcome-import-data-skip = Hoppa över import
 welcome-select-button = Välj
 welcome-finish-setup = Konfigurationen slutförd!
-welcome-finish-setup-description = Du har alla inställt! Andra inställningar som Vertikalflikar och tillägg finns i about:preferences. Njut av { -brand-short-name }!
+welcome-finish-setup-description = You're all set! Other features like Vertical Tabs & Workspaces can be found in { -brand-short-name }'s Settings. Enjoy { -brand-short-name }!
 welcomet-finish-setup = Börja bläddra på webben
 ############################################################# Custom Shortcutkey ###############################################################
 
