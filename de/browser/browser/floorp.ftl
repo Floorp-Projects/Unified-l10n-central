@@ -782,7 +782,7 @@ welcome-import-data-button = Daten importieren...
 welcome-import-data-skip = Import überspringen
 welcome-select-button = Auswählen
 welcome-finish-setup = Einrichtung abgeschlossen!
-welcome-finish-setup-description = Sie sind fertig! Andere Einstellungen wie Vertikale Tabs & Add-ons finden Sie in den Browsereinstellungen. Viel Spaß mit { -brand-short-name }!
+welcome-finish-setup-description = You're all set! Other features like Vertical Tabs & Workspaces can be found in { -brand-short-name }'s Settings. Enjoy { -brand-short-name }!
 welcomet-finish-setup = Beginne im Web zu surfen
 ############################################################# Custom Shortcutkey ###############################################################
 
