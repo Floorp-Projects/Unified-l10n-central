@@ -782,7 +782,7 @@ welcome-import-data-button = Veri İçe Aktar...
 welcome-import-data-skip = İçe Aktarmayı Atla
 welcome-select-button = Seçiniz
 welcome-finish-setup = Kurulum Tamamlandı!
-welcome-finish-setup-description = Her şey hazır! Dikey Sekmeler ve Eklentiler gibi diğer ayarları about:preferences'da bulabilirsiniz. { -brand-short-name }'un keyfini çıkarın!
+welcome-finish-setup-description = You're all set! Other features like Vertical Tabs & Workspaces can be found in { -brand-short-name }'s Settings. Enjoy { -brand-short-name }!
 welcomet-finish-setup = Web'de Gezinmeye Başlayın
 ############################################################# Custom Shortcutkey ###############################################################
 
