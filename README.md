@@ -20,27 +20,27 @@ git clone https://github.com/{YOUR_USERNAME}/Unified-l10n-central.git
 git checkout -b your_branch
 ```
 
-3. Edit `floorp.ftl` file.
+4. Edit `floorp.ftl` file.
 
 The `ftl` file extension is used for Fluent localization files. You can learn more about the Fluent localization format by visiting the [official Fluent documentation](https://projectfluent.org/fluent/guide/).
 
 To localize a string, simply modify the text after the `=` sign.
 
 
-4. Commit your changes.
+5. Commit your changes.
 
 ```bash
 git add .
 git commit -m "Your commit message"
 ```
 
-5. Push your changes.
+6. Push your changes.
 
 ```bash
 git push origin your_branch
 ```
 
-6. Create a pull request.
+7. Create a pull request.
 
 [Create Pull Request](https://github.com/Floorp-Projects/Unified-l10n-central/compare)
 
