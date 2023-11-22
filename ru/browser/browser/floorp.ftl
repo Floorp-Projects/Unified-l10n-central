@@ -782,7 +782,7 @@ welcome-import-data-button = Импортировать данные...
 welcome-import-data-skip = Пропустить импорт
 welcome-select-button = Выбрать
 welcome-finish-setup = Настройка завершена!
-welcome-finish-setup-description = You're all set! Other features like Vertical Tabs & Workspaces can be found in { -brand-short-name }'s Settings. Enjoy { -brand-short-name }!
+welcome-finish-setup-description = Всё готово! Другие возможности, такие как вертикальные вкладки и рабочие пространства, могут быть найдены в настройках { -brand-short-name }. Приятного использования!
 welcomet-finish-setup = Начать просмотр
 ############################################################# Custom Shortcutkey ###############################################################
 
