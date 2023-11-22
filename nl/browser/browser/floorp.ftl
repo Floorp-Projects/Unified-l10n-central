@@ -782,7 +782,7 @@ welcome-import-data-button = Gegevens importeren...
 welcome-import-data-skip = Importeren overslaan
 welcome-select-button = Selecteren
 welcome-finish-setup = Installatie voltooid!
-welcome-finish-setup-description = Je bent klaar! Andere instellingen zoals verticale tabbladen en add-ons zijn te vinden in about:voorkeuren. Geniet van { -brand-short-name }!
+welcome-finish-setup-description = You're all set! Other features like Vertical Tabs & Workspaces can be found in { -brand-short-name }'s Settings. Enjoy { -brand-short-name }!
 welcomet-finish-setup = Browsen starten op het web
 ############################################################# Custom Shortcutkey ###############################################################
 
