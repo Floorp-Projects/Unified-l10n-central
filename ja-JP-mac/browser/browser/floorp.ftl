@@ -782,7 +782,7 @@ welcome-import-data-button = データを読み込む...
 welcome-import-data-skip = インポートをスキップ
 welcome-select-button = 選択
 welcome-finish-setup = セットアップ完了！
-welcome-finish-setup-description = 準備完了です！垂直タブやアドオンのようなその他の設定は about:preference で見つけることができます。 { -brand-short-name } をお楽しみください！
+welcome-finish-setup-description = You're all set! Other features like Vertical Tabs & Workspaces can be found in { -brand-short-name }'s Settings. Enjoy { -brand-short-name }!
 welcomet-finish-setup = ネットの海に飛び込もう！
 ############################################################# Custom Shortcutkey ###############################################################
 
