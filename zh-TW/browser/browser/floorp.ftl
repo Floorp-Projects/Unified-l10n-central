@@ -782,7 +782,7 @@ welcome-import-data-button = 匯入數據...
 welcome-import-data-skip = 跳過匯入
 welcome-select-button = 選擇
 welcome-finish-setup = 設定完成！
-welcome-finish-setup-description = You're all set! Other features like Vertical Tabs & Workspaces can be found in { -brand-short-name }'s Settings. Enjoy { -brand-short-name }!
+welcome-finish-setup-description = 您已經設定完成！垂直分頁以及工作空間等功能可以在 "設定"中找到。開始暢享 { -brand-short-name } 吧！
 welcomet-finish-setup = 開始瀏覽吧！
 ############################################################# Custom Shortcutkey ###############################################################
 
