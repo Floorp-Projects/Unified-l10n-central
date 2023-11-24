@@ -647,28 +647,28 @@ status-bar =
 ##################################################################### Gesturefy ###############################################################
 
 gf-floorp-open-tree-style-tab-name = [{ -brand-short-name }] Tree-Style Tab Panel öffnen
-gf-floorp-open-tree-style-tab-description = Open Tree Style Tab Panel on the Sidebar
-gf-floorp-open-bookmarks-sidebar-name = [{ -brand-short-name }] Open Bookmarks Panel
-gf-floorp-open-bookmarks-sidebar-description = Open Bookmarks Panel on the Sidebar
-gf-floorp-open-history-sidebar-name = [{ -brand-short-name }] Open History Panel
-gf-floorp-open-history-sidebar-description = Open History Panel on the Sidebar
-gf-floorp-open-synctabs-sidebar-name = [{ -brand-short-name }] Open Synced Tabs Panel
-gf-floorp-open-synctabs-sidebar-description = Open Synced Tabs Panel on the Sidebar
+gf-floorp-open-tree-style-tab-description = Tree-Style Tab Panel in der Seitenleiste öffnen
+gf-floorp-open-bookmarks-sidebar-name = [{ -brand-short-name }] Lesezeichen-Panel öffnen
+gf-floorp-open-bookmarks-sidebar-description = Lesezeichen-Panel in der Seitenleiste öffnen
+gf-floorp-open-history-sidebar-name = [{ -brand-short-name }] Chronik-Panel öffnen
+gf-floorp-open-history-sidebar-description = Chronik-Panel in der Seitenleiste öffnen
+gf-floorp-open-synctabs-sidebar-name = [{ -brand-short-name }] Synchronisierte Tabs-Panel öffnen
+gf-floorp-open-synctabs-sidebar-description = Synchronisierte Tab-Panel in der Seitenleiste öffnen
 gf-floorp-close-sidebar-name = [{ -brand-short-name }] Seitenleiste schließen
 gf-floorp-close-sidebar-description = Seitenleiste schließen
 gf-floorp-open-browser-manager-sidebar-name = [{ -brand-short-name }] Öffne BMS
 gf-floorp-open-browser-manager-sidebar-description = Browser Manager Sidebar öffnen, wenn das Web-Panel der Browser Manager Sidebar geladen ist
 gf-floorp-close-browser-manager-sidebar-name = [{ -brand-short-name }] BMS schließen
-gf-floorp-close-browser-manager-sidebar-description = Browser Manager Seitenleiste schließen
+gf-floorp-close-browser-manager-sidebar-description = Browser Manager Sidebar schließen
 gf-floorp-show-browser-manager-sidebar-name = [{ -brand-short-name }] BMS umschalten
-gf-floorp-show-browser-manager-sidebar-description = Browser-Manager-Seitenleiste umschalten
+gf-floorp-show-browser-manager-sidebar-description = Browser Manager Sidebar umschalten
 gf-floorp-hide-statusbar-name = [{ -brand-short-name }] Statusleiste ausblenden
 gf-floorp-hide-statusbar-description = Statusleiste ausblenden
 gf-floorp-show-statusbar-name = [{ -brand-short-name }] Statusleiste umschalten
 gf-floorp-show-statusbar-description = Statusleiste anzeigen oder ausblenden
-gf-floorp-open-extension-sidebar-name = [{ -brand-short-name }] Open selected add-on Sidebar
-gf-floorp-open-extension-sidebar-description = Open selected add-on on the Sidebar
-gf-floorp-open-extension-sidebar-settings-addons-id = Add-on der Sidebar
+gf-floorp-open-extension-sidebar-name = [{ -brand-short-name }] Add-on-Panel in der Seitenleiste öffnen
+gf-floorp-open-extension-sidebar-description = Ausgewähltes Add-on in der Seitenleiste öffnen
+gf-floorp-open-extension-sidebar-settings-addons-id = Add-on Sidebar
 gf-floorp-open-extension-sidebar-settings-addons-id-description = Die Erweiterung des Add-ons öffnen der Seitenleiste
 gf-floorp-open-extension-sidebar-settings-list-default = Bitte wählen Sie ein Add-on
 gf-floorp-open-extension-sidebar-settings-list-unknwon = Unbekanntes Add-on
@@ -715,7 +715,7 @@ memo-new-title = Neue Notiz
 chage-view-mode = Ansicht/Bearbeiten-Modus umschalten
 readonly-mode = Offline (schreibgeschützt)
 ######################################################################### Default bookmarks ###############################################################
-default-bookmark-ablaze-support = Unterstützung von Ablaze
+default-bookmark-ablaze-support = Hilfe zu Floorp
 ######################################################################### Like Chrome Download mgr ###############################################################
 
 floorp-delete-all-downloads = 
@@ -958,8 +958,8 @@ floorp-custom-actions-custom-action-4 = Benutzerdefinierte Aktion 4
     .label = Benutzerdefinierte Aktion 4
 floorp-custom-actions-custom-action-5 = Benutzerdefinierte Aktion 5
     .label = Benutzerdefinierte Aktion 5
-floorp-custom-actions-rest-mode = Enable rest mode
-    .label = Enable rest mode
+floorp-custom-actions-rest-mode = Ruhemodus einschalten
+    .label = Ruhemodus einschalten
 ##################################################################### Profile Switcher ###############################################################
 
 floorp-open-profile-with-new-instance = Starten
@@ -998,23 +998,23 @@ floorp-customize-mode-unified-extensions-button =
     .label = Unified Extensions Button
 ######################################################################### Progressive Web Apps (SSB) ###############################################################
 
-ssb-page-action-title = Install app
+ssb-page-action-title = Als App installieren
 ssb-app-open-button = 
-    .label = Open In App
+    .label = In App öffnen
 ssb-app-install-button = 
     .label = Installieren
 ssb-app-cancel-button = 
     .label = Abbrechen
 floorp-open-manage-ssb-page = 
-    .label = Manage installed Web Apps
+    .label = Installierte Web-Apps verwalten
 appmenuitem-webapps = 
-    .label = Web Apps
-appmenu-open-installed-apps-subheader = Open installed web apps
+    .label = Web-Apps
+appmenu-open-installed-apps-subheader = Installierte Web-Apps öffnen
 appmenuitem-install-current-page = 
-    .label = Install this site as an app
+    .label = Diese Website als App installieren
 appmenuitem-open-current-page = 
-    .label = Open this site on installed app
+    .label = Diese Seite in der installierten App öffnen
 appmenuitem-contextmenu-open-app = 
-    .label = Open this app
+    .label = Diese App öffnen
 appmenuitem-contextmenu-uninstall-app = 
-    .label = Uninstall this app
+    .label = Diese App deinstallieren
