@@ -787,17 +787,17 @@ welcomet-finish-setup = Beginne im Web zu surfen
 ############################################################# Custom Shortcutkey ###############################################################
 
 category-CSK = 
-    .label = Tastaturkürzel
-    .tooltiptext = Tastaturkürzel
-category-CSK-title = Tastaturkürzel
+    .label = Tastenkürzel
+    .tooltiptext = Tastenkürzel
+category-CSK-title = Tastenkürzel
 shortcutkey-customize = 
-    .title = Tastaturkürzel
+    .title = Tastenkürzel
 select-shortcutkeyAction = Aktion zum Auslösen auswählen
 shortcutkey-customize-key-list-placeholder = Ihr Tastaturkürzel wird hier angezeigt
-shortcut-key-label = Tastaturkürzel
-start-input-button-listen = Anfangen zu hören
-end-input-button-listen = Hören beenden
-shortcut-key-description = Klicken Sie auf "Hören" und geben Sie für diese Aktion Ihr neues Tastaturkürzel ein. Mehrere Tasten können verwendet werden, aber Tastaturkürzel funktionieren nicht, wenn sie bereits anderen Aktionen zugewiesen sind.
+shortcut-key-label = Tastenkürzel
+start-input-button-listen = Aufnahme beginnen
+end-input-button-listen = Aufnahme stoppen
+shortcut-key-description = Klicken Sie auf "Aufnahme beginnen" und geben Sie Ihr neues Tastenkürzel für diese Aktion ein. Es können mehrere Tasten verwendet werden, allerdings funktionieren die Tastenkombinationen nicht, wenn sie bereits anderen Aktionen zugewiesen sind.
 floorp-custom-actions-open-new-tab = Neuen Tab öffnen
     .label = Neuen Tab öffnen
 floorp-custom-actions-close-tab = Aktuellen Tab schließen
