@@ -75,9 +75,9 @@ native-vertical-tab-show-right =
 hover-vertical-tab = 
     .label = Vertikale Tab-Leiste automatisch ausblenden
 floorp-show-vertical-tab-newtab-button = 
-    .label = Show the "Open a new tab" button inside Vertical Tab Bar
+    .label = Schaltfläche "Neue Registerkarte öffnen" in der vertikalen Tab-Leiste anzeigen
 floorp-show-vertical-tab-scrollbar = 
-    .label = Show scrollbar on Vertical Tab Bar
+    .label = Scrollleiste in vertikaler Tab Leiste anzeigen
 TST = Tree Style Tab
 about-TST = Tree Style Tab ist ein beliebtes Add-on, mit dem Sie Registerkarten in einer baumartigen Struktur anzeigen können. Dieses Add-on ist bereits in { -brand-short-name } vorintegriert. Bitte installieren Sie das Add-on, um { -brand-short-name }'s Tree Style Tab zu aktivieren.
 treestyletab-Settings = 
@@ -92,7 +92,7 @@ navbar-settings = Navigationsleiste
 show-nav-bar-bottom = 
     .label = Symbolleiste am unteren Rand von { -brand-short-name } (experimentell) anzeigen
 material-effect = 
-    .label = Mica für jeden erlauben, das Browser-Design zu ändern
+    .label = Mica For Everyone erlauben, das Browser-Design zu ändern
 disable-extension-check-compatibility-option = 
     .label = Add-on Kompatibilität nicht prüfen
 other-preference = Andere Einstellungen
@@ -126,11 +126,11 @@ firefox-proton =
 firefox-photon-lepton = 
     .label = Firefox Photon Lepton UI
 floorp-fluentUI = 
-    .label = Microsoft Fluent UI (deprecated)
+    .label = Microsoft Fluent UI (veraltet)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI (deprecated)
+    .label = { -brand-short-name } Fluerial UI (veraltet)
 floorp-gnomeUI = 
-    .label = GNOME Theme (deprecated)
+    .label = GNOME-Design (veraltet)
 
 ## Download Manager
 
@@ -782,7 +782,7 @@ welcome-import-data-button = Daten importieren...
 welcome-import-data-skip = Import überspringen
 welcome-select-button = Auswählen
 welcome-finish-setup = Einrichtung abgeschlossen!
-welcome-finish-setup-description = You're all set! Other features like Vertical Tabs & Workspaces can be found in { -brand-short-name }'s Settings. Enjoy { -brand-short-name }!
+welcome-finish-setup-description = Sie sind fertig! Weitere Funktionen wie vertikale Tabs und Arbeitsbereiche finden Sie in den Einstellungen. Viel Spaß mit { -brand-short-name }!
 welcomet-finish-setup = Beginne im Web zu surfen
 ############################################################# Custom Shortcutkey ###############################################################
 
@@ -826,7 +826,7 @@ floorp-custom-actions-print-page = Print page
     .label = Print page
 floorp-custom-actions-mute-current-tab = Stumm/Stummschalten des aktuellen Tab
     .label = Stumm/Stummschalten des aktuellen Tab
-floorp-custom-actions-toggle-bookmark-toolbar = Toggle bookmark toolbar
+floorp-custom-actions-toggle-bookmark-toolbar = Lesezeichen-Symbolleiste anzeigen
     .label = Lesezeichen-Symbolleiste umschalten
 floorp-custom-actions-show-source-of-page = Seitenquelle anzeigen
     .label = Seitenquelle öffnen
