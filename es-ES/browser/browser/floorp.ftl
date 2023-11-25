@@ -826,7 +826,7 @@ floorp-custom-actions-print-page = Print page
     .label = Print page
 floorp-custom-actions-mute-current-tab = Alternar silenciar/desactivar la pestaña actual
     .label = Alternar silenciar/desactivar la pestaña actual
-floorp-custom-actions-toggle-bookmark-toolbar = Toggle bookmark toolbar
+floorp-custom-actions-toggle-bookmark-toolbar = Conmutar barra de marcadores
     .label = Alternar barra de marcadores
 floorp-custom-actions-show-source-of-page = Mostrar origen de la página
     .label = Código abierto
@@ -982,7 +982,7 @@ open-in_private-container =
 ######################################################################## Split View ###############################################################
 
 floorp-split-view-menu = 
-    .label = Fixed in split view
+    .label = Fijado en vista dividida
 splitview-show-on-right = 
     .label = Mostrar a la derecha
 splitview-show-on-left = 
