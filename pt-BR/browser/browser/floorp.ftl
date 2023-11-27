@@ -352,12 +352,12 @@ floorp-notes = Notas { -brand-short-name }
 restore-from-backup = Restaurar Notas do backup
 enable-notes-sync = 
     .label = Habilitar sincronização de notas do { -brand-short-name }
-about-notes-backup-tips = { -brand-short-name } Notes uses Firefox Sync to sync your notes with other devices. If you lose your notes, you can restore them from a backup. A backup is created when you launch { -brand-short-name }.
+about-notes-backup-tips = O Notas { -brand-short-name } usa o Firefox Sync para sincronizar suas notas com outros dispositivos. Se você perder suas notas, poderá restaurá-las a partir de um backup. O backup é criado ao iniciar o { -brand-short-name }.
 notes-sync-description = Isso pode resolver o problema de perda de conteúdo devido a sobrescrever notas durante a sincronização.
 backuped-time = Backup efetuado em
 notes-backup-option = Configurações de backup
 backup-option-button = Configurações de backup...
-restore-from-backup-prompt-title = { -brand-short-name } Notes Restore Service
+restore-from-backup-prompt-title = Serviço de Restauração do Notas { -brand-short-name }
 restore-from-this-backup = Restaurar as Anotações de volta ao estado em que estão neste backup?
 restore-button = RESTAURAR
 
@@ -376,14 +376,14 @@ apply-userjs-button = Aplicar
 
 ## userjs Options
 
-default-userjs-label = { -brand-short-name } Default
+default-userjs-label = Padrão { -brand-short-name }
 about-default-userjs = Telemetria desativada. { -brand-short-name } bem equilibrado com várias personalizações ativadas.
 Securefox-label = Fofox Seguro Assombrado
 about-Securefox = HTTPS-by-Default. Proteção total de Cookie com isolamento do site. Estado melhorado e partição de rede. Várias outras melhorias.
-default-label = Yokoffing Default
+default-label = Padrão Yokoffing
 about-default = Tudo o que é essencial. Nenhuma das quebras. Este é seu user.js.
-Fastfox-label = Fastfox Ajoelhado
-about-Fastfox = Aumenta imediatamente a velocidade de navegação do Firefox. Dê ao Chrome uma corrida para o dinheiro!
+Fastfox-label = Yokoffing Fastfox
+about-Fastfox = Aumenta imensamente a velocidade de navegação do Firefox. Faça o Chrome suar para conseguir dinheiro!
 Peskyfox-label = Yokoffing Peskyfox
 about-Peskyfox = Liberar a página de novas abas. Remover o Pocket. Restaurar o modo compacto como opção. Parar notificações de página web, pop-ups e outros incômodos.
 Smoothfox-label = Fumaça Atordoante
@@ -393,8 +393,8 @@ about-Smoothfox = Obtenha uma rolagem suave no seu navegador favorito — ou esc
 
 floorp-workspaces-title = { -brand-short-name } Workspace
 workspaces-backup-discription = Fazer backup e restaurar seus projetos
-workspaces-restore-service-title = { -brand-short-name } Workspaces Backup Service
-workspaces-restore-warning = Warning! Running this operation will cause your current Workspaces to be overwritten. The browser will freeze for a few seconds and then proceed to restart.
+workspaces-restore-service-title = Serviço de Restauração do Notas { -brand-short-name }
+workspaces-restore-warning = Atenção! Executar essa operação fará com que seus Workspaces atuais sejam substituídos. O navegador congelará por alguns segundos e depois será reiniciado.
 floorp-workspace-settings-button = Configurações do workspace...
 change-to-close-workspace-popup-option = 
     .label = Fechar popup de áreas de trabalho ao selecionar uma Área de Trabalho
@@ -414,15 +414,15 @@ show-workspace-name-option =
 change-workspace-with-default-key-option = 
     .label = Muda a Área de Trabalho com as teclas SHIFT e BB (em inglês).
 workspaces-manage-title = Gerenciar projetos
-workspaces-manage-description = Manage your Workspaces. Change your Workspace icons.
+workspaces-manage-description = Gerencie seus Workspaces. Altere seus ícones do Workspaces.
 workspaces-manage-label = 
-    .label = Gerenciar projetos
-workspaces-manage-button = Abrir Gerenciador de Área de Trabalho...
-select-workspace = Selecionar Projeto
-workspace-select-icon = Ícone do Área de Trabalho
-    .label = Ícone do Área de Trabalho
-workspace-select-container = Selecionar aba de contêiner
-    .label = Selecionar aba de contêiner
+    .label = Gerenciar Workspaces
+workspaces-manage-button = Abrir Gerenciador do Workspaces...
+select-workspace = Selecionar Workspace
+workspace-select-icon = Selecionar Ícone do Workspace
+    .label = Ícone do Workspace
+workspace-select-container = Selecionar Aba Contêiner
+    .label = Selecionar aba contêiner
 workspace-customize = 
     .title = Personalizar Área de Trabalho
 floorp-no-workspace-conatiner = 
@@ -463,7 +463,7 @@ workspace-icon-chill =
     .label = Privado
 # Custom Keyboard Shortcuts
 floorp-CSK-title = Atalhos de teclado personalizados
-floorp-CSK-description = Customize { -brand-short-name }'s keyboard shortcuts. { -brand-short-name } provides more than 80 customizable keyboard shortcuts! Duplicate keyboard shortcuts will not work. Restart { -brand-short-name } to apply these settings.
+floorp-CSK-description = Personalize os atalhos de teclado do { -brand-short-name }. O { -brand-short-name } oferece mais de 80 atalhos de teclado personalizáveis! Atalhos de teclado duplicados não funcionarão. Reinicie o { -brand-short-name } para aplicar essas configurações.
 disable-fx-actions = 
     .label = Desativar atalhos de teclado do Mozilla Firefox
 customize-Action = 
@@ -478,7 +478,7 @@ CSK-manage-title = Gerenciar atalhos de teclado
 CSK-remove-shortcutkey = Remover atalho de teclado personalizado?
 CSK-remove-shortcutkey-description = Tem certeza de que deseja remover este atalho de teclado?
 CSK-restore-default = Restaurar padrões?
-CSK-restore-default-description = Restore { -brand-short-name }'s default keyboard shortcuts? Your current shortcuts will be lost.
+CSK-restore-default-description = Restaurar os atalhos de teclado padrão do { -brand-short-name }? Seus atalhos atuais serão perdidos.
 CSK-reboot-browser-label = Reinicie o { -brand-short-name } para aplicar estas configurações
 CSK-reboot-browser-button = Reiniciar o { -brand-short-name }
 # Exist shortcut key: "S", "shift"
@@ -505,7 +505,7 @@ floorp-custom-actions-custom-action = Ações personalizadas (Experimental)
 mouse-gesture = Gestos do Mouse
 mouse-gesture-description = Gesturefy deve ser instalado para usar gestos do mouse com { -brand-short-name }.
 Gesturefy = Gesturefy
-about-Gesturefy = Gesturefy is an extension that adds mouse gestures to your browser. If { -brand-short-name } detects the installation of this add-on, it will add gesture commands to Gesturefy that are only available in { -brand-short-name }. This add-on also create new tabs!
+about-Gesturefy = Gesturefy é uma extensão que adiciona gestos do mouse ao seu navegador. Se o { -brand-short-name } detectar a instalação deste complemento, ele adicionará comandos de gestos ao Gesturefy que só estão disponíveis no { -brand-short-name }. Essa extensão também cria novas abas!
 # Translate
 TWS = Translate Web Page
 about-TWS = Traduza sua página em tempo real usando Google ou Yandex. Você também pode traduzir o texto selecionado ou a página inteira.
@@ -526,7 +526,7 @@ about-Facebook-Container = Evite que o Facebook o rastreie através da web. A ex
 
 ## Fingerprinting
 
-fingerprint-header = Resistir Fingerprinting e endereços IP vazados
+fingerprint-header = Resistir a Impressões Digitais e vazamentos de endereços IP
 block-fingerprint = A impressão digital é um mecanismo de rastreamento que depende das características únicas do seu navegador e do seu sistema operacional. Esta seção contém configurações para melhorar ainda mais esta proteção além do bloqueio padrão.
 enable-firefox-fingerprint-protections = Ativar uma forte proteção contra impressão digital
 about-firefox-fingerprint-protection = Habilitar a proteção pelo Firefox inclui o modo de luz forçada, desabilitando algumas APIs, etc. Alguns sites podem estar quebrados.
@@ -546,7 +546,7 @@ WebRTC =
 ################################################################### browser ###############################################################
 
 rest-mode = Fazendo uma pausa...
-rest-mode-description = { -brand-short-name } is currently suspended. Press ENTER or OK to continue.
+rest-mode-description = { -brand-short-name } está suspenso no momento. Pressione ENTER ou OK para continuar.
 Sidebar2 = 
     .label = Barra lateral Gerenciador de Navegadores
     .tooltiptext = Alterar visibilidade da barra lateral
