@@ -646,11 +646,11 @@ status-bar =
     .accesskey = S.O.
 ##################################################################### Gesturefy ###############################################################
 
-gf-floorp-open-tree-style-tab-name = [{ -brand-short-name }] Open Tree Style Tab Panel
-gf-floorp-open-tree-style-tab-description = Open Tree Style Tab Panel on the Sidebar
-gf-floorp-open-bookmarks-sidebar-name = [{ -brand-short-name }] Open Bookmarks Panel
-gf-floorp-open-bookmarks-sidebar-description = Open Bookmarks Panel on the Sidebar
-gf-floorp-open-history-sidebar-name = [{ -brand-short-name }] Open History Panel
+gf-floorp-open-tree-style-tab-name = [{ -brand-short-name }] Abrir Painel de Abas Estilo de Árvore
+gf-floorp-open-tree-style-tab-description = Abrir Painel de Abas Estilo de Árvore na Barra Lateral
+gf-floorp-open-bookmarks-sidebar-name = [{ -brand-short-name }] Abrir o Painel de Favoritos
+gf-floorp-open-bookmarks-sidebar-description = Abrir o Painel de Favoritos na Barra Lateral
+gf-floorp-open-history-sidebar-name = [{ -brand-short-name }] Abrir o Painel de Histórico
 gf-floorp-open-history-sidebar-description = Open History Panel on the Sidebar
 gf-floorp-open-synctabs-sidebar-name = [{ -brand-short-name }] Open Synced Tabs Panel
 gf-floorp-open-synctabs-sidebar-description = Open Synced Tabs Panel on the Sidebar
