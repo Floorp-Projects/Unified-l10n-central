@@ -77,7 +77,7 @@ hover-vertical-tab =
 floorp-show-vertical-tab-newtab-button = 
     .label = Mostra il pulsante "Apri una nuova scheda" nella barra delle schede verticali
 floorp-show-vertical-tab-scrollbar = 
-    .label = Show scrollbar on Vertical Tab Bar
+    .label = Mostra la barra di scorrimento nella Barra delle Schede Verticale
 TST = Scheda Stile Albero
 about-TST = Tree Style Tab è un popolare componente aggiuntivo che consente di visualizzare le schede in una struttura ad albero. Questo componente aggiuntivo è già pre-integrato in { -brand-short-name }. Installare il componente aggiuntivo per attivare Tree Style Tab di { -brand-short-name }.
 treestyletab-Settings = 
@@ -782,7 +782,7 @@ welcome-import-data-button = Importa Dati...
 welcome-import-data-skip = Salta Importazione
 welcome-select-button = Seleziona
 welcome-finish-setup = Configurazione Completata!
-welcome-finish-setup-description = You're all set! Other features like Vertical Tabs & Workspaces can be found in { -brand-short-name }'s Settings. Enjoy { -brand-short-name }!
+welcome-finish-setup-description = È tutto pronto! Le altre funzionalità, come le Schede Verticali e i Componenti Aggiuntivi, si trovano nelle Impostazioni di { -brand-short-name }. Goditi { -brand-short-name }!
 welcomet-finish-setup = Inizia a navigare sul Web
 ############################################################# Custom Shortcutkey ###############################################################
 
