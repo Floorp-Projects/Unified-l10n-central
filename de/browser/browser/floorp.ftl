@@ -687,7 +687,7 @@ update-portable-notification-failed-prepare-message = Fehler bei der Vorbereitun
 
 floorp-portable-update-application-allow = { -brand-short-name } Portable Update
 floorp-update-application-auto-enabled-option = 
-    .label = Automatisch nach Updates für { -brand-short-name } tragbar suchen. (Empfohlen)
+    .label = Automatisch nach Updates für { -brand-short-name } Portable suchen. (Empfohlen)
 ##################################################################### Open link in external ###############################################################
 openInExternal-title = In externem Browser öffnen
 open-link-in-external-enabled-option = 
