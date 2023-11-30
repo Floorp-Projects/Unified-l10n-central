@@ -37,7 +37,7 @@ tab-sleep-settings-dialog-excludehosts-label = 排除域名
 tab-sleep-settings-dialog-excludehosts-label-2 = 每行輸入一個域名。
 tab-sleep-tab-context-menu-excludetab = 保持分頁於喚醒狀態
 enable-floorp-workspace = 
-    .label = 啟用工作空間
+    .label = Enable Workspaces (deprecated/will be removed)
 workspace-warning = 工作空間無法與分頁分組擴充套件一同使用。 如果您想要使用分頁分組擴充套件，請停用工作空間並重新啟動 { -brand-short-name}。
 enable-tab-scroll-change = 
     .label = 透過滾綸切換分頁
@@ -391,6 +391,18 @@ about-Smoothfox = 在 Floorp 上實現類似 Edge 一般順滑的頁面滾動效
 
 ## Workspaces
 
+workspaces-removed-title = Warning: Workspaces are deprecated!
+workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extensions <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
+workspaces-removed-migration-tools-title = Workspaces Migration Tools
+workspaces-removed-migration-tools = Workspaces Migration Tools provides a way to migrate your Workspaces to Simple Tab Groups.
+workspaces-removed-migration-tools-label = Generate Simple Tab Groups Backup file
+workspaces-removed-migrate-to-STG-button = 
+    .label = Generate...
+workspace-STG-backup-success = Backup file created
+workspace-STG-backup-success-message = Backup file created on Your Desktop. Please import this file into Simple Tab Groups.
+workspaces-migation-menuitem-text = Workspaces are deprecated! <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
+workspaces-removed-learning-more = Learn more
+workspaces-removed-description = Workspaces has been removed from { -brand-short-name }. Please use the Workspaces add-on instead.
 floorp-workspaces-title = { -brand-short-name } 工作空間
 workspaces-backup-discription = 備份/恢復您的工作空間
 workspaces-restore-service-title = { -brand-short-name } 工作空間備份服務
