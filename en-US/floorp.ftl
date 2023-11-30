@@ -483,7 +483,7 @@ Smoothfox-label = Yokoffing Smoothfox
 about-Smoothfox = Get Edge-like smooth scrolling on your favorite browser — or choose something more your style. 
 
 ## Workspaces
-workspaces-removed-title = Warning: Workspaces is deprecated!
+workspaces-removed-title = Warning: Workspaces are deprecated!
 workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extensions <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
 workspaces-removed-migration-tools-title = Workspaces Migration Tools
 workspaces-removed-migration-tools = Workspaces Migration Tools provides a way to migrate your Workspaces to Simple Tab Groups.
@@ -493,7 +493,7 @@ workspaces-removed-migrate-to-STG-button =
 
 workspace-STG-backup-success = Backup file created
 workspace-STG-backup-success-message = Backup file created on Your Desktop. Please import this file into Simple Tab Groups.
-workspaces-migation-menuitem-text = Workspaces is deprecated! <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
+workspaces-migation-menuitem-text = Workspaces are deprecated! <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
 workspaces-removed-learning-more = Learn more
 
 workspaces-removed-description = Workspaces has been removed from { -brand-short-name }. Please use the Workspaces add-on instead.
