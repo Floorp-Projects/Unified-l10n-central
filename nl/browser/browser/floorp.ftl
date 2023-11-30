@@ -37,7 +37,7 @@ tab-sleep-settings-dialog-excludehosts-label = Uitsluiten van hosts
 tab-sleep-settings-dialog-excludehosts-label-2 = Voer één host per regel in.
 tab-sleep-tab-context-menu-excludetab = Keep tab awake
 enable-floorp-workspace = 
-    .label = Werkruimtes inschakelen
+    .label = Enable Workspaces (deprecated/will be removed)
 workspace-warning = Workspaces cannot be used with Tab Group add-ons. If you want to use Tab Group add-ons, please disable Workspaces and restart { -brand-short-name }.
 enable-tab-scroll-change = 
     .label = Tabbladen wisselen door met je muis te scrollen
@@ -391,6 +391,18 @@ about-Smoothfox = Verkrijg Edge-like glad scrollen op je favoriete browser - of 
 
 ## Workspaces
 
+workspaces-removed-title = Warning: Workspaces are deprecated!
+workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extensions <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
+workspaces-removed-migration-tools-title = Workspaces Migration Tools
+workspaces-removed-migration-tools = Workspaces Migration Tools provides a way to migrate your Workspaces to Simple Tab Groups.
+workspaces-removed-migration-tools-label = Generate Simple Tab Groups Backup file
+workspaces-removed-migrate-to-STG-button = 
+    .label = Generate...
+workspace-STG-backup-success = Backup file created
+workspace-STG-backup-success-message = Backup file created on Your Desktop. Please import this file into Simple Tab Groups.
+workspaces-migation-menuitem-text = Workspaces are deprecated! <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
+workspaces-removed-learning-more = Learn more
+workspaces-removed-description = Workspaces has been removed from { -brand-short-name }. Please use the Workspaces add-on instead.
 floorp-workspaces-title = { -brand-short-name } Werkruimtes
 workspaces-backup-discription = Back-up en herstel uw Werkruimtes
 workspaces-restore-service-title = { -brand-short-name } Workspaces Backup Service
