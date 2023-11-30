@@ -492,7 +492,7 @@ workspaces-removed-migrate-to-STG-button =
   .label = Generate...
 
 workspace-STG-backup-success = Backup file created
-workspace-STG-backup-success-message = Backup file created on Your Desktop. Please import this file into Simple Tab Groups.
+workspace-STG-backup-success-message = The backup file was created on the desktop. Import this file into Simple Tab Groups.
 workspaces-migation-menuitem-text = Workspaces are deprecated! <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
 workspaces-removed-learning-more = Learn more
 
