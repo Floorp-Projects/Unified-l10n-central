@@ -240,7 +240,7 @@ max-memory =
 delete-border-and-roundup-option = 
     .label = ページの角を丸くする
 STG-smilar-workspaces-option = 
-    .label = Make "Simple Tab Groups" add-on buttons look like Workspaces buttons
+    .label = アドオン「Simple Tab Groups」のボタンをワークスペースのボタン風にする
 
 ## DualTheme
 
@@ -393,18 +393,18 @@ about-Smoothfox = Edge のようなスムーズなスクロールを、お気に
 
 ## Workspaces
 
-workspaces-removed-title = Warning: Workspaces are deprecated!
-workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extensions <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
-workspaces-removed-migration-tools-title = Workspaces Migration Tools
-workspaces-removed-migration-tools = Workspaces Migration Tools provides a way to migrate your Workspaces to Simple Tab Groups.
-workspaces-removed-migration-tools-label = Generate Simple Tab Groups Backup file
+workspaces-removed-title = 警告: ワークスペースは非推奨です！
+workspaces-removed-warning = アドオン「Simple Tab Groups」に移行してください。<label data-l10n-name="workspaces-removed-learning-more">詳細</label>
+workspaces-removed-migration-tools-title = 他機能への移行
+workspaces-removed-migration-tools = ワークスペース移行ツールを使用すると、ワークスペースから Simple Tab Groups へスムーズに移行できます。
+workspaces-removed-migration-tools-label = バックアップファイルを生成
 workspaces-removed-migrate-to-STG-button = 
-    .label = Generate...
-workspace-STG-backup-success = Backup file created
-workspace-STG-backup-success-message = The backup file was created on the desktop. Import this file into Simple Tab Groups.
-workspaces-migation-menuitem-text = Workspaces are deprecated! <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
-workspaces-removed-learning-more = Learn more
-workspaces-removed-description = Workspaces has been removed from { -brand-short-name }. Please use the Workspaces add-on instead.
+    .label = バックアップファイルを生成
+workspace-STG-backup-success = バックアップファイルが作成されました
+workspace-STG-backup-success-message = デスクトップ上にバックアップファイルが作成されます。バックアップファイルを Simple Tab Groups にインポートしてください。
+workspaces-migation-menuitem-text = ワークスペースを使用中です！<label data-l10n-name="workspaces-removed-learning-more">詳細</label>
+workspaces-removed-learning-more = 詳細
+workspaces-removed-description = ワークスペースは { -brand-short-name } から削除されました。代わりにワークスペースのアドオンをお使いください。
 floorp-workspaces-title = { -brand-short-name } ワークスペース
 workspaces-backup-discription = ワークスペースのバックアップと復元
 workspaces-restore-service-title = { -brand-short-name } ワークスペース復元サービス
