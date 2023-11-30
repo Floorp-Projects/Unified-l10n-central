@@ -37,7 +37,7 @@ tab-sleep-settings-dialog-excludehosts-label = Escludi gli host
 tab-sleep-settings-dialog-excludehosts-label-2 = Inserisci un host per riga.
 tab-sleep-tab-context-menu-excludetab = Mantieni la scheda attiva
 enable-floorp-workspace = 
-    .label = Abilitare Spazi di Lavoro
+    .label = Enable Workspaces (deprecated/will be removed)
 workspace-warning = Gli Spazi di Lavoro non possono essere utilizzati con i componenti aggiuntivi dei Gruppi di Schede. Se desideri utilizzare i componenti aggiuntivi dei Gruppi di Schede, disattivare gli Spazi di Lavoro e riavviare { -brand-short-name }.
 enable-tab-scroll-change = 
     .label = Cambia schede con la rotellina del mouse
@@ -391,6 +391,18 @@ about-Smoothfox = Ottieni uno scorrimento della rotellina del mouse fluido, simi
 
 ## Workspaces
 
+workspaces-removed-title = Warning: Workspaces are deprecated!
+workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extensions <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
+workspaces-removed-migration-tools-title = Workspaces Migration Tools
+workspaces-removed-migration-tools = Workspaces Migration Tools provides a way to migrate your Workspaces to Simple Tab Groups.
+workspaces-removed-migration-tools-label = Generate Simple Tab Groups Backup file
+workspaces-removed-migrate-to-STG-button = 
+    .label = Generate...
+workspace-STG-backup-success = Backup file created
+workspace-STG-backup-success-message = Backup file created on Your Desktop. Please import this file into Simple Tab Groups.
+workspaces-migation-menuitem-text = Workspaces are deprecated! <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
+workspaces-removed-learning-more = Learn more
+workspaces-removed-description = Workspaces has been removed from { -brand-short-name }. Please use the Workspaces add-on instead.
 floorp-workspaces-title = Spazi di Lavoro { -brand-short-name }
 workspaces-backup-discription = Backup e ripristino degli Spazi di Lavoro
 workspaces-restore-service-title = { -brand-short-name } Servizio di backup degli Spazi di Lavoro
