@@ -37,7 +37,7 @@ tab-sleep-settings-dialog-excludehosts-label = 호스트 제외
 tab-sleep-settings-dialog-excludehosts-label-2 = 한 줄에 호스트 하나를 입력합니다.
 tab-sleep-tab-context-menu-excludetab = 탭을 슬립으로 전환하지 않기
 enable-floorp-workspace = 
-    .label = 워크스페이스 사용
+    .label = Enable Workspaces (deprecated/will be removed)
 workspace-warning = 워크스페이스는 탭 그룹 애드온과 같이 쓰일 수 없어요. 만약 같이 쓰고 싶으시다면, 워크스페이스를 비활성화하고, { -brand-short-name }를 재시작해주세요.
 enable-tab-scroll-change = 
     .label = 마우스로 스크롤하여 탭 전환
@@ -391,6 +391,18 @@ about-Smoothfox = 즐겨 사용하는 브라우저에서 Edge와 같은 부드�
 
 ## Workspaces
 
+workspaces-removed-title = Warning: Workspaces are deprecated!
+workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extensions <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
+workspaces-removed-migration-tools-title = Workspaces Migration Tools
+workspaces-removed-migration-tools = Workspaces Migration Tools provides a way to migrate your Workspaces to Simple Tab Groups.
+workspaces-removed-migration-tools-label = Generate Simple Tab Groups Backup file
+workspaces-removed-migrate-to-STG-button = 
+    .label = Generate...
+workspace-STG-backup-success = Backup file created
+workspace-STG-backup-success-message = Backup file created on Your Desktop. Please import this file into Simple Tab Groups.
+workspaces-migation-menuitem-text = Workspaces are deprecated! <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
+workspaces-removed-learning-more = Learn more
+workspaces-removed-description = Workspaces has been removed from { -brand-short-name }. Please use the Workspaces add-on instead.
 floorp-workspaces-title = { -brand-short-name } 워크스페이스
 workspaces-backup-discription = 워크스페이스 백업 및 복원
 workspaces-restore-service-title = { -brand-short-name } 워크스페이스 백업 서비스
