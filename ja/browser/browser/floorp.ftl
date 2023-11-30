@@ -37,7 +37,7 @@ tab-sleep-settings-dialog-excludehosts-label = 除外するホスト名
 tab-sleep-settings-dialog-excludehosts-label-2 = 1 行に 1 つのホスト名を入力してください。
 tab-sleep-tab-context-menu-excludetab = タブをスリープさせない
 enable-floorp-workspace = 
-    .label = ワークスペース機能を有効にする
+    .label = Enable Workspaces (deprecated/will be removed)
 workspace-warning = ワークスペースはタブグループアドオンと併用できません。タブグループアドオンを使用したい場合は、ワークスペースを無効にし、{ -brand-short-name } を再起動してください。
 enable-tab-scroll-change = 
     .label = タブをスクロールで切り替える
@@ -391,6 +391,18 @@ about-Smoothfox = Edge のようなスムーズなスクロールを、お気に
 
 ## Workspaces
 
+workspaces-removed-title = Warning: Workspaces are deprecated!
+workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extensions <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
+workspaces-removed-migration-tools-title = Workspaces Migration Tools
+workspaces-removed-migration-tools = Workspaces Migration Tools provides a way to migrate your Workspaces to Simple Tab Groups.
+workspaces-removed-migration-tools-label = Generate Simple Tab Groups Backup file
+workspaces-removed-migrate-to-STG-button = 
+    .label = Generate...
+workspace-STG-backup-success = Backup file created
+workspace-STG-backup-success-message = Backup file created on Your Desktop. Please import this file into Simple Tab Groups.
+workspaces-migation-menuitem-text = Workspaces are deprecated! <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
+workspaces-removed-learning-more = Learn more
+workspaces-removed-description = Workspaces has been removed from { -brand-short-name }. Please use the Workspaces add-on instead.
 floorp-workspaces-title = { -brand-short-name } ワークスペース
 workspaces-backup-discription = ワークスペースのバックアップと復元
 workspaces-restore-service-title = { -brand-short-name } ワークスペース復元サービス
