@@ -296,6 +296,8 @@ max-memory =
 
 delete-border-and-roundup-option =
   .label = Round the corners of pages
+STG-smilar-workspaces-option =
+  .label = Make "Simple Tab Groups" add-on buttons look like Workspaces buttons
 
 ## DualTheme
 dualtheme-enable =
