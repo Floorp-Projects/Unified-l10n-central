@@ -37,7 +37,7 @@ tab-sleep-settings-dialog-excludehosts-label = 排除域名
 tab-sleep-settings-dialog-excludehosts-label-2 = 每行輸入一個域名。
 tab-sleep-tab-context-menu-excludetab = 保持分頁於喚醒狀態
 enable-floorp-workspace = 
-    .label = 啟用工作空間 （不再支援/將被移除）
+    .label = 啟用工作空間（不再支援/此功能將被移除）
 workspace-warning = 工作空間無法與分頁分組擴充套件一同使用。 如果您想要使用分頁分組擴充套件，請停用工作空間並重新啟動 { -brand-short-name}。
 enable-tab-scroll-change = 
     .label = 透過滾綸切換分頁
@@ -240,7 +240,7 @@ max-memory =
 delete-border-and-roundup-option = 
     .label = 圓化頁面邊緣
 STG-smilar-workspaces-option = 
-    .label = Make "Simple Tab Groups" add-on buttons look like Workspaces buttons
+    .label = 將 "Simple Tab Groups" 擴充套件的按鈕改變為類似工作空間的按鈕風格
 
 ## DualTheme
 
@@ -393,18 +393,18 @@ about-Smoothfox = 在 Floorp 上實現類似 Edge 一般順滑的頁面滾動效
 
 ## Workspaces
 
-workspaces-removed-title = Warning: Workspaces are deprecated!
-workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extensions <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
-workspaces-removed-migration-tools-title = Workspaces Migration Tools
-workspaces-removed-migration-tools = Workspaces Migration Tools provides a way to migrate your Workspaces to Simple Tab Groups.
-workspaces-removed-migration-tools-label = Generate Simple Tab Groups Backup file
+workspaces-removed-title = 警告： 工作空間功能不再被支援！
+workspaces-removed-warning = 請遷移數據並改用 "Simple Tab Groups" 擴充套件 <label data-l10n-name="workspaces-removed-learning-more"> 瞭解更多</label>
+workspaces-removed-migration-tools-title = 工作空間遷移工具
+workspaces-removed-migration-tools = 工作空間遷移工具可以將您的工作空間數據轉移至 Simple Tab Groups。
+workspaces-removed-migration-tools-label = 生成 Simple Tab Groups 備份文檔
 workspaces-removed-migrate-to-STG-button = 
-    .label = Generate...
-workspace-STG-backup-success = Backup file created
-workspace-STG-backup-success-message = The backup file was created on the desktop. Import this file into Simple Tab Groups.
-workspaces-migation-menuitem-text = Workspaces are deprecated! <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
-workspaces-removed-learning-more = Learn more
-workspaces-removed-description = Workspaces has been removed from { -brand-short-name }. Please use the Workspaces add-on instead.
+    .label = 生成備份文檔
+workspace-STG-backup-success = 已生成備份文檔
+workspace-STG-backup-success-message = 備份文檔已在桌面上。請將此文檔匯入 Simple Tab Groups 中。
+workspaces-migation-menuitem-text = 工作空間功能將不再被支援！<label data-l10n-name="workspaces-removed-learning-more">瞭解詳情</label>
+workspaces-removed-learning-more = 瞭解更多
+workspaces-removed-description = 工作空間功能已經從 { -brand-short-name } 中移除。請改用其他替代的工作空間擴充套件。
 floorp-workspaces-title = { -brand-short-name } 工作空間
 workspaces-backup-discription = 備份/恢復您的工作空間
 workspaces-restore-service-title = { -brand-short-name } 工作空間備份服務
