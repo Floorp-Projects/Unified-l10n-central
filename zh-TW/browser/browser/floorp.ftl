@@ -388,7 +388,7 @@ Fastfox-label = Yokoffing Fastfox
 about-Fastfox = 提升強化 Floorp 的瀏覽速度，與 Chrome 對比也毫不遜色！
 Peskyfox-label = Yokoffing Peskyfox
 about-Peskyfox = 最佳化新分頁。移除 Pocket。復原 緊密(不支援) 密度選項。停止網站通知，彈窗以及其他煩瑣提示。
-Smoothfox-label = Yokoffsing Smoothfox
+Smoothfox-label = Yokoffing Smoothfox
 about-Smoothfox = 在 Floorp 上實現類似 Edge 一般順滑的頁面滾動效果 —— 更舒適的瀏覽體驗。
 
 ## Workspaces
