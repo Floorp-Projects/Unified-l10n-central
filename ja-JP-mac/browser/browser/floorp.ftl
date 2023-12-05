@@ -240,7 +240,7 @@ max-memory =
 delete-border-and-roundup-option = 
     .label = ページの角を丸くする
 STG-smilar-workspaces-option = 
-    .label = アドオン「Simple Tab Groups」のボタンをワークスペースのボタン風にする
+    .label = "Simple Tab Groups" 拡張機能のボタンをワークスペース風にする
 
 ## DualTheme
 
@@ -394,12 +394,12 @@ about-Smoothfox = Edge のようなスムーズなスクロールを、お気に
 ## Workspaces
 
 workspaces-removed-title = 警告: ワークスペースは非推奨です！
-workspaces-removed-warning = アドオン「Simple Tab Groups」に移行してください。<label data-l10n-name="workspaces-removed-learning-more">詳細</label>
-workspaces-removed-migration-tools-title = 他機能への移行
+workspaces-removed-warning = "Simple Tab Groups" 拡張機能に移行してください。<label data-l10n-name="workspaces-removed-learning-more">詳細</label>
+workspaces-removed-migration-tools-title = ワークスペース移行ツール
 workspaces-removed-migration-tools = ワークスペース移行ツールを使用すると、ワークスペースから Simple Tab Groups へスムーズに移行できます。
-workspaces-removed-migration-tools-label = バックアップファイルを生成
+workspaces-removed-migration-tools-label = バックアップファイルを作成
 workspaces-removed-migrate-to-STG-button = 
-    .label = バックアップファイルを生成
+    .label = 作成...
 workspace-STG-backup-success = バックアップファイルが作成されました
 workspace-STG-backup-success-message = デスクトップ上にバックアップファイルが作成されます。バックアップファイルを Simple Tab Groups で読み込んでください。
 workspaces-migation-menuitem-text = ワークスペースを使用中です！<label data-l10n-name="workspaces-removed-learning-more">詳細</label>
