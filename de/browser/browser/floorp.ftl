@@ -37,7 +37,7 @@ tab-sleep-settings-dialog-excludehosts-label = Hosts ausschließen
 tab-sleep-settings-dialog-excludehosts-label-2 = Geben Sie einen Host pro Zeile ein.
 tab-sleep-tab-context-menu-excludetab = Tab wach halten
 enable-floorp-workspace = 
-    .label = Arbeitsbereiche aktivieren
+    .label = Enable Workspaces (deprecated/will be removed)
 workspace-warning = Arbeitsbereiche können nicht zusammen mit Add-ons für Tab-Umgebungen verwendet werden. Wenn Sie Add-ons für Tab-Umgebungen verwenden möchten, deaktivieren Sie die Arbeitsbereiche und starten Sie { -brand-short-name } neu.
 enable-tab-scroll-change = 
     .label = Tabs mithilfe des Mausrads wechseln
@@ -75,9 +75,9 @@ native-vertical-tab-show-right =
 hover-vertical-tab = 
     .label = Vertikale Tab-Leiste automatisch ausblenden
 floorp-show-vertical-tab-newtab-button = 
-    .label = Show the "Open a new tab" button inside Vertical Tab Bar
+    .label = Schaltfläche "Neue Registerkarte öffnen" in der vertikalen Tab-Leiste anzeigen
 floorp-show-vertical-tab-scrollbar = 
-    .label = Show scrollbar on Vertical Tab Bar
+    .label = Scrollleiste in vertikaler Tab Leiste anzeigen
 TST = Tree Style Tab
 about-TST = Tree Style Tab ist ein beliebtes Add-on, mit dem Sie Registerkarten in einer baumartigen Struktur anzeigen können. Dieses Add-on ist bereits in { -brand-short-name } vorintegriert. Bitte installieren Sie das Add-on, um { -brand-short-name }'s Tree Style Tab zu aktivieren.
 treestyletab-Settings = 
@@ -92,7 +92,7 @@ navbar-settings = Navigationsleiste
 show-nav-bar-bottom = 
     .label = Symbolleiste am unteren Rand von { -brand-short-name } (experimentell) anzeigen
 material-effect = 
-    .label = Mica für jeden erlauben, das Browser-Design zu ändern
+    .label = Mica For Everyone erlauben, das Browser-Design zu ändern
 disable-extension-check-compatibility-option = 
     .label = Add-on Kompatibilität nicht prüfen
 other-preference = Andere Einstellungen
@@ -126,11 +126,11 @@ firefox-proton =
 firefox-photon-lepton = 
     .label = Firefox Photon Lepton UI
 floorp-fluentUI = 
-    .label = Microsoft Fluent UI (deprecated)
+    .label = Microsoft Fluent UI (veraltet)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI (deprecated)
+    .label = { -brand-short-name } Fluerial UI (veraltet)
 floorp-gnomeUI = 
-    .label = GNOME Theme (deprecated)
+    .label = GNOME-Design (veraltet)
 
 ## Download Manager
 
@@ -239,6 +239,8 @@ max-memory =
     .label = Beste Leistung (hoher Speicherverbrauch)
 delete-border-and-roundup-option = 
     .label = Abrunden der Seitenecken
+STG-smilar-workspaces-option = 
+    .label = Make "Simple Tab Groups" add-on buttons look like Workspaces buttons
 
 ## DualTheme
 
@@ -391,6 +393,18 @@ about-Smoothfox = Holen Sie sich Edge-ähnliches Scrollen in Ihrem bevorzugten B
 
 ## Workspaces
 
+workspaces-removed-title = Warning: Workspaces are deprecated!
+workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extensions <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
+workspaces-removed-migration-tools-title = Workspaces Migration Tools
+workspaces-removed-migration-tools = Workspaces Migration Tools provides a way to migrate your Workspaces to Simple Tab Groups.
+workspaces-removed-migration-tools-label = Generate Simple Tab Groups Backup file
+workspaces-removed-migrate-to-STG-button = 
+    .label = Generate...
+workspace-STG-backup-success = Backup file created
+workspace-STG-backup-success-message = The backup file was created on the desktop. Import this file into Simple Tab Groups.
+workspaces-migation-menuitem-text = Workspaces are deprecated! <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
+workspaces-removed-learning-more = Learn more
+workspaces-removed-description = Workspaces has been removed from { -brand-short-name }. Please use the Workspaces add-on instead.
 floorp-workspaces-title = { -brand-short-name } Arbeitsbereiche
 workspaces-backup-discription = Arbeitsbereiche Sichern und Wiederherstellen
 workspaces-restore-service-title = { -brand-short-name } Arbeitsbereich Sicherungsdienst
@@ -647,28 +661,28 @@ status-bar =
 ##################################################################### Gesturefy ###############################################################
 
 gf-floorp-open-tree-style-tab-name = [{ -brand-short-name }] Tree-Style Tab Panel öffnen
-gf-floorp-open-tree-style-tab-description = Open Tree Style Tab Panel on the Sidebar
-gf-floorp-open-bookmarks-sidebar-name = [{ -brand-short-name }] Open Bookmarks Panel
-gf-floorp-open-bookmarks-sidebar-description = Open Bookmarks Panel on the Sidebar
-gf-floorp-open-history-sidebar-name = [{ -brand-short-name }] Open History Panel
-gf-floorp-open-history-sidebar-description = Open History Panel on the Sidebar
-gf-floorp-open-synctabs-sidebar-name = [{ -brand-short-name }] Open Synced Tabs Panel
-gf-floorp-open-synctabs-sidebar-description = Open Synced Tabs Panel on the Sidebar
+gf-floorp-open-tree-style-tab-description = Tree-Style Tab Panel in der Seitenleiste öffnen
+gf-floorp-open-bookmarks-sidebar-name = [{ -brand-short-name }] Lesezeichen-Panel öffnen
+gf-floorp-open-bookmarks-sidebar-description = Lesezeichen-Panel in der Seitenleiste öffnen
+gf-floorp-open-history-sidebar-name = [{ -brand-short-name }] Chronik-Panel öffnen
+gf-floorp-open-history-sidebar-description = Chronik-Panel in der Seitenleiste öffnen
+gf-floorp-open-synctabs-sidebar-name = [{ -brand-short-name }] Synchronisierte Tabs-Panel öffnen
+gf-floorp-open-synctabs-sidebar-description = Synchronisierte Tab-Panel in der Seitenleiste öffnen
 gf-floorp-close-sidebar-name = [{ -brand-short-name }] Seitenleiste schließen
 gf-floorp-close-sidebar-description = Seitenleiste schließen
 gf-floorp-open-browser-manager-sidebar-name = [{ -brand-short-name }] Öffne BMS
 gf-floorp-open-browser-manager-sidebar-description = Browser Manager Sidebar öffnen, wenn das Web-Panel der Browser Manager Sidebar geladen ist
 gf-floorp-close-browser-manager-sidebar-name = [{ -brand-short-name }] BMS schließen
-gf-floorp-close-browser-manager-sidebar-description = Browser Manager Seitenleiste schließen
+gf-floorp-close-browser-manager-sidebar-description = Browser Manager Sidebar schließen
 gf-floorp-show-browser-manager-sidebar-name = [{ -brand-short-name }] BMS umschalten
-gf-floorp-show-browser-manager-sidebar-description = Browser-Manager-Seitenleiste umschalten
+gf-floorp-show-browser-manager-sidebar-description = Browser Manager Sidebar umschalten
 gf-floorp-hide-statusbar-name = [{ -brand-short-name }] Statusleiste ausblenden
 gf-floorp-hide-statusbar-description = Statusleiste ausblenden
 gf-floorp-show-statusbar-name = [{ -brand-short-name }] Statusleiste umschalten
 gf-floorp-show-statusbar-description = Statusleiste anzeigen oder ausblenden
-gf-floorp-open-extension-sidebar-name = [{ -brand-short-name }] Open selected add-on Sidebar
-gf-floorp-open-extension-sidebar-description = Open selected add-on on the Sidebar
-gf-floorp-open-extension-sidebar-settings-addons-id = Add-on der Sidebar
+gf-floorp-open-extension-sidebar-name = [{ -brand-short-name }] Add-on-Panel in der Seitenleiste öffnen
+gf-floorp-open-extension-sidebar-description = Ausgewähltes Add-on in der Seitenleiste öffnen
+gf-floorp-open-extension-sidebar-settings-addons-id = Add-on Sidebar
 gf-floorp-open-extension-sidebar-settings-addons-id-description = Die Erweiterung des Add-ons öffnen der Seitenleiste
 gf-floorp-open-extension-sidebar-settings-list-default = Bitte wählen Sie ein Add-on
 gf-floorp-open-extension-sidebar-settings-list-unknwon = Unbekanntes Add-on
@@ -687,7 +701,7 @@ update-portable-notification-failed-prepare-message = Fehler bei der Vorbereitun
 
 floorp-portable-update-application-allow = { -brand-short-name } Portable Update
 floorp-update-application-auto-enabled-option = 
-    .label = Automatisch nach Updates für { -brand-short-name } tragbar suchen. (Empfohlen)
+    .label = Automatisch nach Updates für { -brand-short-name } Portable suchen. (Empfohlen)
 ##################################################################### Open link in external ###############################################################
 openInExternal-title = In externem Browser öffnen
 open-link-in-external-enabled-option = 
@@ -715,7 +729,7 @@ memo-new-title = Neue Notiz
 chage-view-mode = Ansicht/Bearbeiten-Modus umschalten
 readonly-mode = Offline (schreibgeschützt)
 ######################################################################### Default bookmarks ###############################################################
-default-bookmark-ablaze-support = Unterstützung von Ablaze
+default-bookmark-ablaze-support = Hilfe zu Floorp
 ######################################################################### Like Chrome Download mgr ###############################################################
 
 floorp-delete-all-downloads = 
@@ -782,22 +796,22 @@ welcome-import-data-button = Daten importieren...
 welcome-import-data-skip = Import überspringen
 welcome-select-button = Auswählen
 welcome-finish-setup = Einrichtung abgeschlossen!
-welcome-finish-setup-description = Sie sind fertig! Andere Einstellungen wie Vertikale Tabs & Add-ons finden Sie in den Browsereinstellungen. Viel Spaß mit { -brand-short-name }!
+welcome-finish-setup-description = Sie sind fertig! Weitere Funktionen wie vertikale Tabs und Arbeitsbereiche finden Sie in den Einstellungen. Viel Spaß mit { -brand-short-name }!
 welcomet-finish-setup = Beginne im Web zu surfen
 ############################################################# Custom Shortcutkey ###############################################################
 
 category-CSK = 
-    .label = Tastaturkürzel
-    .tooltiptext = Tastaturkürzel
-category-CSK-title = Tastaturkürzel
+    .label = Tastenkürzel
+    .tooltiptext = Tastenkürzel
+category-CSK-title = Tastenkürzel
 shortcutkey-customize = 
-    .title = Tastaturkürzel
+    .title = Tastenkürzel
 select-shortcutkeyAction = Aktion zum Auslösen auswählen
 shortcutkey-customize-key-list-placeholder = Ihr Tastaturkürzel wird hier angezeigt
-shortcut-key-label = Tastaturkürzel
-start-input-button-listen = Anfangen zu hören
-end-input-button-listen = Hören beenden
-shortcut-key-description = Klicken Sie auf "Hören" und geben Sie für diese Aktion Ihr neues Tastaturkürzel ein. Mehrere Tasten können verwendet werden, aber Tastaturkürzel funktionieren nicht, wenn sie bereits anderen Aktionen zugewiesen sind.
+shortcut-key-label = Tastenkürzel
+start-input-button-listen = Aufnahme beginnen
+end-input-button-listen = Aufnahme stoppen
+shortcut-key-description = Klicken Sie auf "Aufnahme beginnen" und geben Sie Ihr neues Tastenkürzel für diese Aktion ein. Es können mehrere Tasten verwendet werden, allerdings funktionieren die Tastenkombinationen nicht, wenn sie bereits anderen Aktionen zugewiesen sind.
 floorp-custom-actions-open-new-tab = Neuen Tab öffnen
     .label = Neuen Tab öffnen
 floorp-custom-actions-close-tab = Aktuellen Tab schließen
@@ -826,7 +840,7 @@ floorp-custom-actions-print-page = Print page
     .label = Print page
 floorp-custom-actions-mute-current-tab = Stumm/Stummschalten des aktuellen Tab
     .label = Stumm/Stummschalten des aktuellen Tab
-floorp-custom-actions-toggle-bookmark-toolbar = Toggle bookmark toolbar
+floorp-custom-actions-toggle-bookmark-toolbar = Lesezeichen-Symbolleiste anzeigen
     .label = Lesezeichen-Symbolleiste umschalten
 floorp-custom-actions-show-source-of-page = Seitenquelle anzeigen
     .label = Seitenquelle öffnen
@@ -958,8 +972,8 @@ floorp-custom-actions-custom-action-4 = Benutzerdefinierte Aktion 4
     .label = Benutzerdefinierte Aktion 4
 floorp-custom-actions-custom-action-5 = Benutzerdefinierte Aktion 5
     .label = Benutzerdefinierte Aktion 5
-floorp-custom-actions-rest-mode = Enable rest mode
-    .label = Enable rest mode
+floorp-custom-actions-rest-mode = Ruhemodus einschalten
+    .label = Ruhemodus einschalten
 ##################################################################### Profile Switcher ###############################################################
 
 floorp-open-profile-with-new-instance = Starten
@@ -998,23 +1012,23 @@ floorp-customize-mode-unified-extensions-button =
     .label = Unified Extensions Button
 ######################################################################### Progressive Web Apps (SSB) ###############################################################
 
-ssb-page-action-title = Install app
+ssb-page-action-title = Als App installieren
 ssb-app-open-button = 
-    .label = Open In App
+    .label = In App öffnen
 ssb-app-install-button = 
     .label = Installieren
 ssb-app-cancel-button = 
     .label = Abbrechen
 floorp-open-manage-ssb-page = 
-    .label = Manage installed Web Apps
+    .label = Installierte Web-Apps verwalten
 appmenuitem-webapps = 
-    .label = Web Apps
-appmenu-open-installed-apps-subheader = Open installed web apps
+    .label = Web-Apps
+appmenu-open-installed-apps-subheader = Installierte Web-Apps öffnen
 appmenuitem-install-current-page = 
-    .label = Install this site as an app
+    .label = Diese Website als App installieren
 appmenuitem-open-current-page = 
-    .label = Open this site on installed app
+    .label = Diese Seite in der installierten App öffnen
 appmenuitem-contextmenu-open-app = 
-    .label = Open this app
+    .label = Diese App öffnen
 appmenuitem-contextmenu-uninstall-app = 
-    .label = Uninstall this app
+    .label = Diese App deinstallieren

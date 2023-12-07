@@ -37,7 +37,7 @@ tab-sleep-settings-dialog-excludehosts-label = Neįtraukti šeimininkų
 tab-sleep-settings-dialog-excludehosts-label-2 = Vienoje eilutėje įveskite po vieną kompiuterį.
 tab-sleep-tab-context-menu-excludetab = Laikyti skirtuką atsibudęs
 enable-floorp-workspace = 
-    .label = Įgalinti aplinkas
+    .label = Enable Workspaces (deprecated/will be removed)
 workspace-warning = Negalima naudoti aplinkas su „Tab Group“ priedu. Jei norite naudoti „Tab Group“ priedą, išjunkite aplinkas ir iš naujo paleiskite „{ -brand-short-name }“.
 enable-tab-scroll-change = 
     .label = Perjungti skirtukus slinkdami pele
@@ -239,6 +239,8 @@ max-memory =
     .label = Greičiausias greitis (didelis atminties naudojimas)
 delete-border-and-roundup-option = 
     .label = Suapvalinti puslapių kampus
+STG-smilar-workspaces-option = 
+    .label = Make "Simple Tab Groups" add-on buttons look like Workspaces buttons
 
 ## DualTheme
 
@@ -391,6 +393,18 @@ about-Smoothfox = Gauti švelnu slinkima, kaip „Edge“, tavo mėgstamausiame 
 
 ## Workspaces
 
+workspaces-removed-title = Warning: Workspaces are deprecated!
+workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extensions <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
+workspaces-removed-migration-tools-title = Workspaces Migration Tools
+workspaces-removed-migration-tools = Workspaces Migration Tools provides a way to migrate your Workspaces to Simple Tab Groups.
+workspaces-removed-migration-tools-label = Generate Simple Tab Groups Backup file
+workspaces-removed-migrate-to-STG-button = 
+    .label = Generate...
+workspace-STG-backup-success = Backup file created
+workspace-STG-backup-success-message = The backup file was created on the desktop. Import this file into Simple Tab Groups.
+workspaces-migation-menuitem-text = Workspaces are deprecated! <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
+workspaces-removed-learning-more = Learn more
+workspaces-removed-description = Workspaces has been removed from { -brand-short-name }. Please use the Workspaces add-on instead.
 floorp-workspaces-title = „{ -brand-short-name }“ Aplinkos
 workspaces-backup-discription = Atsarginių kopijų kūrimas ir aplinkų atkūrimas
 workspaces-restore-service-title = „{ -brand-short-name }“ Aplinkų atsarginių kopjjų kurimo paslauga
@@ -782,7 +796,7 @@ welcome-import-data-button = Importuoti duomenis...
 welcome-import-data-skip = Praleisti importą
 welcome-select-button = Pasirinkite
 welcome-finish-setup = Sąranka baigta!
-welcome-finish-setup-description = Viskas paruošta! Kitus nustatymus, kaip pavyzdžiui vertikalūs skirtukai ir papildiniai, rasite skyriuje about:preferences. Mėgaukitės „{ -brand-short-name }“!
+welcome-finish-setup-description = You're all set! Other features like Vertical Tabs & Workspaces can be found in { -brand-short-name }'s Settings. Enjoy { -brand-short-name }!
 welcomet-finish-setup = Pradėkite naršyti internete
 ############################################################# Custom Shortcutkey ###############################################################
 

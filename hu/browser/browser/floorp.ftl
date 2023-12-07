@@ -37,7 +37,7 @@ tab-sleep-settings-dialog-excludehosts-label = Hostok kizárása
 tab-sleep-settings-dialog-excludehosts-label-2 = Soronként egy állomás megadása.
 tab-sleep-tab-context-menu-excludetab = Keep tab awake
 enable-floorp-workspace = 
-    .label = Munkaterületek engedélyezése
+    .label = Enable Workspaces (deprecated/will be removed)
 workspace-warning = Workspaces cannot be used with Tab Group add-ons. If you want to use Tab Group add-ons, please disable Workspaces and restart { -brand-short-name }.
 enable-tab-scroll-change = 
     .label = Lapok váltása az egérrel történő görgetéssel
@@ -239,6 +239,8 @@ max-memory =
     .label = Best Performance (high memory usage)
 delete-border-and-roundup-option = 
     .label = Az oldalak sarkainak lekerekítése
+STG-smilar-workspaces-option = 
+    .label = Make "Simple Tab Groups" add-on buttons look like Workspaces buttons
 
 ## DualTheme
 
@@ -391,6 +393,18 @@ about-Smoothfox = Az Edge-hez hasonló sima görgetés a kedvenc böngésződben
 
 ## Workspaces
 
+workspaces-removed-title = Warning: Workspaces are deprecated!
+workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extensions <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
+workspaces-removed-migration-tools-title = Workspaces Migration Tools
+workspaces-removed-migration-tools = Workspaces Migration Tools provides a way to migrate your Workspaces to Simple Tab Groups.
+workspaces-removed-migration-tools-label = Generate Simple Tab Groups Backup file
+workspaces-removed-migrate-to-STG-button = 
+    .label = Generate...
+workspace-STG-backup-success = Backup file created
+workspace-STG-backup-success-message = The backup file was created on the desktop. Import this file into Simple Tab Groups.
+workspaces-migation-menuitem-text = Workspaces are deprecated! <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
+workspaces-removed-learning-more = Learn more
+workspaces-removed-description = Workspaces has been removed from { -brand-short-name }. Please use the Workspaces add-on instead.
 floorp-workspaces-title = { -brand-short-name } Munkaterületek
 workspaces-backup-discription = Munkaterületek biztonsági mentése és visszaállítása
 workspaces-restore-service-title = { -brand-short-name } Workspaces Backup Service
@@ -782,7 +796,7 @@ welcome-import-data-button = Adatok importálása...
 welcome-import-data-skip = Importálás kihagyása
 welcome-select-button = Válassza ki a  címet.
 welcome-finish-setup = Beállítás befejezve!
-welcome-finish-setup-description = Készen állsz! Az egyéb beállítások, mint például a Függőleges lapok és kiegészítők a about:preferences menüpontban találhatók. Élvezze a { -brand-short-name }!
+welcome-finish-setup-description = You're all set! Other features like Vertical Tabs & Workspaces can be found in { -brand-short-name }'s Settings. Enjoy { -brand-short-name }!
 welcomet-finish-setup = Kezdje el a böngészést a weben
 ############################################################# Custom Shortcutkey ###############################################################
 

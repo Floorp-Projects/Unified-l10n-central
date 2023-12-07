@@ -37,7 +37,7 @@ tab-sleep-settings-dialog-excludehosts-label = 호스트 제외
 tab-sleep-settings-dialog-excludehosts-label-2 = 한 줄에 호스트 하나를 입력합니다.
 tab-sleep-tab-context-menu-excludetab = 탭을 슬립으로 전환하지 않기
 enable-floorp-workspace = 
-    .label = 워크스페이스 사용
+    .label = Enable Workspaces (deprecated/will be removed)
 workspace-warning = 워크스페이스는 탭 그룹 애드온과 같이 쓰일 수 없어요. 만약 같이 쓰고 싶으시다면, 워크스페이스를 비활성화하고, { -brand-short-name }를 재시작해주세요.
 enable-tab-scroll-change = 
     .label = 마우스로 스크롤하여 탭 전환
@@ -239,6 +239,8 @@ max-memory =
     .label = 최고 성능(높은 메모리 사용량)
 delete-border-and-roundup-option = 
     .label = 페이지 모서리 둥글게 처리
+STG-smilar-workspaces-option = 
+    .label = Make "Simple Tab Groups" add-on buttons look like Workspaces buttons
 
 ## DualTheme
 
@@ -391,6 +393,18 @@ about-Smoothfox = 즐겨 사용하는 브라우저에서 Edge와 같은 부드�
 
 ## Workspaces
 
+workspaces-removed-title = Warning: Workspaces are deprecated!
+workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extensions <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
+workspaces-removed-migration-tools-title = Workspaces Migration Tools
+workspaces-removed-migration-tools = Workspaces Migration Tools provides a way to migrate your Workspaces to Simple Tab Groups.
+workspaces-removed-migration-tools-label = Generate Simple Tab Groups Backup file
+workspaces-removed-migrate-to-STG-button = 
+    .label = Generate...
+workspace-STG-backup-success = Backup file created
+workspace-STG-backup-success-message = The backup file was created on the desktop. Import this file into Simple Tab Groups.
+workspaces-migation-menuitem-text = Workspaces are deprecated! <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
+workspaces-removed-learning-more = Learn more
+workspaces-removed-description = Workspaces has been removed from { -brand-short-name }. Please use the Workspaces add-on instead.
 floorp-workspaces-title = { -brand-short-name } 워크스페이스
 workspaces-backup-discription = 워크스페이스 백업 및 복원
 workspaces-restore-service-title = { -brand-short-name } 워크스페이스 백업 서비스
@@ -782,7 +796,7 @@ welcome-import-data-button = 데이터 가져오기...
 welcome-import-data-skip = 가져오기 건너뛰기
 welcome-select-button = 선택
 welcome-finish-setup = 설정 완료!
-welcome-finish-setup-description = 모든 설정이 완료되었습니다! 세로 탭 및 추가 기능과 같은 다른 설정은 about:환경설정에서 찾을 수 있습니다. { -brand-short-name }즐기세요!
+welcome-finish-setup-description = You're all set! Other features like Vertical Tabs & Workspaces can be found in { -brand-short-name }'s Settings. Enjoy { -brand-short-name }!
 welcomet-finish-setup = 웹 브라우징 시작
 ############################################################# Custom Shortcutkey ###############################################################
 

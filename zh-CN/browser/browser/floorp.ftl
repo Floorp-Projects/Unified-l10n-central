@@ -37,7 +37,7 @@ tab-sleep-settings-dialog-excludehosts-label = 排除主机名
 tab-sleep-settings-dialog-excludehosts-label-2 = 每行输入一个主机名。
 tab-sleep-tab-context-menu-excludetab = 保持此标签页处于活动状态
 enable-floorp-workspace = 
-    .label = 启用工作区
+    .label = Enable Workspaces (deprecated/will be removed)
 workspace-warning = 工作区无法与标签页分组插件一同使用。如果您想要使用标签页分组插件，请禁用工作区，然后重新启动 { -brand-short-name }。
 enable-tab-scroll-change = 
     .label = 使用鼠标滚轮切换标签页
@@ -239,6 +239,8 @@ max-memory =
     .label = 最佳速度和性能 (高内存使用率)
 delete-border-and-roundup-option = 
     .label = 将页面边角修圆
+STG-smilar-workspaces-option = 
+    .label = Make "Simple Tab Groups" add-on buttons look like Workspaces buttons
 
 ## DualTheme
 
@@ -391,6 +393,18 @@ about-Smoothfox = 在您钟爱的浏览器上获得类似 Edge 的平滑滚动�
 
 ## Workspaces
 
+workspaces-removed-title = Warning: Workspaces are deprecated!
+workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extensions <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
+workspaces-removed-migration-tools-title = Workspaces Migration Tools
+workspaces-removed-migration-tools = Workspaces Migration Tools provides a way to migrate your Workspaces to Simple Tab Groups.
+workspaces-removed-migration-tools-label = Generate Simple Tab Groups Backup file
+workspaces-removed-migrate-to-STG-button = 
+    .label = Generate...
+workspace-STG-backup-success = Backup file created
+workspace-STG-backup-success-message = The backup file was created on the desktop. Import this file into Simple Tab Groups.
+workspaces-migation-menuitem-text = Workspaces are deprecated! <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
+workspaces-removed-learning-more = Learn more
+workspaces-removed-description = Workspaces has been removed from { -brand-short-name }. Please use the Workspaces add-on instead.
 floorp-workspaces-title = { -brand-short-name } 工作区
 workspaces-backup-discription = 备份并恢复您的工作区
 workspaces-restore-service-title = { -brand-short-name } 工作区备份服务
@@ -782,7 +796,7 @@ welcome-import-data-button = 导入数据...
 welcome-import-data-skip = 跳过导入
 welcome-select-button = 选择
 welcome-finish-setup = 设置已完成！
-welcome-finish-setup-description = 一切就绪！其他设置，如垂直标签和插件，可在 about:preferences 中找到。尽情享受 { -brand-short-name }！
+welcome-finish-setup-description = You're all set! Other features like Vertical Tabs & Workspaces can be found in { -brand-short-name }'s Settings. Enjoy { -brand-short-name }!
 welcomet-finish-setup = 开始浏览网络
 ############################################################# Custom Shortcutkey ###############################################################
 

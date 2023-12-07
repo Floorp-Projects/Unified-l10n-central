@@ -37,7 +37,7 @@ tab-sleep-settings-dialog-excludehosts-label = 除外するホスト名
 tab-sleep-settings-dialog-excludehosts-label-2 = 1 行に 1 つのホスト名を入力してください。
 tab-sleep-tab-context-menu-excludetab = タブをスリープさせない
 enable-floorp-workspace = 
-    .label = ワークスペース機能を有効にする
+    .label = ワークスペースを有効にする (非推奨/削除予定)
 workspace-warning = ワークスペースはタブグループアドオンと併用できません。タブグループアドオンを使用したい場合は、ワークスペースを無効にし、{ -brand-short-name } を再起動してください。
 enable-tab-scroll-change = 
     .label = タブをスクロールで切り替える
@@ -77,7 +77,7 @@ hover-vertical-tab =
 floorp-show-vertical-tab-newtab-button = 
     .label = "新規タブを開く" ボタンを常に垂直タブの最後尾に配置
 floorp-show-vertical-tab-scrollbar = 
-    .label = Show scrollbar on Vertical Tab Bar
+    .label = 垂直タブにスクロールバーを表示する
 TST = ツリー型タブ
 about-TST = ツリー型タブは { -brand-short-name } 10 で内蔵されていた垂直タブを作成するアドオンです。このアドオンをインストールすると、固有の設定が使用でき、{ -brand-short-name } 10 と同じ使用感に戻せます。
 treestyletab-Settings = 
@@ -239,6 +239,8 @@ max-memory =
     .label = 最高のパフォーマンス (高メモリ使用量)
 delete-border-and-roundup-option = 
     .label = ページの角を丸くする
+STG-smilar-workspaces-option = 
+    .label = "Simple Tab Groups" 拡張機能のボタンをワークスペース風にする
 
 ## DualTheme
 
@@ -391,6 +393,18 @@ about-Smoothfox = Edge のようなスムーズなスクロールを、お気に
 
 ## Workspaces
 
+workspaces-removed-title = 警告: ワークスペースは非推奨です！
+workspaces-removed-warning = "Simple Tab Groups" 拡張機能に移行してください。<label data-l10n-name="workspaces-removed-learning-more">詳細</label>
+workspaces-removed-migration-tools-title = ワークスペース移行ツール
+workspaces-removed-migration-tools = ワークスペース移行ツールを使用すると、ワークスペースから Simple Tab Groups へスムーズに移行できます。
+workspaces-removed-migration-tools-label = バックアップファイルを作成
+workspaces-removed-migrate-to-STG-button = 
+    .label = 作成...
+workspace-STG-backup-success = バックアップファイルが作成されました
+workspace-STG-backup-success-message = デスクトップ上にバックアップファイルが作成されます。バックアップファイルを Simple Tab Groups で読み込んでください。
+workspaces-migation-menuitem-text = ワークスペースを使用中です！<label data-l10n-name="workspaces-removed-learning-more">詳細</label>
+workspaces-removed-learning-more = 詳細
+workspaces-removed-description = ワークスペースは { -brand-short-name } から削除されました。代わりにワークスペースのアドオンをお使いください。
 floorp-workspaces-title = { -brand-short-name } ワークスペース
 workspaces-backup-discription = ワークスペースのバックアップと復元
 workspaces-restore-service-title = { -brand-short-name } ワークスペース復元サービス
@@ -782,7 +796,7 @@ welcome-import-data-button = データを読み込む...
 welcome-import-data-skip = インポートをスキップ
 welcome-select-button = 選択
 welcome-finish-setup = セットアップ完了！
-welcome-finish-setup-description = 準備完了です！垂直タブやアドオンのようなその他の設定は about:preference で見つけることができます。 { -brand-short-name } をお楽しみください！
+welcome-finish-setup-description = これで準備完了です！垂直タブやワークスペースなどの機能は、 { -brand-short-name } の設定で有効にできます。 { -brand-short-name } をお楽しみください！
 welcomet-finish-setup = ネットの海に飛び込もう！
 ############################################################# Custom Shortcutkey ###############################################################
 

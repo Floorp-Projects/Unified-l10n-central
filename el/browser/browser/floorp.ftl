@@ -37,7 +37,7 @@ tab-sleep-settings-dialog-excludehosts-label = Εξαίρεση υπολογισ
 tab-sleep-settings-dialog-excludehosts-label-2 = Εισάγετε έναν κεντρικό υπολογιστή ανά γραμμή.
 tab-sleep-tab-context-menu-excludetab = Keep tab awake
 enable-floorp-workspace = 
-    .label = Ενεργοποίηση Χώρων Εργασίας
+    .label = Enable Workspaces (deprecated/will be removed)
 workspace-warning = Workspaces cannot be used with Tab Group add-ons. If you want to use Tab Group add-ons, please disable Workspaces and restart { -brand-short-name }.
 enable-tab-scroll-change = 
     .label = Εναλλαγή καρτελών μετακινώντας με το ποντίκι σας
@@ -239,6 +239,8 @@ max-memory =
     .label = Best Performance (high memory usage)
 delete-border-and-roundup-option = 
     .label = Στρογγυλοποίηση των γωνιών των σελίδων
+STG-smilar-workspaces-option = 
+    .label = Make "Simple Tab Groups" add-on buttons look like Workspaces buttons
 
 ## DualTheme
 
@@ -391,6 +393,18 @@ about-Smoothfox = Πάρτε Edge-όπως ομαλή κύλιση στο αγα
 
 ## Workspaces
 
+workspaces-removed-title = Warning: Workspaces are deprecated!
+workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extensions <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
+workspaces-removed-migration-tools-title = Workspaces Migration Tools
+workspaces-removed-migration-tools = Workspaces Migration Tools provides a way to migrate your Workspaces to Simple Tab Groups.
+workspaces-removed-migration-tools-label = Generate Simple Tab Groups Backup file
+workspaces-removed-migrate-to-STG-button = 
+    .label = Generate...
+workspace-STG-backup-success = Backup file created
+workspace-STG-backup-success-message = The backup file was created on the desktop. Import this file into Simple Tab Groups.
+workspaces-migation-menuitem-text = Workspaces are deprecated! <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
+workspaces-removed-learning-more = Learn more
+workspaces-removed-description = Workspaces has been removed from { -brand-short-name }. Please use the Workspaces add-on instead.
 floorp-workspaces-title = { -brand-short-name } Χώροι εργασίας
 workspaces-backup-discription = Δημιουργία αντιγράφων ασφαλείας και επαναφορά των χώρων εργασίας
 workspaces-restore-service-title = { -brand-short-name } Workspaces Backup Service
@@ -782,7 +796,7 @@ welcome-import-data-button = Εισαγωγή δεδομένων...
 welcome-import-data-skip = Παράλειψη Εισαγωγής
 welcome-select-button = Επιλογή
 welcome-finish-setup = Η Ρύθμιση Ολοκληρώθηκε!
-welcome-finish-setup-description = Είστε έτοιμοι! Άλλες ρυθμίσεις όπως οι κάθετες καρτέλες και τα πρόσθετα μπορείτε να βρείτε στο about:preferences. Απολαύστε το { -brand-short-name }!
+welcome-finish-setup-description = You're all set! Other features like Vertical Tabs & Workspaces can be found in { -brand-short-name }'s Settings. Enjoy { -brand-short-name }!
 welcomet-finish-setup = Έναρξη περιήγησης στο διαδίκτυο
 ############################################################# Custom Shortcutkey ###############################################################
 
