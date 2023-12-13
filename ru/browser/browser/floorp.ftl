@@ -240,7 +240,7 @@ max-memory =
 delete-border-and-roundup-option = 
     .label = Округлить углы страниц
 STG-smilar-workspaces-option = 
-    .label = Make "Simple Tab Groups" add-on buttons look like Workspaces buttons
+    .label = Сделать кнопки дополнения «Simple Tab Groups» похожими на кнопки рабочих пространств
 
 ## DualTheme
 
