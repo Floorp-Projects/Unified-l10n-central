@@ -403,7 +403,7 @@ workspaces-removed-migrate-to-STG-button =
 workspace-STG-backup-success = Backup file created
 workspace-STG-backup-success-message = The backup file was created on the desktop. Import this file into Simple Tab Groups.
 workspaces-migation-menuitem-text = Workspaces are deprecated! <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
-workspaces-removed-learning-more = Learn more
+workspaces-removed-learning-more = Узнать больше
 workspaces-removed-description = Workspaces has been removed from { -brand-short-name }. Please use the Workspaces add-on instead.
 floorp-workspaces-title = Рабочие пространства { -brand-short-name }
 workspaces-backup-discription = Резервное копирование и восстановление ваших рабочих пространств
