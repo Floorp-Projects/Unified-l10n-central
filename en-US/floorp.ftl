@@ -317,7 +317,14 @@ newtab-background-not-background =
 newtab-background-selected-image =
     .label = Custom folder...
 
+newtab-background-selected-one-image =
+    .label = Custom image...
+
 newtab-background-folder = Use images from this folder:
+
+newtab-background-image = Use image :
+
+newtab-choose-image = Choose Image...
 
 newtab-background-folder-reload = 
   .label = Reload images
@@ -329,6 +336,8 @@ newtab-background-folder-open =
   .label = Open folder
 
 newtab-background-folder-choose = Choose images folder...
+
+newtab-background-image-choose = Choose image...
 
 newtab-background-extensions = Use images with these file extensions (separated by ",")
 
