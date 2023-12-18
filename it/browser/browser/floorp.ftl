@@ -37,7 +37,7 @@ tab-sleep-settings-dialog-excludehosts-label = Escludi gli host
 tab-sleep-settings-dialog-excludehosts-label-2 = Inserisci un host per riga.
 tab-sleep-tab-context-menu-excludetab = Mantieni la scheda attiva
 enable-floorp-workspace = 
-    .label = Enable Workspaces (deprecated/will be removed)
+    .label = Enable Workspaces
 workspace-warning = Gli Spazi di Lavoro non possono essere utilizzati con i componenti aggiuntivi dei Gruppi di Schede. Se desideri utilizzare i componenti aggiuntivi dei Gruppi di Schede, disattivare gli Spazi di Lavoro e riavviare { -brand-short-name }.
 enable-tab-scroll-change = 
     .label = Cambia schede con la rotellina del mouse
@@ -240,7 +240,7 @@ max-memory =
 delete-border-and-roundup-option = 
     .label = Arrotonda gli angoli delle pagine
 STG-smilar-workspaces-option = 
-    .label = Make "Simple Tab Groups" add-on buttons look like Workspaces buttons
+    .label = Rendi il pulsante del componente aggiuntivo "Gruppi di Schede" come quello degli Spazi di Lavoro
 
 ## DualTheme
 
@@ -255,7 +255,11 @@ newtab-background-not-background =
     .label = Disabilita sfondo
 newtab-background-selected-image = 
     .label = Cartella personalizzata...
+newtab-background-selected-one-image = 
+    .label = Immagine personalizzata...
 newtab-background-folder = Usa immagini da questa cartella:
+newtab-background-image = Usa immagine :
+newtab-choose-image = Scegli immagine...
 newtab-background-folder-reload = 
     .label = Ricarica immagini
 newtab-background-folder-default = 
@@ -263,6 +267,7 @@ newtab-background-folder-default =
 newtab-background-folder-open = 
     .label = Apri cartella
 newtab-background-folder-choose = Scegli cartella immagini...
+newtab-background-image-choose = Scegli immagine...
 newtab-background-extensions = Usa immagini con queste estensioni di file (separate da ",")
 disable-blur-on-newtab = 
     .label = Disattivare l'effetto sfocatura su { -brand-short-name } Home
@@ -393,18 +398,18 @@ about-Smoothfox = Ottieni uno scorrimento della rotellina del mouse fluido, simi
 
 ## Workspaces
 
-workspaces-removed-title = Warning: Workspaces are deprecated!
-workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extensions <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
-workspaces-removed-migration-tools-title = Workspaces Migration Tools
-workspaces-removed-migration-tools = Workspaces Migration Tools provides a way to migrate your Workspaces to Simple Tab Groups.
-workspaces-removed-migration-tools-label = Generate Simple Tab Groups Backup file
+workspaces-removed-title = Attenzione: Gli Spazi di Lavoro sono deprecati!
+workspaces-removed-warning = Si prega di migrare al componente aggiuntivo "Gruppi di Schede" <label data-l10n-name="workspaces-removed-learning-more">Per saperne di più</label>
+workspaces-removed-migration-tools-title = Strumenti di Migrazione degli Spazi di Lavoro
+workspaces-removed-migration-tools = Gli Strumenti di Migrazione degli Spazi di Lavoro consentono di migrare i tuoi Spazi di Lavoro a Gruppi di Schede.
+workspaces-removed-migration-tools-label = Generare il file di backup dei Gruppi di Schede
 workspaces-removed-migrate-to-STG-button = 
-    .label = Generate...
-workspace-STG-backup-success = Backup file created
-workspace-STG-backup-success-message = The backup file was created on the desktop. Import this file into Simple Tab Groups.
-workspaces-migation-menuitem-text = Workspaces are deprecated! <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
-workspaces-removed-learning-more = Learn more
-workspaces-removed-description = Workspaces has been removed from { -brand-short-name }. Please use the Workspaces add-on instead.
+    .label = Genera...
+workspace-STG-backup-success = File di backup creato
+workspace-STG-backup-success-message = Il file di backup è stato creato sul Desktop. Importa questo file all'interno nei Gruppi di Schede.
+workspaces-migation-menuitem-text = Gli Spazi di Lavoro sono deprecati! <label data-l10n-name="workspaces-removed-learning-more">Scopri di più</label>
+workspaces-removed-learning-more = Scopri di più
+workspaces-removed-description = Gli Spazi di Lavoro sono stati rimossi da { -brand-short-name }. Per favore usa il componente aggiuntivo dedicato.
 floorp-workspaces-title = Spazi di Lavoro { -brand-short-name }
 workspaces-backup-discription = Backup e ripristino degli Spazi di Lavoro
 workspaces-restore-service-title = { -brand-short-name } Servizio di backup degli Spazi di Lavoro

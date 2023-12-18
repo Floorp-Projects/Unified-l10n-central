@@ -37,7 +37,7 @@ tab-sleep-settings-dialog-excludehosts-label = 排除主机名
 tab-sleep-settings-dialog-excludehosts-label-2 = 每行输入一个主机名。
 tab-sleep-tab-context-menu-excludetab = 保持此标签页处于活动状态
 enable-floorp-workspace = 
-    .label = Enable Workspaces (deprecated/will be removed)
+    .label = Enable Workspaces
 workspace-warning = 工作区无法与标签页分组插件一同使用。如果您想要使用标签页分组插件，请禁用工作区，然后重新启动 { -brand-short-name }。
 enable-tab-scroll-change = 
     .label = 使用鼠标滚轮切换标签页
@@ -75,9 +75,9 @@ native-vertical-tab-show-right =
 hover-vertical-tab = 
     .label = 折叠垂直标签栏
 floorp-show-vertical-tab-newtab-button = 
-    .label = 在垂直标签栏内显示 "打开新标签页 "按钮
+    .label = 在垂直标签栏内显示 “打开新标签页” 按钮
 floorp-show-vertical-tab-scrollbar = 
-    .label = Show scrollbar on Vertical Tab Bar
+    .label = 在垂直标签栏上显示滚动条
 TST = Tree Style Tab
 about-TST = Tree Style Tab 是一个受欢迎的扩展，允许您以树状结构显示标签页。 { -brand-short-name } 已经内置了这个插件。请安装此插件以恢复 { -brand-short-name } 内置的垂直标签栏功能。
 treestyletab-Settings = 
@@ -130,7 +130,7 @@ floorp-fluentUI =
 floorp-fluerialUI = 
     .label = { -brand-short-name } Fluerial UI (已废弃)
 floorp-gnomeUI = 
-    .label = GNOME Theme (已废弃)
+    .label = GNOME 主题 (已废弃)
 
 ## Download Manager
 
@@ -193,7 +193,7 @@ category-BSB =
 category-downloads = 
     .tooltiptext = { files-and-applications-title }
 bsb-header = 浏览器管理器侧边栏
-bsb-context = Use the following Container
+bsb-context = 使用以下容器
 bsb-userAgent-label = 
     .label = 在此 Web 面板中使用移动端用户代理
 bsb-width = 宽度 (如果设置为 0，将使用全局值)
@@ -240,7 +240,7 @@ max-memory =
 delete-border-and-roundup-option = 
     .label = 将页面边角修圆
 STG-smilar-workspaces-option = 
-    .label = Make "Simple Tab Groups" add-on buttons look like Workspaces buttons
+    .label = 将 “Simple Tab Groups” 插件按钮设计成类似于工作区按钮的样式
 
 ## DualTheme
 
@@ -255,7 +255,11 @@ newtab-background-not-background =
     .label = 禁用背景
 newtab-background-selected-image = 
     .label = 自定义文件夹...
+newtab-background-selected-one-image = 
+    .label = Custom image...
 newtab-background-folder = 使用此文件夹中的图像：
+newtab-background-image = Use image :
+newtab-choose-image = Choose Image...
 newtab-background-folder-reload = 
     .label = 重新加载图像
 newtab-background-folder-default = 
@@ -263,6 +267,7 @@ newtab-background-folder-default =
 newtab-background-folder-open = 
     .label = 打开文件夹
 newtab-background-folder-choose = 选择图像文件夹...
+newtab-background-image-choose = Choose image...
 newtab-background-extensions = 使用以下文件扩展名的图像 (用 “,” 分隔)
 disable-blur-on-newtab = 
     .label = 在 { -brand-short-name } 主页上禁用模糊效果
@@ -393,18 +398,18 @@ about-Smoothfox = 在您钟爱的浏览器上获得类似 Edge 的平滑滚动�
 
 ## Workspaces
 
-workspaces-removed-title = Warning: Workspaces are deprecated!
-workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extensions <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
-workspaces-removed-migration-tools-title = Workspaces Migration Tools
-workspaces-removed-migration-tools = Workspaces Migration Tools provides a way to migrate your Workspaces to Simple Tab Groups.
-workspaces-removed-migration-tools-label = Generate Simple Tab Groups Backup file
+workspaces-removed-title = 警告：工作区已被废弃！
+workspaces-removed-warning = 请迁移到 “Simple Tab Groups” 扩展 <label data-l10n-name="workspaces-removed-learning-more">详细说明</label>
+workspaces-removed-migration-tools-title = 工作区迁移工具
+workspaces-removed-migration-tools = 工作区迁移工具提供了一种将您的工作区迁移到 Simple Tab Groups 的方法。
+workspaces-removed-migration-tools-label = 生成 Simple Tab Groups 备份文件
 workspaces-removed-migrate-to-STG-button = 
-    .label = Generate...
-workspace-STG-backup-success = Backup file created
-workspace-STG-backup-success-message = The backup file was created on the desktop. Import this file into Simple Tab Groups.
-workspaces-migation-menuitem-text = Workspaces are deprecated! <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
-workspaces-removed-learning-more = Learn more
-workspaces-removed-description = Workspaces has been removed from { -brand-short-name }. Please use the Workspaces add-on instead.
+    .label = 生成中……
+workspace-STG-backup-success = 备份文件已创建
+workspace-STG-backup-success-message = 备份文件已在桌面上创建。请将此文件导入 Simple Tab Groups 。
+workspaces-migation-menuitem-text = 工作区已被废弃！ <label data-l10n-name="workspaces-removed-learning-more">详细说明</label>
+workspaces-removed-learning-more = 详细说明
+workspaces-removed-description = 工作区已从 { -brand-short-name } 中移除。请改用工作区扩展。
 floorp-workspaces-title = { -brand-short-name } 工作区
 workspaces-backup-discription = 备份并恢复您的工作区
 workspaces-restore-service-title = { -brand-short-name } 工作区备份服务
@@ -661,13 +666,13 @@ status-bar =
 ##################################################################### Gesturefy ###############################################################
 
 gf-floorp-open-tree-style-tab-name = [{ -brand-short-name }] 打开 Tree Style Tab 面板
-gf-floorp-open-tree-style-tab-description = Open Tree Style Tab Panel on the Sidebar
-gf-floorp-open-bookmarks-sidebar-name = [{ -brand-short-name }] Open Bookmarks Panel
-gf-floorp-open-bookmarks-sidebar-description = Open Bookmarks Panel on the Sidebar
-gf-floorp-open-history-sidebar-name = [{ -brand-short-name }] Open History Panel
-gf-floorp-open-history-sidebar-description = Open History Panel on the Sidebar
-gf-floorp-open-synctabs-sidebar-name = [{ -brand-short-name }] Open Synced Tabs Panel
-gf-floorp-open-synctabs-sidebar-description = Open Synced Tabs Panel on the Sidebar
+gf-floorp-open-tree-style-tab-description = 在侧边栏上打开 Tree Style Tab 面板
+gf-floorp-open-bookmarks-sidebar-name = [{ -brand-short-name }] 打开书签面板
+gf-floorp-open-bookmarks-sidebar-description = 在侧边栏上打开书签面板
+gf-floorp-open-history-sidebar-name = [{ -brand-short-name }] 打开历史记录面板
+gf-floorp-open-history-sidebar-description = 在侧边栏上打开历史记录面板
+gf-floorp-open-synctabs-sidebar-name = [{ -brand-short-name }] 打开已同步标签页面板
+gf-floorp-open-synctabs-sidebar-description = 在侧边栏上打开已同步标签页面板
 gf-floorp-close-sidebar-name = [{ -brand-short-name }] 关闭侧边栏
 gf-floorp-close-sidebar-description = 关闭侧边栏
 gf-floorp-open-browser-manager-sidebar-name = [{ -brand-short-name }] 打开 BMS
@@ -680,8 +685,8 @@ gf-floorp-hide-statusbar-name = [{ -brand-short-name }] 隐藏状态栏
 gf-floorp-hide-statusbar-description = 隐藏状态栏
 gf-floorp-show-statusbar-name = [{ -brand-short-name }] 切换状态栏
 gf-floorp-show-statusbar-description = 显示或隐藏状态栏
-gf-floorp-open-extension-sidebar-name = [{ -brand-short-name }] Open selected add-on Sidebar
-gf-floorp-open-extension-sidebar-description = Open selected add-on on the Sidebar
+gf-floorp-open-extension-sidebar-name = [{-brand-short-name}] 打开所选的扩展侧边栏
+gf-floorp-open-extension-sidebar-description = 在侧边栏上打开选定的扩展
 gf-floorp-open-extension-sidebar-settings-addons-id = 侧边栏插件
 gf-floorp-open-extension-sidebar-settings-addons-id-description = 扩展侧边栏打开的插件
 gf-floorp-open-extension-sidebar-settings-list-default = 请选择插件
@@ -796,7 +801,7 @@ welcome-import-data-button = 导入数据...
 welcome-import-data-skip = 跳过导入
 welcome-select-button = 选择
 welcome-finish-setup = 设置已完成！
-welcome-finish-setup-description = You're all set! Other features like Vertical Tabs & Workspaces can be found in { -brand-short-name }'s Settings. Enjoy { -brand-short-name }!
+welcome-finish-setup-description = 一切就绪！其他功能，如垂直标签栏和工作区，可以在 { -brand-short-name } 的设置中找到。尽情享受 { -brand-short-name } 吧！
 welcomet-finish-setup = 开始浏览网络
 ############################################################# Custom Shortcutkey ###############################################################
 
@@ -840,7 +845,7 @@ floorp-custom-actions-print-page = 打印页面
     .label = 打印页面
 floorp-custom-actions-mute-current-tab = 切换静音/取消静音当前标签页
     .label = 切换静音/取消静音当前标签页
-floorp-custom-actions-toggle-bookmark-toolbar = Toggle bookmark toolbar
+floorp-custom-actions-toggle-bookmark-toolbar = 切换书签工具栏
     .label = 切换书签工具栏
 floorp-custom-actions-show-source-of-page = 显示页面来源
     .label = 打开页面来源
@@ -888,7 +893,7 @@ floorp-custom-actions-open-bookmarks-sidebar = 打开书签侧边栏
     .label = 打开书签侧边栏
 floorp-custom-actions-open-bookmark-add-tool = 打开书签添加工具
     .label = 添加书签
-floorp-custom-actions-open-bookmark-add-toolbar = Open "Add a new bookmark" pop-up window
+floorp-custom-actions-open-bookmark-add-toolbar = 打开 “添加新书签” 弹出窗口
     .label = 添加到书签工具栏
 floorp-custom-actions-open-bookmarks-manager = 打开书签管理器
     .label = 打开书签管理器
@@ -972,8 +977,8 @@ floorp-custom-actions-custom-action-4 = 自定义动作 4
     .label = 自定义动作 4
 floorp-custom-actions-custom-action-5 = 自定义动作 5
     .label = 自定义动作 5
-floorp-custom-actions-rest-mode = Enable rest mode
-    .label = Enable rest mode
+floorp-custom-actions-rest-mode = 启用休息模式
+    .label = 启用休息模式
 ##################################################################### Profile Switcher ###############################################################
 
 floorp-open-profile-with-new-instance = 启动
@@ -1012,23 +1017,23 @@ floorp-customize-mode-unified-extensions-button =
     .label = 统一扩展按钮
 ######################################################################### Progressive Web Apps (SSB) ###############################################################
 
-ssb-page-action-title = Install app
+ssb-page-action-title = 安装应用
 ssb-app-open-button = 
-    .label = Open In App
+    .label = 在应用中打开
 ssb-app-install-button = 
-    .label = Install
+    .label = 安装
 ssb-app-cancel-button = 
-    .label = Cancel
+    .label = 取消
 floorp-open-manage-ssb-page = 
-    .label = Manage installed Web Apps
+    .label = 管理已安装的 Web 应用
 appmenuitem-webapps = 
-    .label = Web Apps
-appmenu-open-installed-apps-subheader = Open installed web apps
+    .label = Web 应用
+appmenu-open-installed-apps-subheader = 打开已安装的 web 应用
 appmenuitem-install-current-page = 
-    .label = Install this site as an app
+    .label = 将此站点安装为应用
 appmenuitem-open-current-page = 
-    .label = Open this site on installed app
+    .label = 在已安装的应用上打开此站点
 appmenuitem-contextmenu-open-app = 
-    .label = Open this app
+    .label = 打开此应用
 appmenuitem-contextmenu-uninstall-app = 
-    .label = Uninstall this app
+    .label = 卸载此应用

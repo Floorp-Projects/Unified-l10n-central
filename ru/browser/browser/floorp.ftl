@@ -37,7 +37,7 @@ tab-sleep-settings-dialog-excludehosts-label = Список исключений
 tab-sleep-settings-dialog-excludehosts-label-2 = Введите одно исключение на строку.
 tab-sleep-tab-context-menu-excludetab = Держать вкладки пробуждёнными
 enable-floorp-workspace = 
-    .label = Enable Workspaces (deprecated/will be removed)
+    .label = Enable Workspaces
 workspace-warning = Рабочие пространства не могут быть использованы с дополнением Tab Group. Если вы хотите использовать дополнение Tab Group, пожалуйста, отключите рабочие пространства и перезапустите { -brand-short-name }.
 enable-tab-scroll-change = 
     .label = Переключать вкладки с помощью прокрутки
@@ -240,7 +240,7 @@ max-memory =
 delete-border-and-roundup-option = 
     .label = Округлить углы страниц
 STG-smilar-workspaces-option = 
-    .label = Make "Simple Tab Groups" add-on buttons look like Workspaces buttons
+    .label = Сделать кнопки дополнения «Simple Tab Groups» похожими на кнопки рабочих пространств
 
 ## DualTheme
 
@@ -255,7 +255,11 @@ newtab-background-not-background =
     .label = Отключить фоновое изображение
 newtab-background-selected-image = 
     .label = Пользовательская папка...
+newtab-background-selected-one-image = 
+    .label = Custom image...
 newtab-background-folder = Использовать изображения из выбранной папки:
+newtab-background-image = Use image :
+newtab-choose-image = Choose Image...
 newtab-background-folder-reload = 
     .label = Перезагрузить изображения
 newtab-background-folder-default = 
@@ -263,6 +267,7 @@ newtab-background-folder-default =
 newtab-background-folder-open = 
     .label = Открыть папку
 newtab-background-folder-choose = Выберите папку с изображениями...
+newtab-background-image-choose = Choose image...
 newtab-background-extensions = Использовать изображения с этими расширениями (через ",")
 disable-blur-on-newtab = 
     .label = Отключить эффект размытия на домашней странице { -brand-short-name }
@@ -403,7 +408,7 @@ workspaces-removed-migrate-to-STG-button =
 workspace-STG-backup-success = Backup file created
 workspace-STG-backup-success-message = The backup file was created on the desktop. Import this file into Simple Tab Groups.
 workspaces-migation-menuitem-text = Workspaces are deprecated! <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
-workspaces-removed-learning-more = Learn more
+workspaces-removed-learning-more = Узнать больше
 workspaces-removed-description = Workspaces has been removed from { -brand-short-name }. Please use the Workspaces add-on instead.
 floorp-workspaces-title = Рабочие пространства { -brand-short-name }
 workspaces-backup-discription = Резервное копирование и восстановление ваших рабочих пространств
