@@ -40,7 +40,7 @@ tab-sleep-settings-dialog-excludehosts-label = Exclude hosts
 tab-sleep-settings-dialog-excludehosts-label-2 = Enter one host per line.
 tab-sleep-tab-context-menu-excludetab = Keep tab awake
 enable-floorp-workspace =
- .label = Enable Workspaces (deprecated/will be removed)
+ .label = Enable Workspaces
 workspace-warning = Workspaces cannot be used with Tab Group add-ons. If you want to use Tab Group add-ons, please disable Workspaces and restart { -brand-short-name }.
 enable-tab-scroll-change =
  .label = Switch tabs by scrolling with your mouse
@@ -317,7 +317,14 @@ newtab-background-not-background =
 newtab-background-selected-image =
     .label = Custom folder...
 
+newtab-background-selected-one-image =
+    .label = Custom image...
+
 newtab-background-folder = Use images from this folder:
+
+newtab-background-image = Use image :
+
+newtab-choose-image = Choose Image...
 
 newtab-background-folder-reload = 
   .label = Reload images
@@ -329,6 +336,8 @@ newtab-background-folder-open =
   .label = Open folder
 
 newtab-background-folder-choose = Choose images folder...
+
+newtab-background-image-choose = Choose image...
 
 newtab-background-extensions = Use images with these file extensions (separated by ",")
 
