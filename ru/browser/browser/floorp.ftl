@@ -768,6 +768,9 @@ workspace-delete =
     .label = Удалить рабочее пространство
 manage-workspace = Управление рабочим пространством
     .label = Управление рабочим пространством
+workspaces-toolbar-button = Workspaces
+    .label = Workspaces
+    .tooltiptext = Select a Workspace...
 ######################################################################### menubar item ###############################################################
 
 sharemode-menuitem = 
