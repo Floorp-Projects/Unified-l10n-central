@@ -399,9 +399,9 @@ about-Smoothfox = Edge のようなスムーズなスクロールを、お気に
 ## Workspaces
 
 workspaces-removed-title = 警告: ワークスペースは非推奨です！
-workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extension <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
+workspaces-removed-warning = "Simple Tab Groups" 拡張機能に移行してください <label data-l10n-name="workspaces-removed-learning-more">詳しくはこちら</label>
 workspaces-removed-migration-tools-title = ワークスペース移行ツール
-workspaces-removed-migration-tools = Workspaces Migration Tools provide a way to migrate your Workspaces to Simple Tab Groups.
+workspaces-removed-migration-tools = ワークスペース移行ツールを使用すると、ワークスペースから Simple Tab Groups へスムーズに移行できます。
 workspaces-removed-migration-tools-label = バックアップファイルを作成
 workspaces-removed-migrate-to-STG-button = 
     .label = 作成...
@@ -409,11 +409,11 @@ workspace-STG-backup-success = バックアップファイルが作成されま�
 workspace-STG-backup-success-message = デスクトップ上にバックアップファイルが作成されます。バックアップファイルを Simple Tab Groups で読み込んでください。
 workspaces-migation-menuitem-text = ワークスペースを使用中です！<label data-l10n-name="workspaces-removed-learning-more">詳細</label>
 workspaces-removed-learning-more = 詳細
-workspaces-removed-description = Workspaces have been removed from { -brand-short-name }. Please use the Simple Tab Groups add-on instead.
+workspaces-removed-description = ワークスペースは { -brand-short-name } から削除されました。代わりに Simple Tab Groups 拡張機能をお使いください。
 floorp-workspaces-title = { -brand-short-name } ワークスペース
 workspaces-backup-discription = ワークスペースのバックアップと復元
 workspaces-restore-service-title = { -brand-short-name } ワークスペース復元サービス
-workspaces-restore-warning = Warning! Running this operation will overwrite your current Workspaces. The browser will freeze for a few seconds and then proceed to restart.
+workspaces-restore-warning = 警告！この操作を実行すると、現在のワークスペースが上書きされます。ブラウザーは数秒間フリーズし、その後再起動します。
 floorp-workspace-settings-button = ワークスペース設定...
 change-to-close-workspace-popup-option = 
     .label = ワークスペース選択時にワークスペースのポップアップを閉じる
@@ -943,8 +943,8 @@ floorp-custom-actions-hide-sidebar = サイドバーを隠す
     .label = サイドバーを隠す
 floorp-custom-actions-show-sidebar = サイドバーの表示を切り替える
     .label = サイドバーの表示を切り替える
-floorp-custom-actions-toggle-sidebar = Toggle sidebar
-    .label = Toggle sidebar
+floorp-custom-actions-toggle-sidebar = サイドバーの表示を切り替える
+    .label = サイドバーの表示を切り替える
 floorp-custom-actions-open-previous-workspace = 前のワークスペースを開く
     .label = 前のワークスペースを開く
 floorp-custom-actions-open-next-workspace = 次のワークスペースを開く
