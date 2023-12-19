@@ -768,6 +768,9 @@ workspace-delete =
     .label = Ištrinti aplinką
 manage-workspace = Tvarkyti šią aplinką
     .label = Tvarkyti šią aplinką
+workspaces-toolbar-button = Workspaces
+    .label = Workspaces
+    .tooltiptext = Select a Workspace...
 ######################################################################### menubar item ###############################################################
 
 sharemode-menuitem = 
