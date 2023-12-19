@@ -399,9 +399,9 @@ about-Smoothfox = 在 Floorp 上實現類似 Edge 一般順滑的頁面滾動效
 ## Workspaces
 
 workspaces-removed-title = 警告： 工作空間功能不再被支援！
-workspaces-removed-warning = 請遷移數據並改用 "Simple Tab Groups" 擴充套件 <label data-l10n-name="workspaces-removed-learning-more"> 瞭解更多</label>
+workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extension <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
 workspaces-removed-migration-tools-title = 工作空間遷移工具
-workspaces-removed-migration-tools = 工作空間遷移工具可以將您的工作空間數據轉移至 Simple Tab Groups。
+workspaces-removed-migration-tools = Workspaces Migration Tools provide a way to migrate your Workspaces to Simple Tab Groups.
 workspaces-removed-migration-tools-label = 生成 Simple Tab Groups 備份文檔
 workspaces-removed-migrate-to-STG-button = 
     .label = 生成備份文檔
@@ -409,11 +409,11 @@ workspace-STG-backup-success = 已生成備份文檔
 workspace-STG-backup-success-message = 備份文檔已在桌面上。請將此文檔匯入 Simple Tab Groups 中。
 workspaces-migation-menuitem-text = 工作空間功能將不再被支援！<label data-l10n-name="workspaces-removed-learning-more">瞭解詳情</label>
 workspaces-removed-learning-more = 瞭解更多
-workspaces-removed-description = 工作空間功能已經從 { -brand-short-name } 中移除。請改用其他替代的工作空間擴充套件。
+workspaces-removed-description = Workspaces have been removed from { -brand-short-name }. Please use the Simple Tab Groups add-on instead.
 floorp-workspaces-title = { -brand-short-name } 工作空間
 workspaces-backup-discription = 備份/恢復您的工作空間
 workspaces-restore-service-title = { -brand-short-name } 工作空間備份服務
-workspaces-restore-warning = 警告！執行此行動會導致您的工作空間被覆寫。屆時 Floorp 將會暫時進入凍結狀態，之後並會自行重啟。
+workspaces-restore-warning = Warning! Running this operation will overwrite your current Workspaces. The browser will freeze for a few seconds and then proceed to restart.
 floorp-workspace-settings-button = 工作空間設定...
 change-to-close-workspace-popup-option = 
     .label = 選擇工作空間時關閉工作空間的彈窗
