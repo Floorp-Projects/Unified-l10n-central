@@ -768,6 +768,9 @@ workspace-delete =
     .label = Excluir Projeto
 manage-workspace = Gerenciar este projeto
     .label = Gerenciar este projeto
+workspaces-toolbar-button = Workspaces
+    .label = Workspaces
+    .tooltiptext = Select a Workspace...
 ######################################################################### menubar item ###############################################################
 
 sharemode-menuitem = 
