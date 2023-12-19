@@ -37,7 +37,7 @@ tab-sleep-settings-dialog-excludehosts-label = 호스트 제외
 tab-sleep-settings-dialog-excludehosts-label-2 = 한 줄에 호스트 하나를 입력합니다.
 tab-sleep-tab-context-menu-excludetab = 탭을 슬립으로 전환하지 않기
 enable-floorp-workspace = 
-    .label = Enable Workspaces
+    .label = 워크스페이스 활성화
 workspace-warning = 워크스페이스는 탭 그룹 애드온과 같이 쓰일 수 없어요. 만약 같이 쓰고 싶으시다면, 워크스페이스를 비활성화하고, { -brand-short-name }를 재시작해주세요.
 enable-tab-scroll-change = 
     .label = 마우스로 스크롤하여 탭 전환
@@ -256,10 +256,10 @@ newtab-background-not-background =
 newtab-background-selected-image = 
     .label = 사용자 지정 폴더...
 newtab-background-selected-one-image = 
-    .label = Custom image...
+    .label = 커스텀 이미지...
 newtab-background-folder = 이 폴더의 이미지를 사용합니다:
-newtab-background-image = Use image :
-newtab-choose-image = Choose Image...
+newtab-background-image = 사용할 이미지:
+newtab-choose-image = 이미지를 선택:
 newtab-background-folder-reload = 
     .label = 이미지 다시 로드
 newtab-background-folder-default = 
@@ -267,7 +267,7 @@ newtab-background-folder-default =
 newtab-background-folder-open = 
     .label = 폴더 열기
 newtab-background-folder-choose = 이미지 폴더 선택...
-newtab-background-image-choose = Choose image...
+newtab-background-image-choose = 이미지를 선택:
 newtab-background-extensions = 다음 파일 확장자(","로 구분)의 이미지 사용
 disable-blur-on-newtab = 
     .label = { -brand-short-name } 홈에서 흐림 효과 비활성화하기
@@ -398,14 +398,14 @@ about-Smoothfox = 즐겨 사용하는 브라우저에서 Edge와 같은 부드�
 
 ## Workspaces
 
-workspaces-removed-title = Warning: Workspaces are deprecated!
+workspaces-removed-title = 경고: 워크스페이스는 지원 중단되었습니다!
 workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extension <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
 workspaces-removed-migration-tools-title = Workspaces Migration Tools
 workspaces-removed-migration-tools = Workspaces Migration Tools provide a way to migrate your Workspaces to Simple Tab Groups.
 workspaces-removed-migration-tools-label = Generate Simple Tab Groups Backup file
 workspaces-removed-migrate-to-STG-button = 
-    .label = Generate...
-workspace-STG-backup-success = Backup file created
+    .label = 생성...
+workspace-STG-backup-success = 백업 파일이 생성되었습니다
 workspace-STG-backup-success-message = The backup file was created on the desktop. Import this file into Simple Tab Groups.
 workspaces-migation-menuitem-text = Workspaces are deprecated! <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
 workspaces-removed-learning-more = Learn more
