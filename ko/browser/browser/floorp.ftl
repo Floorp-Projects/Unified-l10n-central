@@ -768,6 +768,9 @@ workspace-delete =
     .label = 작업 영역 삭제
 manage-workspace = 이 작업 공간 관리
     .label = 이 작업 공간 관리
+workspaces-toolbar-button = Workspaces
+    .label = Workspaces
+    .tooltiptext = Select a Workspace...
 ######################################################################### menubar item ###############################################################
 
 sharemode-menuitem = 
