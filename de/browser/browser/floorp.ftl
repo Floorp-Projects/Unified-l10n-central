@@ -399,9 +399,9 @@ about-Smoothfox = Holen Sie sich Edge-ähnliches Scrollen in Ihrem bevorzugten B
 ## Workspaces
 
 workspaces-removed-title = Warnung: Arbeitsbereiche werden bald entfernt!
-workspaces-removed-warning = Bitte wechseln Sie zu der "Simple Tab Groups" Erweiterungen <label data-l10n-name="workspaces-removed-learning-more">Mehr erfahren</label>
+workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extension <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
 workspaces-removed-migration-tools-title = Workspaces Migration Tools
-workspaces-removed-migration-tools = Workspaces Migration Tools provides a way to migrate your Workspaces to Simple Tab Groups.
+workspaces-removed-migration-tools = Workspaces Migration Tools provide a way to migrate your Workspaces to Simple Tab Groups.
 workspaces-removed-migration-tools-label = Generate Simple Tab Groups Backup file
 workspaces-removed-migrate-to-STG-button = 
     .label = Generate...
@@ -409,11 +409,11 @@ workspace-STG-backup-success = Backup file created
 workspace-STG-backup-success-message = The backup file was created on the desktop. Import this file into Simple Tab Groups.
 workspaces-migation-menuitem-text = Workspaces are deprecated! <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
 workspaces-removed-learning-more = Learn more
-workspaces-removed-description = Workspaces has been removed from { -brand-short-name }. Please use the Workspaces add-on instead.
+workspaces-removed-description = Workspaces have been removed from { -brand-short-name }. Please use the Simple Tab Groups add-on instead.
 floorp-workspaces-title = { -brand-short-name } Arbeitsbereiche
 workspaces-backup-discription = Arbeitsbereiche Sichern und Wiederherstellen
 workspaces-restore-service-title = { -brand-short-name } Arbeitsbereich Sicherungsdienst
-workspaces-restore-warning = Warnung! Wenn Sie diesen Vorgang ausführen, werden Ihre aktuellen Arbeitsbereiche überschrieben. Der Browser friert für einige Sekunden ein und wird dann neu gestartet.
+workspaces-restore-warning = Warning! Running this operation will overwrite your current Workspaces. The browser will freeze for a few seconds and then proceed to restart.
 floorp-workspace-settings-button = Arbeitsbereichseinstellungen...
 change-to-close-workspace-popup-option = 
     .label = Arbeitsbereich-Popup bei Auswahl eines Arbeitsbereichs schließen
@@ -943,6 +943,8 @@ floorp-custom-actions-hide-sidebar = Hide sidebar
     .label = Hide sidebar
 floorp-custom-actions-show-sidebar = Seitenleiste umschalten
     .label = Seitenleiste umschalten
+floorp-custom-actions-toggle-sidebar = Toggle sidebar
+    .label = Toggle sidebar
 floorp-custom-actions-open-previous-workspace = Vorherigen Arbeitsbereich öffnen
     .label = Vorherigen Arbeitsbereich öffnen
 floorp-custom-actions-open-next-workspace = Nächsten Arbeitsbereich öffnen
