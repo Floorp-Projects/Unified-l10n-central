@@ -768,6 +768,9 @@ workspace-delete =
     .label = Slet Arbejdsområde
 manage-workspace = Administrer dette arbejdsområde
     .label = Administrer dette arbejdsområde
+workspaces-toolbar-button = Workspaces
+    .label = Workspaces
+    .tooltiptext = Select a Workspace...
 ######################################################################### menubar item ###############################################################
 
 sharemode-menuitem = 
