@@ -399,9 +399,9 @@ about-Smoothfox = Ottieni uno scorrimento della rotellina del mouse fluido, simi
 ## Workspaces
 
 workspaces-removed-title = Attenzione: Gli Spazi di Lavoro sono deprecati!
-workspaces-removed-warning = Si prega di migrare al componente aggiuntivo "Gruppi di Schede" <label data-l10n-name="workspaces-removed-learning-more">Per saperne di più</label>
+workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extension <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
 workspaces-removed-migration-tools-title = Strumenti di Migrazione degli Spazi di Lavoro
-workspaces-removed-migration-tools = Gli Strumenti di Migrazione degli Spazi di Lavoro consentono di migrare i tuoi Spazi di Lavoro a Gruppi di Schede.
+workspaces-removed-migration-tools = Workspaces Migration Tools provide a way to migrate your Workspaces to Simple Tab Groups.
 workspaces-removed-migration-tools-label = Generare il file di backup dei Gruppi di Schede
 workspaces-removed-migrate-to-STG-button = 
     .label = Genera...
@@ -409,11 +409,11 @@ workspace-STG-backup-success = File di backup creato
 workspace-STG-backup-success-message = Il file di backup è stato creato sul Desktop. Importa questo file all'interno nei Gruppi di Schede.
 workspaces-migation-menuitem-text = Gli Spazi di Lavoro sono deprecati! <label data-l10n-name="workspaces-removed-learning-more">Scopri di più</label>
 workspaces-removed-learning-more = Scopri di più
-workspaces-removed-description = Gli Spazi di Lavoro sono stati rimossi da { -brand-short-name }. Per favore usa il componente aggiuntivo dedicato.
+workspaces-removed-description = Workspaces have been removed from { -brand-short-name }. Please use the Simple Tab Groups add-on instead.
 floorp-workspaces-title = Spazi di Lavoro { -brand-short-name }
 workspaces-backup-discription = Backup e ripristino degli Spazi di Lavoro
 workspaces-restore-service-title = { -brand-short-name } Servizio di backup degli Spazi di Lavoro
-workspaces-restore-warning = Attenzione! L'esecuzione di questa operazione causerà la sovrascrittura degli Spazi di Lavoro correnti. Il browser si bloccherà per alcuni secondi e poi si riavvierà.
+workspaces-restore-warning = Warning! Running this operation will overwrite your current Workspaces. The browser will freeze for a few seconds and then proceed to restart.
 floorp-workspace-settings-button = Impostazioni Spazi di Lavoro...
 change-to-close-workspace-popup-option = 
     .label = Chiude gli spazi di lavoro quando si seleziona uno Spazio di Lavoro
