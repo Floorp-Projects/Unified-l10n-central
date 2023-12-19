@@ -768,6 +768,9 @@ workspace-delete =
     .label = Menghapus Ruang Kerja
 manage-workspace = Kelola Ruang Kerja ini
     .label = Kelola ruang kerja ini
+workspaces-toolbar-button = Workspaces
+    .label = Workspaces
+    .tooltiptext = Select a Workspace...
 ######################################################################### menubar item ###############################################################
 
 sharemode-menuitem = 
