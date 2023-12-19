@@ -399,9 +399,9 @@ about-Smoothfox = Получите плавную прокрутку, как в 
 ## Workspaces
 
 workspaces-removed-title = Warning: Workspaces are deprecated!
-workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extensions <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
+workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extension <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
 workspaces-removed-migration-tools-title = Workspaces Migration Tools
-workspaces-removed-migration-tools = Workspaces Migration Tools provides a way to migrate your Workspaces to Simple Tab Groups.
+workspaces-removed-migration-tools = Workspaces Migration Tools provide a way to migrate your Workspaces to Simple Tab Groups.
 workspaces-removed-migration-tools-label = Generate Simple Tab Groups Backup file
 workspaces-removed-migrate-to-STG-button = 
     .label = Generate...
@@ -409,11 +409,11 @@ workspace-STG-backup-success = Backup file created
 workspace-STG-backup-success-message = The backup file was created on the desktop. Import this file into Simple Tab Groups.
 workspaces-migation-menuitem-text = Workspaces are deprecated! <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
 workspaces-removed-learning-more = Узнать больше
-workspaces-removed-description = Workspaces has been removed from { -brand-short-name }. Please use the Workspaces add-on instead.
+workspaces-removed-description = Workspaces have been removed from { -brand-short-name }. Please use the Simple Tab Groups add-on instead.
 floorp-workspaces-title = Рабочие пространства { -brand-short-name }
 workspaces-backup-discription = Резервное копирование и восстановление ваших рабочих пространств
 workspaces-restore-service-title = Служба восстановления заметок { -brand-short-name }
-workspaces-restore-warning = Внимание! Выполнение этой операции приведет к тому, что текущие рабочие пространства будут перезаписаны. Браузер зависнет на несколько секунд, а затем будет перезапущен.
+workspaces-restore-warning = Warning! Running this operation will overwrite your current Workspaces. The browser will freeze for a few seconds and then proceed to restart.
 floorp-workspace-settings-button = Настройки рабочего пространства...
 change-to-close-workspace-popup-option = 
     .label = Закрыть всплывающее окно рабочих пространств при выборе рабочего пространства
