@@ -9,30 +9,30 @@ icon-creator = Icon creator <label data-l10n-name="browser-logo-twitter">@Cutter
 contributors = A list of <label data-l10n-name="about-contributor">contributors and Developers</label>
 #################################################################### about:preferences ####################################################################
 
-pane-design-title = Design
+pane-design-title = Дизайн
 category-design = 
     .tooltiptext = { pane-design-title }
 design-header = { pane-design-title }
-feature-requires-restart = A restart is required to apply changes
-tab-width = Minimum width of tabs
-preferences-tabs-newtab-position = New tab position
+feature-requires-restart = Для застосування змін необхідне перезавантаження
+tab-width = Мінімальна ширина вкладок
+preferences-tabs-newtab-position = Позиція нової вкладки
 open-new-tab-use-default = 
-    .label = Open new tabs at default position
+    .label = Відкривати нові вкладки за замовчуванням
 open-new-tab-at-the-end = 
-    .label = Open new tabs at the end of the Tab Bar
+    .label = Відкривати нові вкладки в кінці панелі вкладок
 open-new-tab-next-to-current = 
-    .label = Open new tabs next to the current tab
+    .label = Відкривати нові вкладки поруч з поточною вкладкою
 multirow-tabs-limit = 
     .label = Enable row limit for multi-row tabs
 multirow-tabs-newtab = 
     .label = Place the "Open a new tab" button at the end of the lowest row of tabs
 multirow-tabs-value = Number of rows when multi-row tabs are enabled
 enable-tab-sleep = 
-    .label = Enable Sleeping Tabs
-tab-sleep-timeout-minutes-value = Tabs will sleep after being inactive for (minutes)
-tab-sleep-settings-button = Settings...
+    .label = Увімкнути сплячі вкладки
+tab-sleep-timeout-minutes-value = Вкладки перейдуть в режим сну після неактивності протягом (хвилини)
+tab-sleep-settings-button = Налаштування...
 tab-sleep-settings-dialog-title = 
-    .title = Sleeping Tabs Settings
+    .title = Налаштування сплячих вкладок
 tab-sleep-settings-dialog-excludehosts-label = Exclude hosts
 tab-sleep-settings-dialog-excludehosts-label-2 = Enter one host per line.
 tab-sleep-tab-context-menu-excludetab = Keep tab awake
@@ -111,15 +111,15 @@ disable-fullscreen-notification =
 system-color-settings = Some themes have both light and dark modes - choose which mode you'd like these themes to use.
 preferences-theme-appearance-header = Theme Mode
 system-theme-dark = 
-    .label = Dark
+    .label = Темна
 system-theme-light = 
-    .label = Light
+    .label = Світла
 system-theme-auto = 
-    .label = Follow my system appearance
+    .label = Використовувати системні налаштування
 
 ## User interface preferences
 
-ui-preference = Browser appearance
+ui-preference = Зовнішній вигляд переглядача
 preferences-browser-appearance-description = Choose a built-in third-party design to use in { -brand-short-name }. Some designs may not be compatible with your configuration.
 firefox-proton = 
     .label = Firefox Proton UI
@@ -170,10 +170,10 @@ use-custom-useragent-mode =
 ## DMR UI
 
 download-mgr-UI = 
-    .label = Enable the SimpleUI Download Manager
+    .label = Увімкніть менеджер завантажень SimpleUI
 downloading-red-color = 
     .label = Use the red downloads icon when downloading
-sidebar-preferences = Sidebar
+sidebar-preferences = Бічна панель
 bsb-preferences = Browser Manager Sidebar Settings
 view-sidebar2-right = 
     .label = Display the Browser Manager Sidebar on the right
@@ -245,14 +245,14 @@ STG-smilar-workspaces-option =
 ## DualTheme
 
 dualtheme-enable = 
-    .label = Enable Dual Theme
+    .label = Увімкнути подвійну тему
 newtab-background = { -brand-short-name } Home Background
 newtab-background-random-image = 
     .label = Random images from Unsplash
 newtab-background-gradation = 
-    .label = Gradient
+    .label = Градієнт
 newtab-background-not-background = 
-    .label = Disable background
+    .label = Вимкнути фон
 newtab-background-selected-image = 
     .label = Custom folder...
 newtab-background-selected-one-image = 
@@ -261,16 +261,16 @@ newtab-background-folder = Use images from this folder:
 newtab-background-image = Use image :
 newtab-choose-image = Choose Image...
 newtab-background-folder-reload = 
-    .label = Reload images
+    .label = Оновити зображення
 newtab-background-folder-default = 
     .label = Restore Defaults
 newtab-background-folder-open = 
-    .label = Open folder
-newtab-background-folder-choose = Choose images folder...
+    .label = Відкрити папку
+newtab-background-folder-choose = Виберіть папку з зображеннями...
 newtab-background-image-choose = Choose image...
 newtab-background-extensions = Use images with these file extensions (separated by ",")
 disable-blur-on-newtab = 
-    .label = Disable blur effect on { -brand-short-name } Home
+    .label = Вимкнути ефект розмиття на головній сторінці { -brand-short-name }
 
 ## Lepton Preferences
 
@@ -399,9 +399,9 @@ about-Smoothfox = Get Edge-like smooth scrolling on your favorite browser — or
 ## Workspaces
 
 workspaces-removed-title = Warning: Workspaces are deprecated!
-workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extensions <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
+workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extension <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
 workspaces-removed-migration-tools-title = Workspaces Migration Tools
-workspaces-removed-migration-tools = Workspaces Migration Tools provides a way to migrate your Workspaces to Simple Tab Groups.
+workspaces-removed-migration-tools = Workspaces Migration Tools provide a way to migrate your Workspaces to Simple Tab Groups.
 workspaces-removed-migration-tools-label = Generate Simple Tab Groups Backup file
 workspaces-removed-migrate-to-STG-button = 
     .label = Generate...
@@ -409,11 +409,11 @@ workspace-STG-backup-success = Backup file created
 workspace-STG-backup-success-message = The backup file was created on the desktop. Import this file into Simple Tab Groups.
 workspaces-migation-menuitem-text = Workspaces are deprecated! <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
 workspaces-removed-learning-more = Learn more
-workspaces-removed-description = Workspaces has been removed from { -brand-short-name }. Please use the Workspaces add-on instead.
+workspaces-removed-description = Workspaces have been removed from { -brand-short-name }. Please use the Simple Tab Groups add-on instead.
 floorp-workspaces-title = { -brand-short-name } Workspaces
 workspaces-backup-discription = Backup and restore your Workspaces
 workspaces-restore-service-title = { -brand-short-name } Workspaces Backup Service
-workspaces-restore-warning = Warning! Running this operation will cause your current Workspaces to be overwritten. The browser will freeze for a few seconds and then proceed to restart.
+workspaces-restore-warning = Warning! Running this operation will overwrite your current Workspaces. The browser will freeze for a few seconds and then proceed to restart.
 floorp-workspace-settings-button = Workspace Settings...
 change-to-close-workspace-popup-option = 
     .label = Close workspaces popup when selecting a Workspace
@@ -985,14 +985,14 @@ floorp-custom-actions-rest-mode = Enable rest mode
 
 floorp-open-profile-with-new-instance = Launch
     .tooltiptext = Launch { -brand-short-name } with this profile
-floorp-profiles-in-use = This profile is in use.
-floorp-profiles-title = Profiles
-floorp-profile-manager = Profile Manager
-floorp-profiles-create = Create Profile
-floorp-profile = Profile
-    .label = Profile Manager
-    .tooltiptext = Open Profile Manager
-fxa-not-signed-in = Not signed in
+floorp-profiles-in-use = Цей обліковий запис вже використовується.
+floorp-profiles-title = Обліковий запис
+floorp-profile-manager = Менеджер облікових записів
+floorp-profiles-create = Створити обліковий запис
+floorp-profile = Обліковий запис
+    .label = Менеджер профілів
+    .tooltiptext = Відкрити менеджер профілів
+fxa-not-signed-in = Не авторизовано
 ###################################################################### Private Container ##############################################################
 floorp-private-container-name = Private
 floorp-toggle-private-container = 
@@ -1023,14 +1023,14 @@ ssb-page-action-title = Install app
 ssb-app-open-button = 
     .label = Open In App
 ssb-app-install-button = 
-    .label = Install
+    .label = Встановити
 ssb-app-cancel-button = 
-    .label = Cancel
+    .label = Скасувати
 floorp-open-manage-ssb-page = 
     .label = Manage installed Web Apps
 appmenuitem-webapps = 
-    .label = Web Apps
-appmenu-open-installed-apps-subheader = Open installed web apps
+    .label = Веб-застосунки
+appmenu-open-installed-apps-subheader = Відкрити встановлені веб-застосунки
 appmenuitem-install-current-page = 
     .label = Install this site as an app
 appmenuitem-open-current-page = 
