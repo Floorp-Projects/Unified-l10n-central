@@ -768,6 +768,9 @@ workspace-delete =
     .label = Διαγραφή Χώρου Εργασίας
 manage-workspace = Διαχείριση αυτού του χώρου εργασίας
     .label = Διαχείριση αυτού του χώρου εργασίας
+workspaces-toolbar-button = Workspaces
+    .label = Workspaces
+    .tooltiptext = Select a Workspace...
 ######################################################################### menubar item ###############################################################
 
 sharemode-menuitem = 
