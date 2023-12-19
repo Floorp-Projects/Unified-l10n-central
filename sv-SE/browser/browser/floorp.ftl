@@ -768,6 +768,9 @@ workspace-delete =
     .label = Ta bort arbetsyta
 manage-workspace = Hantera denna arbetsyta
     .label = Hantera denna arbetsyta
+workspaces-toolbar-button = Workspaces
+    .label = Workspaces
+    .tooltiptext = Select a Workspace...
 ######################################################################### menubar item ###############################################################
 
 sharemode-menuitem = 
