@@ -768,6 +768,9 @@ workspace-delete =
     .label = Odstranit pracovní prostor
 manage-workspace = Spravovat tento pracovní prostor
     .label = Spravovat tento pracovní prostor
+workspaces-toolbar-button = Workspaces
+    .label = Workspaces
+    .tooltiptext = Select a Workspace...
 ######################################################################### menubar item ###############################################################
 
 sharemode-menuitem = 
