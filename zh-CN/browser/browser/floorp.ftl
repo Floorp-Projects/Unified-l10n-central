@@ -768,6 +768,9 @@ workspace-delete =
     .label = 删除工作区
 manage-workspace = 管理此工作区
     .label = 管理此工作区
+workspaces-toolbar-button = Workspaces
+    .label = Workspaces
+    .tooltiptext = Select a Workspace...
 ######################################################################### menubar item ###############################################################
 
 sharemode-menuitem = 
