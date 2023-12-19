@@ -768,6 +768,9 @@ workspace-delete =
     .label = Munkatér törlése
 manage-workspace = A munkaterület kezelése
     .label = A munkaterület kezelése
+workspaces-toolbar-button = Workspaces
+    .label = Workspaces
+    .tooltiptext = Select a Workspace...
 ######################################################################### menubar item ###############################################################
 
 sharemode-menuitem = 
