@@ -768,9 +768,9 @@ workspace-delete =
     .label = ワークスペースを削除
 manage-workspace = ワークスペースを管理
     .label = ワークスペースを管理
-workspaces-toolbar-button = Workspaces
-    .label = Workspaces
-    .tooltiptext = Select a Workspace...
+workspaces-toolbar-button = ワークスペース
+    .label = ワークスペース
+    .tooltiptext = ワークスペースを選択...
 ######################################################################### menubar item ###############################################################
 
 sharemode-menuitem = 
