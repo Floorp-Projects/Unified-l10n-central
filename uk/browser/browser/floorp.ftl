@@ -51,15 +51,15 @@ enable-show-pinned-tabs-title =
     .label = Show the title of pinned tabs
 tabbar-preference = Tab Bar
 tab-normal-mode = 
-    .label = Default
+    .label = За замовчуванням
 hide-horizontality-tabs = 
-    .label = Hide tabs on Horizontal Tab Bar
+    .label = Приховати вкладки на горизонтальній панелі вкладок
 verticalTab-setting = 
-    .label = Optimise browser for Vertical Tab Bar
+    .label = Оптимізувати браузер для вертикальної панелі вкладок
 move-tabbar-position = 
-    .label = Display Tab Bar underneath the Toolbar
+    .label = Відображати панель вкладок під панеллю інструментів
 tabbar-on-bottom = 
-    .label = Display Tab Bar at the bottom of the window
+    .label = Відображати панель вкладок у нижній частині вікна
 tabbar-favicon-color = 
     .label = Color the Tab Bar using the current website's favicon color
 tabbar-style-preference = Tab Bar Style
@@ -88,7 +88,7 @@ bookmarks-focus-mode =
     .label = Hide the Bookmarks Toolbar unless hovering over the navigation bar
 bookmarks-bottom-mode = 
     .label = Show the Bookmarks Toolbar at the bottom of { -brand-short-name }
-navbar-settings = Navigation Bar
+navbar-settings = Навігаційна панель
 show-nav-bar-bottom = 
     .label = Show the Toolbar at the bottom of { -brand-short-name } (experimental)
 material-effect = 
@@ -98,13 +98,13 @@ disable-extension-check-compatibility-option =
 other-preference = Other Preferences
 enable-userscript = 
     .label = Enable legacy components
-about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
+about-userscript = Увімкнення цієї функції може спричинити неочікувані помилки або фатальні збої.
 search-positon-top = 
     .label = Display the Find Bar at the top of the page
 allow-auto-restart = 
     .label = Restart automatically when settings that require a restart are changed
 disable-fullscreen-notification = 
-    .label = Do not show a notification when entering full screen
+    .label = Не показувати сповіщення при переході в повноекранний режим
 
 ## Browser Theme
 
@@ -134,22 +134,22 @@ floorp-gnomeUI =
 
 ## Download Manager
 
-download-notification-preferences = Download Notifications
+download-notification-preferences = Сповіщення про завантаження
 start-always-notify = 
-    .label = Notify only when starting downloads
+    .label = Сповіщати лише при старті завантажень
 finish-always-notify = 
-    .label = Notify only when a download finishes
+    .label = Сповіщати лише після завершення завантаження
 always-notify = 
-    .label = Notify when starting downloads and when a download finishes
+    .label = Сповіщати при початку та завершенню завантаження
 do-not-notify = 
-    .label = Disable download notifications
+    .label = Вимкнути стандартні сповіщення
 
 ## Sidebar
 
 profiles-button-label = Manage Profiles
 floorp-help-button-label = { -brand-short-name } Support
 appmenuitem-reboot = 
-    .label = Restart
+    .label = Перезапустити
 
 ## UserAgent
 
@@ -172,9 +172,9 @@ use-custom-useragent-mode =
 download-mgr-UI = 
     .label = Увімкніть менеджер завантажень SimpleUI
 downloading-red-color = 
-    .label = Use the red downloads icon when downloading
+    .label = Використовуйте червоний значок завантаження під час завантаження
 sidebar-preferences = Бічна панель
-bsb-preferences = Browser Manager Sidebar Settings
+bsb-preferences = Налаштування бічної панелі менеджера браузера
 view-sidebar2-right = 
     .label = Display the Browser Manager Sidebar on the right
 enable-sidebar2 = 
@@ -263,11 +263,11 @@ newtab-choose-image = Choose Image...
 newtab-background-folder-reload = 
     .label = Оновити зображення
 newtab-background-folder-default = 
-    .label = Restore Defaults
+    .label = Відновити налаштування за замовчуванням
 newtab-background-folder-open = 
     .label = Відкрити папку
 newtab-background-folder-choose = Виберіть папку з зображеннями...
-newtab-background-image-choose = Choose image...
+newtab-background-image-choose = Виберіть зображення...
 newtab-background-extensions = Use images with these file extensions (separated by ",")
 disable-blur-on-newtab = 
     .label = Вимкнути ефект розмиття на головній сторінці { -brand-short-name }
@@ -447,41 +447,41 @@ workspace-customize =
 floorp-no-workspace-conatiner = 
     .label = No Container
 workspace-icon-briefcase = 
-    .label = Job
+    .label = Робота
 workspace-icon-cart = 
-    .label = Shopping
+    .label = Покупки
 workspace-icon-circle = 
-    .label = Circle
+    .label = Коло
 workspace-icon-compass = 
-    .label = Compass
+    .label = Компас
 workspace-icon-dollar = 
-    .label = Bank
+    .label = Банк
 workspace-icon-fence = 
-    .label = Fence
+    .label = Паркан
 workspace-icon-fingerprint = 
-    .label = Personal
+    .label = Особисте
 workspace-icon-gift = 
-    .label = Gift
+    .label = Подарунок
 workspace-icon-vacation = 
-    .label = Vacation
+    .label = Відпустка
 workspace-icon-food = 
-    .label = Food
+    .label = Їжа
 workspace-icon-fruit = 
-    .label = Fruit
+    .label = Фрукт
 workspace-icon-gear = 
-    .label = Gear
+    .label = Шестерня
 workspace-icon-pet = 
     .label = Pet
 workspace-icon-question = 
     .label = Question
 workspace-icon-star = 
-    .label = Star
+    .label = Зірка
 workspace-icon-tree = 
-    .label = Tree
+    .label = Дерево
 workspace-icon-chill = 
     .label = Private
 # Custom Keyboard Shortcuts
-floorp-CSK-title = Custom keyboard shortcuts
+floorp-CSK-title = Користувацькі комбінації клавіш
 floorp-CSK-description = Customize { -brand-short-name }'s keyboard shortcuts. { -brand-short-name } provides more than 80 customizable keyboard shortcuts! Duplicate keyboard shortcuts will not work. Restart { -brand-short-name } to apply these settings.
 disable-fx-actions = 
     .label = Disable Mozilla Firefox's keyboard shortcuts
@@ -521,13 +521,13 @@ floorp-custom-actions-custom-action = Custom Actions (Experimental)
 
 ## Mouse Gestures
 
-mouse-gesture = Mouse Gestures
-mouse-gesture-description = Gesturefy must be installed to use mouse gestures with { -brand-short-name }.
+mouse-gesture = Жести мишею
+mouse-gesture-description = Для використання жестів миші з { -brand-short-name } необхідно встановити Gesturefy.
 Gesturefy = Gesturefy
-about-Gesturefy = Gesturefy is an extension that adds mouse gestures to your browser. If { -brand-short-name } detects the installation of this add-on, it will add gesture commands to Gesturefy that are only available in { -brand-short-name }. This add-on also create new tabs!
+about-Gesturefy = Gesturefy - це розширення, яке додає жести миші до вашого браузера. Якщо { -brand-short-name } виявить встановлення цього розширення, воно додасть до Gesturefy команди жестів, які доступні лише в { -brand-short-name }. Це доповнення також створює нові вкладки!
 # Translate
 TWS = Translate Web Pages
-about-TWS = Translate your page in real time using Google or Yandex. You can also translate selected text or the entire page.
+about-TWS = Перекладіть вашу сторінку в режимі реального часу за допомогою Google або Яндекс. Ви також можете перекласти виділений текст або всю сторінку.
 
 # Privacy Hub
 
