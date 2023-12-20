@@ -23,10 +23,10 @@ open-new-tab-at-the-end =
 open-new-tab-next-to-current = 
     .label = Відкривати нові вкладки поруч з поточною вкладкою
 multirow-tabs-limit = 
-    .label = Enable row limit for multi-row tabs
+    .label = Увімкнути обмеження рядків для багаторядкових вкладок
 multirow-tabs-newtab = 
-    .label = Place the "Open a new tab" button at the end of the lowest row of tabs
-multirow-tabs-value = Number of rows when multi-row tabs are enabled
+    .label = Розмістити кнопку "Відкрити нову вкладку" в кінці найнижчого рядка вкладок
+multirow-tabs-value = Кількість рядків, при увімкнених багаторядкових вкладках
 enable-tab-sleep = 
     .label = Увімкнути сплячі вкладки
 tab-sleep-timeout-minutes-value = Вкладки перейдуть в режим сну після неактивності протягом (хвилини)
@@ -35,7 +35,7 @@ tab-sleep-settings-dialog-title =
     .title = Налаштування сплячих вкладок
 tab-sleep-settings-dialog-excludehosts-label = Exclude hosts
 tab-sleep-settings-dialog-excludehosts-label-2 = Enter one host per line.
-tab-sleep-tab-context-menu-excludetab = Keep tab awake
+tab-sleep-tab-context-menu-excludetab = Не вимикати вкладку
 enable-floorp-workspace = 
     .label = Enable Workspaces
 workspace-warning = Workspaces cannot be used with Tab Group add-ons. If you want to use Tab Group add-ons, please disable Workspaces and restart { -brand-short-name }.
@@ -48,8 +48,8 @@ enable-tab-scroll-wrap =
 enable-double-click-block = 
     .label = Close tabs when double-clicking them
 enable-show-pinned-tabs-title = 
-    .label = Show the title of pinned tabs
-tabbar-preference = Tab Bar
+    .label = Показувати назву закріплених вкладок
+tabbar-preference = Панель вкладок
 tab-normal-mode = 
     .label = За замовчуванням
 hide-horizontality-tabs = 
@@ -62,24 +62,24 @@ tabbar-on-bottom =
     .label = Відображати панель вкладок у нижній частині вікна
 tabbar-favicon-color = 
     .label = Color the Tab Bar using the current website's favicon color
-tabbar-style-preference = Tab Bar Style
+tabbar-style-preference = Стиль панелі вкладок
 horizontal-tabbar = 
-    .label = Horizontal Tab Bar
-tabbar-style-description = A restart of { -brand-short-name } is required to fully apply this setting.
+    .label = Горизонтальна панель вкладок
+tabbar-style-description = Для повного застосування цього параметру необхідно перезапустити { -brand-short-name }.
 multirow-tabbar = 
-    .label = Multi-Row Tab Bar
+    .label = Багаторядкова панель вкладок
 vertical-tabbar = 
     .label = Vertical Tab Bar (experimental)
 native-vertical-tab-show-right = 
-    .label = Show Vertical Tab Bar on the right side of the window
+    .label = Відображати вертикальну панель вкладок у правій частині вікна
 hover-vertical-tab = 
-    .label = Collapse Vertical Tab Bar
+    .label = Згорнути вертикальну панель вкладок
 floorp-show-vertical-tab-newtab-button = 
-    .label = Show the "Open a new tab" button inside Vertical Tab Bar
+    .label = Показати кнопку "Відкрити нову вкладку" у вертикальній панелі вкладок
 floorp-show-vertical-tab-scrollbar = 
-    .label = Show scrollbar on Vertical Tab Bar
+    .label = Показати смугу прокрутки на вертикальній панелі вкладок
 TST = Tree Style Tab
-about-TST = Tree Style Tab is a popular add-on that allows you to display tabs in a tree-like structure. This add-on is already pre-integrated in { -brand-short-name }. Please install the add-on to activate { -brand-short-name }'s Tree Style Tab.
+about-TST = Tree Style Tab - популярне доповнення, яке дозволяє відображати вкладки в деревоподібній структурі. Це доповнення вже попередньо інтегровано в { -brand-short-name }. Будь ласка, встановіть доповнення, щоб активувати Tree Style Tab.
 treestyletab-Settings = 
     .label = Collapse Tree Style Tab
 sidebar-reverse-position-toolbar = Show Sidebars on the other side
@@ -92,17 +92,17 @@ navbar-settings = Навігаційна панель
 show-nav-bar-bottom = 
     .label = Show the Toolbar at the bottom of { -brand-short-name } (experimental)
 material-effect = 
-    .label = Allow Mica For Everyone to modify the browser design
+    .label = Дозволити Mica For Everyone змінювати дизайн браузера
 disable-extension-check-compatibility-option = 
-    .label = Do not check for compatibility with add-ons
-other-preference = Other Preferences
+    .label = Не перевіряти сумісність з додатками
+other-preference = Інші налаштування
 enable-userscript = 
-    .label = Enable legacy components
+    .label = Увімкніть застарілі компоненти
 about-userscript = Увімкнення цієї функції може спричинити неочікувані помилки або фатальні збої.
 search-positon-top = 
-    .label = Display the Find Bar at the top of the page
+    .label = Відображати рядок пошуку у верхній частині сторінки
 allow-auto-restart = 
-    .label = Restart automatically when settings that require a restart are changed
+    .label = Автоматичний перезапуск у разі зміни налаштувань, які потребують перезапуску
 disable-fullscreen-notification = 
     .label = Не показувати сповіщення при переході в повноекранний режим
 
@@ -146,8 +146,8 @@ do-not-notify =
 
 ## Sidebar
 
-profiles-button-label = Manage Profiles
-floorp-help-button-label = { -brand-short-name } Support
+profiles-button-label = Керування профілями
+floorp-help-button-label = Підтримка { -brand-short-name }
 appmenuitem-reboot = 
     .label = Перезапустити
 
@@ -193,13 +193,13 @@ category-BSB =
 category-downloads = 
     .tooltiptext = { files-and-applications-title }
 bsb-header = Browser Manager Sidebar
-bsb-context = Use the following Container
+bsb-context = Використовуйте наступний контейнер
 bsb-userAgent-label = 
     .label = Use Mobile User Agent in this Web Panel
-bsb-width = Width (if set to 0, the global value will be used)
-bsb-page = Page to open
+bsb-width = Ширина (якщо встановлено 0, буде використано глобальне значення)
+bsb-page = Сторінка для відкриття
 bsb-add = Add Web Panel on Browser Manager Sidebar
-bsb-setting = Web Panel Settings
+bsb-setting = Налаштування веб-панелі
 bsb-add-title = 
     .title = { bsb-add }
 bsb-setting-title = 
@@ -215,32 +215,32 @@ bsb-download-sidebar =
 bsb-notes-sidebar = 
     .label = { sidebar2-notes-sidebar }
 bsb-website = 
-    .label = Website
+    .label = Веб-сайт
 sidebar2-pref-delete = 
-    .label = Delete
+    .label = Видалити
 sidebar2-pref-setting = 
-    .label = Settings
-sidebar2-global-width = Global Web Panels width
-use-icon-provider-option = Use Icon Provider
+    .label = Налаштування
+sidebar2-global-width = Глобальна ширина веб-панелі
+use-icon-provider-option = Використання постачальника іконок
 use-icon-provider-option-google = 
     .label = Google
 use-icon-provider-option-duckduckgo = 
     .label = DuckDuckGo
 use-icon-provider-option-yandex = 
-    .label = Yandex (available in China)
+    .label = Яндекс (доступний у Китаї)
 use-icon-provider-option-hatena = 
-    .label = Hatena (available in China)
-memory-and-performance = Memory and Performance
+    .label = Hatena (доступна в Китаї)
+memory-and-performance = Пам'ять і продуктивність
 min-memory = 
-    .label = Minimum Memory Usage (low performance)
+    .label = Мінімальне використання пам'яті (низька продуктивність)
 balance-memory = 
-    .label = Balance Memory Usage and Performance
+    .label = Баланс між використанням пам'яті та продуктивністю
 max-memory = 
-    .label = Best Performance (high memory usage)
+    .label = Найкраща продуктивність (високе використання пам'яті)
 delete-border-and-roundup-option = 
-    .label = Round the corners of pages
+    .label = Округлити кути сторінок
 STG-smilar-workspaces-option = 
-    .label = Make "Simple Tab Groups" add-on buttons look like Workspaces buttons
+    .label = Зробити кнопки доповнення "Прості групи вкладок" схожими на кнопки робочих просторів
 
 ## DualTheme
 
@@ -248,7 +248,7 @@ dualtheme-enable =
     .label = Увімкнути подвійну тему
 newtab-background = { -brand-short-name } Home Background
 newtab-background-random-image = 
-    .label = Random images from Unsplash
+    .label = Випадкові зображення з Unsplash
 newtab-background-gradation = 
     .label = Градієнт
 newtab-background-not-background = 
@@ -274,16 +274,16 @@ disable-blur-on-newtab =
 
 ## Lepton Preferences
 
-about-lepton = Customize { -brand-short-name } with Lepton
+about-lepton = Налаштуйте { -brand-short-name } за допомогою Lepton
 lepton-preference-button = 
-    .label = Lepton Settings...
+    .label = Налаштування Lepton...
     .accesskey = L
-lepton-header = Lepton Settings
-lepton-preference = Lepton Settings
+lepton-header = Налаштування Lepton
+lepton-preference = Налаштування Lepton
 photon-mode = 
-    .label = Use Photon design
+    .label = Використовувати дизайн Photon
 lepton-mode = 
-    .label = Use Lepton design
+    .label = Використовуйте дизайн Lepton
 protonfix-mode = 
     .label = Use tweaked Proton design
 autohide-preference = Automatically hide browser elements
@@ -296,9 +296,9 @@ floorp-lepton-enable-sidebar-autohide =
 floorp-lepton-enable-urlbar-autohide = 
     .label = Automatically hide Address Bar
 floorp-lepton-enable-back-button-autohide = 
-    .label = Automatically hide back button
+    .label = Автоматично приховати кнопку "Назад"
 floorp-lepton-enable-forward-button-autohide = 
-    .label = Automatically hide forward button
+    .label = Автоматично приховувати кнопку "Вперед"
 floorp-lepton-enable-page-action-button-autohide = 
     .label = Automatically hide buttons on the Address Bar
 floorp-lepton-enable-toolbar-overlap = 
@@ -355,18 +355,18 @@ floorp-home-prefs-content-description = Choose the content you want to see on th
 
 ## Notes
 
-floorp-notes = { -brand-short-name } Notes
-restore-from-backup = Restore Notes from backup
+floorp-notes = Нотатки { -brand-short-name }
+restore-from-backup = Відновити нотатки з резервної копії
 enable-notes-sync = 
     .label = Enable { -brand-short-name } Notes Sync
 about-notes-backup-tips = { -brand-short-name } Notes uses Firefox Sync to sync your notes with other devices. If you lose your notes, you can restore them from a backup. A backup is created when you launch { -brand-short-name }.
 notes-sync-description = This can solve the problem of losing content due to overwriting notes during synchronization.
-backuped-time = Backed up at
-notes-backup-option = Backup Settings
-backup-option-button = Backup Settings...
+backuped-time = Резервна копія була створена в
+notes-backup-option = Параметри резервного копіювання
+backup-option-button = Параметри резервного копіювання...
 restore-from-backup-prompt-title = { -brand-short-name } Notes Restore Service
-restore-from-this-backup = Restore Notes back to the state they were in this backup?
-restore-button = Restore
+restore-from-this-backup = Відновити нотатки до стану, в якому вони були в цій резервній копії?
+restore-button = Відновити
 
 ## user.js
 
@@ -374,12 +374,12 @@ header-userjs = user.js
 userjs-customize = Customize { -brand-short-name } with user.js
 about-userjs-customize = user.js is a configuration file that allows you to customize { -brand-short-name }. user.js files are downloaded from the Internet and overwrite your current user.js file. Please back up your current user.js file before continuing. user.js configurations will be applied automatically after restarting { -brand-short-name }.
 userjs-label = user.js list
-userjs-prompt = Apply this user.js?
+userjs-prompt = Застосувати цей user.js?
 apply-userjs-attention = Applying a new user.js will overwrite your current user.js file.
-apply-userjs-attention2 = Please back up your current user.js file before continuing.
-userjs-button = user.js Settings...
+apply-userjs-attention2 = Будь ласка, створіть резервну копію вашого поточного файлу user.js перед тим, як продовжити.
+userjs-button = Налаштування user.js...
 userjs-select-option = Manage the user.js currently used in { -brand-short-name } to improve performance and privacy.
-apply-userjs-button = Apply
+apply-userjs-button = Застосувати
 
 ## userjs Options
 
@@ -404,11 +404,11 @@ workspaces-removed-migration-tools-title = Workspaces Migration Tools
 workspaces-removed-migration-tools = Workspaces Migration Tools provide a way to migrate your Workspaces to Simple Tab Groups.
 workspaces-removed-migration-tools-label = Generate Simple Tab Groups Backup file
 workspaces-removed-migrate-to-STG-button = 
-    .label = Generate...
-workspace-STG-backup-success = Backup file created
+    .label = Згенерувати...
+workspace-STG-backup-success = Створено резервну копію
 workspace-STG-backup-success-message = The backup file was created on the desktop. Import this file into Simple Tab Groups.
 workspaces-migation-menuitem-text = Workspaces are deprecated! <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
-workspaces-removed-learning-more = Learn more
+workspaces-removed-learning-more = Дізнатися більше
 workspaces-removed-description = Workspaces have been removed from { -brand-short-name }. Please use the Simple Tab Groups add-on instead.
 floorp-workspaces-title = { -brand-short-name } Workspaces
 workspaces-backup-discription = Backup and restore your Workspaces
@@ -445,7 +445,7 @@ workspace-select-container = Select Container Tab
 workspace-customize = 
     .title = Customize Workspace
 floorp-no-workspace-conatiner = 
-    .label = No Container
+    .label = Без контейнера
 workspace-icon-briefcase = 
     .label = Робота
 workspace-icon-cart = 
@@ -471,7 +471,7 @@ workspace-icon-fruit =
 workspace-icon-gear = 
     .label = Шестерня
 workspace-icon-pet = 
-    .label = Pet
+    .label = Домашній улюбленець
 workspace-icon-question = 
     .label = Question
 workspace-icon-star = 
@@ -496,10 +496,10 @@ CSK-reset-button = Restore Defaults
 CSK-manage-title = Manage keyboard shortcuts
 CSK-remove-shortcutkey = Remove custom keyboard shortcut?
 CSK-remove-shortcutkey-description = Are you sure you want to remove this keyboard shortcut?
-CSK-restore-default = Restore Defaults?
+CSK-restore-default = Відновити налаштування за замовчуванням?
 CSK-restore-default-description = Restore { -brand-short-name }'s default keyboard shortcuts? Your current shortcuts will be lost.
 CSK-reboot-browser-label = Restart { -brand-short-name } to apply these settings
-CSK-reboot-browser-button = Restart { -brand-short-name }
+CSK-reboot-browser-button = Перезапустити { -brand-short-name }
 # Exist shortcut key: "S", "shift"
 CSK-keyborad-shortcut-info = Current keyboard shortcut: { $key } & { $modifiers }.
 CSK-keyborad-shortcut-info-with-keycode = Current keyboard shortcut: { $key }.
@@ -534,14 +534,14 @@ about-TWS = Перекладіть вашу сторінку в режимі р�
 
 ## BlockMoreTrackers
 
-privacy-hub-header = Privacy Hub
-block-more-tracker = Block more Ads and Trackers
-block-tracker = This section contains a set of extensions designed to block ads and trackers
-view-at-AMO = View this addon in addons.mozilla.org
+privacy-hub-header = Центр приватності
+block-more-tracker = Блокуйте більше реклами та трекерів
+block-tracker = Цей розділ містить набір розширень, призначених для блокування реклами та трекерів
+view-at-AMO = Переглянути цей додаток в addons.mozilla.org
 uBlock-Origin = uBlock Origin
-about-uboori = uBlock Origin blocks ads, extensive trackers, and additional dangerous sites.
+about-uboori = uBlock Origin блокує рекламу, трекери та інші небезпечні сайти.
 Facebook-Container = Facebook Container
-about-Facebook-Container = Prevent Facebook from tracking you around the web. Facebook Container extension helps you take control and isolate your web activity from Facebook.
+about-Facebook-Container = Забороніть Facebook відстежувати вас по всьому інтернету. Розширення Facebook Container допоможе вам взяти під контроль та ізолювати вашу веб-активність від Facebook.
 
 ## Fingerprinting
 
@@ -555,8 +555,8 @@ html5-canvas-prompt-settings =
     .label = Automatically dismiss access confirmation prompts for HTML5 image data
 canvas-prompt = Prevents websites from using the canvas-reading prompt unless manually permitted.
 disable-webgl = 
-    .label = Disable WebGL
-about-webgl = WebGL is a Javascript API used to render graphics, which can be used to identify GPU.
+    .label = Вимкнути WebGL
+about-webgl = WebGL - це Javascript API, що використовується для рендерингу графіки, за допомогою якого можна ідентифікувати графічний процесор.
 Canvas-Blocker = Canvas Blocker
 about-CB = This add-on spoofs data used by fingerprinting techniques.
 WebRTC-connection = WebRTC is a standard that provides real-time calling. If you disable this setting, you will not be able to use Discord, etc.
@@ -564,8 +564,8 @@ WebRTC =
     .label = Enable WebRTC Connection
 ################################################################### browser ###############################################################
 
-rest-mode = Taking a break...
-rest-mode-description = { -brand-short-name } is currently suspended. Press ENTER or OK to continue.
+rest-mode = Відпочиваємо...
+rest-mode-description = { -brand-short-name } наразі призупинено. Натисніть ENTER або OK, щоб продовжити.
 Sidebar2 = 
     .label = Browser Manager Sidebar
     .tooltiptext = Change Sidebar visibility
@@ -578,11 +578,11 @@ sidebar2-change-ua-panel =
 sidebar2-delete-panel = 
     .label = Delete this Panel
 sidebar2-close-button = 
-    .tooltiptext = Close Sidebar
+    .tooltiptext = Закрити бічну панель
 sidebar-back-button = 
-    .tooltiptext = Back
+    .tooltiptext = Назад
 sidebar-forward-button = 
-    .tooltiptext = Forward
+    .tooltiptext = Вперед
 sidebar-reload-button = 
     .tooltiptext = Reload
 sidebar-go-index-button = 
@@ -607,11 +607,11 @@ show-notes-sidebar =
 sidebar-add-button = 
     .tooltiptext = { bsb-add }
 sidebar-addons-button = 
-    .tooltiptext = Add-ons and themes
+    .tooltiptext = Додатки та теми
 sidebar-passwords-button = 
-    .tooltiptext = Passwords
+    .tooltiptext = Паролі
 sidebar-preferences-button = 
-    .tooltiptext = Settings
+    .tooltiptext = Налаштування
 sidebar-keepWidth-button = 
     .tooltiptext = Keep using the current width on this Panel
 sidebar2-keep-width-for-global = 
@@ -623,7 +623,7 @@ bsb-context-link-add =
 #################################################################### menu panel ############################################################
 
 open-profile-dir = 
-    .label = Open Profile Directory
+    .label = Відкрити папку з профілем
 ####################################################################### menu ###############################################################
 
 css-menu = 
@@ -642,16 +642,16 @@ open-css-folder =
     .label = Open CSS folder
     .accesskey = O
 edit-userChromeCss-editor = 
-    .label = Edit userChrome.css file
+    .label = Редагувати файл userChrome.css
 edit-userContentCss-editor = 
-    .label = Edit userContent.css file
-not-found-editor-path = Could not find a CSS file editor
+    .label = Редагувати файл userContent.css
+not-found-editor-path = Не вдалося знайти редактор файлів CSS
 set-pref-description = Input the file location of the CSS file editor you want to use:
 rebuild-complete = Rebuild has been completed.
 please-enter-filename = Please enter a file name.
 ################################################################### Undo-Closed-Tab ###############################################################
 
-undo-closed-tab = Reopen closed tab
+undo-closed-tab = Повторно відкрити закриту вкладку
 ################################################################### about:addons ###############################################################
 
 # Dual Theme
@@ -693,15 +693,15 @@ gf-floorp-open-extension-sidebar-settings-list-default = Please select add-on
 gf-floorp-open-extension-sidebar-settings-list-unknwon = Unknown add-on
 ##################################################################### { -brand-short-name } System Update Portable Version ###############################################################
 
-update-portable-notification-found-title = Updates found!
-update-portable-notification-found-message = Downloading updates...
-update-portable-notification-ready-title = Ready to update!
-update-portable-notification-ready-message = { -brand-short-name } will be updated on the next launch.
-update-portable-notification-success-title = Update succeeded!
-update-portable-notification-success-message = Update succeeded! Hope you enjoy the new version of { -brand-short-name }!
-update-portable-notification-failed-title = Update failed.
-update-portable-notification-failed-redirector-message = Update failed. Restarting your browser may solve this problem.
-update-portable-notification-failed-prepare-message = Failed to prepare the update.
+update-portable-notification-found-title = Знайдено оновлення!
+update-portable-notification-found-message = Завантаження оновлення...
+update-portable-notification-ready-title = Все готово для оновлення!
+update-portable-notification-ready-message = { -brand-short-name } буде оновлено під час наступного запуску.
+update-portable-notification-success-title = Оновлення пройшло успішно!
+update-portable-notification-success-message = Оновлення пройшло успішно! Сподіваємося, вам сподобається нова версія { -brand-short-name }!
+update-portable-notification-failed-title = Помилка оновлення.
+update-portable-notification-failed-redirector-message = Оновлення не вдалося. Перезапуск браузера може вирішити цю проблему.
+update-portable-notification-failed-prepare-message = Не вдалося підготувати оновлення.
 ##################################################################### { -brand-short-name } Portable Preferences ###############################################################
 
 floorp-portable-update-application-allow = { -brand-short-name } Portable Update
@@ -713,8 +713,8 @@ open-link-in-external-enabled-option =
     .label = Enable the "Open in external browser" feature
 open-link-in-external-select-browser-option = Choose what browser will be opened
 open-link-in-external-select-browser-option-default = 
-    .label = Default browser
-open-link-in-external-tab-context-menu = Open in external browser
+    .label = Браузер за замовчуванням
+open-link-in-external-tab-context-menu = Відкрити у зовнішньому браузері
 open-link-in-external-tab-dialog-title-error = An error occurred:
 open-link-in-external-tab-dialog-message-default-browser-not-found = Default browser was not found or is not configured.
 open-link-in-external-tab-dialog-message-selected-browser-not-found = The selected browser does not exist.
@@ -728,34 +728,34 @@ save-memo = Save
 memo-welcome-title = Welcome!
 memo-first-tip = Welcome to { -brand-short-name } Notes! Here are some instructions on how to use it!
 memo-second-tip = { -brand-short-name } Notes is a notepad that lets you store multiple notes that sync across devices. To enable synchronization, you need to sign in to { -brand-short-name } with your Firefox account.
-memo-third-tip = { -brand-short-name } Notes will be saved in your { -brand-short-name } settings and synchronized across devices using Firefox Sync. Firefox Sync encrypts the contents of the sync with your Firefox account password, so no one but you know its contents.
-memo-import-data-tip = Firefox Sync is not a backup service. We recommend you to create backups.
-memo-new-title = New Note
+memo-third-tip = Нотатки { -brand-short-name } будуть збережені у ваших налаштуваннях { -brand-short-name } і синхронізовані між пристроями за допомогою Firefox Sync. Firefox Sync шифрує вміст синхронізації за допомогою пароля вашого облікового запису Firefox, тому ніхто, крім вас, не знає його вмісту.
+memo-import-data-tip = Firefox Sync не є службою резервного копіювання. Ми рекомендуємо вам створювати резервні копії.
+memo-new-title = Нова нотатка
 chage-view-mode = Toggle View/Edit Mode
-readonly-mode = Offline (Read-only)
+readonly-mode = Офлайн (тільки для читання)
 ######################################################################### Default bookmarks ###############################################################
-default-bookmark-ablaze-support = Ablaze Support
+default-bookmark-ablaze-support = Підтримка в Ablaze
 ######################################################################### Like Chrome Download mgr ###############################################################
 
 floorp-delete-all-downloads = 
-    .label = Clear Downloads
+    .label = Очистити завантаження
     .accesskey = D
-    .tooltiptext = Clear Downloads
+    .tooltiptext = Вичистити завантаження
 floorp-show-all-downloads = 
-    .label = Show all downloads
+    .label = Показати всі завантаження
     .accesskey = S
-    .tooltiptext = Show all downloads
+    .tooltiptext = Показати всі завантаження
 ######################################################################### workspace ###############################################################
 
 workspace-prompt-title = { -brand-short-name } Workspace
 please-enter-workspace-name = Please enter the Workspace's new name.
 please-enter-workspace-name-2 = The Workspace's name cannot contain symbols and spaces.
-workspace-error = An error occurred:
+workspace-error = Виникла помилка:
 workspace-error-discription = Either a Workspace with this name exists or the name is invalid.
 workspace-button = Workspaces
     .label = Workspaces
     .tooltiptext = Select a Workspace...
-workspace-default = Default
+workspace-default = Стандартний
 workspace-add = 
     .label = New Workspace...
 workspace-context-menu-selected-tab = 
@@ -778,21 +778,21 @@ sharemode-menuitem =
     .accesskey = S
 ############################################################################## Welcome page ###############################################################
 
-welcome-login-to-firefox-account = Sign in to your Firefox Account
-welcome-to-floorp = Welcome to { -brand-short-name }!
-welcome-discribe-floorp = { -brand-short-name } is a feature-rich flexible browser that supports various environments and is based on Firefox.
-welcome-start-setup = Ready to jump in?
+welcome-login-to-firefox-account = Увійдіть у свій обліковий запис Firefox
+welcome-to-floorp = Ласкаво просимо до { -brand-short-name }: !
+welcome-discribe-floorp = { -brand-short-name } це багатофункціональний гнучкий браузер, який підтримує різні середовища і заснований на Firefox.
+welcome-start-setup = Готові долучитися?
 welcome-skip-to-start-browsing = Skip to Start Browsing
-welcome-select-preferences-template = Select a template
-welcome-minimum-template = Basic
-welcome-enable-basic-features = Enable basic features & settings for a simple experience.
-welcome-medium-template = Default
-welcome-enable-some-features = Enable additional features & settings for a better experience.
-welcome-maximum-template = Advanced
-welcome-enable-most-of-features = Enable advanced features & settings. Recommended for experienced users.
+welcome-select-preferences-template = Виберіть шаблон
+welcome-minimum-template = Базовий
+welcome-enable-basic-features = Увімкніть основні функції та налаштування для простоти використання.
+welcome-medium-template = Стандартний
+welcome-enable-some-features = Увімкнути додаткові функції та параметрів для кращої роботи.
+welcome-maximum-template = Розширений
+welcome-enable-most-of-features = Увімкнути розширені функції та налаштування. Рекомендовано для досвідчених користувачів.
 welcome-go-next-setup = Next
-welcome-select-browser-design = Select a Browser Design
-welcome-discribe-browser-design = You can choose one of the wonderful third-party { -brand-short-name } designs. OS specific designs are also available at Preferences.
+welcome-select-browser-design = Виберіть дизайн браузера
+welcome-discribe-browser-design = Ви можете вибрати один з чудових дизайнів від сторонніх розробників { -brand-short-name } . У розділі "Налаштування" також доступні теми для конкретних операційних систем.
 welcome-design-lepton-name = Lepton Original Design
 welcome-design-photon-name = Lepton Photon Design
 welcome-design-ProtonFix-name = Lepton ProtonFix Design
@@ -802,7 +802,7 @@ welcome-import-data = Import Your Browser Data
 welcome-import-data-description = Fast setup! Import your bookmarks, passwords, and more from your old browser. Firefox users can import data from Firefox Sync.
 welcome-import-data-button = Import Data...
 welcome-import-data-skip = Skip Import
-welcome-select-button = Select
+welcome-select-button = Вибрати
 welcome-finish-setup = Setup Complete!
 welcome-finish-setup-description = You're all set! Other features like Vertical Tabs & Workspaces can be found in { -brand-short-name }'s Settings. Enjoy { -brand-short-name }!
 welcomet-finish-setup = Start Browsing the Web
@@ -986,8 +986,8 @@ floorp-custom-actions-rest-mode = Enable rest mode
     .label = Enable rest mode
 ##################################################################### Profile Switcher ###############################################################
 
-floorp-open-profile-with-new-instance = Launch
-    .tooltiptext = Launch { -brand-short-name } with this profile
+floorp-open-profile-with-new-instance = Запустити
+    .tooltiptext = Запустити { -brand-short-name } з цим профілем
 floorp-profiles-in-use = Цей обліковий запис вже використовується.
 floorp-profiles-title = Обліковий запис
 floorp-profile-manager = Менеджер облікових записів
@@ -1014,12 +1014,12 @@ splitview-show-on-left =
 splitview-close-split-tab = 
     .label = Close split tab
 ######################################################################### Page Actions ###############################################################
-qrcode-generate-page-action-title = Scan QR Code with your Phone
+qrcode-generate-page-action-title = Відскануйте QR-код за допомогою телефону
 qrcode-generate-page-action = 
-    .tooltiptext = Share this page with your phone
+    .tooltiptext = Поділіться цією сторінкою з телефоном
 ######################################################################### Customize Mode ###############################################################
 floorp-customize-mode-unified-extensions-button = 
-    .label = Unified Extensions Button
+    .label = Кнопка уніфікованих розширень
 ######################################################################### Progressive Web Apps (SSB) ###############################################################
 
 ssb-page-action-title = Install app
