@@ -37,7 +37,7 @@ tab-sleep-settings-dialog-excludehosts-label = 排除主机名
 tab-sleep-settings-dialog-excludehosts-label-2 = 每行输入一个主机名。
 tab-sleep-tab-context-menu-excludetab = 保持此标签页处于活动状态
 enable-floorp-workspace = 
-    .label = Enable Workspaces
+    .label = 启用工作区
 workspace-warning = 工作区无法与标签页分组插件一同使用。如果您想要使用标签页分组插件，请禁用工作区，然后重新启动 { -brand-short-name }。
 enable-tab-scroll-change = 
     .label = 使用鼠标滚轮切换标签页
@@ -256,10 +256,10 @@ newtab-background-not-background =
 newtab-background-selected-image = 
     .label = 自定义文件夹...
 newtab-background-selected-one-image = 
-    .label = Custom image...
+    .label = 自定义图像...
 newtab-background-folder = 使用此文件夹中的图像：
-newtab-background-image = Use image :
-newtab-choose-image = Choose Image...
+newtab-background-image = 使用图片：
+newtab-choose-image = 选择图像…
 newtab-background-folder-reload = 
     .label = 重新加载图像
 newtab-background-folder-default = 
@@ -267,7 +267,7 @@ newtab-background-folder-default =
 newtab-background-folder-open = 
     .label = 打开文件夹
 newtab-background-folder-choose = 选择图像文件夹...
-newtab-background-image-choose = Choose image...
+newtab-background-image-choose = 选择图像…
 newtab-background-extensions = 使用以下文件扩展名的图像 (用 “,” 分隔)
 disable-blur-on-newtab = 
     .label = 在 { -brand-short-name } 主页上禁用模糊效果
@@ -399,9 +399,9 @@ about-Smoothfox = 在您钟爱的浏览器上获得类似 Edge 的平滑滚动�
 ## Workspaces
 
 workspaces-removed-title = 警告：工作区已被废弃！
-workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extension <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
+workspaces-removed-warning = 请迁移到 "简单标签组 "扩展 <label data-l10n-name="workspaces-removed-learning-more">了解更多</label>
 workspaces-removed-migration-tools-title = 工作区迁移工具
-workspaces-removed-migration-tools = Workspaces Migration Tools provide a way to migrate your Workspaces to Simple Tab Groups.
+workspaces-removed-migration-tools = 工作区迁移工具提供了一种将工作区迁移到简单标签组的方法。
 workspaces-removed-migration-tools-label = 生成 Simple Tab Groups 备份文件
 workspaces-removed-migrate-to-STG-button = 
     .label = 生成中……
@@ -409,11 +409,11 @@ workspace-STG-backup-success = 备份文件已创建
 workspace-STG-backup-success-message = 备份文件已在桌面上创建。请将此文件导入 Simple Tab Groups 。
 workspaces-migation-menuitem-text = 工作区已被废弃！ <label data-l10n-name="workspaces-removed-learning-more">详细说明</label>
 workspaces-removed-learning-more = 详细说明
-workspaces-removed-description = Workspaces have been removed from { -brand-short-name }. Please use the Simple Tab Groups add-on instead.
+workspaces-removed-description = 工作区已从 { -brand-short-name } 中移除。请使用 "简单标签组 "插件。
 floorp-workspaces-title = { -brand-short-name } 工作区
 workspaces-backup-discription = 备份并恢复您的工作区
 workspaces-restore-service-title = { -brand-short-name } 工作区备份服务
-workspaces-restore-warning = Warning! Running this operation will overwrite your current Workspaces. The browser will freeze for a few seconds and then proceed to restart.
+workspaces-restore-warning = 警告！运行此操作将覆盖您当前的工作区。浏览器会冻结几秒钟，然后重新启动。
 floorp-workspace-settings-button = 工作区设置...
 change-to-close-workspace-popup-option = 
     .label = 选择工作区时关闭工作区弹出窗口
@@ -479,7 +479,7 @@ workspace-icon-star =
 workspace-icon-tree = 
     .label = 树木
 workspace-icon-chill = 
-    .label = 私人
+    .label = 隐私
 # Custom Keyboard Shortcuts
 floorp-CSK-title = 自定义键盘快捷键
 floorp-CSK-description = 自定义 { -brand-short-name } 的键盘快捷键。{ -brand-short-name } 提供了超过 80 个可自定义的键盘快捷键。重启 { -brand-short-name } 以应用这些设置。重复的键盘快捷键将无效。
@@ -768,9 +768,9 @@ workspace-delete =
     .label = 删除工作区
 manage-workspace = 管理此工作区
     .label = 管理此工作区
-workspaces-toolbar-button = Workspaces
-    .label = Workspaces
-    .tooltiptext = Select a Workspace...
+workspaces-toolbar-button = 工作区
+    .label = 工作区
+    .tooltiptext = 选择一个工作区...
 ######################################################################### menubar item ###############################################################
 
 sharemode-menuitem = 
