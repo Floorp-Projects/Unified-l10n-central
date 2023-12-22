@@ -655,7 +655,7 @@ undo-closed-tab = 恢复关闭的标签页
 ################################################################### about:addons ###############################################################
 
 # Dual Theme
-dual-theme-enable-addon-button = 启用为子主题
+dual-theme-enable-addon-button = 作为子主题启用
 dual-theme-disable-addon-button = 禁用子主题
 dual-theme-enabled-heading = 已启用为子主题
 ##################################################################### toolbar ###############################################################
@@ -715,7 +715,7 @@ open-link-in-external-select-browser-option = 选择要打开的浏览器
 open-link-in-external-select-browser-option-default = 
     .label = 默认浏览器
 open-link-in-external-tab-context-menu = 在外部浏览器中打开
-open-link-in-external-tab-dialog-title-error = 发生了一个错误：
+open-link-in-external-tab-dialog-title-error = 发生错误：
 open-link-in-external-tab-dialog-message-default-browser-not-found = 未找到或未配置默认浏览器。
 open-link-in-external-tab-dialog-message-selected-browser-not-found = 所选浏览器不存在。
 ######################################################################### { -brand-short-name } Notes ###############################################################
@@ -750,7 +750,7 @@ floorp-show-all-downloads =
 workspace-prompt-title = { -brand-short-name } 工作区
 please-enter-workspace-name = 请输入工作区的新名称。
 please-enter-workspace-name-2 = 工作区的名称不能包含符号和空格。
-workspace-error = 发生了一个错误：
+workspace-error = 发生错误：
 workspace-error-discription = 要么已存在此名称的工作区，要么该名称无效。
 workspace-button = 工作区
     .label = 工作区
