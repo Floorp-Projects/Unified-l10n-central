@@ -4,9 +4,9 @@
 
 ###################################################################### about:Dialog #################################################################################
 
-about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> 是一款由日本开发的国产浏览器。 它基于 Firefox 开发，并由 <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label> 运营，致力于改善网络浏览体验。 您想要支持我们吗？ 请考虑 <label data-l10n-name="helpus-donateLink">捐款</label> 。
+about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> 是一款由日本开发的国产浏览器。 它基于 Firefox 开发，并由 <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label> 运营，旨在提升网络浏览体验。 想要帮助我们吗？ 请考虑 <label data-l10n-name="helpus-donateLink">捐赠支持</label> 。
 icon-creator = 图标设计师： <label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> 和 <label data-l10n-name="brand-logo-twitter">@mwxdxx.</label>
-contributors = 请查看 <label data-l10n-name="about-contributor">贡献者和开发者名单</label>
+contributors = 查看 <label data-l10n-name="about-contributor">贡献者与开发者名单</label>
 #################################################################### about:preferences ####################################################################
 
 pane-design-title = 设计
@@ -38,7 +38,7 @@ tab-sleep-settings-dialog-excludehosts-label-2 = 每行输入一个主机名。
 tab-sleep-tab-context-menu-excludetab = 保持此标签页处于活动状态
 enable-floorp-workspace = 
     .label = 启用工作区
-workspace-warning = 工作区无法与标签页分组插件一同使用。如果您想要使用标签页分组插件，请禁用工作区，然后重新启动 { -brand-short-name }。
+workspace-warning = 工作区不能与标签页分组插件同时使用。如果您想使用标签页分组插件，请禁用工作区并重启 { -brand-short-name }。
 enable-tab-scroll-change = 
     .label = 使用鼠标滚轮切换标签页
 enable-tab-scroll-reverse = 
@@ -108,19 +108,19 @@ disable-fullscreen-notification =
 
 ## Browser Theme
 
-system-color-settings = 一些主题具备亮色和暗色模式，请选择您想要使用的模式。
+system-color-settings = 一些主题具备深色和浅色模式，请选择您想要使用的模式。
 preferences-theme-appearance-header = 主题模式
 system-theme-dark = 
     .label = 深色
 system-theme-light = 
-    .label = 暗色
+    .label = 浅色
 system-theme-auto = 
     .label = 跟随我的系统外观
 
 ## User interface preferences
 
 ui-preference = 浏览器外观
-preferences-browser-appearance-description = 选择一个内置的第三方设计来应用于 { -brand-short-name }。某些设计可能与您的配置不兼容。
+preferences-browser-appearance-description = 选择一个内置的第三方设计应用于 { -brand-short-name }。某些设计可能与您的配置不兼容。
 firefox-proton = 
     .label = Firefox Proton UI
 firefox-photon-lepton = 
@@ -221,7 +221,7 @@ sidebar2-pref-delete =
 sidebar2-pref-setting = 
     .label = 设置
 sidebar2-global-width = 全局 Web 面板宽度
-use-icon-provider-option = 使用以下图标提供商
+use-icon-provider-option = 使用图标提供商
 use-icon-provider-option-google = 
     .label = Google
 use-icon-provider-option-duckduckgo = 
@@ -240,7 +240,7 @@ max-memory =
 delete-border-and-roundup-option = 
     .label = 将页面边角修圆
 STG-smilar-workspaces-option = 
-    .label = 将 “Simple Tab Groups” 插件按钮设计成类似于工作区按钮的样式
+    .label = 使 “Simple Tab Groups” 插件的按钮看起来像工作区按钮
 
 ## DualTheme
 
@@ -258,8 +258,8 @@ newtab-background-selected-image =
 newtab-background-selected-one-image = 
     .label = 自定义图像...
 newtab-background-folder = 使用此文件夹中的图像：
-newtab-background-image = 使用图片：
-newtab-choose-image = 选择图像…
+newtab-background-image = 使用此图片：
+newtab-choose-image = 选择图像...
 newtab-background-folder-reload = 
     .label = 重新加载图像
 newtab-background-folder-default = 
@@ -267,7 +267,7 @@ newtab-background-folder-default =
 newtab-background-folder-open = 
     .label = 打开文件夹
 newtab-background-folder-choose = 选择图像文件夹...
-newtab-background-image-choose = 选择图像…
+newtab-background-image-choose = 选择图像...
 newtab-background-extensions = 使用以下文件扩展名的图像 (用 “,” 分隔)
 disable-blur-on-newtab = 
     .label = 在 { -brand-short-name } 主页上禁用模糊效果
@@ -304,7 +304,7 @@ floorp-lepton-enable-page-action-button-autohide =
 floorp-lepton-enable-toolbar-overlap = 
     .label = 在网站内容上显示工具栏
 floorp-lepton-enable-toolbar-overlap-allow-layout-shift-autohide = 
-    .label = 显示 “ltr” 内容时自动隐藏工具栏
+    .label = 显示 “从左到右” 内容时自动隐藏工具栏
 hide-preference = 管理浏览器元素
 floorp-lepton-enable-tab_icon-hide = 
     .label = 隐藏标签页图标
@@ -342,7 +342,7 @@ floorp-lepton-enable-always-show-page_action =
     .label = 始终在地址栏中显示页面操作
 tabbar-preferences = 标签栏
 floorp-lepton-enable-tabbar-positon-as-titlebar = 
-    .label = 标题栏显示在标题栏位置
+    .label = 在标题栏中显示标签栏
 floorp-lepton-enable-tabbar-as-urlbar = 
     .label = 合并标签栏和工具栏
 lepton-sidebar-preferences = 侧边栏
@@ -359,7 +359,7 @@ floorp-notes = { -brand-short-name } 笔记
 restore-from-backup = 从备份还原笔记
 enable-notes-sync = 
     .label = 启用 { -brand-short-name } Notes Sync
-about-notes-backup-tips = { -brand-short-name } 笔记 使用 Firefox Sync 与其他设备同步您的笔记。如果您丢失了笔记，可以从备份中恢复。当您启动 { -brand-short-name } 时，就会创建一个备份。
+about-notes-backup-tips = { -brand-short-name } 笔记使用 Firefox Sync 同步您的笔记到其他设备。如果您丢失了笔记，您可以从备份中恢复。当您启动 { -brand-short-name } 时会创建一个备份。
 notes-sync-description = 这可以解决在同步期间由于覆盖笔记而导致内容丢失的问题。
 backuped-time = 备份于
 notes-backup-option = 备份设置
@@ -388,7 +388,7 @@ about-default-userjs = 遥测功能已禁用。平衡良好的 { -brand-short-na
 Securefox-label = Yokoffing Securefox
 about-Securefox = 默认启用 HTTPS。拥有站点隔离的全面 Cookie 保护。加强了状态和网络分隔。还有其他一些增强功能。
 default-label = Yokoffing Default
-about-default = 一切必备功能，没有任何故障。这就是您的 user.js。
+about-default = 包含所有基本功能，无任何故障。这是您的 user.js。
 Fastfox-label = Yokoffing Fastfox
 about-Fastfox = 大幅提升 Firefox 浏览速度，与 Chrome 一较高下！
 Peskyfox-label = Yokoffing Peskyfox
@@ -399,21 +399,21 @@ about-Smoothfox = 在您钟爱的浏览器上获得类似 Edge 的平滑滚动�
 ## Workspaces
 
 workspaces-removed-title = 警告：工作区已被废弃！
-workspaces-removed-warning = 请迁移到 "简单标签组 "扩展 <label data-l10n-name="workspaces-removed-learning-more">了解更多</label>
+workspaces-removed-warning = 请迁移至 “Simple Tab Groups” 扩展 <label data-l10n-name="workspaces-removed-learning-more">了解更多</label>
 workspaces-removed-migration-tools-title = 工作区迁移工具
-workspaces-removed-migration-tools = 工作区迁移工具提供了一种将工作区迁移到简单标签组的方法。
+workspaces-removed-migration-tools = 工作区迁移工具提供了一种将您的工作区迁移到 Simple Tab Groups 的方法。
 workspaces-removed-migration-tools-label = 生成 Simple Tab Groups 备份文件
 workspaces-removed-migrate-to-STG-button = 
     .label = 生成中……
 workspace-STG-backup-success = 备份文件已创建
-workspace-STG-backup-success-message = 备份文件已在桌面上创建。请将此文件导入 Simple Tab Groups 。
-workspaces-migation-menuitem-text = 工作区已被废弃！ <label data-l10n-name="workspaces-removed-learning-more">详细说明</label>
-workspaces-removed-learning-more = 详细说明
-workspaces-removed-description = 工作区已从 { -brand-short-name } 中移除。请使用 "简单标签组 "插件。
+workspace-STG-backup-success-message = 备份文件已在桌面创建。请将此文件导入至 Simple Tab Groups 。
+workspaces-migation-menuitem-text = 工作区已被废弃！ <label data-l10n-name="workspaces-removed-learning-more">了解更多</label>
+workspaces-removed-learning-more = 了解更多
+workspaces-removed-description = 工作区已从 { -brand-short-name } 中移除。请改用工作区扩展。
 floorp-workspaces-title = { -brand-short-name } 工作区
 workspaces-backup-discription = 备份并恢复您的工作区
 workspaces-restore-service-title = { -brand-short-name } 工作区备份服务
-workspaces-restore-warning = 警告！运行此操作将覆盖您当前的工作区。浏览器会冻结几秒钟，然后重新启动。
+workspaces-restore-warning = 警告！执行此操作将覆盖您当前的工作区。浏览器将暂时冻结几秒钟，然后进行重启。
 floorp-workspace-settings-button = 工作区设置...
 change-to-close-workspace-popup-option = 
     .label = 选择工作区时关闭工作区弹出窗口
@@ -482,7 +482,7 @@ workspace-icon-chill =
     .label = 隐私
 # Custom Keyboard Shortcuts
 floorp-CSK-title = 自定义键盘快捷键
-floorp-CSK-description = 自定义 { -brand-short-name } 的键盘快捷键。{ -brand-short-name } 提供了超过 80 个可自定义的键盘快捷键。重启 { -brand-short-name } 以应用这些设置。重复的键盘快捷键将无效。
+floorp-CSK-description = 自定义 { -brand-short-name } 的键盘快捷键。{ -brand-short-name } 提供了 80 多个可自定义的键盘快捷键！重复的键盘快捷键将不起作用。重启 { -brand-short-name } 以应用这些设置。
 disable-fx-actions = 
     .label = 禁用 Mozilla Firefox 的键盘快捷键
 customize-Action = 
@@ -524,7 +524,7 @@ floorp-custom-actions-custom-action = 自定义操作 (实验性)
 mouse-gesture = Mouse Gestures
 mouse-gesture-description = 要在 { -brand-short-name } 中使用鼠标手势，需要先安装 Gesturefy。
 Gesturefy = Gesturefy
-about-Gesturefy = Gesturefy 是一个浏览器扩展，可以为您的浏览器添加鼠标手势功能。如果 { -brand-short-name } 检测到已安装此插件，将为 Gesturefy 添加仅在 { -brand-short-name } 中可用的手势命令。此外，此插件还能够创建新标签页！
+about-Gesturefy = Gesturefy 是一款扩展，为您的浏览器添加鼠标手势功能。如果 { -brand-short-name } 检测到此扩展已安装，它将向 Gesturefy 添加一些仅在 { -brand-short-name } 中可用的手势命令。该扩展还可以创建新的标签页！
 # Translate
 TWS = Translate Web Page
 about-TWS = 使用 Google 或 Yandex 来实时翻译您的网页。您还可以选择翻译特定的文本或整个页面。
@@ -548,18 +548,18 @@ about-Facebook-Container = 阻止 Facebook 在网络上跟踪您。Facebook 容�
 fingerprint-header = 阻止指纹识别和 IP 地址泄漏
 block-fingerprint = 指纹识别是一种依赖于您的浏览器和操作系统独特特征的跟踪机制。本节包含一些设置，可用于在默认屏蔽之外进一步增强此保护。
 enable-firefox-fingerprint-protections = 开启强大的指纹识别保护
-about-firefox-fingerprint-protection = 在 Firefox 中启用保护包括强制启用轻模式，禁用一些API等功能。这可能导致一些网站出现兼容性问题。
+about-firefox-fingerprint-protection = Firefox 提供的保护包括强制使用浅色模式、禁用某些 API 等。这可能导致某些网站无法正常工作。
 fingerprint-Protection = 
     .label = 防指纹识别保护
 html5-canvas-prompt-settings = 
     .label = 自动关闭 HTML5 图像数据的访问确认提示
-canvas-prompt = 防止网站在未经手动允许的情况下使用 Canvas 读取提示。
+canvas-prompt = 除非手动允许，否则防止网站使用 Canvas 读取提示。
 disable-webgl = 
     .label = 禁用 WebGL
 about-webgl = WebGL 是一个用于渲染图形的 JavaScript API，可用于识别 GPU。
 Canvas-Blocker = Canvas 拦截器
 about-CB = 这个插件伪装了用于指纹识别技术的数据。
-WebRTC-connection = WebRTC 是一项提供实时通话功能的标准。如果您禁用此设置，您将无法使用Discord等应用。
+WebRTC-connection = WebRTC 是一项提供实时通话功能的标准。如果您禁用此功能，将无法使用 Discord 等应用。
 WebRTC = 
     .label = 启用 WebRTC 连接
 ################################################################### browser ###############################################################
@@ -613,7 +613,7 @@ sidebar-passwords-button =
 sidebar-preferences-button = 
     .tooltiptext = 设置
 sidebar-keepWidth-button = 
-    .tooltiptext = 保持使用此面板上的当前宽度
+    .tooltiptext = 保持此面板当前宽度
 sidebar2-keep-width-for-global = 
     .label = 将这个宽度应用于所有没有自定义宽度的面板
 bsb-context-add = 
@@ -683,12 +683,12 @@ gf-floorp-show-browser-manager-sidebar-name = [{ -brand-short-name }] 切换 BMS
 gf-floorp-show-browser-manager-sidebar-description = 切换浏览器管理器侧边栏
 gf-floorp-hide-statusbar-name = [{ -brand-short-name }] 隐藏状态栏
 gf-floorp-hide-statusbar-description = 隐藏状态栏
-gf-floorp-show-statusbar-name = [{ -brand-short-name }] 切换状态栏
+gf-floorp-show-statusbar-name = [{ -brand-short-name }] 切换状态栏显示
 gf-floorp-show-statusbar-description = 显示或隐藏状态栏
-gf-floorp-open-extension-sidebar-name = [{-brand-short-name}] 打开所选的扩展侧边栏
+gf-floorp-open-extension-sidebar-name = [{ -brand-short-name }] 打开所选的扩展侧边栏
 gf-floorp-open-extension-sidebar-description = 在侧边栏上打开选定的扩展
 gf-floorp-open-extension-sidebar-settings-addons-id = 侧边栏插件
-gf-floorp-open-extension-sidebar-settings-addons-id-description = 扩展侧边栏打开的插件
+gf-floorp-open-extension-sidebar-settings-addons-id-description = 侧边栏打开插件的扩展
 gf-floorp-open-extension-sidebar-settings-list-default = 请选择插件
 gf-floorp-open-extension-sidebar-settings-list-unknwon = 未知插件
 ##################################################################### { -brand-short-name } System Update Portable Version ###############################################################
@@ -726,9 +726,9 @@ memo-input-placeholder = 在此处写入或粘贴备忘录
 delete-memo = 删除
 save-memo = 保存
 memo-welcome-title = 欢迎！
-memo-first-tip = 欢迎使用 { -brand-short-name } 笔记！以下是一些使用说明！
+memo-first-tip = 欢迎使用 { -brand-short-name } 笔记！这里有一些使用指南！
 memo-second-tip = { -brand-short-name } 笔记是一款记事本应用，可以让您存储多个笔记并在不同设备之间进行同步。要启用同步功能，您需要使用您的 Firefox 账户登录 { -brand-short-name }。
-memo-third-tip = { -brand-short-name } 笔记将会保存在您的 { -brand-short-name } 设置中，并通过 Firefox 同步在不同设备之间同步。Firefox 同步会使用您的 Firefox 账户密码对同步的内容进行加密，因此只有您自己知道其内容。
+memo-third-tip = { -brand-short-name } 笔记将保存在您的 { -brand-short-name } 设置中，并通过 Firefox 同步在设备之间进行同步。Firefox 同步会用您的 Firefox 账户密码加密同步的内容，因此只有您自己知道其内容。
 memo-import-data-tip = Firefox 同步不是备份服务。我们建议您创建数据备份。
 memo-new-title = 新建笔记
 chage-view-mode = 切换查看/编辑模式
@@ -780,7 +780,7 @@ sharemode-menuitem =
 
 welcome-login-to-firefox-account = 登录您的 Firefox 账户
 welcome-to-floorp = 欢迎使用 { -brand-short-name }！
-welcome-discribe-floorp = { -brand-short-name } 是一款功能丰富且灵活的浏览器，支持多种环境，并基于 Firefox 构建。
+welcome-discribe-floorp = { -brand-short-name } 是一款基于 Firefox 的功能丰富、灵活的浏览器，支持多种环境。
 welcome-start-setup = 准备好加入了吗？
 welcome-skip-to-start-browsing = 跳转到开始浏览
 welcome-select-preferences-template = 选择一个模板
@@ -789,7 +789,7 @@ welcome-enable-basic-features = 启用基本功能和设置，实现简单的体
 welcome-medium-template = 默认
 welcome-enable-some-features = 启用更多功能和设置，以获得更出色的体验。
 welcome-maximum-template = 高级
-welcome-enable-most-of-features = 启用高级功能和设置。建议供有经验的用户使用。
+welcome-enable-most-of-features = 启用高级功能和设置，推荐给有经验的用户。
 welcome-go-next-setup = 下一步
 welcome-select-browser-design = 选择一个浏览器设计
 welcome-discribe-browser-design = 你可以选择其中一个精美的第三方 { -brand-short-name } 设计。还可以在偏好设置中找到特定于操作系统的设计。
@@ -1006,7 +1006,7 @@ open-in_private-container =
 ######################################################################## Split View ###############################################################
 
 floorp-split-view-menu = 
-    .label = 修复分割视图
+    .label = 固定在分割视图中
 splitview-show-on-right = 
     .label = 在右侧显示
 splitview-show-on-left = 
