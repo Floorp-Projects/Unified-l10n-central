@@ -1022,6 +1022,7 @@ floorp-customize-mode-unified-extensions-button =
     .label = Birleşik Uzantılar Düğmesi
 ######################################################################### Progressive Web Apps (SSB) ###############################################################
 
+ssb-page-action = Install PWA
 ssb-page-action-title = Install app
 ssb-app-open-button = 
     .label = Open In App
