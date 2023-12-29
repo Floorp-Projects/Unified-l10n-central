@@ -1022,6 +1022,7 @@ floorp-customize-mode-unified-extensions-button =
     .label = Suvienodintų plėtinių mygtukas
 ######################################################################### Progressive Web Apps (SSB) ###############################################################
 
+ssb-page-action = Install PWA
 ssb-page-action-title = Įdiegti programą
 ssb-app-open-button = 
     .label = Atidaryti programoje
