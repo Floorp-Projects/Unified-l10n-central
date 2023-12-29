@@ -1022,6 +1022,7 @@ floorp-customize-mode-unified-extensions-button =
     .label = Unified Extensions Button
 ######################################################################### Progressive Web Apps (SSB) ###############################################################
 
+ssb-page-action = Install PWA
 ssb-page-action-title = Als App installieren
 ssb-app-open-button = 
     .label = In App öffnen
