@@ -1022,6 +1022,7 @@ floorp-customize-mode-unified-extensions-button =
     .label = 統合拡張機能ボタン
 ######################################################################### Progressive Web Apps (SSB) ###############################################################
 
+ssb-page-action = Install PWA
 ssb-page-action-title = アプリをインストール
 ssb-app-open-button = 
     .label = アプリで開く
