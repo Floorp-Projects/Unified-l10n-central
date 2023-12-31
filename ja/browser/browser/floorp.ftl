@@ -46,7 +46,7 @@ enable-tab-scroll-reverse =
 enable-tab-scroll-wrap = 
     .label = スクロールをループさせる
 enable-double-click-block = 
-    .label = Close tabs with a double click
+    .label = ダブルクリックしてタブを閉じる
 enable-show-pinned-tabs-title = 
     .label = ピン留めされたタブのタイトルを表示
 tabbar-preference = タブバー
@@ -780,7 +780,7 @@ sharemode-menuitem =
 
 welcome-login-to-firefox-account = Mozilla アカウントにログイン
 welcome-to-floorp = { -brand-short-name } へようこそ！
-welcome-discribe-floorp = { -brand-short-name } is a feature-rich, flexible browser that supports various environments and is based on Firefox.
+welcome-discribe-floorp = { -brand-short-name } は、さまざまな環境に対応した、Firefox ベースの多機能ブラウザーです。
 welcome-start-setup = Ready to dive in?
 welcome-skip-to-start-browsing = スキップしてブラウズを開始
 welcome-select-preferences-template = Choose a template
