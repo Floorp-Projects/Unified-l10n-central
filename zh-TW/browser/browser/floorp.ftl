@@ -1022,7 +1022,9 @@ floorp-customize-mode-unified-extensions-button =
     .label = 統合擴充套件按鈕
 ######################################################################### Progressive Web Apps (SSB) ###############################################################
 
-ssb-page-action = Install PWA
+ssb-page-action = 
+    .label = Install app
+    .tooltiptext = Install this site as an app
 ssb-page-action-title = 安裝 PWA 應用程式
 ssb-app-open-button = 
     .label = 應用程式中打開
