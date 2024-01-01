@@ -46,7 +46,7 @@ enable-tab-scroll-reverse =
 enable-tab-scroll-wrap = 
     .label = Breek tabbladen op de rand
 enable-double-click-block = 
-    .label = Tabbladen sluiten bij dubbel klikken
+    .label = Close tabs with a double click
 enable-show-pinned-tabs-title = 
     .label = Titel van vastgezette tabbladen weergeven
 tabbar-preference = Tabbalk
@@ -399,9 +399,9 @@ about-Smoothfox = Verkrijg Edge-like glad scrollen op je favoriete browser - of 
 ## Workspaces
 
 workspaces-removed-title = Warning: Workspaces are deprecated!
-workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extensions <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
+workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extension <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
 workspaces-removed-migration-tools-title = Workspaces Migration Tools
-workspaces-removed-migration-tools = Workspaces Migration Tools provides a way to migrate your Workspaces to Simple Tab Groups.
+workspaces-removed-migration-tools = Workspaces Migration Tools provide a way to migrate your Workspaces to Simple Tab Groups.
 workspaces-removed-migration-tools-label = Generate Simple Tab Groups Backup file
 workspaces-removed-migrate-to-STG-button = 
     .label = Generate...
@@ -409,11 +409,11 @@ workspace-STG-backup-success = Backup file created
 workspace-STG-backup-success-message = The backup file was created on the desktop. Import this file into Simple Tab Groups.
 workspaces-migation-menuitem-text = Workspaces are deprecated! <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
 workspaces-removed-learning-more = Learn more
-workspaces-removed-description = Workspaces has been removed from { -brand-short-name }. Please use the Workspaces add-on instead.
+workspaces-removed-description = Workspaces have been removed from { -brand-short-name }. Please use the Simple Tab Groups add-on instead.
 floorp-workspaces-title = { -brand-short-name } Werkruimtes
 workspaces-backup-discription = Back-up en herstel uw Werkruimtes
 workspaces-restore-service-title = { -brand-short-name } Workspaces Backup Service
-workspaces-restore-warning = Warning! Running this operation will cause your current Workspaces to be overwritten. The browser will freeze for a few seconds and then proceed to restart.
+workspaces-restore-warning = Warning! Running this operation will overwrite your current Workspaces. The browser will freeze for a few seconds and then proceed to restart.
 floorp-workspace-settings-button = Werkruimte instellingen...
 change-to-close-workspace-popup-option = 
     .label = Sluit workspaces popup bij het selecteren van een werkruimte
@@ -768,6 +768,9 @@ workspace-delete =
     .label = Werkruimte verwijderen
 manage-workspace = Deze workspace beheren
     .label = Deze workspace beheren
+workspaces-toolbar-button = Workspaces
+    .label = Workspaces
+    .tooltiptext = Select a Workspace...
 ######################################################################### menubar item ###############################################################
 
 sharemode-menuitem = 
@@ -777,26 +780,26 @@ sharemode-menuitem =
 
 welcome-login-to-firefox-account = Aanmelden bij uw Firefox-account
 welcome-to-floorp = Welkom bij { -brand-short-name }!
-welcome-discribe-floorp = { -brand-short-name } is een feature-rich flexibele browser die verschillende omgevingen ondersteunt en gebaseerd is op Firefox.
-welcome-start-setup = Klaar om in te springen?
+welcome-discribe-floorp = { -brand-short-name } is a feature-rich, flexible browser that supports various environments and is based on Firefox.
+welcome-start-setup = Ready to dive in?
 welcome-skip-to-start-browsing = Ga naar browsen
-welcome-select-preferences-template = Selecteer een sjabloon
+welcome-select-preferences-template = Choose a template
 welcome-minimum-template = Eenvoudig
-welcome-enable-basic-features = Schakel basisfuncties en instellingen in voor een eenvoudige ervaring.
+welcome-enable-basic-features = Enable basic features and settings for a simple experience.
 welcome-medium-template = Standaard
-welcome-enable-some-features = Schakel extra functies en instellingen in voor een betere ervaring.
+welcome-enable-some-features = Enable additional features and settings for a better experience.
 welcome-maximum-template = Geavanceerd
-welcome-enable-most-of-features = Schakel geavanceerde functies en instellingen in. Aanbevolen voor ervaren gebruikers.
+welcome-enable-most-of-features = Enable advanced features and settings. Recommended for experienced users.
 welcome-go-next-setup = Volgende
 welcome-select-browser-design = Selecteer een browserontwerp
-welcome-discribe-browser-design = U kunt kiezen uit een van de prachtige { -brand-short-name } ontwerpen. OS-specifieke ontwerpen zijn ook beschikbaar op Voorkeuren.
+welcome-discribe-browser-design = You can choose one of the wonderful third-party { -brand-short-name } designs. OS-specific designs are also available in Preferences.
 welcome-design-lepton-name = Lepton Origineel Ontwerp
 welcome-design-photon-name = Lepton Photon Ontwerp
 welcome-design-ProtonFix-name = Lepton ProtonFix Design
 welcome-design-floorp-fluerial-name = { -brand-short-name } Fluerial Design
 welcome-design-firefox-proton-name = Firefox Proton Ontwerp
 welcome-import-data = Importeer uw browsergegevens
-welcome-import-data-description = Fast setup! Import your bookmarks, passwords, and more from your old browser. Firefox users can import data from Firefox Sync.
+welcome-import-data-description = Quick setup! Import your bookmarks, passwords, and more from your old browser. Firefox users can import data from Firefox Sync.
 welcome-import-data-button = Gegevens importeren...
 welcome-import-data-skip = Importeren overslaan
 welcome-select-button = Selecteren
@@ -806,17 +809,17 @@ welcomet-finish-setup = Browsen starten op het web
 ############################################################# Custom Shortcutkey ###############################################################
 
 category-CSK = 
-    .label = Toetsenbord snelkoppelingen
-    .tooltiptext = Toetsenbord snelkoppelingen
-category-CSK-title = Toetsenbord snelkoppelingen
+    .label = Keyboard Shortcuts
+    .tooltiptext = Keyboard Shortcuts
+category-CSK-title = Keyboard Shortcuts
 shortcutkey-customize = 
-    .title = Toetsenbord snelkoppelingen
+    .title = Keyboard Shortcuts
 select-shortcutkeyAction = Selecteer een actie om te activeren
 shortcutkey-customize-key-list-placeholder = Je sneltoets zal hier verschijnen
-shortcut-key-label = Toetsenbord snelkoppeling
-start-input-button-listen = Start luisteren
-end-input-button-listen = Stop met luisteren
-shortcut-key-description = Klik op "Start luisteren" en voer je nieuwe sneltoets voor deze actie in. Meerdere toetsen kunnen worden gebruikt, maar sneltoetsen zullen niet werken als al is toegewezen aan andere acties.
+shortcut-key-label = Keyboard Shortcut
+start-input-button-listen = Start Listening
+end-input-button-listen = Stop Listening
+shortcut-key-description = Click "Start Listening" and enter your new keyboard shortcut for this action. Multiple keys can be used; however, keyboard shortcuts will not work if already assigned to other actions.
 floorp-custom-actions-open-new-tab = Een nieuw tabblad openen
     .label = Een nieuw tabblad openen
 floorp-custom-actions-close-tab = Sluit het huidige tabblad
@@ -943,6 +946,8 @@ floorp-custom-actions-hide-sidebar = Hide sidebar
     .label = Hide sidebar
 floorp-custom-actions-show-sidebar = Zijbalk in-/uitschakelen
     .label = Zijbalk in-/uitschakelen
+floorp-custom-actions-toggle-sidebar = Toggle sidebar
+    .label = Toggle sidebar
 floorp-custom-actions-open-previous-workspace = Vorige workspace openen
     .label = Vorige workspace openen
 floorp-custom-actions-open-next-workspace = Volgende workspace openen
@@ -1017,6 +1022,9 @@ floorp-customize-mode-unified-extensions-button =
     .label = Knop voor gecombineerde extensies
 ######################################################################### Progressive Web Apps (SSB) ###############################################################
 
+ssb-page-action = 
+    .label = Install app
+    .tooltiptext = Install this site as an app
 ssb-page-action-title = Install app
 ssb-app-open-button = 
     .label = Open In App

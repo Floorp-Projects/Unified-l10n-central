@@ -46,7 +46,7 @@ enable-tab-scroll-reverse =
 enable-tab-scroll-wrap = 
     .label = Wrap scrolling tabs at the edge
 enable-double-click-block = 
-    .label = Đóng tab khi nhấn đúp 2 lần
+    .label = Close tabs with a double click
 enable-show-pinned-tabs-title = 
     .label = Hiển thị tiêu đề của pinned tabs
 tabbar-preference = Tab Bar
@@ -399,9 +399,9 @@ about-Smoothfox = Get Edge-like smooth scrolling on your favorite browser — or
 ## Workspaces
 
 workspaces-removed-title = Warning: Workspaces are deprecated!
-workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extensions <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
+workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extension <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
 workspaces-removed-migration-tools-title = Workspaces Migration Tools
-workspaces-removed-migration-tools = Workspaces Migration Tools provides a way to migrate your Workspaces to Simple Tab Groups.
+workspaces-removed-migration-tools = Workspaces Migration Tools provide a way to migrate your Workspaces to Simple Tab Groups.
 workspaces-removed-migration-tools-label = Generate Simple Tab Groups Backup file
 workspaces-removed-migrate-to-STG-button = 
     .label = Generate...
@@ -409,11 +409,11 @@ workspace-STG-backup-success = Backup file created
 workspace-STG-backup-success-message = The backup file was created on the desktop. Import this file into Simple Tab Groups.
 workspaces-migation-menuitem-text = Workspaces are deprecated! <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
 workspaces-removed-learning-more = Learn more
-workspaces-removed-description = Workspaces has been removed from { -brand-short-name }. Please use the Workspaces add-on instead.
+workspaces-removed-description = Workspaces have been removed from { -brand-short-name }. Please use the Simple Tab Groups add-on instead.
 floorp-workspaces-title = { -brand-short-name } Workspaces
 workspaces-backup-discription = Backup and restore your Workspaces
 workspaces-restore-service-title = { -brand-short-name } Workspaces Backup Service
-workspaces-restore-warning = Warning! Running this operation will cause your current Workspaces to be overwritten. The browser will freeze for a few seconds and then proceed to restart.
+workspaces-restore-warning = Warning! Running this operation will overwrite your current Workspaces. The browser will freeze for a few seconds and then proceed to restart.
 floorp-workspace-settings-button = Workspace Settings...
 change-to-close-workspace-popup-option = 
     .label = Close workspaces popup when selecting a Workspace
@@ -768,6 +768,9 @@ workspace-delete =
     .label = Delete Workspace
 manage-workspace = Manage this Workspace
     .label = Manage this workspace
+workspaces-toolbar-button = Workspaces
+    .label = Workspaces
+    .tooltiptext = Select a Workspace...
 ######################################################################### menubar item ###############################################################
 
 sharemode-menuitem = 
@@ -777,26 +780,26 @@ sharemode-menuitem =
 
 welcome-login-to-firefox-account = Đăng nhập vào Tài khoản Firefox của bạn
 welcome-to-floorp = Chào mừng { -brand-short-name }!
-welcome-discribe-floorp = { -brand-short-name } là một trình duyệt dễ dàng mở rộng hỗ trợ nhiều môi trường và dựa trên Firefox.
-welcome-start-setup = Sẵn sàng để bắt đầu?
+welcome-discribe-floorp = { -brand-short-name } is a feature-rich, flexible browser that supports various environments and is based on Firefox.
+welcome-start-setup = Ready to dive in?
 welcome-skip-to-start-browsing = Bỏ qua để bắt đầu
-welcome-select-preferences-template = Chọn mẫu
+welcome-select-preferences-template = Choose a template
 welcome-minimum-template = Cơ bản
-welcome-enable-basic-features = Kích hoạt tính năng và cài đặt cho trải nghiệm đơn giản.
+welcome-enable-basic-features = Enable basic features and settings for a simple experience.
 welcome-medium-template = Mặc định
-welcome-enable-some-features = Kích hoạt tính năng và cài đặt cho một trải nghiệm tốt hơn.
+welcome-enable-some-features = Enable additional features and settings for a better experience.
 welcome-maximum-template = Nâng cao
-welcome-enable-most-of-features = Kích hoạt tính năng và cài đặt nâng cao. Phù hợp cho người sử dụng đã có kinh nghiệm.
+welcome-enable-most-of-features = Enable advanced features and settings. Recommended for experienced users.
 welcome-go-next-setup = Tiếp tục
 welcome-select-browser-design = Chọn giao diện của Trình duyệt
-welcome-discribe-browser-design = Bạn có thể chọn một trong các { -brand-short-name } giao diện từ bên thứ 3. Những giao diện dành riêng cho các hệ điều hành khác nhau cũng sẵn sàng trong Cài Đặt.
+welcome-discribe-browser-design = You can choose one of the wonderful third-party { -brand-short-name } designs. OS-specific designs are also available in Preferences.
 welcome-design-lepton-name = Giao diện Lepton nguyên mẫu
 welcome-design-photon-name = Giao diện Lepton Photon
 welcome-design-ProtonFix-name = Giao diện Lepton ProtonFix
 welcome-design-floorp-fluerial-name = { -brand-short-name } Fluerial Design
 welcome-design-firefox-proton-name = Giao diện Firefox Proton
 welcome-import-data = Import Your Browser Data
-welcome-import-data-description = Fast setup! Import your bookmarks, passwords, and more from your old browser. Firefox users can import data from Firefox Sync.
+welcome-import-data-description = Quick setup! Import your bookmarks, passwords, and more from your old browser. Firefox users can import data from Firefox Sync.
 welcome-import-data-button = Import Data...
 welcome-import-data-skip = Skip Import
 welcome-select-button = Select
@@ -806,17 +809,17 @@ welcomet-finish-setup = Start Browsing the Web
 ############################################################# Custom Shortcutkey ###############################################################
 
 category-CSK = 
-    .label = Keyboard shortcuts
-    .tooltiptext = Keyboard shortcuts
-category-CSK-title = Keyboard shortcuts
+    .label = Keyboard Shortcuts
+    .tooltiptext = Keyboard Shortcuts
+category-CSK-title = Keyboard Shortcuts
 shortcutkey-customize = 
-    .title = Keyboard shortcuts
+    .title = Keyboard Shortcuts
 select-shortcutkeyAction = Select an action to trigger
 shortcutkey-customize-key-list-placeholder = Your keyboard shortcut will appear here
-shortcut-key-label = Keyboard shortcut
-start-input-button-listen = Start listening
-end-input-button-listen = Stop listening
-shortcut-key-description = Click "Start listening" and enter your new keyboard shortcut for this action. Multiple keys can be used, however keyboard shortcuts will not work if already assigned to other actions.
+shortcut-key-label = Keyboard Shortcut
+start-input-button-listen = Start Listening
+end-input-button-listen = Stop Listening
+shortcut-key-description = Click "Start Listening" and enter your new keyboard shortcut for this action. Multiple keys can be used; however, keyboard shortcuts will not work if already assigned to other actions.
 floorp-custom-actions-open-new-tab = Open a new tab
     .label = Open a new tab
 floorp-custom-actions-close-tab = Close the current tab
@@ -943,6 +946,8 @@ floorp-custom-actions-hide-sidebar = Hide sidebar
     .label = Hide sidebar
 floorp-custom-actions-show-sidebar = Toggle sidebar
     .label = Toggle sidebar
+floorp-custom-actions-toggle-sidebar = Toggle sidebar
+    .label = Toggle sidebar
 floorp-custom-actions-open-previous-workspace = Open previous workspace
     .label = Open previous workspace
 floorp-custom-actions-open-next-workspace = Open next workspace
@@ -1017,6 +1022,9 @@ floorp-customize-mode-unified-extensions-button =
     .label = Nút công cụ hợp nhất
 ######################################################################### Progressive Web Apps (SSB) ###############################################################
 
+ssb-page-action = 
+    .label = Install app
+    .tooltiptext = Install this site as an app
 ssb-page-action-title = Install app
 ssb-app-open-button = 
     .label = Open In App

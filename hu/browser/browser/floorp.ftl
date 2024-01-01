@@ -46,7 +46,7 @@ enable-tab-scroll-reverse =
 enable-tab-scroll-wrap = 
     .label = Gördülő lapok felhúzása a szélén
 enable-double-click-block = 
-    .label = Lapok bezárása dupla kattintáskor
+    .label = Close tabs with a double click
 enable-show-pinned-tabs-title = 
     .label = A kitűzött lapok címének megjelenítése
 tabbar-preference = Tab Bar
@@ -399,9 +399,9 @@ about-Smoothfox = Az Edge-hez hasonló sima görgetés a kedvenc böngésződben
 ## Workspaces
 
 workspaces-removed-title = Warning: Workspaces are deprecated!
-workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extensions <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
+workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extension <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
 workspaces-removed-migration-tools-title = Workspaces Migration Tools
-workspaces-removed-migration-tools = Workspaces Migration Tools provides a way to migrate your Workspaces to Simple Tab Groups.
+workspaces-removed-migration-tools = Workspaces Migration Tools provide a way to migrate your Workspaces to Simple Tab Groups.
 workspaces-removed-migration-tools-label = Generate Simple Tab Groups Backup file
 workspaces-removed-migrate-to-STG-button = 
     .label = Generate...
@@ -409,11 +409,11 @@ workspace-STG-backup-success = Backup file created
 workspace-STG-backup-success-message = The backup file was created on the desktop. Import this file into Simple Tab Groups.
 workspaces-migation-menuitem-text = Workspaces are deprecated! <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
 workspaces-removed-learning-more = Learn more
-workspaces-removed-description = Workspaces has been removed from { -brand-short-name }. Please use the Workspaces add-on instead.
+workspaces-removed-description = Workspaces have been removed from { -brand-short-name }. Please use the Simple Tab Groups add-on instead.
 floorp-workspaces-title = { -brand-short-name } Munkaterületek
 workspaces-backup-discription = Munkaterületek biztonsági mentése és visszaállítása
 workspaces-restore-service-title = { -brand-short-name } Workspaces Backup Service
-workspaces-restore-warning = Warning! Running this operation will cause your current Workspaces to be overwritten. The browser will freeze for a few seconds and then proceed to restart.
+workspaces-restore-warning = Warning! Running this operation will overwrite your current Workspaces. The browser will freeze for a few seconds and then proceed to restart.
 floorp-workspace-settings-button = Munkaterület beállítások...
 change-to-close-workspace-popup-option = 
     .label = Munkaterület kiválasztásakor felugró ablak bezárása
@@ -768,6 +768,9 @@ workspace-delete =
     .label = Munkatér törlése
 manage-workspace = A munkaterület kezelése
     .label = A munkaterület kezelése
+workspaces-toolbar-button = Workspaces
+    .label = Workspaces
+    .tooltiptext = Select a Workspace...
 ######################################################################### menubar item ###############################################################
 
 sharemode-menuitem = 
@@ -777,26 +780,26 @@ sharemode-menuitem =
 
 welcome-login-to-firefox-account = Bejelentkezés a Firefox-fiókjába
 welcome-to-floorp = Üdvözöljük a { -brand-short-name }oldalon !
-welcome-discribe-floorp = { -brand-short-name } egy funkciógazdag, rugalmas böngésző, amely különböző környezeteket támogat, és a Firefoxon alapul.
-welcome-start-setup = Készen állsz?
+welcome-discribe-floorp = { -brand-short-name } is a feature-rich, flexible browser that supports various environments and is based on Firefox.
+welcome-start-setup = Ready to dive in?
 welcome-skip-to-start-browsing = Ugrás a böngészés megkezdéséhez
-welcome-select-preferences-template = Válasszon ki egy sablont
+welcome-select-preferences-template = Choose a template
 welcome-minimum-template = Alapvető
-welcome-enable-basic-features = Engedélyezze az alapvető funkciókat és beállításokat az egyszerű élmény érdekében.
+welcome-enable-basic-features = Enable basic features and settings for a simple experience.
 welcome-medium-template = Alapértelmezett
-welcome-enable-some-features = További funkciók és beállítások engedélyezése a jobb élmény érdekében.
+welcome-enable-some-features = Enable additional features and settings for a better experience.
 welcome-maximum-template = Haladó
-welcome-enable-most-of-features = A speciális funkciók és beállítások engedélyezése. Tapasztalt felhasználóknak ajánlott.
+welcome-enable-most-of-features = Enable advanced features and settings. Recommended for experienced users.
 welcome-go-next-setup = Következő
 welcome-select-browser-design = Válasszon ki egy böngésző dizájnt
-welcome-discribe-browser-design = Választhat a { -brand-short-name } csodálatos, harmadik féltől származó minták közül. Az OS-specifikus dizájnokat a Beállításoknál is elérheti.
+welcome-discribe-browser-design = You can choose one of the wonderful third-party { -brand-short-name } designs. OS-specific designs are also available in Preferences.
 welcome-design-lepton-name = Lepton eredeti design
 welcome-design-photon-name = Lepton Photon Design
 welcome-design-ProtonFix-name = Lepton ProtonFix tervezés
 welcome-design-floorp-fluerial-name = { -brand-short-name } Fluerial Design
 welcome-design-firefox-proton-name = Firefox Proton Design
 welcome-import-data = Importálja a böngésző adatait
-welcome-import-data-description = Fast setup! Import your bookmarks, passwords, and more from your old browser. Firefox users can import data from Firefox Sync.
+welcome-import-data-description = Quick setup! Import your bookmarks, passwords, and more from your old browser. Firefox users can import data from Firefox Sync.
 welcome-import-data-button = Adatok importálása...
 welcome-import-data-skip = Importálás kihagyása
 welcome-select-button = Válassza ki a  címet.
@@ -806,17 +809,17 @@ welcomet-finish-setup = Kezdje el a böngészést a weben
 ############################################################# Custom Shortcutkey ###############################################################
 
 category-CSK = 
-    .label = Billentyűzet gyorsbillentyűk
-    .tooltiptext = Billentyűzet gyorsbillentyűk
-category-CSK-title = Billentyűzet gyorsbillentyűk
+    .label = Keyboard Shortcuts
+    .tooltiptext = Keyboard Shortcuts
+category-CSK-title = Keyboard Shortcuts
 shortcutkey-customize = 
-    .title = Billentyűzet gyorsbillentyűk
+    .title = Keyboard Shortcuts
 select-shortcutkeyAction = Válassza ki az indítandó műveletet
 shortcutkey-customize-key-list-placeholder = A billentyűkombináció itt fog megjelenni
-shortcut-key-label = Billentyűzet gyorsbillentyű
-start-input-button-listen = Kezdje el hallgatni
-end-input-button-listen = Ne hallgasson tovább
-shortcut-key-description = Kattintson a "Hallgatás megkezdése" gombra, és adja meg az új billentyűparancsot ehhez a művelethez. Több billentyű is használható, azonban a billentyűparancsok nem működnek, ha már más műveletekhez vannak hozzárendelve.
+shortcut-key-label = Keyboard Shortcut
+start-input-button-listen = Start Listening
+end-input-button-listen = Stop Listening
+shortcut-key-description = Click "Start Listening" and enter your new keyboard shortcut for this action. Multiple keys can be used; however, keyboard shortcuts will not work if already assigned to other actions.
 floorp-custom-actions-open-new-tab = Új lap megnyitása
     .label = Új lap megnyitása
 floorp-custom-actions-close-tab = Az aktuális lap bezárása
@@ -943,6 +946,8 @@ floorp-custom-actions-hide-sidebar = Oldalsáv elrejtése
     .label = Oldalsáv elrejtése
 floorp-custom-actions-show-sidebar = Oldalsáv átkapcsolása
     .label = Oldalsáv átkapcsolása
+floorp-custom-actions-toggle-sidebar = Toggle sidebar
+    .label = Toggle sidebar
 floorp-custom-actions-open-previous-workspace = Előző munkaterület megnyitása
     .label = Előző munkaterület megnyitása
 floorp-custom-actions-open-next-workspace = Következő munkaterület megnyitása
@@ -1017,6 +1022,9 @@ floorp-customize-mode-unified-extensions-button =
     .label = Egyesített bővítmények gomb
 ######################################################################### Progressive Web Apps (SSB) ###############################################################
 
+ssb-page-action = 
+    .label = Install app
+    .tooltiptext = Install this site as an app
 ssb-page-action-title = Install app
 ssb-app-open-button = 
     .label = Open In App
