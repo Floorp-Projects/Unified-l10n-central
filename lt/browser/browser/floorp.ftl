@@ -1045,3 +1045,6 @@ appmenuitem-contextmenu-open-app =
     .label = Atidaryti šią programą
 appmenuitem-contextmenu-uninstall-app = 
     .label = Pašalinti šią programą
+######################################################################### Download Notification ###############################################################
+floorp-started-download = Download started
+floorp-finished-download = Download finished
