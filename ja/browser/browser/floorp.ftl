@@ -1045,3 +1045,6 @@ appmenuitem-contextmenu-open-app =
     .label = このアプリを開く
 appmenuitem-contextmenu-uninstall-app = 
     .label = このアプリをアンインストール
+######################################################################### Download Notification ###############################################################
+floorp-started-download = Download started
+floorp-finished-download = Download finished
