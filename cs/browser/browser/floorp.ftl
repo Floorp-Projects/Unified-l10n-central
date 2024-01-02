@@ -1045,3 +1045,6 @@ appmenuitem-contextmenu-open-app =
     .label = Open this app
 appmenuitem-contextmenu-uninstall-app = 
     .label = Uninstall this app
+######################################################################### Download Notification ###############################################################
+floorp-started-download = Download started
+floorp-finished-download = Download finished
