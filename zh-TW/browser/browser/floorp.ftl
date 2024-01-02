@@ -1045,3 +1045,6 @@ appmenuitem-contextmenu-open-app =
     .label = 開啟此 PWA 應用程式
 appmenuitem-contextmenu-uninstall-app = 
     .label = 移除此 PWA 應用程式
+######################################################################### Download Notification ###############################################################
+floorp-started-download = Download started
+floorp-finished-download = Download finished
