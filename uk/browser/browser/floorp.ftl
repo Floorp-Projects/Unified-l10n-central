@@ -1047,3 +1047,6 @@ appmenuitem-contextmenu-open-app =
     .label = Відкрити цей додаток
 appmenuitem-contextmenu-uninstall-app = 
     .label = Видалити цей додаток
+######################################################################### Download Notification ###############################################################
+floorp-started-download = Download started
+floorp-finished-download = Download finished
