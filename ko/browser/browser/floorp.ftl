@@ -1045,3 +1045,6 @@ appmenuitem-contextmenu-open-app =
     .label = 이 앱을 열기
 appmenuitem-contextmenu-uninstall-app = 
     .label = 이 앱을 삭제하기
+######################################################################### Download Notification ###############################################################
+floorp-started-download = Download started
+floorp-finished-download = Download finished
