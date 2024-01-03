@@ -5,7 +5,7 @@
 ###################################################################### about:Dialog #################################################################################
 
 about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> is one of the domestic browsers developed in Japan. It is based on Firefox and continues to operate under <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>, to improve the web. Want to help? <label data-l10n-name="helpus-donateLink">Make a donation</label>
-icon-creator = Icon creator <label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> and <label data-l10n-name="brand-logo-twitter">@mwxdxx.</label>
+icon-creator = Автор ікон <label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> та <label data-l10n-name="brand-logo-twitter">@mwxdxx.</label>
 contributors = A list of <label data-l10n-name="about-contributor">contributors and Developers</label>
 #################################################################### about:preferences ####################################################################
 
@@ -1025,8 +1025,8 @@ floorp-customize-mode-unified-extensions-button =
 ######################################################################### Progressive Web Apps (SSB) ###############################################################
 
 ssb-page-action = 
-    .label = Install app
-    .tooltiptext = Install this site as an app
+    .label = Встановити додаток
+    .tooltiptext = Встановити цей сайт як веб-додаток
 ssb-page-action-title = Встановити додатки
 ssb-app-open-button = 
     .label = Відкрити в додатку
@@ -1048,8 +1048,8 @@ appmenuitem-contextmenu-open-app =
 appmenuitem-contextmenu-uninstall-app = 
     .label = Видалити цей додаток
 ######################################################################### Download Notification ###############################################################
-floorp-started-download = Download started
-floorp-finished-download = Download finished
+floorp-started-download = Завантаження розпочато
+floorp-finished-download = Завантаження завершене
 ######################################################################### Uodate notify ###############################################################
 
 floorp-notificationTitle-latest = { -brand-short-name } is up to date!
