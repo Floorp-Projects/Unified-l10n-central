@@ -789,17 +789,17 @@ welcome-enable-basic-features = 基本的な機能と設定を有効にして、
 welcome-medium-template = 竹 (デフォルト)
 welcome-enable-some-features = より良い体験のための追加機能と設定を有効にします。
 welcome-maximum-template = 松
-welcome-enable-most-of-features = Enable advanced features and settings. Recommended for experienced users.
+welcome-enable-most-of-features = 高度な機能と設定を有効にします。ギークなユーザーにおすすめ。
 welcome-go-next-setup = 続ける
 welcome-select-browser-design = ブラウザーのデザインを選択
-welcome-discribe-browser-design = You can choose one of the wonderful third-party { -brand-short-name } designs. OS-specific designs are also available in Preferences.
+welcome-discribe-browser-design = サードパーティによる素晴らしいデザインから { -brand-short-name } の外観を選択できます。OS 固有のデザインも設定で利用可能です。
 welcome-design-lepton-name = Lepton オリジナルデザイン
 welcome-design-photon-name = Lepton Photon デザイン
 welcome-design-ProtonFix-name = Lepton Proton Fix デザイン
 welcome-design-floorp-fluerial-name = { -brand-short-name } Fluerial デザイン
 welcome-design-firefox-proton-name = Firefox Proton デザイン
 welcome-import-data = ユーザーデータを読み込む
-welcome-import-data-description = Quick setup! Import your bookmarks, passwords, and more from your old browser. Firefox users can import data from Firefox Sync.
+welcome-import-data-description = 一瞬でセットアップ！以前のブラウザーからブックマークやパスワードなどを読み込めます。Firefox ユーザーは Firefox Sync からデータを同期できます。
 welcome-import-data-button = データを読み込む...
 welcome-import-data-skip = インポートをスキップ
 welcome-select-button = 選択
@@ -809,17 +809,17 @@ welcomet-finish-setup = ネットの海に飛び込もう！
 ############################################################# Custom Shortcutkey ###############################################################
 
 category-CSK = 
-    .label = Keyboard Shortcuts
-    .tooltiptext = Keyboard Shortcuts
-category-CSK-title = Keyboard Shortcuts
+    .label = カスタムショートカットキー
+    .tooltiptext = カスタムショートカットキー
+category-CSK-title = カスタムショートカットキー
 shortcutkey-customize = 
-    .title = Keyboard Shortcuts
+    .title = カスタムショートカットキー
 select-shortcutkeyAction = アクションを選択
 shortcutkey-customize-key-list-placeholder = 入力されたキー
-shortcut-key-label = Keyboard Shortcut
-start-input-button-listen = Start Listening
-end-input-button-listen = Stop Listening
-shortcut-key-description = Click "Start Listening" and enter your new keyboard shortcut for this action. Multiple keys can be used; however, keyboard shortcuts will not work if already assigned to other actions.
+shortcut-key-label = 使用するキー
+start-input-button-listen = 読み取り開始
+end-input-button-listen = 読み取り終了
+shortcut-key-description = "読み取り開始" をクリックして、ショートカットとして使用したいキーを入力します。複数のキーを使用することもできます。他のアクションと重複しないようにしてください。
 floorp-custom-actions-open-new-tab = 新規タブを開く
     .label = 新規タブを開く
 floorp-custom-actions-close-tab = 現在のタブを閉じる
@@ -1023,8 +1023,8 @@ floorp-customize-mode-unified-extensions-button =
 ######################################################################### Progressive Web Apps (SSB) ###############################################################
 
 ssb-page-action = 
-    .label = Install app
-    .tooltiptext = Install this site as an app
+    .label = アプリをインストール
+    .tooltiptext = このサイトをアプリとしてインストール
 ssb-page-action-title = アプリをインストール
 ssb-app-open-button = 
     .label = アプリで開く
@@ -1046,11 +1046,11 @@ appmenuitem-contextmenu-open-app =
 appmenuitem-contextmenu-uninstall-app = 
     .label = このアプリをアンインストール
 ######################################################################### Download Notification ###############################################################
-floorp-started-download = Download started
-floorp-finished-download = Download finished
+floorp-started-download = ダウンロード開始
+floorp-finished-download = ダウンロード完了
 ######################################################################### Uodate notify ###############################################################
 
-floorp-notificationTitle-latest = { -brand-short-name } is up to date!
-floorp-notificationContent-latest = { -brand-short-name } is up to date. You are using the latest version of { -brand-short-name }.
-floorp-notificationTitle = New version of { -brand-short-name } is available!
-floorp-notificationContent = Click to download the latest version.
+floorp-notificationTitle-latest = { -brand-short-name } は最新です！
+floorp-notificationContent-latest = 最新バージョンの { -brand-short-name } を使用しています。
+floorp-notificationTitle = { -brand-short-name } のアップデートが利用可能です！
+floorp-notificationContent = クリックしてダウンロードしましょう。
