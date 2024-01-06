@@ -46,7 +46,7 @@ enable-tab-scroll-reverse =
 enable-tab-scroll-wrap = 
     .label = 스크롤 탭을 가장자리로 감싸기
 enable-double-click-block = 
-    .label = Close tabs with a double click
+    .label = 더블 클릭으로 탭 닫기
 enable-show-pinned-tabs-title = 
     .label = 핀 꼽힌 탭의 제목 표시
 tabbar-preference = 탭 바
@@ -240,7 +240,7 @@ max-memory =
 delete-border-and-roundup-option = 
     .label = 페이지 모서리 둥글게 처리
 STG-smilar-workspaces-option = 
-    .label = Make "Simple Tab Groups" add-on buttons look like Workspaces buttons
+    .label = "Simple Tab Groups" 애드온 버튼을 워크스페이스 버튼처럼 보이게 만들기
 
 ## DualTheme
 
@@ -768,9 +768,9 @@ workspace-delete =
     .label = 작업 영역 삭제
 manage-workspace = 이 작업 공간 관리
     .label = 이 작업 공간 관리
-workspaces-toolbar-button = Workspaces
-    .label = Workspaces
-    .tooltiptext = Select a Workspace...
+workspaces-toolbar-button = 워크스페이스
+    .label = 워크스페이스
+    .tooltiptext = 워크스페이스 선택...
 ######################################################################### menubar item ###############################################################
 
 sharemode-menuitem = 
@@ -780,10 +780,10 @@ sharemode-menuitem =
 
 welcome-login-to-firefox-account = Firefox 계정에 로그인
 welcome-to-floorp = { -brand-short-name }에 오신 것을 환영합니다!
-welcome-discribe-floorp = { -brand-short-name } is a feature-rich, flexible browser that supports various environments and is based on Firefox.
-welcome-start-setup = Ready to dive in?
+welcome-discribe-floorp = { -brand-short-name } 는 다양한 환경을 지원하는, 기능이 풍부하고 유연한 Firefox기반의 브라우저입니다.
+welcome-start-setup = 준비됐나요?
 welcome-skip-to-start-browsing = 브라우징 시작으로 건너뛰기
-welcome-select-preferences-template = Choose a template
+welcome-select-preferences-template = 템플릿 선택하기
 welcome-minimum-template = 기본
 welcome-enable-basic-features = Enable basic features and settings for a simple experience.
 welcome-medium-template = 기본값
@@ -809,17 +809,17 @@ welcomet-finish-setup = 웹 브라우징 시작
 ############################################################# Custom Shortcutkey ###############################################################
 
 category-CSK = 
-    .label = Keyboard Shortcuts
-    .tooltiptext = Keyboard Shortcuts
-category-CSK-title = Keyboard Shortcuts
+    .label = 키보드 단축키
+    .tooltiptext = 키보드 단축키
+category-CSK-title = 키보드 단축키
 shortcutkey-customize = 
-    .title = Keyboard Shortcuts
+    .title = 키보드 단축키
 select-shortcutkeyAction = 트리거할 작업을 선택합니다.
 shortcutkey-customize-key-list-placeholder = 키보드 단축키가 여기에 표시됩니다.
-shortcut-key-label = Keyboard Shortcut
-start-input-button-listen = Start Listening
-end-input-button-listen = Stop Listening
-shortcut-key-description = Click "Start Listening" and enter your new keyboard shortcut for this action. Multiple keys can be used; however, keyboard shortcuts will not work if already assigned to other actions.
+shortcut-key-label = 키보드 단축키
+start-input-button-listen = 기록 시작
+end-input-button-listen = 기록 종료
+shortcut-key-description = "기록 시작"을 클릭하고 단축키로서 사용할 키를 입력하세요. 여러개의 키를 사용할 수도 있어요. 다른 액션과 중복하지 않도록 해주세요.
 floorp-custom-actions-open-new-tab = 새 탭 열기
     .label = 새 탭 열기
 floorp-custom-actions-close-tab = 현재 탭 닫기
@@ -848,7 +848,7 @@ floorp-custom-actions-print-page = 인쇄 페이지
     .label = 인쇄 페이지
 floorp-custom-actions-mute-current-tab = 현재 음소거/음소거 해제 탭 전환
     .label = 현재 음소거/음소거 해제 탭 전환
-floorp-custom-actions-toggle-bookmark-toolbar = Toggle bookmark toolbar
+floorp-custom-actions-toggle-bookmark-toolbar = 북마크 도구 모음의 표시를 전환하기
     .label = 북마크 도구 모음 토글
 floorp-custom-actions-show-source-of-page = 페이지 소스 표시
     .label = 페이지 소스 열기
@@ -946,8 +946,8 @@ floorp-custom-actions-hide-sidebar = 사이드바 숨기기
     .label = 사이드바 숨기기
 floorp-custom-actions-show-sidebar = 사이드바 토글
     .label = 사이드바 토글
-floorp-custom-actions-toggle-sidebar = Toggle sidebar
-    .label = Toggle sidebar
+floorp-custom-actions-toggle-sidebar = 사이드바 표시 전환하기
+    .label = 사이드바 표시 전환하기
 floorp-custom-actions-open-previous-workspace = 이전 작업 공간 열기
     .label = 이전 작업 공간 열기
 floorp-custom-actions-open-next-workspace = 다음 작업 공간 열기
@@ -982,8 +982,8 @@ floorp-custom-actions-custom-action-4 = 사용자 지정 작업 4
     .label = 사용자 지정 작업 4
 floorp-custom-actions-custom-action-5 = 사용자 지정 작업 5
     .label = 사용자 지정 작업 5
-floorp-custom-actions-rest-mode = Enable rest mode
-    .label = Enable rest mode
+floorp-custom-actions-rest-mode = 휴식 모드 사용하기
+    .label = 휴식 모드 사용하기
 ##################################################################### Profile Switcher ###############################################################
 
 floorp-open-profile-with-new-instance = 시작
@@ -1023,8 +1023,8 @@ floorp-customize-mode-unified-extensions-button =
 ######################################################################### Progressive Web Apps (SSB) ###############################################################
 
 ssb-page-action = 
-    .label = Install app
-    .tooltiptext = Install this site as an app
+    .label = 앱 설치
+    .tooltiptext = 이 사이트를 앱으로 설치하기
 ssb-page-action-title = 앱 설치
 ssb-app-open-button = 
     .label = 앱으로 열기
@@ -1035,7 +1035,7 @@ ssb-app-cancel-button =
 floorp-open-manage-ssb-page = 
     .label = 설치된 웹 앱을 관리하기
 appmenuitem-webapps = 
-    .label = Web Apps
+    .label = 웹 앱
 appmenu-open-installed-apps-subheader = 설치된 웹 앱 열기
 appmenuitem-install-current-page = 
     .label = 이 사이트를 앱으로서 설치하기
