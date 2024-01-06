@@ -747,24 +747,24 @@ floorp-show-all-downloads =
     .tooltiptext = Отобразить все загрузки
 ######################################################################### workspace ###############################################################
 workspaces-create-new-workspace-button = 
-    .label = Create new Workspace...
-    .tooltiptext = Create a new Workspace
+    .label = Создать новое рабочее пространство...
+    .tooltiptext = Создать новое рабочее пространство
 workspaces-manage-workspaces-button = 
-    .label = Manage Workspaces...
-    .tooltiptext = Manage your Workspaces
+    .label = Управление рабочими пространствами...
+    .tooltiptext = Управляйте вашими рабочими пространствами
 rename-this-workspace = 
-    .label = Rename Workspace
+    .label = Переименовать рабочее пространство
     .accesskey = R
 delete-this-workspace = 
-    .label = Delete Workspace
+    .label = Удалить рабочее пространство
     .accesskey = D
 manage-this-workspaces = 
-    .label = Manage Workspaces...
+    .label = Управление рабочими пространствами...
     .accesskey = M
-workspace-default-name = New Workspace
+workspace-default-name = Новое рабочее пространство
 move-tab-another-workspace = 
     .label = Переместить в другое рабочее пространство
-rename-workspace-prompt-title = Rename Workspace
+rename-workspace-prompt-title = Переименовать рабочее пространство
 rename-workspace-prompt-text = Enter Workspace Name. Most characters and symbols can be used.
 workspaces-toolbar-button = Рабочие пространства
     .label = Рабочие пространства
@@ -1044,8 +1044,8 @@ appmenuitem-contextmenu-open-app =
 appmenuitem-contextmenu-uninstall-app = 
     .label = Удалить это приложение
 ######################################################################### Download Notification ###############################################################
-floorp-started-download = Download started
-floorp-finished-download = Download finished
+floorp-started-download = Загрузка начата
+floorp-finished-download = Загрузка завершена
 ######################################################################### Uodate notify ###############################################################
 
 floorp-notificationTitle-latest = { -brand-short-name } is up to date!
