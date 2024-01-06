@@ -765,7 +765,7 @@ workspace-default-name = Новое рабочее пространство
 move-tab-another-workspace = 
     .label = Переместить в другое рабочее пространство
 rename-workspace-prompt-title = Переименовать рабочее пространство
-rename-workspace-prompt-text = Enter Workspace Name. Most characters and symbols can be used.
+rename-workspace-prompt-text = Введите имя рабочего пространства. Большинство символов и знаков могут быть использованы.
 workspaces-toolbar-button = Рабочие пространства
     .label = Рабочие пространства
     .tooltiptext = Выберите рабочее пространство...
@@ -1048,7 +1048,7 @@ floorp-started-download = Загрузка начата
 floorp-finished-download = Загрузка завершена
 ######################################################################### Uodate notify ###############################################################
 
-floorp-notificationTitle-latest = { -brand-short-name } is up to date!
-floorp-notificationContent-latest = { -brand-short-name } is up to date. You are using the latest version of { -brand-short-name }.
-floorp-notificationTitle = New version of { -brand-short-name } is available!
+floorp-notificationTitle-latest = Ваш { -brand-short-name } актуален!
+floorp-notificationContent-latest = Ваша версия { -brand-short-name } актуальна. Вы используете последнюю версию { -brand-short-name }.
+floorp-notificationTitle = Доступна новая версия { -brand-short-name } !
 floorp-notificationContent = Нажмите для загрузки последней версии.
