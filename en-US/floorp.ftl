@@ -919,33 +919,30 @@ floorp-show-all-downloads =
   .tooltiptext = Show all downloads
 
 ######################################################################### workspace ###############################################################
+workspaces-create-new-workspace-button =
+ .label = Create new Workspace...
+ .tooltiptext = Create a new Workspace
+workspaces-manage-workspaces-button =
+  .label = Manage Workspaces...
+  .tooltiptext = Manage your Workspaces
 
-workspace-prompt-title = { -brand-short-name } Workspace
-please-enter-workspace-name = Please enter the Workspace's new name.
-please-enter-workspace-name-2 = The Workspace's name cannot contain symbols and spaces.
-workspace-error = An error occurred:
-workspace-error-discription = Either a Workspace with this name exists or the name is invalid.
+rename-this-workspace =
+  .label = Rename Workspace
+  .accesskey = R
+delete-this-workspace =
+  .label = Delete Workspace
+  .accesskey = D
+manage-this-workspaces =
+  .label = Manage Workspaces...
+  .accesskey = M
 
-workspace-button = Workspaces
-  .label = Workspaces
-  .tooltiptext = Select a Workspace...
+workspace-default-name = New Workspace
 
-workspace-default = Default
-workspace-add = 
- .label= New Workspace...
-
-workspace-context-menu-selected-tab =
- .label = Selected tab cannot be moved
 move-tab-another-workspace =
  .label = Move to another Workspace
-workspace-rename = 
-  .label = Rename this Workspace
 
-workspace-delete = 
-  .label = Delete Workspace
-
-manage-workspace = Manage this Workspace
-  .label = Manage this workspace
+rename-workspace-prompt-title = Rename Workspace
+rename-workspace-prompt-text = Enter Workspace Name. Most characters and symbols can be used.
 
 workspaces-toolbar-button = Workspaces
   .label = Workspaces
