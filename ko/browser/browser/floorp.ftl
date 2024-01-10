@@ -17,11 +17,11 @@ feature-requires-restart = 변경 사항을 적용하려면 재시작해야 합�
 tab-width = 탭의 최소 너비
 preferences-tabs-newtab-position = 새 탭 위치
 open-new-tab-use-default = 
-    .label = 기본 위치에서 새 탭 열기
+    .label = 기본 설정 사용
 open-new-tab-at-the-end = 
     .label = 탭 표시줄 끝에서 새 탭 열기
 open-new-tab-next-to-current = 
-    .label = 현재 탭 옆에 새 탭을 엽니다.
+    .label = 현재 탭 옆에 새 탭 열기
 multirow-tabs-limit = 
     .label = 여러줄 탭에 줄 갯수 제한 사용
 multirow-tabs-newtab = 
@@ -38,7 +38,7 @@ tab-sleep-settings-dialog-excludehosts-label-2 = 한 줄에 호스트 하나를 
 tab-sleep-tab-context-menu-excludetab = 탭을 슬립으로 전환하지 않기
 enable-floorp-workspace = 
     .label = 워크스페이스 활성화
-workspace-warning = 워크스페이스는 탭 그룹 애드온과 같이 쓰일 수 없어요. 만약 같이 쓰고 싶으시다면, 워크스페이스를 비활성화하고, { -brand-short-name }를 재시작해주세요.
+workspace-warning = 워크스페이스는 탭 그룹 애드온과 같이 쓰일 수 없어요. 만약 그 애드온을 사용하고 싶다면 워크스페이스를 비활성화하고, { -brand-short-name } 를 재시작해주세요.
 enable-tab-scroll-change = 
     .label = 마우스로 스크롤하여 탭 전환
 enable-tab-scroll-reverse = 
@@ -147,7 +147,7 @@ do-not-notify =
 ## Sidebar
 
 profiles-button-label = 프로필 관리
-floorp-help-button-label = { -brand-short-name } 지원
+floorp-help-button-label = { -brand-short-name } Support
 appmenuitem-reboot = 
     .label = 재시작
 
@@ -274,7 +274,7 @@ disable-blur-on-newtab =
 
 ## Lepton Preferences
 
-about-lepton = Lepton으로 { -brand-short-name } 사용자 지정
+about-lepton = Lepton으로 { -brand-short-name } 커스터마이즈
 lepton-preference-button = 
     .label = Lepton 설정...
     .accesskey = L
@@ -538,9 +538,9 @@ privacy-hub-header = 개인정보 보호 허브
 block-more-tracker = 더 많은 광고 및 트래커 차단
 block-tracker = 이 섹션에는 광고 및 트래커를 차단하도록 설계된 확장 프로그램 세트가 포함되어 있습니다.
 view-at-AMO = addons.mozilla.org에서 이 애드온 보기
-uBlock-Origin = 유블록 오리진
+uBlock-Origin = uBlock Origin
 about-uboori = uBlock Origin은 광고, 광범위한 추적기 및 추가 위험 사이트를 차단합니다.
-Facebook-Container = Facebook 컨테이너
+Facebook-Container = Facebook Container
 about-Facebook-Container = Facebook이 웹에서 사용자를 추적하지 못하도록 차단하세요. Facebook 컨테이너 확장 프로그램을 사용하면 웹 활동을 제어하고 Facebook으로부터 격리할 수 있습니다.
 
 ## Fingerprinting
@@ -666,18 +666,18 @@ status-bar =
 ##################################################################### Gesturefy ###############################################################
 
 gf-floorp-open-tree-style-tab-name = [{ -brand-short-name }] 트리 스타일 탭 패널 열기
-gf-floorp-open-tree-style-tab-description = Open Tree Style Tab Panel on the Sidebar
-gf-floorp-open-bookmarks-sidebar-name = [{ -brand-short-name }] Open Bookmarks Panel
-gf-floorp-open-bookmarks-sidebar-description = Open Bookmarks Panel on the Sidebar
-gf-floorp-open-history-sidebar-name = [{ -brand-short-name }] Open History Panel
-gf-floorp-open-history-sidebar-description = Open History Panel on the Sidebar
-gf-floorp-open-synctabs-sidebar-name = [{ -brand-short-name }] Open Synced Tabs Panel
-gf-floorp-open-synctabs-sidebar-description = Open Synced Tabs Panel on the Sidebar
+gf-floorp-open-tree-style-tab-description = 트리 스타일 탭을 사이드바에서 열어요.
+gf-floorp-open-bookmarks-sidebar-name = [{ -brand-short-name }] 북마크 패널 열기
+gf-floorp-open-bookmarks-sidebar-description = 사이드바에서 북마크 패널 열기
+gf-floorp-open-history-sidebar-name = [{ -brand-short-name }] 기록 패널 열기
+gf-floorp-open-history-sidebar-description = 기록을 북마크 패널에서 열어요
+gf-floorp-open-synctabs-sidebar-name = [{ -brand-short-name }] 동기화된 탭 패널을 열기
+gf-floorp-open-synctabs-sidebar-description = 동기화된 탭을 사이드바에서 열어요
 gf-floorp-close-sidebar-name = [{ -brand-short-name }] 사이드 바 닫기
 gf-floorp-close-sidebar-description = 사이드바 닫기
 gf-floorp-open-browser-manager-sidebar-name = [{ -brand-short-name }] BMS 열기
-gf-floorp-open-browser-manager-sidebar-description = Open Browser Manager Sidebar if the Web Panel of Browser Manager Sidebar is loaded
-gf-floorp-close-browser-manager-sidebar-name = [{ -brand-short-name }] Close BMS
+gf-floorp-open-browser-manager-sidebar-description = 웹 패널이 로드된 경우, 브라우저 관리자 사이드바를 열어요.
+gf-floorp-close-browser-manager-sidebar-name = [{ -brand-short-name }] BMS 닫기
 gf-floorp-close-browser-manager-sidebar-description = 브라우저 관리자 사이드바 닫기
 gf-floorp-show-browser-manager-sidebar-name = [{ -brand-short-name }] BMS 표시 전환
 gf-floorp-show-browser-manager-sidebar-description = 브라우저 관리자 사이드바 토글
@@ -1012,12 +1012,12 @@ splitview-show-on-left =
 splitview-close-split-tab = 
     .label = 분할 탭을 닫기
 ######################################################################### Page Actions ###############################################################
-qrcode-generate-page-action-title = 휴대폰으로 QR코드 스캔하세요.
+qrcode-generate-page-action-title = QR코드를 스캔하세요.
 qrcode-generate-page-action = 
-    .tooltiptext = 이 페이지를 휴대폰으로 공유하기
+    .tooltiptext = QR코드로 웹 사이트를 공유
 ######################################################################### Customize Mode ###############################################################
 floorp-customize-mode-unified-extensions-button = 
-    .label = 통합 확장 프로그램 버튼
+    .label = 통합 확장 기능 버튼
 ######################################################################### Progressive Web Apps (SSB) ###############################################################
 
 ssb-page-action = 
