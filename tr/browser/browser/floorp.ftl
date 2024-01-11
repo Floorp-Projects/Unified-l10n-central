@@ -36,9 +36,6 @@ tab-sleep-settings-dialog-title =
 tab-sleep-settings-dialog-excludehosts-label = Ana bilgisayarları hariç tut
 tab-sleep-settings-dialog-excludehosts-label-2 = Her satıra bir ana bilgisayar girin.
 tab-sleep-tab-context-menu-excludetab = Keep tab awake
-enable-floorp-workspace = 
-    .label = Enable Workspaces
-workspace-warning = Workspaces cannot be used with Tab Group add-ons. If you want to use Tab Group add-ons, please disable Workspaces and restart { -brand-short-name }.
 enable-tab-scroll-change = 
     .label = Farenizle kaydırarak sekmeleri değiştirin
 enable-tab-scroll-reverse = 
@@ -395,48 +392,6 @@ Peskyfox-label = Yokoffing Peskyfox
 about-Peskyfox = Yeni sekme sayfasının dağınıklığını giderin. Cep'i kaldırın. Kompakt modu bir seçenek olarak geri yükleyin. Web sayfası bildirimlerini, açılır pencereleri ve diğer rahatsız edici durumları durdurun.
 Smoothfox-label = Yokoffing Smoothfox
 about-Smoothfox = En sevdiğiniz tarayıcıda Edge benzeri akıcı kaydırma özelliğine sahip olun veya tarzınıza daha uygun bir tarayıcı seçin.
-
-## Workspaces
-
-workspaces-removed-title = Warning: Workspaces are deprecated!
-workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extension <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
-workspaces-removed-migration-tools-title = Workspaces Migration Tools
-workspaces-removed-migration-tools = Workspaces Migration Tools provide a way to migrate your Workspaces to Simple Tab Groups.
-workspaces-removed-migration-tools-label = Generate Simple Tab Groups Backup file
-workspaces-removed-migrate-to-STG-button = 
-    .label = Generate...
-workspace-STG-backup-success = Backup file created
-workspace-STG-backup-success-message = The backup file was created on the desktop. Import this file into Simple Tab Groups.
-workspaces-migation-menuitem-text = Workspaces are deprecated! <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
-workspaces-removed-learning-more = Learn more
-workspaces-removed-description = Workspaces have been removed from { -brand-short-name }. Please use the Simple Tab Groups add-on instead.
-floorp-workspaces-title = { -brand-short-name } Çalışma Alanları
-workspaces-backup-discription = Çalışma Alanlarınızı yedekleme ve geri yükleme
-workspaces-restore-service-title = { -brand-short-name } Workspaces Backup Service
-workspaces-restore-warning = Warning! Running this operation will overwrite your current Workspaces. The browser will freeze for a few seconds and then proceed to restart.
-floorp-workspace-settings-button = Çalışma Alanı Ayarları...
-change-to-close-workspace-popup-option = 
-    .label = Bir Çalışma Alanı seçerken çalışma alanları açılır penceresini kapatma
-pinned-tabs-exclude-workspace-option = 
-    .label = Sabitlenmiş sekmeleri Çalışma Alanlarından hariç tutma
-workspaces-reset-title = Çalışma Alanlarını Sıfırla
-workspaces-reset-label = 
-    .label = Çalışma Alanlarını Sıfırla
-workspaces-reset-description = Bir yedekleme çalışmazsa ve Çalışma Alanı başlamazsa, Çalışma Alanını sıfırlayın.
-workspaces-reset-button = Çalışma Alanlarını Sıfırla
-workspaces-reset-service-title = { -brand-short-name } Workspaces
-workspaces-reset-warning = Uyarı! Bu işlemi çalıştırmak tüm Çalışma Alanlarınızı silecek ve tarayıcıyı yeniden başlatacaktır.
-manage-workspace-on-bms-option = 
-    .label = Tarayıcı Yöneticisi Kenar Çubuğunda Çalışma Alanını Yönetme
-show-workspace-name-option = 
-    .label = Sekme Çubuğunun Çalışma Alanı Düğmesinde Çalışma Alanı Adını Göster
-change-workspace-with-default-key-option = 
-    .label = Shift ve ↑ ve ↓ tuşlarını kullanarak Çalışma Alanını değiştirin.
-workspaces-manage-title = Çalışma Alanlarını Yönetme
-workspaces-manage-description = Manage your Workspaces. Change your Workspace icons.
-workspaces-manage-label = 
-    .label = Çalışma Alanlarını Yönetme
-workspaces-manage-button = Çalışma Alanı Yöneticisi'ni açın...
 select-workspace = Çalışma Alanını Seçin
 workspace-select-icon = Çalışma Alanı Simgesini Seçin
     .label = Çalışma Alanı Simgesini Seçin
@@ -746,6 +701,7 @@ floorp-show-all-downloads =
     .accesskey = S
     .tooltiptext = Tüm indirmeleri göster
 ######################################################################### workspace ###############################################################
+
 workspaces-create-new-workspace-button = 
     .label = Create new Workspace...
     .tooltiptext = Create a new Workspace
@@ -769,6 +725,21 @@ rename-workspace-prompt-text = Enter Workspace Name. Most characters and symbols
 workspaces-toolbar-button = Workspaces
     .label = Workspaces
     .tooltiptext = Select a Workspace...
+
+## Preferences
+
+category-workspaces = Workspaces
+    .label = Workspaces
+    .tooltiptext = Workspaces
+pane-workspaces-title = Workspaces
+floorp-workspaces-title = { -brand-short-name } Çalışma Alanları
+floorp-workspace-settings-button = Çalışma Alanı Ayarları...
+change-to-close-workspace-popup-option = 
+    .label = Bir Çalışma Alanı seçerken çalışma alanları açılır penceresini kapatma
+manage-workspace-on-bms-option = 
+    .label = Tarayıcı Yöneticisi Kenar Çubuğunda Çalışma Alanını Yönetme
+show-workspace-name-option = 
+    .label = Sekme Çubuğunun Çalışma Alanı Düğmesinde Çalışma Alanı Adını Göster
 ######################################################################### menubar item ###############################################################
 
 sharemode-menuitem = 
@@ -1046,7 +1017,7 @@ appmenuitem-contextmenu-uninstall-app =
 ######################################################################### Download Notification ###############################################################
 floorp-started-download = Download started
 floorp-finished-download = Download finished
-######################################################################### Uodate notify ###############################################################
+######################################################################### Update notify ###############################################################
 
 floorp-notificationTitle-latest = { -brand-short-name } is up to date!
 floorp-notificationContent-latest = { -brand-short-name } is up to date. You are using the latest version of { -brand-short-name }.
