@@ -36,9 +36,6 @@ tab-sleep-settings-dialog-title =
 tab-sleep-settings-dialog-excludehosts-label = Ngoại trừ các hosts
 tab-sleep-settings-dialog-excludehosts-label-2 = Thêm tên host trên từng dòng.
 tab-sleep-tab-context-menu-excludetab = Giữ tab luôn hoạt động
-enable-floorp-workspace = 
-    .label = Enable Workspaces
-workspace-warning = Workspaces không thể sử dụng cùng với các add-ons Group Tab. Nếu bạn muốn sử dụng các add-ons Group Tab, vui lòng tắt Workspaces và khởi động lại { -brand-short-name }.
 enable-tab-scroll-change = 
     .label = Đổi tab khi scroll chuột
 enable-tab-scroll-reverse = 
@@ -395,48 +392,6 @@ Peskyfox-label = Yokoffing Peskyfox
 about-Peskyfox = Unclutter the new tab page. Remove Pocket. Restore compact mode as an option. Stop webpage notifications, pop-ups, and other annoyances.
 Smoothfox-label = Yokoffing Smoothfox
 about-Smoothfox = Get Edge-like smooth scrolling on your favorite browser — or choose something more your style.
-
-## Workspaces
-
-workspaces-removed-title = Warning: Workspaces are deprecated!
-workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extension <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
-workspaces-removed-migration-tools-title = Workspaces Migration Tools
-workspaces-removed-migration-tools = Workspaces Migration Tools provide a way to migrate your Workspaces to Simple Tab Groups.
-workspaces-removed-migration-tools-label = Generate Simple Tab Groups Backup file
-workspaces-removed-migrate-to-STG-button = 
-    .label = Generate...
-workspace-STG-backup-success = Backup file created
-workspace-STG-backup-success-message = The backup file was created on the desktop. Import this file into Simple Tab Groups.
-workspaces-migation-menuitem-text = Workspaces are deprecated! <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
-workspaces-removed-learning-more = Learn more
-workspaces-removed-description = Workspaces have been removed from { -brand-short-name }. Please use the Simple Tab Groups add-on instead.
-floorp-workspaces-title = { -brand-short-name } Workspaces
-workspaces-backup-discription = Backup and restore your Workspaces
-workspaces-restore-service-title = { -brand-short-name } Workspaces Backup Service
-workspaces-restore-warning = Warning! Running this operation will overwrite your current Workspaces. The browser will freeze for a few seconds and then proceed to restart.
-floorp-workspace-settings-button = Workspace Settings...
-change-to-close-workspace-popup-option = 
-    .label = Close workspaces popup when selecting a Workspace
-pinned-tabs-exclude-workspace-option = 
-    .label = Exclude pinned tabs from Workspaces
-workspaces-reset-title = Reset Workspaces
-workspaces-reset-label = 
-    .label = Reset Workspaces
-workspaces-reset-description = If a backup does not work and the Workspace does not start, reset the Workspace.
-workspaces-reset-button = Reset Workspaces
-workspaces-reset-service-title = { -brand-short-name } Workspaces
-workspaces-reset-warning = Warning! Running this operation will delete all your Workspaces and restart the browser.
-manage-workspace-on-bms-option = 
-    .label = Manage Workspace on Browser Manager Sidebar
-show-workspace-name-option = 
-    .label = Show Workspace Name on Tab Bar's Workspace Button
-change-workspace-with-default-key-option = 
-    .label = Change Workspace with Shift and ↑ and ↓ keys.
-workspaces-manage-title = Manage Workspaces
-workspaces-manage-description = Manage your Workspaces. Change your Workspace icons.
-workspaces-manage-label = 
-    .label = Manage Workspaces
-workspaces-manage-button = Open Workspace Manager...
 select-workspace = Select Workspace
 workspace-select-icon = Select Workspace Icon
     .label = Select Workspace Icon
@@ -746,6 +701,7 @@ floorp-show-all-downloads =
     .accesskey = S
     .tooltiptext = Show all downloads
 ######################################################################### workspace ###############################################################
+
 workspaces-create-new-workspace-button = 
     .label = Create new Workspace...
     .tooltiptext = Create a new Workspace
@@ -769,6 +725,21 @@ rename-workspace-prompt-text = Enter Workspace Name. Most characters and symbols
 workspaces-toolbar-button = Workspaces
     .label = Workspaces
     .tooltiptext = Select a Workspace...
+
+## Preferences
+
+category-workspaces = Workspaces
+    .label = Workspaces
+    .tooltiptext = Workspaces
+pane-workspaces-title = Workspaces
+floorp-workspaces-title = { -brand-short-name } Workspaces
+floorp-workspace-settings-button = Workspace Settings...
+change-to-close-workspace-popup-option = 
+    .label = Close workspaces popup when selecting a Workspace
+manage-workspace-on-bms-option = 
+    .label = Manage Workspace on Browser Manager Sidebar
+show-workspace-name-option = 
+    .label = Show Workspace Name on Tab Bar's Workspace Button
 ######################################################################### menubar item ###############################################################
 
 sharemode-menuitem = 
@@ -1046,7 +1017,7 @@ appmenuitem-contextmenu-uninstall-app =
 ######################################################################### Download Notification ###############################################################
 floorp-started-download = Download started
 floorp-finished-download = Download finished
-######################################################################### Uodate notify ###############################################################
+######################################################################### Update notify ###############################################################
 
 floorp-notificationTitle-latest = { -brand-short-name } is up to date!
 floorp-notificationContent-latest = { -brand-short-name } is up to date. You are using the latest version of { -brand-short-name }.
