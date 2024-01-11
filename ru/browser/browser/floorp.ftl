@@ -728,7 +728,7 @@ workspaces-toolbar-button = Рабочие пространства
 
 ## Preferences
 
-category-workspaces = Workspaces
+category-workspaces = 
     .label = Workspaces
     .tooltiptext = Workspaces
 pane-workspaces-title = Workspaces
