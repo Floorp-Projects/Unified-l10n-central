@@ -36,9 +36,6 @@ tab-sleep-settings-dialog-title =
 tab-sleep-settings-dialog-excludehosts-label = Wyklucz hosty
 tab-sleep-settings-dialog-excludehosts-label-2 = Wprowadź jeden host na linię.
 tab-sleep-tab-context-menu-excludetab = Keep tab awake
-enable-floorp-workspace = 
-    .label = Enable Workspaces
-workspace-warning = Workspaces cannot be used with Tab Group add-ons. If you want to use Tab Group add-ons, please disable Workspaces and restart { -brand-short-name }.
 enable-tab-scroll-change = 
     .label = Przełącz zakładki przez przewijanie za pomocą myszy
 enable-tab-scroll-reverse = 
@@ -395,48 +392,6 @@ Peskyfox-label = Yokoffing Peskyfox
 about-Peskyfox = Uporządkuj stronę nowej karty. Usuń Pocket. Przywróć tryb kompaktowy jako opcję. Zatrzymanie powiadomień ze stron internetowych, wyskakujących okienek i innych irytujących elementów.
 Smoothfox-label = Yokoffing Smoothfx
 about-Smoothfox = Uzyskaj płynne przewijanie Edge-like w swojej ulubionej przeglądarce — lub wybierz coś innego.
-
-## Workspaces
-
-workspaces-removed-title = Warning: Workspaces are deprecated!
-workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extension <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
-workspaces-removed-migration-tools-title = Workspaces Migration Tools
-workspaces-removed-migration-tools = Workspaces Migration Tools provide a way to migrate your Workspaces to Simple Tab Groups.
-workspaces-removed-migration-tools-label = Generate Simple Tab Groups Backup file
-workspaces-removed-migrate-to-STG-button = 
-    .label = Generate...
-workspace-STG-backup-success = Backup file created
-workspace-STG-backup-success-message = The backup file was created on the desktop. Import this file into Simple Tab Groups.
-workspaces-migation-menuitem-text = Workspaces are deprecated! <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
-workspaces-removed-learning-more = Learn more
-workspaces-removed-description = Workspaces have been removed from { -brand-short-name }. Please use the Simple Tab Groups add-on instead.
-floorp-workspaces-title = Obszary robocze { -brand-short-name }
-workspaces-backup-discription = Kopia zapasowa i przywracanie projektu
-workspaces-restore-service-title = { -brand-short-name } Usługa tworzenia kopii zapasowych obszarów roboczych
-workspaces-restore-warning = Warning! Running this operation will overwrite your current Workspaces. The browser will freeze for a few seconds and then proceed to restart.
-floorp-workspace-settings-button = Ustawienia projektu...
-change-to-close-workspace-popup-option = 
-    .label = Zamknij wyskakujące okienko podczas wybierania projektu
-pinned-tabs-exclude-workspace-option = 
-    .label = Wyklucz przypięte karty z projektu
-workspaces-reset-title = Zresetuj projekty
-workspaces-reset-label = 
-    .label = Zresetuj projekty
-workspaces-reset-description = Jeśli kopia zapasowa nie działa i obszar roboczy nie zaczyna się, zresetuj obszar roboczy.
-workspaces-reset-button = Zresetuj projekty
-workspaces-reset-service-title = { -brand-short-name } Obszary robocze
-workspaces-reset-warning = Ostrzeżenie! Uruchamianie tej operacji spowoduje usunięcie wszystkich Twoich projektów i ponowne uruchomienie przeglądarki.
-manage-workspace-on-bms-option = 
-    .label = Zarządzaj obszarem roboczym w panelu bocznym przeglądarki
-show-workspace-name-option = 
-    .label = Pokaż nazwę obszaru roboczego na przycisku paska zakładki
-change-workspace-with-default-key-option = 
-    .label = Zmień obszar roboczy za pomocą klawiszy Shift i ↑ i ↓ .
-workspaces-manage-title = Zarządzaj projektami
-workspaces-manage-description = Manage your Workspaces. Change your Workspace icons.
-workspaces-manage-label = 
-    .label = Zarządzaj projektami
-workspaces-manage-button = Otwórz Menedżera Projektów...
 select-workspace = Wybierz obszar roboczy
 workspace-select-icon = Wybierz ikonę obszaru roboczego
     .label = Wybierz ikonę obszaru roboczego
@@ -746,6 +701,7 @@ floorp-show-all-downloads =
     .accesskey = Pr
     .tooltiptext = Pokaż wszystkie pobrane pliki
 ######################################################################### workspace ###############################################################
+
 workspaces-create-new-workspace-button = 
     .label = Create new Workspace...
     .tooltiptext = Create a new Workspace
@@ -769,6 +725,21 @@ rename-workspace-prompt-text = Enter Workspace Name. Most characters and symbols
 workspaces-toolbar-button = Workspaces
     .label = Workspaces
     .tooltiptext = Select a Workspace...
+
+## Preferences
+
+category-workspaces = Workspaces
+    .label = Workspaces
+    .tooltiptext = Workspaces
+pane-workspaces-title = Workspaces
+floorp-workspaces-title = Obszary robocze { -brand-short-name }
+floorp-workspace-settings-button = Ustawienia projektu...
+change-to-close-workspace-popup-option = 
+    .label = Zamknij wyskakujące okienko podczas wybierania projektu
+manage-workspace-on-bms-option = 
+    .label = Zarządzaj obszarem roboczym w panelu bocznym przeglądarki
+show-workspace-name-option = 
+    .label = Pokaż nazwę obszaru roboczego na przycisku paska zakładki
 ######################################################################### menubar item ###############################################################
 
 sharemode-menuitem = 
@@ -1046,7 +1017,7 @@ appmenuitem-contextmenu-uninstall-app =
 ######################################################################### Download Notification ###############################################################
 floorp-started-download = Download started
 floorp-finished-download = Download finished
-######################################################################### Uodate notify ###############################################################
+######################################################################### Update notify ###############################################################
 
 floorp-notificationTitle-latest = { -brand-short-name } is up to date!
 floorp-notificationContent-latest = { -brand-short-name } is up to date. You are using the latest version of { -brand-short-name }.
