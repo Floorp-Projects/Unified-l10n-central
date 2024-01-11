@@ -36,9 +36,6 @@ tab-sleep-settings-dialog-title =
 tab-sleep-settings-dialog-excludehosts-label = Список исключений
 tab-sleep-settings-dialog-excludehosts-label-2 = Введите одно исключение на строку.
 tab-sleep-tab-context-menu-excludetab = Держать вкладки пробуждёнными
-enable-floorp-workspace = 
-    .label = Включить рабочие пространства
-workspace-warning = Рабочие пространства не могут быть использованы с дополнением Tab Group. Если вы хотите использовать дополнение Tab Group, пожалуйста, отключите рабочие пространства и перезапустите { -brand-short-name }.
 enable-tab-scroll-change = 
     .label = Переключать вкладки с помощью прокрутки
 enable-tab-scroll-reverse = 
@@ -395,48 +392,6 @@ Peskyfox-label = Yokoffing Peskyfox
 about-Peskyfox = Очищает новую вкладку, удаляет Pocket, восстанавливает компактный режим в качестве опции и останавливает уведомления веб-страниц, всплывающие окна и другие раздражающие элементы.
 Smoothfox-label = Yokoffing Fastfox
 about-Smoothfox = Получите плавную прокрутку, как в Edge, или выберите что-то более подходящее для вашего стиля.
-
-## Workspaces
-
-workspaces-removed-title = Внимание: Рабочие пространства устарели!
-workspaces-removed-warning = Пожалуйста, перейдите на расширение "Simple Tab Groups" <label data-l10n-name="workspaces-removed-learning-more">Узнать больше</label>
-workspaces-removed-migration-tools-title = Инструменты миграции рабочих пространств
-workspaces-removed-migration-tools = Инструменты миграции рабочих пространств позволяют перенести рабочие пространства в Simple Tab Groups.
-workspaces-removed-migration-tools-label = Generate Simple Tab Groups Backup file
-workspaces-removed-migrate-to-STG-button = 
-    .label = Сгенерировать...
-workspace-STG-backup-success = Файл резервной копии создан
-workspace-STG-backup-success-message = Файл резервной копии был создан на рабочем столе. Импортируйте этот файл в Simple Tab Groups.
-workspaces-migation-menuitem-text = Рабочие пространства устарели! <label data-l10n-name="workspaces-removed-learning-more">Подробнее</label>
-workspaces-removed-learning-more = Узнать больше
-workspaces-removed-description = Рабочие пространства были удалены с { -brand-short-name }. Вместо этого используйте дополнение Simple Tab Groups.
-floorp-workspaces-title = Рабочие пространства { -brand-short-name }
-workspaces-backup-discription = Резервное копирование и восстановление ваших рабочих пространств
-workspaces-restore-service-title = Служба восстановления заметок { -brand-short-name }
-workspaces-restore-warning = Внимание! Выполнение этой операции приведет к тому, что текущие рабочие пространства будут перезаписаны. Браузер зависнет на несколько секунд, а затем будет перезапущен.
-floorp-workspace-settings-button = Настройки рабочего пространства...
-change-to-close-workspace-popup-option = 
-    .label = Закрыть всплывающее окно рабочих пространств при выборе рабочего пространства
-pinned-tabs-exclude-workspace-option = 
-    .label = Исключить закрепленные вкладки из рабочих областей
-workspaces-reset-title = Сбросить рабочие пространства
-workspaces-reset-label = 
-    .label = Сбросить рабочие пространства
-workspaces-reset-description = Если резервная копия не работает, и рабочее пространство не запускается, сбросить рабочее пространство.
-workspaces-reset-button = Сбросить рабочие пространства
-workspaces-reset-service-title = Рабочие пространства { -brand-short-name }
-workspaces-reset-warning = Внимание! Запуск этой операции удалит все ваши рабочие пространства и перезапустит браузер.
-manage-workspace-on-bms-option = 
-    .label = Управлять рабочим пространством на боковой панели управления браузера
-show-workspace-name-option = 
-    .label = Отображать название рабочего пространства на кнопке рабочего пространства
-change-workspace-with-default-key-option = 
-    .label = Изменять рабочее пространство с помощью клавиш Shift и ↑ и ↓.
-workspaces-manage-title = Управление рабочими пространствами
-workspaces-manage-description = Управляйте вашими рабочими областями. Измените значки рабочих области.
-workspaces-manage-label = 
-    .label = Управление рабочими пространствами
-workspaces-manage-button = Открыть диспетчер рабочих пространств...
 select-workspace = Выберите рабочее пространство
 workspace-select-icon = Выберите значок рабочего пространства
     .label = Выберите значок рабочего пространства
@@ -746,6 +701,7 @@ floorp-show-all-downloads =
     .accesskey = S
     .tooltiptext = Отобразить все загрузки
 ######################################################################### workspace ###############################################################
+
 workspaces-create-new-workspace-button = 
     .label = Создать новое рабочее пространство...
     .tooltiptext = Создать новое рабочее пространство
@@ -769,6 +725,21 @@ rename-workspace-prompt-text = Введите имя рабочего прост
 workspaces-toolbar-button = Рабочие пространства
     .label = Рабочие пространства
     .tooltiptext = Выберите рабочее пространство...
+
+## Preferences
+
+category-workspaces = Workspaces
+    .label = Workspaces
+    .tooltiptext = Workspaces
+pane-workspaces-title = Workspaces
+floorp-workspaces-title = Рабочие пространства { -brand-short-name }
+floorp-workspace-settings-button = Настройки рабочего пространства...
+change-to-close-workspace-popup-option = 
+    .label = Закрыть всплывающее окно рабочих пространств при выборе рабочего пространства
+manage-workspace-on-bms-option = 
+    .label = Управлять рабочим пространством на боковой панели управления браузера
+show-workspace-name-option = 
+    .label = Отображать название рабочего пространства на кнопке рабочего пространства
 ######################################################################### menubar item ###############################################################
 
 sharemode-menuitem = 
@@ -1046,7 +1017,7 @@ appmenuitem-contextmenu-uninstall-app =
 ######################################################################### Download Notification ###############################################################
 floorp-started-download = Загрузка начата
 floorp-finished-download = Загрузка завершена
-######################################################################### Uodate notify ###############################################################
+######################################################################### Update notify ###############################################################
 
 floorp-notificationTitle-latest = Ваш { -brand-short-name } актуален!
 floorp-notificationContent-latest = Ваша версия { -brand-short-name } актуальна. Вы используете последнюю версию { -brand-short-name }.
