@@ -36,9 +36,6 @@ tab-sleep-settings-dialog-title =
 tab-sleep-settings-dialog-excludehosts-label = 排除主机名
 tab-sleep-settings-dialog-excludehosts-label-2 = 每行输入一个主机名。
 tab-sleep-tab-context-menu-excludetab = 保持此标签页处于活动状态
-enable-floorp-workspace = 
-    .label = 启用工作区
-workspace-warning = 工作区不能与标签页分组插件同时使用。如果您想使用标签页分组插件，请禁用工作区并重启 { -brand-short-name }。
 enable-tab-scroll-change = 
     .label = 使用鼠标滚轮切换标签页
 enable-tab-scroll-reverse = 
@@ -395,48 +392,6 @@ Peskyfox-label = Yokoffing Peskyfox
 about-Peskyfox = 优化新标签页。移除 Pocket。恢复紧凑模式为一个选项。停止网页通知、弹出窗口和其他干扰。
 Smoothfox-label = Yokoffsing smoothfox
 about-Smoothfox = 在您钟爱的浏览器上获得类似 Edge 的平滑滚动效果，或选择更符合您个人喜好的样式。
-
-## Workspaces
-
-workspaces-removed-title = 警告：工作区已被废弃！
-workspaces-removed-warning = 请迁移至 “Simple Tab Groups” 扩展 <label data-l10n-name="workspaces-removed-learning-more">了解更多</label>
-workspaces-removed-migration-tools-title = 工作区迁移工具
-workspaces-removed-migration-tools = 工作区迁移工具提供了一种将您的工作区迁移到 Simple Tab Groups 的方法。
-workspaces-removed-migration-tools-label = 生成 Simple Tab Groups 备份文件
-workspaces-removed-migrate-to-STG-button = 
-    .label = 生成中……
-workspace-STG-backup-success = 备份文件已创建
-workspace-STG-backup-success-message = 备份文件已在桌面创建。请将此文件导入至 Simple Tab Groups 。
-workspaces-migation-menuitem-text = 工作区已被废弃！ <label data-l10n-name="workspaces-removed-learning-more">了解更多</label>
-workspaces-removed-learning-more = 了解更多
-workspaces-removed-description = 工作区已从 { -brand-short-name } 中移除。请改用工作区扩展。
-floorp-workspaces-title = { -brand-short-name } 工作区
-workspaces-backup-discription = 备份并恢复您的工作区
-workspaces-restore-service-title = { -brand-short-name } 工作区备份服务
-workspaces-restore-warning = 警告！执行此操作将覆盖您当前的工作区。浏览器将暂时冻结几秒钟，然后进行重启。
-floorp-workspace-settings-button = 工作区设置...
-change-to-close-workspace-popup-option = 
-    .label = 选择工作区时关闭工作区弹出窗口
-pinned-tabs-exclude-workspace-option = 
-    .label = 从工作空间排除已固定的标签页
-workspaces-reset-title = 重置工作区
-workspaces-reset-label = 
-    .label = 重置工作区
-workspaces-reset-description = 如果备份不可用且工作区未启动，请重置工作区。
-workspaces-reset-button = 重置工作区
-workspaces-reset-service-title = { -brand-short-name } 工作区
-workspaces-reset-warning = 警告！运行此操作将删除您所有的工作区并重启浏览器。
-manage-workspace-on-bms-option = 
-    .label = 在浏览器管理器侧边栏管理工作区
-show-workspace-name-option = 
-    .label = 在标签栏工作空间按钮上显示工作空间名称
-change-workspace-with-default-key-option = 
-    .label = 使用 Shift 键加上 ↑ 和 ↓ 键来切换工作区。
-workspaces-manage-title = 管理工作区
-workspaces-manage-description = 管理您的工作区。更改工作区图标。
-workspaces-manage-label = 
-    .label = 管理工作区
-workspaces-manage-button = 打开工作区管理器...
 select-workspace = 选择工作区
 workspace-select-icon = 选择工作区图标
     .label = 选择工作空间图标
@@ -746,6 +701,7 @@ floorp-show-all-downloads =
     .accesskey = S
     .tooltiptext = 显示所有下载
 ######################################################################### workspace ###############################################################
+
 workspaces-create-new-workspace-button = 
     .label = Create new Workspace...
     .tooltiptext = Create a new Workspace
@@ -769,6 +725,21 @@ rename-workspace-prompt-text = Enter Workspace Name. Most characters and symbols
 workspaces-toolbar-button = 工作区
     .label = 工作区
     .tooltiptext = 选择一个工作区...
+
+## Preferences
+
+category-workspaces = Workspaces
+    .label = Workspaces
+    .tooltiptext = Workspaces
+pane-workspaces-title = Workspaces
+floorp-workspaces-title = { -brand-short-name } 工作区
+floorp-workspace-settings-button = 工作区设置...
+change-to-close-workspace-popup-option = 
+    .label = 选择工作区时关闭工作区弹出窗口
+manage-workspace-on-bms-option = 
+    .label = 在浏览器管理器侧边栏管理工作区
+show-workspace-name-option = 
+    .label = 在标签栏工作空间按钮上显示工作空间名称
 ######################################################################### menubar item ###############################################################
 
 sharemode-menuitem = 
@@ -1046,7 +1017,7 @@ appmenuitem-contextmenu-uninstall-app =
 ######################################################################### Download Notification ###############################################################
 floorp-started-download = Download started
 floorp-finished-download = Download finished
-######################################################################### Uodate notify ###############################################################
+######################################################################### Update notify ###############################################################
 
 floorp-notificationTitle-latest = { -brand-short-name } is up to date!
 floorp-notificationContent-latest = { -brand-short-name } is up to date. You are using the latest version of { -brand-short-name }.
