@@ -36,9 +36,6 @@ tab-sleep-settings-dialog-title =
 tab-sleep-settings-dialog-excludehosts-label = 排除域名
 tab-sleep-settings-dialog-excludehosts-label-2 = 每行輸入一個域名。
 tab-sleep-tab-context-menu-excludetab = 保持分頁於喚醒狀態
-enable-floorp-workspace = 
-    .label = 啟用工作空間
-workspace-warning = 工作空間無法與分頁分組擴充套件一同使用。 如果您想要使用分頁分組擴充套件，請停用工作空間並重新啟動 { -brand-short-name}。
 enable-tab-scroll-change = 
     .label = 透過滾綸切換分頁
 enable-tab-scroll-reverse = 
@@ -395,48 +392,6 @@ Peskyfox-label = Yokoffing Peskyfox
 about-Peskyfox = 最佳化新分頁。移除 Pocket。復原 緊密(不支援) 密度選項。停止網站通知，彈窗以及其他煩瑣提示。
 Smoothfox-label = Yokoffing Smoothfox
 about-Smoothfox = 在 Floorp 上實現類似 Edge 一般順滑的頁面滾動效果 —— 更舒適的瀏覽體驗。
-
-## Workspaces
-
-workspaces-removed-title = 警告： 工作空間功能不再被支援！
-workspaces-removed-warning = 請遷移至 "Simple Tab Groups"擴充元件 <label data-l10n-name="workspaces-removed-learning-more">瞭解更多</label>
-workspaces-removed-migration-tools-title = 工作空間遷移工具
-workspaces-removed-migration-tools = 工作空間遷移工具可以將您的工作空間數據轉移至 Simple Tab Groups。
-workspaces-removed-migration-tools-label = 生成 Simple Tab Groups 備份文檔
-workspaces-removed-migrate-to-STG-button = 
-    .label = 生成備份文檔
-workspace-STG-backup-success = 已生成備份文檔
-workspace-STG-backup-success-message = 備份文檔已在桌面上。請將此文檔匯入 Simple Tab Groups 中。
-workspaces-migation-menuitem-text = 工作空間功能將不再被支援！<label data-l10n-name="workspaces-removed-learning-more">瞭解詳情</label>
-workspaces-removed-learning-more = 瞭解更多
-workspaces-removed-description = 工作空間功能已經從 { -brand-short-name } 中移除。請您改用 Simple Tab Groups 擴充套件。
-floorp-workspaces-title = { -brand-short-name } 工作空間
-workspaces-backup-discription = 備份/恢復您的工作空間
-workspaces-restore-service-title = { -brand-short-name } 工作空間備份服務
-workspaces-restore-warning = 警告！執行此行動會導致您的工作空間被覆寫。屆時 Floorp 將會暫時進入凍結狀態，之後並會自行重啟。
-floorp-workspace-settings-button = 工作空間設定...
-change-to-close-workspace-popup-option = 
-    .label = 選擇工作空間時關閉工作空間的彈窗
-pinned-tabs-exclude-workspace-option = 
-    .label = 排除工作空間內已釘選的分頁
-workspaces-reset-title = 重置工作空間
-workspaces-reset-label = 
-    .label = 重置工作空間
-workspaces-reset-description = 如果備份沒辦法使用且工作空間沒有啟動，請重置工作空間
-workspaces-reset-button = 重置工作空間
-workspaces-reset-service-title = { -brand-short-name } 工作空間
-workspaces-reset-warning = 警告！執行此行動會刪除您所有的工作空間並重啟瀏覽器。
-manage-workspace-on-bms-option = 
-    .label = 在管理工具側邊欄管理工作空間
-show-workspace-name-option = 
-    .label = 在分頁列上的工作空間按鈕上顯示工作空間的名稱
-change-workspace-with-default-key-option = 
-    .label = 用 Shift + ↑/↓ 來更換工作空間
-workspaces-manage-title = 管理工作空間
-workspaces-manage-description = 管理您的工作空間。變更您的工作空間圖示。
-workspaces-manage-label = 
-    .label = 管理工作空間
-workspaces-manage-button = 開啟工作空間管理器
 select-workspace = 選擇工作空間
 workspace-select-icon = 選擇工作空間圖示
     .label = 選擇工作空間圖示
@@ -746,6 +701,7 @@ floorp-show-all-downloads =
     .accesskey = S
     .tooltiptext = 顯示所有下載
 ######################################################################### workspace ###############################################################
+
 workspaces-create-new-workspace-button = 
     .label = 建立新工作空間
     .tooltiptext = 建立新工作空間
@@ -769,6 +725,21 @@ rename-workspace-prompt-text = 輸入工作區名稱。 可使用大多數字元
 workspaces-toolbar-button = 工作空間
     .label = 工作空間
     .tooltiptext = 選擇一個工作空間...
+
+## Preferences
+
+category-workspaces = Workspaces
+    .label = Workspaces
+    .tooltiptext = Workspaces
+pane-workspaces-title = Workspaces
+floorp-workspaces-title = { -brand-short-name } 工作空間
+floorp-workspace-settings-button = 工作空間設定...
+change-to-close-workspace-popup-option = 
+    .label = 選擇工作空間時關閉工作空間的彈窗
+manage-workspace-on-bms-option = 
+    .label = 在管理工具側邊欄管理工作空間
+show-workspace-name-option = 
+    .label = 在分頁列上的工作空間按鈕上顯示工作空間的名稱
 ######################################################################### menubar item ###############################################################
 
 sharemode-menuitem = 
@@ -1046,7 +1017,7 @@ appmenuitem-contextmenu-uninstall-app =
 ######################################################################### Download Notification ###############################################################
 floorp-started-download = 下載開始
 floorp-finished-download = 下載已完成
-######################################################################### Uodate notify ###############################################################
+######################################################################### Update notify ###############################################################
 
 floorp-notificationTitle-latest = { -brand-short-name } 已經是最新版本！
 floorp-notificationContent-latest = 您現在使用的 { -brand-short-name } 已經是最新版本。
