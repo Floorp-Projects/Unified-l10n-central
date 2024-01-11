@@ -46,7 +46,7 @@ enable-tab-scroll-reverse =
 enable-tab-scroll-wrap = 
     .label = Kaydırma sekmelerini kenara sarma
 enable-double-click-block = 
-    .label = Çift tıklandığında sekmeleri kapatma
+    .label = Close tabs with a double click
 enable-show-pinned-tabs-title = 
     .label = Sabitlenmiş sekmelerin başlığını göster
 tabbar-preference = Sekme Çubuğu
@@ -399,9 +399,9 @@ about-Smoothfox = En sevdiğiniz tarayıcıda Edge benzeri akıcı kaydırma öz
 ## Workspaces
 
 workspaces-removed-title = Warning: Workspaces are deprecated!
-workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extensions <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
+workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extension <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
 workspaces-removed-migration-tools-title = Workspaces Migration Tools
-workspaces-removed-migration-tools = Workspaces Migration Tools provides a way to migrate your Workspaces to Simple Tab Groups.
+workspaces-removed-migration-tools = Workspaces Migration Tools provide a way to migrate your Workspaces to Simple Tab Groups.
 workspaces-removed-migration-tools-label = Generate Simple Tab Groups Backup file
 workspaces-removed-migrate-to-STG-button = 
     .label = Generate...
@@ -409,11 +409,11 @@ workspace-STG-backup-success = Backup file created
 workspace-STG-backup-success-message = The backup file was created on the desktop. Import this file into Simple Tab Groups.
 workspaces-migation-menuitem-text = Workspaces are deprecated! <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
 workspaces-removed-learning-more = Learn more
-workspaces-removed-description = Workspaces has been removed from { -brand-short-name }. Please use the Workspaces add-on instead.
+workspaces-removed-description = Workspaces have been removed from { -brand-short-name }. Please use the Simple Tab Groups add-on instead.
 floorp-workspaces-title = { -brand-short-name } Çalışma Alanları
 workspaces-backup-discription = Çalışma Alanlarınızı yedekleme ve geri yükleme
 workspaces-restore-service-title = { -brand-short-name } Workspaces Backup Service
-workspaces-restore-warning = Warning! Running this operation will cause your current Workspaces to be overwritten. The browser will freeze for a few seconds and then proceed to restart.
+workspaces-restore-warning = Warning! Running this operation will overwrite your current Workspaces. The browser will freeze for a few seconds and then proceed to restart.
 floorp-workspace-settings-button = Çalışma Alanı Ayarları...
 change-to-close-workspace-popup-option = 
     .label = Bir Çalışma Alanı seçerken çalışma alanları açılır penceresini kapatma
@@ -746,28 +746,29 @@ floorp-show-all-downloads =
     .accesskey = S
     .tooltiptext = Tüm indirmeleri göster
 ######################################################################### workspace ###############################################################
-
-workspace-prompt-title = { -brand-short-name } Workspace
-please-enter-workspace-name = Lütfen Çalışma Alanının yeni adını girin.
-please-enter-workspace-name-2 = Çalışma Alanının adı semboller ve boşluklar içeremez.
-workspace-error = Bir hata oluştu:
-workspace-error-discription = Ya bu isimde bir Çalışma Alanı vardır ya da isim geçersizdir.
-workspace-button = Çalışma Alanları
-    .label = Çalışma Alanları
-    .tooltiptext = Bir Çalışma Alanı Seçin...
-workspace-default = Varsayılan
-workspace-add = 
-    .label = Yeni Çalışma Alanı...
-workspace-context-menu-selected-tab = 
-    .label = Seçilen sekme taşınamıyor
+workspaces-create-new-workspace-button = 
+    .label = Create new Workspace...
+    .tooltiptext = Create a new Workspace
+workspaces-manage-workspaces-button = 
+    .label = Manage Workspaces...
+    .tooltiptext = Manage your Workspaces
+rename-this-workspace = 
+    .label = Rename Workspace
+    .accesskey = R
+delete-this-workspace = 
+    .label = Delete Workspace
+    .accesskey = D
+manage-this-workspaces = 
+    .label = Manage Workspaces...
+    .accesskey = M
+workspace-default-name = New Workspace
 move-tab-another-workspace = 
     .label = Başka bir Çalışma Alanına Taşı
-workspace-rename = 
-    .label = Bu Çalışma Alanını Yeniden Adlandırın
-workspace-delete = 
-    .label = Çalışma Alanını Sil
-manage-workspace = Bu Çalışma Alanını Yönetme
-    .label = Bu çalışma alanını yönetin
+rename-workspace-prompt-title = Rename Workspace
+rename-workspace-prompt-text = Enter Workspace Name. Most characters and symbols can be used.
+workspaces-toolbar-button = Workspaces
+    .label = Workspaces
+    .tooltiptext = Select a Workspace...
 ######################################################################### menubar item ###############################################################
 
 sharemode-menuitem = 
@@ -777,26 +778,26 @@ sharemode-menuitem =
 
 welcome-login-to-firefox-account = Firefox Hesabınızda oturum açın
 welcome-to-floorp = { -brand-short-name }adresine hoş geldiniz!
-welcome-discribe-floorp = { -brand-short-name } çeşitli ortamları destekleyen ve Firefox tabanlı, zengin özelliklere sahip esnek bir tarayıcıdır.
-welcome-start-setup = Atlamaya hazır mısınız?
+welcome-discribe-floorp = { -brand-short-name } is a feature-rich, flexible browser that supports various environments and is based on Firefox.
+welcome-start-setup = Ready to dive in?
 welcome-skip-to-start-browsing = Taramaya Başlamak için Atla
-welcome-select-preferences-template = Bir şablon seçin
+welcome-select-preferences-template = Choose a template
 welcome-minimum-template = Temel
-welcome-enable-basic-features = Basit bir deneyim için temel özellikleri ve ayarları etkinleştirin.
+welcome-enable-basic-features = Enable basic features and settings for a simple experience.
 welcome-medium-template = Varsayılan
-welcome-enable-some-features = Daha iyi bir deneyim için ek özellikleri ve ayarları etkinleştirin.
+welcome-enable-some-features = Enable additional features and settings for a better experience.
 welcome-maximum-template = Gelişmiş
-welcome-enable-most-of-features = Gelişmiş özellikleri ve ayarları etkinleştirin. Deneyimli kullanıcılar için önerilir.
+welcome-enable-most-of-features = Enable advanced features and settings. Recommended for experienced users.
 welcome-go-next-setup = Sonraki
 welcome-select-browser-design = Bir Tarayıcı Tasarımı Seçin
-welcome-discribe-browser-design = Harika üçüncü taraf { -brand-short-name } tasarımlarından birini seçebilirsiniz. İşletim sistemine özel tasarımlar da Tercihler'de mevcuttur.
+welcome-discribe-browser-design = You can choose one of the wonderful third-party { -brand-short-name } designs. OS-specific designs are also available in Preferences.
 welcome-design-lepton-name = Lepton Özgün Tasarım
 welcome-design-photon-name = Lepton Foton Tasarımı
 welcome-design-ProtonFix-name = Lepton ProtonFix Tasarım
 welcome-design-floorp-fluerial-name = { -brand-short-name } Fluerial Design
 welcome-design-firefox-proton-name = Firefox Proton Tasarımı
 welcome-import-data = Tarayıcı Verilerinizi İçe Aktarın
-welcome-import-data-description = Fast setup! Import your bookmarks, passwords, and more from your old browser. Firefox users can import data from Firefox Sync.
+welcome-import-data-description = Quick setup! Import your bookmarks, passwords, and more from your old browser. Firefox users can import data from Firefox Sync.
 welcome-import-data-button = Veri İçe Aktar...
 welcome-import-data-skip = İçe Aktarmayı Atla
 welcome-select-button = Seçiniz
@@ -806,17 +807,17 @@ welcomet-finish-setup = Web'de Gezinmeye Başlayın
 ############################################################# Custom Shortcutkey ###############################################################
 
 category-CSK = 
-    .label = Klavye kısayolları
-    .tooltiptext = Klavye kısayolları
-category-CSK-title = Klavye kısayolları
+    .label = Keyboard Shortcuts
+    .tooltiptext = Keyboard Shortcuts
+category-CSK-title = Keyboard Shortcuts
 shortcutkey-customize = 
-    .title = Klavye kısayolları
+    .title = Keyboard Shortcuts
 select-shortcutkeyAction = Tetiklenecek bir eylem seçin
 shortcutkey-customize-key-list-placeholder = Klavye kısayolunuz burada görünecektir
-shortcut-key-label = Klavye kısayolu
-start-input-button-listen = Dinlemeye başlayın
-end-input-button-listen = Dinlemeyi bırak.
-shortcut-key-description = "Dinlemeye başla "ya tıklayın ve bu eylem için yeni klavye kısayolunuzu girin. Birden fazla tuş kullanılabilir, ancak klavye kısayolları zaten başka eylemlere atanmışsa çalışmayacaktır.
+shortcut-key-label = Keyboard Shortcut
+start-input-button-listen = Start Listening
+end-input-button-listen = Stop Listening
+shortcut-key-description = Click "Start Listening" and enter your new keyboard shortcut for this action. Multiple keys can be used; however, keyboard shortcuts will not work if already assigned to other actions.
 floorp-custom-actions-open-new-tab = Yeni bir sekme açın
     .label = Yeni bir sekme açın
 floorp-custom-actions-close-tab = Geçerli sekmeyi kapat
@@ -943,6 +944,8 @@ floorp-custom-actions-hide-sidebar = Kenar çubuğunu gizle
     .label = Kenar çubuğunu gizle
 floorp-custom-actions-show-sidebar = Kenar çubuğunu değiştir
     .label = Kenar çubuğunu değiştir
+floorp-custom-actions-toggle-sidebar = Toggle sidebar
+    .label = Toggle sidebar
 floorp-custom-actions-open-previous-workspace = Önceki çalışma alanını aç
     .label = Önceki çalışma alanını aç
 floorp-custom-actions-open-next-workspace = Sonraki çalışma alanını aç
@@ -1017,6 +1020,9 @@ floorp-customize-mode-unified-extensions-button =
     .label = Birleşik Uzantılar Düğmesi
 ######################################################################### Progressive Web Apps (SSB) ###############################################################
 
+ssb-page-action = 
+    .label = Install app
+    .tooltiptext = Install this site as an app
 ssb-page-action-title = Install app
 ssb-app-open-button = 
     .label = Open In App
@@ -1037,3 +1043,12 @@ appmenuitem-contextmenu-open-app =
     .label = Open this app
 appmenuitem-contextmenu-uninstall-app = 
     .label = Uninstall this app
+######################################################################### Download Notification ###############################################################
+floorp-started-download = Download started
+floorp-finished-download = Download finished
+######################################################################### Uodate notify ###############################################################
+
+floorp-notificationTitle-latest = { -brand-short-name } is up to date!
+floorp-notificationContent-latest = { -brand-short-name } is up to date. You are using the latest version of { -brand-short-name }.
+floorp-notificationTitle = New version of { -brand-short-name } is available!
+floorp-notificationContent = Click to download the latest version.

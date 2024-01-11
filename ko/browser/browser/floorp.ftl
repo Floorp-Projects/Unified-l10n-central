@@ -17,11 +17,11 @@ feature-requires-restart = 변경 사항을 적용하려면 재시작해야 합�
 tab-width = 탭의 최소 너비
 preferences-tabs-newtab-position = 새 탭 위치
 open-new-tab-use-default = 
-    .label = 기본 위치에서 새 탭 열기
+    .label = 기본 설정 사용
 open-new-tab-at-the-end = 
     .label = 탭 표시줄 끝에서 새 탭 열기
 open-new-tab-next-to-current = 
-    .label = 현재 탭 옆에 새 탭을 엽니다.
+    .label = 현재 탭 옆에 새 탭 열기
 multirow-tabs-limit = 
     .label = 여러줄 탭에 줄 갯수 제한 사용
 multirow-tabs-newtab = 
@@ -37,8 +37,8 @@ tab-sleep-settings-dialog-excludehosts-label = 호스트 제외
 tab-sleep-settings-dialog-excludehosts-label-2 = 한 줄에 호스트 하나를 입력합니다.
 tab-sleep-tab-context-menu-excludetab = 탭을 슬립으로 전환하지 않기
 enable-floorp-workspace = 
-    .label = Enable Workspaces
-workspace-warning = 워크스페이스는 탭 그룹 애드온과 같이 쓰일 수 없어요. 만약 같이 쓰고 싶으시다면, 워크스페이스를 비활성화하고, { -brand-short-name }를 재시작해주세요.
+    .label = 워크스페이스 활성화
+workspace-warning = 워크스페이스는 탭 그룹 애드온과 같이 쓰일 수 없어요. 만약 그 애드온을 사용하고 싶다면 워크스페이스를 비활성화하고, { -brand-short-name } 를 재시작해주세요.
 enable-tab-scroll-change = 
     .label = 마우스로 스크롤하여 탭 전환
 enable-tab-scroll-reverse = 
@@ -46,7 +46,7 @@ enable-tab-scroll-reverse =
 enable-tab-scroll-wrap = 
     .label = 스크롤 탭을 가장자리로 감싸기
 enable-double-click-block = 
-    .label = 탭을 두 번 클릭하면 탭 닫기
+    .label = 더블 클릭으로 탭 닫기
 enable-show-pinned-tabs-title = 
     .label = 핀 꼽힌 탭의 제목 표시
 tabbar-preference = 탭 바
@@ -77,7 +77,7 @@ hover-vertical-tab =
 floorp-show-vertical-tab-newtab-button = 
     .label = 세로 탭 바에 '새 탭 열기' 버튼 표시
 floorp-show-vertical-tab-scrollbar = 
-    .label = Show scrollbar on Vertical Tab Bar
+    .label = 세로 탭 바에서 스크롤바를 표시하기
 TST = 트리 스타일 탭
 about-TST = 트리 스타일 탭은 탭을 트리 구조로 표시할 수 있는 인기있는 애드온이예요. 이 애드온은 { -brand-short-name }에 이미 통합되어 있어요. { -brand-short-name }의 트리 스타일 탭을 사용하시려면 그 애드온을 설치해 주세요.
 treestyletab-Settings = 
@@ -147,7 +147,7 @@ do-not-notify =
 ## Sidebar
 
 profiles-button-label = 프로필 관리
-floorp-help-button-label = { -brand-short-name } 지원
+floorp-help-button-label = { -brand-short-name } Support
 appmenuitem-reboot = 
     .label = 재시작
 
@@ -240,7 +240,7 @@ max-memory =
 delete-border-and-roundup-option = 
     .label = 페이지 모서리 둥글게 처리
 STG-smilar-workspaces-option = 
-    .label = Make "Simple Tab Groups" add-on buttons look like Workspaces buttons
+    .label = "Simple Tab Groups" 애드온 버튼을 워크스페이스 버튼처럼 보이게 만들기
 
 ## DualTheme
 
@@ -256,10 +256,10 @@ newtab-background-not-background =
 newtab-background-selected-image = 
     .label = 사용자 지정 폴더...
 newtab-background-selected-one-image = 
-    .label = Custom image...
+    .label = 커스텀 이미지...
 newtab-background-folder = 이 폴더의 이미지를 사용합니다:
-newtab-background-image = Use image :
-newtab-choose-image = Choose Image...
+newtab-background-image = 사용할 이미지:
+newtab-choose-image = 이미지를 선택:
 newtab-background-folder-reload = 
     .label = 이미지 다시 로드
 newtab-background-folder-default = 
@@ -267,14 +267,14 @@ newtab-background-folder-default =
 newtab-background-folder-open = 
     .label = 폴더 열기
 newtab-background-folder-choose = 이미지 폴더 선택...
-newtab-background-image-choose = Choose image...
+newtab-background-image-choose = 이미지를 선택:
 newtab-background-extensions = 다음 파일 확장자(","로 구분)의 이미지 사용
 disable-blur-on-newtab = 
     .label = { -brand-short-name } 홈에서 흐림 효과 비활성화하기
 
 ## Lepton Preferences
 
-about-lepton = Lepton으로 { -brand-short-name } 사용자 지정
+about-lepton = Lepton으로 { -brand-short-name } 커스터마이즈
 lepton-preference-button = 
     .label = Lepton 설정...
     .accesskey = L
@@ -398,22 +398,22 @@ about-Smoothfox = 즐겨 사용하는 브라우저에서 Edge와 같은 부드�
 
 ## Workspaces
 
-workspaces-removed-title = Warning: Workspaces are deprecated!
-workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extensions <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
+workspaces-removed-title = 경고: 워크스페이스는 지원 중단되었습니다!
+workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extension <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
 workspaces-removed-migration-tools-title = Workspaces Migration Tools
-workspaces-removed-migration-tools = Workspaces Migration Tools provides a way to migrate your Workspaces to Simple Tab Groups.
+workspaces-removed-migration-tools = Workspaces Migration Tools provide a way to migrate your Workspaces to Simple Tab Groups.
 workspaces-removed-migration-tools-label = Generate Simple Tab Groups Backup file
 workspaces-removed-migrate-to-STG-button = 
-    .label = Generate...
-workspace-STG-backup-success = Backup file created
+    .label = 생성...
+workspace-STG-backup-success = 백업 파일이 생성되었습니다
 workspace-STG-backup-success-message = The backup file was created on the desktop. Import this file into Simple Tab Groups.
 workspaces-migation-menuitem-text = Workspaces are deprecated! <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
 workspaces-removed-learning-more = Learn more
-workspaces-removed-description = Workspaces has been removed from { -brand-short-name }. Please use the Workspaces add-on instead.
+workspaces-removed-description = Workspaces have been removed from { -brand-short-name }. Please use the Simple Tab Groups add-on instead.
 floorp-workspaces-title = { -brand-short-name } 워크스페이스
 workspaces-backup-discription = 워크스페이스 백업 및 복원
 workspaces-restore-service-title = { -brand-short-name } 워크스페이스 백업 서비스
-workspaces-restore-warning = 경고! 이 작업을 실행하면 현재 워크스페이스를 덮어쓰게 됩니다. 브라우저가 몇 초 동안 프리징된 후 재시작됩니다.
+workspaces-restore-warning = Warning! Running this operation will overwrite your current Workspaces. The browser will freeze for a few seconds and then proceed to restart.
 floorp-workspace-settings-button = 워크스페이스 설정...
 change-to-close-workspace-popup-option = 
     .label = 워크스페이스를 선택하면 워크스페이스 닫기 팝업이 나타납니다.
@@ -538,9 +538,9 @@ privacy-hub-header = 개인정보 보호 허브
 block-more-tracker = 더 많은 광고 및 트래커 차단
 block-tracker = 이 섹션에는 광고 및 트래커를 차단하도록 설계된 확장 프로그램 세트가 포함되어 있습니다.
 view-at-AMO = addons.mozilla.org에서 이 애드온 보기
-uBlock-Origin = 유블록 오리진
+uBlock-Origin = uBlock Origin
 about-uboori = uBlock Origin은 광고, 광범위한 추적기 및 추가 위험 사이트를 차단합니다.
-Facebook-Container = Facebook 컨테이너
+Facebook-Container = Facebook Container
 about-Facebook-Container = Facebook이 웹에서 사용자를 추적하지 못하도록 차단하세요. Facebook 컨테이너 확장 프로그램을 사용하면 웹 활동을 제어하고 Facebook으로부터 격리할 수 있습니다.
 
 ## Fingerprinting
@@ -666,20 +666,20 @@ status-bar =
 ##################################################################### Gesturefy ###############################################################
 
 gf-floorp-open-tree-style-tab-name = [{ -brand-short-name }] 트리 스타일 탭 패널 열기
-gf-floorp-open-tree-style-tab-description = Open Tree Style Tab Panel on the Sidebar
-gf-floorp-open-bookmarks-sidebar-name = [{ -brand-short-name }] Open Bookmarks Panel
-gf-floorp-open-bookmarks-sidebar-description = Open Bookmarks Panel on the Sidebar
-gf-floorp-open-history-sidebar-name = [{ -brand-short-name }] Open History Panel
-gf-floorp-open-history-sidebar-description = Open History Panel on the Sidebar
-gf-floorp-open-synctabs-sidebar-name = [{ -brand-short-name }] Open Synced Tabs Panel
-gf-floorp-open-synctabs-sidebar-description = Open Synced Tabs Panel on the Sidebar
+gf-floorp-open-tree-style-tab-description = 트리 스타일 탭을 사이드바에서 열어요.
+gf-floorp-open-bookmarks-sidebar-name = [{ -brand-short-name }] 북마크 패널 열기
+gf-floorp-open-bookmarks-sidebar-description = 사이드바에서 북마크 패널 열기
+gf-floorp-open-history-sidebar-name = [{ -brand-short-name }] 기록 패널 열기
+gf-floorp-open-history-sidebar-description = 기록을 북마크 패널에서 열어요
+gf-floorp-open-synctabs-sidebar-name = [{ -brand-short-name }] 동기화된 탭 패널을 열기
+gf-floorp-open-synctabs-sidebar-description = 동기화된 탭을 사이드바에서 열어요
 gf-floorp-close-sidebar-name = [{ -brand-short-name }] 사이드 바 닫기
 gf-floorp-close-sidebar-description = 사이드바 닫기
-gf-floorp-open-browser-manager-sidebar-name = [{ -brand-short-name }] Open BMS
-gf-floorp-open-browser-manager-sidebar-description = Open Browser Manager Sidebar if the Web Panel of Browser Manager Sidebar is loaded
-gf-floorp-close-browser-manager-sidebar-name = [{ -brand-short-name }] Close BMS
+gf-floorp-open-browser-manager-sidebar-name = [{ -brand-short-name }] BMS 열기
+gf-floorp-open-browser-manager-sidebar-description = 웹 패널이 로드된 경우, 브라우저 관리자 사이드바를 열어요.
+gf-floorp-close-browser-manager-sidebar-name = [{ -brand-short-name }] BMS 닫기
 gf-floorp-close-browser-manager-sidebar-description = 브라우저 관리자 사이드바 닫기
-gf-floorp-show-browser-manager-sidebar-name = [{ -brand-short-name }] Toggle BMS
+gf-floorp-show-browser-manager-sidebar-name = [{ -brand-short-name }] BMS 표시 전환
 gf-floorp-show-browser-manager-sidebar-description = 브라우저 관리자 사이드바 토글
 gf-floorp-hide-statusbar-name = [{ -brand-short-name }] 상태 표시줄 숨기기
 gf-floorp-hide-statusbar-description = 상태 표시줄 숨기기
@@ -726,9 +726,9 @@ memo-input-placeholder = 여기에 메모를 작성하거나 붙여넣기
 delete-memo = 삭제
 save-memo = 저장
 memo-welcome-title = 환영합니다!
-memo-first-tip = Welcome to { -brand-short-name } Notes! Here are some instructions on how to use it!
-memo-second-tip = { -brand-short-name } Notes is a notepad that lets you store multiple notes that sync across devices. To enable synchronization, you need to sign in to { -brand-short-name } with your Firefox account.
-memo-third-tip = { -brand-short-name } Notes will be saved in your { -brand-short-name } settings and synchronized across devices using Firefox Sync. Firefox Sync encrypts the contents of the sync with your Firefox account password, so no one but you know its contents.
+memo-first-tip = { -brand-short-name } Notes에 오신 것을 환영합니다! 사용방법을 설명할게요!
+memo-second-tip = { -brand-short-name } Notes는 여러 장치에서 동기화되는 메모 기능이예요. 동기화 하기 위해서는 Mozilla 계정으로 { -brand-short-name } 에 로그인해야 해요.
+memo-third-tip = { -brand-short-name } Notes 는 { -brand-short-name } 에 저장되어, Firefox Sync를 사용하여 여러 장치에 동기화되어요. Firefox Sync는 동기화하는 내용을 Mozilla 계정의 비밀번호로 암호화하기에 누구에게도 내용이 알려질 걱정이 없어요.
 memo-import-data-tip = Firefox 동기화는 백업 서비스가 아닙니다. 백업을 생성하는 것이 좋습니다.
 memo-new-title = 새 노트
 chage-view-mode = 보기/편집 모드 전환
@@ -746,28 +746,29 @@ floorp-show-all-downloads =
     .accesskey = S
     .tooltiptext = 모든 다운로드 표시
 ######################################################################### workspace ###############################################################
-
-workspace-prompt-title = { -brand-short-name } 워크스페이스
-please-enter-workspace-name = 워크스페이스의 새 이름을 입력하세요.
-please-enter-workspace-name-2 = 워크스페이스의 이름에는 기호 및 공백을 포함할 수 없습니다.
-workspace-error = 오류가 발생했습니다:
-workspace-error-discription = 이 이름의 워크스페이스가 존재하거나 이름이 유효하지 않습니다.
-workspace-button = 작업 공간
-    .label = 작업 공간
-    .tooltiptext = 작업 공간 선택...
-workspace-default = 기본값
-workspace-add = 
-    .label = 새 작업 공간...
-workspace-context-menu-selected-tab = 
-    .label = 선택한 탭을 이동할 수 없습니다.
+workspaces-create-new-workspace-button = 
+    .label = 새로운 워크스페이스 만들기
+    .tooltiptext = 새로운 워크스페이스 만들기
+workspaces-manage-workspaces-button = 
+    .label = 워크스페이스 관리...
+    .tooltiptext = 워크스페이스 관리
+rename-this-workspace = 
+    .label = 워크스페이스 이름 바꾸기
+    .accesskey = R
+delete-this-workspace = 
+    .label = 워크스페이스 삭제
+    .accesskey = D
+manage-this-workspaces = 
+    .label = 워크스페이스 관리...
+    .accesskey = M
+workspace-default-name = 새 워크스페이스
 move-tab-another-workspace = 
-    .label = 다른 작업 공간으로 이동
-workspace-rename = 
-    .label = 이 작업 영역 이름 바꾸기
-workspace-delete = 
-    .label = 작업 영역 삭제
-manage-workspace = 이 작업 공간 관리
-    .label = 이 작업 공간 관리
+    .label = 다른 워크스페이스로 이동
+rename-workspace-prompt-title = 워크스페이스 이름 바꾸기
+rename-workspace-prompt-text = 워크스페이스 이름을 입력하세요. 대부분의 문자와 기호를 사용할 수 있어요.
+workspaces-toolbar-button = 워크스페이스
+    .label = 워크스페이스
+    .tooltiptext = 워크스페이스 선택...
 ######################################################################### menubar item ###############################################################
 
 sharemode-menuitem = 
@@ -777,31 +778,31 @@ sharemode-menuitem =
 
 welcome-login-to-firefox-account = Firefox 계정에 로그인
 welcome-to-floorp = { -brand-short-name }에 오신 것을 환영합니다!
-welcome-discribe-floorp = { -brand-short-name } 는 다양한 환경을 지원하는 기능이 풍부한 유연한 브라우저로, Firefox를 기반으로 합니다.
-welcome-start-setup = 참여할 준비가 되셨나요?
+welcome-discribe-floorp = { -brand-short-name } 는 다양한 환경을 지원하는, 기능이 풍부하고 유연한 Firefox기반의 브라우저입니다.
+welcome-start-setup = 준비됐나요?
 welcome-skip-to-start-browsing = 브라우징 시작으로 건너뛰기
-welcome-select-preferences-template = 템플릿 선택
+welcome-select-preferences-template = 템플릿 선택하기
 welcome-minimum-template = 기본
-welcome-enable-basic-features = 간단한 경험을 위해 기본 기능 및 설정을 활성화합니다.
+welcome-enable-basic-features = 기본적인 기능과 설정으로 심플한 경험을.
 welcome-medium-template = 기본값
-welcome-enable-some-features = 더 나은 경험을 위해 추가 기능 및 설정을 활성화하세요.
+welcome-enable-some-features = 더 좋은 경험을 위해 추가 기능과 설정을 사용
 welcome-maximum-template = 고급
-welcome-enable-most-of-features = 고급 기능 및 설정을 활성화합니다. 숙련된 사용자에게 권장됩니다.
+welcome-enable-most-of-features = 고급 기능과 설정을 사용합니다. Geek한 분에게 추천해요!
 welcome-go-next-setup = 다음
 welcome-select-browser-design = 브라우저 디자인 선택
-welcome-discribe-browser-design = 멋진 서드파티 { -brand-short-name } 디자인 중 하나를 선택할 수 있습니다. 환경설정에서 OS별 디자인도 사용할 수 있습니다.
+welcome-discribe-browser-design = 서드파티의 멋진 디자인으로부터 { -brand-short-name } 의 디자인을 선택할 수 있어요. OS에 고유 디자인도 설정에서 선택할 수 있어요.
 welcome-design-lepton-name = Lepton Original 디자인
 welcome-design-photon-name = Lepton Photon 디자인
 welcome-design-ProtonFix-name = Lepton ProtonFix 디자인
 welcome-design-floorp-fluerial-name = { -brand-short-name } Fluerial 디자인
 welcome-design-firefox-proton-name = Firefox Proton 디자인
 welcome-import-data = 브라우저 데이터 가져오기
-welcome-import-data-description = 빠른 셋업! 이전 브라우저에서 당신의 북마크, 비밀번호 등을 가져올 수 있어요. Firefox 사용자는 FIrefox Sync으로부터 데이터를 가져올 수 있어요.
+welcome-import-data-description = 순식간에 설정! 이전 브라우저에서 북마크나 비밀번호같은 것들을 가져올 수 있어요! Firefox 사용자는 Firefox Sync에서 동기화할 수 있어요.
 welcome-import-data-button = 데이터 가져오기...
 welcome-import-data-skip = 가져오기 건너뛰기
 welcome-select-button = 선택
 welcome-finish-setup = 설정 완료!
-welcome-finish-setup-description = You're all set! Other features like Vertical Tabs & Workspaces can be found in { -brand-short-name }'s Settings. Enjoy { -brand-short-name }!
+welcome-finish-setup-description = 모든 준비가 끝났어요! 세로 탭 및 워크스페이스와 같은 기능은 { -brand-short-name } 의 설정에서 찾아볼 수 있어요. { -brand-short-name } 를 즐기세요!
 welcomet-finish-setup = 웹 브라우징 시작
 ############################################################# Custom Shortcutkey ###############################################################
 
@@ -814,9 +815,9 @@ shortcutkey-customize =
 select-shortcutkeyAction = 트리거할 작업을 선택합니다.
 shortcutkey-customize-key-list-placeholder = 키보드 단축키가 여기에 표시됩니다.
 shortcut-key-label = 키보드 단축키
-start-input-button-listen = 듣기 시작
-end-input-button-listen = 듣기 중지
-shortcut-key-description = "듣기 시작"을 클릭하고 이 작업에 대한 새 키보드 단축키를 입력합니다. 여러 개의 키를 사용할 수 있지만 이미 다른 작업에 키보드 단축키가 할당되어 있는 경우에는 키보드 단축키가 작동하지 않습니다.
+start-input-button-listen = 기록 시작
+end-input-button-listen = 기록 종료
+shortcut-key-description = "기록 시작"을 클릭하고 단축키로서 사용할 키를 입력하세요. 여러개의 키를 사용할 수도 있어요. 다른 액션과 중복하지 않도록 해주세요.
 floorp-custom-actions-open-new-tab = 새 탭 열기
     .label = 새 탭 열기
 floorp-custom-actions-close-tab = 현재 탭 닫기
@@ -845,7 +846,7 @@ floorp-custom-actions-print-page = 인쇄 페이지
     .label = 인쇄 페이지
 floorp-custom-actions-mute-current-tab = 현재 음소거/음소거 해제 탭 전환
     .label = 현재 음소거/음소거 해제 탭 전환
-floorp-custom-actions-toggle-bookmark-toolbar = Toggle bookmark toolbar
+floorp-custom-actions-toggle-bookmark-toolbar = 북마크 도구 모음의 표시를 전환하기
     .label = 북마크 도구 모음 토글
 floorp-custom-actions-show-source-of-page = 페이지 소스 표시
     .label = 페이지 소스 열기
@@ -943,6 +944,8 @@ floorp-custom-actions-hide-sidebar = 사이드바 숨기기
     .label = 사이드바 숨기기
 floorp-custom-actions-show-sidebar = 사이드바 토글
     .label = 사이드바 토글
+floorp-custom-actions-toggle-sidebar = 사이드바 표시 전환하기
+    .label = 사이드바 표시 전환하기
 floorp-custom-actions-open-previous-workspace = 이전 작업 공간 열기
     .label = 이전 작업 공간 열기
 floorp-custom-actions-open-next-workspace = 다음 작업 공간 열기
@@ -977,8 +980,8 @@ floorp-custom-actions-custom-action-4 = 사용자 지정 작업 4
     .label = 사용자 지정 작업 4
 floorp-custom-actions-custom-action-5 = 사용자 지정 작업 5
     .label = 사용자 지정 작업 5
-floorp-custom-actions-rest-mode = Enable rest mode
-    .label = Enable rest mode
+floorp-custom-actions-rest-mode = 휴식 모드 사용하기
+    .label = 휴식 모드 사용하기
 ##################################################################### Profile Switcher ###############################################################
 
 floorp-open-profile-with-new-instance = 시작
@@ -1009,14 +1012,17 @@ splitview-show-on-left =
 splitview-close-split-tab = 
     .label = 분할 탭을 닫기
 ######################################################################### Page Actions ###############################################################
-qrcode-generate-page-action-title = 휴대폰으로 QR코드 스캔하세요.
+qrcode-generate-page-action-title = QR코드를 스캔하세요.
 qrcode-generate-page-action = 
-    .tooltiptext = 이 페이지를 휴대폰으로 공유하기
+    .tooltiptext = QR코드로 웹 사이트를 공유
 ######################################################################### Customize Mode ###############################################################
 floorp-customize-mode-unified-extensions-button = 
-    .label = 통합 확장 프로그램 버튼
+    .label = 통합 확장 기능 버튼
 ######################################################################### Progressive Web Apps (SSB) ###############################################################
 
+ssb-page-action = 
+    .label = 앱 설치
+    .tooltiptext = 이 사이트를 앱으로 설치하기
 ssb-page-action-title = 앱 설치
 ssb-app-open-button = 
     .label = 앱으로 열기
@@ -1027,7 +1033,7 @@ ssb-app-cancel-button =
 floorp-open-manage-ssb-page = 
     .label = 설치된 웹 앱을 관리하기
 appmenuitem-webapps = 
-    .label = Web Apps
+    .label = 웹 앱
 appmenu-open-installed-apps-subheader = 설치된 웹 앱 열기
 appmenuitem-install-current-page = 
     .label = 이 사이트를 앱으로서 설치하기
@@ -1037,3 +1043,12 @@ appmenuitem-contextmenu-open-app =
     .label = 이 앱을 열기
 appmenuitem-contextmenu-uninstall-app = 
     .label = 이 앱을 삭제하기
+######################################################################### Download Notification ###############################################################
+floorp-started-download = 다운로드 시작
+floorp-finished-download = 다운로드 완료
+######################################################################### Uodate notify ###############################################################
+
+floorp-notificationTitle-latest = { -brand-short-name } 는 최신 상태입니다!
+floorp-notificationContent-latest = 최신 버전의 { -brand-short-name } 를 사용하고 있습니다.
+floorp-notificationTitle = 새로운 버전의 { -brand-short-name } 가 있어요!
+floorp-notificationContent = 최신 버전을 다운로드하려면 클릭하세요.

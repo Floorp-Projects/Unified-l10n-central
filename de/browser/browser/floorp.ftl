@@ -46,7 +46,7 @@ enable-tab-scroll-reverse =
 enable-tab-scroll-wrap = 
     .label = Scroll-Tabs am Rand umbrechen
 enable-double-click-block = 
-    .label = Tabs mit Doppelklick schließen
+    .label = Close tabs with a double click
 enable-show-pinned-tabs-title = 
     .label = Titel von angepinnten Tabs anzeigen
 tabbar-preference = Tab-Leiste
@@ -399,9 +399,9 @@ about-Smoothfox = Holen Sie sich Edge-ähnliches Scrollen in Ihrem bevorzugten B
 ## Workspaces
 
 workspaces-removed-title = Warnung: Arbeitsbereiche werden bald entfernt!
-workspaces-removed-warning = Bitte wechseln Sie zu der "Simple Tab Groups" Erweiterungen <label data-l10n-name="workspaces-removed-learning-more">Mehr erfahren</label>
+workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extension <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
 workspaces-removed-migration-tools-title = Workspaces Migration Tools
-workspaces-removed-migration-tools = Workspaces Migration Tools provides a way to migrate your Workspaces to Simple Tab Groups.
+workspaces-removed-migration-tools = Workspaces Migration Tools provide a way to migrate your Workspaces to Simple Tab Groups.
 workspaces-removed-migration-tools-label = Generate Simple Tab Groups Backup file
 workspaces-removed-migrate-to-STG-button = 
     .label = Generate...
@@ -409,11 +409,11 @@ workspace-STG-backup-success = Backup file created
 workspace-STG-backup-success-message = The backup file was created on the desktop. Import this file into Simple Tab Groups.
 workspaces-migation-menuitem-text = Workspaces are deprecated! <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
 workspaces-removed-learning-more = Learn more
-workspaces-removed-description = Workspaces has been removed from { -brand-short-name }. Please use the Workspaces add-on instead.
+workspaces-removed-description = Workspaces have been removed from { -brand-short-name }. Please use the Simple Tab Groups add-on instead.
 floorp-workspaces-title = { -brand-short-name } Arbeitsbereiche
 workspaces-backup-discription = Arbeitsbereiche Sichern und Wiederherstellen
 workspaces-restore-service-title = { -brand-short-name } Arbeitsbereich Sicherungsdienst
-workspaces-restore-warning = Warnung! Wenn Sie diesen Vorgang ausführen, werden Ihre aktuellen Arbeitsbereiche überschrieben. Der Browser friert für einige Sekunden ein und wird dann neu gestartet.
+workspaces-restore-warning = Warning! Running this operation will overwrite your current Workspaces. The browser will freeze for a few seconds and then proceed to restart.
 floorp-workspace-settings-button = Arbeitsbereichseinstellungen...
 change-to-close-workspace-popup-option = 
     .label = Arbeitsbereich-Popup bei Auswahl eines Arbeitsbereichs schließen
@@ -746,28 +746,29 @@ floorp-show-all-downloads =
     .accesskey = S
     .tooltiptext = Alle Downloads anzeigen
 ######################################################################### workspace ###############################################################
-
-workspace-prompt-title = { -brand-short-name } Arbeitsbereiche
-please-enter-workspace-name = Bitte geben Sie den neuen Namen des Arbeitsbereichs ein.
-please-enter-workspace-name-2 = Der Name des Arbeitsbereichs darf keine Symbole und Leerzeichen enthalten.
-workspace-error = Ein Fehler ist aufgetreten:
-workspace-error-discription = Entweder existiert ein Arbeitsbereich mit diesem Namen oder der Name ist ungültig.
-workspace-button = Arbeitsbereiche
-    .label = Arbeitsbereiche
-    .tooltiptext = Workspace auswählen...
-workspace-default = Standard
-workspace-add = 
-    .label = Neuer Arbeitsbereich...
-workspace-context-menu-selected-tab = 
-    .label = Ausgewählter Tab kann nicht verschoben werden
+workspaces-create-new-workspace-button = 
+    .label = Create new Workspace...
+    .tooltiptext = Create a new Workspace
+workspaces-manage-workspaces-button = 
+    .label = Manage Workspaces...
+    .tooltiptext = Manage your Workspaces
+rename-this-workspace = 
+    .label = Rename Workspace
+    .accesskey = R
+delete-this-workspace = 
+    .label = Delete Workspace
+    .accesskey = D
+manage-this-workspaces = 
+    .label = Manage Workspaces...
+    .accesskey = M
+workspace-default-name = New Workspace
 move-tab-another-workspace = 
     .label = In einen anderen Arbeitsbereich verschieben
-workspace-rename = 
-    .label = Diesen Arbeitsbereich umbenennen
-workspace-delete = 
-    .label = Arbeitsbereich löschen
-manage-workspace = Diesen Arbeitsbereich verwalten
-    .label = Diesen Arbeitsbereich verwalten
+rename-workspace-prompt-title = Rename Workspace
+rename-workspace-prompt-text = Enter Workspace Name. Most characters and symbols can be used.
+workspaces-toolbar-button = Workspaces
+    .label = Workspaces
+    .tooltiptext = Select a Workspace...
 ######################################################################### menubar item ###############################################################
 
 sharemode-menuitem = 
@@ -777,26 +778,26 @@ sharemode-menuitem =
 
 welcome-login-to-firefox-account = Bei Ihrem Firefox-Konto anmelden
 welcome-to-floorp = Willkommen bei { -brand-short-name }!
-welcome-discribe-floorp = { -brand-short-name } ist ein funktionsreicher flexibler Browser, der verschiedene Umgebungen unterstützt und auf Firefox basiert.
-welcome-start-setup = Bereit zum Starten?
+welcome-discribe-floorp = { -brand-short-name } is a feature-rich, flexible browser that supports various environments and is based on Firefox.
+welcome-start-setup = Ready to dive in?
 welcome-skip-to-start-browsing = Setup überspringen
-welcome-select-preferences-template = Vorlage auswählen
+welcome-select-preferences-template = Choose a template
 welcome-minimum-template = Einfach
-welcome-enable-basic-features = Aktiviere grundlegende Funktionen & Einstellungen für ein einfaches Erlebnis.
+welcome-enable-basic-features = Enable basic features and settings for a simple experience.
 welcome-medium-template = Standard
-welcome-enable-some-features = Aktiviere zusätzliche Funktionen & Einstellungen für ein besseres Erlebnis.
+welcome-enable-some-features = Enable additional features and settings for a better experience.
 welcome-maximum-template = Erweitert
-welcome-enable-most-of-features = Erweiterte Funktionen und Einstellungen aktivieren. Empfohlen für erfahrene Benutzer.
+welcome-enable-most-of-features = Enable advanced features and settings. Recommended for experienced users.
 welcome-go-next-setup = Weiter
 welcome-select-browser-design = Wähle ein Browser-Design
-welcome-discribe-browser-design = Sie können eines der wunderbaren { -brand-short-name } Designs von Drittanbietern auswählen. Betriebssystemspezifische Designs sind auch in den Einstellungen verfügbar.
+welcome-discribe-browser-design = You can choose one of the wonderful third-party { -brand-short-name } designs. OS-specific designs are also available in Preferences.
 welcome-design-lepton-name = Lepton Original Design
 welcome-design-photon-name = Lepton Photon Design
 welcome-design-ProtonFix-name = Lepton ProtonFix Design
 welcome-design-floorp-fluerial-name = { -brand-short-name } Fluerial Design
 welcome-design-firefox-proton-name = Firefox Proton Design
 welcome-import-data = Browserdaten importieren
-welcome-import-data-description = Schnelle Einrichtung! Importieren Sie Ihre Lesezeichen, Passwörter und mehr aus Ihrem alten Browser. Firefox Nutzer können Daten von Firefox Sync importieren.
+welcome-import-data-description = Quick setup! Import your bookmarks, passwords, and more from your old browser. Firefox users can import data from Firefox Sync.
 welcome-import-data-button = Daten importieren...
 welcome-import-data-skip = Import überspringen
 welcome-select-button = Auswählen
@@ -806,17 +807,17 @@ welcomet-finish-setup = Beginne im Web zu surfen
 ############################################################# Custom Shortcutkey ###############################################################
 
 category-CSK = 
-    .label = Tastenkürzel
-    .tooltiptext = Tastenkürzel
-category-CSK-title = Tastenkürzel
+    .label = Keyboard Shortcuts
+    .tooltiptext = Keyboard Shortcuts
+category-CSK-title = Keyboard Shortcuts
 shortcutkey-customize = 
-    .title = Tastenkürzel
+    .title = Keyboard Shortcuts
 select-shortcutkeyAction = Aktion zum Auslösen auswählen
 shortcutkey-customize-key-list-placeholder = Ihr Tastaturkürzel wird hier angezeigt
-shortcut-key-label = Tastenkürzel
-start-input-button-listen = Aufnahme beginnen
-end-input-button-listen = Aufnahme stoppen
-shortcut-key-description = Klicken Sie auf "Aufnahme beginnen" und geben Sie Ihr neues Tastenkürzel für diese Aktion ein. Es können mehrere Tasten verwendet werden, allerdings funktionieren die Tastenkombinationen nicht, wenn sie bereits anderen Aktionen zugewiesen sind.
+shortcut-key-label = Keyboard Shortcut
+start-input-button-listen = Start Listening
+end-input-button-listen = Stop Listening
+shortcut-key-description = Click "Start Listening" and enter your new keyboard shortcut for this action. Multiple keys can be used; however, keyboard shortcuts will not work if already assigned to other actions.
 floorp-custom-actions-open-new-tab = Neuen Tab öffnen
     .label = Neuen Tab öffnen
 floorp-custom-actions-close-tab = Aktuellen Tab schließen
@@ -943,6 +944,8 @@ floorp-custom-actions-hide-sidebar = Hide sidebar
     .label = Hide sidebar
 floorp-custom-actions-show-sidebar = Seitenleiste umschalten
     .label = Seitenleiste umschalten
+floorp-custom-actions-toggle-sidebar = Toggle sidebar
+    .label = Toggle sidebar
 floorp-custom-actions-open-previous-workspace = Vorherigen Arbeitsbereich öffnen
     .label = Vorherigen Arbeitsbereich öffnen
 floorp-custom-actions-open-next-workspace = Nächsten Arbeitsbereich öffnen
@@ -1017,6 +1020,9 @@ floorp-customize-mode-unified-extensions-button =
     .label = Unified Extensions Button
 ######################################################################### Progressive Web Apps (SSB) ###############################################################
 
+ssb-page-action = 
+    .label = Install app
+    .tooltiptext = Install this site as an app
 ssb-page-action-title = Als App installieren
 ssb-app-open-button = 
     .label = In App öffnen
@@ -1037,3 +1043,12 @@ appmenuitem-contextmenu-open-app =
     .label = Diese App öffnen
 appmenuitem-contextmenu-uninstall-app = 
     .label = Diese App deinstallieren
+######################################################################### Download Notification ###############################################################
+floorp-started-download = Download started
+floorp-finished-download = Download finished
+######################################################################### Uodate notify ###############################################################
+
+floorp-notificationTitle-latest = { -brand-short-name } is up to date!
+floorp-notificationContent-latest = { -brand-short-name } is up to date. You are using the latest version of { -brand-short-name }.
+floorp-notificationTitle = New version of { -brand-short-name } is available!
+floorp-notificationContent = Click to download the latest version.

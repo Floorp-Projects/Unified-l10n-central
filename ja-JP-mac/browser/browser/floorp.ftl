@@ -399,7 +399,7 @@ about-Smoothfox = Edge のようなスムーズなスクロールを、お気に
 ## Workspaces
 
 workspaces-removed-title = 警告: ワークスペースは非推奨です！
-workspaces-removed-warning = "Simple Tab Groups" 拡張機能に移行してください。<label data-l10n-name="workspaces-removed-learning-more">詳細</label>
+workspaces-removed-warning = "Simple Tab Groups" 拡張機能に移行してください <label data-l10n-name="workspaces-removed-learning-more">詳しくはこちら</label>
 workspaces-removed-migration-tools-title = ワークスペース移行ツール
 workspaces-removed-migration-tools = ワークスペース移行ツールを使用すると、ワークスペースから Simple Tab Groups へスムーズに移行できます。
 workspaces-removed-migration-tools-label = バックアップファイルを作成
@@ -409,7 +409,7 @@ workspace-STG-backup-success = バックアップファイルが作成されま�
 workspace-STG-backup-success-message = デスクトップ上にバックアップファイルが作成されます。バックアップファイルを Simple Tab Groups で読み込んでください。
 workspaces-migation-menuitem-text = ワークスペースを使用中です！<label data-l10n-name="workspaces-removed-learning-more">詳細</label>
 workspaces-removed-learning-more = 詳細
-workspaces-removed-description = ワークスペースは { -brand-short-name } から削除されました。代わりにワークスペースのアドオンをお使いください。
+workspaces-removed-description = ワークスペースは { -brand-short-name } から削除されました。代わりに Simple Tab Groups 拡張機能をお使いください。
 floorp-workspaces-title = { -brand-short-name } ワークスペース
 workspaces-backup-discription = ワークスペースのバックアップと復元
 workspaces-restore-service-title = { -brand-short-name } ワークスペース復元サービス
@@ -746,28 +746,29 @@ floorp-show-all-downloads =
     .accesskey = S
     .tooltiptext = すべてのダウンロード履歴を表示
 ######################################################################### workspace ###############################################################
-
-workspace-prompt-title = { -brand-short-name } ワークスペース
-please-enter-workspace-name = 新規ワークスペースの名前を入力してください。
-please-enter-workspace-name-2 = 20 文字以内で入力してください。記号やスペースを含めることはできません。
-workspace-error = エラー:
-workspace-error-discription = この名前のワークスペースが存在するか、または名前が無効です。
-workspace-button = ワークスペース
-    .label = ワークスペース
-    .tooltiptext = ワークスペースを選択...
-workspace-default = デフォルト
-workspace-add = 
-    .label = 新規ワークスペース...
-workspace-context-menu-selected-tab = 
-    .label = 選択中のタブは移動できません
+workspaces-create-new-workspace-button = 
+    .label = 新規ワークスペースを作成...
+    .tooltiptext = 新規ワークスペースを作成
+workspaces-manage-workspaces-button = 
+    .label = ワークスペースを管理...
+    .tooltiptext = ワークスペースを管理
+rename-this-workspace = 
+    .label = ワークスペース名を変更
+    .accesskey = R
+delete-this-workspace = 
+    .label = ワークスペースを削除
+    .accesskey = D
+manage-this-workspaces = 
+    .label = ワークスペースを管理...
+    .accesskey = M
+workspace-default-name = 新規ワークスペース
 move-tab-another-workspace = 
     .label = 他のワークスペースに移動
-workspace-rename = 
-    .label = ワークスペース名を変更
-workspace-delete = 
-    .label = ワークスペースを削除
-manage-workspace = ワークスペースを管理
-    .label = ワークスペースを管理
+rename-workspace-prompt-title = ワークスペース名を変更
+rename-workspace-prompt-text = ワークスペース名を入力します。ほとんどの文字と記号が使用できます。
+workspaces-toolbar-button = ワークスペース
+    .label = ワークスペース
+    .tooltiptext = ワークスペースを選択...
 ######################################################################### menubar item ###############################################################
 
 sharemode-menuitem = 
@@ -778,7 +779,7 @@ sharemode-menuitem =
 welcome-login-to-firefox-account = Mozilla アカウントにログイン
 welcome-to-floorp = { -brand-short-name } へようこそ！
 welcome-discribe-floorp = { -brand-short-name } は、さまざまな環境に対応した、Firefox ベースの多機能ブラウザーです。
-welcome-start-setup = 準備はできましたか？
+welcome-start-setup = 準備はいい？
 welcome-skip-to-start-browsing = スキップしてブラウズを開始
 welcome-select-preferences-template = テンプレートを選択
 welcome-minimum-template = 梅
@@ -789,14 +790,14 @@ welcome-maximum-template = 松
 welcome-enable-most-of-features = 高度な機能と設定を有効にします。ギークなユーザーにおすすめ。
 welcome-go-next-setup = 続ける
 welcome-select-browser-design = ブラウザーのデザインを選択
-welcome-discribe-browser-design = サードパーティによる素晴らしいデザインから { -brand-short-name } のデザインを選ぶことができます。OS 固有のデザインも設定で利用可能です。
+welcome-discribe-browser-design = サードパーティによる素晴らしいデザインから { -brand-short-name } の外観を選択できます。OS 固有のデザインも設定で使用可能です。
 welcome-design-lepton-name = Lepton オリジナルデザイン
 welcome-design-photon-name = Lepton Photon デザイン
 welcome-design-ProtonFix-name = Lepton Proton Fix デザイン
 welcome-design-floorp-fluerial-name = { -brand-short-name } Fluerial デザイン
 welcome-design-firefox-proton-name = Firefox Proton デザイン
 welcome-import-data = ユーザーデータを読み込む
-welcome-import-data-description = 一瞬でセットアップ！以前のブラウザーからブックマークやパスワードなどを読み込めます。Firefox ユーザーは Firefox Sync からデータを読み込めます。
+welcome-import-data-description = 一瞬でセットアップ！以前のブラウザーからブックマークやパスワードなどを読み込めます。Firefox ユーザーは Firefox Sync からデータを同期できます。
 welcome-import-data-button = データを読み込む...
 welcome-import-data-skip = インポートをスキップ
 welcome-select-button = 選択
@@ -813,10 +814,10 @@ shortcutkey-customize =
     .title = カスタムショートカットキー
 select-shortcutkeyAction = アクションを選択
 shortcutkey-customize-key-list-placeholder = 入力されたキー
-shortcut-key-label = アクションに使用するキー
+shortcut-key-label = 使用するキー
 start-input-button-listen = 読み取り開始
 end-input-button-listen = 読み取り終了
-shortcut-key-description = "読み取り開始" をクリックして、ショートカットとして使用したいキーを押します。一部では複数のキーを使用することもできます。他のアクションと重複しないようにしてください。
+shortcut-key-description = "読み取り開始" をクリックして、ショートカットとして使用したいキーを入力します。複数のキーを使用することもできます。他のアクションと重複しないようにしてください。
 floorp-custom-actions-open-new-tab = 新規タブを開く
     .label = 新規タブを開く
 floorp-custom-actions-close-tab = 現在のタブを閉じる
@@ -943,6 +944,8 @@ floorp-custom-actions-hide-sidebar = サイドバーを隠す
     .label = サイドバーを隠す
 floorp-custom-actions-show-sidebar = サイドバーの表示を切り替える
     .label = サイドバーの表示を切り替える
+floorp-custom-actions-toggle-sidebar = サイドバーの表示を切り替える
+    .label = サイドバーの表示を切り替える
 floorp-custom-actions-open-previous-workspace = 前のワークスペースを開く
     .label = 前のワークスペースを開く
 floorp-custom-actions-open-next-workspace = 次のワークスペースを開く
@@ -1017,6 +1020,9 @@ floorp-customize-mode-unified-extensions-button =
     .label = 統合拡張機能ボタン
 ######################################################################### Progressive Web Apps (SSB) ###############################################################
 
+ssb-page-action = 
+    .label = アプリをインストール
+    .tooltiptext = このサイトをアプリとしてインストール
 ssb-page-action-title = アプリをインストール
 ssb-app-open-button = 
     .label = アプリで開く
@@ -1037,3 +1043,12 @@ appmenuitem-contextmenu-open-app =
     .label = このアプリを開く
 appmenuitem-contextmenu-uninstall-app = 
     .label = このアプリをアンインストール
+######################################################################### Download Notification ###############################################################
+floorp-started-download = ダウンロード開始
+floorp-finished-download = ダウンロード完了
+######################################################################### Uodate notify ###############################################################
+
+floorp-notificationTitle-latest = { -brand-short-name } は最新です！
+floorp-notificationContent-latest = 最新バージョンの { -brand-short-name } を使用しています。
+floorp-notificationTitle = { -brand-short-name } のアップデートが利用可能です！
+floorp-notificationContent = クリックしてダウンロードしましょう。

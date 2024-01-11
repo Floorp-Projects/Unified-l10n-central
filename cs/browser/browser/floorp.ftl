@@ -46,7 +46,7 @@ enable-tab-scroll-reverse =
 enable-tab-scroll-wrap = 
     .label = Zalomit posuvné panely na okraji
 enable-double-click-block = 
-    .label = Zavřít panely po dvojitém kliknutí
+    .label = Close tabs with a double click
 enable-show-pinned-tabs-title = 
     .label = Zobrazit název připnutých panelů
 tabbar-preference = Panel záložek
@@ -399,9 +399,9 @@ about-Smoothfox = Získejte hladký posun jako Edge ve svém oblíbeném prohlí
 ## Workspaces
 
 workspaces-removed-title = Warning: Workspaces are deprecated!
-workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extensions <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
+workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extension <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
 workspaces-removed-migration-tools-title = Workspaces Migration Tools
-workspaces-removed-migration-tools = Workspaces Migration Tools provides a way to migrate your Workspaces to Simple Tab Groups.
+workspaces-removed-migration-tools = Workspaces Migration Tools provide a way to migrate your Workspaces to Simple Tab Groups.
 workspaces-removed-migration-tools-label = Generate Simple Tab Groups Backup file
 workspaces-removed-migrate-to-STG-button = 
     .label = Generate...
@@ -409,11 +409,11 @@ workspace-STG-backup-success = Backup file created
 workspace-STG-backup-success-message = The backup file was created on the desktop. Import this file into Simple Tab Groups.
 workspaces-migation-menuitem-text = Workspaces are deprecated! <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
 workspaces-removed-learning-more = Learn more
-workspaces-removed-description = Workspaces has been removed from { -brand-short-name }. Please use the Workspaces add-on instead.
+workspaces-removed-description = Workspaces have been removed from { -brand-short-name }. Please use the Simple Tab Groups add-on instead.
 floorp-workspaces-title = { -brand-short-name } Pracovní prostory
 workspaces-backup-discription = Zálohovat a obnovit vaše pracovní prostory
 workspaces-restore-service-title = { -brand-short-name } Workspaces Backup Service
-workspaces-restore-warning = Warning! Running this operation will cause your current Workspaces to be overwritten. The browser will freeze for a few seconds and then proceed to restart.
+workspaces-restore-warning = Warning! Running this operation will overwrite your current Workspaces. The browser will freeze for a few seconds and then proceed to restart.
 floorp-workspace-settings-button = Nastavení pracovního prostoru...
 change-to-close-workspace-popup-option = 
     .label = Zavřít vyskakovací pracovní plochy při výběru pracovního prostoru
@@ -746,28 +746,29 @@ floorp-show-all-downloads =
     .accesskey = S
     .tooltiptext = Zobrazit všechna stahování
 ######################################################################### workspace ###############################################################
-
-workspace-prompt-title = { -brand-short-name } Workspace
-please-enter-workspace-name = Zadejte nový název pracovního prostoru.
-please-enter-workspace-name-2 = Název pracovního prostoru nemůže obsahovat symboly a mezery.
-workspace-error = Došlo k chybě:
-workspace-error-discription = Buď pracovní prostor s tímto jménem existuje, nebo je jméno neplatné.
-workspace-button = Pracovní prostory
-    .label = Pracovní prostory
-    .tooltiptext = Vyberte pracovní prostor...
-workspace-default = Výchozí
-workspace-add = 
-    .label = Nový pracovní prostor...
-workspace-context-menu-selected-tab = 
-    .label = Vybranou kartu nelze přesunout
+workspaces-create-new-workspace-button = 
+    .label = Create new Workspace...
+    .tooltiptext = Create a new Workspace
+workspaces-manage-workspaces-button = 
+    .label = Manage Workspaces...
+    .tooltiptext = Manage your Workspaces
+rename-this-workspace = 
+    .label = Rename Workspace
+    .accesskey = R
+delete-this-workspace = 
+    .label = Delete Workspace
+    .accesskey = D
+manage-this-workspaces = 
+    .label = Manage Workspaces...
+    .accesskey = M
+workspace-default-name = New Workspace
 move-tab-another-workspace = 
     .label = Přesunout do jiného pracovního prostoru
-workspace-rename = 
-    .label = Přejmenovat tento pracovní prostor
-workspace-delete = 
-    .label = Odstranit pracovní prostor
-manage-workspace = Spravovat tento pracovní prostor
-    .label = Spravovat tento pracovní prostor
+rename-workspace-prompt-title = Rename Workspace
+rename-workspace-prompt-text = Enter Workspace Name. Most characters and symbols can be used.
+workspaces-toolbar-button = Workspaces
+    .label = Workspaces
+    .tooltiptext = Select a Workspace...
 ######################################################################### menubar item ###############################################################
 
 sharemode-menuitem = 
@@ -777,26 +778,26 @@ sharemode-menuitem =
 
 welcome-login-to-firefox-account = Přihlaste se ke svému účtu Firefox
 welcome-to-floorp = Vítejte v { -brand-short-name }!
-welcome-discribe-floorp = { -brand-short-name } je flexibilní prohlížeč, který podporuje různá prostředí a je založen na Firefoxu.
-welcome-start-setup = Jste připraveni skočit?
+welcome-discribe-floorp = { -brand-short-name } is a feature-rich, flexible browser that supports various environments and is based on Firefox.
+welcome-start-setup = Ready to dive in?
 welcome-skip-to-start-browsing = Přeskočit na začátek prohlížení
-welcome-select-preferences-template = Vyberte šablonu
+welcome-select-preferences-template = Choose a template
 welcome-minimum-template = Základní
-welcome-enable-basic-features = Povolit základní funkce a nastavení pro jednoduchý zážitek.
+welcome-enable-basic-features = Enable basic features and settings for a simple experience.
 welcome-medium-template = Výchozí
-welcome-enable-some-features = Povolit další funkce a nastavení pro lepší zážitek.
+welcome-enable-some-features = Enable additional features and settings for a better experience.
 welcome-maximum-template = Rozšířené
-welcome-enable-most-of-features = Povolit pokročilé funkce a nastavení. Doporučeno pro zkušené uživatele.
+welcome-enable-most-of-features = Enable advanced features and settings. Recommended for experienced users.
 welcome-go-next-setup = Další
 welcome-select-browser-design = Vyberte vzhled prohlížeče
-welcome-discribe-browser-design = Můžete si vybrat jeden z nádherných návrhů { -brand-short-name } třetích stran. Konkrétní návrhy OS jsou také k dispozici v Nastavení.
+welcome-discribe-browser-design = You can choose one of the wonderful third-party { -brand-short-name } designs. OS-specific designs are also available in Preferences.
 welcome-design-lepton-name = Původní vzhled zkosení
 welcome-design-photon-name = Vzhled fotoaparátu
 welcome-design-ProtonFix-name = Lepton ProtonFix Design
 welcome-design-floorp-fluerial-name = { -brand-short-name } Fluerial Design
 welcome-design-firefox-proton-name = Firefox Proton design
 welcome-import-data = Importovat data vašeho prohlížeče
-welcome-import-data-description = Fast setup! Import your bookmarks, passwords, and more from your old browser. Firefox users can import data from Firefox Sync.
+welcome-import-data-description = Quick setup! Import your bookmarks, passwords, and more from your old browser. Firefox users can import data from Firefox Sync.
 welcome-import-data-button = Importovat data...
 welcome-import-data-skip = Přeskočit import
 welcome-select-button = Vybrat
@@ -806,17 +807,17 @@ welcomet-finish-setup = Začněte prohlížet web
 ############################################################# Custom Shortcutkey ###############################################################
 
 category-CSK = 
-    .label = Klávesové zkratky
-    .tooltiptext = Klávesové zkratky
-category-CSK-title = Klávesové zkratky
+    .label = Keyboard Shortcuts
+    .tooltiptext = Keyboard Shortcuts
+category-CSK-title = Keyboard Shortcuts
 shortcutkey-customize = 
-    .title = Klávesové zkratky
+    .title = Keyboard Shortcuts
 select-shortcutkeyAction = Vyberte akci ke spuštění
 shortcutkey-customize-key-list-placeholder = Zde se zobrazí klávesová zkratka
-shortcut-key-label = Klávesová zkratka
-start-input-button-listen = Začít naslouchat
-end-input-button-listen = Zastavit poslech
-shortcut-key-description = Klepněte na tlačítko "Začít poslouchat" a zadejte novou klávesovou zkratku pro tuto akci. Lze použít více klíčů, ale klávesové zkratky nebudou fungovat, pokud jsou již přiřazeny k jiným akcím.
+shortcut-key-label = Keyboard Shortcut
+start-input-button-listen = Start Listening
+end-input-button-listen = Stop Listening
+shortcut-key-description = Click "Start Listening" and enter your new keyboard shortcut for this action. Multiple keys can be used; however, keyboard shortcuts will not work if already assigned to other actions.
 floorp-custom-actions-open-new-tab = Otevřít novou kartu
     .label = Otevřít novou kartu
 floorp-custom-actions-close-tab = Zavřít aktuální panel
@@ -943,6 +944,8 @@ floorp-custom-actions-hide-sidebar = Hide sidebar
     .label = Hide sidebar
 floorp-custom-actions-show-sidebar = Přepnout postranní panel
     .label = Přepnout postranní panel
+floorp-custom-actions-toggle-sidebar = Toggle sidebar
+    .label = Toggle sidebar
 floorp-custom-actions-open-previous-workspace = Otevřít předchozí pracovní prostor
     .label = Otevřít předchozí pracovní prostor
 floorp-custom-actions-open-next-workspace = Otevřít další pracovní prostor
@@ -1017,6 +1020,9 @@ floorp-customize-mode-unified-extensions-button =
     .label = Tlačítko sjednocené rozšíření
 ######################################################################### Progressive Web Apps (SSB) ###############################################################
 
+ssb-page-action = 
+    .label = Install app
+    .tooltiptext = Install this site as an app
 ssb-page-action-title = Install app
 ssb-app-open-button = 
     .label = Open In App
@@ -1037,3 +1043,12 @@ appmenuitem-contextmenu-open-app =
     .label = Open this app
 appmenuitem-contextmenu-uninstall-app = 
     .label = Uninstall this app
+######################################################################### Download Notification ###############################################################
+floorp-started-download = Download started
+floorp-finished-download = Download finished
+######################################################################### Uodate notify ###############################################################
+
+floorp-notificationTitle-latest = { -brand-short-name } is up to date!
+floorp-notificationContent-latest = { -brand-short-name } is up to date. You are using the latest version of { -brand-short-name }.
+floorp-notificationTitle = New version of { -brand-short-name } is available!
+floorp-notificationContent = Click to download the latest version.

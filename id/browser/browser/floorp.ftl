@@ -46,7 +46,7 @@ enable-tab-scroll-reverse =
 enable-tab-scroll-wrap = 
     .label = Membungkus tab gulir di bagian tepi
 enable-double-click-block = 
-    .label = Menutup tab saat mengklik dua kali tab tersebut
+    .label = Close tabs with a double click
 enable-show-pinned-tabs-title = 
     .label = Menampilkan judul tab yang disematkan
 tabbar-preference = Bilah Tab
@@ -399,9 +399,9 @@ about-Smoothfox = Dapatkan pengguliran yang mulus seperti Edge di browser favori
 ## Workspaces
 
 workspaces-removed-title = Warning: Workspaces are deprecated!
-workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extensions <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
+workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extension <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
 workspaces-removed-migration-tools-title = Workspaces Migration Tools
-workspaces-removed-migration-tools = Workspaces Migration Tools provides a way to migrate your Workspaces to Simple Tab Groups.
+workspaces-removed-migration-tools = Workspaces Migration Tools provide a way to migrate your Workspaces to Simple Tab Groups.
 workspaces-removed-migration-tools-label = Generate Simple Tab Groups Backup file
 workspaces-removed-migrate-to-STG-button = 
     .label = Generate...
@@ -409,11 +409,11 @@ workspace-STG-backup-success = Backup file created
 workspace-STG-backup-success-message = The backup file was created on the desktop. Import this file into Simple Tab Groups.
 workspaces-migation-menuitem-text = Workspaces are deprecated! <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
 workspaces-removed-learning-more = Learn more
-workspaces-removed-description = Workspaces has been removed from { -brand-short-name }. Please use the Workspaces add-on instead.
+workspaces-removed-description = Workspaces have been removed from { -brand-short-name }. Please use the Simple Tab Groups add-on instead.
 floorp-workspaces-title = { -brand-short-name } Ruang kerja
 workspaces-backup-discription = Mencadangkan dan memulihkan Ruang Kerja Anda
 workspaces-restore-service-title = { -brand-short-name } Workspaces Backup Service
-workspaces-restore-warning = Warning! Running this operation will cause your current Workspaces to be overwritten. The browser will freeze for a few seconds and then proceed to restart.
+workspaces-restore-warning = Warning! Running this operation will overwrite your current Workspaces. The browser will freeze for a few seconds and then proceed to restart.
 floorp-workspace-settings-button = Pengaturan Ruang Kerja...
 change-to-close-workspace-popup-option = 
     .label = Popup tutup ruang kerja muncul saat memilih Ruang Kerja
@@ -746,28 +746,29 @@ floorp-show-all-downloads =
     .accesskey = S
     .tooltiptext = Tampilkan semua unduhan
 ######################################################################### workspace ###############################################################
-
-workspace-prompt-title = { -brand-short-name } Workspace
-please-enter-workspace-name = Masukkan nama baru Ruang Kerja.
-please-enter-workspace-name-2 = Nama Ruang Kerja tidak boleh mengandung simbol dan spasi.
-workspace-error = Terjadi kesalahan:
-workspace-error-discription = Ruang Kerja dengan nama ini ada atau namanya tidak valid.
-workspace-button = Ruang kerja
-    .label = Ruang kerja
-    .tooltiptext = Pilih Ruang Kerja...
-workspace-default = Default
-workspace-add = 
-    .label = Ruang Kerja Baru...
-workspace-context-menu-selected-tab = 
-    .label = Tab yang dipilih tidak dapat dipindahkan
+workspaces-create-new-workspace-button = 
+    .label = Create new Workspace...
+    .tooltiptext = Create a new Workspace
+workspaces-manage-workspaces-button = 
+    .label = Manage Workspaces...
+    .tooltiptext = Manage your Workspaces
+rename-this-workspace = 
+    .label = Rename Workspace
+    .accesskey = R
+delete-this-workspace = 
+    .label = Delete Workspace
+    .accesskey = D
+manage-this-workspaces = 
+    .label = Manage Workspaces...
+    .accesskey = M
+workspace-default-name = New Workspace
 move-tab-another-workspace = 
     .label = Pindah ke Ruang Kerja lain
-workspace-rename = 
-    .label = Ubah nama Ruang Kerja ini
-workspace-delete = 
-    .label = Menghapus Ruang Kerja
-manage-workspace = Kelola Ruang Kerja ini
-    .label = Kelola ruang kerja ini
+rename-workspace-prompt-title = Rename Workspace
+rename-workspace-prompt-text = Enter Workspace Name. Most characters and symbols can be used.
+workspaces-toolbar-button = Workspaces
+    .label = Workspaces
+    .tooltiptext = Select a Workspace...
 ######################################################################### menubar item ###############################################################
 
 sharemode-menuitem = 
@@ -777,26 +778,26 @@ sharemode-menuitem =
 
 welcome-login-to-firefox-account = Masuk ke Akun Firefox Anda
 welcome-to-floorp = Selamat datang di { -brand-short-name }!
-welcome-discribe-floorp = { -brand-short-name } adalah peramban fleksibel kaya fitur yang mendukung berbagai lingkungan dan berbasis Firefox.
-welcome-start-setup = Siap untuk terjun?
+welcome-discribe-floorp = { -brand-short-name } is a feature-rich, flexible browser that supports various environments and is based on Firefox.
+welcome-start-setup = Ready to dive in?
 welcome-skip-to-start-browsing = Lewati untuk Mulai Menjelajah
-welcome-select-preferences-template = Pilih templat
+welcome-select-preferences-template = Choose a template
 welcome-minimum-template = Dasar
-welcome-enable-basic-features = Aktifkan fitur & pengaturan dasar untuk pengalaman yang sederhana.
+welcome-enable-basic-features = Enable basic features and settings for a simple experience.
 welcome-medium-template = Default
-welcome-enable-some-features = Aktifkan fitur & pengaturan tambahan untuk pengalaman yang lebih baik.
+welcome-enable-some-features = Enable additional features and settings for a better experience.
 welcome-maximum-template = Lanjutan
-welcome-enable-most-of-features = Mengaktifkan fitur & pengaturan lanjutan. Direkomendasikan untuk pengguna berpengalaman.
+welcome-enable-most-of-features = Enable advanced features and settings. Recommended for experienced users.
 welcome-go-next-setup = Berikutnya
 welcome-select-browser-design = Memilih Desain Browser
-welcome-discribe-browser-design = Anda dapat memilih salah satu dari desain pihak ketiga yang luar biasa dari { -brand-short-name } . Desain khusus OS juga tersedia di Preferensi.
+welcome-discribe-browser-design = You can choose one of the wonderful third-party { -brand-short-name } designs. OS-specific designs are also available in Preferences.
 welcome-design-lepton-name = Desain Asli Lepton
 welcome-design-photon-name = Desain Foton Lepton
 welcome-design-ProtonFix-name = Desain Lepton ProtonFix
 welcome-design-floorp-fluerial-name = { -brand-short-name } Fluerial Design
 welcome-design-firefox-proton-name = Desain Firefox Proton
 welcome-import-data = Impor Data Browser Anda
-welcome-import-data-description = Fast setup! Import your bookmarks, passwords, and more from your old browser. Firefox users can import data from Firefox Sync.
+welcome-import-data-description = Quick setup! Import your bookmarks, passwords, and more from your old browser. Firefox users can import data from Firefox Sync.
 welcome-import-data-button = Mengimpor Data...
 welcome-import-data-skip = Lewati Impor
 welcome-select-button = Pilih
@@ -806,17 +807,17 @@ welcomet-finish-setup = Mulai Menjelajahi Web
 ############################################################# Custom Shortcutkey ###############################################################
 
 category-CSK = 
-    .label = Pintasan papan ketik
-    .tooltiptext = Pintasan papan ketik
-category-CSK-title = Pintasan papan ketik
+    .label = Keyboard Shortcuts
+    .tooltiptext = Keyboard Shortcuts
+category-CSK-title = Keyboard Shortcuts
 shortcutkey-customize = 
-    .title = Pintasan papan ketik
+    .title = Keyboard Shortcuts
 select-shortcutkeyAction = Memilih tindakan yang akan dipicu
 shortcutkey-customize-key-list-placeholder = Pintasan keyboard Anda akan muncul di sini
-shortcut-key-label = Pintasan keyboard
-start-input-button-listen = Mulai mendengarkan
-end-input-button-listen = Berhenti mendengarkan
-shortcut-key-description = Klik "Mulai mendengarkan" dan masukkan pintasan papan ketik baru untuk tindakan ini. Beberapa tombol dapat digunakan, namun pintasan keyboard tidak akan berfungsi jika sudah ditetapkan untuk tindakan lain.
+shortcut-key-label = Keyboard Shortcut
+start-input-button-listen = Start Listening
+end-input-button-listen = Stop Listening
+shortcut-key-description = Click "Start Listening" and enter your new keyboard shortcut for this action. Multiple keys can be used; however, keyboard shortcuts will not work if already assigned to other actions.
 floorp-custom-actions-open-new-tab = Buka tab baru
     .label = Buka tab baru
 floorp-custom-actions-close-tab = Menutup tab saat ini
@@ -943,6 +944,8 @@ floorp-custom-actions-hide-sidebar = Sembunyikan bilah sisi
     .label = Sembunyikan bilah sisi
 floorp-custom-actions-show-sidebar = Alihkan bilah sisi
     .label = Alihkan bilah sisi
+floorp-custom-actions-toggle-sidebar = Toggle sidebar
+    .label = Toggle sidebar
 floorp-custom-actions-open-previous-workspace = Buka ruang kerja sebelumnya
     .label = Buka ruang kerja sebelumnya
 floorp-custom-actions-open-next-workspace = Buka ruang kerja berikutnya
@@ -1017,6 +1020,9 @@ floorp-customize-mode-unified-extensions-button =
     .label = Tombol Ekstensi Terpadu
 ######################################################################### Progressive Web Apps (SSB) ###############################################################
 
+ssb-page-action = 
+    .label = Install app
+    .tooltiptext = Install this site as an app
 ssb-page-action-title = Install app
 ssb-app-open-button = 
     .label = Open In App
@@ -1037,3 +1043,12 @@ appmenuitem-contextmenu-open-app =
     .label = Open this app
 appmenuitem-contextmenu-uninstall-app = 
     .label = Uninstall this app
+######################################################################### Download Notification ###############################################################
+floorp-started-download = Download started
+floorp-finished-download = Download finished
+######################################################################### Uodate notify ###############################################################
+
+floorp-notificationTitle-latest = { -brand-short-name } is up to date!
+floorp-notificationContent-latest = { -brand-short-name } is up to date. You are using the latest version of { -brand-short-name }.
+floorp-notificationTitle = New version of { -brand-short-name } is available!
+floorp-notificationContent = Click to download the latest version.

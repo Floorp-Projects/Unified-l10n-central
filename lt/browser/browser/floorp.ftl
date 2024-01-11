@@ -46,7 +46,7 @@ enable-tab-scroll-reverse =
 enable-tab-scroll-wrap = 
     .label = Apvynioti slenkančius skirtukus prie krašto
 enable-double-click-block = 
-    .label = Uždaryti skirtukus juos dukart spustelėjus
+    .label = Close tabs with a double click
 enable-show-pinned-tabs-title = 
     .label = Rodyti prisegtų skirtukų pavadinimus
 tabbar-preference = Skirtukų juosta
@@ -399,9 +399,9 @@ about-Smoothfox = Gauti švelnu slinkima, kaip „Edge“, tavo mėgstamausiame 
 ## Workspaces
 
 workspaces-removed-title = Warning: Workspaces are deprecated!
-workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extensions <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
+workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extension <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
 workspaces-removed-migration-tools-title = Workspaces Migration Tools
-workspaces-removed-migration-tools = Workspaces Migration Tools provides a way to migrate your Workspaces to Simple Tab Groups.
+workspaces-removed-migration-tools = Workspaces Migration Tools provide a way to migrate your Workspaces to Simple Tab Groups.
 workspaces-removed-migration-tools-label = Generate Simple Tab Groups Backup file
 workspaces-removed-migrate-to-STG-button = 
     .label = Generate...
@@ -409,11 +409,11 @@ workspace-STG-backup-success = Backup file created
 workspace-STG-backup-success-message = The backup file was created on the desktop. Import this file into Simple Tab Groups.
 workspaces-migation-menuitem-text = Workspaces are deprecated! <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
 workspaces-removed-learning-more = Learn more
-workspaces-removed-description = Workspaces has been removed from { -brand-short-name }. Please use the Workspaces add-on instead.
+workspaces-removed-description = Workspaces have been removed from { -brand-short-name }. Please use the Simple Tab Groups add-on instead.
 floorp-workspaces-title = „{ -brand-short-name }“ Aplinkos
 workspaces-backup-discription = Atsarginių kopijų kūrimas ir aplinkų atkūrimas
 workspaces-restore-service-title = „{ -brand-short-name }“ Aplinkų atsarginių kopjjų kurimo paslauga
-workspaces-restore-warning = Įspėjimas! Atliekant šią operaciją bus perrašytos esamos aplinkos. Naršyklė kelioms sekundėms užstrigs ir bus paleista iš naujo.
+workspaces-restore-warning = Warning! Running this operation will overwrite your current Workspaces. The browser will freeze for a few seconds and then proceed to restart.
 floorp-workspace-settings-button = Aplinkos nustatymai...
 change-to-close-workspace-popup-option = 
     .label = Uždaryti aplinkos iššokantį langą pasirinkus aplinką
@@ -746,28 +746,29 @@ floorp-show-all-downloads =
     .accesskey = S
     .tooltiptext = Rodyti visus atsisiuntimus
 ######################################################################### workspace ###############################################################
-
-workspace-prompt-title = „{ -brand-short-name }“ aplinka
-please-enter-workspace-name = Įveskite naują aplinkos pavadinimą.
-please-enter-workspace-name-2 = Aplinkos pavadinime negali būti simbolių ir tarpų.
-workspace-error = Įvyko klaida:
-workspace-error-discription = Arba egzistuoja aplinka su šiuo pavadinimu, arba pavadinimas negalioja.
-workspace-button = Aplinkos
-    .label = Aplinkos
-    .tooltiptext = Pasirinkite aplinka...
-workspace-default = Numatytas
-workspace-add = 
-    .label = Nauja aplinka...
-workspace-context-menu-selected-tab = 
-    .label = Negalima perkelti pasirinktą skirtuką
+workspaces-create-new-workspace-button = 
+    .label = Create new Workspace...
+    .tooltiptext = Create a new Workspace
+workspaces-manage-workspaces-button = 
+    .label = Manage Workspaces...
+    .tooltiptext = Manage your Workspaces
+rename-this-workspace = 
+    .label = Rename Workspace
+    .accesskey = R
+delete-this-workspace = 
+    .label = Delete Workspace
+    .accesskey = D
+manage-this-workspaces = 
+    .label = Manage Workspaces...
+    .accesskey = M
+workspace-default-name = New Workspace
 move-tab-another-workspace = 
     .label = Perkelti į kitą aplinką
-workspace-rename = 
-    .label = Pervadinti šią aplinką
-workspace-delete = 
-    .label = Ištrinti aplinką
-manage-workspace = Tvarkyti šią aplinką
-    .label = Tvarkyti šią aplinką
+rename-workspace-prompt-title = Rename Workspace
+rename-workspace-prompt-text = Enter Workspace Name. Most characters and symbols can be used.
+workspaces-toolbar-button = Workspaces
+    .label = Workspaces
+    .tooltiptext = Select a Workspace...
 ######################################################################### menubar item ###############################################################
 
 sharemode-menuitem = 
@@ -777,26 +778,26 @@ sharemode-menuitem =
 
 welcome-login-to-firefox-account = Prisijunkite prie „Firefox“ paskyros
 welcome-to-floorp = Sveiki atvykę į „{ -brand-short-name }“!
-welcome-discribe-floorp = „{ -brand-short-name }“ yra daug funkcijų turinti lanksti naršyklė, palaikanti įvairias aplinkas ir sukurta „Firefox“ pagrindu.
-welcome-start-setup = Ar esate pasiruošę dalyvauti?
+welcome-discribe-floorp = { -brand-short-name } is a feature-rich, flexible browser that supports various environments and is based on Firefox.
+welcome-start-setup = Ready to dive in?
 welcome-skip-to-start-browsing = Pradėkite naršyti
-welcome-select-preferences-template = Pasirinkite šabloną
+welcome-select-preferences-template = Choose a template
 welcome-minimum-template = Pagrindinis
-welcome-enable-basic-features = Įgalinkite pagrindines funkcijas ir nustatymus, kad patirtis būtų paprasta.
+welcome-enable-basic-features = Enable basic features and settings for a simple experience.
 welcome-medium-template = Numatytoji
-welcome-enable-some-features = Įgalinkite papildomas funkcijas ir nustatymus, kad patirtis būtų geresnė.
+welcome-enable-some-features = Enable additional features and settings for a better experience.
 welcome-maximum-template = Išplėstinė
-welcome-enable-most-of-features = Įgalinkite išplėstines funkcijas ir nustatymus. Rekomenduojama patyrusiems naudotojams.
+welcome-enable-most-of-features = Enable advanced features and settings. Recommended for experienced users.
 welcome-go-next-setup = Kitas
 welcome-select-browser-design = Pasirinkite naršyklės dizainą
-welcome-discribe-browser-design = Galite rinktis vieną iš nuostabių „{ -brand-short-name }“ dizainų. Nustatymuose taip pat galima pasirinkti konkrečiai operacinei sistemai būdingą dizainą.
+welcome-discribe-browser-design = You can choose one of the wonderful third-party { -brand-short-name } designs. OS-specific designs are also available in Preferences.
 welcome-design-lepton-name = „Lepton“ originalus dizainas
 welcome-design-photon-name = „Lepton Photon“ dizainas
 welcome-design-ProtonFix-name = „Lepton ProtonFix“ dizainas
 welcome-design-floorp-fluerial-name = „{ -brand-short-name }“ Fluoro dizainas
 welcome-design-firefox-proton-name = „Firefox Proton“ dizainas
 welcome-import-data = Importuokite naršyklės duomenis
-welcome-import-data-description = Greita sąranka! Importuokite žymes, slaptažodžius ir kt. iš senosios naršyklės. „Firefox“ naudotojai gali importuoti duomenis iš „Firefox Sync“.
+welcome-import-data-description = Quick setup! Import your bookmarks, passwords, and more from your old browser. Firefox users can import data from Firefox Sync.
 welcome-import-data-button = Importuoti duomenis...
 welcome-import-data-skip = Praleisti importą
 welcome-select-button = Pasirinkite
@@ -806,17 +807,17 @@ welcomet-finish-setup = Pradėkite naršyti internete
 ############################################################# Custom Shortcutkey ###############################################################
 
 category-CSK = 
-    .label = Spartieji klaviatūros klavišai
-    .tooltiptext = Spartieji klaviatūros klavišai
-category-CSK-title = Spartieji klaviatūros klavišai
+    .label = Keyboard Shortcuts
+    .tooltiptext = Keyboard Shortcuts
+category-CSK-title = Keyboard Shortcuts
 shortcutkey-customize = 
-    .title = Spartieji klaviatūros klavišai
+    .title = Keyboard Shortcuts
 select-shortcutkeyAction = Pasirinkite veiksmą, kurį norite paleisti
 shortcutkey-customize-key-list-placeholder = Jūsų klaviatūros sparčiosios klaviatūros bus rodomos čia
-shortcut-key-label = Spartusis klavišo klavišas
-start-input-button-listen = Pradėkite klausytis
-end-input-button-listen = Nustokite klausytis
-shortcut-key-description = Spustelėkite „Pradėti klausytis“ ir įveskite naują šio veiksmo klaviatūros spartųjį klavišą. Galima naudoti kelis klavišus, tačiau klaviatūros spartieji klavišai neveiks, jei jie jau priskirti kitiems veiksmams.
+shortcut-key-label = Keyboard Shortcut
+start-input-button-listen = Start Listening
+end-input-button-listen = Stop Listening
+shortcut-key-description = Click "Start Listening" and enter your new keyboard shortcut for this action. Multiple keys can be used; however, keyboard shortcuts will not work if already assigned to other actions.
 floorp-custom-actions-open-new-tab = Atidaryti naują skirtuką
     .label = Atidaryti naują skirtuką
 floorp-custom-actions-close-tab = Uždaryti dabartinį skirtuką
@@ -943,6 +944,8 @@ floorp-custom-actions-hide-sidebar = Paslėpti šoninę juostą
     .label = Paslėpti šoninę juostą
 floorp-custom-actions-show-sidebar = Perjungti šoninę juostą
     .label = Perjungti šoninę juostą
+floorp-custom-actions-toggle-sidebar = Toggle sidebar
+    .label = Toggle sidebar
 floorp-custom-actions-open-previous-workspace = Atidaryti ankstesnę aplinką
     .label = Atidaryti ankstesnę aplinką
 floorp-custom-actions-open-next-workspace = Atidaryti kitą aplinką
@@ -1017,6 +1020,9 @@ floorp-customize-mode-unified-extensions-button =
     .label = Suvienodintų plėtinių mygtukas
 ######################################################################### Progressive Web Apps (SSB) ###############################################################
 
+ssb-page-action = 
+    .label = Install app
+    .tooltiptext = Install this site as an app
 ssb-page-action-title = Įdiegti programą
 ssb-app-open-button = 
     .label = Atidaryti programoje
@@ -1037,3 +1043,12 @@ appmenuitem-contextmenu-open-app =
     .label = Atidaryti šią programą
 appmenuitem-contextmenu-uninstall-app = 
     .label = Pašalinti šią programą
+######################################################################### Download Notification ###############################################################
+floorp-started-download = Download started
+floorp-finished-download = Download finished
+######################################################################### Uodate notify ###############################################################
+
+floorp-notificationTitle-latest = { -brand-short-name } is up to date!
+floorp-notificationContent-latest = { -brand-short-name } is up to date. You are using the latest version of { -brand-short-name }.
+floorp-notificationTitle = New version of { -brand-short-name } is available!
+floorp-notificationContent = Click to download the latest version.
