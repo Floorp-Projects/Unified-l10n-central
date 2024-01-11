@@ -36,9 +36,6 @@ tab-sleep-settings-dialog-title =
 tab-sleep-settings-dialog-excludehosts-label = Udeluk værter
 tab-sleep-settings-dialog-excludehosts-label-2 = Angiv en vært pr. linje.
 tab-sleep-tab-context-menu-excludetab = Keep tab awake
-enable-floorp-workspace = 
-    .label = Enable Workspaces
-workspace-warning = Workspaces cannot be used with Tab Group add-ons. If you want to use Tab Group add-ons, please disable Workspaces and restart { -brand-short-name }.
 enable-tab-scroll-change = 
     .label = Skift faneblade ved at rulle med musen
 enable-tab-scroll-reverse = 
@@ -395,48 +392,6 @@ Peskyfox-label = Yokoffing Peskyfox
 about-Peskyfox = Unclutter den nye fane side. Fjern Pocket. Gendan kompakt tilstand som en mulighed. Stop webside meddelelser, pop-ups, og andre irritationer.
 Smoothfox-label = Yokoffing Smoothfox
 about-Smoothfox = Få kant-lignende glat rulning på din foretrukne browser - eller vælg noget mere din stil.
-
-## Workspaces
-
-workspaces-removed-title = Warning: Workspaces are deprecated!
-workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extension <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
-workspaces-removed-migration-tools-title = Workspaces Migration Tools
-workspaces-removed-migration-tools = Workspaces Migration Tools provide a way to migrate your Workspaces to Simple Tab Groups.
-workspaces-removed-migration-tools-label = Generate Simple Tab Groups Backup file
-workspaces-removed-migrate-to-STG-button = 
-    .label = Generate...
-workspace-STG-backup-success = Backup file created
-workspace-STG-backup-success-message = The backup file was created on the desktop. Import this file into Simple Tab Groups.
-workspaces-migation-menuitem-text = Workspaces are deprecated! <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
-workspaces-removed-learning-more = Learn more
-workspaces-removed-description = Workspaces have been removed from { -brand-short-name }. Please use the Simple Tab Groups add-on instead.
-floorp-workspaces-title = { -brand-short-name } Arbejdsrum
-workspaces-backup-discription = Sikkerhedskopiér og gendan dine arbejdsområder
-workspaces-restore-service-title = { -brand-short-name } Workspaces Backup Service
-workspaces-restore-warning = Warning! Running this operation will overwrite your current Workspaces. The browser will freeze for a few seconds and then proceed to restart.
-floorp-workspace-settings-button = Indstillinger For Arbejdsrum...
-change-to-close-workspace-popup-option = 
-    .label = Luk arbejdsområder popup når du vælger et arbejdsområde
-pinned-tabs-exclude-workspace-option = 
-    .label = Udeluk fastgjorte faneblade fra arbejdsområder
-workspaces-reset-title = Nulstil Arbejdsrum
-workspaces-reset-label = 
-    .label = Nulstil Arbejdsrum
-workspaces-reset-description = Hvis en sikkerhedskopi ikke virker, og arbejdsområdet ikke starter, skal du nulstille arbejdsområdet.
-workspaces-reset-button = Nulstil Arbejdsrum
-workspaces-reset-service-title = { -brand-short-name } Workspaces
-workspaces-reset-warning = Advarsel! At køre denne handling vil slette alle dine arbejdsområder og genstarte browseren.
-manage-workspace-on-bms-option = 
-    .label = Administrer arbejdsområde på Browser Manager Sidebar
-show-workspace-name-option = 
-    .label = Vis arbejdsrumsnavn på fanebladslinjens arbejdsområde-knap
-change-workspace-with-default-key-option = 
-    .label = Skift arbejdsområde med Shift og ↑ og ↓ nøgler.
-workspaces-manage-title = Administrer Arbejdsrum
-workspaces-manage-description = Manage your Workspaces. Change your Workspace icons.
-workspaces-manage-label = 
-    .label = Administrer Arbejdsrum
-workspaces-manage-button = Åbn Arbejdsrumshåndtering...
 select-workspace = Vælg Arbejdsområde
 workspace-select-icon = Vælg Arbejdsområde-ikon
     .label = Vælg Arbejdsområde-ikon
@@ -746,6 +701,7 @@ floorp-show-all-downloads =
     .accesskey = S
     .tooltiptext = Vis alle downloads
 ######################################################################### workspace ###############################################################
+
 workspaces-create-new-workspace-button = 
     .label = Create new Workspace...
     .tooltiptext = Create a new Workspace
@@ -769,6 +725,21 @@ rename-workspace-prompt-text = Enter Workspace Name. Most characters and symbols
 workspaces-toolbar-button = Workspaces
     .label = Workspaces
     .tooltiptext = Select a Workspace...
+
+## Preferences
+
+category-workspaces = Workspaces
+    .label = Workspaces
+    .tooltiptext = Workspaces
+pane-workspaces-title = Workspaces
+floorp-workspaces-title = { -brand-short-name } Arbejdsrum
+floorp-workspace-settings-button = Indstillinger For Arbejdsrum...
+change-to-close-workspace-popup-option = 
+    .label = Luk arbejdsområder popup når du vælger et arbejdsområde
+manage-workspace-on-bms-option = 
+    .label = Administrer arbejdsområde på Browser Manager Sidebar
+show-workspace-name-option = 
+    .label = Vis arbejdsrumsnavn på fanebladslinjens arbejdsområde-knap
 ######################################################################### menubar item ###############################################################
 
 sharemode-menuitem = 
@@ -1046,7 +1017,7 @@ appmenuitem-contextmenu-uninstall-app =
 ######################################################################### Download Notification ###############################################################
 floorp-started-download = Download started
 floorp-finished-download = Download finished
-######################################################################### Uodate notify ###############################################################
+######################################################################### Update notify ###############################################################
 
 floorp-notificationTitle-latest = { -brand-short-name } is up to date!
 floorp-notificationContent-latest = { -brand-short-name } is up to date. You are using the latest version of { -brand-short-name }.
