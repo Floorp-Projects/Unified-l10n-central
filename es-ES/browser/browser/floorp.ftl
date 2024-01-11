@@ -36,9 +36,6 @@ tab-sleep-settings-dialog-title =
 tab-sleep-settings-dialog-excludehosts-label = Excluir hosts
 tab-sleep-settings-dialog-excludehosts-label-2 = Introduzca un host por línea.
 tab-sleep-tab-context-menu-excludetab = Mantener pestaña en actividad
-enable-floorp-workspace = 
-    .label = Enable Workspaces
-workspace-warning = No es posible utilizar Espacios de trabajo con complementos para Grupos de pestañas. Si quiere utilizar complementos para Grupos de pestañas, desactive Espacios de trabajo y reinicie { -brand-short-name }.
 enable-tab-scroll-change = 
     .label = Cambia las pestañas desplazándose con el ratón
 enable-tab-scroll-reverse = 
@@ -395,48 +392,6 @@ Peskyfox-label = Yokoffing Peskyfox
 about-Peskyfox = Desagüe la nueva página de pestañas. Remover Pocket. Restaurar modo compacto como una opción. Detener notificaciones de páginas web, ventanas emergentes y otras molestias.
 Smoothfox-label = Yokoffing Smoothfox
 about-Smoothfox = Obtén un desplazamiento suave al estilo Edge en tu navegador favorito, o elige algo más de tu estilo.
-
-## Workspaces
-
-workspaces-removed-title = Warning: Workspaces are deprecated!
-workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extension <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
-workspaces-removed-migration-tools-title = Workspaces Migration Tools
-workspaces-removed-migration-tools = Workspaces Migration Tools provide a way to migrate your Workspaces to Simple Tab Groups.
-workspaces-removed-migration-tools-label = Generate Simple Tab Groups Backup file
-workspaces-removed-migrate-to-STG-button = 
-    .label = Generate...
-workspace-STG-backup-success = Backup file created
-workspace-STG-backup-success-message = The backup file was created on the desktop. Import this file into Simple Tab Groups.
-workspaces-migation-menuitem-text = Workspaces are deprecated! <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
-workspaces-removed-learning-more = Learn more
-workspaces-removed-description = Workspaces have been removed from { -brand-short-name }. Please use the Simple Tab Groups add-on instead.
-floorp-workspaces-title = Espacio de trabajo { -brand-short-name }
-workspaces-backup-discription = Copia de respaldo y restauración de sus espacios de trabajo
-workspaces-restore-service-title = Servicio de copia de respaldo de espacios de trabajo de { -brand-short-name }
-workspaces-restore-warning = Warning! Running this operation will overwrite your current Workspaces. The browser will freeze for a few seconds and then proceed to restart.
-floorp-workspace-settings-button = Configuración de espacio de trabajo...
-change-to-close-workspace-popup-option = 
-    .label = Cerrar ventana emergente de áreas de trabajo al seleccionar un espacio de trabajo
-pinned-tabs-exclude-workspace-option = 
-    .label = Excluir pestañas ancladas de espacios de trabajo
-workspaces-reset-title = Restablecer espacios de trabajo
-workspaces-reset-label = 
-    .label = Restablecer espacios de trabajo
-workspaces-reset-description = Si una copia de respaldo no funciona y el espacio de trabajo no se inicia, restablezca el espacio de trabajo.
-workspaces-reset-button = Restablecer espacios de trabajo
-workspaces-reset-service-title = Espacios de trabajo de { -brand-short-name }
-workspaces-reset-warning = ¡Atención! Ejecutar esta operación eliminará todos sus espacios de trabajo y reiniciará el navegador.
-manage-workspace-on-bms-option = 
-    .label = Gestionar espacio de trabajo en la barra lateral Gestor del navegador
-show-workspace-name-option = 
-    .label = Mostrar nombre del espacio de trabajo en el botón Espacios de trabajo de la barra de pestañas
-change-workspace-with-default-key-option = 
-    .label = Cambiar de espacio de trabajo con las teclas Mayús + ↑ y ↓.
-workspaces-manage-title = Gestionar espacios de trabajo
-workspaces-manage-description = Gestione sus espacios de trabajo. Cambie los iconos de sus espacios de trabajo.
-workspaces-manage-label = 
-    .label = Gestionar espacios de trabajo
-workspaces-manage-button = Abrir gestor de espacios de trabajo...
 select-workspace = Seleccionar espacio de trabajo
 workspace-select-icon = Seleccionar icono del área de trabajo
     .label = Seleccionar icono del área de trabajo
@@ -746,6 +701,7 @@ floorp-show-all-downloads =
     .accesskey = S
     .tooltiptext = Mostrar todas las descargas
 ######################################################################### workspace ###############################################################
+
 workspaces-create-new-workspace-button = 
     .label = Create new Workspace...
     .tooltiptext = Create a new Workspace
@@ -769,6 +725,21 @@ rename-workspace-prompt-text = Enter Workspace Name. Most characters and symbols
 workspaces-toolbar-button = Workspaces
     .label = Workspaces
     .tooltiptext = Select a Workspace...
+
+## Preferences
+
+category-workspaces = Workspaces
+    .label = Workspaces
+    .tooltiptext = Workspaces
+pane-workspaces-title = Workspaces
+floorp-workspaces-title = Espacio de trabajo { -brand-short-name }
+floorp-workspace-settings-button = Configuración de espacio de trabajo...
+change-to-close-workspace-popup-option = 
+    .label = Cerrar ventana emergente de áreas de trabajo al seleccionar un espacio de trabajo
+manage-workspace-on-bms-option = 
+    .label = Gestionar espacio de trabajo en la barra lateral Gestor del navegador
+show-workspace-name-option = 
+    .label = Mostrar nombre del espacio de trabajo en el botón Espacios de trabajo de la barra de pestañas
 ######################################################################### menubar item ###############################################################
 
 sharemode-menuitem = 
@@ -1046,7 +1017,7 @@ appmenuitem-contextmenu-uninstall-app =
 ######################################################################### Download Notification ###############################################################
 floorp-started-download = Download started
 floorp-finished-download = Download finished
-######################################################################### Uodate notify ###############################################################
+######################################################################### Update notify ###############################################################
 
 floorp-notificationTitle-latest = { -brand-short-name } is up to date!
 floorp-notificationContent-latest = { -brand-short-name } is up to date. You are using the latest version of { -brand-short-name }.
