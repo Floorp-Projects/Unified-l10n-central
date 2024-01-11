@@ -36,9 +36,6 @@ tab-sleep-settings-dialog-title =
 tab-sleep-settings-dialog-excludehosts-label = Exkludera värdar
 tab-sleep-settings-dialog-excludehosts-label-2 = Ange en värd per rad.
 tab-sleep-tab-context-menu-excludetab = Keep tab awake
-enable-floorp-workspace = 
-    .label = Enable Workspaces
-workspace-warning = Workspaces cannot be used with Tab Group add-ons. If you want to use Tab Group add-ons, please disable Workspaces and restart { -brand-short-name }.
 enable-tab-scroll-change = 
     .label = Växla flikar genom att bläddra med musen
 enable-tab-scroll-reverse = 
@@ -395,48 +392,6 @@ Peskyfox-label = Yokoffing Peskyfox
 about-Peskyfox = Ta bort Pocket. Återställ kompakt läge som ett alternativ. Stoppa webbsidan meddelanden, popup-fönster och andra irritationer.
 Smoothfox-label = Yokoffing Smoothfox
 about-Smoothfox = Få Edge-liknande smidig rullning på din favorit webbläsare - eller välj något mer din stil.
-
-## Workspaces
-
-workspaces-removed-title = Warning: Workspaces are deprecated!
-workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extension <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
-workspaces-removed-migration-tools-title = Workspaces Migration Tools
-workspaces-removed-migration-tools = Workspaces Migration Tools provide a way to migrate your Workspaces to Simple Tab Groups.
-workspaces-removed-migration-tools-label = Generate Simple Tab Groups Backup file
-workspaces-removed-migrate-to-STG-button = 
-    .label = Generate...
-workspace-STG-backup-success = Backup file created
-workspace-STG-backup-success-message = The backup file was created on the desktop. Import this file into Simple Tab Groups.
-workspaces-migation-menuitem-text = Workspaces are deprecated! <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
-workspaces-removed-learning-more = Learn more
-workspaces-removed-description = Workspaces have been removed from { -brand-short-name }. Please use the Simple Tab Groups add-on instead.
-floorp-workspaces-title = { -brand-short-name } Arbetsytor
-workspaces-backup-discription = Säkerhetskopiera och återställ dina arbetsytor
-workspaces-restore-service-title = { -brand-short-name } Workspaces Backup Service
-workspaces-restore-warning = Warning! Running this operation will overwrite your current Workspaces. The browser will freeze for a few seconds and then proceed to restart.
-floorp-workspace-settings-button = Inställningar för arbetsyta...
-change-to-close-workspace-popup-option = 
-    .label = Stäng popup för arbetsytor när du väljer en arbetsyta
-pinned-tabs-exclude-workspace-option = 
-    .label = Exkludera fästa flikar från arbetsytor
-workspaces-reset-title = Återställ arbetsytor
-workspaces-reset-label = 
-    .label = Återställ arbetsytor
-workspaces-reset-description = Om en säkerhetskopia inte fungerar och arbetsytan inte startar, återställ arbetsytan.
-workspaces-reset-button = Återställ arbetsytor
-workspaces-reset-service-title = { -brand-short-name } Workspaces
-workspaces-reset-warning = Varning! Kör denna åtgärd kommer att ta bort alla dina arbetsytor och starta om webbläsaren.
-manage-workspace-on-bms-option = 
-    .label = Hantera arbetsyta på webbläsarhanterarens sidofält
-show-workspace-name-option = 
-    .label = Visa arbetsytans namn på flikens arbetsyta knapp
-change-workspace-with-default-key-option = 
-    .label = Ändra arbetsyta med Shift och ↑ och ↓ nycklar.
-workspaces-manage-title = Hantera arbetsytor
-workspaces-manage-description = Manage your Workspaces. Change your Workspace icons.
-workspaces-manage-label = 
-    .label = Hantera arbetsytor
-workspaces-manage-button = Chef för öppen arbetsyta...
 select-workspace = Välj arbetsyta
 workspace-select-icon = Välj arbetsytans ikon
     .label = Välj arbetsytans ikon
@@ -746,6 +701,7 @@ floorp-show-all-downloads =
     .accesskey = S
     .tooltiptext = Visa alla nedladdningar
 ######################################################################### workspace ###############################################################
+
 workspaces-create-new-workspace-button = 
     .label = Create new Workspace...
     .tooltiptext = Create a new Workspace
@@ -769,6 +725,21 @@ rename-workspace-prompt-text = Enter Workspace Name. Most characters and symbols
 workspaces-toolbar-button = Workspaces
     .label = Workspaces
     .tooltiptext = Select a Workspace...
+
+## Preferences
+
+category-workspaces = Workspaces
+    .label = Workspaces
+    .tooltiptext = Workspaces
+pane-workspaces-title = Workspaces
+floorp-workspaces-title = { -brand-short-name } Arbetsytor
+floorp-workspace-settings-button = Inställningar för arbetsyta...
+change-to-close-workspace-popup-option = 
+    .label = Stäng popup för arbetsytor när du väljer en arbetsyta
+manage-workspace-on-bms-option = 
+    .label = Hantera arbetsyta på webbläsarhanterarens sidofält
+show-workspace-name-option = 
+    .label = Visa arbetsytans namn på flikens arbetsyta knapp
 ######################################################################### menubar item ###############################################################
 
 sharemode-menuitem = 
@@ -1046,7 +1017,7 @@ appmenuitem-contextmenu-uninstall-app =
 ######################################################################### Download Notification ###############################################################
 floorp-started-download = Download started
 floorp-finished-download = Download finished
-######################################################################### Uodate notify ###############################################################
+######################################################################### Update notify ###############################################################
 
 floorp-notificationTitle-latest = { -brand-short-name } is up to date!
 floorp-notificationContent-latest = { -brand-short-name } is up to date. You are using the latest version of { -brand-short-name }.
