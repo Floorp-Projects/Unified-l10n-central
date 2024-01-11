@@ -36,9 +36,6 @@ tab-sleep-settings-dialog-title =
 tab-sleep-settings-dialog-excludehosts-label = Εξαίρεση υπολογιστών
 tab-sleep-settings-dialog-excludehosts-label-2 = Εισάγετε έναν κεντρικό υπολογιστή ανά γραμμή.
 tab-sleep-tab-context-menu-excludetab = Keep tab awake
-enable-floorp-workspace = 
-    .label = Enable Workspaces
-workspace-warning = Workspaces cannot be used with Tab Group add-ons. If you want to use Tab Group add-ons, please disable Workspaces and restart { -brand-short-name }.
 enable-tab-scroll-change = 
     .label = Εναλλαγή καρτελών μετακινώντας με το ποντίκι σας
 enable-tab-scroll-reverse = 
@@ -395,48 +392,6 @@ Peskyfox-label = Yokoffing Peskyfox
 about-Peskyfox = Αποσυμπιέστε τη νέα σελίδα καρτέλας. Αφαιρέστε το Pocket. Αποκαταστήστε τη συμπαγή λειτουργία ως επιλογή. Σταματήστε τις ειδοποιήσεις ιστοσελίδας, τα αναδυόμενα παράθυρα και άλλες ενοχλήσεις.
 Smoothfox-label = Yokoffing Smoothfox
 about-Smoothfox = Πάρτε Edge-όπως ομαλή κύλιση στο αγαπημένο σας πρόγραμμα περιήγησης — ή επιλέξτε κάτι περισσότερο από το στυλ σας.
-
-## Workspaces
-
-workspaces-removed-title = Warning: Workspaces are deprecated!
-workspaces-removed-warning = Please migrate to "Simple Tab Groups" Extension <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
-workspaces-removed-migration-tools-title = Workspaces Migration Tools
-workspaces-removed-migration-tools = Workspaces Migration Tools provide a way to migrate your Workspaces to Simple Tab Groups.
-workspaces-removed-migration-tools-label = Generate Simple Tab Groups Backup file
-workspaces-removed-migrate-to-STG-button = 
-    .label = Generate...
-workspace-STG-backup-success = Backup file created
-workspace-STG-backup-success-message = The backup file was created on the desktop. Import this file into Simple Tab Groups.
-workspaces-migation-menuitem-text = Workspaces are deprecated! <label data-l10n-name="workspaces-removed-learning-more">Learn more</label>
-workspaces-removed-learning-more = Learn more
-workspaces-removed-description = Workspaces have been removed from { -brand-short-name }. Please use the Simple Tab Groups add-on instead.
-floorp-workspaces-title = { -brand-short-name } Χώροι εργασίας
-workspaces-backup-discription = Δημιουργία αντιγράφων ασφαλείας και επαναφορά των χώρων εργασίας
-workspaces-restore-service-title = { -brand-short-name } Workspaces Backup Service
-workspaces-restore-warning = Warning! Running this operation will overwrite your current Workspaces. The browser will freeze for a few seconds and then proceed to restart.
-floorp-workspace-settings-button = Ρυθμίσεις Χώρου Εργασίας...
-change-to-close-workspace-popup-option = 
-    .label = Κλείσιμο αναδυόμενου παράθυρου εργασίας κατά την επιλογή χώρου εργασίας
-pinned-tabs-exclude-workspace-option = 
-    .label = Εξαίρεση καρφιτσωμένων καρτελών από τους Χώρους Εργασίας
-workspaces-reset-title = Επαναφορά Χώρων Εργασίας
-workspaces-reset-label = 
-    .label = Επαναφορά Χώρων Εργασίας
-workspaces-reset-description = Εάν ένα αντίγραφο ασφαλείας δεν λειτουργεί και ο χώρος εργασίας δεν ξεκινά, επαναφέρετε το χώρο εργασίας.
-workspaces-reset-button = Επαναφορά Χώρων Εργασίας
-workspaces-reset-service-title = { -brand-short-name } Workspaces
-workspaces-reset-warning = Προσοχή! Εκτέλεση αυτής της λειτουργίας θα διαγράψει όλους τους χώρους εργασίας σας και θα επανεκκινήσει το πρόγραμμα περιήγησης.
-manage-workspace-on-bms-option = 
-    .label = Διαχείριση χώρου εργασίας στην πλευρική μπάρα του διαχειριστή του προγράμματος περιήγησης
-show-workspace-name-option = 
-    .label = Εμφάνιση ονόματος χώρου εργασίας στο κουμπί της γραμμής εργασίας της γραμμής καρτέλας
-change-workspace-with-default-key-option = 
-    .label = Αλλαγή χώρου εργασίας με Shift και ↑ και πλήκτρα ↓ .
-workspaces-manage-title = Διαχείριση Χώρων Εργασίας
-workspaces-manage-description = Manage your Workspaces. Change your Workspace icons.
-workspaces-manage-label = 
-    .label = Διαχείριση Χώρων Εργασίας
-workspaces-manage-button = Άνοιγμα Διαχειριστή Χώρου Εργασίας...
 select-workspace = Επιλογή Χώρου Εργασίας
 workspace-select-icon = Επιλογή Εικονιδίου Χώρου Εργασίας
     .label = Επιλογή Εικονιδίου Χώρου Εργασίας
@@ -746,6 +701,7 @@ floorp-show-all-downloads =
     .accesskey = S
     .tooltiptext = Εμφάνιση όλων των λήψεων
 ######################################################################### workspace ###############################################################
+
 workspaces-create-new-workspace-button = 
     .label = Create new Workspace...
     .tooltiptext = Create a new Workspace
@@ -769,6 +725,21 @@ rename-workspace-prompt-text = Enter Workspace Name. Most characters and symbols
 workspaces-toolbar-button = Workspaces
     .label = Workspaces
     .tooltiptext = Select a Workspace...
+
+## Preferences
+
+category-workspaces = Workspaces
+    .label = Workspaces
+    .tooltiptext = Workspaces
+pane-workspaces-title = Workspaces
+floorp-workspaces-title = { -brand-short-name } Χώροι εργασίας
+floorp-workspace-settings-button = Ρυθμίσεις Χώρου Εργασίας...
+change-to-close-workspace-popup-option = 
+    .label = Κλείσιμο αναδυόμενου παράθυρου εργασίας κατά την επιλογή χώρου εργασίας
+manage-workspace-on-bms-option = 
+    .label = Διαχείριση χώρου εργασίας στην πλευρική μπάρα του διαχειριστή του προγράμματος περιήγησης
+show-workspace-name-option = 
+    .label = Εμφάνιση ονόματος χώρου εργασίας στο κουμπί της γραμμής εργασίας της γραμμής καρτέλας
 ######################################################################### menubar item ###############################################################
 
 sharemode-menuitem = 
@@ -1046,7 +1017,7 @@ appmenuitem-contextmenu-uninstall-app =
 ######################################################################### Download Notification ###############################################################
 floorp-started-download = Download started
 floorp-finished-download = Download finished
-######################################################################### Uodate notify ###############################################################
+######################################################################### Update notify ###############################################################
 
 floorp-notificationTitle-latest = { -brand-short-name } is up to date!
 floorp-notificationContent-latest = { -brand-short-name } is up to date. You are using the latest version of { -brand-short-name }.
