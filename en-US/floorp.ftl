@@ -896,7 +896,7 @@ workspaces-toolbar-button = Workspaces
   .tooltiptext = Select a Workspace...
 
 ## Preferences
-category-workspaces = Workspaces
+category-workspaces =
     .label = Workspaces
     .tooltiptext = Workspaces
 pane-workspaces-title = Workspaces
