@@ -763,9 +763,9 @@ workspaces-toolbar-button = 工作空間
 ## Preferences
 
 category-workspaces = 
-    .label = Workspaces
-    .tooltiptext = Workspaces
-pane-workspaces-title = Workspaces
+    .label = 工作空間
+    .tooltiptext = 工作空間
+pane-workspaces-title = 工作空間
 floorp-workspaces-title = { -brand-short-name } 工作空間
 floorp-workspace-settings-button = 工作空間設定...
 change-to-close-workspace-popup-option = 
