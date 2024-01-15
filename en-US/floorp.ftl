@@ -79,7 +79,7 @@ tabbar-style-description = A restart of { -brand-short-name } is required to ful
 multirow-tabbar =
  .label = Multi-Row Tab Bar
 vertical-tabbar =
- .label = Vertical Tab Bar (experimental)
+ .label = Vertical Tab Bar
 
 native-vertical-tab-show-right =
  .label = Show Vertical Tab Bar on the right side of the window
@@ -106,7 +106,7 @@ bookmarks-bottom-mode =
 
 navbar-settings = Navigation Bar
 show-nav-bar-bottom =
- .label = Show the Toolbar at the bottom of { -brand-short-name } (experimental)
+ .label = Show the Toolbar at the bottom of { -brand-short-name }
 
 material-effect =
  .label = Allow Mica For Everyone to modify the browser design
