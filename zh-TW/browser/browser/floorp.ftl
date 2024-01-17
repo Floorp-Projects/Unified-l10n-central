@@ -763,8 +763,8 @@ workspaces-toolbar-button = 工作空間
 ## Preferences
 
 enable-workspaces-with-experimental = 
-    .label = Enable Workspaces (Experimental)
-    .tooltiptext = Enable Workspaces (Experimental)
+    .label = 啟用工作空間 (實驗性質)
+    .tooltiptext = 啟用工作空間 (實驗性質)
 workspace-warning = 工作空間無法與分頁分組擴充套件一同使用。 如果您想要使用分頁分組擴充套件，請停用工作空間並重新啟動 { -brand-short-name}。
 category-workspaces = 
     .label = 工作空間
