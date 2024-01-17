@@ -929,6 +929,12 @@ workspaces-toolbar-button = Workspaces
   .tooltiptext = Select a Workspace...
 
 ## Preferences
+enable-workspaces-with-experimental =
+ .label = Enable Workspaces (Experimental)
+ .tooltiptext = Enable Workspaces (Experimental)
+
+workspace-warning = Workspaces cannot be used with Tab Group add-ons. If you want to use Tab Group add-ons, please disable Workspaces and restart { -brand-short-name }.
+
 category-workspaces =
     .label = Workspaces
     .tooltiptext = Workspaces
