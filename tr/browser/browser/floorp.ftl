@@ -4,7 +4,7 @@
 
 ###################################################################### about:Dialog #################################################################################
 
-about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> Japonya'da geliştirilen yerli tarayıcılardan biridir. Firefox tabanlıdır ve web'i geliştirmek için <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>altında çalışmaya devam etmektedir. Yardım etmek ister misiniz? <label data-l10n-name="helpus-donateLink">Bağış yapın</label>
+about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> Japonya'da yerel olarak geliştirilen internet tarayıcılardan biridir. Firefox tabanlıdır ve web'i iyileştirmek amacıyla <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>altında geliştirilmeye devam etmektedir. Yardımda bulunmak ister misiniz? <label data-l10n-name="helpus-donateLink">Bağış yapın</label>
 icon-creator = Simge yaratıcısı <label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> ve <label data-l10n-name="brand-logo-twitter">@mwxdxx.</label>
 contributors = <label data-l10n-name="about-contributor">'a katkıda bulunanların ve Geliştiricilerin listesi</label>
 #################################################################### about:preferences ####################################################################
@@ -13,20 +13,20 @@ pane-design-title = Tasarım
 category-design = 
     .tooltiptext = { pane-design-title }
 design-header = { pane-design-title }
-feature-requires-restart = Değişiklikleri uygulamak için yeniden başlatma gerekir
-tab-width = Sekmelerin minimum genişliği
-preferences-tabs-newtab-position = New tab position
+feature-requires-restart = Değişikliklerin uygulanması için yeniden başlatma zorunludur
+tab-width = Minimum sekme genişliği
+preferences-tabs-newtab-position = Yeni sekme konumu
 open-new-tab-use-default = 
     .label = Yeni sekmeleri varsayılan konumda aç
 open-new-tab-at-the-end = 
-    .label = Sekme Çubuğunun sonunda yeni sekmeler açma
+    .label = Yeni sekmeleri Seçme Çubuğunun sonunda aç
 open-new-tab-next-to-current = 
-    .label = Geçerli sekmenin yanında yeni sekmeler açma
+    .label = Yeni sekmeleri anlık olarak açık olan sekmenin yanında aç
 multirow-tabs-limit = 
-    .label = Çok satırlı sekmeler için satır sınırını etkinleştirme
+    .label = Çoklu sıra sekmeleri için sıra sınırını etkinleştir
 multirow-tabs-newtab = 
-    .label = "Yeni sekme aç" düğmesini en alttaki sekme sırasının sonuna yerleştirin
-multirow-tabs-value = Çok satırlı sekmeler etkinleştirildiğinde satır sayısı
+    .label = "Yeni sekme aç" düğmesini en alttaki sekme sırasının sonuna yerleştir
+multirow-tabs-value = Çoklu sıra sekmeleri etkinleştirildiğindeki sıra sayısı
 enable-tab-sleep = 
     .label = Uyku Sekmelerini Etkinleştir
 tab-sleep-timeout-minutes-value = Sekmeler (dakika) boyunca etkin olmadıktan sonra uyuyacaktır
