@@ -1,5 +1,13 @@
 # Floorp Localization
 
+<a href="https://crowdin.com/?utm_source=badge&utm_medium=referral&utm_campaign=badge-add-on" rel="nofollow"><img style="width:140;height:40px" src="https://badges.crowdin.net/badge/light/crowdin-on-dark.png#gh-dark-mode-only" srcset="https://badges.crowdin.net/badge/light/crowdin-on-dark.png 1x,https://badges.crowdin.net/badge/light/crowdin-on-dark@2x.png 2x" alt="Crowdin | Agile localization for tech companies" /></a>
+<a href="https://crowdin.com/?utm_source=badge&utm_medium=referral&utm_campaign=badge-add-on" rel="nofollow"><img style="width:140;height:40px" src="https://badges.crowdin.net/badge/dark/crowdin-on-light.png#gh-light-mode-only" srcset="https://badges.crowdin.net/badge/dark/crowdin-on-light.png 1x,https://badges.crowdin.net/badge/dark/crowdin-on-light@2x.png 2x"  alt="Crowdin | Agile localization for tech companies" /></a>
+
+<p align="center">
+<img src="assets/Floorp_Logo_f10n_Light.svg#gh-light-mode-only" width="400px"></img>
+<img src="assets/Floorp_Logo_f10n_Dark.svg#gh-dark-mode-only" width="400px"></img>
+</p>
+
 This repository hosts the localization files for Floorp, which have been sourced from Crowdin. It also include main [English localization](https://github.com/Floorp-Projects/Unified-l10n-central/blob/main/en-US/floorp.ftl).
 
 ## Improving the English Localization
