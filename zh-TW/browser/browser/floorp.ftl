@@ -505,7 +505,7 @@ floorp-custom-actions-pip-action = 字母畫面操作
 floorp-custom-actions-downloads-action = 下載操作
 floorp-custom-actions-sidebar-action = 側邊欄操作
 floorp-custom-actions-bms-action = 管理工具側邊欄操作
-floorp-custom-actions-workspaces-action = Workspaces Actions
+floorp-custom-actions-workspaces-action = 工作空間操作
 floorp-custom-actions-custom-action = 自訂操作 (實驗性質)
 
 ## Mouse Gestures
