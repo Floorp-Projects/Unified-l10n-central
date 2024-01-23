@@ -4,7 +4,7 @@
 
 ###################################################################### about:Dialog #################################################################################
 
-about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> ist einer der in Japan entwickelten Browser. Es basiert auf Firefox und läuft weiterhin unter <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>, um das Web zu verbessern. Willst du helfen? <label data-l10n-name="helpus-donateLink">Unterstütze uns mit einer Spende!</label>
+about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> ist ein in Japan entwickelter Browser. Er basiert auf Firefox und läuft weiterhin unter <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>, um das Web zu verbessern. Willst du helfen? <label data-l10n-name="helpus-donateLink">Unterstütze uns mit einer Spende!</label>
 icon-creator = Icon-Ersteller <label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> und <label data-l10n-name="brand-logo-twitter">@mwxdxx.</label>
 contributors = Eine Liste von <label data-l10n-name="about-contributor">Mitwirkenden und Entwicklern</label>
 #################################################################### about:preferences ####################################################################
@@ -28,7 +28,7 @@ multirow-tabs-newtab =
     .label = Schaltfläche "Neuen Tab öffnen" am Ende der untersten Tab-Reihe anzeigen
 multirow-tabs-value = Anzahl der Zeilen, wenn mehrzeilige Tabs aktiviert sind
 enable-tab-sleep = 
-    .label = Schlafende Tabs aktivieren
+    .label = Ruhezustand für Tabs aktivieren
 tab-sleep-timeout-minutes-value = Tabs gehen in den Ruhezustand, nachdem sie für (Minuten) inaktiv sind
 tab-sleep-settings-button = Einstellungen...
 tab-sleep-settings-dialog-title = 
