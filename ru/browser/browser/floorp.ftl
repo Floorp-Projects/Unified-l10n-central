@@ -505,7 +505,7 @@ floorp-custom-actions-pip-action = Действия с фотографией
 floorp-custom-actions-downloads-action = Действия загрузок
 floorp-custom-actions-sidebar-action = Действия боковой панели
 floorp-custom-actions-bms-action = Действия боковой панели управления браузера
-floorp-custom-actions-workspace-action = Действия рабочих областей
+floorp-custom-actions-workspaces-action = Workspaces Actions
 floorp-custom-actions-custom-action = Пользовательские действия (экспериментально)
 
 ## Mouse Gestures
