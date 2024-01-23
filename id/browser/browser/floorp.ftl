@@ -505,7 +505,7 @@ floorp-custom-actions-pip-action = Tindakan Gambar dalam Gambar
 floorp-custom-actions-downloads-action = Tindakan Unduhan
 floorp-custom-actions-sidebar-action = Tindakan Bilah Samping
 floorp-custom-actions-bms-action = Tindakan Bilah Samping Pengelola Peramban
-floorp-custom-actions-workspace-action = Tindakan Ruang Kerja
+floorp-custom-actions-workspaces-action = Workspaces Actions
 floorp-custom-actions-custom-action = Tindakan Khusus (Eksperimental)
 
 ## Mouse Gestures
