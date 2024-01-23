@@ -505,7 +505,7 @@ floorp-custom-actions-pip-action = Vaizdas paveikslelyjė veiksmai
 floorp-custom-actions-downloads-action = Atsisiuntimo veiksmai
 floorp-custom-actions-sidebar-action = Veiksmai šoninėje juostoje
 floorp-custom-actions-bms-action = Naršyklės tvarkyklės šoninės juostos veiksmai
-floorp-custom-actions-workspace-action = Aplinkos veiksmai
+floorp-custom-actions-workspaces-action = Workspaces Actions
 floorp-custom-actions-custom-action = Pasirinktiniai veiksmai (eksperimentuojama)
 
 ## Mouse Gestures
