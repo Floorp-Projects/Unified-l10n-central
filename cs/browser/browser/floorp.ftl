@@ -505,7 +505,7 @@ floorp-custom-actions-pip-action = Akce obrázku v obraze
 floorp-custom-actions-downloads-action = Akce ke stažení
 floorp-custom-actions-sidebar-action = Akce postranního panelu
 floorp-custom-actions-bms-action = Akce postranního panelu správce prohlížeče
-floorp-custom-actions-workspace-action = Akce pracovních prostor
+floorp-custom-actions-workspaces-action = Akce pracovních prostor
 floorp-custom-actions-custom-action = Vlastní akce (experimentální)
 
 ## Mouse Gestures

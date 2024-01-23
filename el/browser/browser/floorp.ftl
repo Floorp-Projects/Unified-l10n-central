@@ -505,7 +505,7 @@ floorp-custom-actions-pip-action = Ενέργειες Εικόνας-Σε-Εικ
 floorp-custom-actions-downloads-action = Ενέργειες Λήψεων
 floorp-custom-actions-sidebar-action = Ενέργειες Πλευρικής Μπάρας
 floorp-custom-actions-bms-action = Ενέργειες Πλευρικής Μπάρας Διαχειριστή Περιηγητή
-floorp-custom-actions-workspace-action = Ενέργειες Χώρου Εργασίας
+floorp-custom-actions-workspaces-action = Ενέργειες Χώρου Εργασίας
 floorp-custom-actions-custom-action = Προσαρμοσμένες Ενέργειες (Πειραματικές)
 
 ## Mouse Gestures

@@ -505,7 +505,7 @@ floorp-custom-actions-pip-action = Kép a képben akciók
 floorp-custom-actions-downloads-action = Letöltések Akciók
 floorp-custom-actions-sidebar-action = Oldalsávos műveletek
 floorp-custom-actions-bms-action = Böngésző menedzser oldalsáv műveletei
-floorp-custom-actions-workspace-action = Munkaterületek Műveletek
+floorp-custom-actions-workspaces-action = Munkaterületek Műveletek
 floorp-custom-actions-custom-action = Egyéni műveletek (kísérleti)
 
 ## Mouse Gestures

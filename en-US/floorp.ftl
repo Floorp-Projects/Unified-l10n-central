@@ -611,7 +611,7 @@ floorp-custom-actions-pip-action = Picture-in-Picture Actions
 floorp-custom-actions-downloads-action = Downloads Actions
 floorp-custom-actions-sidebar-action = Sidebar Actions
 floorp-custom-actions-bms-action = Browser Manager Sidebar Actions
-floorp-custom-actions-workspace-action = Workspaces Actions
+floorp-custom-actions-workspaces-action = Workspaces Actions
 floorp-custom-actions-custom-action = Custom Actions (Experimental)
 
 ## Mouse Gestures

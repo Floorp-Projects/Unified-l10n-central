@@ -505,7 +505,7 @@ floorp-custom-actions-pip-action = ピクチャーインピクチャーのアク
 floorp-custom-actions-downloads-action = ダウンロードのアクション
 floorp-custom-actions-sidebar-action = サイドバーのアクション
 floorp-custom-actions-bms-action = ブラウザーマネージャーサイドバーのアクション
-floorp-custom-actions-workspace-action = ワークスペースのアクション
+floorp-custom-actions-workspaces-action = ワークスペースのアクション
 floorp-custom-actions-custom-action = カスタムアクション (実験的)
 
 ## Mouse Gestures

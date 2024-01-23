@@ -505,7 +505,7 @@ floorp-custom-actions-pip-action = Picture-in-Picture Handlinger
 floorp-custom-actions-downloads-action = Download Handlinger
 floorp-custom-actions-sidebar-action = Sidebar Handlinger
 floorp-custom-actions-bms-action = Browser Manager Sidebar Handlinger
-floorp-custom-actions-workspace-action = Handlinger I Arbejdsrum
+floorp-custom-actions-workspaces-action = Handlinger I Arbejdsrum
 floorp-custom-actions-custom-action = Brugerdefinerede Handlinger (Eksperimentel)
 
 ## Mouse Gestures

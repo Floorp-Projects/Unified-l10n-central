@@ -505,7 +505,7 @@ floorp-custom-actions-pip-action = إجراءات الصورة في الصورة
 floorp-custom-actions-downloads-action = إجراءات التنزيلات
 floorp-custom-actions-sidebar-action = إجراءات الشريط الجانبي
 floorp-custom-actions-bms-action = إجراءات الشريط الجانبي لمدير المتصفح
-floorp-custom-actions-workspace-action = إجراءات مساحات العمل
+floorp-custom-actions-workspaces-action = إجراءات مساحات العمل
 floorp-custom-actions-custom-action = إجراءات مخصصة (تجريبية)
 
 ## Mouse Gestures

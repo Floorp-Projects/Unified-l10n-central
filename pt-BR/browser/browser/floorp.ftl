@@ -505,7 +505,7 @@ floorp-custom-actions-pip-action = Ações Picture-in-Picture
 floorp-custom-actions-downloads-action = Ações de Downloads
 floorp-custom-actions-sidebar-action = Ações do painel lateral
 floorp-custom-actions-bms-action = Ações da barra lateral do navegador
-floorp-custom-actions-workspace-action = Ações do Workspace
+floorp-custom-actions-workspaces-action = Ações do Workspace
 floorp-custom-actions-custom-action = Ações personalizadas (Experimental)
 
 ## Mouse Gestures

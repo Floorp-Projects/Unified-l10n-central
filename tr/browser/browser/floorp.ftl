@@ -505,7 +505,7 @@ floorp-custom-actions-pip-action = Resim İçinde Resim Eylemleri
 floorp-custom-actions-downloads-action = İndirmeler Eylemler
 floorp-custom-actions-sidebar-action = Kenar Çubuğu Eylemleri
 floorp-custom-actions-bms-action = Tarayıcı Yöneticisi Kenar Çubuğu Eylemleri
-floorp-custom-actions-workspace-action = Çalışma Alanları Eylemler
+floorp-custom-actions-workspaces-action = Çalışma Alanları Eylemler
 floorp-custom-actions-custom-action = Özel Eylemler (Deneysel)
 
 ## Mouse Gestures
