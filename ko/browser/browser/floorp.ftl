@@ -505,7 +505,7 @@ floorp-custom-actions-pip-action = 화면 속 화면 액션
 floorp-custom-actions-downloads-action = 다운로드 액션
 floorp-custom-actions-sidebar-action = 사이드바 액션
 floorp-custom-actions-bms-action = 브라우저 관리자 사이드바 액션
-floorp-custom-actions-workspace-action = 워크스페이스 액션
+floorp-custom-actions-workspaces-action = Workspaces Actions
 floorp-custom-actions-custom-action = 커스텀 액션(실험적)
 
 ## Mouse Gestures
