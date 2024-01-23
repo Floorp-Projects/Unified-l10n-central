@@ -505,7 +505,7 @@ floorp-custom-actions-pip-action = Akcje obrazu w zdjęciu
 floorp-custom-actions-downloads-action = Akcje pobierania
 floorp-custom-actions-sidebar-action = Akcje paska bocznego
 floorp-custom-actions-bms-action = Akcje panelu bocznego przeglądarki
-floorp-custom-actions-workspace-action = Akcje projektu
+floorp-custom-actions-workspaces-action = Workspaces Actions
 floorp-custom-actions-custom-action = Akcje niestandardowe (eksperymentalne)
 
 ## Mouse Gestures
