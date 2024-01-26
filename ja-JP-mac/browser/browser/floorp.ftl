@@ -762,6 +762,10 @@ workspaces-toolbar-button = ワークスペース
 
 ## Preferences
 
+enable-workspaces = 
+    .label = Enable Workspaces
+    .tooltiptext = Enable Workspaces
+workspace-notice = Workspaces will not work with this settings enabled unless the workspaces's button is placed on the toolbar. Use this setting if you want to disable Workspaces completely.
 enable-workspaces-with-experimental = 
     .label = ワークスペース機能を有効にする（実験的）
     .tooltiptext = ワークスペース機能を有効にする（実験的）
