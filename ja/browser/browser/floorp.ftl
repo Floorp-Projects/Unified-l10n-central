@@ -751,8 +751,8 @@ delete-this-workspace =
 manage-this-workspaces = 
     .label = ワークスペースを管理...
     .accesskey = M
-workspace-new-default-name = New Workspace
-workspace-default-name = Default
+workspace-new-default-name = 新しいワークスペース
+workspace-default-name = 既定
 move-tab-another-workspace = 
     .label = 他のワークスペースに移動
 rename-workspace-prompt-title = ワークスペース名を変更
@@ -764,9 +764,9 @@ workspaces-toolbar-button = ワークスペース
 ## Preferences
 
 enable-workspaces = 
-    .label = Enable Workspaces
-    .tooltiptext = Enable Workspaces
-workspace-notice = Workspaces will not work with this settings enabled unless the workspaces's button is placed on the toolbar. Use this setting if you want to disable Workspaces completely.
+    .label = ワークスペース機能を有効にする
+    .tooltiptext = ワークスペース機能を有効にする
+workspace-notice = ワークスペースのボタンがツールバーに配置されていない限り、この設定を有効にしてもワークスペースは機能しません。ワークスペースを完全に無効にしたい場合は、この設定を使用してください。
 enable-workspaces-with-experimental = 
     .label = ワークスペース機能を有効にする（実験的）
     .tooltiptext = ワークスペース機能を有効にする（実験的）
