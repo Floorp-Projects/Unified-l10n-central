@@ -766,7 +766,9 @@ workspaces-toolbar-button = 工作空間
 enable-workspaces = 
     .label = 啟用工作空間
     .tooltiptext = 啟用工作空間
-workspace-notice = Workspaces will not work with this settings enabled unless the workspaces's button is placed on the toolbar. Use this setting if you want to disable Workspaces completely.
+workspace-notice =
+    除非工作空間的按鈕已經放置在工具列上，工作空間不會在此設定啟用的情況下生效。
+    欲完全停用工作空間，請啟用此設定。
 enable-workspaces-with-experimental = 
     .label = 啟用工作空間 (實驗性質)
     .tooltiptext = 啟用工作空間 (實驗性質)
