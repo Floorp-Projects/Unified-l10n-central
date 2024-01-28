@@ -751,8 +751,8 @@ delete-this-workspace =
 manage-this-workspaces = 
     .label = 管理工作空間...
     .accesskey = M
-workspace-new-default-name = New Workspace
-workspace-default-name = Default
+workspace-new-default-name = 新增工作空間
+workspace-default-name = 預設
 move-tab-another-workspace = 
     .label = 移至另一個工作空間
 rename-workspace-prompt-title = 重新命名工作空間
@@ -764,8 +764,8 @@ workspaces-toolbar-button = 工作空間
 ## Preferences
 
 enable-workspaces = 
-    .label = Enable Workspaces
-    .tooltiptext = Enable Workspaces
+    .label = 啟用工作空間
+    .tooltiptext = 啟用工作空間
 workspace-notice = Workspaces will not work with this settings enabled unless the workspaces's button is placed on the toolbar. Use this setting if you want to disable Workspaces completely.
 enable-workspaces-with-experimental = 
     .label = 啟用工作空間 (實驗性質)
