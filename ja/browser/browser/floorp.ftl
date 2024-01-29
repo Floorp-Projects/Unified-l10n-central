@@ -1061,18 +1061,18 @@ appmenuitem-contextmenu-uninstall-app =
 ## Preferences
 
 category-ssb = 
-    .label = Web Apps
-    .tooltiptext = Web Apps
-category-ssb-title = Web Apps
-floorp-ssb-title = Web Apps
-floorp-ssb-description = Web Apps are websites that can be installed as apps. They can be launched from { -brand-short-name }'s menu panel or the Windows Start menu.
+    .label = ウェブアプリ
+    .tooltiptext = ウェブアプリ
+category-ssb-title = ウェブアプリ
+floorp-ssb-title = ウェブアプリ
+floorp-ssb-description = ウェブアプリは、アプリとしてインストールできるウェブサイトです。 { -brand-short-name } のメニューパネルや Windows のスタートメニューから起動することができます。
 floorp-enable-ssb = 
-    .label = Enable Web Apps
+    .label = ウェブアプリを有効にする
 floorp-enable-ssb-with-experimental = 
-    .label = Enable Web Apps (Experimental)
-floorp-enable-ssb-description = This feature is experimental on Mac and Linux. It is recommended to enable this feature on Windows.
+    .label = ウェブアプリを有効にする (実験的)
+floorp-enable-ssb-description = この機能は Mac と Linux では実験的なものです。Windows ではこの機能を有効にすることをおすすめします。
 floorp-disable-toolbars = 
-    .label = Disable toolbars on Web Apps Window
+    .label = ウェブアプリのツールバーを無効にする
 floorp-disable-toolbars-description = Disable toolbars on Web Apps Window. This setting will hide all extensions and toolbars on Web Apps Window.
 ######################################################################### Download Notification ###############################################################
 floorp-started-download = ダウンロード開始
