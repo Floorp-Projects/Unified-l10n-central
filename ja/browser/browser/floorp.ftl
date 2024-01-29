@@ -1073,7 +1073,7 @@ floorp-enable-ssb-with-experimental =
 floorp-enable-ssb-description = この機能は Mac と Linux では実験的なものです。Windows ではこの機能を有効にすることをおすすめします。
 floorp-disable-toolbars = 
     .label = ウェブアプリのツールバーを無効にする
-floorp-disable-toolbars-description = Disable toolbars on Web Apps Window. This setting will hide all extensions and toolbars on Web Apps Window.
+floorp-disable-toolbars-description = ウェブアプリのウィンドウに表示されるツールバーを非表示にします。また、すべての拡張機能が動作しなくなります。
 ######################################################################### Download Notification ###############################################################
 floorp-started-download = ダウンロード開始
 floorp-finished-download = ダウンロード完了
