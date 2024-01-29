@@ -1251,6 +1251,8 @@ category-ssb-title = Web Apps
 floorp-ssb-title = Web Apps
 floorp-ssb-description = Web Apps are websites that can be installed as apps. They can be launched from { -brand-short-name }'s menu panel or the Windows Start menu.
 
+ssb-preferences = Web Apps Settings
+
 floorp-enable-ssb =
   .label = Enable Web Apps
 floorp-enable-ssb-with-experimental =
@@ -1260,6 +1262,16 @@ floorp-enable-ssb-description = This feature is experimental on Mac and Linux. I
 floorp-disable-toolbars =
   .label = Disable toolbars on Web Apps Window
 floorp-disable-toolbars-description = Disable toolbars on Web Apps Window. This setting will hide all extensions and toolbars on Web Apps Window.
+
+ssb-installed-list-title = Installed Web Apps
+
+ssb-uninstall-button =
+  .label = Uninstall
+
+ssb-uninstall-title = Uninstall Web App
+ssb-uninstall-message = Are you sure you want to uninstall this Web App from { -brand-short-name }?
+ssb-uninstall-button = Uninstall
+ssb-uninstall-cancel = Cancel
 
 ######################################################################### Download Notification ###############################################################
 floorp-started-download = Download started
