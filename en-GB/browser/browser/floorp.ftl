@@ -752,7 +752,6 @@ manage-this-workspaces =
     .label = Manage Workspaces...
     .accesskey = M
 workspace-new-default-name = New Workspace
-workspace-default-name = Default
 move-tab-another-workspace = 
     .label = Move to another Workspace
 rename-workspace-prompt-title = Rename Workspace

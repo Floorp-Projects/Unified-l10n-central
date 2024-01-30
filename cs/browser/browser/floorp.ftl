@@ -505,7 +505,7 @@ floorp-custom-actions-pip-action = Akce obrázku v obraze
 floorp-custom-actions-downloads-action = Akce ke stažení
 floorp-custom-actions-sidebar-action = Akce postranního panelu
 floorp-custom-actions-bms-action = Akce postranního panelu správce prohlížeče
-floorp-custom-actions-workspaces-action = Workspaces Actions
+floorp-custom-actions-workspaces-action = Akce pracovních prostor
 floorp-custom-actions-custom-action = Vlastní akce (experimentální)
 
 ## Mouse Gestures
@@ -752,7 +752,6 @@ manage-this-workspaces =
     .label = Manage Workspaces...
     .accesskey = M
 workspace-new-default-name = New Workspace
-workspace-default-name = Default
 move-tab-another-workspace = 
     .label = Přesunout do jiného pracovního prostoru
 rename-workspace-prompt-title = Rename Workspace

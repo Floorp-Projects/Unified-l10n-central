@@ -505,7 +505,7 @@ floorp-custom-actions-pip-action = Bild-i-bild åtgärder
 floorp-custom-actions-downloads-action = Nedladdningar Åtgärder
 floorp-custom-actions-sidebar-action = Åtgärder för sidofält
 floorp-custom-actions-bms-action = Browser Manager sidofält åtgärder
-floorp-custom-actions-workspaces-action = Workspaces Actions
+floorp-custom-actions-workspaces-action = Åtgärder för arbetsytor
 floorp-custom-actions-custom-action = Anpassade åtgärder (experimentell)
 
 ## Mouse Gestures

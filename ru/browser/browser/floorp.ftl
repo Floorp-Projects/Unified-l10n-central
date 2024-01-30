@@ -505,7 +505,7 @@ floorp-custom-actions-pip-action = Действия с фотографией
 floorp-custom-actions-downloads-action = Действия загрузок
 floorp-custom-actions-sidebar-action = Действия боковой панели
 floorp-custom-actions-bms-action = Действия боковой панели управления браузера
-floorp-custom-actions-workspaces-action = Workspaces Actions
+floorp-custom-actions-workspaces-action = Действия рабочих областей
 floorp-custom-actions-custom-action = Пользовательские действия (экспериментально)
 
 ## Mouse Gestures
@@ -751,8 +751,8 @@ delete-this-workspace =
 manage-this-workspaces = 
     .label = Управление рабочими пространствами...
     .accesskey = M
-workspace-new-default-name = New Workspace
 workspace-default-name = Default
+workspace-new-default-name = Новое рабочее пространство
 move-tab-another-workspace = 
     .label = Переместить в другое рабочее пространство
 rename-workspace-prompt-title = Переименовать рабочее пространство

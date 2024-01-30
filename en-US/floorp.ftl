@@ -611,7 +611,7 @@ floorp-custom-actions-pip-action = Picture-in-Picture Actions
 floorp-custom-actions-downloads-action = Downloads Actions
 floorp-custom-actions-sidebar-action = Sidebar Actions
 floorp-custom-actions-bms-action = Browser Manager Sidebar Actions
-floorp-custom-actions-workspace-action = Workspaces Actions
+floorp-custom-actions-workspaces-action = Workspaces Actions
 floorp-custom-actions-custom-action = Custom Actions (Experimental)
 
 ## Mouse Gestures
@@ -916,7 +916,8 @@ manage-this-workspaces =
   .label = Manage Workspaces...
   .accesskey = M
 
-workspace-default-name = New Workspace
+workspace-new-default-name = New Workspace
+workspace-default-name = Default
 
 move-tab-another-workspace =
  .label = Move to another Workspace
@@ -929,6 +930,10 @@ workspaces-toolbar-button = Workspaces
   .tooltiptext = Select a Workspace...
 
 ## Preferences
+enable-workspaces = 
+    .label = Enable Workspaces
+    .tooltiptext = Enable Workspaces
+workspace-notice = Workspaces will not work with this settings enabled unless the workspaces's button is placed on the toolbar. Use this setting if you want to disable Workspaces completely.
 enable-workspaces-with-experimental =
  .label = Enable Workspaces (Experimental)
  .tooltiptext = Enable Workspaces (Experimental)
@@ -1237,6 +1242,36 @@ appmenuitem-contextmenu-open-app =
 appmenuitem-contextmenu-uninstall-app =
   .label = Uninstall this app
 
+## Preferences
+category-ssb =
+  .label = Web Apps
+  .tooltiptext = Web Apps
+category-ssb-title = Web Apps
+
+floorp-ssb-title = Web Apps
+floorp-ssb-description = Web Apps are websites that can be installed as apps. They can be launched from { -brand-short-name }'s menu panel or the Windows Start menu.
+
+ssb-preferences = Web Apps Settings
+
+floorp-enable-ssb =
+  .label = Enable Web Apps
+floorp-enable-ssb-with-experimental =
+  .label = Enable Web Apps (Experimental)
+floorp-enable-ssb-description = This feature is experimental on Mac and Linux. It is recommended to enable this feature on Windows.
+
+floorp-disable-toolbars =
+  .label = Disable toolbars on Web Apps Window
+floorp-disable-toolbars-description = Disable toolbars on Web Apps Window. This setting will hide all extensions and toolbars on Web Apps Window.
+
+ssb-installed-list-title = Installed Web Apps
+
+ssb-uninstall-button =
+  .label = Uninstall
+
+ssb-uninstall-title = Uninstall Web App
+ssb-uninstall-message = Are you sure you want to uninstall this Web App from { -brand-short-name }?
+ssb-uninstall-button = Uninstall
+ssb-uninstall-cancel = Cancel
 
 ######################################################################### Download Notification ###############################################################
 floorp-started-download = Download started
