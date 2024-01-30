@@ -4,7 +4,7 @@
 
 ###################################################################### about:Dialog #################################################################################
 
-about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> adalah salah satu peramban domestik yang dikembangkan di Jepang. Browser ini didasarkan pada Firefox dan terus beroperasi di bawah <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>, untuk meningkatkan web. Ingin membantu? <label data-l10n-name="helpus-donateLink">Berikan donasi</label>
+about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> adalah salah satu peramban domestik yang dikembangkan di Jepang. Peramban ini didasarkan pada Firefox dan terus beroperasi di bawah <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>, untuk meningkatkan web. Ingin membantu? <label data-l10n-name="helpus-donateLink">Berikan donasi</label>
 icon-creator = Pencipta ikon <label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> dan <label data-l10n-name="brand-logo-twitter">@mwxdxx.</label>
 contributors = Daftar kontributor dan Pengembang <label data-l10n-name="about-contributor"></label>
 #################################################################### about:preferences ####################################################################
@@ -256,7 +256,7 @@ newtab-background-selected-one-image =
     .label = Custom image...
 newtab-background-folder = Gunakan gambar dari folder ini:
 newtab-background-image = Use image :
-newtab-choose-image = Choose Image...
+newtab-choose-image = Pilih Gambar ...
 newtab-background-folder-reload = 
     .label = Muat ulang gambar
 newtab-background-folder-default = 
@@ -264,7 +264,7 @@ newtab-background-folder-default =
 newtab-background-folder-open = 
     .label = Buka folder
 newtab-background-folder-choose = Pilih folder gambar...
-newtab-background-image-choose = Choose image...
+newtab-background-image-choose = Pilih gambar ...
 newtab-background-extensions = Gunakan gambar dengan ekstensi file berikut ini (dipisahkan dengan ",")
 disable-blur-on-newtab = 
     .label = Nonaktifkan efek buram di { -brand-short-name } Home
@@ -304,7 +304,7 @@ floorp-lepton-enable-toolbar-overlap-allow-layout-shift-autohide =
     .label = Secara otomatis menyembunyikan Bilah Alat saat menampilkan konten "ltr"
 hide-preference = Mengelola elemen browser
 floorp-lepton-enable-tab_icon-hide = 
-    .label = Hide tab icons
+    .label = Sembunyikan ikon tab
 floorp-lepton-enable-tabbar-hide = 
     .label = Sembunyikan Bilah Tab
 floorp-lepton-enable-navbar-hide = 
@@ -402,15 +402,15 @@ workspace-customize =
 floorp-no-workspace-conatiner = 
     .label = Tidak Ada Wadah
 workspace-icon-article = 
-    .label = Article
+    .label = Artikel
 workspace-icon-book = 
-    .label = Book
+    .label = Buku
 workspace-icon-briefcase = 
     .label = Pekerjaan
 workspace-icon-cart = 
     .label = Belanja
 workspace-icon-chat = 
-    .label = Chat
+    .label = Obrolan
 workspace-icon-chill = 
     .label = Pribadi
 workspace-icon-circle = 
@@ -418,7 +418,7 @@ workspace-icon-circle =
 workspace-icon-compass = 
     .label = Kompas
 workspace-icon-code = 
-    .label = Code
+    .label = Kode
 workspace-icon-dollar = 
     .label = Bank
 workspace-icon-fence = 
@@ -430,23 +430,23 @@ workspace-icon-food =
 workspace-icon-fruit = 
     .label = Buah
 workspace-icon-game = 
-    .label = Game
+    .label = Gim
 workspace-icon-gear = 
     .label = Perlengkapan
 workspace-icon-gift = 
     .label = Hadiah
 workspace-icon-key = 
-    .label = Key
+    .label = Kunci
 workspace-icon-lightning = 
-    .label = Lightning
+    .label = Petir
 workspace-icon-network = 
     .label = Internet
 workspace-icon-notes = 
-    .label = Notes
+    .label = Catatan
 workspace-icon-paint = 
     .label = Paint
 workspace-icon-photo = 
-    .label = Photo
+    .label = Foto
 workspace-icon-pin = 
     .label = Pin
 workspace-icon-pet = 
@@ -454,7 +454,7 @@ workspace-icon-pet =
 workspace-icon-question = 
     .label = Pertanyaan
 workspace-icon-smartphone = 
-    .label = Smart Phone
+    .label = Ponsel
 workspace-icon-star = 
     .label = Bintang
 workspace-icon-tree = 
@@ -462,13 +462,13 @@ workspace-icon-tree =
 workspace-icon-vacation = 
     .label = Liburan
 workspace-icon-love = 
-    .label = Love
+    .label = Cinta
 workspace-icon-moon = 
-    .label = Moon
+    .label = Bulan
 workspace-icon-music = 
-    .label = Music
+    .label = Musik
 workspace-icon-user = 
-    .label = User
+    .label = Pengguna
 # Custom Keyboard Shortcuts
 floorp-CSK-title = Pintasan keyboard khusus
 floorp-CSK-description = Customize { -brand-short-name }'s keyboard shortcuts. { -brand-short-name } provides more than 80 customizable keyboard shortcuts! Duplicate keyboard shortcuts will not work. Restart { -brand-short-name } to apply these settings.
@@ -762,6 +762,10 @@ workspaces-toolbar-button = Workspaces
 
 ## Preferences
 
+enable-workspaces = 
+    .label = Enable Workspaces
+    .tooltiptext = Enable Workspaces
+workspace-notice = Workspaces will not work with this settings enabled unless the workspaces's button is placed on the toolbar. Use this setting if you want to disable Workspaces completely.
 enable-workspaces-with-experimental = 
     .label = Enable Workspaces (Experimental)
     .tooltiptext = Enable Workspaces (Experimental)
@@ -1052,6 +1056,31 @@ appmenuitem-contextmenu-open-app =
     .label = Open this app
 appmenuitem-contextmenu-uninstall-app = 
     .label = Uninstall this app
+
+## Preferences
+
+category-ssb = 
+    .label = Web Apps
+    .tooltiptext = Web Apps
+category-ssb-title = Web Apps
+floorp-ssb-title = Web Apps
+floorp-ssb-description = Web Apps are websites that can be installed as apps. They can be launched from { -brand-short-name }'s menu panel or the Windows Start menu.
+ssb-preferences = Web Apps Settings
+floorp-enable-ssb = 
+    .label = Enable Web Apps
+floorp-enable-ssb-with-experimental = 
+    .label = Enable Web Apps (Experimental)
+floorp-enable-ssb-description = This feature is experimental on Mac and Linux. It is recommended to enable this feature on Windows.
+floorp-disable-toolbars = 
+    .label = Disable toolbars on Web Apps Window
+floorp-disable-toolbars-description = Disable toolbars on Web Apps Window. This setting will hide all extensions and toolbars on Web Apps Window.
+ssb-installed-list-title = Installed Web Apps
+ssb-uninstall-button = 
+    .label = Uninstall
+ssb-uninstall-title = Uninstall Web App
+ssb-uninstall-message = Are you sure you want to uninstall this Web App from { -brand-short-name }?
+ssb-uninstall-button = Uninstall
+ssb-uninstall-cancel = Cancel
 ######################################################################### Download Notification ###############################################################
 floorp-started-download = Download started
 floorp-finished-download = Download finished

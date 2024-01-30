@@ -752,6 +752,7 @@ manage-this-workspaces =
     .label = ワークスペースを管理...
     .accesskey = M
 workspace-new-default-name = 新規ワークスペース
+workspace-default-name = デフォルト
 move-tab-another-workspace = 
     .label = 他のワークスペースに移動
 rename-workspace-prompt-title = ワークスペース名を変更
@@ -762,6 +763,10 @@ workspaces-toolbar-button = ワークスペース
 
 ## Preferences
 
+enable-workspaces = 
+    .label = ワークスペース機能を有効にする
+    .tooltiptext = ワークスペース機能を有効にする
+workspace-notice = ワークスペースのボタンがツールバーに配置されていない限り、この設定を有効にしてもワークスペースは機能しません。ワークスペースを完全に無効にしたい場合は、この設定を使用してください。
 enable-workspaces-with-experimental = 
     .label = ワークスペース機能を有効にする（実験的）
     .tooltiptext = ワークスペース機能を有効にする（実験的）
@@ -1052,6 +1057,31 @@ appmenuitem-contextmenu-open-app =
     .label = このアプリを開く
 appmenuitem-contextmenu-uninstall-app = 
     .label = このアプリをアンインストール
+
+## Preferences
+
+category-ssb = 
+    .label = ウェブアプリ
+    .tooltiptext = ウェブアプリ
+category-ssb-title = ウェブアプリ
+floorp-ssb-title = ウェブアプリ
+floorp-ssb-description = ウェブアプリは、アプリとしてインストールできるウェブサイトです。 { -brand-short-name } のメニューパネルや Windows のスタートメニューから起動することができます。
+ssb-preferences = ウェブアプリの設定
+floorp-enable-ssb = 
+    .label = ウェブアプリを有効にする
+floorp-enable-ssb-with-experimental = 
+    .label = ウェブアプリを有効にする (実験的)
+floorp-enable-ssb-description = この機能は Mac と Linux では実験的なものです。Windows ではこの機能を有効にすることをおすすめします。
+floorp-disable-toolbars = 
+    .label = ウェブアプリのツールバーを無効にする
+floorp-disable-toolbars-description = ウェブアプリのウィンドウに表示されるツールバーを非表示にします。また、すべての拡張機能が動作しなくなります。
+ssb-installed-list-title = インストール済みのウェブアプリ
+ssb-uninstall-button = 
+    .label = アンインストール
+ssb-uninstall-title = ウェブアプリをアンインストール
+ssb-uninstall-message = このウェブアプリを { -brand-short-name } からアンインストールしてもよろしいですか？
+ssb-uninstall-button = アンインストール
+ssb-uninstall-cancel = キャンセル
 ######################################################################### Download Notification ###############################################################
 floorp-started-download = ダウンロード開始
 floorp-finished-download = ダウンロード完了

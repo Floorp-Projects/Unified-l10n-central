@@ -752,6 +752,7 @@ manage-this-workspaces =
     .label = 管理工作空間...
     .accesskey = M
 workspace-new-default-name = 新增工作空間
+workspace-default-name = 預設
 move-tab-another-workspace = 
     .label = 移至另一個工作空間
 rename-workspace-prompt-title = 重新命名工作空間
@@ -762,6 +763,12 @@ workspaces-toolbar-button = 工作空間
 
 ## Preferences
 
+enable-workspaces = 
+    .label = 啟用工作空間
+    .tooltiptext = 啟用工作空間
+workspace-notice =
+    除非工作空間的按鈕已經放置在工具列上，工作空間不會在此設定啟用的情況下生效。
+    欲完全停用工作空間，請啟用此設定。
 enable-workspaces-with-experimental = 
     .label = 啟用工作空間 (實驗性質)
     .tooltiptext = 啟用工作空間 (實驗性質)
@@ -1032,7 +1039,7 @@ floorp-customize-mode-unified-extensions-button =
 ssb-page-action = 
     .label = 安裝應用程式
     .tooltiptext = 將此網站安裝為 PWA 應用程式
-ssb-page-action-title = 安裝 PWA 應用程式
+ssb-page-action-title = 安裝應用程式
 ssb-app-open-button = 
     .label = 在應用程式中開啟
 ssb-app-install-button = 
@@ -1052,6 +1059,31 @@ appmenuitem-contextmenu-open-app =
     .label = 開啟此 PWA 應用程式
 appmenuitem-contextmenu-uninstall-app = 
     .label = 移除此 PWA 應用程式
+
+## Preferences
+
+category-ssb = 
+    .label = PWA 應用程式
+    .tooltiptext = PWA 應用程式
+category-ssb-title = PWA 應用程式
+floorp-ssb-title = PWA 應用程式
+floorp-ssb-description = PWA 應用程式 是指可以安裝為應用程式的網站。安裝後可於 { -brand-short-name } 應用程式選單或 Windows 開始畫面 裡開啟。
+ssb-preferences = PWA 應用程式設定
+floorp-enable-ssb = 
+    .label = 啟用 PWA 應用程式
+floorp-enable-ssb-with-experimental = 
+    .label = 啟用 PWA 應用程式 (實驗性質)
+floorp-enable-ssb-description = 此功能在 Mac 以及 Linux 平台上仍屬於實驗性質。建議在 Windows 平台上啟用此功能。
+floorp-disable-toolbars = 
+    .label = 在 PWA 應用程式 停用工具列
+floorp-disable-toolbars-description = 在 PWA 應用程式 停用工具列。此設定將隱藏 PWA 應用程式 視窗裡所有的擴充套件以及工具列。
+ssb-installed-list-title = 已安裝的 PWA 應用程式
+ssb-uninstall-button = 
+    .label = 移除
+ssb-uninstall-title = 移除此 PWA 應用程式
+ssb-uninstall-message = 你是否要從 { -brand-short-name } 移除此 PWA 應用程式？
+ssb-uninstall-button = 移除
+ssb-uninstall-cancel = 取消
 ######################################################################### Download Notification ###############################################################
 floorp-started-download = 下載開始
 floorp-finished-download = 下載已完成

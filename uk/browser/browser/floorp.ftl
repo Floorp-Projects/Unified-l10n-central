@@ -762,6 +762,10 @@ workspaces-toolbar-button = Робочі простори
 
 ## Preferences
 
+enable-workspaces = 
+    .label = Enable Workspaces
+    .tooltiptext = Enable Workspaces
+workspace-notice = Workspaces will not work with this settings enabled unless the workspaces's button is placed on the toolbar. Use this setting if you want to disable Workspaces completely.
 enable-workspaces-with-experimental = 
     .label = Увімкнути робочі простори (експериментально)
     .tooltiptext = Увімкнути робочі простори (експериментально)
@@ -1052,6 +1056,31 @@ appmenuitem-contextmenu-open-app =
     .label = Відкрити цей додаток
 appmenuitem-contextmenu-uninstall-app = 
     .label = Видалити цей додаток
+
+## Preferences
+
+category-ssb = 
+    .label = Web Apps
+    .tooltiptext = Web Apps
+category-ssb-title = Web Apps
+floorp-ssb-title = Web Apps
+floorp-ssb-description = Web Apps are websites that can be installed as apps. They can be launched from { -brand-short-name }'s menu panel or the Windows Start menu.
+ssb-preferences = Web Apps Settings
+floorp-enable-ssb = 
+    .label = Enable Web Apps
+floorp-enable-ssb-with-experimental = 
+    .label = Enable Web Apps (Experimental)
+floorp-enable-ssb-description = This feature is experimental on Mac and Linux. It is recommended to enable this feature on Windows.
+floorp-disable-toolbars = 
+    .label = Disable toolbars on Web Apps Window
+floorp-disable-toolbars-description = Disable toolbars on Web Apps Window. This setting will hide all extensions and toolbars on Web Apps Window.
+ssb-installed-list-title = Installed Web Apps
+ssb-uninstall-button = 
+    .label = Uninstall
+ssb-uninstall-title = Uninstall Web App
+ssb-uninstall-message = Are you sure you want to uninstall this Web App from { -brand-short-name }?
+ssb-uninstall-button = Uninstall
+ssb-uninstall-cancel = Cancel
 ######################################################################### Download Notification ###############################################################
 floorp-started-download = Завантаження розпочато
 floorp-finished-download = Завантаження завершене
