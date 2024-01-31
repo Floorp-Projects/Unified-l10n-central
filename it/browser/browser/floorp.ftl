@@ -505,7 +505,7 @@ floorp-custom-actions-pip-action = Azioni Picture-in-Picture
 floorp-custom-actions-downloads-action = Azioni Download
 floorp-custom-actions-sidebar-action = Azioni Barra Laterale
 floorp-custom-actions-bms-action = Azioni Barra Laterale Manager Browser
-floorp-custom-actions-workspaces-action = Azioni Spazi di Lavoro
+floorp-custom-actions-workspaces-action = Workspaces Actions
 floorp-custom-actions-custom-action = Azioni Personalizzate (Sperimentali)
 
 ## Mouse Gestures
@@ -752,6 +752,7 @@ manage-this-workspaces =
     .label = Manage Workspaces...
     .accesskey = M
 workspace-new-default-name = New Workspace
+workspace-default-name = Default
 move-tab-another-workspace = 
     .label = Sposta in un altro Spazio di Lavoro
 rename-workspace-prompt-title = Rename Workspace
