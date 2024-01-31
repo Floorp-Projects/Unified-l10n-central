@@ -505,7 +505,7 @@ floorp-custom-actions-pip-action = Tindakan Gambar dalam Gambar
 floorp-custom-actions-downloads-action = Tindakan Unduhan
 floorp-custom-actions-sidebar-action = Tindakan Bilah Samping
 floorp-custom-actions-bms-action = Tindakan Bilah Samping Pengelola Peramban
-floorp-custom-actions-workspaces-action = Tindakan Ruang Kerja
+floorp-custom-actions-workspaces-action = Workspaces Actions
 floorp-custom-actions-custom-action = Tindakan Khusus (Eksperimental)
 
 ## Mouse Gestures
@@ -752,6 +752,7 @@ manage-this-workspaces =
     .label = Manage Workspaces...
     .accesskey = M
 workspace-new-default-name = New Workspace
+workspace-default-name = Default
 move-tab-another-workspace = 
     .label = Pindah ke Ruang Kerja lain
 rename-workspace-prompt-title = Rename Workspace
