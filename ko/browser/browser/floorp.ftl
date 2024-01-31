@@ -4,7 +4,7 @@
 
 ###################################################################### about:Dialog #################################################################################
 
-about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> 는 일본에서 개발되는 웹 브라우저입니다. Firefox를 기반으로 <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>에서 웹을 더 좋게 하기 위해 만들어지고 있습니다. 도움을 주고 싶으신가요? <label data-l10n-name="helpus-donateLink">기부</label>를 고려해 주세요.
+about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> 는 일본에서 개발되는 웹 브라우저이에요. Firefox를 기반으로 <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>에서 더 나은 웹을 만들기 위해 만들어지고 있어요. 도움을 주고 싶으신가요? <label data-l10n-name="helpus-donateLink">기부</label>를 고려해 주세요.
 icon-creator = 아이콘 제작자 : <label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> 와 <label data-l10n-name="brand-logo-twitter">@mwxdxx.</label>
 contributors = <label data-l10n-name="about-contributor">기여자 및 개발자 목록</label>
 #################################################################### about:preferences ####################################################################
@@ -13,7 +13,7 @@ pane-design-title = 디자인
 category-design = 
     .tooltiptext = { pane-design-title }
 design-header = { pane-design-title }
-feature-requires-restart = 변경 사항을 적용하려면 재시작해야 합니다.
+feature-requires-restart = 변경 사항을 적용하려면 재시작해야 해요.
 tab-width = 탭의 최소 너비
 preferences-tabs-newtab-position = 새 탭 위치
 open-new-tab-use-default = 
@@ -76,7 +76,7 @@ floorp-show-vertical-tab-newtab-button =
 floorp-show-vertical-tab-scrollbar = 
     .label = 세로 탭 바에서 스크롤바를 표시하기
 TST = 트리 스타일 탭
-about-TST = 트리 스타일 탭은 탭을 트리 구조로 표시할 수 있는 인기있는 애드온이예요. 이 애드온은 { -brand-short-name }에 이미 통합되어 있어요. { -brand-short-name }의 트리 스타일 탭을 사용하시려면 그 애드온을 설치해 주세요.
+about-TST = 트리 스타일 탭은 탭을 트리 구조로 표시할 수 있는 인기있는 애드온이에요. 이 애드온은 { -brand-short-name } 에 이미 통합되어 있어요. { -brand-short-name } 의 트리 스타일 탭을 사용하시려면 그 애드온을 설치해 주세요.
 treestyletab-Settings = 
     .label = 트리 스타일 탭 접기
 sidebar-reverse-position-toolbar = 반대편에 사이드바 표시
@@ -87,7 +87,7 @@ bookmarks-bottom-mode =
     .label = { -brand-short-name }하단에 북마크 툴바를 표시합니다.
 navbar-settings = 네비게이션 바
 show-nav-bar-bottom = 
-    .label = { -brand-short-name } 하단에 툴바 표시(실험적)
+    .label = { -brand-short-name } 하단에 도구모음 표시(실험적)
 material-effect = 
     .label = Mica For Everyone이 브라우저 디자인 수정 허용
 disable-extension-check-compatibility-option = 
@@ -97,11 +97,11 @@ enable-userscript =
     .label = 레거시 구성 요소 사용
 about-userscript = 이 기능을 활성화하면 예상치 못한 버그나 치명적인 오류가 발생할 수 있어요.
 search-positon-top = 
-    .label = 페이지 상단에 찾기 표시줄을 표시하기.
+    .label = 페이지 상단에 찾기 표시줄을 표시하기
 allow-auto-restart = 
     .label = 재시작이 필요한 설정이 변경되면 자동으로 재시작하기
 disable-fullscreen-notification = 
-    .label = 전체 화면으로 전환할 때 알림을 표시하지 않음
+    .label = 전체 화면으로 전환할 때 알림을 표시하지 않기
 
 ## Browser Theme
 
@@ -369,29 +369,29 @@ restore-button = 복원
 
 header-userjs = user.js
 userjs-customize = user.js로 { -brand-short-name } 커스터마이즈
-about-userjs-customize = user.js는 사용자 정의할 수 있는 구성 파일입니다 { -brand-short-name }. user.js 파일은 인터넷에서 다운로드되며 현재 user.js 파일을 덮어씁니다. 계속하기 전에 현재 user.js 파일을 백업하세요. { -brand-short-name }을 재시작하면 user.js 구성이 자동으로 적용됩니다.
+about-userjs-customize = user.js는 { -brand-short-name } 를 커스터마이즈할 수 있는 설정 파일입니다. user.js 파일은 인터넷에서 다운로드되며 현재 user.js 파일을 덮어씁니다. 계속하기 전에 현재 user.js 파일을 백업하세요. { -brand-short-name }을 재시작하면 user.js 설정이 자동으로 적용됩니다.
 userjs-label = user.js 목록
-userjs-prompt = 이 user.js 적용?
+userjs-prompt = 이 user.js 를 적용하시겠어요?
 apply-userjs-attention = 새 user.js를 적용하면 현재 user.js 파일을 덮어쓰게 됩니다.
 apply-userjs-attention2 = 계속하기 전에 현재 user.js 파일을 백업하세요.
 userjs-button = user.js 설정...
-userjs-select-option = { -brand-short-name } 에서 현재 사용되는 user.js를 관리하여 성능과 개인정보 보호를 개선합니다.
+userjs-select-option = { -brand-short-name } 에서 사용되는 user.js를 관리하여 성능과 개인정보 보호를 개선하세요.
 apply-userjs-button = 적용하기
 
 ## userjs Options
 
 default-userjs-label = { -brand-short-name } Default
-about-default-userjs = 원격 측정이 비활성화되었습니다. 다양한 커스텀이 활성화된 균형 잡힌 { -brand-short-name } .
+about-default-userjs = 원격 측정 비활성화. 다양한 커스텀이 활성화된 균형 잡힌 { -brand-short-name } 설정이예요.
 Securefox-label = Yokoffing Securefox
 about-Securefox = 기본적으로 HTTPS. 사이트 격리를 통한 완벽한 쿠키 보호. 향상된 상태 및 네트워크 파티셔닝. 기타 다양한 개선 사항.
 default-label = Yokoffing Default
-about-default = 모든 필수품. 깨지는 건 하나도 없습니다. 이것이 당신의 user.js입니다.
+about-default = 필요한 것은 모두. 깨질 일이 없습니다. 이것이 당신의 user.js입니다.
 Fastfox-label = Yokoffing Fastfox
 about-Fastfox = Firefox의 브라우징 속도를 대폭 향상시킵니다. Chrome을 압도하세요!
 Peskyfox-label = Yokoffing Peskyfox
-about-Peskyfox = 새 탭 페이지를 깔끔하게 정리합니다. Pocket을 제거합니다. 옵션으로 컴팩트 모드를 복원합니다. 웹 페이지 알림, 팝업 및 기타 성가신 알림을 중지합니다.
+about-Peskyfox = 새 탭 페이지를 깔끔하게 정리합니다. Pocket을 제거. 컴팩트 모드를 옵션으로 부활. 웹 페이지 알림, 팝업 및 기타 성가신 알림을 정지.
 Smoothfox-label = Yokoffing Smoothfox
-about-Smoothfox = 즐겨 사용하는 브라우저에서 Edge와 같은 부드러운 스크롤을 사용하거나 자신의 스타일에 맞는 브라우저를 선택하세요.
+about-Smoothfox = Edge와 같은 부드러운 스크롤을 최애의 브라우저에서.
 select-workspace = 워크스페이스 선택
 workspace-select-icon = 워크스페이스 아이콘 선택
     .label = 워크스페이스 아이콘 선택
@@ -525,7 +525,7 @@ about-TWS = Google 또는 Yandex를 사용하여 페이지를 실시간으로 �
 
 privacy-hub-header = 개인정보 보호 허브
 block-more-tracker = 더 많은 광고 및 트래커 차단
-block-tracker = 이 섹션에는 광고 및 트래커를 차단하도록 설계된 확장 프로그램 세트가 포함되어 있습니다.
+block-tracker = 이 섹션에서는 광고 및 트래커를 차단하도록 설계된 확장 프로그램들을 소개합니다.
 view-at-AMO = addons.mozilla.org에서 이 애드온 보기
 uBlock-Origin = uBlock Origin
 about-uboori = uBlock Origin은 광고, 광범위한 추적기 및 추가 위험 사이트를 차단합니다.
@@ -541,7 +541,7 @@ about-firefox-fingerprint-protection = Firefox에서 보호 기능을 활성화�
 fingerprint-Protection = 
     .label = 지문 인식 방지 보호
 html5-canvas-prompt-settings = 
-    .label = HTML5 이미지 데이터에 대한 액세스 확인 프롬프트 자동 해제
+    .label = HTML5 이미지 데이터에 대한 액세스 확인 프롬프트 자동 거부
 canvas-prompt = 수동으로 허용하지 않는 한 웹 사이트에서 캔버스 읽기 프롬프트를 사용하지 못하도록 합니다.
 disable-webgl = 
     .label = WebGL 비활성화
@@ -1071,15 +1071,15 @@ floorp-enable-ssb =
     .label = 웹 앱 사용하기
 floorp-enable-ssb-with-experimental = 
     .label = 웹 앱 사용하기 (실험적)
-floorp-enable-ssb-description = 이 기능은 Mac과 Linux에서 실험 단계입니다. Windows에서는 이 기능을 활성화하는 것이 좋습니다.
+floorp-enable-ssb-description = 이 기능은 Mac과 Linux에서 실험 단계이에요. Windows에서는 이 기능을 활성화하는 것이 좋아요.
 floorp-disable-toolbars = 
     .label = 웹 앱의 툴바를 사용하지 않기
-floorp-disable-toolbars-description = 웹 앱 창에서 도구 모음을 비활성화해요. 또한, 웹 앱에서 모든 확장기능을 사용할 수 없게 되어요.
+floorp-disable-toolbars-description = 웹 앱 창에서 도구 모음을 비활성화하고, 모든 확장기능 아이콘을 숨겨요.
 ssb-installed-list-title = 설치된 웹 앱
 ssb-uninstall-button = 
     .label = 삭제
 ssb-uninstall-title = 웹 앱을 삭제하기
-ssb-uninstall-message = { -brand-short-name } 에서 이 웹 앱을 삭제하시겠습니까?
+ssb-uninstall-message = { -brand-short-name } 에서 이 웹 앱을 삭제하시겠어요?
 ssb-uninstall-button = 삭제
 ssb-uninstall-cancel = 취소
 ######################################################################### Download Notification ###############################################################
@@ -1087,7 +1087,7 @@ floorp-started-download = 다운로드 시작
 floorp-finished-download = 다운로드 완료
 ######################################################################### Update notify ###############################################################
 
-floorp-notificationTitle-latest = { -brand-short-name } 는 최신 상태입니다!
+floorp-notificationTitle-latest = { -brand-short-name } 는 최신 상태이에요!
 floorp-notificationContent-latest = 최신 버전의 { -brand-short-name } 를 사용하고 있습니다.
 floorp-notificationTitle = 새로운 버전의 { -brand-short-name } 가 있어요!
 floorp-notificationContent = 최신 버전을 다운로드하려면 클릭하세요.
