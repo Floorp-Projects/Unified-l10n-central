@@ -505,7 +505,7 @@ floorp-custom-actions-pip-action = Kép a képben akciók
 floorp-custom-actions-downloads-action = Letöltések Akciók
 floorp-custom-actions-sidebar-action = Oldalsávos műveletek
 floorp-custom-actions-bms-action = Böngésző menedzser oldalsáv műveletei
-floorp-custom-actions-workspaces-action = Munkaterületek Műveletek
+floorp-custom-actions-workspaces-action = Workspaces Actions
 floorp-custom-actions-custom-action = Egyéni műveletek (kísérleti)
 
 ## Mouse Gestures
@@ -752,6 +752,7 @@ manage-this-workspaces =
     .label = Manage Workspaces...
     .accesskey = M
 workspace-new-default-name = New Workspace
+workspace-default-name = Default
 move-tab-another-workspace = 
     .label = Másik munkaterületre való áthelyezés
 rename-workspace-prompt-title = Rename Workspace
