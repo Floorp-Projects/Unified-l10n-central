@@ -505,7 +505,7 @@ floorp-custom-actions-pip-action = Ενέργειες Εικόνας-Σε-Εικ
 floorp-custom-actions-downloads-action = Ενέργειες Λήψεων
 floorp-custom-actions-sidebar-action = Ενέργειες Πλευρικής Μπάρας
 floorp-custom-actions-bms-action = Ενέργειες Πλευρικής Μπάρας Διαχειριστή Περιηγητή
-floorp-custom-actions-workspaces-action = Ενέργειες Χώρου Εργασίας
+floorp-custom-actions-workspaces-action = Workspaces Actions
 floorp-custom-actions-custom-action = Προσαρμοσμένες Ενέργειες (Πειραματικές)
 
 ## Mouse Gestures
@@ -752,6 +752,7 @@ manage-this-workspaces =
     .label = Manage Workspaces...
     .accesskey = M
 workspace-new-default-name = New Workspace
+workspace-default-name = Default
 move-tab-another-workspace = 
     .label = Μετακίνηση σε άλλο χώρο εργασίας
 rename-workspace-prompt-title = Rename Workspace
