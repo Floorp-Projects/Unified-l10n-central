@@ -4,9 +4,9 @@
 
 ###################################################################### about:Dialog #################################################################################
 
-about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> is one of the domestic browsers developed in Japan. It is based on Firefox and continues to operate under <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>, to improve the web. Want to help? <label data-l10n-name="helpus-donateLink">Make a donation</label>
+about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> один з вітчизняних браузерів, розроблений в Японії. Він заснований на Firefox і продовжує працювати під <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>, щоб покращити Інтернет. Хочете допомогти? <label data-l10n-name="helpus-donateLink">Зробіть пожертву</label>
 icon-creator = Автор ікон <label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> та <label data-l10n-name="brand-logo-twitter">@mwxdxx.</label>
-contributors = A list of <label data-l10n-name="about-contributor">contributors and Developers</label>
+contributors = Список контриб'юторів <label data-l10n-name="about-contributor">та розробників</label>
 #################################################################### about:preferences ####################################################################
 
 pane-design-title = Дизайн
