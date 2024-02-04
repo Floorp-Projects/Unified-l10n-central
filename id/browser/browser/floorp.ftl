@@ -6,7 +6,7 @@
 
 about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> adalah salah satu peramban domestik yang dikembangkan di Jepang. Peramban ini didasarkan pada Firefox dan terus beroperasi di bawah <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>, untuk meningkatkan web. Ingin membantu? <label data-l10n-name="helpus-donateLink">Berikan donasi</label>
 icon-creator = Pencipta ikon <label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> dan <label data-l10n-name="brand-logo-twitter">@mwxdxx.</label>
-contributors = Daftar kontributor dan Pengembang <label data-l10n-name="about-contributor"></label>
+contributors = Daftar kontributor dan pengembang <label data-l10n-name="about-contributor"></label>
 #################################################################### about:preferences ####################################################################
 
 pane-design-title = Desain
@@ -15,21 +15,21 @@ category-design =
 design-header = { pane-design-title }
 feature-requires-restart = Diperlukan pengaktifan ulang untuk menerapkan perubahan
 tab-width = Lebar minimum tab
-preferences-tabs-newtab-position = New tab position
+preferences-tabs-newtab-position = Posisi tab baru
 open-new-tab-use-default = 
-    .label = Membuka tab baru pada posisi default
+    .label = Membuka tab baru pada posisi bawaan
 open-new-tab-at-the-end = 
     .label = Buka tab baru di ujung Tab Bar
 open-new-tab-next-to-current = 
     .label = Membuka tab baru di samping tab yang sedang dibuka
 multirow-tabs-limit = 
-    .label = Mengaktifkan batas baris untuk tab multi-baris
+    .label = Mengaktifkan batas baris untuk tab multibaris
 multirow-tabs-newtab = 
     .label = Tempatkan tombol "Buka tab baru" di akhir baris tab paling bawah
 multirow-tabs-value = Jumlah baris saat tab multi-baris diaktifkan
 enable-tab-sleep = 
     .label = Mengaktifkan Tab Tidur
-tab-sleep-timeout-minutes-value = Tab akan tidur setelah tidak aktif selama (menit)
+tab-sleep-timeout-minutes-value = Tab akan tidur jika tidak aktif selama (menit)
 tab-sleep-settings-button = Pengaturan...
 tab-sleep-settings-dialog-title = 
     .title = Pengaturan Tab Tidur
@@ -39,16 +39,16 @@ tab-sleep-tab-context-menu-excludetab = Keep tab awake
 enable-tab-scroll-change = 
     .label = Beralih tab dengan menggulir dengan mouse Anda
 enable-tab-scroll-reverse = 
-    .label = Membalikkan arah tab gulir
+    .label = Membalikkan arah gulir tab
 enable-tab-scroll-wrap = 
     .label = Membungkus tab gulir di bagian tepi
 enable-double-click-block = 
-    .label = Close tabs with a double click
+    .label = Tutup tab dengan klik ganda
 enable-show-pinned-tabs-title = 
     .label = Menampilkan judul tab yang disematkan
 tabbar-preference = Bilah Tab
 tab-normal-mode = 
-    .label = Default
+    .label = Bawaan
 hide-horizontality-tabs = 
     .label = Menyembunyikan tab pada Bilah Tab Horizontal
 verticalTab-setting = 
@@ -58,36 +58,36 @@ move-tabbar-position =
 tabbar-on-bottom = 
     .label = Menampilkan Tab Bar di bagian bawah jendela
 tabbar-favicon-color = 
-    .label = Warnai Bilah Tab menggunakan warna favicon situs web saat ini
+    .label = Warnai Bilah Tab dengan warna favicon situs web saat ini
 tabbar-style-preference = Gaya Bilah Tab
 horizontal-tabbar = 
     .label = Bilah Tab Horizontal
 tabbar-style-description = Diperlukan pengaktifan ulang { -brand-short-name } untuk menerapkan pengaturan ini sepenuhnya.
 multirow-tabbar = 
-    .label = Bilah Tab Beberapa Baris
+    .label = Bilah Tab Multibaris
 vertical-tabbar = 
     .label = Bilah Tab Vertikal (eksperimental)
 native-vertical-tab-show-right = 
-    .label = Tampilkan Tab Bar Vertikal di sisi kanan jendela
+    .label = Tampilkan Bilah Tab Vertikal di sisi kanan jendela
 hover-vertical-tab = 
     .label = Collapse Vertical Tab Bar
 floorp-show-vertical-tab-newtab-button = 
-    .label = Show the "Open a new tab" button inside Vertical Tab Bar
+    .label = Tampilkan tombol "Buka tab baru" dalam Bilah Tab Vertikal
 floorp-show-vertical-tab-scrollbar = 
-    .label = Show scrollbar on Vertical Tab Bar
+    .label = Tampilkan bilah gulir pada Bilah Tab Vertikal
 TST = Tab Gaya Pohon
 about-TST = Tree Style Tab is a popular add-on that allows you to display tabs in a tree-like structure. This add-on is already pre-integrated in { -brand-short-name }. Please install the add-on to activate { -brand-short-name }'s Tree Style Tab.
 treestyletab-Settings = 
     .label = Tab Gaya Pohon Runtuh
 sidebar-reverse-position-toolbar = Tampilkan Bilah Samping di sisi lain
-bookmarks-bar-settings = Bilah Alat Penanda (hanya satu opsi yang dapat digunakan dalam satu waktu)
+bookmarks-bar-settings = Bilah Alat Markah (hanya satu opsi yang dapat digunakan dalam satu waktu)
 bookmarks-focus-mode = 
-    .label = Menyembunyikan Bilah Alat Penanda kecuali jika Anda mengarahkan kursor ke bilah navigasi
+    .label = Menyembunyikan Bilah Alat Markah kecuali jika Anda mengarahkan kursor ke bilah navigasi
 bookmarks-bottom-mode = 
-    .label = Tampilkan Bilah Alat Penanda di bagian bawah { -brand-short-name }
-navbar-settings = Navigation Bar
+    .label = Tampilkan Bilah Alat Markah di bagian bawah { -brand-short-name }
+navbar-settings = Bilah Navigasi
 show-nav-bar-bottom = 
-    .label = Tampilkan Bilah Alat di bagian bawah { -brand-short-name } (eksperimental)
+    .label = Tampilkan bilah alat di bagian bawah { -brand-short-name } (eksperimental)
 material-effect = 
     .label = Izinkan Mica For Everyone untuk memodifikasi desain browser
 disable-extension-check-compatibility-option = 
@@ -110,9 +110,9 @@ preferences-theme-appearance-header = Mode Tema
 system-theme-dark = 
     .label = Gelap
 system-theme-light = 
-    .label = Cahaya
+    .label = Terang
 system-theme-auto = 
-    .label = Ikuti tampilan sistem saya
+    .label = Ikuti tampilan sistem
 
 ## User interface preferences
 
@@ -131,38 +131,38 @@ floorp-gnomeUI =
 
 ## Download Manager
 
-download-notification-preferences = Unduh Pemberitahuan
+download-notification-preferences = Pemberitahuan Unduhan
 start-always-notify = 
     .label = Beri tahu hanya saat memulai unduhan
 finish-always-notify = 
     .label = Beri tahu hanya ketika unduhan selesai
 always-notify = 
-    .label = Memberitahukan saat memulai unduhan dan saat unduhan selesai
+    .label = Beri tahu saat memulai unduhan dan saat unduhan selesai
 do-not-notify = 
-    .label = Menonaktifkan notifikasi unduhan
+    .label = Nonaktifkan notifikasi unduhan
 
 ## Sidebar
 
-profiles-button-label = Mengelola Profil
-floorp-help-button-label = { -brand-short-name } Dukungan
+profiles-button-label = Kelola Profil
+floorp-help-button-label = Dukungan { -brand-short-name }
 appmenuitem-reboot = 
     .label = Mulai ulang
 
 ## UserAgent
 
-userAgent-preference = User Agent
+userAgent-preference = Agen Pengguna
 default-useragent-mode = 
-    .label = Gunakan Agen Pengguna Firefox (Default)
+    .label = Gunakan Agen Pengguna Firefox (Bawaan)
 windows-chrome-useragent-mode = 
-    .label = Memalsukan Chrome di Windows
+    .label = Palsukan sebagai Chrome di Windows
 macOS-chrome-useragent-mode = 
-    .label = Menipu Chrome di macOS
+    .label = Palsukan sebagai Chrome di macOS
 linux-chrome-useragent-mode = 
-    .label = Memalsukan Chrome di Linux
+    .label = Palsukan sebagai Chrome di Linux
 mobile-chrome-useragent-mode = 
-    .label = Memalsukan Chrome di iOS
+    .label = Palsukan sebagai Chrome di iOS
 use-custom-useragent-mode = 
-    .label = Gunakan Agen Pengguna Khusus
+    .label = Gunakan Agen Pengguna Lain
 
 ## DMR UI
 
@@ -173,9 +173,9 @@ downloading-red-color =
 sidebar-preferences = Bilah samping
 bsb-preferences = Pengaturan Bilah Samping Pengelola Peramban
 view-sidebar2-right = 
-    .label = Menampilkan Bilah Samping Pengelola Browser di sebelah kanan
+    .label = Menampilkan Bilah Samping Pengelola Peramban di sebelah kanan
 enable-sidebar2 = 
-    .label = Mengaktifkan Bilah Sisi Manajer Browser
+    .label = Mengaktifkan Bilah Samping Pengelola Peramban
 visible-bms = 
     .label = Menampilkan Bilah Samping Pengelola Peramban
 hide-bms-to-unload-panel = 
