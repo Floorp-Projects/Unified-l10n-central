@@ -36,7 +36,7 @@
 
 # ”Home" can be localized, “Firefox” must be treated as a brand
 # and kept in English.
--firefox-home-brand-name = Firefox-Startseite
+-firefox-home-brand-name = Floorp-Startseite
 
 # View" can be localized, “Firefox” must be treated as a brand
 # and kept in English.
