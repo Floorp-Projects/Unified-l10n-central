@@ -521,7 +521,7 @@ home-restore-defaults =
 # "Firefox" should be treated as a brand and kept in English,
 # while "Home" and "(Default)" can be localized.
 home-mode-choice-default =
-    .label = Firefox-Startseite (Standard)
+    .label = Floorp-Startseite (Standard)
 home-mode-choice-default-fx =
     .label = { -firefox-home-brand-name } (Standard)
 home-mode-choice-custom =
@@ -547,8 +547,8 @@ choose-bookmark =
 
 ## Home Section - Floorp Home Content Customization
 
-home-prefs-content-header = Inhalte des Firefox-Startbildschirms
-home-prefs-content-description = Wählen Sie, welche Inhalte auf Ihrem Firefox-Startbildschirm angezeigt werden sollen.
+home-prefs-content-header = Inhalte des Floorp-Startbildschirms
+home-prefs-content-description = Wählen Sie, welche Inhalte auf Ihrem Floorp-Startbildschirm angezeigt werden sollen.
 home-prefs-content-header2 = { -firefox-home-brand-name }-Inhalte
 home-prefs-content-description2 = Wählen Sie, welche Inhalte auf Ihrem { -firefox-home-brand-name }-Bildschirm angezeigt werden sollen.
 home-prefs-search-header =
