@@ -310,13 +310,13 @@ floorp-lepton-enable-tabbar-hide =
 floorp-lepton-enable-navbar-hide = 
     .label = Ẩn thanh công cụ
 floorp-lepton-enable-sidebar_header-hide = 
-    .label = Ẩn tiêu đề của cạnh bên
+    .label = Ẩn tiêu đề cạnh bên
 floorp-lepton-enable-urlbar_iconbox-hide = 
     .label = Ẩn biểu tượng thanh địa chỉ
 floorp-lepton-enable-bookmarkbar_icon-hide = 
     .label = Ẩn biểu tượng thanh dấu trang
 floorp-lepton-enable-bookmarkbar_label-hide = 
-    .label = Ẩn nhãn của thanh địa chỉ
+    .label = Ẩn nhãn thanh địa chỉ
 floorp-lepton-enable-disabled_menu-hide = 
     .label = Ẩn các mục bị vô hiệu hóa trong context menu
 floorp-lepton-disable-userChrome-icon = 
@@ -524,17 +524,17 @@ about-TWS = Dịch trang của bạn ngay lập tức bằng cách sử dụng G
 ## BlockMoreTrackers
 
 privacy-hub-header = Privacy Hub
-block-more-tracker = Block more Ads and Trackers
-block-tracker = This section contains a set of extensions designed to block ads and trackers
-view-at-AMO = View this addon in addons.mozilla.org
+block-more-tracker = Chặn quảng cáo và trình theo dõi
+block-tracker = Khu vực này chứa những tiện ích mở rộng dùng để chặn quảng cáo và trình theo dõi
+view-at-AMO = Xem tiện ích mở rộng này ở addons.mozilla.org
 uBlock-Origin = uBlock Origin
-about-uboori = uBlock Origin blocks ads, extensive trackers, and additional dangerous sites.
+about-uboori = uBlock Origin chặn quảng cáo, các trình theo dõi và các trang web nguy hiểm khác.
 Facebook-Container = Facebook Container
-about-Facebook-Container = Prevent Facebook from tracking you around the web. Facebook Container extension helps you take control and isolate your web activity from Facebook.
+about-Facebook-Container = Ngăn chặn Facebook theo dõi bạn trên web. Phần mở rộng Facebook Container giúp bạn giữ quyền kiểm soát và cô lập hoạt động web của mình khỏi Facebook.
 
 ## Fingerprinting
 
-fingerprint-header = Resist Fingerprinting & IP address leaks
+fingerprint-header = Ngăn ngừa viết lấy dấu vân tay và lộ địa chỉ IP
 block-fingerprint = Fingerprinting is a tracking mechanism that relies on the unique features of your browser and operating system. This section contains settings to further enhance this protection beyond the default blocking.
 enable-firefox-fingerprint-protections = Enable strong protection against fingerprinting
 about-firefox-fingerprint-protection = Enabling protection by Firefox includes forced light mode, disabling some APIs, etc. Some sites may be broken.
