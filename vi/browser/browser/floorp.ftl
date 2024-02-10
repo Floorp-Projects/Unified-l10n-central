@@ -496,27 +496,27 @@ CSK-keyborad-shortcut-is-changed = (Không được áp dụng)
 floorp-custom-actions-tab-action = Hành động tab
 floorp-custom-actions-page-action = Hành động của trang
 floorp-custom-actions-visible-action = Hành động hiện thị
-floorp-custom-actions-search-action = Hành động tìm kiếm
-floorp-custom-actions-tools-action = Tools Actions
-floorp-custom-actions-bookmark-action = Bookmark Actions
-floorp-custom-actions-open-page-action = Open Page Actions
-floorp-custom-actions-history-action = History Actions
-floorp-custom-actions-pip-action = Picture-in-Picture Actions
-floorp-custom-actions-downloads-action = Downloads Actions
-floorp-custom-actions-sidebar-action = Sidebar Actions
-floorp-custom-actions-bms-action = Browser Manager Sidebar Actions
-floorp-custom-actions-workspaces-action = Workspaces Actions
-floorp-custom-actions-custom-action = Custom Actions (Experimental)
+floorp-custom-actions-search-action = Hành động ở mục tìm kiếm
+floorp-custom-actions-tools-action = Hành động ở mục công cụ
+floorp-custom-actions-bookmark-action = Hành động ở mục dấu trang
+floorp-custom-actions-open-page-action = Hành động khi mở trang
+floorp-custom-actions-history-action = Hành động ở mục lịch sử
+floorp-custom-actions-pip-action = Hành động của Picture-in-Picture
+floorp-custom-actions-downloads-action = Hành động khi tải xuống
+floorp-custom-actions-sidebar-action = Hành động ở Sidebar
+floorp-custom-actions-bms-action = Hành động quản lý trình duyệt
+floorp-custom-actions-workspaces-action = Hành động ở mục Workspace
+floorp-custom-actions-custom-action = Tuỳ chỉnh hành động (Thử nghiệm)
 
 ## Mouse Gestures
 
-mouse-gesture = Mouse Gestures
-mouse-gesture-description = Gesturefy must be installed to use mouse gestures with { -brand-short-name }.
+mouse-gesture = Cử chỉ bằng chuột
+mouse-gesture-description = Gesturefy cần phải cài đặt để sử dụng cử chỉ chuột với { -brand-short-name }.
 Gesturefy = Gesturefy
-about-Gesturefy = Gesturefy is an extension that adds mouse gestures to your browser. If { -brand-short-name } detects the installation of this add-on, it will add gesture commands to Gesturefy that are only available in { -brand-short-name }. This add-on also create new tabs!
+about-Gesturefy = Gesturefy là một tiện ích mở rộng thêm cử chỉ chuột vào trình duyệt của bạn. Nếu { -brand-short-name } phát hiện rằng tiện ích mở rộng này đã được cài đặt, nó sẽ thêm các lệnh cử chỉ vào Gesturefy chỉ có sẵn trong { -brand-short-name }. Tiện ích mở rộng này cũng tạo ra các tab mới!
 # Translate
-TWS = Translate Web Pages
-about-TWS = Translate your page in real time using Google or Yandex. You can also translate selected text or the entire page.
+TWS = Dịch trang
+about-TWS = Dịch trang của bạn ngay lập tức bằng cách sử dụng Google hoặc Yandex. Bạn cũng có thể dịch đoạn văn bản đã chọn hoặc toàn bộ trang.
 
 # Privacy Hub
 
