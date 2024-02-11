@@ -500,23 +500,23 @@ floorp-custom-actions-search-action = Thao tác tìm kiếm
 floorp-custom-actions-tools-action = Thao tác ở thanh công cụ
 floorp-custom-actions-bookmark-action = Thao tác dấu trang
 floorp-custom-actions-open-page-action = Thao tác mở trang
-floorp-custom-actions-history-action = Hành động ở mục lịch sử
-floorp-custom-actions-pip-action = Hành động của Picture-in-Picture
-floorp-custom-actions-downloads-action = Hành động khi tải xuống
-floorp-custom-actions-sidebar-action = Hành động ở Sidebar
-floorp-custom-actions-bms-action = Hành động quản lý trình duyệt
-floorp-custom-actions-workspaces-action = Hành động ở mục Workspace
-floorp-custom-actions-custom-action = Tuỳ chỉnh hành động (Thử nghiệm)
+floorp-custom-actions-history-action = Thao tác lịch sử
+floorp-custom-actions-pip-action = Thao tác Ảnh - trong - ảnh (Pip)
+floorp-custom-actions-downloads-action = Thao tác tải xuống
+floorp-custom-actions-sidebar-action = Thao tác thanh lề
+floorp-custom-actions-bms-action = Thao tác quản lý thanh lề
+floorp-custom-actions-workspaces-action = Thao tác không gian làm việc
+floorp-custom-actions-custom-action = Thao tác tuỳ chỉnh (thử nghiệm)
 
 ## Mouse Gestures
 
-mouse-gesture = Cử chỉ bằng chuột
+mouse-gesture = Cử chỉ chuột
 mouse-gesture-description = Gesturefy cần phải cài đặt để sử dụng cử chỉ chuột với { -brand-short-name }.
 Gesturefy = Gesturefy
-about-Gesturefy = Gesturefy là một tiện ích mở rộng thêm cử chỉ chuột vào trình duyệt của bạn. Nếu { -brand-short-name } phát hiện rằng tiện ích add-on đã được cài đặt, nó sẽ thêm các lệnh cử chỉ vào Gesturefy chỉ có sẵn trong { -brand-short-name }. Add-on này cũng tạo ra các tab mới!
+about-Gesturefy = Gesturefy là một tiện ích mở rộng thêm cử chỉ chuột vào trình duyệt của bạn. Nếu { -brand-short-name } phát hiện rằng tiện ích đã được cài đặt, nó sẽ thêm các lệnh cử chỉ vào Gesturefy chỉ có sẵn trong { -brand-short-name }. Tiện ích này cũng tạo ra các tab mới!
 # Translate
-TWS = Dịch trang
-about-TWS = Dịch trang của bạn ngay lập tức bằng cách sử dụng Google hoặc Yandex. Bạn cũng có thể dịch đoạn văn bản đã chọn hoặc toàn bộ trang.
+TWS = Translate Web Pages
+about-TWS = Dịch trang của bạn ngay lập tức bằng cách sử dụng Google hoặc Yandex. Bạn cũng có thể dịch đoạn văn bản được đánh dấu hoặc toàn bộ trang.
 
 # Privacy Hub
 
@@ -524,22 +524,22 @@ about-TWS = Dịch trang của bạn ngay lập tức bằng cách sử dụng G
 ## BlockMoreTrackers
 
 privacy-hub-header = Privacy Hub
-block-more-tracker = Chặn quảng cáo và trình theo dõi
+block-more-tracker = Chặn quảng cáo và trình theo dõi mạnh mẽ hơn
 block-tracker = Khu vực này chứa những tiện ích mở rộng dùng để chặn quảng cáo và trình theo dõi
-view-at-AMO = Xem tiện ích mở rộng này ở addons.mozilla.org
+view-at-AMO = Xem tiện ích mở rộng này tại addons.mozilla.org
 uBlock-Origin = uBlock Origin
 about-uboori = uBlock Origin chặn quảng cáo, các trình theo dõi và các trang web nguy hiểm khác.
 Facebook-Container = Facebook Container
-about-Facebook-Container = Ngăn chặn Facebook theo dõi bạn trên web. Phần mở rộng Facebook Container giúp bạn giữ quyền kiểm soát và cô lập hoạt động web của mình khỏi Facebook.
+about-Facebook-Container = Ngăn chặn Facebook theo dõi bạn khi đang ở trên trang web. Phần mở rộng Facebook Container giúp bạn giữ quyền kiểm soát và cô lập hoạt động web của bạn trước Facebook.
 
 ## Fingerprinting
 
-fingerprint-header = Ngăn ngừa viết lấy dấu vân tay và lộ địa chỉ IP
+fingerprint-header = Ngăn ngừa Fingerprinting và lộ địa chỉ IP
 block-fingerprint = Fingerprinting là một cơ chế theo dõi dựa trên các đặc điểm duy nhất của trình duyệt và hệ điều hành của bạn. Phần này chứa các thiết lập để tăng cường bảo vệ hơn nữa so với trình chặn mặc định.
-enable-firefox-fingerprint-protections = Bật trình bảo vệ mạnh hơn trước cơ chế Fingerprinting
+enable-firefox-fingerprint-protections = Bật trình bảo vệ mạnh hơn trước Fingerprinting
 about-firefox-fingerprint-protection = Bật bảo vệ do Firefox bao gồm bắt buộc dùng chế độ sáng, vô hiệu hoá một số APIs, etc. Một vài trang có thể bị lỗi.
 fingerprint-Protection = 
-    .label = Bảo vệ chống vân tay
+    .label = Bảo vệ chống Fingerprinting
 html5-canvas-prompt-settings = 
     .label = Tự động bỏ qua các thông báo xác nhận truy cập cho dữ liệu hình ảnh HTML5
 canvas-prompt = Ngăn chặn trang web sử dụng thông báo đọc canvas trừ khi được phép thủ công.
@@ -547,52 +547,52 @@ disable-webgl =
     .label = Vô hiệu hoá WebGL
 about-webgl = WebGL là API của Javascript để hiển thị đồ hoạ, có thể được dùng để xác định GPU.
 Canvas-Blocker = Canvas Blocker
-about-CB = Add-ons này làm giả dữ liệu được sử dụng bởi các kỹ thuật fingerprinting.
+about-CB = Ngăn chặn trình theo dõi lưu lại dấu vân tay của bạn bằng cách sử dụng Api Canvas.
 WebRTC-connection = WebRTC là một tiêu chuẩn cung cấp cuộc gọi thời gian thực. Nếu bạn tắt thiết lập này, bạn sẽ không thể sử dụng Discord, v. v.
 WebRTC = 
     .label = Bật kết nối WebRTC
 ################################################################### browser ###############################################################
 
 rest-mode = Nghỉ ngơi một lát...
-rest-mode-description = { -brand-short-name } is currently suspended. Press ENTER or OK to continue.
+rest-mode-description = { -brand-short-name } hiện đang trong trạng thái nghỉ. Nhấn Enter hay Ok để tiếp tục.
 Sidebar2 = 
-    .label = Quản lý Sidebar của trình duyệt
-    .tooltiptext = Thay đổi hiện thị Sidebar
+    .label = Quản lý thanh lề
+    .tooltiptext = Thay đổi hiển thị thanh lề
 sidebar2-mute-and-unmute = 
-    .label = Tắt âm/bật âm thanh Panel này
+    .label = Tắt âm/bật âm thanh khung này
 sidebar2-unload-panel = 
-    .label = Unload panel này
+    .label = Không chạy khung này
 sidebar2-change-ua-panel = 
     .label = Tắt/bật User Agent Mobile
 sidebar2-delete-panel = 
-    .label = Xoá Panel này
+    .label = Xoá khung này
 sidebar2-close-button = 
-    .tooltiptext = Đóng Sidebar
+    .tooltiptext = Đóng thanh lề
 sidebar-back-button = 
-    .tooltiptext = Trở về
+    .tooltiptext = Trở lại
 sidebar-forward-button = 
-    .tooltiptext = Đi tiếp
+    .tooltiptext = Chuyển tiếp
 sidebar-reload-button = 
     .tooltiptext = Tải lại
 sidebar-go-index-button = 
-    .tooltiptext = Đến trang chủ
+    .tooltiptext = Về trang chủ
 sidebar-muteAndUnmute-button = 
-    .tooltiptext = Tắt âm/ bật âm thanh Sidebar
+    .tooltiptext = Tắt âm/ bật âm tại thanh lề
 sidebar2-browser-manager-sidebar = Quản lý trình duyệt
 show-browser-manager-sidebar = 
-    .tooltiptext = Xem { sidebar2-browser-manager-sidebar }
+    .tooltiptext = Hiện { sidebar2-browser-manager-sidebar }
 sidebar2-bookmark-sidebar = Dấu trang
 show-bookmark-sidebar = 
-    .tooltiptext = Xem { sidebar2-bookmark-sidebar }
+    .tooltiptext = Hiện { sidebar2-bookmark-sidebar }
 sidebar2-history-sidebar = Lịch sử
 show-history-sidebar = 
-    .tooltiptext = Xem { sidebar2-history-sidebar }
+    .tooltiptext = Hiện { sidebar2-history-sidebar }
 sidebar2-download-sidebar = Tải xuống
 show-download-sidebar = 
     .tooltiptext = Xem { sidebar2-download-sidebar }
 sidebar2-notes-sidebar = Notes
 show-notes-sidebar = 
-    .tooltiptext = Xem { sidebar2-notes-sidebar }
+    .tooltiptext = Hiện { sidebar2-notes-sidebar }
 sidebar-add-button = 
     .tooltiptext = { bsb-add }
 sidebar-addons-button = 
@@ -600,11 +600,11 @@ sidebar-addons-button =
 sidebar-passwords-button = 
     .tooltiptext = Mật khẩu
 sidebar-preferences-button = 
-    .tooltiptext = Thiết lập
+    .tooltiptext = Cài đặt
 sidebar-keepWidth-button = 
-    .tooltiptext = Tiếp tục sử dụng độ rộng này của Panel
+    .tooltiptext = Tiếp tục sử dụng độ rộng này của khung
 sidebar2-keep-width-for-global = 
-    .label = Áp dụng độ rộng này cho tất cả các bảng điều khiển không có độ rộng tùy chỉnh
+    .label = Áp dụng độ rộng này cho tất cả các khung không có độ rộng tùy chỉnh
 bsb-context-add = 
     .label = Thêm trang này vào Web Panel...
 bsb-context-link-add = 
@@ -622,10 +622,10 @@ css-menubar =
     .label = CSS
     .accesskey = C
 rebuild-css = 
-    .label = Tạo lại file CSS cho trình duyệt
+    .label = Tạo lại tập tin CSS cho trình duyệt
     .accesskey = R
 make-browsercss-file = 
-    .label = Tạo file CSS cho trình duyệt
+    .label = Tạo tập tin CSS cho trình duyệt
     .accesskey = M
 open-css-folder = 
     .label = Mở thư mục CSS
@@ -636,7 +636,7 @@ edit-userContentCss-editor =
     .label = Tuỳ chỉnh userContent.css
 not-found-editor-path = Không thể tìm thấy trình chỉnh sửa file CSS
 set-pref-description = Nhập vào vị trí của trình chỉnh sửa file CSS bạn muốn sử dụng:
-rebuild-complete = Quá trinh tạo lại thành công.
+rebuild-complete = Quá trinh tạo lại đã hoàn tất.
 please-enter-filename = Vui lòng nhập tên file.
 ################################################################### Undo-Closed-Tab ###############################################################
 
@@ -644,9 +644,9 @@ undo-closed-tab = Mở lại tab đã đóng
 ################################################################### about:addons ###############################################################
 
 # Dual Theme
-dual-theme-enable-addon-button = Mở dưới dạng chủ đề phụ
-dual-theme-disable-addon-button = Tắt chủ đề phụ
-dual-theme-enabled-heading = Mở dưới dạng chủ đề phụ
+dual-theme-enable-addon-button = Kích hoạt dưới dạng chủ đề phụ
+dual-theme-disable-addon-button = Vô hiệu hoá chủ đề phụ
+dual-theme-enabled-heading = Kích hoạt dưới dạng chủ đề phụ
 ##################################################################### toolbar ###############################################################
 
 status-bar = 
@@ -655,7 +655,7 @@ status-bar =
 ##################################################################### Gesturefy ###############################################################
 
 gf-floorp-open-tree-style-tab-name = Mở bảng điều khiển của Tree Style Tab của { -brand-short-name }
-gf-floorp-open-tree-style-tab-description = Mở Tree Style Tab Panel ở Sidebar
+gf-floorp-open-tree-style-tab-description = Mở bảng điều khiển Tree Style Tab ở thanh lề
 gf-floorp-open-bookmarks-sidebar-name = Mở bảng điểu khiển thanh dấu trang của { -brand-short-name }
 gf-floorp-open-bookmarks-sidebar-description = Mở panel dấu trang ở Sidebar
 gf-floorp-open-history-sidebar-name = Mở lịch sử { -brand-short-name } ở thanh lề
