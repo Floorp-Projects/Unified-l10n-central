@@ -668,7 +668,7 @@ gf-floorp-open-browser-manager-sidebar-name = Mở quản lý sidebar của trì
 gf-floorp-open-browser-manager-sidebar-description = Mở thanh quản lý của Sidebar nếu thanh Web Panel của thanh quản lý Sidebar đã được tải
 gf-floorp-close-browser-manager-sidebar-name = { -brand-short-name } Đóng quản lý Sidebar của trình duyệt
 gf-floorp-close-browser-manager-sidebar-description = Tắt quản lý Sidebar của trình duyệt
-gf-floorp-show-browser-manager-sidebar-name = Tắt/bật quản lý sidebar của trình duyệt [{ -brand-short-name }]
+gf-floorp-show-browser-manager-sidebar-name = Tắt/bật quản lý sidebar của trình duyệt { -brand-short-name }
 gf-floorp-show-browser-manager-sidebar-description = Tắt/bật quản lý sidebar của trình duyệt
 gf-floorp-hide-statusbar-name = [{ -brand-short-name }] Ẩn thanh trạng thái
 gf-floorp-hide-statusbar-description = Ẩn thanh trạng thái
@@ -693,7 +693,7 @@ update-portable-notification-failed-redirector-message = Cập nhật thất b�
 update-portable-notification-failed-prepare-message = Chuẩn bị cập nhật thất bại.
 ##################################################################### { -brand-short-name } Portable Preferences ###############################################################
 
-floorp-portable-update-application-allow = Cập nhật Portable { -brand-short-name }
+floorp-portable-update-application-allow = Cập nhật Portable cho { -brand-short-name }
 floorp-update-application-auto-enabled-option = 
     .label = Tự động cập nhật phiên bản { -brand-short-name } portable. (Khuyến khích)
 ##################################################################### Open link in external ###############################################################
@@ -896,9 +896,9 @@ floorp-custom-actions-quit-from-application = Thoát khỏi ứng dụng
     .label = Thoát { -brand-short-name }
 floorp-custom-actions-enter-into-customize-mode = Tuỳ chỉnh thanh công cụ
     .label = Mở tuỳ chỉnh { -brand-short-name }
-floorp-custom-actions-enter-into-offline-mode = Mở chế độ không có mạng (Offline)
-    .label = Mở chế độ không có mạng
-floorp-custom-actions-open-screen-capture = Mở công cụ chụp màn hình
+floorp-custom-actions-enter-into-offline-mode = Kích hoạt chế độ Offline
+    .label = Kích hoạt chế độ Offline
+floorp-custom-actions-open-screen-capture = Mở công cụ chụp ảnh màn hình
     .label = Chụp ảnh
 floorp-custom-actions-show-pip = Hiện chế độ ảnh-trong-ảnh
     .label = Hiện chế độ Ảnh-Trong-Ảnh
