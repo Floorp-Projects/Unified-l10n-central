@@ -272,11 +272,11 @@ newtab-background-folder-choose = Chọn thư mục ảnh...
 newtab-background-image-choose = Chọn ảnh...
 newtab-background-extensions = Dùng ảnh với những định dạng sau (được ngăn cách bởi dấu,)
 disable-blur-on-newtab = 
-    .label = Disable blur effect in { -brand-short-name } Home
+    .label = Vô hiệu hoá hiệu ứng mờ trong trang chủ { -brand-short-name }
 disable-releasenote-on-newtab = 
-    .label = Disable Release Note and Support Links in { -brand-short-name } Home
+    .label = Vô hiệu hoá thông tin cập nhật và liên kết hỗ trợ trong trang chủ { -brand-short-name }
 disable-imagecredit-on-newtab = 
-    .label = Disable image credit (Unsplash) in { -brand-short-name } Home
+    .label = Không hiện credit (Unsplash) trong trang chủ { -brand-short-name }
 
 ## Lepton Preferences
 
@@ -381,8 +381,8 @@ userjs-customize = Tuỳ chỉnh { -brand-short-name } với user.js
 about-userjs-customize = user.js là tập tin giúp bạn tùy chỉnh { -brand-short-name }. Tập tin user.js được tải xuống từ Internet và sẽ ghi đè lên tập tin user.js hiện tại của bạn. Hãy sao lưu tập tin user.js hiện tại của bạn trước khi tiếp tục. Các tuỳ chỉnh trong user.js sẽ được áp dụng tự động sau khi bạn khởi động lại { -brand-short-name }.
 userjs-label = Danh sách các tập tin user.js
 userjs-prompt = Áp dụng user.js này?
-apply-userjs-attention = User.js mới này sẽ ghi đè vào file user.js hiện tại của bạn.
-apply-userjs-attention2 = Vui lòng sao lưu file user.js hiện tại của bạn trước khi tiếp tục.
+apply-userjs-attention = User.js mới này sẽ ghi đè vào tập tin user.js hiện tại của bạn.
+apply-userjs-attention2 = Vui lòng lưu lại tập tin user.js hiện tại của bạn trước khi tiếp tục.
 userjs-button = Tuỳ chỉnh user.js...
 userjs-select-option = Quản lý tập tin user.js hiện đang được sử dụng trong { -brand-short-name } để cải thiện hiệu suất và bảo mật.
 apply-userjs-button = Áp dụng
@@ -1083,7 +1083,7 @@ floorp-enable-ssb-with-experimental =
 floorp-enable-ssb-description = Chức năng đang thử nghiệm trên Mac và Linux. Được khuyến nghị nên sử dụng tính năng này trên Windows.
 floorp-disable-toolbars = 
     .label = Vô hiệu hoá thanh công cụ trong ứng dụng Web
-floorp-disable-toolbars-description = This setting will hide all extensions and toolbars on Web Apps Window.
+floorp-disable-toolbars-description = Tuỳ chỉnh này sẽ ẩn toàn bộ tiện ích mở rộng và thanh công cụ trên cửa sổ ứng dụng Web.....
 ssb-installed-list-title = Ứng dụng web đã cài đặt
 ssb-uninstall-button = 
     .label = Gỡ cài đặt
