@@ -272,7 +272,11 @@ newtab-background-folder-choose = 选择图像文件夹...
 newtab-background-image-choose = 选择图像...
 newtab-background-extensions = 使用以下文件扩展名的图像 (用 “,” 分隔)
 disable-blur-on-newtab = 
-    .label = 在 { -brand-short-name } 主页上禁用模糊效果
+    .label = Disable blur effect in { -brand-short-name } Home
+disable-releasenote-on-newtab = 
+    .label = Disable Release Note and Support Links in { -brand-short-name } Home
+disable-imagecredit-on-newtab = 
+    .label = Disable image credit (Unsplash) in { -brand-short-name } Home
 
 ## Lepton Preferences
 
@@ -1079,7 +1083,7 @@ floorp-enable-ssb-with-experimental =
 floorp-enable-ssb-description = This feature is experimental on Mac and Linux. It is recommended to enable this feature on Windows.
 floorp-disable-toolbars = 
     .label = Disable toolbars on Web Apps Window
-floorp-disable-toolbars-description = Disable toolbars on Web Apps Window. This setting will hide all extensions and toolbars on Web Apps Window.
+floorp-disable-toolbars-description = This setting will hide all extensions and toolbars on Web Apps Window.
 ssb-installed-list-title = Installed Web Apps
 ssb-uninstall-button = 
     .label = Uninstall
