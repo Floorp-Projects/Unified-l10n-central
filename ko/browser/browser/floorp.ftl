@@ -272,7 +272,11 @@ newtab-background-folder-choose = 이미지 폴더 선택...
 newtab-background-image-choose = 이미지를 선택:
 newtab-background-extensions = 다음 파일 확장자(","로 구분)의 이미지 사용
 disable-blur-on-newtab = 
-    .label = { -brand-short-name } 홈에서 흐림 효과 비활성화하기
+    .label = Disable blur effect in { -brand-short-name } Home
+disable-releasenote-on-newtab = 
+    .label = Disable Release Note and Support Links in { -brand-short-name } Home
+disable-imagecredit-on-newtab = 
+    .label = Disable image credit (Unsplash) in { -brand-short-name } Home
 
 ## Lepton Preferences
 
@@ -1079,7 +1083,7 @@ floorp-enable-ssb-with-experimental =
 floorp-enable-ssb-description = 이 기능은 Mac과 Linux에서 실험 단계이에요. Windows에서는 이 기능을 활성화하는 것이 좋아요.
 floorp-disable-toolbars = 
     .label = 웹 앱의 툴바를 사용하지 않기
-floorp-disable-toolbars-description = 웹 앱 창에서 도구 모음을 비활성화하고, 모든 확장기능 아이콘을 숨겨요.
+floorp-disable-toolbars-description = This setting will hide all extensions and toolbars on Web Apps Window.
 ssb-installed-list-title = 설치된 웹 앱
 ssb-uninstall-button = 
     .label = 삭제
