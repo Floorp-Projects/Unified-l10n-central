@@ -181,10 +181,10 @@ visible-bms =
 hide-bms-to-unload-panel = 
     .label = 隱藏側欄面板時卸下面板內容
 enable-addons-in-sidebar2-with-experimental = 
-    .label = Enable Extensions Content Scripts in Browser Manager Sidebar (experimental)
+    .label = 在管理工具側邊欄中啟用擴充套件功能 (實驗性質)
 enable-addons-in-sidebar2 = 
-    .label = Enable Extensions Content Scripts in Browser Manager Sidebar
-sidebar2-enable-addons-desc = If this setting is enabled, ad blocking and other features will work in the sidebar. It also increases the number of APIs available to web pages opened in there.
+    .label = 在管理工具側邊欄中啟用擴充套件功能
+sidebar2-enable-addons-desc = 如果啟用此設定，抗廣告等功能的擴充套件將可在側邊欄中使用。但請注意，不是所有的擴充套件都能夠正常使用。
 custom-URL-option = 設置Web面板網址
 set-custom-URL-button = 
     .label = 設定自訂的網址...
@@ -272,11 +272,11 @@ newtab-background-folder-choose = 選擇圖像資料夾...
 newtab-background-image-choose = 選擇圖像…
 newtab-background-extensions = 使用擁有以下副檔名的圖像 (以","分割)
 disable-blur-on-newtab = 
-    .label = Disable blur effect in { -brand-short-name } Home
+    .label = 在 { -brand-short-name } 主頁上停用模糊效果
 disable-releasenote-on-newtab = 
-    .label = Disable Release Note and Support Links in { -brand-short-name } Home
+    .label = 在 { -brand-short-name } 首頁不顯示版本資訊及支援鏈接
 disable-imagecredit-on-newtab = 
-    .label = Disable image credit (Unsplash) in { -brand-short-name } Home
+    .label = 在 { -brand-short-name } 首頁不顯示 (Unsplash) 圖像來源
 
 ## Lepton Preferences
 
@@ -1085,7 +1085,7 @@ floorp-enable-ssb-with-experimental =
 floorp-enable-ssb-description = 此功能在 Mac 以及 Linux 平台上仍屬於實驗性質。建議在 Windows 平台上啟用此功能。
 floorp-disable-toolbars = 
     .label = 在 PWA 應用程式 停用工具列
-floorp-disable-toolbars-description = This setting will hide all extensions and toolbars on Web Apps Window.
+floorp-disable-toolbars-description = 此設定將會把 PWA 應用程式 視窗內所有的擴充套件及工具列隱藏。
 ssb-installed-list-title = 已安裝的 PWA 應用程式
 ssb-uninstall-button = 
     .label = 移除
