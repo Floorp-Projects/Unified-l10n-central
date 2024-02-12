@@ -27,7 +27,7 @@ open-new-tab-next-to-current =
  .label = Open new tabs next to the current tab
 multirow-tabs-limit = 
  .label = Enable row limit for multi-row tabs
-multirow-tabs-newtab = 
+multirow-tabs-newtab =
  .label = Place the "Open a new tab" button at the end of the lowest row of tabs
 multirow-tabs-value = Number of rows when multi-row tabs are enabled
 enable-tab-sleep = 
@@ -329,7 +329,7 @@ newtab-background-image = Use image :
 
 newtab-choose-image = Choose Image...
 
-newtab-background-folder-reload = 
+newtab-background-folder-reload =
   .label = Reload images
 
 newtab-background-folder-default = 
@@ -344,8 +344,14 @@ newtab-background-image-choose = Choose image...
 
 newtab-background-extensions = Use images with these file extensions (separated by ",")
 
-disable-blur-on-newtab = 
-  .label = Disable blur effect on { -brand-short-name } Home
+disable-blur-on-newtab =
+  .label = Disable blur effect in { -brand-short-name } Home
+
+disable-releasenote-on-newtab =
+  .label = Disable Release Note and Support Links in { -brand-short-name } Home
+
+disable-imagecredit-on-newtab =
+  .label = Disable image credit (Unsplash) in { -brand-short-name } Home
 
 ## Lepton Preferences
 
@@ -1267,7 +1273,7 @@ floorp-enable-ssb-description = This feature is experimental on Mac and Linux. I
 
 floorp-disable-toolbars =
   .label = Disable toolbars on Web Apps Window
-floorp-disable-toolbars-description = Disable toolbars on Web Apps Window. This setting will hide all extensions and toolbars on Web Apps Window.
+floorp-disable-toolbars-description = This setting will hide all extensions and toolbars on Web Apps Window.
 
 ssb-installed-list-title = Installed Web Apps
 
