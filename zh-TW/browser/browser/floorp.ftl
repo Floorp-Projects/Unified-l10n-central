@@ -272,7 +272,11 @@ newtab-background-folder-choose = 選擇圖像資料夾...
 newtab-background-image-choose = 選擇圖像…
 newtab-background-extensions = 使用擁有以下副檔名的圖像 (以","分割)
 disable-blur-on-newtab = 
-    .label = 在 { -brand-short-name } 主頁上停用模糊效果
+    .label = Disable blur effect in { -brand-short-name } Home
+disable-releasenote-on-newtab = 
+    .label = Disable Release Note and Support Links in { -brand-short-name } Home
+disable-imagecredit-on-newtab = 
+    .label = Disable image credit (Unsplash) in { -brand-short-name } Home
 
 ## Lepton Preferences
 
@@ -1081,7 +1085,7 @@ floorp-enable-ssb-with-experimental =
 floorp-enable-ssb-description = 此功能在 Mac 以及 Linux 平台上仍屬於實驗性質。建議在 Windows 平台上啟用此功能。
 floorp-disable-toolbars = 
     .label = 在 PWA 應用程式 停用工具列
-floorp-disable-toolbars-description = 在 PWA 應用程式 停用工具列。此設定將隱藏 PWA 應用程式 視窗裡所有的擴充套件以及工具列。
+floorp-disable-toolbars-description = This setting will hide all extensions and toolbars on Web Apps Window.
 ssb-installed-list-title = 已安裝的 PWA 應用程式
 ssb-uninstall-button = 
     .label = 移除
