@@ -181,10 +181,10 @@ visible-bms =
 hide-bms-to-unload-panel = 
     .label = Вивантажувати панель під час приховування
 enable-addons-in-sidebar2-with-experimental = 
-    .label = Enable Extensions Content Scripts in Browser Manager Sidebar (experimental)
+    .label = Увімкнути вмістові скрипти розширень у бічній панелі керування браузером (експериментально)
 enable-addons-in-sidebar2 = 
-    .label = Enable Extensions Content Scripts in Browser Manager Sidebar
-sidebar2-enable-addons-desc = If this setting is enabled, ad blocking extensions and other extensions will work in the sidebar. However, not all extensions will work.
+    .label = Увімкнути вмістові скрипти розширень у бічній панелі керування браузером
+sidebar2-enable-addons-desc = Якщо цей параметр увімкнено, розширення для блокування реклами та інші розширення працюватимуть у бічній панелі. Однак працюватимуть не всі розширення.
 custom-URL-option = Встановити URL веб-панелі
 set-custom-URL-button = 
     .label = Встановити користувацькі URL...
@@ -272,11 +272,11 @@ newtab-background-folder-choose = Виберіть папку з зображе�
 newtab-background-image-choose = Виберіть зображення...
 newtab-background-extensions = Використовувати зображення з цими розширеннями файлів (розділених ",")
 disable-blur-on-newtab = 
-    .label = Disable blur effect in { -brand-short-name } Home
+    .label = Вимкнути ефект розмиття на головній сторінці { -brand-short-name }
 disable-releasenote-on-newtab = 
-    .label = Disable Release Note and Support Links in { -brand-short-name } Home
+    .label = Вимкнути посилання на інформацію про випуск та підтримку на головній сторінці { -brand-short-name }
 disable-imagecredit-on-newtab = 
-    .label = Disable image credit (Unsplash) in { -brand-short-name } Home
+    .label = Відключити зазначення авторства зображень (Unsplash) на головній сторінці { -brand-short-name }
 
 ## Lepton Preferences
 
@@ -514,7 +514,7 @@ floorp-custom-actions-pip-action = Дії "Картинка в картинці"
 floorp-custom-actions-downloads-action = Дії завантажень
 floorp-custom-actions-sidebar-action = Дії бічної панелі
 floorp-custom-actions-bms-action = Дії бічної панелі менеджера браузера
-floorp-custom-actions-workspaces-action = Workspaces Actions
+floorp-custom-actions-workspaces-action = Дії робочих просторів
 floorp-custom-actions-custom-action = Користувацькі дії (експериментальні)
 
 ## Mouse Gestures
@@ -664,7 +664,7 @@ status-bar =
 ##################################################################### Gesturefy ###############################################################
 
 gf-floorp-open-tree-style-tab-name = [{ -brand-short-name }] Відкрити панель вкладок деревовидного стилю
-gf-floorp-open-tree-style-tab-description = Open Tree Style Tab Panel on the Sidebar
+gf-floorp-open-tree-style-tab-description = Відкрити панель вкладок в стилі дерева на бічній панелі
 gf-floorp-open-bookmarks-sidebar-name = Відкрити панель закладок [{ -brand-short-name }]
 gf-floorp-open-bookmarks-sidebar-description = Відкрийте панель закладок на бічній панелі
 gf-floorp-open-history-sidebar-name = [{ -brand-short-name }] Відкрита панель історії
@@ -775,7 +775,7 @@ workspaces-toolbar-button = Робочі простори
 enable-workspaces = 
     .label = Увімкнути робочі простори
     .tooltiptext = Увімкнути робочі простори
-workspace-notice = Workspaces will not work with this settings enabled unless the workspaces's button is placed on the toolbar. Use this setting if you want to disable Workspaces completely.
+workspace-notice = Робочі простори не працюватимуть з цим параметром, якщо на панелі інструментів не буде розміщено кнопку робочої області. Використовуйте цей параметр, якщо ви хочете повністю вимкнути робочі області.
 enable-workspaces-with-experimental = 
     .label = Увімкнути робочі простори (експериментально)
     .tooltiptext = Увімкнути робочі простори (експериментально)
@@ -1083,7 +1083,7 @@ floorp-enable-ssb-with-experimental =
 floorp-enable-ssb-description = Ця функція є експериментальною на Mac і Linux. Рекомендується увімкнути цю функцію у Windows.
 floorp-disable-toolbars = 
     .label = Вимкнути панель інструментів у вікні веб-додатків
-floorp-disable-toolbars-description = This setting will hide all extensions and toolbars on Web Apps Window.
+floorp-disable-toolbars-description = Цей параметр приховує всі розширення та панелі інструментів у вікні веб додатків.
 ssb-installed-list-title = Встановлені веб-програми
 ssb-uninstall-button = 
     .label = Видалити
