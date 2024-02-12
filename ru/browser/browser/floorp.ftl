@@ -181,10 +181,10 @@ visible-bms =
 hide-bms-to-unload-panel = 
     .label = Выгружать панель при её скрытии
 enable-addons-in-sidebar2-with-experimental = 
-    .label = Enable Extensions Content Scripts in Browser Manager Sidebar (experimental)
+    .label = Включить скрипты расширений в боковой панели менеджера браузера (экспериментально)
 enable-addons-in-sidebar2 = 
-    .label = Enable Extensions Content Scripts in Browser Manager Sidebar
-sidebar2-enable-addons-desc = If this setting is enabled, ad blocking extensions and other extensions will work in the sidebar. However, not all extensions will work.
+    .label = Включить скрипты расширений в боковой панели менеджера браузера
+sidebar2-enable-addons-desc = Если эта настройка включена, расширения, блокирующие рекламу, и другие расширения будут работать в боковой панели. Однако не все расширения будут работать.
 custom-URL-option = Задать URL-адреса веб-панели
 set-custom-URL-button = 
     .label = Задать URL...
@@ -272,11 +272,11 @@ newtab-background-folder-choose = Выберите папку с изображ�
 newtab-background-image-choose = Выберите изображение...
 newtab-background-extensions = Использовать изображения с этими расширениями (через ",")
 disable-blur-on-newtab = 
-    .label = Disable blur effect in { -brand-short-name } Home
+    .label = Отключить эффект размытия на домашней странице { -brand-short-name }
 disable-releasenote-on-newtab = 
-    .label = Disable Release Note and Support Links in { -brand-short-name } Home
+    .label = Отключите заметки о выпуске и ссылки поддержки на домашней странице { -brand-short-name }
 disable-imagecredit-on-newtab = 
-    .label = Disable image credit (Unsplash) in { -brand-short-name } Home
+    .label = Отключить указание авторства изображений (Unsplash) на главной странице { -brand-short-name }
 
 ## Lepton Preferences
 
@@ -1083,7 +1083,7 @@ floorp-enable-ssb-with-experimental =
 floorp-enable-ssb-description = Эта функция экспериментальна на Mac и Linux. Рекомендуется включить эту функцию в Windows.
 floorp-disable-toolbars = 
     .label = Отключить панель инструментов в окне веб-приложений
-floorp-disable-toolbars-description = This setting will hide all extensions and toolbars on Web Apps Window.
+floorp-disable-toolbars-description = Этот параметр скрывает все расширения и панели инструментов в окне веб приложений.
 ssb-installed-list-title = Установленные веб-приложения
 ssb-uninstall-button = 
     .label = Удалить
