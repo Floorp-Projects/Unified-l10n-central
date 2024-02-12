@@ -272,7 +272,11 @@ newtab-background-folder-choose = Виберіть папку з зображе�
 newtab-background-image-choose = Виберіть зображення...
 newtab-background-extensions = Використовувати зображення з цими розширеннями файлів (розділених ",")
 disable-blur-on-newtab = 
-    .label = Вимкнути ефект розмиття на головній сторінці { -brand-short-name }
+    .label = Disable blur effect in { -brand-short-name } Home
+disable-releasenote-on-newtab = 
+    .label = Disable Release Note and Support Links in { -brand-short-name } Home
+disable-imagecredit-on-newtab = 
+    .label = Disable image credit (Unsplash) in { -brand-short-name } Home
 
 ## Lepton Preferences
 
@@ -1079,7 +1083,7 @@ floorp-enable-ssb-with-experimental =
 floorp-enable-ssb-description = Ця функція є експериментальною на Mac і Linux. Рекомендується увімкнути цю функцію у Windows.
 floorp-disable-toolbars = 
     .label = Вимкнути панель інструментів у вікні веб-додатків
-floorp-disable-toolbars-description = Вимкнути панель інструментів у вікні веб-додатків. Цей параметр буде приховувати всі розширення та панелі інструментів у веб-додатках.
+floorp-disable-toolbars-description = This setting will hide all extensions and toolbars on Web Apps Window.
 ssb-installed-list-title = Встановлені веб-програми
 ssb-uninstall-button = 
     .label = Видалити
