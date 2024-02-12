@@ -211,6 +211,12 @@ visible-bms =
  .label = Show the Browser Manager Sidebar
 hide-bms-to-unload-panel =
   .label = Unload panel when hiding panel
+enable-addons-in-sidebar2-with-experimental =
+ .label = Enable Extensions Content Scripts in Browser Manager Sidebar (experimental)
+enable-addons-in-sidebar2 =
+ .label = Enable Extensions Content Scripts in Browser Manager Sidebar
+sidebar2-enable-addons-desc = If this setting is enabled, ad blocking and other features will work in the sidebar. It also increases the number of APIs available to web pages opened in there.
+
 custom-URL-option = Set Web Panel URLs
 set-custom-URL-button =
     .label = Set Custom URLs...
