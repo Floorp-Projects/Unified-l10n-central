@@ -272,7 +272,11 @@ newtab-background-folder-choose = 画像フォルダーを選択...
 newtab-background-image-choose = 画像を選択...
 newtab-background-extensions = 画像の拡張子 ("," で区切ります)
 disable-blur-on-newtab = 
-    .label = { -brand-short-name } Home のぼかし効果を無効にする
+    .label = Disable blur effect in { -brand-short-name } Home
+disable-releasenote-on-newtab = 
+    .label = Disable Release Note and Support Links in { -brand-short-name } Home
+disable-imagecredit-on-newtab = 
+    .label = Disable image credit (Unsplash) in { -brand-short-name } Home
 
 ## Lepton Preferences
 
@@ -1079,7 +1083,7 @@ floorp-enable-ssb-with-experimental =
 floorp-enable-ssb-description = この機能は Mac と Linux では実験的なものです。Windows ではこの機能を有効にすることをおすすめします。
 floorp-disable-toolbars = 
     .label = ウェブアプリのツールバーを無効にする
-floorp-disable-toolbars-description = ウェブアプリのウインドウに表示されるツールバーを非表示にします。また、すべての拡張機能も非表示になります。
+floorp-disable-toolbars-description = This setting will hide all extensions and toolbars on Web Apps Window.
 ssb-installed-list-title = インストール済みのウェブアプリ
 ssb-uninstall-button = 
     .label = アンインストール
