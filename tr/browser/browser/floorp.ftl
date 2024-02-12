@@ -180,6 +180,11 @@ visible-bms =
     .label = Tarayıcı Yöneticisi Kenar Çubuğunu göster
 hide-bms-to-unload-panel = 
     .label = Paneli gizlerken paneli boşalt
+enable-addons-in-sidebar2-with-experimental = 
+    .label = Enable Extensions Content Scripts in Browser Manager Sidebar (experimental)
+enable-addons-in-sidebar2 = 
+    .label = Enable Extensions Content Scripts in Browser Manager Sidebar
+sidebar2-enable-addons-desc = If this setting is enabled, ad blocking and other features will work in the sidebar. It also increases the number of APIs available to web pages opened in there.
 custom-URL-option = Web Paneli URL'lerini Ayarla
 set-custom-URL-button = 
     .label = Özel URL'leri Ayarla...
@@ -505,7 +510,7 @@ floorp-custom-actions-pip-action = Resim İçinde Resim Eylemleri
 floorp-custom-actions-downloads-action = İndirmeler Eylemler
 floorp-custom-actions-sidebar-action = Kenar Çubuğu Eylemleri
 floorp-custom-actions-bms-action = Tarayıcı Yöneticisi Kenar Çubuğu Eylemleri
-floorp-custom-actions-workspaces-action = Çalışma Alanları Eylemler
+floorp-custom-actions-workspaces-action = Workspaces Actions
 floorp-custom-actions-custom-action = Özel Eylemler (Deneysel)
 
 ## Mouse Gestures

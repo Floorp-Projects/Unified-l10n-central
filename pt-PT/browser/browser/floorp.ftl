@@ -180,6 +180,11 @@ visible-bms =
     .label = Mostrar a barra lateral Gerenciador de Navegadores
 hide-bms-to-unload-panel = 
     .label = Descarregar painel quando esconder painel
+enable-addons-in-sidebar2-with-experimental = 
+    .label = Enable Extensions Content Scripts in Browser Manager Sidebar (experimental)
+enable-addons-in-sidebar2 = 
+    .label = Enable Extensions Content Scripts in Browser Manager Sidebar
+sidebar2-enable-addons-desc = If this setting is enabled, ad blocking and other features will work in the sidebar. It also increases the number of APIs available to web pages opened in there.
 custom-URL-option = Definir URLs do Painel Web
 set-custom-URL-button = 
     .label = Configurar URLs Personalizados...
@@ -505,7 +510,7 @@ floorp-custom-actions-pip-action = Ações Picture-in-Picture
 floorp-custom-actions-downloads-action = Ações de Downloads
 floorp-custom-actions-sidebar-action = Ações do painel lateral
 floorp-custom-actions-bms-action = Ações da barra lateral do navegador
-floorp-custom-actions-workspaces-action = Ações do Workspace
+floorp-custom-actions-workspaces-action = Workspaces Actions
 floorp-custom-actions-custom-action = Ações personalizadas (Experimental)
 
 ## Mouse Gestures

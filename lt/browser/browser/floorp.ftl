@@ -180,6 +180,11 @@ visible-bms =
     .label = Rodyti naršyklės tvarkyklės šoninę juostą
 hide-bms-to-unload-panel = 
     .label = Iškrauti skydelį, kai paslepiamas skydelis
+enable-addons-in-sidebar2-with-experimental = 
+    .label = Enable Extensions Content Scripts in Browser Manager Sidebar (experimental)
+enable-addons-in-sidebar2 = 
+    .label = Enable Extensions Content Scripts in Browser Manager Sidebar
+sidebar2-enable-addons-desc = If this setting is enabled, ad blocking and other features will work in the sidebar. It also increases the number of APIs available to web pages opened in there.
 custom-URL-option = Nustatyti žiniatinklio skydelio URL adresus
 set-custom-URL-button = 
     .label = Nustatyti pasirinktinius URL adresus...
@@ -505,7 +510,7 @@ floorp-custom-actions-pip-action = Vaizdas paveikslelyjė veiksmai
 floorp-custom-actions-downloads-action = Atsisiuntimo veiksmai
 floorp-custom-actions-sidebar-action = Veiksmai šoninėje juostoje
 floorp-custom-actions-bms-action = Naršyklės tvarkyklės šoninės juostos veiksmai
-floorp-custom-actions-workspaces-action = Aplinkos veiksmai
+floorp-custom-actions-workspaces-action = Workspaces Actions
 floorp-custom-actions-custom-action = Pasirinktiniai veiksmai (eksperimentuojama)
 
 ## Mouse Gestures

@@ -180,6 +180,11 @@ visible-bms =
     .label = إظهار الشريط الجانبي لمدير المتصفح
 hide-bms-to-unload-panel = 
     .label = إلغاء تحميل اللوحة عند إخفاء اللوحة
+enable-addons-in-sidebar2-with-experimental = 
+    .label = Enable Extensions Content Scripts in Browser Manager Sidebar (experimental)
+enable-addons-in-sidebar2 = 
+    .label = Enable Extensions Content Scripts in Browser Manager Sidebar
+sidebar2-enable-addons-desc = If this setting is enabled, ad blocking and other features will work in the sidebar. It also increases the number of APIs available to web pages opened in there.
 custom-URL-option = تعيين روابط لوحة الوب
 set-custom-URL-button = 
     .label = تعيين عناوين URL مخصصة...
@@ -505,7 +510,7 @@ floorp-custom-actions-pip-action = إجراءات الصورة في الصورة
 floorp-custom-actions-downloads-action = إجراءات التنزيلات
 floorp-custom-actions-sidebar-action = إجراءات الشريط الجانبي
 floorp-custom-actions-bms-action = إجراءات الشريط الجانبي لمدير المتصفح
-floorp-custom-actions-workspaces-action = إجراءات مساحات العمل
+floorp-custom-actions-workspaces-action = Workspaces Actions
 floorp-custom-actions-custom-action = إجراءات مخصصة (تجريبية)
 
 ## Mouse Gestures

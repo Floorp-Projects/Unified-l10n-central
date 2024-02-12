@@ -4,9 +4,9 @@
 
 ###################################################################### about:Dialog #################################################################################
 
-about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> is one of the domestic browsers developed in Japan. It is based on Firefox and continues to operate under <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>, to improve the web. Want to help? <label data-l10n-name="helpus-donateLink">Make a donation</label>
+about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> один з вітчизняних браузерів, розроблений в Японії. Він заснований на Firefox і продовжує працювати під <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>, щоб покращити Інтернет. Хочете допомогти? <label data-l10n-name="helpus-donateLink">Зробіть пожертву</label>
 icon-creator = Автор ікон <label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> та <label data-l10n-name="brand-logo-twitter">@mwxdxx.</label>
-contributors = A list of <label data-l10n-name="about-contributor">contributors and Developers</label>
+contributors = Список контриб'юторів <label data-l10n-name="about-contributor">та розробників</label>
 #################################################################### about:preferences ####################################################################
 
 pane-design-title = Дизайн
@@ -180,6 +180,11 @@ visible-bms =
     .label = Показати бічну панель менеджера браузера
 hide-bms-to-unload-panel = 
     .label = Вивантажувати панель під час приховування
+enable-addons-in-sidebar2-with-experimental = 
+    .label = Enable Extensions Content Scripts in Browser Manager Sidebar (experimental)
+enable-addons-in-sidebar2 = 
+    .label = Enable Extensions Content Scripts in Browser Manager Sidebar
+sidebar2-enable-addons-desc = If this setting is enabled, ad blocking and other features will work in the sidebar. It also increases the number of APIs available to web pages opened in there.
 custom-URL-option = Встановити URL веб-панелі
 set-custom-URL-button = 
     .label = Встановити користувацькі URL...
@@ -505,7 +510,7 @@ floorp-custom-actions-pip-action = Дії "Картинка в картинці"
 floorp-custom-actions-downloads-action = Дії завантажень
 floorp-custom-actions-sidebar-action = Дії бічної панелі
 floorp-custom-actions-bms-action = Дії бічної панелі менеджера браузера
-floorp-custom-actions-workspaces-action = Дії робочих просторів
+floorp-custom-actions-workspaces-action = Workspaces Actions
 floorp-custom-actions-custom-action = Користувацькі дії (експериментальні)
 
 ## Mouse Gestures
@@ -752,6 +757,7 @@ manage-this-workspaces =
     .label = Налаштувати робочі простори...
     .accesskey = M
 workspace-new-default-name = Новий робочий простір
+workspace-default-name = Стандартний
 move-tab-another-workspace = 
     .label = Перемістити в інший робочий простір
 rename-workspace-prompt-title = Перейменувати робочий простір
@@ -763,17 +769,17 @@ workspaces-toolbar-button = Робочі простори
 ## Preferences
 
 enable-workspaces = 
-    .label = Enable Workspaces
-    .tooltiptext = Enable Workspaces
+    .label = Увімкнути робочі простори
+    .tooltiptext = Увімкнути робочі простори
 workspace-notice = Workspaces will not work with this settings enabled unless the workspaces's button is placed on the toolbar. Use this setting if you want to disable Workspaces completely.
 enable-workspaces-with-experimental = 
     .label = Увімкнути робочі простори (експериментально)
     .tooltiptext = Увімкнути робочі простори (експериментально)
-workspace-warning = Workspaces cannot be used with Tab Group add-ons. If you want to use Tab Group add-ons, please disable Workspaces and restart { -brand-short-name }.
+workspace-warning = Робочі простори не можна використовувати з доповненням Tab Group. Якщо ви хочете використовувати доповнення Tab Group, вимкніть робочі простори та перезапустіть { -brand-short-name }.
 category-workspaces = 
     .label = Робочі простори
-    .tooltiptext = Workspaces
-pane-workspaces-title = Workspaces
+    .tooltiptext = Робочі простори
+pane-workspaces-title = Робочі простори
 floorp-workspaces-title = Робочі простори { -brand-short-name }
 floorp-workspace-settings-button = Налаштування робочого простору...
 change-to-close-workspace-popup-option = 
@@ -1060,27 +1066,27 @@ appmenuitem-contextmenu-uninstall-app =
 ## Preferences
 
 category-ssb = 
-    .label = Web Apps
-    .tooltiptext = Web Apps
-category-ssb-title = Web Apps
-floorp-ssb-title = Web Apps
-floorp-ssb-description = Web Apps are websites that can be installed as apps. They can be launched from { -brand-short-name }'s menu panel or the Windows Start menu.
-ssb-preferences = Web Apps Settings
+    .label = Веб-додатки
+    .tooltiptext = Веб-додатки
+category-ssb-title = Веб-додатки
+floorp-ssb-title = Веб-додатки
+floorp-ssb-description = Веб-додатки - це веб-сайти, які можна встановити як додатки. Їх можна запустити з панелі меню { -brand-short-name } або з меню "Пуск" Windows.
+ssb-preferences = Налаштування веб-додатків
 floorp-enable-ssb = 
-    .label = Enable Web Apps
+    .label = Увімкнути веб-додатки
 floorp-enable-ssb-with-experimental = 
-    .label = Enable Web Apps (Experimental)
-floorp-enable-ssb-description = This feature is experimental on Mac and Linux. It is recommended to enable this feature on Windows.
+    .label = Увімкнути веб-додатки (експериментально)
+floorp-enable-ssb-description = Ця функція є експериментальною на Mac і Linux. Рекомендується увімкнути цю функцію у Windows.
 floorp-disable-toolbars = 
-    .label = Disable toolbars on Web Apps Window
-floorp-disable-toolbars-description = Disable toolbars on Web Apps Window. This setting will hide all extensions and toolbars on Web Apps Window.
-ssb-installed-list-title = Installed Web Apps
+    .label = Вимкнути панель інструментів у вікні веб-додатків
+floorp-disable-toolbars-description = Вимкнути панель інструментів у вікні веб-додатків. Цей параметр буде приховувати всі розширення та панелі інструментів у веб-додатках.
+ssb-installed-list-title = Встановлені веб-програми
 ssb-uninstall-button = 
-    .label = Uninstall
-ssb-uninstall-title = Uninstall Web App
-ssb-uninstall-message = Are you sure you want to uninstall this Web App from { -brand-short-name }?
-ssb-uninstall-button = Uninstall
-ssb-uninstall-cancel = Cancel
+    .label = Видалити
+ssb-uninstall-title = Видалити веб-додаток
+ssb-uninstall-message = Ви впевнені, що хочете видалити цей веб-додаток з { -brand-short-name }?
+ssb-uninstall-button = Видалити
+ssb-uninstall-cancel = Скасувати
 ######################################################################### Download Notification ###############################################################
 floorp-started-download = Завантаження розпочато
 floorp-finished-download = Завантаження завершене
