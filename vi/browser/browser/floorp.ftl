@@ -272,7 +272,11 @@ newtab-background-folder-choose = Chọn thư mục ảnh...
 newtab-background-image-choose = Chọn ảnh...
 newtab-background-extensions = Dùng ảnh với những định dạng sau (được ngăn cách bởi dấu,)
 disable-blur-on-newtab = 
-    .label = Tắt hiệu ứng mờ tại trang chủ { -brand-short-name }
+    .label = Disable blur effect in { -brand-short-name } Home
+disable-releasenote-on-newtab = 
+    .label = Disable Release Note and Support Links in { -brand-short-name } Home
+disable-imagecredit-on-newtab = 
+    .label = Disable image credit (Unsplash) in { -brand-short-name } Home
 
 ## Lepton Preferences
 
@@ -1079,7 +1083,7 @@ floorp-enable-ssb-with-experimental =
 floorp-enable-ssb-description = Chức năng đang thử nghiệm trên Mac và Linux. Được khuyến nghị nên sử dụng tính năng này trên Windows.
 floorp-disable-toolbars = 
     .label = Vô hiệu hoá thanh công cụ trong ứng dụng Web
-floorp-disable-toolbars-description = Vô hiệu hoá thanh công cụ trong ứng dụng Web. Tuỳ chọn này sẽ ẩn tất cả tiện ích mở rộng và thanh công cụ trong ứng dụng Web.
+floorp-disable-toolbars-description = This setting will hide all extensions and toolbars on Web Apps Window.
 ssb-installed-list-title = Ứng dụng web đã cài đặt
 ssb-uninstall-button = 
     .label = Gỡ cài đặt
