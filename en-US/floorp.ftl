@@ -215,7 +215,7 @@ enable-addons-in-sidebar2-with-experimental =
  .label = Enable Extensions Content Scripts in Browser Manager Sidebar (experimental)
 enable-addons-in-sidebar2 =
  .label = Enable Extensions Content Scripts in Browser Manager Sidebar
-sidebar2-enable-addons-desc = If this setting is enabled, ad blocking and other features will work in the sidebar. It also increases the number of APIs available to web pages opened in there.
+sidebar2-enable-addons-desc = If this setting is enabled, ad blocking extensions and other extensions will work in the sidebar. However, not all extensions will work.
 
 custom-URL-option = Set Web Panel URLs
 set-custom-URL-button =
