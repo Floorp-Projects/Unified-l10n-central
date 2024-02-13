@@ -184,7 +184,7 @@ enable-addons-in-sidebar2-with-experimental =
     .label = Enable Extensions Content Scripts in Browser Manager Sidebar (experimental)
 enable-addons-in-sidebar2 = 
     .label = Enable Extensions Content Scripts in Browser Manager Sidebar
-sidebar2-enable-addons-desc = If this setting is enabled, ad blocking and other features will work in the sidebar. It also increases the number of APIs available to web pages opened in there.
+sidebar2-enable-addons-desc = If this setting is enabled, ad blocking extensions and other extensions will work in the sidebar. However, not all extensions will work.
 custom-URL-option = Ustaw adresy URL panelu sieci Web
 set-custom-URL-button = 
     .label = Ustaw niestandardowe URL...
@@ -272,7 +272,11 @@ newtab-background-folder-choose = Wybierz folder obrazów...
 newtab-background-image-choose = Choose image...
 newtab-background-extensions = Użyj obrazów z tymi rozszerzeniami plików (oddzielone przez ",")
 disable-blur-on-newtab = 
-    .label = Wyłącz efekt rozmycia na { -brand-short-name } Home
+    .label = Disable blur effect in { -brand-short-name } Home
+disable-releasenote-on-newtab = 
+    .label = Disable Release Note and Support Links in { -brand-short-name } Home
+disable-imagecredit-on-newtab = 
+    .label = Disable image credit (Unsplash) in { -brand-short-name } Home
 
 ## Lepton Preferences
 
@@ -1079,7 +1083,7 @@ floorp-enable-ssb-with-experimental =
 floorp-enable-ssb-description = This feature is experimental on Mac and Linux. It is recommended to enable this feature on Windows.
 floorp-disable-toolbars = 
     .label = Disable toolbars on Web Apps Window
-floorp-disable-toolbars-description = Disable toolbars on Web Apps Window. This setting will hide all extensions and toolbars on Web Apps Window.
+floorp-disable-toolbars-description = This setting will hide all extensions and toolbars on Web Apps Window.
 ssb-installed-list-title = Installed Web Apps
 ssb-uninstall-button = 
     .label = Uninstall

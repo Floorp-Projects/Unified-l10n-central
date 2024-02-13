@@ -181,10 +181,10 @@ visible-bms =
 hide-bms-to-unload-panel = 
     .label = パネルを閉じたときにアンロード
 enable-addons-in-sidebar2-with-experimental = 
-    .label = Enable Extensions Content Scripts in Browser Manager Sidebar (experimental)
+    .label = ブラウザーマネージャーサイドバーで拡張機能のコンテンツスクリプトを有効にする (実験的)
 enable-addons-in-sidebar2 = 
-    .label = Enable Extensions Content Scripts in Browser Manager Sidebar
-sidebar2-enable-addons-desc = If this setting is enabled, ad blocking and other features will work in the sidebar. It also increases the number of APIs available to web pages opened in there.
+    .label = ブラウザーマネージャーサイドバーで拡張機能のコンテンツスクリプトを有効にする
+sidebar2-enable-addons-desc = 広告ブロッカーやその他の拡張機能がサイドバーで動作するようになります。ただし、すべての拡張機能が動作するわけではありません。
 custom-URL-option = ウェブパネルの URL を設定
 set-custom-URL-button = 
     .label = カスタム URL を設定...
@@ -273,6 +273,10 @@ newtab-background-image-choose = 画像を選択...
 newtab-background-extensions = 画像の拡張子 ("," で区切ります)
 disable-blur-on-newtab = 
     .label = { -brand-short-name } Home のぼかし効果を無効にする
+disable-releasenote-on-newtab = 
+    .label = { -brand-short-name } Home のリリースノートとサポートのリンクを無効にする
+disable-imagecredit-on-newtab = 
+    .label = { -brand-short-name } Home の画像のクレジット (Unsplash) を無効にする
 
 ## Lepton Preferences
 
@@ -1079,7 +1083,7 @@ floorp-enable-ssb-with-experimental =
 floorp-enable-ssb-description = この機能は Mac と Linux では実験的なものです。Windows ではこの機能を有効にすることをおすすめします。
 floorp-disable-toolbars = 
     .label = ウェブアプリのツールバーを無効にする
-floorp-disable-toolbars-description = ウェブアプリのウィンドウに表示されるツールバーを非表示にします。また、すべての拡張機能も非表示になります。
+floorp-disable-toolbars-description = ウェブアプリのウィンドウですべての拡張機能とツールバーが非表示になります。
 ssb-installed-list-title = インストール済みのウェブアプリ
 ssb-uninstall-button = 
     .label = アンインストール

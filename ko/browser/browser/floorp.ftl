@@ -181,10 +181,10 @@ visible-bms =
 hide-bms-to-unload-panel = 
     .label = 패널을 숨길 때 패널 언로드
 enable-addons-in-sidebar2-with-experimental = 
-    .label = Enable Extensions Content Scripts in Browser Manager Sidebar (experimental)
+    .label = 브라우저 관리자 사이드바에서 확장 프로그램의 콘텐츠 스크립트 활성화(실험적)
 enable-addons-in-sidebar2 = 
-    .label = Enable Extensions Content Scripts in Browser Manager Sidebar
-sidebar2-enable-addons-desc = If this setting is enabled, ad blocking and other features will work in the sidebar. It also increases the number of APIs available to web pages opened in there.
+    .label = 브라우저 관리자 사이드바에서 확장 프로그램의 콘텐츠 스크립트 활성화
+sidebar2-enable-addons-desc = If this setting is enabled, ad blocking extensions and other extensions will work in the sidebar. However, not all extensions will work.
 custom-URL-option = 웹 패널 URL 설정
 set-custom-URL-button = 
     .label = 사용자 지정 URL 설정...
@@ -272,7 +272,11 @@ newtab-background-folder-choose = 이미지 폴더 선택...
 newtab-background-image-choose = 이미지를 선택:
 newtab-background-extensions = 다음 파일 확장자(","로 구분)의 이미지 사용
 disable-blur-on-newtab = 
-    .label = { -brand-short-name } 홈에서 흐림 효과 비활성화하기
+    .label = { -brand-short-name } 홈의 흐림 효과 끄기
+disable-releasenote-on-newtab = 
+    .label = { -brand-short-name } 홈의 릴리스 노트 및 지원 URL 표시 끄기
+disable-imagecredit-on-newtab = 
+    .label = { -brand-short-name } 홈에서 이미지 크레딧(Unsplash) 끄기
 
 ## Lepton Preferences
 
@@ -1079,7 +1083,7 @@ floorp-enable-ssb-with-experimental =
 floorp-enable-ssb-description = 이 기능은 Mac과 Linux에서 실험 단계이에요. Windows에서는 이 기능을 활성화하는 것이 좋아요.
 floorp-disable-toolbars = 
     .label = 웹 앱의 툴바를 사용하지 않기
-floorp-disable-toolbars-description = 웹 앱 창에서 도구 모음을 비활성화하고, 모든 확장기능 아이콘을 숨겨요.
+floorp-disable-toolbars-description = 웹 앱 창에서 모든 확장 프로그램 아이콘과 도구 모음을 숨깁니다.
 ssb-installed-list-title = 설치된 웹 앱
 ssb-uninstall-button = 
     .label = 삭제
