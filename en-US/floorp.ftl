@@ -727,6 +727,9 @@ show-download-sidebar =
 
 sidebar2-notes-sidebar = Notes
 
+sidebar2-hide-sidebar =
+  .tooltiptext = Hide Sidebar
+
 show-notes-sidebar =
   .tooltiptext = Show { sidebar2-notes-sidebar } Sidebar
 
