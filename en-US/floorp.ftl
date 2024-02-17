@@ -737,6 +737,9 @@ sidebar-add-button =
 sidebar-addons-button =
   .tooltiptext = Add-ons and themes
 
+sidebar2-hide-sidebar-button =
+  .tooltiptext = Hide Browser Manager Sidebar
+
 sidebar-passwords-button =
   .tooltiptext = Passwords
 
