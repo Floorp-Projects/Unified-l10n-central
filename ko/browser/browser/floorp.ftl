@@ -4,9 +4,9 @@
 
 ###################################################################### about:Dialog #################################################################################
 
-about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> 는 일본에서 개발되는 웹 브라우저이에요. Firefox를 기반으로 <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>에서 더 나은 웹을 만들기 위해 만들어지고 있어요. 도움을 주고 싶으신가요? <label data-l10n-name="helpus-donateLink">기부</label>를 고려해 주세요.
+about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> 는 일본에서 개발되는 웹 브라우저이에요. Firefox를 기반으로 <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>에서 더 나은 웹을 만들기 위해 만들어지고 있어요. 도움을 주고 싶으신가요? <label data-l10n-name="helpus-donateLink">기부를 고려해 주세요!</label>
 icon-creator = 아이콘 제작자 : <label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> 와 <label data-l10n-name="brand-logo-twitter">@mwxdxx.</label>
-contributors = <label data-l10n-name="about-contributor">기여자 및 개발자 목록</label>
+contributors = <label data-l10n-name="about-contributor">기여자 및 개발자 목록</label>도 확인 부탁드려요!
 #################################################################### about:preferences ####################################################################
 
 pane-design-title = 디자인
@@ -25,15 +25,15 @@ open-new-tab-next-to-current =
 multirow-tabs-limit = 
     .label = 여러줄 탭에 줄 갯수 제한 사용
 multirow-tabs-newtab = 
-    .label = 탭의 맨 아래 줄 끝에 '새 탭 열기' 버튼을 배치
-multirow-tabs-value = 여러줄 탭이 활성화된 경우 줄 갯수
+    .label = 탭의 맨 아래 줄 끝에 '새 탭 열기' 버튼을 배치하기
+multirow-tabs-value = 여러줄 탭이 활성화됐을 때 줄 갯수
 enable-tab-sleep = 
     .label = 탭 슬립 사용
 tab-sleep-timeout-minutes-value = 탭이 (분) 동안 비활성화된 후 슬립 모드로 전환됩니다.
 tab-sleep-settings-button = 설정...
 tab-sleep-settings-dialog-title = 
     .title = 탭 슬립 설정
-tab-sleep-settings-dialog-excludehosts-label = 호스트 제외
+tab-sleep-settings-dialog-excludehosts-label = 제외할 호스트
 tab-sleep-settings-dialog-excludehosts-label-2 = 한 줄에 호스트 하나를 입력합니다.
 tab-sleep-tab-context-menu-excludetab = 탭을 슬립으로 전환하지 않기
 enable-tab-scroll-change = 
@@ -41,7 +41,7 @@ enable-tab-scroll-change =
 enable-tab-scroll-reverse = 
     .label = 탭 전환 스크롤을 반대로
 enable-tab-scroll-wrap = 
-    .label = 스크롤 탭을 가장자리로 감싸기
+    .label = 스크롤을 루프시키기
 enable-double-click-block = 
     .label = 더블 클릭으로 탭 닫기
 enable-show-pinned-tabs-title = 
@@ -52,23 +52,23 @@ tab-normal-mode =
 hide-horizontality-tabs = 
     .label = 가로 탭 바에서 탭 숨기기
 verticalTab-setting = 
-    .label = 세로 탭 바에 맞게 브라우저 최적화
+    .label = 세로 탭 바에 맞게 브라우저 최적화하기
 move-tabbar-position = 
     .label = 도구 모음 아래에 탭 바 표시
 tabbar-on-bottom = 
     .label = 창 하단에 탭 바 표시
 tabbar-favicon-color = 
-    .label = 현재 웹사이트의 파비콘 색상을 사용하여 탭 바의 색을 정하기
+    .label = 탭 바의 배경 색을 웹 페이지에 맞추기
 tabbar-style-preference = 탭 바 스타일
 horizontal-tabbar = 
-    .label = 가로 탭 바
+    .label = 가로 탭
 tabbar-style-description = 이 설정을 완전히 적용하려면 { -brand-short-name } 을 재시작해야 합니다.
 multirow-tabbar = 
-    .label = 여러줄 탭 바
+    .label = 여러줄 탭
 vertical-tabbar = 
-    .label = 세로 탭 바(실험적)
+    .label = 세로 탭(실험적)
 native-vertical-tab-show-right = 
-    .label = 창 오른쪽에 세로 탭 표시줄 표시
+    .label = 창 오른쪽에 세로 탭 바 표시
 hover-vertical-tab = 
     .label = 세로 탭 바 접기
 floorp-show-vertical-tab-newtab-button = 
@@ -184,7 +184,7 @@ enable-addons-in-sidebar2-with-experimental =
     .label = 브라우저 관리자 사이드바에서 확장 프로그램의 콘텐츠 스크립트 활성화(실험적)
 enable-addons-in-sidebar2 = 
     .label = 브라우저 관리자 사이드바에서 확장 프로그램의 콘텐츠 스크립트 활성화
-sidebar2-enable-addons-desc = If this setting is enabled, ad blocking extensions and other extensions will work in the sidebar. However, not all extensions will work.
+sidebar2-enable-addons-desc = 광고 차단 확장 프로그램 및 기타 확장 프로그램이 사이드바에서 작동하게 되어요. 하지만 모든 확장 프로그램이 작동하는 것은 아니에요.
 custom-URL-option = 웹 패널 URL 설정
 set-custom-URL-button = 
     .label = 사용자 지정 URL 설정...
@@ -514,6 +514,7 @@ floorp-custom-actions-pip-action = 화면 속 화면 액션
 floorp-custom-actions-downloads-action = 다운로드 액션
 floorp-custom-actions-sidebar-action = 사이드바 액션
 floorp-custom-actions-bms-action = 브라우저 관리자 사이드바 액션
+floorp-custom-actions-split-view-action = 분할 뷰 액션
 floorp-custom-actions-workspaces-action = 워크스페이스 액션
 floorp-custom-actions-custom-action = 커스텀 액션(실험적)
 
@@ -606,6 +607,8 @@ sidebar-add-button =
     .tooltiptext = { bsb-add }
 sidebar-addons-button = 
     .tooltiptext = 애드온 및 테마
+sidebar2-hide-sidebar-button = 
+    .tooltiptext = 브라우저 관리자 사이드바 숨기기
 sidebar-passwords-button = 
     .tooltiptext = 비밀번호
 sidebar-preferences-button = 
@@ -993,6 +996,12 @@ floorp-custom-actions-show-panel-9 = 패널 토글 9
     .label = 패널 토글 9
 floorp-custom-actions-show-panel-10 = 패널 토글 10
     .label = 패널 토글 10
+floorp-custom-actions-open-split-view-on-left = 현재 탭을 분할 뷰로 왼쪽에 열기
+    .label = 현재 탭을 분할 뷰로 왼쪽에 열기
+floorp-custom-actions-open-split-view-on-right = 현재 탭을 분할 뷰로 오른쪽에 열기
+    .label = 현재 탭을 분할 뷰로 오른쪽에 열기
+floorp-custom-actions-close-split-view = Close split view
+    .label = Close split view
 floorp-custom-actions-custom-action-1 = 사용자 지정 작업 1
     .label = 사용자 지정 작업 1
 floorp-custom-actions-custom-action-2 = 사용자 지정 작업 2
