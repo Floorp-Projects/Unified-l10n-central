@@ -1036,7 +1036,7 @@ open-in_private-container =
 ######################################################################## Split View ###############################################################
 
 floorp-split-view-menu = 
-    .label = 分割ビューで表示を固定する
+    .label = Open in split view
 splitview-show-on-right = 
     .label = 右側に表示
 splitview-show-on-left = 
