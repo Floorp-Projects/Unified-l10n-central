@@ -1036,7 +1036,7 @@ open-in_private-container =
 ######################################################################## Split View ###############################################################
 
 floorp-split-view-menu = 
-    .label = 화면 분할에 고정됨
+    .label = Open in split view
 splitview-show-on-right = 
     .label = 오른쪽에 표시하기
 splitview-show-on-left = 
