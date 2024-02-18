@@ -1038,7 +1038,7 @@ open-in_private-container =
 ######################################################################## Split View ###############################################################
 
 floorp-split-view-menu = 
-    .label = Open in split view
+    .label = 在分割視圖中開啟
 splitview-show-on-right = 
     .label = 於右側顯示
 splitview-show-on-left = 
