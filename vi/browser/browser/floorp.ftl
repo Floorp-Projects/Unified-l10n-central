@@ -1036,7 +1036,7 @@ open-in_private-container =
 ######################################################################## Split View ###############################################################
 
 floorp-split-view-menu = 
-    .label = Cố định ở dạng chia màn hình
+    .label = Open in split view
 splitview-show-on-right = 
     .label = Hiện bên phải
 splitview-show-on-left = 
