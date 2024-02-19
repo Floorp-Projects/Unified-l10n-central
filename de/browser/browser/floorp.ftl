@@ -1036,7 +1036,7 @@ open-in_private-container =
 ######################################################################## Split View ###############################################################
 
 floorp-split-view-menu = 
-    .label = Behoben in der geteilten Ansicht
+    .label = Open in split view
 splitview-show-on-right = 
     .label = Rechts anzeigen
 splitview-show-on-left = 
