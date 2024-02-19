@@ -1000,8 +1000,8 @@ floorp-custom-actions-open-split-view-on-left = 현재 탭을 분할 뷰로 왼�
     .label = 현재 탭을 분할 뷰로 왼쪽에 열기
 floorp-custom-actions-open-split-view-on-right = 현재 탭을 분할 뷰로 오른쪽에 열기
     .label = 현재 탭을 분할 뷰로 오른쪽에 열기
-floorp-custom-actions-close-split-view = Close split view
-    .label = Close split view
+floorp-custom-actions-close-split-view = 분할 뷰 닫기
+    .label = 분할 뷰 닫기
 floorp-custom-actions-custom-action-1 = 사용자 지정 작업 1
     .label = 사용자 지정 작업 1
 floorp-custom-actions-custom-action-2 = 사용자 지정 작업 2
@@ -1036,7 +1036,7 @@ open-in_private-container =
 ######################################################################## Split View ###############################################################
 
 floorp-split-view-menu = 
-    .label = Open in split view
+    .label = 분할 뷰에서 열기
 splitview-show-on-right = 
     .label = 오른쪽에 표시하기
 splitview-show-on-left = 
