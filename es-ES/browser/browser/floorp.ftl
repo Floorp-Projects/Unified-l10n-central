@@ -272,11 +272,11 @@ newtab-background-folder-choose = Seleccionar carpeta de imágenes...
 newtab-background-image-choose = Elegir imagen...
 newtab-background-extensions = Usar imágenes con estas extensiones de archivo (separadas por ",")
 disable-blur-on-newtab = 
-    .label = Disable blur effect in { -brand-short-name } Home
+    .label = Desactivar efecto de desenfoque en Inicio de { -brand-short-name }
 disable-releasenote-on-newtab = 
-    .label = Disable Release Note and Support Links in { -brand-short-name } Home
+    .label = Desactivar enlaces de novedades y asistencia en Inicio de { -brand-short-name }
 disable-imagecredit-on-newtab = 
-    .label = Disable image credit (Unsplash) in { -brand-short-name } Home
+    .label = Desactivar crédito de imagen (Unsplash) en Inicio de { -brand-short-name }
 
 ## Lepton Preferences
 
@@ -514,7 +514,7 @@ floorp-custom-actions-pip-action = Acciones de imagen en imagen
 floorp-custom-actions-downloads-action = Descargas Acciones
 floorp-custom-actions-sidebar-action = Acciones de la barra lateral
 floorp-custom-actions-bms-action = Acciones de barra lateral Gestor del navegador
-floorp-custom-actions-split-view-action = Split View Actions
+floorp-custom-actions-split-view-action = Acciones de vista dividida
 floorp-custom-actions-workspaces-action = Workspaces Actions
 floorp-custom-actions-custom-action = Acciones personalizadas (Experimental)
 
@@ -764,7 +764,7 @@ manage-this-workspaces =
     .label = Manage Workspaces...
     .accesskey = M
 workspace-new-default-name = New Workspace
-workspace-default-name = Default
+workspace-default-name = Predeterminado
 move-tab-another-workspace = 
     .label = Mover a otro espacio de trabajo
 rename-workspace-prompt-title = Rename Workspace
@@ -807,7 +807,7 @@ welcome-to-floorp = ¡Le damos la bienvenida a { -brand-short-name }!
 welcome-discribe-floorp = { -brand-short-name } is a feature-rich, flexible browser that supports various environments and is based on Firefox.
 welcome-start-setup = Ready to dive in?
 welcome-skip-to-start-browsing = Omitir para empezar a navegar
-welcome-select-preferences-template = Choose a template
+welcome-select-preferences-template = Elija una plantilla
 welcome-minimum-template = Básico
 welcome-enable-basic-features = Enable basic features and settings for a simple experience.
 welcome-medium-template = Predeterminado
@@ -833,14 +833,14 @@ welcomet-finish-setup = Empezar a navegar por la web
 ############################################################# Custom Shortcutkey ###############################################################
 
 category-CSK = 
-    .label = Keyboard Shortcuts
-    .tooltiptext = Keyboard Shortcuts
-category-CSK-title = Keyboard Shortcuts
+    .label = Atajos de teclado
+    .tooltiptext = Atajos de teclado
+category-CSK-title = Atajos de teclado
 shortcutkey-customize = 
-    .title = Keyboard Shortcuts
+    .title = Atajos de teclado
 select-shortcutkeyAction = Seleccione una acción para activar
 shortcutkey-customize-key-list-placeholder = Su atajo de teclado aparecerá aquí
-shortcut-key-label = Keyboard Shortcut
+shortcut-key-label = Atajo de teclado
 start-input-button-listen = Start Listening
 end-input-button-listen = Stop Listening
 shortcut-key-description = Click "Start Listening" and enter your new keyboard shortcut for this action. Multiple keys can be used; however, keyboard shortcuts will not work if already assigned to other actions.
@@ -970,8 +970,8 @@ floorp-custom-actions-hide-sidebar = Hide sidebar
     .label = Hide sidebar
 floorp-custom-actions-show-sidebar = Alternar barra lateral
     .label = Alternar barra lateral
-floorp-custom-actions-toggle-sidebar = Toggle sidebar
-    .label = Toggle sidebar
+floorp-custom-actions-toggle-sidebar = Alternar barra lateral
+    .label = Alternar barra lateral
 floorp-custom-actions-open-previous-workspace = Abrir área de trabajo anterior
     .label = Abrir área de trabajo anterior
 floorp-custom-actions-open-next-workspace = Abrir siguiente área de trabajo
@@ -1000,8 +1000,8 @@ floorp-custom-actions-open-split-view-on-left = Open current tab on left in spli
     .label = Open current tab on left in split view
 floorp-custom-actions-open-split-view-on-right = Open current tab on right in split view
     .label = Open current tab on right in split view
-floorp-custom-actions-close-split-view = Close split view
-    .label = Close split view
+floorp-custom-actions-close-split-view = Cerrar vista dividida
+    .label = Cerrar vista dividida
 floorp-custom-actions-custom-action-1 = Acción personalizada 1
     .label = Acción personalizada 1
 floorp-custom-actions-custom-action-2 = Acción personalizada 2
@@ -1036,7 +1036,7 @@ open-in_private-container =
 ######################################################################## Split View ###############################################################
 
 floorp-split-view-menu = 
-    .label = Open in split view
+    .label = Abrir en vista dividida
 splitview-show-on-right = 
     .label = Mostrar a la derecha
 splitview-show-on-left = 
@@ -1053,8 +1053,8 @@ floorp-customize-mode-unified-extensions-button =
 ######################################################################### Progressive Web Apps (SSB) ###############################################################
 
 ssb-page-action = 
-    .label = Install app
-    .tooltiptext = Install this site as an app
+    .label = Instalar aplicación
+    .tooltiptext = Instalar este sitio web como aplicación
 ssb-page-action-title = Instalar aplicación
 ssb-app-open-button = 
     .label = Abrir en aplicación
@@ -1079,28 +1079,28 @@ appmenuitem-contextmenu-uninstall-app =
 ## Preferences
 
 category-ssb = 
-    .label = Web Apps
-    .tooltiptext = Web Apps
-category-ssb-title = Web Apps
-floorp-ssb-title = Web Apps
-floorp-ssb-description = Web Apps are websites that can be installed as apps. They can be launched from { -brand-short-name }'s menu panel or the Windows Start menu.
-ssb-preferences = Web Apps Settings
+    .label = Aplicaciones web
+    .tooltiptext = Aplicaciones web
+category-ssb-title = Aplicaciones web
+floorp-ssb-title = Aplicaciones web
+floorp-ssb-description = Las aplicaciones web son sitios de internet que pueden instalarse como si fuesen aplicaciones. Se pueden iniciar desde el panel de menú de { -brand-short-name } o el menú Inicio de Windows.
+ssb-preferences = Configuración de aplicaciones web
 floorp-enable-ssb = 
-    .label = Enable Web Apps
+    .label = Activar aplicaciones web
 floorp-enable-ssb-with-experimental = 
-    .label = Enable Web Apps (Experimental)
-floorp-enable-ssb-description = This feature is experimental on Mac and Linux. It is recommended to enable this feature on Windows.
+    .label = Activar aplicaciones web (experimental)
+floorp-enable-ssb-description = Esta funcionalidad es experimental en Mac y Linux. Es recomendable activar esta función en Windows.
 floorp-disable-toolbars = 
-    .label = Disable toolbars on Web Apps Window
-floorp-disable-toolbars-description = This setting will hide all extensions and toolbars on Web Apps Window.
-ssb-installed-list-title = Installed Web Apps
-ssb-uninstall-title = Uninstall Web App
-ssb-uninstall-message = Are you sure you want to uninstall this Web App from { -brand-short-name }?
+    .label = Desactivar barras de herramientas en ventanas de aplicaciones web
+floorp-disable-toolbars-description = Esta configuración ocultará todas las extensiones y barras de herramientas de las ventanas de aplicaciones web.
+ssb-installed-list-title = Aplicaciones web instaladas
+ssb-uninstall-title = Desinstalar aplicación web
+ssb-uninstall-message = ¿Confirma que quiere desinstalar esta aplicación web de { -brand-short-name }?
 ssb-uninstall-button = 
-    .label = Uninstall
-ssb-uninstall-cancel = Cancel
+    .label = Desinstalar
+ssb-uninstall-cancel = Cancelar
 ######################################################################### Download Notification ###############################################################
-floorp-started-download = Download started
+floorp-started-download = Comenzó la descarga
 floorp-finished-download = Descarga finalizada
 ######################################################################### Update notify ###############################################################
 
