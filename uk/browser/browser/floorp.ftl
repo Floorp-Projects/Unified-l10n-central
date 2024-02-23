@@ -1094,11 +1094,10 @@ floorp-disable-toolbars =
     .label = Вимкнути панель інструментів у вікні веб-додатків
 floorp-disable-toolbars-description = Цей параметр приховує всі розширення та панелі інструментів у вікні веб додатків.
 ssb-installed-list-title = Встановлені веб-програми
-ssb-uninstall-button = 
-    .label = Видалити
 ssb-uninstall-title = Видалити веб-додаток
 ssb-uninstall-message = Ви впевнені, що хочете видалити цей веб-додаток з { -brand-short-name }?
-ssb-uninstall-button = Видалити
+ssb-uninstall-button = 
+    .label = Видалити
 ssb-uninstall-cancel = Скасувати
 ######################################################################### Download Notification ###############################################################
 floorp-started-download = Завантаження розпочато
