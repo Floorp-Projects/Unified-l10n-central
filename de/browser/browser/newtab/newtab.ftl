@@ -225,7 +225,7 @@ newtab-pocket-more-recommendations = Mehr Empfehlungen
 newtab-pocket-learn-more = Weitere Informationen
 newtab-pocket-cta-button = { -pocket-brand-name } holen
 newtab-pocket-cta-text = Speichern Sie Ihre Lieblingstexte in { -pocket-brand-name } und gewinnen Sie gedankenreiche Einblicke durch faszinierende Texte.
-newtab-pocket-pocket-firefox-family = { -pocket-brand-name } ist Teil der { -brand-product-name }-Familie
+newtab-pocket-pocket-firefox-family = { -pocket-brand-name } ist Teil der Firefox-Familie
 # A save to Pocket button that shows over the card thumbnail on hover.
 newtab-pocket-save-to-pocket = Bei { -pocket-brand-name } speichern
 newtab-pocket-saved-to-pocket = Bei { -pocket-brand-name } gespeichert
@@ -267,7 +267,7 @@ newtab-custom-row-selector =
     }
 newtab-custom-sponsored-sites = Gesponserte Verknüpfungen
 newtab-custom-pocket-title = Empfohlen von { -pocket-brand-name }
-newtab-custom-pocket-subtitle = Besondere Inhalte ausgewählt von { -pocket-brand-name }, Teil der { -brand-product-name }-Familie
+newtab-custom-pocket-subtitle = Besondere Inhalte ausgewählt von { -pocket-brand-name }, Teil der Firefox-Familie
 newtab-custom-pocket-sponsored = Gesponserte Inhalte
 newtab-custom-pocket-show-recent-saves = Zuletzt hinzugefügte Einträge anzeigen
 newtab-custom-recent-title = Neueste Aktivität
