@@ -1094,11 +1094,10 @@ floorp-disable-toolbars =
     .label = Vô hiệu hoá thanh công cụ trong ứng dụng Web
 floorp-disable-toolbars-description = Tuỳ chỉnh này sẽ ẩn toàn bộ tiện ích mở rộng và thanh công cụ trên cửa sổ ứng dụng Web.....
 ssb-installed-list-title = Ứng dụng web đã cài đặt
-ssb-uninstall-button = 
-    .label = Gỡ cài đặt
 ssb-uninstall-title = Gỡ cài đặt ứng dụng web
 ssb-uninstall-message = Bạn có chắc chắn muốn xứng dụng Web này ra khỏi { -brand-short-name } không?
-ssb-uninstall-button = Gỡ cài đặt
+ssb-uninstall-button = 
+    .label = Gỡ cài đặt
 ssb-uninstall-cancel = Huỷ bỏ
 ######################################################################### Download Notification ###############################################################
 floorp-started-download = Bắt đầu tải xuống

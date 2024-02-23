@@ -545,7 +545,7 @@ about-Facebook-Container = Facebook がウェブ上であなたを追跡する�
 ## Fingerprinting
 
 fingerprint-header = フィンガープリント & IP アドレスの漏洩対策
-block-fingerprint = フィンガープリントは、ブラウザーとオペレーティングシステム固有の機能に依存する追跡メカニズムです。このセクションには、既定のブロック機能を超えてさらに強力に保護するための設定が含まれています。
+block-fingerprint = フィンガープリントは、ブラウザーとオペレーティングシステム固有の機能に依存する追跡メカニズムです。このセクションには、既定のブロック機能を超えたより強力な保護を行うための設定が含まれています。
 enable-firefox-fingerprint-protections = フィンガープリントに対する強力な保護を有効にする
 about-firefox-fingerprint-protection = Firefox によるフィンガープリント保護を有効すると、ライトモードの強制、一部の API を無効にするなどのデメリットがあります。また、一部のサイトの表示が崩れる可能性があります。
 fingerprint-Protection = 
@@ -1094,11 +1094,10 @@ floorp-disable-toolbars =
     .label = ウェブアプリのツールバーを無効にする
 floorp-disable-toolbars-description = ウェブアプリのウィンドウですべての拡張機能とツールバーが非表示になります。
 ssb-installed-list-title = インストール済みのウェブアプリ
-ssb-uninstall-button = 
-    .label = アンインストール
 ssb-uninstall-title = ウェブアプリをアンインストール
 ssb-uninstall-message = このウェブアプリを { -brand-short-name } からアンインストールしてもよろしいですか？
-ssb-uninstall-button = アンインストール
+ssb-uninstall-button = 
+    .label = アンインストール
 ssb-uninstall-cancel = キャンセル
 ######################################################################### Download Notification ###############################################################
 floorp-started-download = ダウンロード開始

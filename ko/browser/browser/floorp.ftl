@@ -1094,11 +1094,10 @@ floorp-disable-toolbars =
     .label = 웹 앱의 툴바를 사용하지 않기
 floorp-disable-toolbars-description = 웹 앱 창에서 모든 확장 프로그램 아이콘과 도구 모음을 숨깁니다.
 ssb-installed-list-title = 설치된 웹 앱
-ssb-uninstall-button = 
-    .label = 삭제
 ssb-uninstall-title = 웹 앱을 삭제하기
 ssb-uninstall-message = { -brand-short-name } 에서 이 웹 앱을 삭제하시겠어요?
-ssb-uninstall-button = 삭제
+ssb-uninstall-button = 
+    .label = 삭제
 ssb-uninstall-cancel = 취소
 ######################################################################### Download Notification ###############################################################
 floorp-started-download = 다운로드 시작

@@ -1096,11 +1096,10 @@ floorp-disable-toolbars =
     .label = 在 PWA 應用程式 停用工具列
 floorp-disable-toolbars-description = 此設定將會把 PWA 應用程式 視窗內所有的擴充套件及工具列隱藏。
 ssb-installed-list-title = 已安裝的 PWA 應用程式
-ssb-uninstall-button = 
-    .label = 移除
 ssb-uninstall-title = 移除此 PWA 應用程式
 ssb-uninstall-message = 你是否要從 { -brand-short-name } 移除此 PWA 應用程式？
-ssb-uninstall-button = 移除
+ssb-uninstall-button = 
+    .label = 移除
 ssb-uninstall-cancel = 取消
 ######################################################################### Download Notification ###############################################################
 floorp-started-download = 下載開始
