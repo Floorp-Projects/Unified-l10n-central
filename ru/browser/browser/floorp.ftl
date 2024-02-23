@@ -1094,11 +1094,10 @@ floorp-disable-toolbars =
     .label = Отключить панель инструментов в окне веб-приложений
 floorp-disable-toolbars-description = Этот параметр скрывает все расширения и панели инструментов в окне веб приложений.
 ssb-installed-list-title = Установленные веб-приложения
-ssb-uninstall-button = 
-    .label = Удалить
 ssb-uninstall-title = Удалите веб-приложение
 ssb-uninstall-message = Вы уверены, что хотите удалить это веб-приложение из { -brand-short-name }?
-ssb-uninstall-button = Удалить
+ssb-uninstall-button = 
+    .label = Удалить
 ssb-uninstall-cancel = Отменить
 ######################################################################### Download Notification ###############################################################
 floorp-started-download = Загрузка начата
