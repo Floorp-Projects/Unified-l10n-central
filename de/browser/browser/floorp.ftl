@@ -1094,11 +1094,10 @@ floorp-disable-toolbars =
     .label = Symbolleisten in Web-Apps deaktivieren
 floorp-disable-toolbars-description = Diese Einstellung wird alle Erweiterungen und Symbolleisten im Web-Apps Fenster ausblenden.
 ssb-installed-list-title = Installierte Web-Apps
-ssb-uninstall-button = 
-    .label = Deinstallieren
 ssb-uninstall-title = Web-App deinstallieren
 ssb-uninstall-message = Sind Sie sicher, dass Sie diese Web-App von { -brand-short-name } entfernen möchten?
-ssb-uninstall-button = Entfernen
+ssb-uninstall-button = 
+    .label = Deinstallieren
 ssb-uninstall-cancel = Abbrechen
 ######################################################################### Download Notification ###############################################################
 floorp-started-download = Download gestartet
