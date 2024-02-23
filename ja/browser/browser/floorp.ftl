@@ -1094,11 +1094,10 @@ floorp-disable-toolbars =
     .label = ウェブアプリのツールバーを無効にする
 floorp-disable-toolbars-description = ウェブアプリのウィンドウですべての拡張機能とツールバーが非表示になります。
 ssb-installed-list-title = インストール済みのウェブアプリ
-ssb-uninstall-button = 
-    .label = アンインストール
 ssb-uninstall-title = ウェブアプリをアンインストール
 ssb-uninstall-message = このウェブアプリを { -brand-short-name } からアンインストールしてもよろしいですか？
-ssb-uninstall-button = アンインストール
+ssb-uninstall-button = 
+    .label = アンインストール
 ssb-uninstall-cancel = キャンセル
 ######################################################################### Download Notification ###############################################################
 floorp-started-download = ダウンロード開始
