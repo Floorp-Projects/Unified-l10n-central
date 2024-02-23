@@ -1287,12 +1287,10 @@ floorp-disable-toolbars-description = This setting will hide all extensions and 
 
 ssb-installed-list-title = Installed Web Apps
 
-ssb-uninstall-button =
-  .label = Uninstall
-
 ssb-uninstall-title = Uninstall Web App
 ssb-uninstall-message = Are you sure you want to uninstall this Web App from { -brand-short-name }?
-ssb-uninstall-button = Uninstall
+ssb-uninstall-button =
+  .label = Uninstall
 ssb-uninstall-cancel = Cancel
 
 ######################################################################### Download Notification ###############################################################
