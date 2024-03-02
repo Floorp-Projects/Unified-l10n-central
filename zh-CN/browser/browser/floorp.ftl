@@ -996,10 +996,10 @@ floorp-custom-actions-show-panel-9 = 切换面板 9
     .label = 切换面板 9
 floorp-custom-actions-show-panel-10 = 切换面板 10
     .label = 切换面板 10
-floorp-custom-actions-open-split-view-on-left = Open current tab on left in split view
-    .label = Open current tab on left in split view
-floorp-custom-actions-open-split-view-on-right = Open current tab on right in split view
-    .label = Open current tab on right in split view
+floorp-custom-actions-open-split-view-on-left = 在分割视图左侧打开当前标签页
+    .label = 在分割视图左侧打开当前标签页
+floorp-custom-actions-open-split-view-on-right = 在分割视图右侧打开当前标签页
+    .label = 在分割视图右侧打开当前标签页
 floorp-custom-actions-close-split-view = Close split view
     .label = Close split view
 floorp-custom-actions-custom-action-1 = 自定义动作 1
@@ -1104,7 +1104,7 @@ floorp-started-download = 下载已开始
 floorp-finished-download = 下载完成！
 ######################################################################### Update notify ###############################################################
 
-floorp-notificationTitle-latest = { -brand-short-name } is up to date!
+floorp-notificationTitle-latest = { -brand-short-name } 已是最新版本！
 floorp-notificationContent-latest = { -brand-short-name } is up to date. You are using the latest version of { -brand-short-name }.
-floorp-notificationTitle = New version of { -brand-short-name } is available!
+floorp-notificationTitle = { -brand-short-name } 已有新版本！
 floorp-notificationContent = 点击下载最新版本。
