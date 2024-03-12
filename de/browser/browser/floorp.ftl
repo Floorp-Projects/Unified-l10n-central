@@ -229,9 +229,9 @@ use-icon-provider-option-google =
 use-icon-provider-option-duckduckgo = 
     .label = DuckDuckGo
 use-icon-provider-option-yandex = 
-    .label = Yandex (verfügbar in China)
+    .label = Yandex (in China verfügbar)
 use-icon-provider-option-hatena = 
-    .label = Hatena (verfügbar in China)
+    .label = Hatena (in China verfügbar)
 memory-and-performance = Speicher und Leistung
 min-memory = 
     .label = Minimale Speicherauslastung (geringe Leistung)
@@ -274,13 +274,13 @@ newtab-background-extensions = Bilder mit folgenden Dateiendungen verwenden (get
 disable-blur-on-newtab = 
     .label = Unschärfe-Effekt in { -brand-short-name }-Startseite deaktivieren
 disable-releasenote-on-newtab = 
-    .label = Support und Änderungsnotizen von { -brand-short-name }-Startseite deaktivieren
+    .label = Änderungsnotizen und Support-Links in { -brand-short-name}-Startseite deaktivieren
 disable-imagecredit-on-newtab = 
-    .label = Bildnachweis (Unsplash) in { -brand-short-name }-Startseite deaktivieren
+    .label = Bildnachweis-Link in { -brand-short-name }-Startseite deaktivieren
 
 ## Lepton Preferences
 
-about-lepton = { -brand-short-name } Mit Lepton anpassen
+about-lepton = { -brand-short-name } mit Lepton anpassen
 lepton-preference-button = 
     .label = Lepton-Einstellungen...
     .accesskey = L
