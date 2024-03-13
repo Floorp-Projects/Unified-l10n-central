@@ -152,7 +152,7 @@ appmenuitem-reboot =
 
 userAgent-preference = User-Agent
 default-useragent-mode = 
-    .label = Firefox User Agent verwenden (Standard)
+    .label = Firefox User-Agent verwenden (Standard)
 windows-chrome-useragent-mode = 
     .label = Spoof Chrome unter Windows
 macOS-chrome-useragent-mode = 
