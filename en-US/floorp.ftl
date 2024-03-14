@@ -1306,3 +1306,13 @@ floorp-notificationTitle-latest = { -brand-short-name } is up to date!
 floorp-notificationContent-latest = { -brand-short-name } is up to date. You are using the latest version of { -brand-short-name }.
 floorp-notificationTitle = New version of { -brand-short-name } is available!
 floorp-notificationContent = Click to download the latest version.
+
+######################################################################### vertical tab bar ###############################################################
+
+close-tabs-to-the-start-on-vertical-tab-bar =
+  .label = Close Tabs to Start
+  .accesskey = S
+
+close-tabs-to-the-end-on-vertical-tab-bar =
+  .label = Close Tabs to End
+  .accesskey = E
