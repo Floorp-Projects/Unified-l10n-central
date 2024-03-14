@@ -84,6 +84,9 @@ vertical-tabbar =
 native-vertical-tab-show-right =
  .label = Show Vertical Tab Bar on the right side of the window
 
+native-vertical-tab-show-padding =
+ .label = Enable padding at the top
+
 hover-vertical-tab =
  .label = Collapse Vertical Tab Bar
 floorp-show-vertical-tab-newtab-button =
