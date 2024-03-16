@@ -1198,6 +1198,8 @@ floorp-custom-actions-custom-action-5 = Custom action 5
   .label = Custom action 5
 floorp-custom-actions-rest-mode = Enable rest mode
   .label = Enable rest mode
+floorp-custom-actions-hide-user-interface = Toggle User Interface
+  .label = Toggle User Interface
 
 ##################################################################### Profile Switcher ###############################################################
 
