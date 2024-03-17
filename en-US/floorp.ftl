@@ -84,6 +84,9 @@ vertical-tabbar =
 native-vertical-tab-show-right =
  .label = Show Vertical Tab Bar on the right side of the window
 
+native-vertical-tab-show-padding =
+ .label = Enable padding at the top
+
 hover-vertical-tab =
  .label = Collapse Vertical Tab Bar
 floorp-show-vertical-tab-newtab-button =
@@ -510,7 +513,7 @@ workspace-select-container = Select Container Tab
 workspace-customize = 
  .title = Customize Workspace
 
-floorp-no-workspace-conatiner =
+floorp-no-workspace-container =
   .label = No Container
 
 workspace-icon-article =
@@ -982,7 +985,7 @@ sharemode-menuitem =
 
 welcome-login-to-firefox-account = Sign in to your Firefox Account
 welcome-to-floorp = Welcome to { -brand-short-name }!
-welcome-discribe-floorp = { -brand-short-name } is a feature-rich, flexible browser that supports various environments and is based on Firefox.
+welcome-describe-floorp = { -brand-short-name } is a feature-rich, flexible browser that supports various environments and is based on Firefox.
 welcome-start-setup = Ready to dive in?
 welcome-skip-to-start-browsing = Skip to Start Browsing
 welcome-select-preferences-template = Choose a template
@@ -994,7 +997,7 @@ welcome-maximum-template = Advanced
 welcome-enable-most-of-features = Enable advanced features and settings. Recommended for experienced users.
 welcome-go-next-setup = Next
 welcome-select-browser-design = Select a Browser Design
-welcome-discribe-browser-design = You can choose one of the wonderful third-party { -brand-short-name } designs. OS-specific designs are also available in Preferences.
+welcome-describe-browser-design = You can choose one of the wonderful third-party { -brand-short-name } designs. OS-specific designs are also available in Preferences.
 welcome-design-lepton-name = Lepton Original Design
 welcome-design-photon-name = Lepton Photon Design
 welcome-design-ProtonFix-name = Lepton ProtonFix Design
@@ -1195,6 +1198,8 @@ floorp-custom-actions-custom-action-5 = Custom action 5
   .label = Custom action 5
 floorp-custom-actions-rest-mode = Enable rest mode
   .label = Enable rest mode
+floorp-custom-actions-hide-user-interface = Toggle User Interface
+  .label = Toggle User Interface
 
 ##################################################################### Profile Switcher ###############################################################
 
@@ -1303,3 +1308,13 @@ floorp-notificationTitle-latest = { -brand-short-name } is up to date!
 floorp-notificationContent-latest = { -brand-short-name } is up to date. You are using the latest version of { -brand-short-name }.
 floorp-notificationTitle = New version of { -brand-short-name } is available!
 floorp-notificationContent = Click to download the latest version.
+
+######################################################################### vertical tab bar ###############################################################
+
+close-tabs-to-the-start-on-vertical-tab-bar =
+  .label = Close Tabs to Start
+  .accesskey = S
+
+close-tabs-to-the-end-on-vertical-tab-bar =
+  .label = Close Tabs to End
+  .accesskey = E
