@@ -568,7 +568,7 @@ home-prefs-shortcuts-by-option-sponsored =
 
 home-prefs-recommended-by-header =
     .label = Empfohlen von { $provider }
-home-prefs-recommended-by-description-new = Besondere Inhalte ausgewählt von { $provider }, Teil der { -brand-product-name }-Familie
+home-prefs-recommended-by-description-new = Besondere Inhalte ausgewählt von { $provider }, Teil der Firefox-Familie
 
 ##
 
