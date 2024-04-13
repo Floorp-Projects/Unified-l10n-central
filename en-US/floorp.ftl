@@ -691,6 +691,18 @@ sidebar2-change-ua-panel =
 sidebar2-delete-panel =
   .label = Delete this Panel
 
+sidebar2-change-zoom-level =
+  .label = Change Zoom Level
+
+sidebar2-zoom-in =
+  .label = Zoom In
+
+sidebar2-zoom-out =
+  .label = Zoom Out
+
+sidebar2-reset-zoom =
+  .label = Reset Zoom
+
 sidebar2-close-button =
   .tooltiptext = Close Sidebar
 
