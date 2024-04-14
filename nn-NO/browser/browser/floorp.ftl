@@ -69,6 +69,8 @@ vertical-tabbar =
     .label = Vertical Tab Bar (experimental)
 native-vertical-tab-show-right = 
     .label = Show Vertical Tab Bar on the right side of the window
+native-vertical-tab-show-padding = 
+    .label = Enable padding at the top
 hover-vertical-tab = 
     .label = Collapse Vertical Tab Bar
 floorp-show-vertical-tab-newtab-button = 
@@ -576,6 +578,14 @@ sidebar2-change-ua-panel =
     .label = Toggle Mobile User Agent
 sidebar2-delete-panel = 
     .label = Delete this Panel
+sidebar2-change-zoom-level = 
+    .label = Change Zoom Level
+sidebar2-zoom-in = 
+    .label = Zoom In
+sidebar2-zoom-out = 
+    .label = Zoom Out
+sidebar2-reset-zoom = 
+    .label = Reset Zoom
 sidebar2-close-button = 
     .tooltiptext = Close Sidebar
 sidebar-back-button = 
@@ -1014,6 +1024,8 @@ floorp-custom-actions-custom-action-5 = Custom action 5
     .label = Custom action 5
 floorp-custom-actions-rest-mode = Enable rest mode
     .label = Enable rest mode
+floorp-custom-actions-hide-user-interface = Toggle User Interface
+    .label = Toggle User Interface
 ##################################################################### Profile Switcher ###############################################################
 
 floorp-open-profile-with-new-instance = Launch
@@ -1108,3 +1120,11 @@ floorp-notificationTitle-latest = { -brand-short-name } is up to date!
 floorp-notificationContent-latest = { -brand-short-name } is up to date. You are using the latest version of { -brand-short-name }.
 floorp-notificationTitle = New version of { -brand-short-name } is available!
 floorp-notificationContent = Click to download the latest version.
+######################################################################### vertical tab bar ###############################################################
+
+close-tabs-to-the-start-on-vertical-tab-bar = 
+    .label = Close Tabs to Start
+    .accesskey = S
+close-tabs-to-the-end-on-vertical-tab-bar = 
+    .label = Close Tabs to End
+    .accesskey = E
