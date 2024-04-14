@@ -69,6 +69,8 @@ vertical-tabbar =
     .label = 垂直タブ (実験的)
 native-vertical-tab-show-right = 
     .label = ウインドウの右側に垂直タブバーを表示
+native-vertical-tab-show-padding = 
+    .label = タブバーの上にドラッグ用のスペースを表示
 hover-vertical-tab = 
     .label = 垂直タブバーを折りたたむ
 floorp-show-vertical-tab-newtab-button = 
@@ -576,6 +578,14 @@ sidebar2-change-ua-panel =
     .label = ユーザーエージェントをモバイル/デスクトップに切り替える
 sidebar2-delete-panel = 
     .label = このパネルを削除
+sidebar2-change-zoom-level = 
+    .label = 拡大率を変更
+sidebar2-zoom-in = 
+    .label = 拡大
+sidebar2-zoom-out = 
+    .label = 縮小
+sidebar2-reset-zoom = 
+    .label = 拡大率をリセット
 sidebar2-close-button = 
     .tooltiptext = サイドバーを閉じる
 sidebar-back-button = 
@@ -1014,6 +1024,8 @@ floorp-custom-actions-custom-action-5 = カスタムアクション 5
     .label = カスタムアクション 5
 floorp-custom-actions-rest-mode = 休憩モードを有効にする
     .label = 休憩モードを有効にする
+floorp-custom-actions-hide-user-interface = ユーザーインターフェイスを切り替える
+    .label = ユーザーインターフェイスを切り替える
 ##################################################################### Profile Switcher ###############################################################
 
 floorp-open-profile-with-new-instance = 起動
@@ -1108,3 +1120,11 @@ floorp-notificationTitle-latest = { -brand-short-name } は最新です！
 floorp-notificationContent-latest = 最新バージョンの { -brand-short-name } を使用しています。
 floorp-notificationTitle = { -brand-short-name } のアップデートが利用可能です！
 floorp-notificationContent = クリックしてダウンロードしましょう。
+######################################################################### vertical tab bar ###############################################################
+
+close-tabs-to-the-start-on-vertical-tab-bar = 
+    .label = 上のタブをすべて閉じる
+    .accesskey = S
+close-tabs-to-the-end-on-vertical-tab-bar = 
+    .label = 下のタブをすべて閉じる
+    .accesskey = E
