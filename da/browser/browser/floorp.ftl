@@ -4,8 +4,8 @@
 
 ###################################################################### about:Dialog #################################################################################
 
-about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> er en af de indenlandske browsere udviklet i Japan. Den er baseret på Firefox og fortsætter med at operere under <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>, for at forbedre internettet. Vil du hjælpe? <label data-l10n-name="helpus-donateLink">donere</label>
-icon-creator = Ikon creator <label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> og <label data-l10n-name="brand-logo-twitter">@mwxdxx.</label>
+about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> er en af de indenlandske browsere udviklet i Japan. Den er baseret på Firefox og opererer fortsat under <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>, for at forbedre internettet. Vil du hjælpe? <label data-l10n-name="helpus-donateLink">Donér</label>
+icon-creator = Ikonskaber <label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> og <label data-l10n-name="brand-logo-twitter">@mwxdxx.</label>
 contributors = En liste over <label data-l10n-name="about-contributor">bidragsydere og udviklere</label>
 #################################################################### about:preferences ####################################################################
 
@@ -14,18 +14,18 @@ category-design =
     .tooltiptext = { pane-design-title }
 design-header = { pane-design-title }
 feature-requires-restart = Genstart er påkrævet for at anvende ændringer
-tab-width = Mindste bredde af faneblade
+tab-width = Minimumsbredde på faner
 preferences-tabs-newtab-position = New tab position
 open-new-tab-use-default = 
     .label = Åbn nye faner på standardposition
 open-new-tab-at-the-end = 
-    .label = Åbn nye faneblade i slutningen af fanebladet
+    .label = Åbn nye faner for enden af Fanelinjen
 open-new-tab-next-to-current = 
-    .label = Åbn nye faneblade ved siden af det aktuelle faneblad
+    .label = Åbn nye faner ved siden af den aktuelle fane
 multirow-tabs-limit = 
     .label = Aktiver rækkegrænse for flere rækker faner
 multirow-tabs-newtab = 
-    .label = Placer knappen "Åbn en ny fane" i slutningen af den laveste række af faner
+    .label = Placér knappen "Åbn et nyt faneblad" i slutningen af den nederste række faner.
 multirow-tabs-value = Antal rækker når flere rækker faner er aktiveret
 enable-tab-sleep = 
     .label = Aktivér Sovende Faneblade
@@ -762,41 +762,41 @@ workspaces-create-new-workspace-button =
     .label = Opret nyt Arbejdsområde...
     .tooltiptext = Opret et nyt Arbejdsområde
 workspaces-manage-workspaces-button = 
-    .label = Manage Workspaces...
-    .tooltiptext = Manage your Workspaces
+    .label = Administrér Arbejdsområder...
+    .tooltiptext = Administrér dine Arbejdsområder
 rename-this-workspace = 
-    .label = Rename Workspace
+    .label = Omdøb Arbejdsområde
     .accesskey = R
 delete-this-workspace = 
-    .label = Delete Workspace
+    .label = Slet Arbejdsområde
     .accesskey = D
 manage-this-workspaces = 
-    .label = Manage Workspaces...
+    .label = Administrér Arbejdsområder...
     .accesskey = M
-workspace-new-default-name = New Workspace
-workspace-default-name = Default
+workspace-new-default-name = Nyt Arbejdsområde
+workspace-default-name = Standard
 move-tab-another-workspace = 
     .label = Flyt til et andet arbejdsområde
-rename-workspace-prompt-title = Rename Workspace
+rename-workspace-prompt-title = Omdøb Arbejdsområde
 rename-workspace-prompt-text = Enter Workspace Name. Most characters and symbols can be used.
-workspaces-toolbar-button = Workspaces
-    .label = Workspaces
-    .tooltiptext = Select a Workspace...
+workspaces-toolbar-button = Arbejdsområder
+    .label = Arbejdsområder
+    .tooltiptext = Vælg et Arbejdsområde...
 
 ## Preferences
 
 enable-workspaces = 
-    .label = Enable Workspaces
-    .tooltiptext = Enable Workspaces
-workspace-notice = Workspaces will not work with this settings enabled unless the workspaces's button is placed on the toolbar. Use this setting if you want to disable Workspaces completely.
+    .label = Aktivér Arbejdsområder
+    .tooltiptext = Aktivér Arbejdsområder
+workspace-notice = Arbejdsområder fungerer ikke med denne indstilling aktiveret, medmindre knappen for arbejdsområder er placeret på værktøjslinjen. Brug denne indstilling, hvis du vil deaktivere Arbejdsområder helt.
 enable-workspaces-with-experimental = 
-    .label = Enable Workspaces (Experimental)
-    .tooltiptext = Enable Workspaces (Experimental)
+    .label = Aktivér Arbejdsområder (Eksperimentel)
+    .tooltiptext = Aktivér Arbejdsområder (Eksperimentel)
 workspace-warning = Workspaces cannot be used with Tab Group add-ons. If you want to use Tab Group add-ons, please disable Workspaces and restart { -brand-short-name }.
 category-workspaces = 
-    .label = Workspaces
-    .tooltiptext = Workspaces
-pane-workspaces-title = Workspaces
+    .label = Arbejdsområder
+    .tooltiptext = Arbejdsområder
+pane-workspaces-title = Arbejdsområder
 floorp-workspaces-title = { -brand-short-name } Arbejdsrum
 floorp-workspace-settings-button = Indstillinger For Arbejdsrum...
 change-to-close-workspace-popup-option = 
@@ -814,16 +814,16 @@ sharemode-menuitem =
 
 welcome-login-to-firefox-account = Log ind på din Firefox-konto
 welcome-to-floorp = Velkommen til { -brand-short-name }!
-welcome-describe-floorp = { -brand-short-name } is a feature-rich, flexible browser that supports various environments and is based on Firefox.
-welcome-start-setup = Ready to dive in?
+welcome-describe-floorp = { -brand-short-name } er en funktionsrig, fleksibel browser, der understøtter forskellige miljøer og er baseret på Firefox.
+welcome-start-setup = Klar til at springe ud i det?
 welcome-skip-to-start-browsing = Skip to Start Browsing
-welcome-select-preferences-template = Choose a template
+welcome-select-preferences-template = Vælg en skabelon
 welcome-minimum-template = Grundlæggende
-welcome-enable-basic-features = Enable basic features and settings for a simple experience.
+welcome-enable-basic-features = Aktivér basisfunktioner og -indstillinger for en enkel oplevelse.
 welcome-medium-template = Standard
-welcome-enable-some-features = Enable additional features and settings for a better experience.
+welcome-enable-some-features = Aktivér yderligere funktioner og indstillinger for en bedre oplevelse.
 welcome-maximum-template = Avanceret
-welcome-enable-most-of-features = Enable advanced features and settings. Recommended for experienced users.
+welcome-enable-most-of-features = Aktivér avancerede funktioner og indstillinger. Anbefales til erfarne brugere.
 welcome-go-next-setup = Næste
 welcome-select-browser-design = Vælg et browserdesign
 welcome-describe-browser-design = You can choose one of the wonderful third-party { -brand-short-name } designs. OS-specific designs are also available in Preferences.
@@ -833,21 +833,21 @@ welcome-design-ProtonFix-name = Lepton ProtonFix Design
 welcome-design-floorp-fluerial-name = { -brand-short-name } Fluerial Design
 welcome-design-firefox-proton-name = Firefox Proton Design
 welcome-import-data = Importér Dine Browserdata
-welcome-import-data-description = Quick setup! Import your bookmarks, passwords, and more from your old browser. Firefox users can import data from Firefox Sync.
+welcome-import-data-description = Hurtig opsætning! Importér dine bogmærker, adgangskoder og mere fra din gamle browser. Firefox-brugere kan importere data fra Firefox Sync.
 welcome-import-data-button = Importér Data...
 welcome-import-data-skip = Overspring Import
 welcome-select-button = Vælg
 welcome-finish-setup = Opsætning Fuldført!
-welcome-finish-setup-description = You're all set! Other features like Vertical Tabs & Workspaces can be found in { -brand-short-name }'s Settings. Enjoy { -brand-short-name }!
+welcome-finish-setup-description = Så er du klar! Andre funktioner som Lodrette Faner og Arbejdsområder kan findes i { -brand-short-name }'s Indstillinger. God fornøjelse med { -brand-short-name }!
 welcomet-finish-setup = Begynd at gennemse internettet
 ############################################################# Custom Shortcutkey ###############################################################
 
 category-CSK = 
-    .label = Keyboard Shortcuts
-    .tooltiptext = Keyboard Shortcuts
-category-CSK-title = Keyboard Shortcuts
+    .label = Tastaturgenveje
+    .tooltiptext = Tastaturgenveje
+category-CSK-title = Tastaturgenveje
 shortcutkey-customize = 
-    .title = Keyboard Shortcuts
+    .title = Tastaturgenveje
 select-shortcutkeyAction = Vælg en handling der skal udløses
 shortcutkey-customize-key-list-placeholder = Din tastaturgenvej vises her
 shortcut-key-label = Keyboard Shortcut
@@ -1093,33 +1093,33 @@ appmenuitem-contextmenu-uninstall-app =
 category-ssb = 
     .label = Web Apps
     .tooltiptext = Web Apps
-category-ssb-title = Web Apps
-floorp-ssb-title = Web Apps
+category-ssb-title = Webapps
+floorp-ssb-title = Webapps
 floorp-ssb-description = Web Apps are websites that can be installed as apps. They can be launched from { -brand-short-name }'s menu panel or the Windows Start menu.
 ssb-preferences = Web Apps Settings
 floorp-enable-ssb = 
-    .label = Enable Web Apps
+    .label = Aktivér Webapps
 floorp-enable-ssb-with-experimental = 
-    .label = Enable Web Apps (Experimental)
-floorp-enable-ssb-description = This feature is experimental on Mac and Linux. It is recommended to enable this feature on Windows.
+    .label = Aktivér Webapps (Eksperimentel)
+floorp-enable-ssb-description = Denne funktion er eksperimentel på Mac og Linux. Det anbefales at aktivere den på Windows.
 floorp-disable-toolbars = 
     .label = Disable toolbars on Web Apps Window
 floorp-disable-toolbars-description = This setting will hide all extensions and toolbars on Web Apps Window.
-ssb-installed-list-title = Installed Web Apps
-ssb-uninstall-title = Uninstall Web App
-ssb-uninstall-message = Are you sure you want to uninstall this Web App from { -brand-short-name }?
+ssb-installed-list-title = Installerede Webapps
+ssb-uninstall-title = Afinstallér Webapp
+ssb-uninstall-message = Er du sikker på, at du vil afinstallere denne Webapp fra { -brand-short-name }?
 ssb-uninstall-button = 
-    .label = Uninstall
-ssb-uninstall-cancel = Cancel
+    .label = Afinstallér
+ssb-uninstall-cancel = Annullér
 ######################################################################### Download Notification ###############################################################
 floorp-started-download = Download started
 floorp-finished-download = Download finished
 ######################################################################### Update notify ###############################################################
 
-floorp-notificationTitle-latest = { -brand-short-name } is up to date!
-floorp-notificationContent-latest = { -brand-short-name } is up to date. You are using the latest version of { -brand-short-name }.
-floorp-notificationTitle = New version of { -brand-short-name } is available!
-floorp-notificationContent = Click to download the latest version.
+floorp-notificationTitle-latest = { -brand-short-name } er ajourført!
+floorp-notificationContent-latest = { -brand-short-name } er ajourført. Du bruger den seneste version af { -brand-short-name }.
+floorp-notificationTitle = Ny version af { -brand-short-name } er tilgængelig!
+floorp-notificationContent = Klik for at hente den seneste version.
 ######################################################################### vertical tab bar ###############################################################
 
 close-tabs-to-the-start-on-vertical-tab-bar = 
