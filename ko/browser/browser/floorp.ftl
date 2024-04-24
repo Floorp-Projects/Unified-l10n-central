@@ -1024,8 +1024,8 @@ floorp-custom-actions-custom-action-5 = 사용자 지정 작업 5
     .label = 사용자 지정 작업 5
 floorp-custom-actions-rest-mode = 휴식 모드 사용하기
     .label = 휴식 모드 사용하기
-floorp-custom-actions-hide-user-interface = Toggle User Interface
-    .label = Toggle User Interface
+floorp-custom-actions-hide-user-interface = 유저 인터페이스를 전환하기
+    .label = 유저 인터페이스를 전환하기
 ##################################################################### Profile Switcher ###############################################################
 
 floorp-open-profile-with-new-instance = 시작
@@ -1123,8 +1123,8 @@ floorp-notificationContent = 최신 버전을 다운로드하려면 클릭하세
 ######################################################################### vertical tab bar ###############################################################
 
 close-tabs-to-the-start-on-vertical-tab-bar = 
-    .label = Close Tabs to Start
+    .label = 위 탭을 모두 닫기
     .accesskey = S
 close-tabs-to-the-end-on-vertical-tab-bar = 
-    .label = Close Tabs to End
+    .label = 아래 탭을 모두 닫기
     .accesskey = E
