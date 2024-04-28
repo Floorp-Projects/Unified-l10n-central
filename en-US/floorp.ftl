@@ -936,6 +936,12 @@ workspaces-create-new-workspace-button =
 workspaces-manage-workspaces-button =
   .label = Manage Workspaces...
   .tooltiptext = Manage your Workspaces
+reorder-this-workspace-to-before =
+  .label = Move this Workspace to Before
+  .accesskey = B
+reorder-this-workspace-to-after =
+  .label = Move this Workspace to After
+  .accesskey = A
 
 rename-this-workspace =
   .label = Rename Workspace
