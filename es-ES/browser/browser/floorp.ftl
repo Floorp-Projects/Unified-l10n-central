@@ -244,7 +244,7 @@ max-memory =
 delete-border-and-roundup-option = 
     .label = Redondear esquinas de las páginas
 STG-smilar-workspaces-option = 
-    .label = Make "Simple Tab Groups" add-on buttons look like Workspaces buttons
+    .label = Dar apariencia de espacios de trabajo a botones de complemento «Grupos de pestañas simples»
 
 ## DualTheme
 
@@ -411,7 +411,7 @@ workspace-select-container = Seleccionar pestaña de contenedor
 workspace-customize = 
     .title = Personalizar espacio de trabajo
 floorp-no-workspace-container = 
-    .label = No Container
+    .label = Ningún contenedor
 workspace-icon-article = 
     .label = Artículo
 workspace-icon-book = 
@@ -513,7 +513,7 @@ floorp-custom-actions-bookmark-action = Acciones de marcadores
 floorp-custom-actions-open-page-action = Acciones de la página abierta
 floorp-custom-actions-history-action = Acciones del historial
 floorp-custom-actions-pip-action = Acciones de imagen en imagen
-floorp-custom-actions-downloads-action = Descargas Acciones
+floorp-custom-actions-downloads-action = Acciones de descargas
 floorp-custom-actions-sidebar-action = Acciones de la barra lateral
 floorp-custom-actions-bms-action = Acciones de barra lateral Gestor del navegador
 floorp-custom-actions-split-view-action = Acciones de vista dividida
@@ -759,16 +759,16 @@ floorp-show-all-downloads =
 ######################################################################### workspace ###############################################################
 
 workspaces-create-new-workspace-button = 
-    .label = Create new Workspace...
+    .label = Crear espacio de trabajo nuevo…
     .tooltiptext = Crear un espacio de trabajo nuevo
 workspaces-manage-workspaces-button = 
-    .label = Manage Workspaces...
+    .label = Gestionar espacios de trabajo…
     .tooltiptext = Gestionar sus espacios de trabajo
 reorder-this-workspace-to-up = 
-    .label = Move up this Workspace
+    .label = Subir este espacio de trabajo
     .accesskey = B
 reorder-this-workspace-to-down = 
-    .label = Move down this Workspace
+    .label = Bajar este espacio de trabajo
     .accesskey = A
 rename-this-workspace = 
     .label = Cambiar nombre de espacio de trabajo
@@ -777,7 +777,7 @@ delete-this-workspace =
     .label = Eliminar espacio de trabajo
     .accesskey = E
 manage-this-workspaces = 
-    .label = Manage Workspaces...
+    .label = Gestionar espacios de trabajo…
     .accesskey = G
 workspace-new-default-name = Espacio de trabajo nuevo
 workspace-default-name = Predeterminado
@@ -787,7 +787,7 @@ rename-workspace-prompt-title = Cambiar nombre de espacio de trabajo
 rename-workspace-prompt-text = Introduzca el nombre del espacio de trabajo. Se puede usar la mayoría de caracteres y símbolos.
 workspaces-toolbar-button = Espacios de trabajo
     .label = Espacios de trabajo
-    .tooltiptext = Select a Workspace...
+    .tooltiptext = Seleccionar espacio de trabajo…
 
 ## Preferences
 
@@ -803,7 +803,7 @@ category-workspaces =
     .label = Espacios de trabajo
     .tooltiptext = Espacios de trabajo
 pane-workspaces-title = Espacios de trabajo
-floorp-workspaces-title = Espacio de trabajo { -brand-short-name }
+floorp-workspaces-title = Espacios de trabajo de { -brand-short-name }
 floorp-workspace-settings-button = Configuración de espacio de trabajo...
 change-to-close-workspace-popup-option = 
     .label = Cerrar ventana emergente de áreas de trabajo al seleccionar un espacio de trabajo
