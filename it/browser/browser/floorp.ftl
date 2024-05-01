@@ -243,8 +243,6 @@ max-memory =
     .label = Prestazioni migliori (utilizzo elevato della memoria)
 delete-border-and-roundup-option = 
     .label = Arrotonda gli angoli delle pagine
-STG-smilar-workspaces-option = 
-    .label = Rendi il pulsante del componente aggiuntivo "Gruppi di Schede" come quello degli Spazi di Lavoro
 
 ## DualTheme
 
