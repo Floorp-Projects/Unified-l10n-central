@@ -243,8 +243,6 @@ max-memory =
     .label = Bedste Ydeevne (højt hukommelsesforbrug)
 delete-border-and-roundup-option = 
     .label = Rund hjørnerne af siderne
-STG-smilar-workspaces-option = 
-    .label = Make "Simple Tab Groups" add-on buttons look like Workspaces buttons
 
 ## DualTheme
 
