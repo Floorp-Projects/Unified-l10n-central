@@ -5,7 +5,7 @@
 ###################################################################### about:Dialog #################################################################################
 
 about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> 는 일본에서 개발되는 웹 브라우저이에요. Firefox를 기반으로 <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>에서 더 나은 웹을 만들기 위해 만들어지고 있어요. 도움을 주고 싶으신가요? <label data-l10n-name="helpus-donateLink">기부를 고려해 주세요!</label>
-icon-creator = 아이콘 제작자 : <label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> 와 <label data-l10n-name="brand-logo-twitter">@mwxdxx.</label>
+icon-creator = 아이콘 제작자 : <label data-l10n-name="browser-logo-twitter">@CutterKnife_ 님</label> 와 <label data-l10n-name="brand-logo-twitter">@mwxdxx 님</label>
 contributors = <label data-l10n-name="about-contributor">기여자 및 개발자 목록</label>도 확인 부탁드려요!
 #################################################################### about:preferences ####################################################################
 
@@ -62,15 +62,15 @@ tabbar-favicon-color =
 tabbar-style-preference = 탭 바 스타일
 horizontal-tabbar = 
     .label = 가로 탭
-tabbar-style-description = 이 설정을 완전히 적용하려면 { -brand-short-name } 을 재시작해야 합니다.
+tabbar-style-description = 이 설정을 완전히 적용하려면 { -brand-short-name } 을 재시작해야 해요.
 multirow-tabbar = 
     .label = 여러줄 탭
 vertical-tabbar = 
-    .label = 세로 탭(실험적)
+    .label = 세로 탭 바(실험적)
 native-vertical-tab-show-right = 
-    .label = 창 오른쪽에 세로 탭 바 표시
+    .label = 창 오른쪽에 세로 탭 바 표시하기
 native-vertical-tab-show-padding = 
-    .label = 상단에 여백 추가하기
+    .label = 탭 바 상단에 드래그용 여백 추가하기
 hover-vertical-tab = 
     .label = 세로 탭 바 접기
 floorp-show-vertical-tab-newtab-button = 
@@ -78,11 +78,11 @@ floorp-show-vertical-tab-newtab-button =
 floorp-show-vertical-tab-scrollbar = 
     .label = 세로 탭 바에서 스크롤바를 표시하기
 TST = 트리 스타일 탭
-about-TST = 트리 스타일 탭은 탭을 트리 구조로 표시할 수 있는 인기있는 애드온이에요. 이 애드온은 { -brand-short-name } 에 이미 통합되어 있어요. { -brand-short-name } 의 트리 스타일 탭을 사용하시려면 그 애드온을 설치해 주세요.
+about-TST = 트리 스타일 탭은 { -brand-short-name } 10 에서 내장되어 있던 수직 탭을 위한 애드온이에요. 이 애드온을 설치하면 { -brand-short-name } 고유의 설정을 사용하실 수 있어요.
 treestyletab-Settings = 
     .label = 트리 스타일 탭 접기
-sidebar-reverse-position-toolbar = 반대편에 사이드바 표시
-bookmarks-bar-settings = 북마크 툴바(한 번에 하나의 옵션만 사용할 수 있음)
+sidebar-reverse-position-toolbar = 반대편에 사이드바 표시하기
+bookmarks-bar-settings = 북마크 도구 모음(한 번에 하나의 옵션만 사용할 수 있음)
 bookmarks-focus-mode = 
     .label = 탐색 모음 위로 마우스를 가져가지 않는 한 북마크 도구 모음 숨기기
 bookmarks-bottom-mode = 
@@ -96,7 +96,7 @@ disable-extension-check-compatibility-option =
     .label = 확장 기능과의 호환성을 검사하지 않기
 other-preference = 기타 설정
 enable-userscript = 
-    .label = 레거시 구성 요소 사용
+    .label = 레거시 구성 요소 사용하기
 about-userscript = 이 기능을 활성화하면 예상치 못한 버그나 치명적인 오류가 발생할 수 있어요.
 search-positon-top = 
     .label = 페이지 상단에 찾기 표시줄을 표시하기
