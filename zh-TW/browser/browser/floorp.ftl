@@ -243,8 +243,6 @@ max-memory =
     .label = 最佳效能 (較高記憶體使用率)
 delete-border-and-roundup-option = 
     .label = 圓化頁面邊緣
-STG-smilar-workspaces-option = 
-    .label = 將 "Simple Tab Groups" 擴充套件的按鈕改變為類似工作空間的按鈕風格
 
 ## DualTheme
 
