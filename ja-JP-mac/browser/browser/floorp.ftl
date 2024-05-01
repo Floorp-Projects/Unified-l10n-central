@@ -243,8 +243,6 @@ max-memory =
     .label = 最高のパフォーマンス (高メモリ使用量)
 delete-border-and-roundup-option = 
     .label = ページの角を丸くする
-STG-smilar-workspaces-option = 
-    .label = "Simple Tab Groups" 拡張機能のボタンをワークスペース風にする
 
 ## DualTheme
 
