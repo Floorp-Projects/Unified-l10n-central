@@ -243,8 +243,6 @@ max-memory =
     .label = 最佳速度和性能 (高内存使用率)
 delete-border-and-roundup-option = 
     .label = 将页面边角修圆
-STG-smilar-workspaces-option = 
-    .label = 使 “Simple Tab Groups” 插件的按钮看起来像工作区按钮
 
 ## DualTheme
 
