@@ -243,8 +243,6 @@ max-memory =
     .label = 최고 성능(높은 메모리 사용량)
 delete-border-and-roundup-option = 
     .label = 페이지 모서리 둥글게 처리
-STG-smilar-workspaces-option = 
-    .label = "Simple Tab Groups" 애드온 버튼을 워크스페이스 버튼처럼 보이게 만들기
 
 ## DualTheme
 
