@@ -243,8 +243,6 @@ max-memory =
     .label = Найкраща продуктивність (високе використання пам'яті)
 delete-border-and-roundup-option = 
     .label = Округлити кути сторінок
-STG-smilar-workspaces-option = 
-    .label = Зробити кнопки доповнення "Прості групи вкладок" схожими на кнопки робочих просторів
 
 ## DualTheme
 
