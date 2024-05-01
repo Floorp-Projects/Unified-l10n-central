@@ -243,8 +243,6 @@ max-memory =
     .label = Greičiausias greitis (didelis atminties naudojimas)
 delete-border-and-roundup-option = 
     .label = Suapvalinti puslapių kampus
-STG-smilar-workspaces-option = 
-    .label = Make "Simple Tab Groups" add-on buttons look like Workspaces buttons
 
 ## DualTheme
 
