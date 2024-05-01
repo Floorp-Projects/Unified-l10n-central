@@ -243,8 +243,6 @@ max-memory =
     .label = En İyi Performans (yüksek bellek kullanımı)
 delete-border-and-roundup-option = 
     .label = Sayfaların köşelerini yuvarla
-STG-smilar-workspaces-option = 
-    .label = "Basit Sekme Grupları" eklentisinin düğmelerinin Çalışma Alanları düğmeleri gibi görünmesini sağla
 
 ## DualTheme
 
