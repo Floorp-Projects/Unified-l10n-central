@@ -243,8 +243,6 @@ max-memory =
     .label = Performa Terbaik (penggunaan memori tinggi)
 delete-border-and-roundup-option = 
     .label = Bulatkan sudut-sudut laman
-STG-smilar-workspaces-option = 
-    .label = Membuat tombol tambahan "Kelompok Tab Sederhana" terlihat seperti tombol Ruang Kerja
 
 ## DualTheme
 
