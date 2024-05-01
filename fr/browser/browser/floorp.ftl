@@ -243,8 +243,6 @@ max-memory =
     .label = Meilleures performances (utilisation élevée de la mémoire)
 delete-border-and-roundup-option = 
     .label = Arrondir les coins des pages
-STG-smilar-workspaces-option = 
-    .label = Make "Simple Tab Groups" add-on buttons look like Workspaces buttons
 
 ## DualTheme
 
