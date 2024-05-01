@@ -243,8 +243,6 @@ max-memory =
     .label = أداء أفضل (استخدام عالي للذاكرة)
 delete-border-and-roundup-option = 
     .label = تدوير زوايا الصفحات
-STG-smilar-workspaces-option = 
-    .label = إنشاء أزرار مكون إضافي "مجموعات علامة تبويب بسيطة" مثل أزرار مساحات العمل
 
 ## DualTheme
 
