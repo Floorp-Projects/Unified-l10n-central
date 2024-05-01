@@ -243,8 +243,6 @@ max-memory =
     .label = Наилучшая производительность (высокое потребление памяти)
 delete-border-and-roundup-option = 
     .label = Округлить углы страниц
-STG-smilar-workspaces-option = 
-    .label = Сделать кнопки дополнения «Simple Tab Groups» похожими на кнопки рабочих пространств
 
 ## DualTheme
 
