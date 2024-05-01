@@ -243,8 +243,6 @@ max-memory =
     .label = Mejor desempeño (uso de memoria elevado)
 delete-border-and-roundup-option = 
     .label = Redondear esquinas de las páginas
-STG-smilar-workspaces-option = 
-    .label = Dar apariencia de espacios de trabajo a botones de complemento «Grupos de pestañas simples»
 
 ## DualTheme
 
