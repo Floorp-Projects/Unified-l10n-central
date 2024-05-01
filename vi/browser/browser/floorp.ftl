@@ -243,8 +243,6 @@ max-memory =
     .label = Hiệu năng cao nhất ( sử dụng nhiều bộ nhớ)
 delete-border-and-roundup-option = 
     .label = Bo tròn các góc của trang
-STG-smilar-workspaces-option = 
-    .label = Biến nút tiện ích mở rộng "Simple Tab Groups" giống nút không gian làm việc
 
 ## DualTheme
 
