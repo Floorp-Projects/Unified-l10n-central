@@ -243,8 +243,6 @@ max-memory =
     .label = Beste Leistung (hoher Speicherverbrauch)
 delete-border-and-roundup-option = 
     .label = Abrunden der Seitenecken
-STG-smilar-workspaces-option = 
-    .label = "Simple Tab Groups" Add-on wie die Schaltflächen für Arbeitsbereiche aussehen lassen
 
 ## DualTheme
 
