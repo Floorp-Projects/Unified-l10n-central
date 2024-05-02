@@ -243,8 +243,6 @@ max-memory =
     .label = Найкраща продуктивність (високе використання пам'яті)
 delete-border-and-roundup-option = 
     .label = Округлити кути сторінок
-STG-smilar-workspaces-option = 
-    .label = Зробити кнопки доповнення "Прості групи вкладок" схожими на кнопки робочих просторів
 
 ## DualTheme
 
@@ -764,6 +762,12 @@ workspaces-create-new-workspace-button =
 workspaces-manage-workspaces-button = 
     .label = Налаштувати робочі простори...
     .tooltiptext = Налаштуйте ваші робочі простори
+reorder-this-workspace-to-up = 
+    .label = Move up this Workspace
+    .accesskey = B
+reorder-this-workspace-to-down = 
+    .label = Move down this Workspace
+    .accesskey = A
 rename-this-workspace = 
     .label = Перейменувати робочий простір
     .accesskey = R

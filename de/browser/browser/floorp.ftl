@@ -243,8 +243,6 @@ max-memory =
     .label = Beste Leistung (hoher Speicherverbrauch)
 delete-border-and-roundup-option = 
     .label = Abrunden der Seitenecken
-STG-smilar-workspaces-option = 
-    .label = "Simple Tab Groups" Add-on wie die Schaltflächen für Arbeitsbereiche aussehen lassen
 
 ## DualTheme
 
@@ -764,6 +762,12 @@ workspaces-create-new-workspace-button =
 workspaces-manage-workspaces-button = 
     .label = Arbeitsbereiche verwalten...
     .tooltiptext = Deine Arbeitsbereiche verwalten
+reorder-this-workspace-to-up = 
+    .label = Move up this Workspace
+    .accesskey = B
+reorder-this-workspace-to-down = 
+    .label = Move down this Workspace
+    .accesskey = A
 rename-this-workspace = 
     .label = Arbeitsbereich umbenennen
     .accesskey = R

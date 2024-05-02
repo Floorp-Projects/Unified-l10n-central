@@ -243,8 +243,6 @@ max-memory =
     .label = أداء أفضل (استخدام عالي للذاكرة)
 delete-border-and-roundup-option = 
     .label = تدوير زوايا الصفحات
-STG-smilar-workspaces-option = 
-    .label = إنشاء أزرار مكون إضافي "مجموعات علامة تبويب بسيطة" مثل أزرار مساحات العمل
 
 ## DualTheme
 
@@ -764,6 +762,12 @@ workspaces-create-new-workspace-button =
 workspaces-manage-workspaces-button = 
     .label = Manage Workspaces...
     .tooltiptext = Manage your Workspaces
+reorder-this-workspace-to-up = 
+    .label = Move up this Workspace
+    .accesskey = B
+reorder-this-workspace-to-down = 
+    .label = Move down this Workspace
+    .accesskey = A
 rename-this-workspace = 
     .label = Rename Workspace
     .accesskey = R

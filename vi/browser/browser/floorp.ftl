@@ -243,8 +243,6 @@ max-memory =
     .label = Hiệu năng cao nhất ( sử dụng nhiều bộ nhớ)
 delete-border-and-roundup-option = 
     .label = Bo tròn các góc của trang
-STG-smilar-workspaces-option = 
-    .label = Biến nút tiện ích mở rộng "Simple Tab Groups" giống nút không gian làm việc
 
 ## DualTheme
 
@@ -764,6 +762,12 @@ workspaces-create-new-workspace-button =
 workspaces-manage-workspaces-button = 
     .label = Quản lý không gian làm việc...
     .tooltiptext = Quản lý không gian làm việc
+reorder-this-workspace-to-up = 
+    .label = Move up this Workspace
+    .accesskey = B
+reorder-this-workspace-to-down = 
+    .label = Move down this Workspace
+    .accesskey = A
 rename-this-workspace = 
     .label = Đổi tên không gian làm việc
     .accesskey = R

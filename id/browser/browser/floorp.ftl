@@ -243,8 +243,6 @@ max-memory =
     .label = Performa Terbaik (penggunaan memori tinggi)
 delete-border-and-roundup-option = 
     .label = Bulatkan sudut-sudut laman
-STG-smilar-workspaces-option = 
-    .label = Membuat tombol tambahan "Kelompok Tab Sederhana" terlihat seperti tombol Ruang Kerja
 
 ## DualTheme
 
@@ -764,6 +762,12 @@ workspaces-create-new-workspace-button =
 workspaces-manage-workspaces-button = 
     .label = Kelola Ruang Kerja...
     .tooltiptext = Kelola Ruang Kerja Anda
+reorder-this-workspace-to-up = 
+    .label = Move up this Workspace
+    .accesskey = B
+reorder-this-workspace-to-down = 
+    .label = Move down this Workspace
+    .accesskey = A
 rename-this-workspace = 
     .label = Ubah Nama Ruang Kerja
     .accesskey = R

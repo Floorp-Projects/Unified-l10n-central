@@ -4,7 +4,7 @@
 
 ###################################################################### about:Dialog #################################################################################
 
-about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label>是日本開發的瀏覽器之一。 基於 Firefox 開發並由 <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>運行，旨在促進網絡發展。 想支持我們？ <label data-l10n-name="helpus-donateLink">點此捐款</label>
+about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> 是一款日本開發的瀏覽器。 基於 Firefox 開發並由 <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label> 運行，旨在促進網絡發展。 想支持我們？ <label data-l10n-name="helpus-donateLink">點此捐款</label>
 icon-creator = 圖示作者： <label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> 和 <label data-l10n-name="brand-logo-twitter">@mwxdxx.</label>
 contributors = <label data-l10n-name="about-contributor">貢獻者和開發者名單</label>。
 #################################################################### about:preferences ####################################################################
@@ -70,7 +70,7 @@ vertical-tabbar =
 native-vertical-tab-show-right = 
     .label = 在窗口右側顯示垂直分頁列
 native-vertical-tab-show-padding = 
-    .label = Enable padding at the top
+    .label = 在分頁列上方啟用可拖拽空間
 hover-vertical-tab = 
     .label = 摺疊垂直分頁列
 floorp-show-vertical-tab-newtab-button = 
@@ -243,8 +243,6 @@ max-memory =
     .label = 最佳效能 (較高記憶體使用率)
 delete-border-and-roundup-option = 
     .label = 圓化頁面邊緣
-STG-smilar-workspaces-option = 
-    .label = 將 "Simple Tab Groups" 擴充套件的按鈕改變為類似工作空間的按鈕風格
 
 ## DualTheme
 
@@ -411,7 +409,7 @@ workspace-select-container = 選擇分頁容器
 workspace-customize = 
     .title = 自訂工作空間
 floorp-no-workspace-container = 
-    .label = No Container
+    .label = 不使用容器
 workspace-icon-article = 
     .label = 文章
 workspace-icon-book = 
@@ -579,13 +577,13 @@ sidebar2-change-ua-panel =
 sidebar2-delete-panel = 
     .label = 刪除此面板
 sidebar2-change-zoom-level = 
-    .label = Change Zoom Level
+    .label = 縮放大小調整
 sidebar2-zoom-in = 
-    .label = Zoom In
+    .label = 放大
 sidebar2-zoom-out = 
-    .label = Zoom Out
+    .label = 縮小
 sidebar2-reset-zoom = 
-    .label = Reset Zoom
+    .label = 重設縮放大小
 sidebar2-close-button = 
     .tooltiptext = 關閉側邊欄
 sidebar-back-button = 
@@ -764,6 +762,12 @@ workspaces-create-new-workspace-button =
 workspaces-manage-workspaces-button = 
     .label = 管理工作空間...
     .tooltiptext = 管理工作空間
+reorder-this-workspace-to-up = 
+    .label = 向上移動此工作空間
+    .accesskey = B
+reorder-this-workspace-to-down = 
+    .label = 向下移動此工作空間
+    .accesskey = A
 rename-this-workspace = 
     .label = 重新命名工作空間
     .accesskey = R
@@ -816,7 +820,7 @@ sharemode-menuitem =
 
 welcome-login-to-firefox-account = 登錄您的 Firefox 帳戶
 welcome-to-floorp = 歡迎使用 { -brand-short-name }！
-welcome-describe-floorp = { -brand-short-name } is a feature-rich, flexible browser that supports various environments and is based on Firefox.
+welcome-describe-floorp = { -brand-short-name } 是一款基於 Firefox 開發，提供豐富的客製化功能的瀏覽器，並支援多個平台。
 welcome-start-setup = 準備好開始了嗎？
 welcome-skip-to-start-browsing = 跳過初始設定
 welcome-select-preferences-template = 選擇模板
@@ -828,7 +832,7 @@ welcome-maximum-template = 進階
 welcome-enable-most-of-features = 提供更進階的功能。推薦更熟練的用戶使用。
 welcome-go-next-setup = 下一步
 welcome-select-browser-design = 選擇瀏覽器的介面設計
-welcome-describe-browser-design = You can choose one of the wonderful third-party { -brand-short-name } designs. OS-specific designs are also available in Preferences.
+welcome-describe-browser-design = 您可以在 { -brand-short-name } 上選用第三方設計的精美介面。部分系統特有的介面設計也可在偏好設定中找到。
 welcome-design-lepton-name = Lepton 原始設計
 welcome-design-photon-name = Lepton Photon 設計
 welcome-design-ProtonFix-name = Lepton 改良版Proton 設計
@@ -1026,8 +1030,8 @@ floorp-custom-actions-custom-action-5 = 自訂操作 5
     .label = 自訂操作 5
 floorp-custom-actions-rest-mode = 開啟休息模式
     .label = 開啟休息模式
-floorp-custom-actions-hide-user-interface = Toggle User Interface
-    .label = Toggle User Interface
+floorp-custom-actions-hide-user-interface = 切換使用者介面
+    .label = 切換使用者介面
 ##################################################################### Profile Switcher ###############################################################
 
 floorp-open-profile-with-new-instance = 啟動
@@ -1125,8 +1129,8 @@ floorp-notificationContent = 點擊下載最新版本。
 ######################################################################### vertical tab bar ###############################################################
 
 close-tabs-to-the-start-on-vertical-tab-bar = 
-    .label = Close Tabs to Start
+    .label = 關閉下方所有分頁
     .accesskey = S
 close-tabs-to-the-end-on-vertical-tab-bar = 
-    .label = Close Tabs to End
+    .label = 關閉下方所有分頁
     .accesskey = E

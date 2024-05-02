@@ -243,8 +243,6 @@ max-memory =
     .label = En İyi Performans (yüksek bellek kullanımı)
 delete-border-and-roundup-option = 
     .label = Sayfaların köşelerini yuvarla
-STG-smilar-workspaces-option = 
-    .label = "Basit Sekme Grupları" eklentisinin düğmelerinin Çalışma Alanları düğmeleri gibi görünmesini sağla
 
 ## DualTheme
 
@@ -764,6 +762,12 @@ workspaces-create-new-workspace-button =
 workspaces-manage-workspaces-button = 
     .label = Manage Workspaces...
     .tooltiptext = Manage your Workspaces
+reorder-this-workspace-to-up = 
+    .label = Move up this Workspace
+    .accesskey = B
+reorder-this-workspace-to-down = 
+    .label = Move down this Workspace
+    .accesskey = A
 rename-this-workspace = 
     .label = Rename Workspace
     .accesskey = R

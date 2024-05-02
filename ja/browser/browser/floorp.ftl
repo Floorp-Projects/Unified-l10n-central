@@ -243,8 +243,6 @@ max-memory =
     .label = 最高のパフォーマンス (高メモリ使用量)
 delete-border-and-roundup-option = 
     .label = ページの角を丸くする
-STG-smilar-workspaces-option = 
-    .label = Simple Tab Groups 拡張機能のボタンをワークスペース風にする
 
 ## DualTheme
 
@@ -764,6 +762,12 @@ workspaces-create-new-workspace-button =
 workspaces-manage-workspaces-button = 
     .label = ワークスペースを管理...
     .tooltiptext = ワークスペースを管理
+reorder-this-workspace-to-up = 
+    .label = このワークスペースを上に移動
+    .accesskey = B
+reorder-this-workspace-to-down = 
+    .label = このワークスペースを下に移動
+    .accesskey = A
 rename-this-workspace = 
     .label = ワークスペース名を変更
     .accesskey = R

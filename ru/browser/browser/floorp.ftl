@@ -243,8 +243,6 @@ max-memory =
     .label = Наилучшая производительность (высокое потребление памяти)
 delete-border-and-roundup-option = 
     .label = Округлить углы страниц
-STG-smilar-workspaces-option = 
-    .label = Сделать кнопки дополнения «Simple Tab Groups» похожими на кнопки рабочих пространств
 
 ## DualTheme
 
@@ -764,6 +762,12 @@ workspaces-create-new-workspace-button =
 workspaces-manage-workspaces-button = 
     .label = Управление рабочими пространствами...
     .tooltiptext = Управляйте вашими рабочими пространствами
+reorder-this-workspace-to-up = 
+    .label = Move up this Workspace
+    .accesskey = B
+reorder-this-workspace-to-down = 
+    .label = Move down this Workspace
+    .accesskey = A
 rename-this-workspace = 
     .label = Переименовать рабочее пространство
     .accesskey = R
