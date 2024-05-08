@@ -523,7 +523,7 @@ floorp-custom-actions-custom-action = Brugerdefinerede Handlinger (Eksperimentel
 mouse-gesture = Mus Fagter
 mouse-gesture-description = Gesturefy skal være installeret for at bruge musebevægelser med { -brand-short-name }.
 Gesturefy = Gesturefy
-about-Gesturefy = Gesturefy is an extension that adds mouse gestures to your browser. If { -brand-short-name } detects the installation of this add-on, it will add gesture commands to Gesturefy that are only available in { -brand-short-name }. This add-on also create new tabs!
+about-Gesturefy = Gesturefy er en tilføjelse, der føjer musebevægelser til din browser. Hvis { -brand-short-name } registrerer installationen af denne tilføjelse, føjer den bevægelseskommandoer til Gesturefy, som kun er tilgængelige i { -brand-short-name }. Denne tilføjelse opretter også nye faner!
 # Translate
 TWS = Translate Web Page
 about-TWS = Oversæt din side i realtid ved hjælp af Google eller Yandex. Du kan også oversætte den valgte tekst eller hele siden.
