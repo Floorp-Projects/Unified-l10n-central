@@ -84,16 +84,16 @@ treestyletab-Settings =
 sidebar-reverse-position-toolbar = 반대편에 사이드바 표시하기
 bookmarks-bar-settings = 북마크 도구 모음(한 번에 하나의 옵션만 사용할 수 있음)
 bookmarks-focus-mode = 
-    .label = 탐색 모음 위로 마우스를 가져가지 않는 한 북마크 도구 모음 숨기기
+    .label = 네비게이션 바 위로 마우스를 가져가지 않는 한 북마크 도구 모음 숨기기
 bookmarks-bottom-mode = 
-    .label = { -brand-short-name }하단에 북마크 툴바를 표시합니다.
+    .label = { -brand-short-name } 하단에 북마크 툴바를 표시합니다.
 navbar-settings = 네비게이션 바
 show-nav-bar-bottom = 
     .label = { -brand-short-name } 하단에 도구모음 표시(실험적)
 material-effect = 
-    .label = Mica For Everyone이 브라우저 디자인 수정 허용
+    .label = Mica For Everyone으로 브라우저 디자인 수정 허용
 disable-extension-check-compatibility-option = 
-    .label = 확장 기능과의 호환성을 검사하지 않기
+    .label = 확장 기능과의 브라우저 호환성을 검사하지 않기
 other-preference = 기타 설정
 enable-userscript = 
     .label = 레거시 구성 요소 사용하기
@@ -107,7 +107,7 @@ disable-fullscreen-notification =
 
 ## Browser Theme
 
-system-color-settings = 어떤 테마는 라이트와 다크 모드를 모두 갖추고 있어요 - 어떤 모드를 사용할 지 선택해 주세요.
+system-color-settings = 몇몇 테마는 라이트 모드와 다크 모드를 모두 갖추고 있어요 - 어떤 모드를 사용할 지 선택해 주세요.
 preferences-theme-appearance-header = 테마 모드
 system-theme-dark = 
     .label = 다크
