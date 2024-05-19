@@ -770,6 +770,7 @@ bsb-context-add =
 
 bsb-context-link-add = 
   .label = Add link to Web Panel...
+
 #################################################################### menu panel ############################################################
 
 open-profile-dir = 
@@ -965,7 +966,7 @@ workspaces-toolbar-button = Workspaces
   .tooltiptext = Select a Workspace...
 
 ## Preferences
-enable-workspaces = 
+enable-workspaces =
     .label = Enable Workspaces
     .tooltiptext = Enable Workspaces
 workspace-notice = Workspaces will not work with this settings enabled unless the workspaces's button is placed on the toolbar. Use this setting if you want to disable Workspaces completely.
@@ -982,7 +983,9 @@ pane-workspaces-title = Workspaces
 
 floorp-workspaces-title = { -brand-short-name } Workspaces
 floorp-workspace-settings-button = Workspace Settings...
-
+floorp-preferences-label = Preferences
+floorp-extensions-label = Extensions
+floorp-private-label = Private
 change-to-close-workspace-popup-option = 
  .label = Close workspaces popup when selecting a Workspace
 manage-workspace-on-bms-option =
