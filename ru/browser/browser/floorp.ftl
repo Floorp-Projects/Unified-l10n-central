@@ -4,7 +4,7 @@
 
 ###################################################################### about:Dialog #################################################################################
 
-about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> один из отечественных браузеров, разработанный в Японии. Он основан на Firefox и продолжает работать по адресу <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>, чтобы улучшить работу в Интернете. Хотите помочь? <label data-l10n-name="helpus-donateLink">Сделайте пожертвование</label>
+about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> — это один из отечественных браузеров, разработанных в Японии. Он основан на Firefox и продолжает развиваться под руководством <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>, чтобы сделать Интернет лучше. Хотите помочь? <label data-l10n-name="helpus-donateLink">Сделайте пожертвование</label>
 icon-creator = Создатели иконок: <label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> и <label data-l10n-name="brand-logo-twitter">@mwxdxx.</label>
 contributors = Список <label data-l10n-name="about-contributor">контрибьюторов и разработчиков</label>
 #################################################################### about:preferences ####################################################################
@@ -803,7 +803,7 @@ category-workspaces =
 pane-workspaces-title = Рабочие пространства
 floorp-workspaces-title = Рабочие пространства { -brand-short-name }
 floorp-workspace-settings-button = Настройки рабочего пространства...
-floorp-preferences-label = Preferences
+floorp-preferences-label = Настройки
 floorp-extensions-label = Extensions
 floorp-private-label = Private
 change-to-close-workspace-popup-option = 
