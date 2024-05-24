@@ -48,7 +48,7 @@ enable-show-pinned-tabs-title =
     .label = Afficher le titre des onglets épinglés
 tabbar-preference = Barre d'onglets
 tab-normal-mode = 
-    .label = Default
+    .label = Défaut
 hide-horizontality-tabs = 
     .label = Masquer les onglets dans la barre d'onglets horizontaux
 verticalTab-setting = 
@@ -125,11 +125,11 @@ firefox-proton =
 firefox-photon-lepton = 
     .label = Firefox Photon・Interface de Lepton
 floorp-fluentUI = 
-    .label = Microsoft Fluent UI (deprecated)
+    .label = Microsoft Fluent UI (obsolète)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI (deprecated)
+    .label = { -brand-short-name } Fluerial UI (obsolète)
 floorp-gnomeUI = 
-    .label = GNOME Theme (deprecated)
+    .label = Thème GNOME (obsolète)
 
 ## Download Manager
 
@@ -197,7 +197,7 @@ category-BSB =
 category-downloads = 
     .tooltiptext = { files-and-applications-title }
 bsb-header = Barre latérale du gestionnaire de navigateur
-bsb-context = Use the following Container
+bsb-context = Utiliser le conteneur suivant
 bsb-userAgent-label = 
     .label = Utiliser l'Agent Utilisateur Mobile dans ce panneau Web
 bsb-width = Largeur (si définie à 0, la valeur globale sera utilisée)
@@ -225,7 +225,7 @@ sidebar2-pref-delete =
 sidebar2-pref-setting = 
     .label = Réglages
 sidebar2-global-width = Largeur globale des panneaux Web
-use-icon-provider-option = Use Icon Provider
+use-icon-provider-option = Utiliser le fournisseur d'icônes
 use-icon-provider-option-google = 
     .label = Google
 use-icon-provider-option-duckduckgo = 
@@ -260,7 +260,7 @@ newtab-background-selected-image =
 newtab-background-selected-one-image = 
     .label = Image personnalisée...
 newtab-background-folder = Utiliser les images de ce dossier :
-newtab-background-image = Use image :
+newtab-background-image = Utiliser l'image :
 newtab-choose-image = Choisir une image...
 newtab-background-folder-reload = 
     .label = Reload images
@@ -272,11 +272,11 @@ newtab-background-folder-choose = Choisir le dossier des images...
 newtab-background-image-choose = Choisir une image...
 newtab-background-extensions = Utilisez des images avec ces extensions de fichier (séparées par ",")
 disable-blur-on-newtab = 
-    .label = Disable blur effect in { -brand-short-name } Home
+    .label = Désactiver l'effet de flou dans la page d'accueil de { -brand-short-name }
 disable-releasenote-on-newtab = 
-    .label = Disable Release Note and Support Links in { -brand-short-name } Home
+    .label = Désactiver les notes de mise à jour et les liens de support sur la page d'accueil de { -brand-short-name }
 disable-imagecredit-on-newtab = 
-    .label = Disable image credit (Unsplash) in { -brand-short-name } Home
+    .label = Désactiver le crédit d'image (Unsplash) dans la page d'accueil de { -brand-short-name }
 
 ## Lepton Preferences
 
@@ -313,7 +313,7 @@ floorp-lepton-enable-toolbar-overlap-allow-layout-shift-autohide =
     .label = Masquer automatiquement la barre d'outils lors de l'affichage du contenu "ltr"
 hide-preference = Gérer les éléments du navigateur
 floorp-lepton-enable-tab_icon-hide = 
-    .label = Hide tab icons
+    .label = Masquer les icônes des onglets
 floorp-lepton-enable-tabbar-hide = 
     .label = Masquer la barre d'onglets
 floorp-lepton-enable-navbar-hide = 
@@ -343,7 +343,7 @@ urlbar-preferences = Barre d'adresse
 floorp-lepton-enable-urlbar-icon-move-to-left = 
     .label = Déplacer les icônes de la barre d'adresse vers la gauche
 floorp-lepton-enable-urlname-go_button_when_typing = 
-    .label = When typing, show a "Go" button
+    .label = Lors de la saisie, afficher un bouton "Go"
 floorp-lepton-enable-always-show-page_action = 
     .label = Toujours afficher les actions de la page dans la barre d'adresse
 tabbar-preferences = Barre d'onglets
@@ -365,12 +365,12 @@ floorp-notes = Notes { -brand-short-name }
 restore-from-backup = Restaurer les notes depuis la sauvegarde
 enable-notes-sync = 
     .label = Activer la synchronisation des notes { -brand-short-name }
-about-notes-backup-tips = { -brand-short-name } Notes uses Firefox Sync to sync your notes with other devices. If you lose your notes, you can restore them from a backup. A backup is created when you launch { -brand-short-name }.
+about-notes-backup-tips = { -brand-short-name } Notes utilise Firefox Sync pour synchroniser vos notes avec d'autres appareils. Si vous perdez vos notes, vous pouvez les restaurer à partir d'une sauvegarde. Une sauvegarde est créée lorsque vous lancez { -brand-short-name }.
 notes-sync-description = Cela peut résoudre le problème de la perte de contenu en raison de l'écrasement des notes lors de la synchronisation.
 backuped-time = Sauvegardé à
 notes-backup-option = Sauvegarder les paramètres
 backup-option-button = Sauvegarde des paramètres...
-restore-from-backup-prompt-title = { -brand-short-name } Notes Restore Service
+restore-from-backup-prompt-title = Service de restauration de { -brand-short-name } Notes
 restore-from-this-backup = Restaurer les notes à l'état où elles étaient dans cette sauvegarde ?
 restore-button = Restaurer
 
@@ -1057,13 +1057,13 @@ open-in_private-container =
 ######################################################################## Split View ###############################################################
 
 floorp-split-view-menu = 
-    .label = Open in split view
+    .label = Ouvrir en vue fractionnée
 splitview-show-on-right = 
-    .label = Show on right
+    .label = Afficher à gauche
 splitview-show-on-left = 
-    .label = Show on left
+    .label = Afficher à droite
 splitview-close-split-tab = 
-    .label = Close split tab
+    .label = Fermer l'onglet fractionné
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = Scannez le QR Code avec votre téléphone
 qrcode-generate-page-action = 
@@ -1104,7 +1104,7 @@ category-ssb =
     .tooltiptext = Applications web
 category-ssb-title = Applications web
 floorp-ssb-title = Applications web
-floorp-ssb-description = Web Apps are websites that can be installed as apps. They can be launched from { -brand-short-name }'s menu panel or the Windows Start menu.
+floorp-ssb-description = Les Web Apps sont des sites internet qui peuvent être installés comme des applications. Elles peuvent être lancées à partir du menu de { -brand-short-name } ou le menu Démarrer de Windows.
 ssb-preferences = Paramètres des applications web
 floorp-enable-ssb = 
     .label = Activer les applications web
@@ -1112,8 +1112,8 @@ floorp-enable-ssb-with-experimental =
     .label = Activer les applications web (expérimental)
 floorp-enable-ssb-description = Cette fonctionnalité est expérimentale sur Mac et Linux. Il est recommandé d'activer cette fonctionnalité sous Windows.
 floorp-disable-toolbars = 
-    .label = Disable toolbars on Web Apps Window
-floorp-disable-toolbars-description = This setting will hide all extensions and toolbars on Web Apps Window.
+    .label = Désactiver les barres d'outils dans la fenêtre des Web Apps
+floorp-disable-toolbars-description = Ce paramètre masque toutes les extensions et les barres d'outils dans la fenêtre des Web Apps.
 ssb-installed-list-title = Applications web installées
 ssb-uninstall-title = Désinstaller l'application web
 ssb-uninstall-message = Êtes-vous sûr de vouloir désinstaller cette application web de { -brand-short-name } ?
@@ -1121,14 +1121,14 @@ ssb-uninstall-button =
     .label = Désinstaller
 ssb-uninstall-cancel = Annuler
 ######################################################################### Download Notification ###############################################################
-floorp-started-download = Download started
+floorp-started-download = Téléchargement démarré
 floorp-finished-download = Téléchargement terminé
 ######################################################################### Update notify ###############################################################
 
 floorp-notificationTitle-latest = { -brand-short-name } est à jour !
-floorp-notificationContent-latest = { -brand-short-name } is up to date. You are using the latest version of { -brand-short-name }.
-floorp-notificationTitle = New version of { -brand-short-name } is available!
-floorp-notificationContent = Click to download the latest version.
+floorp-notificationContent-latest = { -brand-short-name } est à jour. Vous utilisez la dernière version de { -brand-short-name }.
+floorp-notificationTitle = Une nouvelle version de { -brand-short-name } est disponible!
+floorp-notificationContent = Cliquez pour télécharger la dernière version.
 ######################################################################### vertical tab bar ###############################################################
 
 close-tabs-to-the-start-on-vertical-tab-bar = 
