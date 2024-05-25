@@ -5,7 +5,7 @@
 ###################################################################### about:Dialog #################################################################################
 
 about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> est l'un des navigateurs domestiques développés au Japon. Il est basé sur Firefox et continue à fonctionner sous <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>, pour améliorer le Web. Vous voulez aider ? <label data-l10n-name="helpus-donateLink">Faites un don</label>
-icon-creator = Créateur d'icônes <label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> et <label data-l10n-name="brand-logo-twitter">@mwxdxx.</label>
+icon-creator = Créateurs des icônes, <label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> et <label data-l10n-name="brand-logo-twitter">@mwxdxx.</label>
 contributors = Une liste de <label data-l10n-name="about-contributor">contributeurs et développeurs</label>
 #################################################################### about:preferences ####################################################################
 
@@ -23,23 +23,23 @@ open-new-tab-at-the-end =
 open-new-tab-next-to-current = 
     .label = Ouvrir de nouveaux onglets à côté de l'onglet actuel
 multirow-tabs-limit = 
-    .label = Activer la limite de lignes pour les onglets multi-lignes
+    .label = Activer la limite de lignes pour les onglets multilignes
 multirow-tabs-newtab = 
-    .label = Placez le bouton "Ouvrir un nouvel onglet" à la fin de la ligne la plus basse des onglets
-multirow-tabs-value = Nombre de lignes lorsque les onglets multi-lignes sont activés
+    .label = Placer le bouton "Ouvrir un nouvel onglet" à la fin de la dernière rangée d'onglets
+multirow-tabs-value = Nombre de lignes lorsque les onglets multilignes sont activés
 enable-tab-sleep = 
-    .label = Activer les onglets de veille
-tab-sleep-timeout-minutes-value = Les onglets seront mis en veille après avoir été inactifs pendant (minutes)
-tab-sleep-settings-button = Paramètres...
+    .label = Activer les onglets en veille
+tab-sleep-timeout-minutes-value = Les onglets se mettent en veille après avoir été inactifs pendant (minutes)
+tab-sleep-settings-button = Paramètres…
 tab-sleep-settings-dialog-title = 
-    .title = Réglages des onglets de sommeil
+    .title = Paramètres des onglets en veille
 tab-sleep-settings-dialog-excludehosts-label = Exclure les hôtes
 tab-sleep-settings-dialog-excludehosts-label-2 = Entrez un hôte par ligne.
-tab-sleep-tab-context-menu-excludetab = Garder l'onglet éveillé
+tab-sleep-tab-context-menu-excludetab = Garder l'onglet actif
 enable-tab-scroll-change = 
-    .label = Changer d'onglet en faisant défiler avec la souris
+    .label = Passer d'un onglet à l'autre avec la molette de la souris
 enable-tab-scroll-reverse = 
-    .label = Inverser la direction des onglets de défilement
+    .label = Inverser le sens de navigation des onglets
 enable-tab-scroll-wrap = 
     .label = Envelopper les onglets de défilement au bord
 enable-double-click-block = 
@@ -50,21 +50,21 @@ tabbar-preference = Barre d'onglets
 tab-normal-mode = 
     .label = Défaut
 hide-horizontality-tabs = 
-    .label = Masquer les onglets dans la barre d'onglets horizontaux
+    .label = Masquer les onglets dans la barre d'onglets horizontale
 verticalTab-setting = 
-    .label = Optimiser le navigateur pour la barre d'onglets verticaux
+    .label = Optimiser le navigateur pour la barre d'onglets verticale
 move-tabbar-position = 
     .label = Afficher la barre d'onglets sous la barre d'outils
 tabbar-on-bottom = 
     .label = Afficher la barre d'onglet en bas de la fenêtre
 tabbar-favicon-color = 
-    .label = Colorier la barre d'onglets en utilisant la couleur de favicon du site web actuel
-tabbar-style-preference = Tab Bar Style
+    .label = Faire correspondre la couleur du favicon du site internet actuelle dans la barre d'onglets
+tabbar-style-preference = Style de la barre d'onglets
 horizontal-tabbar = 
     .label = Barre d'onglets horizontale
-tabbar-style-description = Un redémarrage de { -brand-short-name } est nécessaire pour appliquer pleinement ce paramètre.
+tabbar-style-description = Un redémarrage de { -brand-short-name } est nécessaire pour appliquer complètement ce paramètre.
 multirow-tabbar = 
-    .label = Barre d'onglets multi-rangées
+    .label = Barre d'onglets à multiples lignes
 vertical-tabbar = 
     .label = Barre d'onglets verticale (expérimentale)
 native-vertical-tab-show-right = 
@@ -77,23 +77,23 @@ floorp-show-vertical-tab-newtab-button =
     .label = Afficher le bouton "Ouvrir un nouvel onglet" dans la barre d'onglets verticale
 floorp-show-vertical-tab-scrollbar = 
     .label = Afficher la barre de défilement sur la barre d'onglets verticale
-TST = Onglet de style arborescent
-about-TST = Tree Style Tab est une extension populaire qui vous permet d'afficher des onglets dans une structure arborescente. Cette extension est déjà pré-intégrée dans { -brand-short-name }. Veuillez l'installer pour activer l'onglet Tree Style Tab de { -brand-short-name }.
+TST = Tree Style Tab
+about-TST = Tree Style Tab est une extension populaire qui vous permet d'afficher des onglets dans une structure arborescente. Cette extension est déjà pré-intégrée dans { -brand-short-name }. Veuillez l'installer pour activer Tree Style Tab dans { -brand-short-name }.
 treestyletab-Settings = 
-    .label = Réduire l'onglet de style arborescence
+    .label = Réduire Tree Style Tab
 sidebar-reverse-position-toolbar = Afficher les barres latérales de l'autre côté
-bookmarks-bar-settings = Barre de signets (une seule option peut être utilisée à la fois)
+bookmarks-bar-settings = Barre d'outil des marque-pages (une seule option peut être utilisée à la fois)
 bookmarks-focus-mode = 
-    .label = Masquer la barre de signets à moins de passer au-dessus de la barre de navigation
+    .label = Masquer la barre d'outils des marque-pages à moins que l'on ne survole la barre de navigation
 bookmarks-bottom-mode = 
-    .label = Afficher la barre de signets en bas de { -brand-short-name }
+    .label = Afficher la barre d'outils des marque-pages au bas de { -brand-short-name }
 navbar-settings = Barre de navigation
 show-nav-bar-bottom = 
     .label = Afficher la barre d'outils en bas de { -brand-short-name } (expérimental)
 material-effect = 
-    .label = Permettre à Mica pour tout le monde de modifier le design du navigateur
+    .label = Permettre à Mica For Everyone de modifier le design du navigateur
 disable-extension-check-compatibility-option = 
-    .label = Ne pas vérifier la compatibilité avec les modules complémentaires
+    .label = Ne pas vérifier la compatibilité avec les extensions
 other-preference = Autres préférences
 enable-userscript = 
     .label = Activer les composants hérités
@@ -107,23 +107,23 @@ disable-fullscreen-notification =
 
 ## Browser Theme
 
-system-color-settings = Certains thèmes ont des modes à la fois clairs et sombres - choisissez quel mode vous souhaitez utiliser ces thèmes.
-preferences-theme-appearance-header = Mode thème
+system-color-settings = Certains thèmes ont des modes à la fois clairs et sombres — choisissez quel mode vous souhaitez utiliser ces thèmes.
+preferences-theme-appearance-header = Thèmes
 system-theme-dark = 
     .label = Sombre
 system-theme-light = 
-    .label = Lumière
+    .label = Clair
 system-theme-auto = 
-    .label = Suivre l'apparence de mon système
+    .label = Adapter au système
 
 ## User interface preferences
 
 ui-preference = Apparence du navigateur
-preferences-browser-appearance-description = Choisissez un design tiers intégré à utiliser dans { -brand-short-name }. Certains designs peuvent ne pas être compatibles avec votre configuration.
+preferences-browser-appearance-description = Choisissez une apparence tierce à intégrer et utilisé dans { -brand-short-name }. Certains designs peuvent ne pas être compatibles avec votre configuration.
 firefox-proton = 
     .label = Firefox Proton UI
 firefox-photon-lepton = 
-    .label = Firefox Photon・Interface de Lepton
+    .label = Firefox Photon・Lepton UI
 floorp-fluentUI = 
     .label = Microsoft Fluent UI (obsolète)
 floorp-fluerialUI = 
@@ -133,9 +133,9 @@ floorp-gnomeUI =
 
 ## Download Manager
 
-download-notification-preferences = Télécharger les notifications
+download-notification-preferences = Notifications de téléchargement
 start-always-notify = 
-    .label = Notifier uniquement lors du démarrage des téléchargements
+    .label = Notifier uniquement lors du démarrage d'un téléchargement
 finish-always-notify = 
     .label = Notifier uniquement quand un téléchargement se termine
 always-notify = 
@@ -146,7 +146,7 @@ do-not-notify =
 ## Sidebar
 
 profiles-button-label = Gérer les profils
-floorp-help-button-label = Support { -brand-short-name }
+floorp-help-button-label = Support de { -brand-short-name }
 appmenuitem-reboot = 
     .label = Redémarrer
 
@@ -154,56 +154,56 @@ appmenuitem-reboot =
 
 userAgent-preference = Agent utilisateur
 default-useragent-mode = 
-    .label = Utiliser Firefox User Agent (par défaut)
+    .label = Utiliser l'agent utilisateur de Firefox (par défaut)
 windows-chrome-useragent-mode = 
-    .label = Spoof Chrome sous Windows
+    .label = Usurper Chrome sous Windows
 macOS-chrome-useragent-mode = 
-    .label = Spoof Chrome sur macOS
+    .label = Usurper Chrome sous macOS
 linux-chrome-useragent-mode = 
-    .label = Spoof Chrome sous Linux
+    .label = Usurper Chrome sous Linux
 mobile-chrome-useragent-mode = 
-    .label = Spoof Chrome sur iOS
+    .label = Usurper Chrome sous iOS
 use-custom-useragent-mode = 
-    .label = Utiliser l'Agent Utilisateur Personnalisé
+    .label = Utiliser un agent utilisateur personnalisé
 
 ## DMR UI
 
 download-mgr-UI = 
     .label = Activer le gestionnaire de téléchargement SimpleUI
 downloading-red-color = 
-    .label = Utiliser l'icône rouge des téléchargements lors du téléchargement
-sidebar-preferences = Sidebar
-bsb-preferences = Paramètres de la barre latérale du gestionnaire de navigateur
+    .label = Utiliser l'icône rouge lorsqu'il y a un téléchargement
+sidebar-preferences = Barre latérale
+bsb-preferences = Paramètres de la barre latérale de gestion du navigateur
 view-sidebar2-right = 
-    .label = Afficher la barre latérale du gestionnaire de navigateur à droite
+    .label = Afficher la barre latérale de gestion du navigateur à droite
 enable-sidebar2 = 
-    .label = Activer la barre latérale du gestionnaire de navigateur
+    .label = Activer la barre latérale de gestion du navigateur
 visible-bms = 
-    .label = Afficher la barre latérale du gestionnaire de navigateur
+    .label = Afficher la barre latérale de gestion du navigateur
 hide-bms-to-unload-panel = 
-    .label = Décharger le panneau lors du masquage du panneau
+    .label = Décharger le panneau lors de son masquage
 enable-addons-in-sidebar2-with-experimental = 
-    .label = Activer la barre latérale du gestionnaire de navigateur (expérimental)
+    .label = Activer les scripts de contenus des extensions dans la barre latérale de gestion du navigateur (expérimental)
 enable-addons-in-sidebar2 = 
-    .label = Activer la barre latérale du gestionnaire de navigateur
+    .label = Activer les scripts de contenus des extensions dans la barre latérale de gestion du navigateur
 sidebar2-enable-addons-desc = Si ce paramètre est activé, les bloqueurs de publicités et autres extensions fonctionneront dans la barre latérale. Cependant, pas toutes les extensions ne fonctionneront.
 custom-URL-option = Définir les URL du panneau Web
 set-custom-URL-button = 
-    .label = Définir des URL personnalisées...
+    .label = Définir des URL personnalisées…
     .accesskey = S
 pane-BSB-title = { bsb-header }
 category-BSB = 
     .tooltiptext = { pane-BSB-title }
 category-downloads = 
     .tooltiptext = { files-and-applications-title }
-bsb-header = Barre latérale du gestionnaire de navigateur
+bsb-header = Barre latérale de gestion du navigateur
 bsb-context = Utiliser le conteneur suivant
 bsb-userAgent-label = 
-    .label = Utiliser l'Agent Utilisateur Mobile dans ce panneau Web
+    .label = Utiliser l'agent utilisateur pour mobile dans ce panneau web
 bsb-width = Largeur (si définie à 0, la valeur globale sera utilisée)
 bsb-page = Page à ouvrir
-bsb-add = Ajouter le panneau Web sur la barre latérale du gestionnaire de navigateur
-bsb-setting = Paramètres du panneau Web
+bsb-add = Ajouter le panneau Web sur la barre latérale de gestionnaire de navigateur
+bsb-setting = Paramètres du panneau web
 bsb-add-title = 
     .title = { bsb-add }
 bsb-setting-title = 
@@ -221,10 +221,10 @@ bsb-notes-sidebar =
 bsb-website = 
     .label = Site Web
 sidebar2-pref-delete = 
-    .label = Supprimez
+    .label = Supprimer
 sidebar2-pref-setting = 
-    .label = Réglages
-sidebar2-global-width = Largeur globale des panneaux Web
+    .label = Paramètres
+sidebar2-global-width = Largeur globale des panneaux web
 use-icon-provider-option = Utiliser le fournisseur d'icônes
 use-icon-provider-option-google = 
     .label = Google
