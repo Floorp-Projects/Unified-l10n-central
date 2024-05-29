@@ -51,7 +51,7 @@ account-connection-connected-with = Cet ordinateur est maintenant synchronisé a
 # Used when the name of the new device is not known.
 account-connection-connected-with-noname = Cet ordinateur est maintenant synchronisé avec un nouvel appareil.
 # Used in a notification shown after a Firefox account is connected to the current device.
-account-connection-connected = Vous vous êtes connecté·e avec succès
+account-connection-connected = Vous vous êtes connecté avec succès
 # Used in a notification shown after the Firefox account was disconnected remotely.
 account-connection-disconnected = Cet ordinateur a été correctement déconnecté.
 

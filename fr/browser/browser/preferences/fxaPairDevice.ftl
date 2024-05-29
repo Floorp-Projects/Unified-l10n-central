@@ -17,6 +17,6 @@ fxa-qrcode-pair-title = Synchronisez { -brand-product-name } avec votre téléph
 fxa-qrcode-pair-step1 = 1. Ouvrez { -brand-product-name } sur votre appareil mobile
 fxa-qrcode-pair-step2 = 2. Ouvrez le <strong>menu</strong> (<img data-l10n-name="ios-menu-icon"/> sous iOS ou <img data-l10n-name="android-menu-icon"/> sous Android) et appuyez sur <strong>Se connecter pour synchroniser</strong>
 fxa-qrcode-pair-step2-signin = 2. Ouvrez le menu (<img data-l10n-name="ios-menu-icon"/> sous iOS ou <img data-l10n-name="android-menu-icon"/> sous Android) et appuyez sur <strong>Synchroniser et enregistrer les données</strong>
-fxa-qrcode-pair-step3 = 3. Appuyez sur <strong>Prêt·e à scanner</strong> et maintenez votre appareil au-dessus de ce code
+fxa-qrcode-pair-step3 = 3. Appuyez sur <strong>Prêt à scanner</strong> et maintenez votre appareil au-dessus de ce code
 fxa-qrcode-error-title = Échec de l’association.
 fxa-qrcode-error-body = Veuillez réessayer.
