@@ -29,6 +29,6 @@ fxa-menu-send-tab-to-device =
 fxa-menu-send-tab-to-device-syncnotready =
     .label = Synchronisation des appareils…
 # This is shown within "Send tab to device" in fxa menu if account is not configured.
-fxa-menu-send-tab-to-device-description = Envoyez instantanément un onglet sur n’importe quel appareil où vous êtes connecté·e.
+fxa-menu-send-tab-to-device-description = Envoyez instantanément un onglet sur n’importe quel appareil où vous êtes connecté.
 fxa-menu-sign-out =
     .label = Se déconnecter…

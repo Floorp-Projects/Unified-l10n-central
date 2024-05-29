@@ -68,7 +68,7 @@ cfr-doorhanger-bookmark-fxa-close-btn-tooltip =
 
 ## Protections panel
 
-cfr-protections-panel-header = Naviguez sans être suivi·e
+cfr-protections-panel-header = Naviguez sans être suivi
 cfr-protections-panel-body = Gardez vos données pour vous. { -brand-short-name } vous protège de la plupart des traqueurs les plus courants qui suivent ce que vous faites en ligne.
 cfr-protections-panel-link-text = En savoir plus
 
