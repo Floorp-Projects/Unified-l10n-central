@@ -4,7 +4,7 @@
 
 ###################################################################### about:Dialog #################################################################################
 
-about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> один из отечественных браузеров, разработанный в Японии. Он основан на Firefox и продолжает работать по адресу <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>, чтобы улучшить работу в Интернете. Хотите помочь? <label data-l10n-name="helpus-donateLink">Сделайте пожертвование</label>
+about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> — это один из отечественных браузеров, разработанных в Японии. Он основан на Firefox и продолжает развиваться под руководством <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>, чтобы сделать Интернет лучше. Хотите помочь? <label data-l10n-name="helpus-donateLink">Сделайте пожертвование</label>
 icon-creator = Создатели иконок: <label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> и <label data-l10n-name="brand-logo-twitter">@mwxdxx.</label>
 contributors = Список <label data-l10n-name="about-contributor">контрибьюторов и разработчиков</label>
 #################################################################### about:preferences ####################################################################
@@ -190,7 +190,7 @@ sidebar2-enable-addons-desc = Если эта настройка включен�
 custom-URL-option = Задать URL-адреса веб-панели
 set-custom-URL-button = 
     .label = Задать URL...
-    .accesskey = Ы
+    .accesskey = S
 pane-BSB-title = { bsb-header }
 category-BSB = 
     .tooltiptext = { pane-BSB-title }
@@ -283,7 +283,7 @@ disable-imagecredit-on-newtab =
 about-lepton = Настройка { -brand-short-name } с помощью Lepton
 lepton-preference-button = 
     .label = Настройки Lepton...
-    .accesskey = Л
+    .accesskey = L
 lepton-header = Настройки Lepton
 lepton-preference = Настройки Lepton
 photon-mode = 
@@ -507,10 +507,10 @@ floorp-custom-actions-page-action = Действия страницы
 floorp-custom-actions-visible-action = Видимые действия
 floorp-custom-actions-search-action = Поисковые действия
 floorp-custom-actions-tools-action = Действия Инструментов
-floorp-custom-actions-bookmark-action = Действия в закладках
+floorp-custom-actions-bookmark-action = Действия с закладками
 floorp-custom-actions-open-page-action = Действия на открытой странице
 floorp-custom-actions-history-action = Действия истории
-floorp-custom-actions-pip-action = Действия с фотографией
+floorp-custom-actions-pip-action = Действия с режимом «картинка в картинке»
 floorp-custom-actions-downloads-action = Действия загрузок
 floorp-custom-actions-sidebar-action = Действия боковой панели
 floorp-custom-actions-bms-action = Действия боковой панели управления браузера
@@ -643,13 +643,13 @@ css-menubar =
     .accesskey = С
 rebuild-css = 
     .label = Пересобрать CSS-файлы браузера
-    .accesskey = Р
+    .accesskey = R
 make-browsercss-file = 
     .label = Создать CSS файл браузера
-    .accesskey = М
+    .accesskey = M
 open-css-folder = 
     .label = Открыть папку с CSS файлами
-    .accesskey = О
+    .accesskey = O
 edit-userChromeCss-editor = 
     .label = Редактировать файл userChrome.css
 edit-userContentCss-editor = 
@@ -697,7 +697,7 @@ gf-floorp-show-statusbar-description = Отобразить или скрыть 
 gf-floorp-open-extension-sidebar-name = [{ -brand-short-name }] Открыть выбранное дополнение на боковой панели
 gf-floorp-open-extension-sidebar-description = Открыть выбранное дополнение на боковой панели
 gf-floorp-open-extension-sidebar-settings-addons-id = Дополнение боковой панели
-gf-floorp-open-extension-sidebar-settings-addons-id-description = Расширение дополнения открытого для боковой панели
+gf-floorp-open-extension-sidebar-settings-addons-id-description = Расширение дополнения, открытого на боковой панели
 gf-floorp-open-extension-sidebar-settings-list-default = Пожалуйста, выберите дополнение
 gf-floorp-open-extension-sidebar-settings-list-unknwon = Неизвестное дополнение
 ##################################################################### { -brand-short-name } System Update Portable Version ###############################################################
@@ -763,10 +763,10 @@ workspaces-manage-workspaces-button =
     .label = Управление рабочими пространствами...
     .tooltiptext = Управляйте вашими рабочими пространствами
 reorder-this-workspace-to-up = 
-    .label = Move up this Workspace
+    .label = Переместить рабочее пространство вверх
     .accesskey = B
 reorder-this-workspace-to-down = 
-    .label = Move down this Workspace
+    .label = Переместить рабочее пространство вниз
     .accesskey = A
 rename-this-workspace = 
     .label = Переименовать рабочее пространство
@@ -803,6 +803,9 @@ category-workspaces =
 pane-workspaces-title = Рабочие пространства
 floorp-workspaces-title = Рабочие пространства { -brand-short-name }
 floorp-workspace-settings-button = Настройки рабочего пространства...
+floorp-preferences-label = Настройки
+floorp-extensions-label = Расширения
+floorp-private-label = Приватный
 change-to-close-workspace-popup-option = 
     .label = Закрыть всплывающее окно рабочих пространств при выборе рабочего пространства
 manage-workspace-on-bms-option = 
@@ -910,10 +913,10 @@ floorp-custom-actions-force-reload = Принудительная перезаг
     .label = Принудительная перезагрузка
 floorp-custom-actions-search-in-this-page = Поиск на этой странице
     .label = Найти на странице
-floorp-custom-actions-show-next-search-result = Показывать следующее слово в результатах поиска
-    .label = Следующий "Найти на странице" результат
-floorp-custom-actions-show-previous-search-result = Показывать предыдущее слово в результатах поиска
-    .label = Предыдущий "Найти на странице" результат
+floorp-custom-actions-show-next-search-result = Показывать следующее поисковое слово в результатах этой страницы
+    .label = Следующий результат поиска по странице
+floorp-custom-actions-show-previous-search-result = Показывать предыдущее поисковое слово в результатах этой страницы
+    .label = Предыдущий результат поиска по странице
 floorp-custom-actions-search-the-web = Поиск в Интернете
     .label = Поиск в интернете
 floorp-custom-actions-open-migration-wizard = Открыть мастер миграции
@@ -932,9 +935,9 @@ floorp-custom-actions-bookmark-this-page = Добавить страницу в 
     .label = Добавить страницу в закладки
 floorp-custom-actions-open-bookmarks-sidebar = Открыть боковую панель закладок
     .label = Открыть боковую панель закладок
-floorp-custom-actions-open-bookmark-add-tool = Откройте инструмент добавления закладок
+floorp-custom-actions-open-bookmark-add-tool = Открыть инструмент добавления закладок
     .label = Добавить закладку
-floorp-custom-actions-open-bookmark-add-toolbar = Откройте всплывающее окно "Добавить новую закладку"
+floorp-custom-actions-open-bookmark-add-toolbar = Открыть всплывающее окно "Добавить новую закладку"
     .label = Добавить в панель закладок
 floorp-custom-actions-open-bookmarks-manager = Открыть менеджер закладок
     .label = Открыть Менеджер закладок
@@ -970,8 +973,10 @@ floorp-custom-actions-manage-history = Управление историей
     .label = Управление историей
 floorp-custom-actions-open-downloads = Открыть загрузки
     .label = Открыть загрузки
-floorp-custom-actions-show-bsm = Отобразить боковую панель управления браузера
-    .label = Показать боковую панель управления браузера
+floorp-custom-actions-show-bms = Включить или выключить боковую панель браузера
+    .label = Включить или выключить боковую панель браузера
+floorp-custom-actions-show-current-panel = Включить или выключить текущую панель
+    .label = Включить или выключить текущую панель
 floorp-custom-actions-show-bookmark-sidebar = Отобразить боковую панель закладок
     .label = Показать боковую панель закладок
 floorp-custom-actions-show-history-sidebar = Отобразить боковую панель истории
@@ -1030,6 +1035,8 @@ floorp-custom-actions-rest-mode = Включить режим отдыха
     .label = Включить режим отдыха
 floorp-custom-actions-hide-user-interface = Вкл/выкл пользовательский интерфейс
     .label = Вкл/выкл пользовательский интерфейс
+floorp-custom-actions-toggle-navigation-panel = Toggle Navigation Panel
+    .label = Toggle Navigation Panel
 ##################################################################### Profile Switcher ###############################################################
 
 floorp-open-profile-with-new-instance = Запустить
@@ -1046,7 +1053,7 @@ fxa-not-signed-in = Не авторизован
 floorp-private-container-name = Приватный
 floorp-toggle-private-container = 
     .label = Переоткрыть в приватном/без контейнера
-    .accesskey = П
+    .accesskey = P
 open-in_private-container = 
     .label = Открыть в новой вкладке с приватным контейнером
 ######################################################################## Split View ###############################################################
@@ -1127,8 +1134,8 @@ floorp-notificationContent = Нажмите для загрузки послед
 ######################################################################### vertical tab bar ###############################################################
 
 close-tabs-to-the-start-on-vertical-tab-bar = 
-    .label = Close Tabs to Start
+    .label = Закрыть вкладки до начала
     .accesskey = S
 close-tabs-to-the-end-on-vertical-tab-bar = 
-    .label = Close Tabs to End
+    .label = Закрыть вкладки до конца
     .accesskey = E
