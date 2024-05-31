@@ -1035,6 +1035,8 @@ floorp-custom-actions-rest-mode = 휴식 모드 사용하기
     .label = 휴식 모드 사용하기
 floorp-custom-actions-hide-user-interface = 유저 인터페이스를 전환하기
     .label = 유저 인터페이스를 전환하기
+floorp-custom-actions-toggle-navigation-panel = Toggle Navigation Panel
+    .label = Toggle Navigation Panel
 ##################################################################### Profile Switcher ###############################################################
 
 floorp-open-profile-with-new-instance = 시작
