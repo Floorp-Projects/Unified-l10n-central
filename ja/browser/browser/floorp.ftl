@@ -1035,8 +1035,8 @@ floorp-custom-actions-rest-mode = 休憩モードを有効にする
     .label = 休憩モードを有効にする
 floorp-custom-actions-hide-user-interface = ユーザーインターフェイスを切り替える
     .label = ユーザーインターフェイスを切り替える
-floorp-custom-actions-toggle-navigation-panel = Toggle Navigation Panel
-    .label = Toggle Navigation Panel
+floorp-custom-actions-toggle-navigation-panel = ナビゲーションパネルの表示を切り替える
+    .label = ナビゲーションパネルの表示を切り替える
 ##################################################################### Profile Switcher ###############################################################
 
 floorp-open-profile-with-new-instance = 起動
