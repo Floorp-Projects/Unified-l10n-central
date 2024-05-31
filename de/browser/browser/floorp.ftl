@@ -1035,6 +1035,8 @@ floorp-custom-actions-rest-mode = Ruhemodus einschalten
     .label = Ruhemodus einschalten
 floorp-custom-actions-hide-user-interface = Toggle User Interface
     .label = Toggle User Interface
+floorp-custom-actions-toggle-navigation-panel = Toggle Navigation Panel
+    .label = Toggle Navigation Panel
 ##################################################################### Profile Switcher ###############################################################
 
 floorp-open-profile-with-new-instance = Starten
