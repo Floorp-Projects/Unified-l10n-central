@@ -1035,6 +1035,8 @@ floorp-custom-actions-rest-mode = Bật chế độ nghỉ
     .label = Bật chế độ nghỉ
 floorp-custom-actions-hide-user-interface = Chuyển đổi giao diện người dùng
     .label = Chuyển đổi giao diện người dùng
+floorp-custom-actions-toggle-navigation-panel = Toggle Navigation Panel
+    .label = Toggle Navigation Panel
 ##################################################################### Profile Switcher ###############################################################
 
 floorp-open-profile-with-new-instance = Khởi động
