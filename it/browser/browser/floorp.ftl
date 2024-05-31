@@ -1035,6 +1035,8 @@ floorp-custom-actions-rest-mode = Abilita la modalità di riposo
     .label = Abilita la modalità di riposo
 floorp-custom-actions-hide-user-interface = Disabilita interfaccia utente
     .label = Disabilita interfaccia utente
+floorp-custom-actions-toggle-navigation-panel = Toggle Navigation Panel
+    .label = Toggle Navigation Panel
 ##################################################################### Profile Switcher ###############################################################
 
 floorp-open-profile-with-new-instance = Avvia
