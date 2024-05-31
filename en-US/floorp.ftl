@@ -1221,7 +1221,8 @@ floorp-custom-actions-rest-mode = Enable rest mode
   .label = Enable rest mode
 floorp-custom-actions-hide-user-interface = Toggle User Interface
   .label = Toggle User Interface
-
+floorp-custom-actions-toggle-navigation-panel = Toggle Navigation Panel
+  .label = Toggle Navigation Panel
 ##################################################################### Profile Switcher ###############################################################
 
 floorp-open-profile-with-new-instance = Launch
