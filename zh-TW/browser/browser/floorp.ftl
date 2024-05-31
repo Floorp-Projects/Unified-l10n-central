@@ -1037,8 +1037,8 @@ floorp-custom-actions-rest-mode = 開啟休息模式
     .label = 開啟休息模式
 floorp-custom-actions-hide-user-interface = 切換使用者介面
     .label = 切換使用者介面
-floorp-custom-actions-toggle-navigation-panel = Toggle Navigation Panel
-    .label = Toggle Navigation Panel
+floorp-custom-actions-toggle-navigation-panel = 切換顯示瀏覽版面
+    .label = 切換顯示瀏覽版面
 ##################################################################### Profile Switcher ###############################################################
 
 floorp-open-profile-with-new-instance = 啟動
