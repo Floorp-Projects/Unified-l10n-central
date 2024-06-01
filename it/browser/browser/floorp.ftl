@@ -91,12 +91,12 @@ navbar-settings = Barra di Navigazione
 show-nav-bar-bottom = 
     .label = Mostra la Barra degli Strumenti sul fondo di { -brand-short-name } (sperimentale)
 material-effect = 
-    .label = Permetti a Mica Per Tutti di modificare il design del browser
+    .label = Permetti a Mica For Everyone di modificare l'aspetto del browser
 disable-extension-check-compatibility-option = 
     .label = Non verificare la compatibilità dei componenti aggiuntivi
 other-preference = Altre Preferenze
 enable-userscript = 
-    .label = Abilitare i componenti legacy
+    .label = Abilitare i componenti obsoleti
 about-userscript = L'attivazione di questa funzione può causare bug inattesi o errori fatali.
 search-positon-top = 
     .label = Visualizzare la barra di ricerca nella parte superiore della pagina
@@ -121,13 +121,13 @@ system-theme-auto =
 ui-preference = Aspetto del browser
 preferences-browser-appearance-description = Scegli un design di terze parti preinstallato da usare per { -brand-short-name }. Alcuni design potrebbero non essere compatibili con la tua configurazione.
 firefox-proton = 
-    .label = Firefox Proton UI
+    .label = Interfaccia Firefox Proton
 firefox-photon-lepton = 
-    .label = Firefox Photon・Lepton UI
+    .label = Interfaccia Firefox Photon / Lepton
 floorp-fluentUI = 
-    .label = Microsoft Fluent UI (deprecato)
+    .label = Interfaccia Microsoft Fluent UI (deprecata)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI (deprecato)
+    .label = Interfaccia { -brand-short-name } Fluerial (deprecata)
 floorp-gnomeUI = 
     .label = Tema GNOME (deprecato)
 
@@ -141,7 +141,7 @@ finish-always-notify =
 always-notify = 
     .label = Notifica quando si avvia e quando finisce un download
 do-not-notify = 
-    .label = Disabilita le notifiche di download
+    .label = Disabilita le notifiche per i download
 
 ## Sidebar
 
@@ -154,7 +154,9 @@ appmenuitem-reboot =
 
 userAgent-preference = User Agent
 default-useragent-mode = 
-    .label = Usa Firefox User Agent (Predefinito)
+    .label =
+        Usa lo user agent di Firefox 
+        (Predefinito)
 windows-chrome-useragent-mode = 
     .label = Falsificati come Chrome su Windows
 macOS-chrome-useragent-mode = 
@@ -973,10 +975,10 @@ floorp-custom-actions-manage-history = Gestisci cronologia
     .label = Gestisci cronologia
 floorp-custom-actions-open-downloads = Apri download
     .label = Apri Download
-floorp-custom-actions-show-bms = Toggle browser manager sidebar
-    .label = Toggle the Browser Manager Sidebar
-floorp-custom-actions-show-current-panel = Toggle current panel
-    .label = Toggle Current Panel
+floorp-custom-actions-show-bms = Attiva/Disattiva barra laterale del browser
+    .label = Attiva/Disattiva barra laterale del browser
+floorp-custom-actions-show-current-panel = Attiva/Disattiva pannello corrente
+    .label = Attiva/Disattiva pannello corrente
 floorp-custom-actions-show-bookmark-sidebar = Mostra barra laterale segnalibri
     .label = Mostra Barra Laterale Dei Segnalibri
 floorp-custom-actions-show-history-sidebar = Mostra la barra laterale della cronologia
