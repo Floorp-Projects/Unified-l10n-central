@@ -1035,8 +1035,8 @@ floorp-custom-actions-rest-mode = Включить режим отдыха
     .label = Включить режим отдыха
 floorp-custom-actions-hide-user-interface = Вкл/выкл пользовательский интерфейс
     .label = Вкл/выкл пользовательский интерфейс
-floorp-custom-actions-toggle-navigation-panel = Toggle Navigation Panel
-    .label = Toggle Navigation Panel
+floorp-custom-actions-toggle-navigation-panel = Включить или выключить панель навигации
+    .label = Включить или выключить панель навигации
 ##################################################################### Profile Switcher ###############################################################
 
 floorp-open-profile-with-new-instance = Запустить
