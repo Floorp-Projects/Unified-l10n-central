@@ -78,64 +78,64 @@ floorp-show-vertical-tab-newtab-button =
 floorp-show-vertical-tab-scrollbar = 
     .label = Vis scrollbar på Lodret Fanebjælke
 TST = Faneblad For Træstil
-about-TST = Tree Style Tab er en populær tilføjelse, der lader dig vise faner i en trælignende struktur. Denne tilføjelse er allerede præintegreret i { -brand-short-name }. Installér tilføjelsen for at aktivere { -brand-short-name }'s Tree Style Tab.
+about-TST = Tree Style Tab er en populær tilføjelse, der lader dig vise faner i en trælignende struktur. Denne tilføjelse er allerede præintegreret i { -brand-short-name }. Installer tilføjelsen for at aktivere { -brand-short-name }'s Tree Style Tab.
 treestyletab-Settings = 
-    .label = Sammenfold Træets Stil Faneblad
-sidebar-reverse-position-toolbar = Vis sidebjælker på den anden side
-bookmarks-bar-settings = Bogmærkerværktøjslinje (kun én mulighed kan bruges ad gangen)
+    .label = Sammenfold Tree Style Tab
+sidebar-reverse-position-toolbar = Vis Sidebjælker på den anden side
+bookmarks-bar-settings = Bogmærkeværktøjslinje (kun én mulighed kan bruges ad gangen)
 bookmarks-focus-mode = 
-    .label = Skjul bogmærkerværktøjslinjen med mindre du svæver over navigationslinjen
+    .label = Skjul Bogmærkeværktøjslinjen, medmindre du holder musen over navigationslinjen
 bookmarks-bottom-mode = 
-    .label = Vis bogmærkerværktøjslinjen i bunden af { -brand-short-name }
+    .label = Vis Bogmærkeværktøjslinjen i bunden af { -brand-short-name }
 navbar-settings = Navigationslinje
 show-nav-bar-bottom = 
-    .label = Vis værktøjslinjen i bunden af { -brand-short-name } (eksperimentel)
+    .label = Vis Værktøjslinjen i bunden af { -brand-short-name } (eksperimentel)
 material-effect = 
-    .label = Tillad Mica For alle at ændre browserens design
+    .label = Tillad Mica For Everyone at ændre browserens design
 disable-extension-check-compatibility-option = 
-    .label = Kontroller ikke for kompatibilitet med tilføjelser
+    .label = Kontrollér ikke for kompatibilitet med tilføjelser
 other-preference = Andre Præferencer
 enable-userscript = 
     .label = Aktivér ældre komponenter
 about-userscript = Aktivering af denne funktion kan forårsage uventede eller alvorlige fejl.
 search-positon-top = 
-    .label = Display the Find Bar at the top of the page
+    .label = Vis Søgelinjen øverst på siden
 allow-auto-restart = 
     .label = Genstart automatisk, når indstillinger, der kræver en genstart, ændres
 disable-fullscreen-notification = 
-    .label = Vis ikke en notifikation ved indtastning af fuld skærm
+    .label = Vis ikke en meddelelse, når du går ind i fuld skærm
 
 ## Browser Theme
 
-system-color-settings = Nogle temaer har både lyse og mørke tilstande - vælg hvilken tilstand du gerne vil have disse temaer til at bruge.
-preferences-theme-appearance-header = Tema Tilstand
+system-color-settings = Nogle temaer har både lyse og mørke tilstande — vælg, hvilken tilstand du vil bruge i disse temaer.
+preferences-theme-appearance-header = Tematilstand
 system-theme-dark = 
     .label = Mørk
 system-theme-light = 
     .label = Lys
 system-theme-auto = 
-    .label = Følg mit system udseende
+    .label = Følg mit systems udseende
 
 ## User interface preferences
 
-ui-preference = Browser udseende
+ui-preference = Browserens udseende
 preferences-browser-appearance-description = Vælg et indbygget tredjepartsdesign til brug i { -brand-short-name }. Nogle designs er muligvis ikke kompatible med din konfiguration.
 firefox-proton = 
     .label = Firefox Proton UI
 firefox-photon-lepton = 
-    .label = Firefox Photon- Lepton UI
+    .label = Firefox Photon • Lepton UI
 floorp-fluentUI = 
     .label = Microsoft Fluent UI (forældet)
 floorp-fluerialUI = 
     .label = { -brand-short-name } Fluerial UI (forældet)
 floorp-gnomeUI = 
-    .label = GNOME Tema (forældet)
+    .label = GNOME-tema (forældet)
 
 ## Download Manager
 
-download-notification-preferences = Download Notifikationer
+download-notification-preferences = Hent Notifikationer
 start-always-notify = 
-    .label = Giv kun besked, når downloads startes
+    .label = Underret kun, når overførsler startes
 finish-always-notify = 
     .label = Advisér kun når en download er færdig
 always-notify = 
