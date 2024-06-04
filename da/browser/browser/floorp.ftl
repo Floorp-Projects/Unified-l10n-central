@@ -137,11 +137,11 @@ download-notification-preferences = Hent Notifikationer
 start-always-notify = 
     .label = Underret kun, når overførsler startes
 finish-always-notify = 
-    .label = Advisér kun når en download er færdig
+    .label = Underret kun, når en overførsel er færdig
 always-notify = 
-    .label = Giv besked, når du starter downloads og når en download er færdig
+    .label = Underret, når overførsler startes, og en overførsel er færdig
 do-not-notify = 
-    .label = Deaktiver download notifikationer
+    .label = Deaktivér overførselsnotifikationer
 
 ## Sidebar
 
@@ -152,9 +152,9 @@ appmenuitem-reboot =
 
 ## UserAgent
 
-userAgent-preference = User Agent
+userAgent-preference = Brugeragent
 default-useragent-mode = 
-    .label = Brug Firefox User Agent (Standard)
+    .label = Brug Firefox-brugeragent (standard)
 windows-chrome-useragent-mode = 
     .label = Spoof Chrome på Windows
 macOS-chrome-useragent-mode = 
@@ -169,10 +169,10 @@ use-custom-useragent-mode =
 ## DMR UI
 
 download-mgr-UI = 
-    .label = Aktiver SimpleUI Download Manager
+    .label = Aktivér SimpleUI Download Manager
 downloading-red-color = 
-    .label = Brug ikonet med røde downloads, når du henter
-sidebar-preferences = Sidebar
+    .label = Brug det røde overførselsikon, når du henter
+sidebar-preferences = Sidebjælke
 bsb-preferences = Indstillinger For Browserhåndteringsidebjælke
 view-sidebar2-right = 
     .label = Vis Browser Manager Sidebjælken til højre
@@ -181,7 +181,7 @@ enable-sidebar2 =
 visible-bms = 
     .label = Vis sidebjælken til browserhåndtering
 hide-bms-to-unload-panel = 
-    .label = Fjern panel ved skjulning af panel
+    .label = Fjern panel, når panel skjules
 enable-addons-in-sidebar2-with-experimental = 
     .label = Enable Extensions Content Scripts in Browser Manager Sidebar (experimental)
 enable-addons-in-sidebar2 = 
