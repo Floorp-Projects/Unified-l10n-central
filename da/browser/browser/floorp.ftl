@@ -525,8 +525,8 @@ mouse-gesture-description = Gesturefy skal være installeret for at bruge musebe
 Gesturefy = Gesturefy
 about-Gesturefy = Gesturefy er en tilføjelse, der føjer musebevægelser til din browser. Hvis { -brand-short-name } registrerer installationen af denne tilføjelse, føjer den bevægelseskommandoer til Gesturefy, som kun er tilgængelige i { -brand-short-name }. Denne tilføjelse opretter også nye faner!
 # Translate
-TWS = Translate Web Page
-about-TWS = Oversæt din side i realtid ved hjælp af Google eller Yandex. Du kan også oversætte den valgte tekst eller hele siden.
+TWS = Oversæt Hjemmesider
+about-TWS = Oversæt din side i realtid med Google eller Yandex. Du kan også oversætte valgt tekst eller hele siden.
 
 # Privacy Hub
 
@@ -534,8 +534,8 @@ about-TWS = Oversæt din side i realtid ved hjælp af Google eller Yandex. Du ka
 ## BlockMoreTrackers
 
 privacy-hub-header = Privatliv Hub
-block-more-tracker = Blokér flere Annoncer og Trackers
-block-tracker = Dette afsnit indeholder et sæt af udvidelser, der er designet til at blokere annoncer og trackere
+block-more-tracker = Bloker flere Annoncer og Trackere
+block-tracker = Dette afsnit indeholder et sæt udvidelser, der er designet til at blokere annoncer og trackere
 view-at-AMO = Se denne tilføjelse i addons.mozilla.org
 uBlock-Origin = uBlock Oprindelse
 about-uboori = uBlock Origin blokerer annoncer, omfattende trackere, og yderligere farlige steder.
