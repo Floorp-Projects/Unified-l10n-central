@@ -93,10 +93,10 @@ show-nav-bar-bottom =
 material-effect = 
     .label = Mica for Everyone によるデザイン変更
 disable-extension-check-compatibility-option = 
-    .label = Do not check for compatibility with add-ons (deprecated)
+    .label = アドオンとの互換性を確認しない (非推奨)
 other-preference = その他の設定
 enable-userscript = 
-    .label = Enable legacy components (deprecated)
+    .label = レガシーコンポーネントを有効にする (非推奨)
 about-userscript = この機能を有効にすると予期せぬエラーを発生させる可能性があります。
 search-positon-top = 
     .label = 検索バーを上部に表示
@@ -152,7 +152,7 @@ appmenuitem-reboot =
 
 ## UserAgent
 
-userAgent-preference = User Agent (deprecated)
+userAgent-preference = ユーザーエージェント (非推奨)
 default-useragent-mode = 
     .label = Firefox のユーザーエージェントを使用 (デフォルト)
 windows-chrome-useragent-mode = 
