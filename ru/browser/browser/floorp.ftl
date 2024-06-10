@@ -93,10 +93,10 @@ show-nav-bar-bottom =
 material-effect = 
     .label = Разрешить Mica for Everyone изменять дизайн браузера
 disable-extension-check-compatibility-option = 
-    .label = Не проверять совместимость с дополнениями
+    .label = Do not check for compatibility with add-ons (deprecated)
 other-preference = Другие настройки
 enable-userscript = 
-    .label = Включить устаревшие компоненты
+    .label = Enable legacy components (deprecated)
 about-userscript = Включение этой функции может привести к неожиданным ошибкам или фатальным сбоям.
 search-positon-top = 
     .label = Отображение панели поиска в верхней части страницы
@@ -152,7 +152,7 @@ appmenuitem-reboot =
 
 ## UserAgent
 
-userAgent-preference = Пользовательский агент
+userAgent-preference = User Agent (deprecated)
 default-useragent-mode = 
     .label = Использовать пользовательский агент Firefox (по умолчанию)
 windows-chrome-useragent-mode = 
