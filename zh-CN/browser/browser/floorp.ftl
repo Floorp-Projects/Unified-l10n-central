@@ -93,10 +93,10 @@ show-nav-bar-bottom =
 material-effect = 
     .label = 允许 Mica For Everyone 修改浏览器的设计
 disable-extension-check-compatibility-option = 
-    .label = 不要检查与插件的兼容性
+    .label = Do not check for compatibility with add-ons (deprecated)
 other-preference = 其他设置
 enable-userscript = 
-    .label = 启用旧版组件
+    .label = Enable legacy components (deprecated)
 about-userscript = 启用此功能可能会引发意料之外的错误或致命性问题。
 search-positon-top = 
     .label = 在页面顶部显示搜索栏
@@ -152,7 +152,7 @@ appmenuitem-reboot =
 
 ## UserAgent
 
-userAgent-preference = User Agent
+userAgent-preference = User Agent (deprecated)
 default-useragent-mode = 
     .label = 使用 Firefox 用户代理 (默认)
 windows-chrome-useragent-mode = 
