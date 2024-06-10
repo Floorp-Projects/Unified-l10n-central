@@ -93,10 +93,10 @@ show-nav-bar-bottom =
 material-effect = 
     .label = Επιτρέψτε στον Mica να τροποποιήσει τον σχεδιασμό του προγράμματος περιήγησης για όλους
 disable-extension-check-compatibility-option = 
-    .label = Μην ελέγχετε για συμβατότητα με πρόσθετα
+    .label = Do not check for compatibility with add-ons (deprecated)
 other-preference = Άλλες Προτιμήσεις
 enable-userscript = 
-    .label = Enable legacy components
+    .label = Enable legacy components (deprecated)
 about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
 search-positon-top = 
     .label = Display the Find Bar at the top of the page
@@ -152,7 +152,7 @@ appmenuitem-reboot =
 
 ## UserAgent
 
-userAgent-preference = User Agent
+userAgent-preference = User Agent (deprecated)
 default-useragent-mode = 
     .label = Χρήση Φορέα Χρήστη Firefox (Προεπιλογή)
 windows-chrome-useragent-mode = 
