@@ -807,7 +807,7 @@ floorp-preferences-label = Preferences
 floorp-extensions-label = Extensions
 floorp-private-label = Private
 change-to-close-workspace-popup-option = 
-    .label = إغلاق مساحات العمل المنبثقة عند تحديد مساحة العمل
+    .label = Close Workspaces popup when selecting a Workspace
 manage-workspace-on-bms-option = 
     .label = إدارة مساحة العمل على مدير المتصفح الشريط الجانبي
 show-workspace-name-option = 
@@ -947,7 +947,7 @@ floorp-custom-actions-open-general-preferences = فتح التفضيلات ال�
     .label = فتح التفضيلات العامة
 floorp-custom-actions-open-privacy-preferences = فتح تفضيلات الخصوصية
     .label = فتح تفضيلات الخصوصية
-floorp-custom-actions-open-workspaces-preferences = فتح تفضيلات مساحات العمل
+floorp-custom-actions-open-workspaces-preferences = Open Workspaces preferences
     .label = فتح تفضيلات مساحات العمل
 floorp-custom-actions-open-containers-preferences = فتح تفضيلات الحاويات
     .label = تفضيلات الحاويات المفتوحة
@@ -991,10 +991,10 @@ floorp-custom-actions-show-sidebar = تبديل الشريط الجانبي
     .label = تبديل الشريط الجانبي
 floorp-custom-actions-toggle-sidebar = Toggle sidebar
     .label = Toggle sidebar
-floorp-custom-actions-open-previous-workspace = فتح فضاء العمل السابق
-    .label = فتح فضاء العمل السابق
-floorp-custom-actions-open-next-workspace = فتح فضاء العمل التالي
-    .label = فتح فضاء العمل التالي
+floorp-custom-actions-open-previous-workspace = Open previous Workspace
+    .label = Open previous Workspace
+floorp-custom-actions-open-next-workspace = Open next Workspace
+    .label = Open next Workspace
 floorp-custom-actions-show-panel-1 = تبديل لوحة 1
     .label = تبديل لوحة 1
 floorp-custom-actions-show-panel-2 = تبديل لوحة 2
