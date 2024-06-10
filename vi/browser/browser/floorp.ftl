@@ -93,10 +93,10 @@ show-nav-bar-bottom =
 material-effect = 
     .label = Hỗ trợ Mica cho mọi người có thể chỉnh sửa thiết kế của trình duyệt
 disable-extension-check-compatibility-option = 
-    .label = Không kiểm tra tương thích với add-ons
+    .label = Do not check for compatibility with add-ons (deprecated)
 other-preference = Các tuỳ chọn khác
 enable-userscript = 
-    .label = Kích hoạt các thành phần Legacy
+    .label = Enable legacy components (deprecated)
 about-userscript = Kích hoạt tính năng này có thể gây ra một số lỗi không mong muốn.
 search-positon-top = 
     .label = Hiển thị thanh tiềm kiếm đầu trang
@@ -152,7 +152,7 @@ appmenuitem-reboot =
 
 ## UserAgent
 
-userAgent-preference = User Agent
+userAgent-preference = User Agent (deprecated)
 default-useragent-mode = 
     .label = Sử dụng Firefox User Agent ( Mặc định)
 windows-chrome-useragent-mode = 
