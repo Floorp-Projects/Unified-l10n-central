@@ -93,10 +93,10 @@ show-nav-bar-bottom =
 material-effect = 
     .label = Mica For Everyone'ın tarayıcı tasarımını değiştirmesine izin ver
 disable-extension-check-compatibility-option = 
-    .label = Eklentilerle uyumluluğu kontrol etme
+    .label = Do not check for compatibility with add-ons (deprecated)
 other-preference = Diğer Tercihler
 enable-userscript = 
-    .label = Eski bileşenleri etkinleştir
+    .label = Enable legacy components (deprecated)
 about-userscript = Bu özelliğin etkinleştirilmesi beklenmedik hatalara veya ciddi sorunlara neden olabilir.
 search-positon-top = 
     .label = Sayfanın üst kısmında Bulma Çubuğunu görüntüle
@@ -152,7 +152,7 @@ appmenuitem-reboot =
 
 ## UserAgent
 
-userAgent-preference = Kullanıcı Aracısı
+userAgent-preference = User Agent (deprecated)
 default-useragent-mode = 
     .label = Firefox Kullanıcı Aracısını Kullan (Varsayılan)
 windows-chrome-useragent-mode = 
