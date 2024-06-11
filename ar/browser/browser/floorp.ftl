@@ -93,10 +93,10 @@ show-nav-bar-bottom =
 material-effect = 
     .label = السماح بـ Mica للجميع بتعديل تصميم المستكشف
 disable-extension-check-compatibility-option = 
-    .label = عدم التحقق من توافيقة الإضافات
+    .label = Do not check for compatibility with add-ons (deprecated)
 other-preference = إعدادات أخرى
 enable-userscript = 
-    .label = تمكين المكونات القديمة
+    .label = Enable legacy components (deprecated)
 about-userscript = تمكين هذه الميزة قد يتسبب بمشاكل غير متوقعة أو أخطاء فادحة.
 search-positon-top = 
     .label = إظهار شريط البحث أعلى الصفحة
@@ -152,7 +152,7 @@ appmenuitem-reboot =
 
 ## UserAgent
 
-userAgent-preference = عامل المستخدم
+userAgent-preference = User Agent (deprecated)
 default-useragent-mode = 
     .label = استخدام عامل مستخدم Firefox (الافتراضي)
 windows-chrome-useragent-mode = 

@@ -93,10 +93,10 @@ show-nav-bar-bottom =
 material-effect = 
     .label = Mica Laat iedereen het ontwerp van de browser aanpassen
 disable-extension-check-compatibility-option = 
-    .label = Controleer niet op compatibiliteit met add-ons
+    .label = Do not check for compatibility with add-ons (deprecated)
 other-preference = Andere voorkeuren
 enable-userscript = 
-    .label = Enable legacy components
+    .label = Enable legacy components (deprecated)
 about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
 search-positon-top = 
     .label = Display the Find Bar at the top of the page
@@ -152,7 +152,7 @@ appmenuitem-reboot =
 
 ## UserAgent
 
-userAgent-preference = User Agent
+userAgent-preference = User Agent (deprecated)
 default-useragent-mode = 
     .label = Gebruik Firefox User Agent (standaard)
 windows-chrome-useragent-mode = 

@@ -93,10 +93,10 @@ show-nav-bar-bottom =
 material-effect = 
     .label = Pozwól Mica dla wszystkich modyfikować wygląd przeglądarki
 disable-extension-check-compatibility-option = 
-    .label = Nie sprawdzaj zgodności z dodatkami
+    .label = Do not check for compatibility with add-ons (deprecated)
 other-preference = Inne preferencje
 enable-userscript = 
-    .label = Włącz starsze komponenty
+    .label = Enable legacy components (deprecated)
 about-userscript = Włączenie tej funkcji może spowodować nieoczekiwane błędy lub błędy krytyczne.
 search-positon-top = 
     .label = Wyświetlanie paska wyszukiwania w górnej części strony
@@ -152,7 +152,7 @@ appmenuitem-reboot =
 
 ## UserAgent
 
-userAgent-preference = User agent
+userAgent-preference = User Agent (deprecated)
 default-useragent-mode = 
     .label = Użyj Firefox User Agent (domyślnie)
 windows-chrome-useragent-mode = 

@@ -93,10 +93,10 @@ show-nav-bar-bottom =
 material-effect = 
     .label = Дозволити Mica For Everyone змінювати дизайн браузера
 disable-extension-check-compatibility-option = 
-    .label = Не перевіряти сумісність з додатками
+    .label = Do not check for compatibility with add-ons (deprecated)
 other-preference = Інші налаштування
 enable-userscript = 
-    .label = Увімкніть застарілі компоненти
+    .label = Enable legacy components (deprecated)
 about-userscript = Увімкнення цієї функції може спричинити неочікувані помилки або фатальні збої.
 search-positon-top = 
     .label = Відображати рядок пошуку у верхній частині сторінки
@@ -152,7 +152,7 @@ appmenuitem-reboot =
 
 ## UserAgent
 
-userAgent-preference = Користувацький агент
+userAgent-preference = User Agent (deprecated)
 default-useragent-mode = 
     .label = Використовувати користувацький агент Firefox (за замовчуванням)
 windows-chrome-useragent-mode = 

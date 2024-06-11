@@ -93,10 +93,10 @@ show-nav-bar-bottom =
 material-effect = 
     .label = Izinkan Mica For Everyone untuk memodifikasi desain browser
 disable-extension-check-compatibility-option = 
-    .label = Jangan memeriksa kompatibilitas dengan pengaya
+    .label = Do not check for compatibility with add-ons (deprecated)
 other-preference = Preferensi Lainnya
 enable-userscript = 
-    .label = Aktifkan komponen lawas
+    .label = Enable legacy components (deprecated)
 about-userscript = Mengaktifkan fitur ini dapat menyebabkan kutu yang tidak terduga atau kesalahan fatal.
 search-positon-top = 
     .label = Tampilkan Bilah Pencarian di bagian atas halaman
@@ -152,7 +152,7 @@ appmenuitem-reboot =
 
 ## UserAgent
 
-userAgent-preference = Agen Pengguna
+userAgent-preference = User Agent (deprecated)
 default-useragent-mode = 
     .label = Gunakan Agen Pengguna Firefox (Bawaan)
 windows-chrome-useragent-mode = 

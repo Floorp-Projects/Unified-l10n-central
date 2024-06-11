@@ -93,10 +93,10 @@ show-nav-bar-bottom =
 material-effect = 
     .label = Leisti "Mica For Everyone" keisti naršyklės dizainą
 disable-extension-check-compatibility-option = 
-    .label = Netikrinti suderinamumo su priedais
+    .label = Do not check for compatibility with add-ons (deprecated)
 other-preference = Kiti pasirinkimai
 enable-userscript = 
-    .label = Įgalinti senesnius komponentus
+    .label = Enable legacy components (deprecated)
 about-userscript = Įjungus šią funkciją gali atsirasti netikėtos klaidos.
 search-positon-top = 
     .label = Rodyti paieškos juostą puslapio viršunėje
@@ -152,7 +152,7 @@ appmenuitem-reboot =
 
 ## UserAgent
 
-userAgent-preference = Vartotojo agentas
+userAgent-preference = User Agent (deprecated)
 default-useragent-mode = 
     .label = Naudoti „Firefox“ vartotojo agentą (numatytasis nustatymas)
 windows-chrome-useragent-mode = 

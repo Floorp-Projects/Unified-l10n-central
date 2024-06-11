@@ -93,10 +93,10 @@ show-nav-bar-bottom =
 material-effect = 
     .label = Mica For Everyone으로 브라우저 디자인 수정 허용
 disable-extension-check-compatibility-option = 
-    .label = 확장 기능과의 브라우저 호환성을 검사하지 않기
+    .label = Do not check for compatibility with add-ons (deprecated)
 other-preference = 기타 설정
 enable-userscript = 
-    .label = 레거시 구성 요소 사용하기
+    .label = Enable legacy components (deprecated)
 about-userscript = 이 기능을 활성화하면 예상치 못한 버그나 치명적인 오류가 발생할 수 있어요.
 search-positon-top = 
     .label = 페이지 상단에 찾기 표시줄을 표시하기
@@ -152,7 +152,7 @@ appmenuitem-reboot =
 
 ## UserAgent
 
-userAgent-preference = 사용자 에이전트
+userAgent-preference = User Agent (deprecated)
 default-useragent-mode = 
     .label = Firefox 사용자 에이전트 사용(기본값)
 windows-chrome-useragent-mode = 

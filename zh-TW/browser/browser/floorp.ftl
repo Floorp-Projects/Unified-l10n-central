@@ -93,10 +93,10 @@ show-nav-bar-bottom =
 material-effect = 
     .label = 允許 Mica For Everyone 變更瀏覽器外觀
 disable-extension-check-compatibility-option = 
-    .label = 不要檢查擴充套件兼容性
+    .label = 不檢查擴充套件兼容性 (已終止支援)
 other-preference = 其他的偏好設定
 enable-userscript = 
-    .label = 啟用舊式擴充元件
+    .label = 啟用舊式擴充元件 (已終止支援)
 about-userscript = 開啟此功能可能會導致程式出現不可預料的錯誤
 search-positon-top = 
     .label = 在頁面頂端顯示搜索欄
@@ -152,7 +152,7 @@ appmenuitem-reboot =
 
 ## UserAgent
 
-userAgent-preference = User Agent
+userAgent-preference = User Agent (已終止支援)
 default-useragent-mode = 
     .label = 使用Firefox UA (默認)
 windows-chrome-useragent-mode = 

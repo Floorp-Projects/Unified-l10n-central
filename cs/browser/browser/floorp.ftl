@@ -93,10 +93,10 @@ show-nav-bar-bottom =
 material-effect = 
     .label = Povolit Mica pro každého, aby změnil design prohlížeče
 disable-extension-check-compatibility-option = 
-    .label = Nekontrolovat kompatibilitu s doplňky
+    .label = Do not check for compatibility with add-ons (deprecated)
 other-preference = Další předvolby
 enable-userscript = 
-    .label = Enable legacy components
+    .label = Enable legacy components (deprecated)
 about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
 search-positon-top = 
     .label = Display the Find Bar at the top of the page
@@ -152,7 +152,7 @@ appmenuitem-reboot =
 
 ## UserAgent
 
-userAgent-preference = User Agent
+userAgent-preference = User Agent (deprecated)
 default-useragent-mode = 
     .label = Použít User Agent Firefoxu (výchozí)
 windows-chrome-useragent-mode = 

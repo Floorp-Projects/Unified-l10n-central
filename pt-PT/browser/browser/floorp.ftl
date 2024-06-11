@@ -93,10 +93,10 @@ show-nav-bar-bottom =
 material-effect = 
     .label = Permita que o Mica Para Todos modifique o design do navegador
 disable-extension-check-compatibility-option = 
-    .label = Não verificar a compatibilidade com os complementos
+    .label = Não verificar a compatibilidade com add-ons (obsoleto)
 other-preference = Outras Preferências
 enable-userscript = 
-    .label = Ativar componentes antigos
+    .label = Ativar componentes antigos (obsoleto)
 about-userscript = A ativação desta funcionalidade pode causar bugs inesperados ou erros fatais.
 search-positon-top = 
     .label = Exibir a barra de pesquisa na parte superior da página
@@ -152,7 +152,7 @@ appmenuitem-reboot =
 
 ## UserAgent
 
-userAgent-preference = User Agent
+userAgent-preference = Agente do utilizador (obsoleto)
 default-useragent-mode = 
     .label = Usar o Navegador de Usuário do Firefox (Padrão)
 windows-chrome-useragent-mode = 
