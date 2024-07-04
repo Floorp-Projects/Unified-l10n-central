@@ -112,7 +112,7 @@ show-nav-bar-bottom =
  .label = Show the Toolbar at the bottom of { -brand-short-name } (experimental)
 
 material-effect =
- .label = Allow Mica For Everyone to modify the browser design
+ .label = Allow Mica For Everyone to modify the browser design (Deprecated)
 disable-extension-check-compatibility-option =
  .label = Do not check for compatibility with add-ons (deprecated)
 other-preference = Other Preferences
