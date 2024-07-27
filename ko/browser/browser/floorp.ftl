@@ -34,7 +34,7 @@ tab-sleep-settings-button = 설정...
 tab-sleep-settings-dialog-title = 
     .title = 탭 슬립 설정
 tab-sleep-settings-dialog-excludehosts-label = 제외할 호스트
-tab-sleep-settings-dialog-excludehosts-label-2 = 한 줄에 호스트 하나를 입력합니다.
+tab-sleep-settings-dialog-excludehosts-label-2 = 한 줄에 호스트 하나씩 입력하세요.
 tab-sleep-tab-context-menu-excludetab = 탭을 슬립으로 전환하지 않기
 enable-tab-scroll-change = 
     .label = 마우스로 스크롤하여 탭 전환
@@ -247,7 +247,7 @@ delete-border-and-roundup-option =
 ## DualTheme
 
 dualtheme-enable = 
-    .label = 듀얼 테마 사용
+    .label = 듀얼 테마를 사용하기
 newtab-background = { -brand-short-name } 홈 배경
 newtab-background-random-image = 
     .label = Unsplash의 무작위 이미지
@@ -263,9 +263,9 @@ newtab-background-folder = 이 폴더의 이미지를 사용합니다:
 newtab-background-image = 사용할 이미지:
 newtab-choose-image = 이미지를 선택:
 newtab-background-folder-reload = 
-    .label = 이미지 다시 로드
+    .label = 이미지를 다시 로드
 newtab-background-folder-default = 
-    .label = 기본값 복원
+    .label = 기본값 복원하기
 newtab-background-folder-open = 
     .label = 폴더 열기
 newtab-background-folder-choose = 이미지 폴더 선택...
@@ -361,7 +361,7 @@ floorp-home-prefs-content-description = { -brand-short-name } 홈페이지에서
 
 ## Notes
 
-floorp-notes = { -brand-short-name } 참고
+floorp-notes = { -brand-short-name } 노트
 restore-from-backup = 백업에서 노트 복원
 enable-notes-sync = 
     .label = { -brand-short-name } 노트 동기화 활성화
