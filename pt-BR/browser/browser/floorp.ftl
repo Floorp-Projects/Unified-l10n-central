@@ -1058,14 +1058,10 @@ open-in_private-container =
     .label = Abrir em Nova Aba com Recipiente Privado
 ######################################################################## Split View ###############################################################
 
-floorp-split-view-menu = 
-    .label = Open in split view
-splitview-show-on-right = 
-    .label = Show on right
-splitview-show-on-left = 
-    .label = Show on left
-splitview-close-split-tab = 
-    .label = Close split tab
+floorp-split-view-open-menu = 
+    .label = Open in Split View
+floorp-split-view-close-menu = 
+    .label = Close Split Tab
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = Escaneie o Código QR com seu Telefone
 qrcode-generate-page-action = 
