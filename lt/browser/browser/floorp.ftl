@@ -1058,14 +1058,10 @@ open-in_private-container =
     .label = Atidaryti naujame skirtuke su privačiu konteineriu
 ######################################################################## Split View ###############################################################
 
-floorp-split-view-menu = 
-    .label = Open in split view
-splitview-show-on-right = 
-    .label = Rodyti dešinėje
-splitview-show-on-left = 
-    .label = Rodyti kairėje
-splitview-close-split-tab = 
-    .label = Uždaryti padalytą skirtuką
+floorp-split-view-open-menu = 
+    .label = Open in Split View
+floorp-split-view-close-menu = 
+    .label = Close Split Tab
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = Nuskaitykite QR kodą su savo telefonu
 qrcode-generate-page-action = 
