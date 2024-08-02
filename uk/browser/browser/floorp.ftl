@@ -1058,14 +1058,10 @@ open-in_private-container =
     .label = Відкрийте у новій вкладці з приватним контейнером
 ######################################################################## Split View ###############################################################
 
-floorp-split-view-menu = 
-    .label = Відкрити в режимі розділеного перегляду
-splitview-show-on-right = 
-    .label = Показати праворуч
-splitview-show-on-left = 
-    .label = Показати ліворуч
-splitview-close-split-tab = 
-    .label = Закрити розділену вкладку
+floorp-split-view-open-menu = 
+    .label = Open in Split View
+floorp-split-view-close-menu = 
+    .label = Close Split Tab
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = Відскануйте QR-код за допомогою телефону
 qrcode-generate-page-action = 
