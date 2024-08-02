@@ -1059,9 +1059,9 @@ open-in_private-container =
 ######################################################################## Split View ###############################################################
 
 floorp-split-view-open-menu = 
-    .label = Open in Split View
+    .label = Abrir na vista dividida
 floorp-split-view-close-menu = 
-    .label = Close Split Tab
+    .label = Fechar aba dividida
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = Escaneie o Código QR com seu Telefone
 qrcode-generate-page-action = 
