@@ -1058,14 +1058,10 @@ open-in_private-container =
     .label = Ouvrir dans un nouvel onglet avec un conteneur privé
 ######################################################################## Split View ###############################################################
 
-floorp-split-view-menu = 
-    .label = Ouvrir en vue fractionnée
-splitview-show-on-right = 
-    .label = Afficher à gauche
-splitview-show-on-left = 
-    .label = Afficher à droite
-splitview-close-split-tab = 
-    .label = Fermer l'onglet fractionné
+floorp-split-view-open-menu = 
+    .label = Open in Split View
+floorp-split-view-close-menu = 
+    .label = Close Split Tab
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = Scannez le QR Code avec votre téléphone
 qrcode-generate-page-action = 
