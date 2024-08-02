@@ -1060,14 +1060,10 @@ open-in_private-container =
     .label = Apri in una nuova scheda con contenitore privato
 ######################################################################## Split View ###############################################################
 
-floorp-split-view-menu = 
-    .label = Apri nella vista separata
-splitview-show-on-right = 
-    .label = Posiziona a destra
-splitview-show-on-left = 
-    .label = Posiziona a sinistra
-splitview-close-split-tab = 
-    .label = Chiudi la scheda divisa
+floorp-split-view-open-menu = 
+    .label = Open in Split View
+floorp-split-view-close-menu = 
+    .label = Close Split Tab
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = Scansiona il codice QR con il tuo telefono
 qrcode-generate-page-action = 
