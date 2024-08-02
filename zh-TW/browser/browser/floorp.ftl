@@ -1060,14 +1060,10 @@ open-in_private-container =
     .label = 用私隱容器在新分頁開啟
 ######################################################################## Split View ###############################################################
 
-floorp-split-view-menu = 
-    .label = 在分割視圖中開啟
-splitview-show-on-right = 
-    .label = 於右側顯示
-splitview-show-on-left = 
-    .label = 於左側顯示
-splitview-close-split-tab = 
-    .label = 關閉分割視圖分頁
+floorp-split-view-open-menu = 
+    .label = Open in Split View
+floorp-split-view-close-menu = 
+    .label = Close Split Tab
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = 使用手機掃描 QR Code
 qrcode-generate-page-action = 
