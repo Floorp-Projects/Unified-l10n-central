@@ -1058,14 +1058,10 @@ open-in_private-container =
     .label = 新しいプライベートコンテナータブで開く
 ######################################################################## Split View ###############################################################
 
-floorp-split-view-menu = 
-    .label = 分割ビューで開く
-splitview-show-on-right = 
-    .label = 右側に表示
-splitview-show-on-left = 
-    .label = 左側に表示
-splitview-close-split-tab = 
-    .label = 分割ビューを閉じる
+floorp-split-view-open-menu = 
+    .label = Open in Split View
+floorp-split-view-close-menu = 
+    .label = Close Split Tab
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = QR コードをスキャンしてください
 qrcode-generate-page-action = 
