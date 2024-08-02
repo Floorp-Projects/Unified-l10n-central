@@ -1058,14 +1058,10 @@ open-in_private-container =
     .label = 사생활 컨테이너로 새 탭에서 열기
 ######################################################################## Split View ###############################################################
 
-floorp-split-view-menu = 
-    .label = 분할 뷰에서 열기
-splitview-show-on-right = 
-    .label = 오른쪽에 표시하기
-splitview-show-on-left = 
-    .label = 왼쪽에 표시하기
-splitview-close-split-tab = 
-    .label = 분할 탭을 닫기
+floorp-split-view-open-menu = 
+    .label = Open in Split View
+floorp-split-view-close-menu = 
+    .label = Close Split Tab
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = QR코드를 스캔하세요.
 qrcode-generate-page-action = 
