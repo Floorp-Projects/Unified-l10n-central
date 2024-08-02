@@ -1058,14 +1058,10 @@ open-in_private-container =
     .label = Mở trong thẻ mới với với ngăn chứa thẻ riêng tư
 ######################################################################## Split View ###############################################################
 
-floorp-split-view-menu = 
-    .label = Mở dưới dạng chia đôi màn hình
-splitview-show-on-right = 
-    .label = Hiện bên phải
-splitview-show-on-left = 
-    .label = Hiện bên trái
-splitview-close-split-tab = 
-    .label = Tắt chia thẻ
+floorp-split-view-open-menu = 
+    .label = Open in Split View
+floorp-split-view-close-menu = 
+    .label = Close Split Tab
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = Quét mã QR bằng điện thoại của bạn
 qrcode-generate-page-action = 
