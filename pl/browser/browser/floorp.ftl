@@ -1058,14 +1058,10 @@ open-in_private-container =
     .label = Otwórz w nowej karcie z prywatnym kontenerem
 ######################################################################## Split View ###############################################################
 
-floorp-split-view-menu = 
-    .label = Otwórz w widoku podzielonym
-splitview-show-on-right = 
-    .label = Pokaż po prawej
-splitview-show-on-left = 
-    .label = Pokaż po lewej
-splitview-close-split-tab = 
-    .label = Zamknij podzielone karty
+floorp-split-view-open-menu = 
+    .label = Open in Split View
+floorp-split-view-close-menu = 
+    .label = Close Split Tab
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = Zeskanuj kod QR za pomocą telefonu
 qrcode-generate-page-action = 
