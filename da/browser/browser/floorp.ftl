@@ -1058,14 +1058,10 @@ open-in_private-container =
     .label = Åbn i nyt faneblad med privat beholder
 ######################################################################## Split View ###############################################################
 
-floorp-split-view-menu = 
-    .label = Åbn i delt visning
-splitview-show-on-right = 
-    .label = Vis til højre
-splitview-show-on-left = 
-    .label = Vis til venstre
-splitview-close-split-tab = 
-    .label = Luk delt fane
+floorp-split-view-open-menu = 
+    .label = Open in Split View
+floorp-split-view-close-menu = 
+    .label = Close Split Tab
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = Skan QR-kode med din telefon
 qrcode-generate-page-action = 
