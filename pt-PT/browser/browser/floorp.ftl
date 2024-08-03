@@ -1062,10 +1062,10 @@ floorp-split-view-open-menu =
     .label = Abrir na vista dividida
 floorp-split-view-close-menu = 
     .label = Fechar aba dividida
-floorp-split-view-grid = Grid
+floorp-split-view-grid = Grelha
 floorp-split-view-vertical = Vertical
 floorp-split-view-horizontal = Horizontal
-floorp-split-view-unsplit = Unsplit
+floorp-split-view-unsplit = Não dividido
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = Escaneie o Código QR com seu Telefone
 qrcode-generate-page-action = 
