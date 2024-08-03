@@ -1062,6 +1062,10 @@ floorp-split-view-open-menu =
     .label = 分割ビューで開く
 floorp-split-view-close-menu = 
     .label = 分割ビューを閉じる
+floorp-split-view-grid = Grid
+floorp-split-view-vertical = Vertical
+floorp-split-view-horizontal = Horizontal
+floorp-split-view-unsplit = Unsplit
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = QR コードをスキャンしてください
 qrcode-generate-page-action = 
