@@ -1251,6 +1251,10 @@ floorp-split-view-open-menu =
  .label = Open in Split View
 floorp-split-view-close-menu =
   .label = Close Split Tab
+floorp-split-view-grid = Grid
+floorp-split-view-vertical = Vertical
+floorp-split-view-horizontal = Horizontal
+floorp-split-view-unsplit = Unsplit
 
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = Scan QR Code with your Phone
