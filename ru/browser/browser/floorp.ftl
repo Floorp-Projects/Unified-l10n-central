@@ -1059,10 +1059,10 @@ open-in_private-container =
 ######################################################################## Split View ###############################################################
 
 floorp-split-view-open-menu = 
-    .label = Open in Split View
+    .label = Открыть в режиме раздельного просмотра
 floorp-split-view-close-menu = 
-    .label = Close Split Tab
-floorp-split-view-grid = Grid
+    .label = Закрыть разделённую вкладку
+floorp-split-view-grid = Сетка
 floorp-split-view-vertical = Vertical
 floorp-split-view-horizontal = Horizontal
 floorp-split-view-unsplit = Unsplit
