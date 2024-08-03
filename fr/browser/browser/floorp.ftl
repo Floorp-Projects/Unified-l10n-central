@@ -1059,13 +1059,13 @@ open-in_private-container =
 ######################################################################## Split View ###############################################################
 
 floorp-split-view-open-menu = 
-    .label = Open in Split View
+    .label = Ouvrir en vue partagée
 floorp-split-view-close-menu = 
-    .label = Close Split Tab
-floorp-split-view-grid = Grid
+    .label = Fermer l'onglet partagé
+floorp-split-view-grid = Grille
 floorp-split-view-vertical = Vertical
 floorp-split-view-horizontal = Horizontal
-floorp-split-view-unsplit = Unsplit
+floorp-split-view-unsplit = Rétablir
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = Scannez le QR Code avec votre téléphone
 qrcode-generate-page-action = 
