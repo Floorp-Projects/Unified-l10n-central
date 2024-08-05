@@ -4,9 +4,9 @@
 
 ###################################################################### about:Dialog #################################################################################
 
-about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> jest przeglądarką opracowaną w Japonii. Opiera się ona na Firefox i nadal działa w ramach <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>, aby ulepszyć internet. Chcesz pomóc? <label data-l10n-name="helpus-donateLink">Dokonaj darowizny</label>
+about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> jest przeglądarką opracowaną w Japonii. Opiera się ona na Firefoksie i nadal działa w ramach <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>, aby ulepszyć internet. Chcesz pomóc? <label data-l10n-name="helpus-donateLink">Dokonaj darowizny</label>
 icon-creator = Twórca ikon <label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> i <label data-l10n-name="brand-logo-twitter">@mwxdxx.</label>
-contributors = Lista współtwórców <label data-l10n-name="about-contributor">i programistów</label>
+contributors = Lista <label data-l10n-name="about-contributor">współtwórców i deweloperów</label>
 #################################################################### about:preferences ####################################################################
 
 pane-design-title = Wygląd
@@ -19,7 +19,7 @@ preferences-tabs-newtab-position = Pozycja nowej karty
 open-new-tab-use-default = 
     .label = Otwórz nowe karty w domyślnej pozycji
 open-new-tab-at-the-end = 
-    .label = Otwórz nowe karty na końcu paska kart
+    .label = Otwórz nowe karty na końcu Paska Kart
 open-new-tab-next-to-current = 
     .label = Otwórz nowe karty obok bieżącej karty
 multirow-tabs-limit = 
@@ -28,11 +28,11 @@ multirow-tabs-newtab =
     .label = Umieść przycisk "Otwórz nową kartę" na końcu najniższego wiersza kart
 multirow-tabs-value = Liczba wierszy, gdy karty z wieloma wierszami są włączone
 enable-tab-sleep = 
-    .label = Włącz śpiące karty
+    .label = Włącz Śpiące Karty
 tab-sleep-timeout-minutes-value = Karty będą uśpione po nieaktywności od (minut)
 tab-sleep-settings-button = Ustawienia...
 tab-sleep-settings-dialog-title = 
-    .title = Ustawienia śpiących kart
+    .title = Ustawienia Śpiących Kart
 tab-sleep-settings-dialog-excludehosts-label = Wyklucz hosty
 tab-sleep-settings-dialog-excludehosts-label-2 = Wprowadź jeden host na linię.
 tab-sleep-tab-context-menu-excludetab = Nie zasypiaj karty
