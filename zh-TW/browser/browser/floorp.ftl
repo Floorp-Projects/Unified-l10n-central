@@ -1064,10 +1064,10 @@ floorp-split-view-open-menu =
     .label = 在分割視圖中開啟
 floorp-split-view-close-menu = 
     .label = 關閉分割視圖分頁
-floorp-split-view-grid = 網格
-floorp-split-view-vertical = Vertical
-floorp-split-view-horizontal = Horizontal
-floorp-split-view-unsplit = Unsplit
+floorp-split-view-grid = 網格排列
+floorp-split-view-vertical = 垂直排列
+floorp-split-view-horizontal = 水平排列
+floorp-split-view-unsplit = 解除分割
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = 使用手機掃描 QR Code
 qrcode-generate-page-action = 
