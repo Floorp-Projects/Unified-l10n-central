@@ -1061,10 +1061,10 @@ open-in_private-container =
 ######################################################################## Split View ###############################################################
 
 floorp-split-view-open-menu = 
-    .label = Open in Split View
+    .label = 在分割視圖中開啟
 floorp-split-view-close-menu = 
-    .label = Close Split Tab
-floorp-split-view-grid = Grid
+    .label = 關閉分割視圖分頁
+floorp-split-view-grid = 網格
 floorp-split-view-vertical = Vertical
 floorp-split-view-horizontal = Horizontal
 floorp-split-view-unsplit = Unsplit
