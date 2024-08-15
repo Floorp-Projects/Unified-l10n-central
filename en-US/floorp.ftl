@@ -1249,8 +1249,8 @@ open-in_private-container =
 
 floorp-split-view-open-menu =
  .label = Open in Split View
-floorp-split-view-close-menu =
-  .label = Close Split Tab
+floorp-split-view-open-menu-disabled =
+ .label = Need Unspliting and Unselected tab
 
 split-view-remove-button = Remove Split View
 
