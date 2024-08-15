@@ -15,6 +15,7 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --global init.defaultBranch main
+          git config --global fetch.prune true
 
       - name: Setup git-cinnabar 🪛
         run: |
@@ -38,5 +39,9 @@ jobs:
       - name: Commit changes
         run: |
           git add .
-          git commit -m "[bot] Update Language packs"
-          git push
+          if git diff-index --quiet HEAD --; then
+            echo "No changes to commit"
+          else
+            git commit -m "[bot] Update Language packs"
+            git push
+          fi

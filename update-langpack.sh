@@ -13,7 +13,7 @@ if [ ! -d .git ]; then
     git remote set-url upstream hg://hg.mozilla.org/l10n-central/$langId
 fi
 
-git pull upstream
+git pull upstream branches/default/tip
 
 cd $currentDir
 
