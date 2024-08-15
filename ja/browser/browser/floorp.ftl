@@ -1060,8 +1060,8 @@ open-in_private-container =
 
 floorp-split-view-open-menu = 
     .label = 分割ビューで開く
-floorp-split-view-close-menu = 
-    .label = 分割ビューを閉じる
+floorp-split-view-open-menu-disabled = 
+    .label = Need Unspliting and Unselected tab
 split-view-remove-button = Remove Split View
 split-view-title = Split View Settings
 split-view-position = Position
