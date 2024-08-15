@@ -1062,8 +1062,8 @@ open-in_private-container =
 
 floorp-split-view-open-menu = 
     .label = 在分割視圖中開啟
-floorp-split-view-close-menu = 
-    .label = 關閉分割視圖分頁
+floorp-split-view-open-menu-disabled = 
+    .label = Need Unspliting and Unselected tab
 split-view-remove-button = Remove Split View
 split-view-title = Split View Settings
 split-view-position = Position
