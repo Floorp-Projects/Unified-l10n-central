@@ -28,6 +28,7 @@ jobs:
 
       - name: Update Language packs
         run: |
+          chmod +x ./update-langpack.sh
           for lang in $(cat ./supported-languages); do
             ./update-langpack.sh $lang
           done
