@@ -9,11 +9,11 @@ cd ./$langId
 
 if [ ! -d .git ]; then
     git init
+    git remote add upstream hg://hg.mozilla.org/l10n-central/$langId
+    git remote set-url upstream hg://hg.mozilla.org/l10n-central/$langId
 fi
 
-git remote add origin
-git remote set-url origin hg://hg.mozilla.org/l10n-central/$langId
-git pull
+git pull upstream
 
 cd $currentDir
 

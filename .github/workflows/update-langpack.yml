@@ -1,10 +1,10 @@
-name: (U) 🧰 Update Language packs
+name: (U) 🧰 Update Language Packs
 
 on:
   workflow_dispatch:
 
 jobs:
-  update--langpackas:
+  update-language-packs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
