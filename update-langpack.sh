@@ -3,7 +3,7 @@
 langId=$1
 currentDir=$(pwd)
 
-echo "Updating language pack for $lang"
+echo "Updating language pack for $langId"
 
 cd ./$langId
 
@@ -16,4 +16,4 @@ git pull
 
 cd $currentDir
 
-echo "Update complete for $lang"
+echo "Update complete for $langId"
