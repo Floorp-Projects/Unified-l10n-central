@@ -1060,8 +1060,8 @@ open-in_private-container =
 
 floorp-split-view-open-menu = 
     .label = Ouvrir en vue partagée
-floorp-split-view-close-menu = 
-    .label = Fermer l'onglet partagé
+floorp-split-view-open-menu-disabled = 
+    .label = Need Unspliting and Unselected tab
 split-view-remove-button = Remove Split View
 split-view-title = Split View Settings
 split-view-position = Position
