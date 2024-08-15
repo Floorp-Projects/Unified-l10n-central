@@ -551,7 +551,7 @@ about-firefox-fingerprint-protection = Включение защиты в Floorp
 fingerprint-Protection = 
     .label = Защита от фингерпринтинга
 html5-canvas-prompt-settings = 
-    .label = Автоматически одобрять запросы на подтверждение доступа к данным изображения HTML5
+    .label = Автоматически отклонять запросы на подтверждение доступа к данным изображения HTML5
 canvas-prompt = Запрещает веб-сайтам использовать запрос на чтение холста, если это не разрешено вручную.
 disable-webgl = 
     .label = Отключить WebGL
@@ -1058,14 +1058,19 @@ open-in_private-container =
     .label = Открыть в новой вкладке с приватным контейнером
 ######################################################################## Split View ###############################################################
 
-floorp-split-view-menu = 
-    .label = Открыть в режиме разделения
-splitview-show-on-right = 
-    .label = Отобразить справа
-splitview-show-on-left = 
-    .label = Отобразить слева
-splitview-close-split-tab = 
+floorp-split-view-open-menu = 
+    .label = Открыть в режиме раздельного просмотра
+floorp-split-view-close-menu = 
     .label = Закрыть разделённую вкладку
+split-view-remove-button = Remove Split View
+split-view-title = Настройки раздельного просмотра
+split-view-position = Расположение
+split-view-flex-type = Тип разметки
+split-view-position-top = Top Side
+split-view-position-left = По умолчанию
+split-view-position-right = Обратный
+split-view-flex-column = Вертикальный
+split-view-flex-row = Горизонтальный
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = Сканировать QR-код с помощью телефона
 qrcode-generate-page-action = 

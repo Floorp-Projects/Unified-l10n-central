@@ -1058,14 +1058,19 @@ open-in_private-container =
     .label = Otevřít v nové kartě s privátním kontejnerem
 ######################################################################## Split View ###############################################################
 
-floorp-split-view-menu = 
-    .label = Open in split view
-splitview-show-on-right = 
-    .label = Show on right
-splitview-show-on-left = 
-    .label = Show on left
-splitview-close-split-tab = 
-    .label = Close split tab
+floorp-split-view-open-menu = 
+    .label = Open in Split View
+floorp-split-view-close-menu = 
+    .label = Close Split Tab
+split-view-remove-button = Remove Split View
+split-view-title = Split View Settings
+split-view-position = Position
+split-view-flex-type = Flex Type
+split-view-position-top = Top Side
+split-view-position-left = Default
+split-view-position-right = Reverse
+split-view-flex-column = Vertical
+split-view-flex-row = Horizontal
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = Naskenujte QR kód telefonem
 qrcode-generate-page-action = 

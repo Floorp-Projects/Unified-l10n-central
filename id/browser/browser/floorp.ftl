@@ -1058,14 +1058,19 @@ open-in_private-container =
     .label = Buka di Tab Baru dengan Wadah Pribadi
 ######################################################################## Split View ###############################################################
 
-floorp-split-view-menu = 
-    .label = Buka dalam tampilan terbagi
-splitview-show-on-right = 
-    .label = Tampilkan di sebelah kanan
-splitview-show-on-left = 
-    .label = Tampilkan di sebelah kiri
-splitview-close-split-tab = 
-    .label = Tutup tab terpisah
+floorp-split-view-open-menu = 
+    .label = Open in Split View
+floorp-split-view-close-menu = 
+    .label = Close Split Tab
+split-view-remove-button = Remove Split View
+split-view-title = Split View Settings
+split-view-position = Position
+split-view-flex-type = Flex Type
+split-view-position-top = Top Side
+split-view-position-left = Default
+split-view-position-right = Reverse
+split-view-flex-column = Vertical
+split-view-flex-row = Horizontal
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = Pindai Kode QR dengan Ponsel Anda
 qrcode-generate-page-action = 

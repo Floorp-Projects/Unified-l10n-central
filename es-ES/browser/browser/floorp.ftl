@@ -1058,14 +1058,19 @@ open-in_private-container =
     .label = Abrir en pestaña nueva con contenedor privado
 ######################################################################## Split View ###############################################################
 
-floorp-split-view-menu = 
-    .label = Abrir en vista dividida
-splitview-show-on-right = 
-    .label = Mostrar a la derecha
-splitview-show-on-left = 
-    .label = Mostrar a la izquierda
-splitview-close-split-tab = 
-    .label = Cerrar pestaña dividida
+floorp-split-view-open-menu = 
+    .label = Open in Split View
+floorp-split-view-close-menu = 
+    .label = Close Split Tab
+split-view-remove-button = Remove Split View
+split-view-title = Split View Settings
+split-view-position = Position
+split-view-flex-type = Flex Type
+split-view-position-top = Top Side
+split-view-position-left = Default
+split-view-position-right = Reverse
+split-view-flex-column = Vertical
+split-view-flex-row = Horizontal
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = Escanee el código QR con su teléfono
 qrcode-generate-page-action = 

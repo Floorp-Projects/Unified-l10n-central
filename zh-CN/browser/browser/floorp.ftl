@@ -1058,14 +1058,19 @@ open-in_private-container =
     .label = 用私人容器在新标签页中打开
 ######################################################################## Split View ###############################################################
 
-floorp-split-view-menu = 
-    .label = 打开分屏显示
-splitview-show-on-right = 
-    .label = 在右侧显示
-splitview-show-on-left = 
-    .label = 在左侧显示
-splitview-close-split-tab = 
-    .label = 关闭分屏标签页
+floorp-split-view-open-menu = 
+    .label = Open in Split View
+floorp-split-view-close-menu = 
+    .label = Close Split Tab
+split-view-remove-button = Remove Split View
+split-view-title = Split View Settings
+split-view-position = Position
+split-view-flex-type = Flex Type
+split-view-position-top = Top Side
+split-view-position-left = Default
+split-view-position-right = Reverse
+split-view-flex-column = Vertical
+split-view-flex-row = Horizontal
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = 使用您的手机扫描二维码
 qrcode-generate-page-action = 
