@@ -29,6 +29,7 @@ jobs:
 
       - name: Update Language packs
         run: |
+          export PATH=~/tools/git-cinnabar:$PATH
           chmod +x ./update-langpack.sh
           for lang in $(cat ./supported-languages); do
             ./update-langpack.sh $lang
