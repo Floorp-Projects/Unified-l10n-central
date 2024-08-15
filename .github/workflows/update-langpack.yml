@@ -1,0 +1,39 @@
+name: (U) 🧰 Update Language packs
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update--langpackas:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: configure git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Setup git-cinnabar 🪛
+        run: |
+          mkdir ~/tools
+          cd ~/tools
+          git clone https://github.com/glandium/git-cinnabar.git
+          cd git-cinnabar
+          git checkout 0.5.11
+          export PATH=~/tools/git-cinnabar:$PATH
+          cd ~
+          git cinnabar download
+
+      - name: Update Language packs
+        run: |
+          for lang in $(cat ./supported-languages); do
+            ./update-langpack.sh $lang
+          done
+
+      - name: Commit changes
+        run: |
+          git add .
+          git commit -m "[bot] Update Language packs"
+          git push
