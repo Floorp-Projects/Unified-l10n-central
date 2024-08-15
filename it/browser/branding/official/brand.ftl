@@ -27,10 +27,10 @@
 ## For further details, consult:
 ## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
 
--brand-shorter-name = Firefox
--brand-short-name = Firefox
--brand-shortcut-name = Firefox
--brand-full-name = Mozilla Firefox
--brand-product-name = Firefox
--vendor-short-name = Mozilla
-trademarkInfo = Firefox e i logo di Firefox sono marchi registrati di Mozilla Foundation.
+-brand-shorter-name = Floorp
+-brand-short-name = Floorp
+-brand-shortcut-name = Floorp
+-brand-full-name = Ablaze Floorp
+-brand-product-name = Floorp
+-vendor-short-name = Ablaze
+trademarkInfo = Floorp e i logo di Firefox sono marchi registrati di Mozilla Foundation.

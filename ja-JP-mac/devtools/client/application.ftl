@@ -76,7 +76,7 @@ manifest-loaded-ok = マニフェストを読み込みました。
 manifest-loaded-error = マニフェストの読み込み中にエラーが発生しました:
 # Text displayed as an error when there has been a Firefox DevTools error while
 # trying to load the manifest
-manifest-loaded-devtools-error = Firefox 開発ツールエラー
+manifest-loaded-devtools-error = Floorp 開発ツールエラー
 # Text displayed when the page has no manifest available
 manifest-non-existing = マニフェストが見つからないため検査できませんでした。
 # Text displayed when the page has a manifest embedded in a Data URL and

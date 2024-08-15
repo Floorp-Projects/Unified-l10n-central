@@ -98,7 +98,7 @@ manifest-loaded-error = There was an error while loading the manifest:
 
 # Text displayed as an error when there has been a Firefox DevTools error while
 # trying to load the manifest
-manifest-loaded-devtools-error = Firefox DevTools error
+manifest-loaded-devtools-error = Floorp DevTools error
 
 # Text displayed when the page has no manifest available
 manifest-non-existing = No manifest found to inspect.

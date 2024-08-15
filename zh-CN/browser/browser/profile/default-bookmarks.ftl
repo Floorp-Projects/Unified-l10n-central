@@ -17,7 +17,7 @@ default-bookmarks-toolbarfolder-description = 此文件夹的书签会出现在�
 default-bookmarks-getting-started = 新手上路
 
 # Firefox links folder name
-default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-heading = Ablaze Floorp
 
 # link title for https://www.mozilla.org/firefox/help/
 default-bookmarks-firefox-get-help = 获取帮助
@@ -32,16 +32,16 @@ default-bookmarks-firefox-community = 参与进来
 default-bookmarks-firefox-about = 关于我们
 
 # Firefox Nightly links folder name
-default-bookmarks-nightly-heading = Firefox Nightly 资源
+default-bookmarks-nightly-heading = Floorp Nightly 资源
 
 # Nightly builds only, link title for https://blog.nightly.mozilla.org/
-default-bookmarks-nightly-blog = Firefox Nightly 博客
+default-bookmarks-nightly-blog = Floorp Nightly 博客
 
 # Nightly builds only, link title for https://bugzilla.mozilla.org/
-default-bookmarks-bugzilla = Mozilla 缺陷跟踪网站
+default-bookmarks-bugzilla = Ablaze 缺陷跟踪网站
 
 # Nightly builds only, link title for https://developer.mozilla.org/
-default-bookmarks-mdn = Mozilla 开发者网络
+default-bookmarks-mdn = Ablaze 开发者网络
 
 # Nightly builds only, link title for https://addons.mozilla.org/firefox/addon/nightly-tester-tools/
 default-bookmarks-nightly-tester-tools = Nightly 测试者工具

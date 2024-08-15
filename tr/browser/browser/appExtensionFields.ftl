@@ -15,7 +15,7 @@ extension-firefox-compact-light-description = Açık renklere sahip bir tema.
 extension-firefox-compact-dark-name = Koyu
 extension-firefox-compact-dark-description = Koyu renklere sahip bir tema.
 
-extension-firefox-alpenglow-name = Firefox Alpenglow
+extension-firefox-alpenglow-name = Floorp Alpenglow
 extension-firefox-alpenglow-description = Düğmeler, menüler ve pencereler için renkli bir görünüm kullan.
 
 ## Colorway Themes

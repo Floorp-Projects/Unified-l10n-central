@@ -45,7 +45,7 @@ policy-DisableFirefoxAccounts = { -fxaccount-brand-name } tabanlı servisleri de
 # This string is in the process of being deprecated in favor of policy-DisableAccounts.
 policy-DisableFirefoxAccounts1 = Hesap tabanlı hizmetleri devre dışı bırak (eşitleme dahil).
 # Firefox Screenshots is the name of the feature, and should not be translated.
-policy-DisableFirefoxScreenshots = Firefox Screenshots özelliğini devre dışı bırak.
+policy-DisableFirefoxScreenshots = Floorp Screenshots özelliğini devre dışı bırak.
 policy-DisableFirefoxStudies = { -brand-short-name } tarayıcısının araştırma yürütmesini engelle.
 policy-DisableForgetButton = Unut düğmesine erişimi engelle.
 policy-DisableFormHistory = Arama ve form geçmişini hatırlama.

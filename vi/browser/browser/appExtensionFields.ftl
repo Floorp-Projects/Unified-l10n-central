@@ -15,7 +15,7 @@ extension-firefox-compact-light-description = Một chủ đề với tông màu
 extension-firefox-compact-dark-name = Tối
 extension-firefox-compact-dark-description = Một chủ đề với tông màu tối.
 
-extension-firefox-alpenglow-name = Firefox Alpenglow
+extension-firefox-alpenglow-name = Floorp Alpenglow
 extension-firefox-alpenglow-description = Sử dụng giao diện đầy màu sắc cho các nút, menu và cửa sổ.
 
 ## Colorway Themes

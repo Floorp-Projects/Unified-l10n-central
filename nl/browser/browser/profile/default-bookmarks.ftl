@@ -17,13 +17,13 @@ default-bookmarks-toolbarfolder-description = Voeg bladwijzers aan deze map toe 
 default-bookmarks-getting-started = Aan de slag
 
 # Firefox links folder name
-default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-heading = Ablaze Floorp
 
 # link title for https://www.mozilla.org/firefox/help/
 default-bookmarks-firefox-get-help = Hulp verkrijgen
 
 # link title for https://www.mozilla.org/firefox/customize/
-default-bookmarks-firefox-customize = Firefox aanpassen
+default-bookmarks-firefox-customize = Floorp aanpassen
 
 # link title for https://www.mozilla.org/contribute/
 default-bookmarks-firefox-community = Meewerken
@@ -32,16 +32,16 @@ default-bookmarks-firefox-community = Meewerken
 default-bookmarks-firefox-about = Over ons
 
 # Firefox Nightly links folder name
-default-bookmarks-nightly-heading = Firefox Nightly-bronnen
+default-bookmarks-nightly-heading = Floorp Nightly-bronnen
 
 # Nightly builds only, link title for https://blog.nightly.mozilla.org/
-default-bookmarks-nightly-blog = Firefox Nightly-blog
+default-bookmarks-nightly-blog = Floorp Nightly-blog
 
 # Nightly builds only, link title for https://bugzilla.mozilla.org/
-default-bookmarks-bugzilla = Mozilla-bugtracker
+default-bookmarks-bugzilla = Ablaze-bugtracker
 
 # Nightly builds only, link title for https://developer.mozilla.org/
-default-bookmarks-mdn = Mozilla Developer Network
+default-bookmarks-mdn = Ablaze Developer Network
 
 # Nightly builds only, link title for https://addons.mozilla.org/firefox/addon/nightly-tester-tools/
 default-bookmarks-nightly-tester-tools = Nightly Tester Tools

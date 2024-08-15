@@ -100,7 +100,7 @@ manifest-loaded-error = 매니페스트를 로드하는 동안 오류가 발생�
 
 # Text displayed as an error when there has been a Firefox DevTools error while
 # trying to load the manifest
-manifest-loaded-devtools-error = Firefox 개발자 도구 오류
+manifest-loaded-devtools-error = Floorp 개발자 도구 오류
 
 # Text displayed when the page has no manifest available
 manifest-non-existing = 검사할 매니페스트가 없습니다.

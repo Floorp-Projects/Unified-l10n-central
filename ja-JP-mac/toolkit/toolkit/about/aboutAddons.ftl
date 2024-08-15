@@ -417,7 +417,7 @@ addon-badge-recommended2 =
 # We hard code "Mozilla" in the string below because the extensions are built
 # by Mozilla and we don't want forks to display "by Fork".
 addon-badge-line3 =
-    .title = Mozilla により作成された公式の拡張機能です。安全性とパフォーマンスの基準に適合します
+    .title = Ablaze により作成された公式の拡張機能です。安全性とパフォーマンスの基準に適合します
     .aria-label = { addon-badge-line3.title }
 addon-badge-verified2 =
     .title = この拡張機能はセキュリティとパフォーマンスの基準に適合するようレビューされています。

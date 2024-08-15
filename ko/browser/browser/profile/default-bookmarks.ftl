@@ -17,13 +17,13 @@ default-bookmarks-toolbarfolder-description = 북마크 도구 모음에 표시�
 default-bookmarks-getting-started = 시작하기
 
 # Firefox links folder name
-default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-heading = Ablaze Floorp
 
 # link title for https://www.mozilla.org/firefox/help/
 default-bookmarks-firefox-get-help = 도움 받기
 
 # link title for https://www.mozilla.org/firefox/customize/
-default-bookmarks-firefox-customize = Firefox 사용자 지정
+default-bookmarks-firefox-customize = Floorp 사용자 지정
 
 # link title for https://www.mozilla.org/contribute/
 default-bookmarks-firefox-community = 참여하기
@@ -32,16 +32,16 @@ default-bookmarks-firefox-community = 참여하기
 default-bookmarks-firefox-about = 회사 소개
 
 # Firefox Nightly links folder name
-default-bookmarks-nightly-heading = Firefox Nightly 리소스
+default-bookmarks-nightly-heading = Floorp Nightly 리소스
 
 # Nightly builds only, link title for https://blog.nightly.mozilla.org/
-default-bookmarks-nightly-blog = Firefox Nightly 블로그
+default-bookmarks-nightly-blog = Floorp Nightly 블로그
 
 # Nightly builds only, link title for https://bugzilla.mozilla.org/
-default-bookmarks-bugzilla = Mozilla 버그 트래커
+default-bookmarks-bugzilla = Ablaze 버그 트래커
 
 # Nightly builds only, link title for https://developer.mozilla.org/
-default-bookmarks-mdn = Mozilla 개발자 네트워크
+default-bookmarks-mdn = Ablaze 개발자 네트워크
 
 # Nightly builds only, link title for https://addons.mozilla.org/firefox/addon/nightly-tester-tools/
 default-bookmarks-nightly-tester-tools = Nightly 테스터 도구

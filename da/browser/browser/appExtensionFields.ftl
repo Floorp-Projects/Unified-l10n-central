@@ -15,7 +15,7 @@ extension-firefox-compact-light-description = Tema med lyst farveskema
 extension-firefox-compact-dark-name = Mørkt
 extension-firefox-compact-dark-description = Tema med mørkt farveskema
 
-extension-firefox-alpenglow-name = Firefox Alpenglow
+extension-firefox-alpenglow-name = Floorp Alpenglow
 extension-firefox-alpenglow-description = Brug et farverigt tema til knapper, menuer og vinduer.
 
 ## Colorway Themes

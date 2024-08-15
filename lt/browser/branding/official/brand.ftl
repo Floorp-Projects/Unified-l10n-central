@@ -27,13 +27,13 @@
 ## For further details, consult:
 ## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
 
--brand-shorter-name = Firefox
--brand-short-name = Firefox
--brand-shortcut-name = Firefox
+-brand-shorter-name = Floorp
+-brand-short-name = Floorp
+-brand-shortcut-name = Floorp
 
--brand-full-name = Mozilla Firefox
+-brand-full-name = Ablaze Floorp
 # This brand name can be used in messages where the product name needs to
 # remain unchanged across different versions (Nightly, Beta, etc.).
--brand-product-name = Firefox
--vendor-short-name = Mozilla
+-brand-product-name = Floorp
+-vendor-short-name = Ablaze
 trademarkInfo = „Firefox“ ir „Firefox“ logotipai yra bendrijos „Mozilla Foundation“ prekės ženklai.

@@ -15,7 +15,7 @@ extension-firefox-compact-light-description = Ένα θέμα με φωτειν�
 extension-firefox-compact-dark-name = Σκουρόχρωμο
 extension-firefox-compact-dark-description = Ένα θέμα με σκούρο σύνολο χρωμάτων.
 
-extension-firefox-alpenglow-name = Firefox Alpenglow
+extension-firefox-alpenglow-name = Floorp Alpenglow
 extension-firefox-alpenglow-description = Πολύχρωμη εμφάνιση για τα κουμπιά, τα μενού και τα παράθυρα.
 
 ## Colorway Themes

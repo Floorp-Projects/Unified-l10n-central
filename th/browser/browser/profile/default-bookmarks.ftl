@@ -17,7 +17,7 @@ default-bookmarks-toolbarfolder-description = เพิ่มที่คั่�
 default-bookmarks-getting-started = เริ่มต้นใช้งาน
 
 # Firefox links folder name
-default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-heading = Ablaze Floorp
 
 # link title for https://www.mozilla.org/firefox/help/
 default-bookmarks-firefox-get-help = รับความช่วยเหลือ
@@ -41,7 +41,7 @@ default-bookmarks-nightly-blog = บล็อก Firefox Nightly
 default-bookmarks-bugzilla = ตัวติดตามข้อบกพร่อง Mozilla
 
 # Nightly builds only, link title for https://developer.mozilla.org/
-default-bookmarks-mdn = Mozilla Developer Network
+default-bookmarks-mdn = Ablaze Developer Network
 
 # Nightly builds only, link title for https://addons.mozilla.org/firefox/addon/nightly-tester-tools/
 default-bookmarks-nightly-tester-tools = เครื่องมือทดสอบ Nightly

@@ -15,7 +15,7 @@ extension-firefox-compact-light-description = 明亮配色的主题。
 extension-firefox-compact-dark-name = 深邃
 extension-firefox-compact-dark-description = 深邃配色的主题。
 
-extension-firefox-alpenglow-name = Firefox 染山霞
+extension-firefox-alpenglow-name = Floorp 染山霞
 extension-firefox-alpenglow-description = 使用多彩按钮、菜单、窗口外观。
 
 ## Colorway Themes

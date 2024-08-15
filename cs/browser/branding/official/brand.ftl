@@ -91,4 +91,4 @@
     }
     .gender = feminine
     .case-status = with-cases
-trademarkInfo = Firefox a jeho loga jsou ochrannými známkami organizace Mozilla Foundation.
+trademarkInfo = Floorp a jeho loga jsou ochrannými známkami organizace Mozilla Foundation.

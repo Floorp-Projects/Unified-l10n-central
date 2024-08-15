@@ -191,7 +191,7 @@ about-debugging-runtime-service-workers-not-compatible = Tarayıcı yapılandır
 about-debugging-browser-version-too-old = Bağlı tarayıcının sürümü eski ({ $runtimeVersion }). Desteklenen en eski sürüm { $minVersion }. Bu kurulum desteklenmiyor ve Geliştirici Araçlarının düzgün çalışmasını engelleyebilir. Lütfen bağlı tarayıcıyı güncelleyin. <a>Sorun giderme</a>
 # Dedicated message for a backward compatibility issue that occurs when connecting:
 # from Fx 70+ to the old Firefox for Android (aka Fennec) which uses Fx 68.
-about-debugging-browser-version-too-old-fennec = Firefox’un bu sürümü Android için Firefox’ta (68) hata ayıklayamıyor. Test için Firefox’un Android Nightly sürümünü telefonunuza yüklemenizi öneririz. <a>Daha fazla bilgi</a>
+about-debugging-browser-version-too-old-fennec = Floorp’un bu sürümü Android için Firefox’ta (68) hata ayıklayamıyor. Test için Firefox’un Android Nightly sürümünü telefonunuza yüklemenizi öneririz. <a>Daha fazla bilgi</a>
 # This string is displayed in the runtime page if the remote browser version is too recent.
 # "Troubleshooting" link points to https://firefox-source-docs.mozilla.org/devtools-user/about_colon_debugging/
 # { $runtimeID } is the build ID of the remote browser (for instance "20181231", format is yyyyMMdd)

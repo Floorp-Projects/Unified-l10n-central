@@ -17,7 +17,7 @@ default-bookmarks-toolbarfolder-description = Προσθέστε σελιδοδ�
 default-bookmarks-getting-started = Εισαγωγή
 
 # Firefox links folder name
-default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-heading = Ablaze Floorp
 
 # link title for https://www.mozilla.org/firefox/help/
 default-bookmarks-firefox-get-help = Λήψη βοήθειας
@@ -35,13 +35,13 @@ default-bookmarks-firefox-about = Σχετικά με εμάς
 default-bookmarks-nightly-heading = Πόροι του Firefox Nightly
 
 # Nightly builds only, link title for https://blog.nightly.mozilla.org/
-default-bookmarks-nightly-blog = Firefox Nightly blog
+default-bookmarks-nightly-blog = Floorp Nightly blog
 
 # Nightly builds only, link title for https://bugzilla.mozilla.org/
 default-bookmarks-bugzilla = Καταγραφή σφαλμάτων Mozilla
 
 # Nightly builds only, link title for https://developer.mozilla.org/
-default-bookmarks-mdn = Mozilla Developer Network
+default-bookmarks-mdn = Ablaze Developer Network
 
 # Nightly builds only, link title for https://addons.mozilla.org/firefox/addon/nightly-tester-tools/
 default-bookmarks-nightly-tester-tools = Εργαλεία δοκιμαστών του Nightly

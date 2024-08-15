@@ -12,7 +12,7 @@ extension-firefox-compact-light-name = Light
 extension-firefox-compact-light-description = 明るいカラーのテーマです。
 extension-firefox-compact-dark-name = Dark
 extension-firefox-compact-dark-description = 暗いカラーのテーマです。
-extension-firefox-alpenglow-name = Firefox Alpenglow
+extension-firefox-alpenglow-name = Floorp Alpenglow
 extension-firefox-alpenglow-description = カラフルな外観のボタン、メニュー、ウインドウを使用します。
 
 ## Colorway Themes

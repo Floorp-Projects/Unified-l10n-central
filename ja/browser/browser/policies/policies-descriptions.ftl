@@ -45,7 +45,7 @@ policy-DisableFirefoxAccounts = Sync を含む { -fxaccount-brand-name } を利�
 # This string is in the process of being deprecated in favor of policy-DisableAccounts.
 policy-DisableFirefoxAccounts1 = Sync を含め、アカウントを利用したサービスを無効にします。
 # Firefox Screenshots is the name of the feature, and should not be translated.
-policy-DisableFirefoxScreenshots = Firefox Screenshots 機能を無効にします。
+policy-DisableFirefoxScreenshots = Floorp Screenshots 機能を無効にします。
 policy-DisableFirefoxStudies = { -brand-short-name } による Shield 調査の実行を抑止します。
 policy-DisableForgetButton = [忘れる] ボタンへのアクセスを抑止します。
 policy-DisableFormHistory = 検索とフォームの履歴を記憶しないようにします。

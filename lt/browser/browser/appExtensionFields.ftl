@@ -15,7 +15,7 @@ extension-firefox-compact-light-description = Grafinis apvalkalas su šviesių s
 extension-firefox-compact-dark-name = Tamsus
 extension-firefox-compact-dark-description = Grafinis apvalkalas su tamsių spalvų aibe.
 
-extension-firefox-alpenglow-name = Firefox Alpenglow
+extension-firefox-alpenglow-name = Floorp Alpenglow
 extension-firefox-alpenglow-description = Naudoti įvairiaspalvę išvaizdą mygtukams, meniu elementams, ir langams.
 
 ## Colorway Themes

@@ -17,7 +17,7 @@ default-bookmarks-toolbarfolder-description = Adicione favoritos nesta pasta par
 default-bookmarks-getting-started = Introdução
 
 # Firefox links folder name
-default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-heading = Ablaze Floorp
 
 # link title for https://www.mozilla.org/firefox/help/
 default-bookmarks-firefox-get-help = Obter ajuda
@@ -41,7 +41,7 @@ default-bookmarks-nightly-blog = Blog do Firefox Nightly
 default-bookmarks-bugzilla = Acompanhador de bugs da Mozilla
 
 # Nightly builds only, link title for https://developer.mozilla.org/
-default-bookmarks-mdn = Mozilla Developer Network
+default-bookmarks-mdn = Ablaze Developer Network
 
 # Nightly builds only, link title for https://addons.mozilla.org/firefox/addon/nightly-tester-tools/
 default-bookmarks-nightly-tester-tools = Ferramentas de testes do Nightly

@@ -17,7 +17,7 @@ default-bookmarks-toolbarfolder-description = Lägg till bokmärken i den här m
 default-bookmarks-getting-started = Kom igång
 
 # Firefox links folder name
-default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-heading = Ablaze Floorp
 
 # link title for https://www.mozilla.org/firefox/help/
 default-bookmarks-firefox-get-help = Få hjälp
@@ -35,13 +35,13 @@ default-bookmarks-firefox-about = Om oss
 default-bookmarks-nightly-heading = Resurs för Firefox Nightly
 
 # Nightly builds only, link title for https://blog.nightly.mozilla.org/
-default-bookmarks-nightly-blog = Firefox Nightly blogg
+default-bookmarks-nightly-blog = Floorp Nightly blogg
 
 # Nightly builds only, link title for https://bugzilla.mozilla.org/
-default-bookmarks-bugzilla = Mozilla Bug Tracker
+default-bookmarks-bugzilla = Ablaze Bug Tracker
 
 # Nightly builds only, link title for https://developer.mozilla.org/
-default-bookmarks-mdn = Mozilla Developer Network
+default-bookmarks-mdn = Ablaze Developer Network
 
 # Nightly builds only, link title for https://addons.mozilla.org/firefox/addon/nightly-tester-tools/
 default-bookmarks-nightly-tester-tools = Nightly testverktyg

@@ -15,7 +15,7 @@ extension-firefox-compact-light-description = Tema dengan skema warna terang.
 extension-firefox-compact-dark-name = Gelap
 extension-firefox-compact-dark-description = Tema dengan skema warna gelap.
 
-extension-firefox-alpenglow-name = Firefox Alpenglow
+extension-firefox-alpenglow-name = Floorp Alpenglow
 extension-firefox-alpenglow-description = Gunakan tampilan berwarna untuk tombol, menu, dan jendela.
 
 ## Colorway Themes

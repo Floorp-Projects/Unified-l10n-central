@@ -15,7 +15,7 @@ extension-firefox-compact-light-description = Motyw o jasnych kolorach.
 extension-firefox-compact-dark-name = Ciemny
 extension-firefox-compact-dark-description = Motyw o ciemnych kolorach.
 
-extension-firefox-alpenglow-name = Firefox Alpenglow
+extension-firefox-alpenglow-name = Floorp Alpenglow
 extension-firefox-alpenglow-description = Kolorowe przyciski, menu i okna.
 
 ## Colorway Themes

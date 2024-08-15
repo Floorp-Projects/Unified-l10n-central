@@ -78,7 +78,7 @@ manifest-loaded-ok = Manifest yüklendi.
 manifest-loaded-error = Manifest yüklenirken bir hata oluştu:
 # Text displayed as an error when there has been a Firefox DevTools error while
 # trying to load the manifest
-manifest-loaded-devtools-error = Firefox Geliştirici Araçları hatası
+manifest-loaded-devtools-error = Floorp Geliştirici Araçları hatası
 # Text displayed when the page has no manifest available
 manifest-non-existing = İncelenecek bir manifest bulunamadı.
 # Text displayed when the page has a manifest embedded in a Data URL and

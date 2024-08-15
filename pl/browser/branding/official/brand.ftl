@@ -73,4 +73,4 @@
         [ins] Mozillą
         [loc] Mozilli
     }
-trademarkInfo = Firefox oraz logotyp Firefox to znaki towarowe Mozilla Foundation.
+trademarkInfo = Floorp oraz logotyp Firefox to znaki towarowe Mozilla Foundation.

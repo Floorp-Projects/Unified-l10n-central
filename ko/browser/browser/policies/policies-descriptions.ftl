@@ -45,7 +45,7 @@ policy-DisableFirefoxAccounts = 동기화를 포함한 { -fxaccount-brand-name }
 # This string is in the process of being deprecated in favor of policy-DisableAccounts.
 policy-DisableFirefoxAccounts1 = 동기화를 포함한 계정 기반 서비스를 사용 안 합니다.
 # Firefox Screenshots is the name of the feature, and should not be translated.
-policy-DisableFirefoxScreenshots = Firefox 스크린샷 기능을 사용 안 합니다.
+policy-DisableFirefoxScreenshots = Floorp 스크린샷 기능을 사용 안 합니다.
 policy-DisableFirefoxStudies = { -brand-short-name } 연구 실행을 막습니다.
 policy-DisableForgetButton = Forget 버튼 접근을 막습니다.
 policy-DisableFormHistory = 검색과 양식 기록을 기억하지 않습니다.

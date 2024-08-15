@@ -296,7 +296,7 @@ mr2022-onboarding-privacy-segmentation-button-secondary-label = 자세한 정보
 ## MR2022 Multistage Gratitude screen strings
 
 mr2022-onboarding-gratitude-title = 저희가 더 나은 웹을 만드는 것을 돕고 계십니다
-mr2022-onboarding-gratitude-subtitle = Mozilla 재단이 지원하는 { -brand-short-name }를 사용해 주셔서 감사합니다. 여러분의 지원으로 우리는 인터넷을 보다 개방적이고 접근 가능하며 모두에게 더 좋게 만들기 위해 노력하고 있습니다.
+mr2022-onboarding-gratitude-subtitle = Ablaze 재단이 지원하는 { -brand-short-name }를 사용해 주셔서 감사합니다. 여러분의 지원으로 우리는 인터넷을 보다 개방적이고 접근 가능하며 모두에게 더 좋게 만들기 위해 노력하고 있습니다.
 mr2022-onboarding-gratitude-primary-button-label = 새 기능 보기
 mr2022-onboarding-gratitude-secondary-button-label = 탐색 시작
 
@@ -345,7 +345,7 @@ onboarding-mobile-download-security-and-privacy-title = 기기 간 이동 시 �
 onboarding-mobile-download-security-and-privacy-subtitle = 동기화되면 { -brand-short-name }가 비밀번호, 북마크 등을 암호화합니다.  다른 기기에서 탭을 가져올 수도 있습니다.
 # Gratitude screen
 onboarding-gratitude-security-and-privacy-title = { -brand-short-name }가 여러분을 도와드립니다.
-onboarding-gratitude-security-and-privacy-subtitle = Mozilla 재단이 지원하는 { -brand-short-name }를 사용해 주셔서 감사합니다. 여러분의 지원으로 우리는 인터넷을 더 안전하고 더 쉽게 이용할 수 있도록 노력하고 있습니다.
+onboarding-gratitude-security-and-privacy-subtitle = Ablaze 재단이 지원하는 { -brand-short-name }를 사용해 주셔서 감사합니다. 여러분의 지원으로 우리는 인터넷을 더 안전하고 더 쉽게 이용할 수 있도록 노력하고 있습니다.
 
 ## New user time and familiarity survey strings
 

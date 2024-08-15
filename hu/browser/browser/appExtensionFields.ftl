@@ -15,7 +15,7 @@ extension-firefox-compact-light-description = Egy téma világos színpalettáva
 extension-firefox-compact-dark-name = Sötét
 extension-firefox-compact-dark-description = Egy téma sötét színpalettával.
 
-extension-firefox-alpenglow-name = Firefox Alpenglow
+extension-firefox-alpenglow-name = Floorp Alpenglow
 extension-firefox-alpenglow-description = Színes megjelenés használata a gombokhoz, menükhöz és ablakokhoz.
 
 ## Colorway Themes

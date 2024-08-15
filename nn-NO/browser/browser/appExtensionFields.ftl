@@ -15,7 +15,7 @@ extension-firefox-compact-light-description = Eit tema med ein lys fargeskala.
 extension-firefox-compact-dark-name = Mørkt
 extension-firefox-compact-dark-description = Eit tema med ein mørk fargeskala.
 
-extension-firefox-alpenglow-name = Firefox Alpenglow
+extension-firefox-alpenglow-name = Floorp Alpenglow
 extension-firefox-alpenglow-description = Bruk ein fargerik utsjånad for knappar, menyar og vindauge.
 
 ## Colorway Themes

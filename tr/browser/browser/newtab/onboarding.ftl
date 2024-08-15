@@ -297,7 +297,7 @@ mr2022-onboarding-privacy-segmentation-button-secondary-label = Ayrıntılı bil
 ## MR2022 Multistage Gratitude screen strings
 
 mr2022-onboarding-gratitude-title = Daha iyi bir web inşa etmemize yardım ediyorsunuz
-mr2022-onboarding-gratitude-subtitle = Mozilla Vakfı tarafından geliştirilen { -brand-short-name } tarayıcısını kullandığınız için teşekkür ederiz. Desteğinizle interneti herkes için daha açık, daha erişilebilir ve daha iyi bir yere dönüştürüyoruz.
+mr2022-onboarding-gratitude-subtitle = Ablaze Vakfı tarafından geliştirilen { -brand-short-name } tarayıcısını kullandığınız için teşekkür ederiz. Desteğinizle interneti herkes için daha açık, daha erişilebilir ve daha iyi bir yere dönüştürüyoruz.
 mr2022-onboarding-gratitude-primary-button-label = Yeniliklere bak
 mr2022-onboarding-gratitude-secondary-button-label = Gezinmeye başla
 
@@ -346,7 +346,7 @@ onboarding-mobile-download-security-and-privacy-title = Cihazlarınız arasında
 onboarding-mobile-download-security-and-privacy-subtitle = Eşitleme yaptığınızda { -brand-short-name }; parolalarınızı, yer imlerinizi ve diğer verilerinizi şifreler. Ayrıca diğer cihazlarınızdaki sekmelere de erişebilirsiniz.
 # Gratitude screen
 onboarding-gratitude-security-and-privacy-title = { -brand-short-name } sizi koruyor
-onboarding-gratitude-security-and-privacy-subtitle = Mozilla Vakfı tarafından geliştirilen { -brand-short-name } tarayıcısını kullandığınız için teşekkür ederiz. Desteğinizle interneti herkes için daha güvenli ve daha erişilebilir bir yere dönüştürüyoruz.
+onboarding-gratitude-security-and-privacy-subtitle = Ablaze Vakfı tarafından geliştirilen { -brand-short-name } tarayıcısını kullandığınız için teşekkür ederiz. Desteğinizle interneti herkes için daha güvenli ve daha erişilebilir bir yere dönüştürüyoruz.
 
 ## New user time and familiarity survey strings
 

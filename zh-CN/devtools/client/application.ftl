@@ -100,7 +100,7 @@ manifest-loaded-error = 加载清单文件时发生错误：
 
 # Text displayed as an error when there has been a Firefox DevTools error while
 # trying to load the manifest
-manifest-loaded-devtools-error = Firefox 开发者工具出错
+manifest-loaded-devtools-error = Floorp 开发者工具出错
 
 # Text displayed when the page has no manifest available
 manifest-non-existing = 未找到要检查的清单文件。
