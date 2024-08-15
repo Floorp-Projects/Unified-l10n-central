@@ -1060,8 +1060,8 @@ open-in_private-container =
 
 floorp-split-view-open-menu = 
     .label = Открыть в режиме раздельного просмотра
-floorp-split-view-close-menu = 
-    .label = Закрыть разделённую вкладку
+floorp-split-view-open-menu-disabled = 
+    .label = Need Unspliting and Unselected tab
 split-view-remove-button = Remove Split View
 split-view-title = Настройки раздельного просмотра
 split-view-position = Расположение
