@@ -1059,16 +1059,16 @@ open-in_private-container =
 ######################################################################## Split View ###############################################################
 
 floorp-split-view-open-menu = 
-    .label = Open in Split View
+    .label = Abrir en vista dividida
 floorp-split-view-open-menu-disabled = 
     .label = Need Unspliting and Unselected tab
-split-view-remove-button = Remove Split View
-split-view-title = Split View Settings
-split-view-position = Position
+split-view-remove-button = Quitar vista dividida
+split-view-title = Configuración de vista dividida
+split-view-position = Posición
 split-view-flex-type = Flex Type
-split-view-position-top = Top Side
-split-view-position-left = Default
-split-view-position-right = Reverse
+split-view-position-top = Lado superior
+split-view-position-left = Predeterminado
+split-view-position-right = Invertido
 split-view-flex-column = Vertical
 split-view-flex-row = Horizontal
 ######################################################################### Page Actions ###############################################################
@@ -1134,7 +1134,7 @@ floorp-finished-download = Descarga finalizada
 
 floorp-notificationTitle-latest = { -brand-short-name } está al día.
 floorp-notificationContent-latest = { -brand-short-name } está al día. Utiliza la versión más reciente de { -brand-short-name }.
-floorp-notificationTitle = New version of { -brand-short-name } is available!
+floorp-notificationTitle = Hay una versión nueva de { -brand-short-name } disponible.
 floorp-notificationContent = Pulse para descargar la versión más reciente.
 ######################################################################### vertical tab bar ###############################################################
 
