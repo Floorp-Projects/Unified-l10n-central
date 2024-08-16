@@ -1064,12 +1064,12 @@ floorp-split-view-open-menu-disabled =
     .label = Need Unspliting and Unselected tab
 split-view-remove-button = Remove Split View
 split-view-title = Split View Settings
-split-view-position = Position
+split-view-position = Posisi
 split-view-flex-type = Flex Type
-split-view-position-top = Top Side
-split-view-position-left = Default
+split-view-position-top = Sisi Atas
+split-view-position-left = Bawaan
 split-view-position-right = Reverse
-split-view-flex-column = Vertical
+split-view-flex-column = Vertikal
 split-view-flex-row = Horizontal
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = Pindai Kode QR dengan Ponsel Anda
