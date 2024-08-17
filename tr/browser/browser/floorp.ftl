@@ -90,14 +90,9 @@ bookmarks-bottom-mode =
 navbar-settings = Gezinme Çubuğu
 show-nav-bar-bottom = 
     .label = Araç Çubuğunu { -brand-short-name } adresinin altında göster (deneysel)
-material-effect = 
-    .label = Allow Mica For Everyone to modify the browser design (Deprecated)
 disable-extension-check-compatibility-option = 
     .label = Do not check for compatibility with add-ons (deprecated)
 other-preference = Diğer Tercihler
-enable-userscript = 
-    .label = Enable legacy components (deprecated)
-about-userscript = Bu özelliğin etkinleştirilmesi beklenmedik hatalara veya ciddi sorunlara neden olabilir.
 search-positon-top = 
     .label = Sayfanın üst kısmında Bulma Çubuğunu görüntüle
 allow-auto-restart = 
@@ -127,9 +122,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Microsoft Fluent Teması (kullanımdan kaldırılmıştır)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial Teması (kullanımdan kaldırılmıştır)
-floorp-gnomeUI = 
-    .label = GNOME Teması (kullanımdan kaldırılmıştır)
+    .label = { -brand-short-name } Fluerial UI (New)
 
 ## Download Manager
 
@@ -149,22 +142,6 @@ profiles-button-label = Profilleri Yönet
 floorp-help-button-label = { -brand-short-name } Destek
 appmenuitem-reboot = 
     .label = Yeniden Başlat
-
-## UserAgent
-
-userAgent-preference = User Agent (deprecated)
-default-useragent-mode = 
-    .label = Firefox Kullanıcı Aracısını Kullan (Varsayılan)
-windows-chrome-useragent-mode = 
-    .label = Kullanıcı Aracısını Windows ile Chrome kullanıyormuş gibi göster
-macOS-chrome-useragent-mode = 
-    .label = Kullanıcı Aracısını macOS ile Chrome kullanıyormuş gibi göster
-linux-chrome-useragent-mode = 
-    .label = Kullanıcı Aracısını Linux ile Chrome kullanıyormuş gibi göster
-mobile-chrome-useragent-mode = 
-    .label = Kullanıcı Aracısını iOS ile Chrome kullanıyormuş gibi göster
-use-custom-useragent-mode = 
-    .label = Özel bir Kullanıcı Aracısı Kullan
 
 ## DMR UI
 
