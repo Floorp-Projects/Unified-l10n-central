@@ -90,14 +90,9 @@ bookmarks-bottom-mode =
 navbar-settings = Navigationslinje
 show-nav-bar-bottom = 
     .label = Vis Værktøjslinjen i bunden af { -brand-short-name } (eksperimentel)
-material-effect = 
-    .label = Allow Mica For Everyone to modify the browser design (Deprecated)
 disable-extension-check-compatibility-option = 
     .label = Tjek ikke for kompatibilitet med tilføjelser (forældet)
 other-preference = Andre Præferencer
-enable-userscript = 
-    .label = Aktivér ældre komponenter (forældet)
-about-userscript = Aktivering af denne funktion kan forårsage uventede eller alvorlige fejl.
 search-positon-top = 
     .label = Vis Søgelinjen øverst på siden
 allow-auto-restart = 
@@ -127,9 +122,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Microsoft Fluent UI (forældet)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI (forældet)
-floorp-gnomeUI = 
-    .label = GNOME-tema (forældet)
+    .label = { -brand-short-name } Fluerial UI (New)
 
 ## Download Manager
 
@@ -149,22 +142,6 @@ profiles-button-label = Administrer Profiler
 floorp-help-button-label = { -brand-short-name } Support
 appmenuitem-reboot = 
     .label = Genstart
-
-## UserAgent
-
-userAgent-preference = Brugeragent (forældet)
-default-useragent-mode = 
-    .label = Brug Firefox-brugeragent (standard)
-windows-chrome-useragent-mode = 
-    .label = Spoof Chrome på Windows
-macOS-chrome-useragent-mode = 
-    .label = Spoof Chrome på macOS
-linux-chrome-useragent-mode = 
-    .label = Spoof Chrome på Linux
-mobile-chrome-useragent-mode = 
-    .label = Spoof Chrome på iOS
-use-custom-useragent-mode = 
-    .label = Brug Brugerdefineret Brugeragent
 
 ## DMR UI
 
