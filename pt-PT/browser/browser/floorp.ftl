@@ -90,14 +90,9 @@ bookmarks-bottom-mode =
 navbar-settings = Barra de navegação
 show-nav-bar-bottom = 
     .label = Mostrar a barra de ferramentas na parte inferior do { -brand-short-name } (experimental)
-material-effect = 
-    .label = Permitir que o Mica Para Todos modifique o design do browser (obsoleto)
 disable-extension-check-compatibility-option = 
     .label = Não verificar a compatibilidade com add-ons (obsoleto)
 other-preference = Outras Preferências
-enable-userscript = 
-    .label = Ativar componentes antigos (obsoleto)
-about-userscript = A ativação desta funcionalidade pode causar bugs inesperados ou erros fatais.
 search-positon-top = 
     .label = Exibir a barra de pesquisa na parte superior da página
 allow-auto-restart = 
@@ -127,9 +122,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Microsoft Fluent UI (obsoleto)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Interface Fluerial (obsoleta)
-floorp-gnomeUI = 
-    .label = Tema GNOME (obsoleto)
+    .label = { -brand-short-name } Fluerial UI (New)
 
 ## Download Manager
 
@@ -149,22 +142,6 @@ profiles-button-label = Gerenciar perfis
 floorp-help-button-label = Suporte { -brand-short-name }
 appmenuitem-reboot = 
     .label = Reiniciar
-
-## UserAgent
-
-userAgent-preference = Agente do utilizador (obsoleto)
-default-useragent-mode = 
-    .label = Usar o Navegador de Usuário do Firefox (Padrão)
-windows-chrome-useragent-mode = 
-    .label = Spoof Chrome no Windows
-macOS-chrome-useragent-mode = 
-    .label = Spoof Chrome no macOS
-linux-chrome-useragent-mode = 
-    .label = Spoof Chrome no Linux
-mobile-chrome-useragent-mode = 
-    .label = Spoof Chrome no iOS
-use-custom-useragent-mode = 
-    .label = Usar User Agent Personalizado
 
 ## DMR UI
 
