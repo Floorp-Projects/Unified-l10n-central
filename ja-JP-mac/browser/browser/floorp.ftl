@@ -122,7 +122,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Microsoft Fluent デザイン (非推奨)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI (New)
+    .label = { -brand-short-name } Fluerial デザイン (新着)
 
 ## Download Manager
 
