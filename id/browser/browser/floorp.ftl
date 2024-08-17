@@ -90,14 +90,9 @@ bookmarks-bottom-mode =
 navbar-settings = Bilah Navigasi
 show-nav-bar-bottom = 
     .label = Tampilkan bilah alat di bagian bawah { -brand-short-name } (eksperimental)
-material-effect = 
-    .label = Nyalakan Mica for Everyone untuk mengubah desain peramban (Lawas)
 disable-extension-check-compatibility-option = 
     .label = Do not check for compatibility with add-ons (deprecated)
 other-preference = Preferensi Lainnya
-enable-userscript = 
-    .label = Enable legacy components (deprecated)
-about-userscript = Mengaktifkan fitur ini dapat menyebabkan kutu yang tidak terduga atau kesalahan fatal.
 search-positon-top = 
     .label = Tampilkan Bilah Pencarian di bagian atas halaman
 allow-auto-restart = 
@@ -127,9 +122,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Microsoft Fluent UI (lawas)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } UI Fluerial (lawas)
-floorp-gnomeUI = 
-    .label = Tema GNOME (lawas)
+    .label = { -brand-short-name } Fluerial UI (New)
 
 ## Download Manager
 
@@ -149,22 +142,6 @@ profiles-button-label = Kelola Profil
 floorp-help-button-label = Dukungan { -brand-short-name }
 appmenuitem-reboot = 
     .label = Mulai ulang
-
-## UserAgent
-
-userAgent-preference = User Agent (deprecated)
-default-useragent-mode = 
-    .label = Gunakan Agen Pengguna Firefox (Bawaan)
-windows-chrome-useragent-mode = 
-    .label = Palsukan sebagai Chrome di Windows
-macOS-chrome-useragent-mode = 
-    .label = Palsukan sebagai Chrome di macOS
-linux-chrome-useragent-mode = 
-    .label = Palsukan sebagai Chrome di Linux
-mobile-chrome-useragent-mode = 
-    .label = Palsukan sebagai Chrome di iOS
-use-custom-useragent-mode = 
-    .label = Gunakan Agen Pengguna Lain
 
 ## DMR UI
 
