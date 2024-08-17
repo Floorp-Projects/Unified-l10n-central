@@ -90,14 +90,9 @@ bookmarks-bottom-mode =
 navbar-settings = Navigation Bar
 show-nav-bar-bottom = 
     .label = Εμφάνιση της γραμμής εργαλείων στο κάτω μέρος του { -brand-short-name } (πειραματικό)
-material-effect = 
-    .label = Allow Mica For Everyone to modify the browser design (Deprecated)
 disable-extension-check-compatibility-option = 
     .label = Do not check for compatibility with add-ons (deprecated)
 other-preference = Άλλες Προτιμήσεις
-enable-userscript = 
-    .label = Enable legacy components (deprecated)
-about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
 search-positon-top = 
     .label = Display the Find Bar at the top of the page
 allow-auto-restart = 
@@ -127,9 +122,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Microsoft Fluent UI (deprecated)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI (deprecated)
-floorp-gnomeUI = 
-    .label = GNOME Theme (deprecated)
+    .label = { -brand-short-name } Fluerial UI (New)
 
 ## Download Manager
 
@@ -149,22 +142,6 @@ profiles-button-label = Διαχείριση Προφίλ
 floorp-help-button-label = Υποστήριξη { -brand-short-name }
 appmenuitem-reboot = 
     .label = Επανεκκίνηση
-
-## UserAgent
-
-userAgent-preference = User Agent (deprecated)
-default-useragent-mode = 
-    .label = Χρήση Φορέα Χρήστη Firefox (Προεπιλογή)
-windows-chrome-useragent-mode = 
-    .label = Κουτάλι Chrome στα Windows
-macOS-chrome-useragent-mode = 
-    .label = Κουτάλι Chrome στο macOS
-linux-chrome-useragent-mode = 
-    .label = Κουτάκι του Chrome στο Linux
-mobile-chrome-useragent-mode = 
-    .label = Κουτάλι Chrome στο iOS
-use-custom-useragent-mode = 
-    .label = Χρήση Προσαρμοσμένου Παράγοντα Χρήστη
 
 ## DMR UI
 
