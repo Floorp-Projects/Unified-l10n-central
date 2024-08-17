@@ -90,14 +90,9 @@ bookmarks-bottom-mode =
 navbar-settings = 네비게이션 바
 show-nav-bar-bottom = 
     .label = { -brand-short-name } 하단에 도구모음 표시(실험적)
-material-effect = 
-    .label = Allow Mica For Everyone to modify the browser design (Deprecated)
 disable-extension-check-compatibility-option = 
     .label = Do not check for compatibility with add-ons (deprecated)
 other-preference = 기타 설정
-enable-userscript = 
-    .label = Enable legacy components (deprecated)
-about-userscript = 이 기능을 활성화하면 예상치 못한 버그나 치명적인 오류가 발생할 수 있어요.
 search-positon-top = 
     .label = 페이지 상단에 찾기 표시줄을 표시하기
 allow-auto-restart = 
@@ -127,9 +122,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Microsoft Fluent UI (지원 중단됨)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI (지원 중단됨)
-floorp-gnomeUI = 
-    .label = GNOME Theme (지원 중단됨)
+    .label = { -brand-short-name } Fluerial UI (New)
 
 ## Download Manager
 
@@ -149,22 +142,6 @@ profiles-button-label = 프로파일 관리
 floorp-help-button-label = { -brand-short-name } Support
 appmenuitem-reboot = 
     .label = 재시작
-
-## UserAgent
-
-userAgent-preference = User Agent (deprecated)
-default-useragent-mode = 
-    .label = Firefox 사용자 에이전트 사용(기본값)
-windows-chrome-useragent-mode = 
-    .label = Windows의 Chrome 사용자 에이전트 사용
-macOS-chrome-useragent-mode = 
-    .label = macOS의 Chrome 사용자 에이전트 사용
-linux-chrome-useragent-mode = 
-    .label = Linux의 Chrome 사용자 에이전트 사용
-mobile-chrome-useragent-mode = 
-    .label = iOS의 Chrome 사용자 에이전트 사용
-use-custom-useragent-mode = 
-    .label = 사용자 지정 사용자 에이전트 사용
 
 ## DMR UI
 
