@@ -90,14 +90,9 @@ bookmarks-bottom-mode =
 navbar-settings = 瀏覽位址列
 show-nav-bar-bottom = 
     .label = 在 { -brand-short-name } 底部顯示瀏覽位址列 (實驗性質)
-material-effect = 
-    .label = 允許 Mica For Everyone 變更瀏覽器外觀 (已終止支援)
 disable-extension-check-compatibility-option = 
     .label = 不檢查擴充套件兼容性 (已終止支援)
 other-preference = 其他的偏好設定
-enable-userscript = 
-    .label = 啟用舊式擴充元件 (已終止支援)
-about-userscript = 開啟此功能可能會導致程式出現不可預料的錯誤
 search-positon-top = 
     .label = 在頁面頂端顯示搜索欄
 allow-auto-restart = 
@@ -127,9 +122,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Microsoft Fluent UI (已終止支援)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI (已終止支援)
-floorp-gnomeUI = 
-    .label = GNOME 主題 (已終止支援)
+    .label = { -brand-short-name } Fluerial UI (New)
 
 ## Download Manager
 
@@ -149,22 +142,6 @@ profiles-button-label = 管理個人設定檔
 floorp-help-button-label = { -brand-short-name } 支援
 appmenuitem-reboot = 
     .label = 重新啟動
-
-## UserAgent
-
-userAgent-preference = User Agent (已終止支援)
-default-useragent-mode = 
-    .label = 使用Firefox UA (默認)
-windows-chrome-useragent-mode = 
-    .label = 仿擬為Windows版Chrome
-macOS-chrome-useragent-mode = 
-    .label = 仿擬為macOS版Chrome
-linux-chrome-useragent-mode = 
-    .label = 仿擬為Linux版Chrome
-mobile-chrome-useragent-mode = 
-    .label = 仿擬為iOS版Chrome
-use-custom-useragent-mode = 
-    .label = 使用自訂的User Agent
 
 ## DMR UI
 
