@@ -90,14 +90,9 @@ bookmarks-bottom-mode =
 navbar-settings = Navigationsleiste
 show-nav-bar-bottom = 
     .label = Symbolleiste am unteren Rand von { -brand-short-name } (experimentell) anzeigen
-material-effect = 
-    .label = Allow Mica For Everyone to modify the browser design (Deprecated)
 disable-extension-check-compatibility-option = 
     .label = Do not check for compatibility with add-ons (deprecated)
 other-preference = Andere Einstellungen
-enable-userscript = 
-    .label = Enable legacy components (deprecated)
-about-userscript = Die Aktivierung dieser Funktion kann zu unerwarteten bis hin zu fatalen Fehlern führen.
 search-positon-top = 
     .label = Anzeige der Suchleiste am oberen Rand der Seite
 allow-auto-restart = 
@@ -127,9 +122,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Microsoft Fluent UI (veraltet)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI (veraltet)
-floorp-gnomeUI = 
-    .label = GNOME-Design (veraltet)
+    .label = { -brand-short-name } Fluerial UI (New)
 
 ## Download Manager
 
@@ -149,22 +142,6 @@ profiles-button-label = Profile verwalten
 floorp-help-button-label = { -brand-short-name } Support
 appmenuitem-reboot = 
     .label = Neustart
-
-## UserAgent
-
-userAgent-preference = User Agent (deprecated)
-default-useragent-mode = 
-    .label = Firefox User-Agent verwenden (Standard)
-windows-chrome-useragent-mode = 
-    .label = Spoof Chrome unter Windows
-macOS-chrome-useragent-mode = 
-    .label = Spoof Chrome auf macOS
-linux-chrome-useragent-mode = 
-    .label = Spoof Chrome unter Linux
-mobile-chrome-useragent-mode = 
-    .label = Spoof Chrome auf iOS
-use-custom-useragent-mode = 
-    .label = Eigenen User-Agent verwenden
 
 ## DMR UI
 
