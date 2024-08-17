@@ -90,14 +90,9 @@ bookmarks-bottom-mode =
 navbar-settings = Navigation Bar
 show-nav-bar-bottom = 
     .label = Toon de werkbalk onderaan { -brand-short-name } (experimenteel)
-material-effect = 
-    .label = Allow Mica For Everyone to modify the browser design (Deprecated)
 disable-extension-check-compatibility-option = 
     .label = Do not check for compatibility with add-ons (deprecated)
 other-preference = Andere voorkeuren
-enable-userscript = 
-    .label = Enable legacy components (deprecated)
-about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
 search-positon-top = 
     .label = Display the Find Bar at the top of the page
 allow-auto-restart = 
@@ -127,9 +122,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Microsoft Fluent UI (deprecated)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI (deprecated)
-floorp-gnomeUI = 
-    .label = GNOME Theme (deprecated)
+    .label = { -brand-short-name } Fluerial UI (New)
 
 ## Download Manager
 
@@ -149,22 +142,6 @@ profiles-button-label = Profielen beheren
 floorp-help-button-label = { -brand-short-name } Ondersteuning
 appmenuitem-reboot = 
     .label = Herstarten
-
-## UserAgent
-
-userAgent-preference = User Agent (deprecated)
-default-useragent-mode = 
-    .label = Gebruik Firefox User Agent (standaard)
-windows-chrome-useragent-mode = 
-    .label = Chrome bederven op Windows
-macOS-chrome-useragent-mode = 
-    .label = Chrome op macOS bederven
-linux-chrome-useragent-mode = 
-    .label = Chrome op Linux bederven
-mobile-chrome-useragent-mode = 
-    .label = Chrome op iOS bederven
-use-custom-useragent-mode = 
-    .label = Gebruik Aangepaste User Agent
 
 ## DMR UI
 
