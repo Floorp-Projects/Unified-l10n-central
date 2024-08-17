@@ -90,14 +90,9 @@ bookmarks-bottom-mode =
 navbar-settings = Thanh điều hướng
 show-nav-bar-bottom = 
     .label = Hiển thị thanh công cụ ở dưới { -brand-short-name } (thử nghiệm)
-material-effect = 
-    .label = Allow Mica For Everyone to modify the browser design (Deprecated)
 disable-extension-check-compatibility-option = 
     .label = Do not check for compatibility with add-ons (deprecated)
 other-preference = Các tuỳ chọn khác
-enable-userscript = 
-    .label = Enable legacy components (deprecated)
-about-userscript = Kích hoạt tính năng này có thể gây ra một số lỗi không mong muốn.
 search-positon-top = 
     .label = Hiển thị thanh tiềm kiếm đầu trang
 allow-auto-restart = 
@@ -127,9 +122,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Microsoft Fluent UI (không khuyến khích)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI (không khuyến khích)
-floorp-gnomeUI = 
-    .label = GNOME theme (không khuyến khích)
+    .label = { -brand-short-name } Fluerial UI (New)
 
 ## Download Manager
 
@@ -149,22 +142,6 @@ profiles-button-label = Quản lý Hồ sơ
 floorp-help-button-label = Hỗ trợ { -brand-short-name }
 appmenuitem-reboot = 
     .label = Khởi động lại
-
-## UserAgent
-
-userAgent-preference = User Agent (deprecated)
-default-useragent-mode = 
-    .label = Sử dụng Firefox User Agent ( Mặc định)
-windows-chrome-useragent-mode = 
-    .label = Như Chrome trên Windows
-macOS-chrome-useragent-mode = 
-    .label = Như Chrome trên macOS
-linux-chrome-useragent-mode = 
-    .label = Như Chrome trên Linux
-mobile-chrome-useragent-mode = 
-    .label = Như Chrome trên iOS
-use-custom-useragent-mode = 
-    .label = Sử dụng User Agent tuỳ chỉnh
 
 ## DMR UI
 
