@@ -15,6 +15,7 @@ category-design =
 design-header = { pane-design-title }
 feature-requires-restart = É necessário reiniciar para aplicar as alterações
 tab-width = Largura mínima das abas
+tab-height = Minimum height of tabs
 preferences-tabs-newtab-position = Posição do novo separador
 open-new-tab-use-default = 
     .label = Abrir novas abas na posição padrão
