@@ -15,6 +15,7 @@ category-design =
 design-header = { pane-design-title }
 feature-requires-restart = Genstart er påkrævet for at anvende ændringer
 tab-width = Minimumsbredde på faner
+tab-height = Minimum height of tabs
 preferences-tabs-newtab-position = Ny faneposition
 open-new-tab-use-default = 
     .label = Åbn nye faner på standardposition
