@@ -15,6 +15,7 @@ category-design =
 design-header = { pane-design-title }
 feature-requires-restart = Для застосування змін необхідне перезавантаження
 tab-width = Мінімальна ширина вкладок
+tab-height = Minimum height of tabs
 preferences-tabs-newtab-position = Позиція нової вкладки
 open-new-tab-use-default = 
     .label = Відкривати нові вкладки за замовчуванням
