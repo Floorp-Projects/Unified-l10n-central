@@ -90,14 +90,9 @@ bookmarks-bottom-mode =
 navbar-settings = Barre de navigation
 show-nav-bar-bottom = 
     .label = Afficher la barre d'outils en bas de { -brand-short-name } (expérimental)
-material-effect = 
-    .label = Autoriser « Mica for Everyone » à modifier l'apparence du navigateur (Obsolète)
 disable-extension-check-compatibility-option = 
     .label = Ne pas vérifier la compatibilité avec les extensions (obsolète)
 other-preference = Autres préférences
-enable-userscript = 
-    .label = Activer les composants hérités (obsolète)
-about-userscript = L'activation de cette fonctionnalité peut provoquer des bugs inattendus ou des erreurs fatales.
 search-positon-top = 
     .label = Afficher la barre de recherche en haut de la page
 allow-auto-restart = 
@@ -127,9 +122,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Microsoft Fluent UI (obsolète)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI (obsolète)
-floorp-gnomeUI = 
-    .label = Thème GNOME (obsolète)
+    .label = { -brand-short-name } Fluerial UI (New)
 
 ## Download Manager
 
@@ -149,22 +142,6 @@ profiles-button-label = Gérer les profils
 floorp-help-button-label = Support de { -brand-short-name }
 appmenuitem-reboot = 
     .label = Redémarrer
-
-## UserAgent
-
-userAgent-preference = Agent utilisateur (obsolète)
-default-useragent-mode = 
-    .label = Utiliser l'agent utilisateur de Firefox (par défaut)
-windows-chrome-useragent-mode = 
-    .label = Se faire passer pour Chrome sous Windows
-macOS-chrome-useragent-mode = 
-    .label = Se faire passer pour Chrome sous macOS
-linux-chrome-useragent-mode = 
-    .label = Se faire passer pour Chrome sous Linux
-mobile-chrome-useragent-mode = 
-    .label = Se faire passer pour Chrome sous iOS
-use-custom-useragent-mode = 
-    .label = Utiliser un agent utilisateur personnalisé
 
 ## DMR UI
 

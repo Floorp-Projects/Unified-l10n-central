@@ -90,14 +90,9 @@ bookmarks-bottom-mode =
 navbar-settings = ナビゲーションバー
 show-nav-bar-bottom = 
     .label = { -brand-short-name } の下部にツールバーを表示 (実験的)
-material-effect = 
-    .label = Mica for Everyone によるデザイン変更 (非推奨)
 disable-extension-check-compatibility-option = 
     .label = アドオンとの互換性を確認しない (非推奨)
 other-preference = その他の設定
-enable-userscript = 
-    .label = レガシーコンポーネントを有効にする (非推奨)
-about-userscript = この機能を有効にすると予期せぬエラーを発生させる可能性があります。
 search-positon-top = 
     .label = 検索バーを上部に表示
 allow-auto-restart = 
@@ -127,9 +122,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Microsoft Fluent デザイン (非推奨)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial デザイン (非推奨)
-floorp-gnomeUI = 
-    .label = GNOME テーマ (非推奨)
+    .label = { -brand-short-name } Fluerial デザイン (New)
 
 ## Download Manager
 
@@ -149,22 +142,6 @@ profiles-button-label = プロファイルを管理
 floorp-help-button-label = { -brand-short-name } サポート
 appmenuitem-reboot = 
     .label = 再起動
-
-## UserAgent
-
-userAgent-preference = ユーザーエージェント (非推奨)
-default-useragent-mode = 
-    .label = Firefox のユーザーエージェントを使用 (既定)
-windows-chrome-useragent-mode = 
-    .label = Windows 版 Chrome のユーザーエージェントを使用
-macOS-chrome-useragent-mode = 
-    .label = macOS 版 Chrome のユーザーエージェントを使用
-linux-chrome-useragent-mode = 
-    .label = Linux 版 Chrome のユーザーエージェントを使用
-mobile-chrome-useragent-mode = 
-    .label = iOS 版 Chrome のユーザーエージェントを使用
-use-custom-useragent-mode = 
-    .label = カスタムユーザーエージェントを使用
 
 ## DMR UI
 
@@ -1061,16 +1038,16 @@ open-in_private-container =
 floorp-split-view-open-menu = 
     .label = 分割ビューで開く
 floorp-split-view-open-menu-disabled = 
-    .label = Need Unspliting and Unselected tab
-split-view-remove-button = Remove Split View
-split-view-title = Split View Settings
-split-view-position = Position
-split-view-flex-type = Flex Type
-split-view-position-top = Top Side
-split-view-position-left = Default
-split-view-position-right = Reverse
-split-view-flex-column = Vertical
-split-view-flex-row = Horizontal
+    .label = 分割ビューに使用していない未選択のタブが必要です
+split-view-remove-button = 分割ビューを解除
+split-view-title = 分割ビューの設定
+split-view-position = 位置
+split-view-flex-type = 並べ方
+split-view-position-top = 上側
+split-view-position-left = 既定
+split-view-position-right = 反転
+split-view-flex-column = 垂直
+split-view-flex-row = 水平
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = QR コードをスキャンしてください
 qrcode-generate-page-action = 

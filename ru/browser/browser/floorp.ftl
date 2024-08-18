@@ -90,14 +90,9 @@ bookmarks-bottom-mode =
 navbar-settings = Панель навигации
 show-nav-bar-bottom = 
     .label = Показать панель инструментов в нижней части { -brand-short-name } (экспериментально)
-material-effect = 
-    .label = Разрешить Mica for Everyone изменять дизайн браузера (устарело)
 disable-extension-check-compatibility-option = 
     .label = Не проверять совместимость с дополнениями (устаревшее)
 other-preference = Другие настройки
-enable-userscript = 
-    .label = Включить устаревшие компоненты (устаревшее)
-about-userscript = Включение этой функции может привести к неожиданным ошибкам или фатальным сбоям.
 search-positon-top = 
     .label = Отображение панели поиска в верхней части страницы
 allow-auto-restart = 
@@ -127,9 +122,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Microsoft Fluent UI (устаревший)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI (устаревший)
-floorp-gnomeUI = 
-    .label = Тема GNOME (устаревшая)
+    .label = { -brand-short-name } Fluerial UI (New)
 
 ## Download Manager
 
@@ -149,22 +142,6 @@ profiles-button-label = Управление профилями
 floorp-help-button-label = Поддержка { -brand-short-name }
 appmenuitem-reboot = 
     .label = Перезапустить
-
-## UserAgent
-
-userAgent-preference = Пользовательский агент (устаревшее)
-default-useragent-mode = 
-    .label = Использовать пользовательский агент Firefox (по умолчанию)
-windows-chrome-useragent-mode = 
-    .label = Изменить пользовательский агент на Chrome для Windows
-macOS-chrome-useragent-mode = 
-    .label = Изменить пользовательский агент на Chrome для macOS
-linux-chrome-useragent-mode = 
-    .label = Изменить пользовательский агент на Chrome для Linux
-mobile-chrome-useragent-mode = 
-    .label = Изменить пользовательский агент на Chrome для iOS
-use-custom-useragent-mode = 
-    .label = Использовать сторонний пользовательский агент
 
 ## DMR UI
 

@@ -90,14 +90,9 @@ bookmarks-bottom-mode =
 navbar-settings = Barra de navegación
 show-nav-bar-bottom = 
     .label = Mostrar la barra de herramientas en la parte inferior de { -brand-short-name } (experimental)
-material-effect = 
-    .label = Allow Mica For Everyone to modify the browser design (Deprecated)
 disable-extension-check-compatibility-option = 
     .label = Do not check for compatibility with add-ons (deprecated)
 other-preference = Otras preferencias
-enable-userscript = 
-    .label = Enable legacy components (deprecated)
-about-userscript = Activar esta funcionalidad puede originar defectos inesperados o errores graves.
 search-positon-top = 
     .label = Mostrar barra de búsqueda en la parte superior de la página
 allow-auto-restart = 
@@ -127,9 +122,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Fluent UI de Microsoft (obsolescido)
 floorp-fluerialUI = 
-    .label = Fluerial UI de { -brand-short-name } (obsolescido)
-floorp-gnomeUI = 
-    .label = Tema de GNOME (obsolescido)
+    .label = { -brand-short-name } Fluerial UI (New)
 
 ## Download Manager
 
@@ -149,22 +142,6 @@ profiles-button-label = Gestionar perfiles
 floorp-help-button-label = Asistencia de { -brand-short-name }
 appmenuitem-reboot = 
     .label = Reiniciar
-
-## UserAgent
-
-userAgent-preference = User Agent (deprecated)
-default-useragent-mode = 
-    .label = Usar agente de usuario de Firefox (predeterminado)
-windows-chrome-useragent-mode = 
-    .label = Hacerse pasar por Chrome en Windows
-macOS-chrome-useragent-mode = 
-    .label = Hacerse pasar por Chrome en macOS
-linux-chrome-useragent-mode = 
-    .label = Hacerse pasar por Chrome en Linux
-mobile-chrome-useragent-mode = 
-    .label = Hacerse pasar por Chrome en iOS
-use-custom-useragent-mode = 
-    .label = Usar agente de usuario personalizado
 
 ## DMR UI
 
@@ -1059,16 +1036,16 @@ open-in_private-container =
 ######################################################################## Split View ###############################################################
 
 floorp-split-view-open-menu = 
-    .label = Open in Split View
+    .label = Abrir en vista dividida
 floorp-split-view-open-menu-disabled = 
     .label = Need Unspliting and Unselected tab
-split-view-remove-button = Remove Split View
-split-view-title = Split View Settings
-split-view-position = Position
+split-view-remove-button = Quitar vista dividida
+split-view-title = Configuración de vista dividida
+split-view-position = Posición
 split-view-flex-type = Flex Type
-split-view-position-top = Top Side
-split-view-position-left = Default
-split-view-position-right = Reverse
+split-view-position-top = Lado superior
+split-view-position-left = Predeterminado
+split-view-position-right = Invertido
 split-view-flex-column = Vertical
 split-view-flex-row = Horizontal
 ######################################################################### Page Actions ###############################################################
@@ -1134,7 +1111,7 @@ floorp-finished-download = Descarga finalizada
 
 floorp-notificationTitle-latest = { -brand-short-name } está al día.
 floorp-notificationContent-latest = { -brand-short-name } está al día. Utiliza la versión más reciente de { -brand-short-name }.
-floorp-notificationTitle = New version of { -brand-short-name } is available!
+floorp-notificationTitle = Hay una versión nueva de { -brand-short-name } disponible.
 floorp-notificationContent = Pulse para descargar la versión más reciente.
 ######################################################################### vertical tab bar ###############################################################
 

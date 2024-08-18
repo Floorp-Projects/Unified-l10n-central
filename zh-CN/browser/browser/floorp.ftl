@@ -90,14 +90,9 @@ bookmarks-bottom-mode =
 navbar-settings = 导航栏
 show-nav-bar-bottom = 
     .label = 在 { -brand-short-name } 底部显示工具栏 (实验性功能)
-material-effect = 
-    .label = Allow Mica For Everyone to modify the browser design (Deprecated)
 disable-extension-check-compatibility-option = 
     .label = 不检查与附加组件的兼容性(已废弃)
 other-preference = 其他设置
-enable-userscript = 
-    .label = 启用传统组件(已弃用)
-about-userscript = 启用此功能可能会引发意料之外的错误或致命性问题。
 search-positon-top = 
     .label = 在页面顶部显示搜索栏
 allow-auto-restart = 
@@ -127,9 +122,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Microsoft Fluent UI (已废弃)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI (已废弃)
-floorp-gnomeUI = 
-    .label = GNOME 主题 (已废弃)
+    .label = { -brand-short-name } Fluerial UI (New)
 
 ## Download Manager
 
@@ -149,22 +142,6 @@ profiles-button-label = 管理配置文件
 floorp-help-button-label = { -brand-short-name } 支持
 appmenuitem-reboot = 
     .label = 重新启动
-
-## UserAgent
-
-userAgent-preference = 用户标识(已废弃)
-default-useragent-mode = 
-    .label = 使用 Firefox 用户代理 (默认)
-windows-chrome-useragent-mode = 
-    .label = 模拟 Chrome (Windows)
-macOS-chrome-useragent-mode = 
-    .label = 模拟 Chrome (macOS)
-linux-chrome-useragent-mode = 
-    .label = 模拟 Chrome (Linux)
-mobile-chrome-useragent-mode = 
-    .label = 模拟 Chrome (iOS)
-use-custom-useragent-mode = 
-    .label = 使用自定义的用户代理
 
 ## DMR UI
 

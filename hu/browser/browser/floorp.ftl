@@ -90,14 +90,9 @@ bookmarks-bottom-mode =
 navbar-settings = Navigation Bar
 show-nav-bar-bottom = 
     .label = Az eszköztár megjelenítése a { -brand-short-name } alján (kísérleti)
-material-effect = 
-    .label = Allow Mica For Everyone to modify the browser design (Deprecated)
 disable-extension-check-compatibility-option = 
     .label = Do not check for compatibility with add-ons (deprecated)
 other-preference = Egyéb preferenciák
-enable-userscript = 
-    .label = Enable legacy components (deprecated)
-about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
 search-positon-top = 
     .label = Display the Find Bar at the top of the page
 allow-auto-restart = 
@@ -127,9 +122,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Microsoft Fluent UI (deprecated)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI (deprecated)
-floorp-gnomeUI = 
-    .label = GNOME Theme (deprecated)
+    .label = { -brand-short-name } Fluerial UI (New)
 
 ## Download Manager
 
@@ -149,22 +142,6 @@ profiles-button-label = Profilok kezelése
 floorp-help-button-label = { -brand-short-name } Támogatás
 appmenuitem-reboot = 
     .label = Újraindítás
-
-## UserAgent
-
-userAgent-preference = User Agent (deprecated)
-default-useragent-mode = 
-    .label = Firefox felhasználói ügynök használata (alapértelmezett)
-windows-chrome-useragent-mode = 
-    .label = Spoof Chrome a Windowson
-macOS-chrome-useragent-mode = 
-    .label = A Chrome hamisítása macOS-en
-linux-chrome-useragent-mode = 
-    .label = Spoof Chrome Linuxon
-mobile-chrome-useragent-mode = 
-    .label = Spoof Chrome iOS-en
-use-custom-useragent-mode = 
-    .label = Egyéni felhasználói ügynök használata
 
 ## DMR UI
 

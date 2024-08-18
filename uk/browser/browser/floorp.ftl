@@ -90,14 +90,9 @@ bookmarks-bottom-mode =
 navbar-settings = Навігаційна панель
 show-nav-bar-bottom = 
     .label = Показати панель інструментів внизу { -brand-short-name } (експериментально)
-material-effect = 
-    .label = Дозволити Mica For Everyone змінювати дизайн браузера (Застаріло)
 disable-extension-check-compatibility-option = 
     .label = Не перевіряти сумісність з додатками (застаріло)
 other-preference = Інші налаштування
-enable-userscript = 
-    .label = Увімкнути застарілі компоненти (застаріло)
-about-userscript = Увімкнення цієї функції може спричинити неочікувані помилки або фатальні збої.
 search-positon-top = 
     .label = Відображати рядок пошуку у верхній частині сторінки
 allow-auto-restart = 
@@ -127,9 +122,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Microsoft Fluent UI (застарілий)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI (застарілий)
-floorp-gnomeUI = 
-    .label = Тема GNOME (застаріла)
+    .label = { -brand-short-name } Fluerial UI (New)
 
 ## Download Manager
 
@@ -149,22 +142,6 @@ profiles-button-label = Керування профілями
 floorp-help-button-label = Підтримка { -brand-short-name }
 appmenuitem-reboot = 
     .label = Перезапустити
-
-## UserAgent
-
-userAgent-preference = User Agent (deprecated)
-default-useragent-mode = 
-    .label = Використовувати користувацький агент Firefox (за замовчуванням)
-windows-chrome-useragent-mode = 
-    .label = Змінити користувацький агент на Chrome для Windows
-macOS-chrome-useragent-mode = 
-    .label = Змінити користувацький агент на Chrome для MacOS
-linux-chrome-useragent-mode = 
-    .label = Змінити користувацький агент на Chrome для Linux
-mobile-chrome-useragent-mode = 
-    .label = Змінити користувацький агент на Chrome для Ios
-use-custom-useragent-mode = 
-    .label = Використовувати сторонній користувацький агент
 
 ## DMR UI
 

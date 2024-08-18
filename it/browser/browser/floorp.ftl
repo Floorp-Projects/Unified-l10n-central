@@ -90,14 +90,9 @@ bookmarks-bottom-mode =
 navbar-settings = Barra di Navigazione
 show-nav-bar-bottom = 
     .label = Mostra la Barra degli Strumenti sul fondo di { -brand-short-name } (sperimentale)
-material-effect = 
-    .label = Allow Mica For Everyone to modify the browser design (Deprecated)
 disable-extension-check-compatibility-option = 
     .label = Do not check for compatibility with add-ons (deprecated)
 other-preference = Altre Preferenze
-enable-userscript = 
-    .label = Enable legacy components (deprecated)
-about-userscript = L'attivazione di questa funzione può causare bug inattesi o errori fatali.
 search-positon-top = 
     .label = Visualizzare la barra di ricerca nella parte superiore della pagina
 allow-auto-restart = 
@@ -127,9 +122,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Interfaccia Microsoft Fluent UI (deprecata)
 floorp-fluerialUI = 
-    .label = Interfaccia { -brand-short-name } Fluerial (deprecata)
-floorp-gnomeUI = 
-    .label = Tema GNOME (deprecato)
+    .label = { -brand-short-name } Fluerial UI (New)
 
 ## Download Manager
 
@@ -149,24 +142,6 @@ profiles-button-label = Gestisci Profili
 floorp-help-button-label = Supporto { -brand-short-name }
 appmenuitem-reboot = 
     .label = Riavvia
-
-## UserAgent
-
-userAgent-preference = User Agent (deprecated)
-default-useragent-mode = 
-    .label =
-        Usa lo user agent di Firefox 
-        (Predefinito)
-windows-chrome-useragent-mode = 
-    .label = Identificati come Chrome su Windows
-macOS-chrome-useragent-mode = 
-    .label = Identificati come Chrome su macOS
-linux-chrome-useragent-mode = 
-    .label = Identificati come Chrome su Linux
-mobile-chrome-useragent-mode = 
-    .label = Identificati come Chrome su iOS
-use-custom-useragent-mode = 
-    .label = Usa User Agent Personalizzato
 
 ## DMR UI
 

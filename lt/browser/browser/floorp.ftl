@@ -90,14 +90,9 @@ bookmarks-bottom-mode =
 navbar-settings = Naršymo juosta
 show-nav-bar-bottom = 
     .label = Rodyti įrankių juostą „{ -brand-short-name }“ apačioje (eksperimentinuojama)
-material-effect = 
-    .label = Allow Mica For Everyone to modify the browser design (Deprecated)
 disable-extension-check-compatibility-option = 
     .label = Do not check for compatibility with add-ons (deprecated)
 other-preference = Kiti pasirinkimai
-enable-userscript = 
-    .label = Enable legacy components (deprecated)
-about-userscript = Įjungus šią funkciją gali atsirasti netikėtos klaidos.
 search-positon-top = 
     .label = Rodyti paieškos juostą puslapio viršunėje
 allow-auto-restart = 
@@ -127,9 +122,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = „Microsoft Fluent“ dizainas (nebenaudojamas)
 floorp-fluerialUI = 
-    .label = „{ -brand-short-name } Fluerial“ dizainas (nebenaudojamas)
-floorp-gnomeUI = 
-    .label = GNOME dizainas (nebenaudojamas)
+    .label = { -brand-short-name } Fluerial UI (New)
 
 ## Download Manager
 
@@ -149,22 +142,6 @@ profiles-button-label = Tvarkyti profilius
 floorp-help-button-label = „{ -brand-short-name }“ Parama
 appmenuitem-reboot = 
     .label = Perkrauti
-
-## UserAgent
-
-userAgent-preference = User Agent (deprecated)
-default-useragent-mode = 
-    .label = Naudoti „Firefox“ vartotojo agentą (numatytasis nustatymas)
-windows-chrome-useragent-mode = 
-    .label = Apsimesti kaip „Chrome“ „Windows“ sistemoje
-macOS-chrome-useragent-mode = 
-    .label = Apsimesti kaip „Chrome“ „macOS“ sistemoje
-linux-chrome-useragent-mode = 
-    .label = Apsimesti kaip „Chrome“ „Linux“ sistemoje
-mobile-chrome-useragent-mode = 
-    .label = Apsimesti kaip „Chrome“ „iOS“ sistemoje
-use-custom-useragent-mode = 
-    .label = Naudoti pasirinktinį vartotojo agentą
 
 ## DMR UI
 

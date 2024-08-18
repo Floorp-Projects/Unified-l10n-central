@@ -90,14 +90,9 @@ bookmarks-bottom-mode =
 navbar-settings = Navigation Bar
 show-nav-bar-bottom = 
     .label = Visa verktygsfältet längst ner på { -brand-short-name } (experimentellt)
-material-effect = 
-    .label = Allow Mica For Everyone to modify the browser design (Deprecated)
 disable-extension-check-compatibility-option = 
     .label = Do not check for compatibility with add-ons (deprecated)
 other-preference = Andra inställningar
-enable-userscript = 
-    .label = Enable legacy components (deprecated)
-about-userscript = Enabling this feature may cause unexpected bugs or fatal errors.
 search-positon-top = 
     .label = Display the Find Bar at the top of the page
 allow-auto-restart = 
@@ -127,9 +122,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Microsoft Fluent UI (deprecated)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI (deprecated)
-floorp-gnomeUI = 
-    .label = GNOME Theme (deprecated)
+    .label = { -brand-short-name } Fluerial UI (New)
 
 ## Download Manager
 
@@ -149,22 +142,6 @@ profiles-button-label = Hantera profiler
 floorp-help-button-label = { -brand-short-name } Stöd
 appmenuitem-reboot = 
     .label = Starta om
-
-## UserAgent
-
-userAgent-preference = User Agent (deprecated)
-default-useragent-mode = 
-    .label = Använd Firefox User Agent (Standard)
-windows-chrome-useragent-mode = 
-    .label = Spoof Chrome på Windows
-macOS-chrome-useragent-mode = 
-    .label = Spoof Chrome på macOS
-linux-chrome-useragent-mode = 
-    .label = Spoof Chrome på Linux
-mobile-chrome-useragent-mode = 
-    .label = Spoof Chrome på iOS
-use-custom-useragent-mode = 
-    .label = Använd anpassat användaragenter
 
 ## DMR UI
 

@@ -90,14 +90,9 @@ bookmarks-bottom-mode =
 navbar-settings = شريط التنقل
 show-nav-bar-bottom = 
     .label = إظهار شريط الأدوات أسفل { -brand-short-name } (تجريبي)
-material-effect = 
-    .label = Allow Mica For Everyone to modify the browser design (Deprecated)
 disable-extension-check-compatibility-option = 
     .label = Do not check for compatibility with add-ons (deprecated)
 other-preference = إعدادات أخرى
-enable-userscript = 
-    .label = Enable legacy components (deprecated)
-about-userscript = تمكين هذه الميزة قد يتسبب بمشاكل غير متوقعة أو أخطاء فادحة.
 search-positon-top = 
     .label = إظهار شريط البحث أعلى الصفحة
 allow-auto-restart = 
@@ -127,9 +122,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = واجهة مستخدم Microsoft Fluent (متوقفة)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } واجهة مستخدم Fluerial (متوقفة)
-floorp-gnomeUI = 
-    .label = سمة GNOME (متوقفة)
+    .label = { -brand-short-name } Fluerial UI (New)
 
 ## Download Manager
 
@@ -149,22 +142,6 @@ profiles-button-label = إدارة الملفات الشخصية
 floorp-help-button-label = الدعم الفني لـ { -brand-short-name }
 appmenuitem-reboot = 
     .label = إعادة التشغيل
-
-## UserAgent
-
-userAgent-preference = User Agent (deprecated)
-default-useragent-mode = 
-    .label = استخدام عامل مستخدم Firefox (الافتراضي)
-windows-chrome-useragent-mode = 
-    .label = تزييف هوية Chrome على Windows
-macOS-chrome-useragent-mode = 
-    .label = تزييف هوية Chrome على MacOS
-linux-chrome-useragent-mode = 
-    .label = تزييف هوية Chrome على Linux
-mobile-chrome-useragent-mode = 
-    .label = تزييف هوية Chrome على iOS
-use-custom-useragent-mode = 
-    .label = استخدام عامل مستخدم مخصص
 
 ## DMR UI
 
