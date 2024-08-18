@@ -15,6 +15,7 @@ category-design =
 design-header = { pane-design-title }
 feature-requires-restart = 変更を適用するには再起動が必要です
 tab-width = タブの最小幅
+tab-height = Minimum height of tabs
 preferences-tabs-newtab-position = 新規タブの位置
 open-new-tab-use-default = 
     .label = デフォルト設定を使用
