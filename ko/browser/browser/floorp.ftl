@@ -15,6 +15,7 @@ category-design =
 design-header = { pane-design-title }
 feature-requires-restart = 변경 사항을 적용하려면 재시작해 주세요.
 tab-width = 탭의 최소 너비
+tab-height = Minimum height of tabs
 preferences-tabs-newtab-position = 새 탭 위치
 open-new-tab-use-default = 
     .label = 기본 위치에서 새 탭 열기

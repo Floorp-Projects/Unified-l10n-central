@@ -15,6 +15,7 @@ category-design =
 design-header = { pane-design-title }
 feature-requires-restart = Un redémarrage est nécessaire pour appliquer les modifications
 tab-width = Largeur minimale des onglets
+tab-height = Minimum height of tabs
 preferences-tabs-newtab-position = Position du nouvel onglet
 open-new-tab-use-default = 
     .label = Ouvrir de nouveaux onglets à la position par défaut

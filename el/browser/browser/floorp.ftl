@@ -15,6 +15,7 @@ category-design =
 design-header = { pane-design-title }
 feature-requires-restart = Απαιτείται επανεκκίνηση για να εφαρμοστούν οι αλλαγές
 tab-width = Ελάχιστο πλάτος καρτελών
+tab-height = Minimum height of tabs
 preferences-tabs-newtab-position = New tab position
 open-new-tab-use-default = 
     .label = Άνοιγμα νέων καρτελών στην προεπιλεγμένη θέση

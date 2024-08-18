@@ -15,6 +15,7 @@ category-design =
 design-header = { pane-design-title }
 feature-requires-restart = Pro použití změn je vyžadován restart
 tab-width = Minimální šířka záložek
+tab-height = Minimum height of tabs
 preferences-tabs-newtab-position = New tab position
 open-new-tab-use-default = 
     .label = Ve výchozím nastavení otevírat nové panely

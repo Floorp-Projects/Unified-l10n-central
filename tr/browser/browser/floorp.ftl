@@ -15,6 +15,7 @@ category-design =
 design-header = { pane-design-title }
 feature-requires-restart = Değişikliklerin uygulanması için yeniden başlatma gerekmektedir
 tab-width = Minimum sekme genişliği
+tab-height = Minimum height of tabs
 preferences-tabs-newtab-position = Yeni sekme konumu
 open-new-tab-use-default = 
     .label = Yeni sekmeleri varsayılan konumda aç

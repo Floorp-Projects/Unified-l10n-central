@@ -15,6 +15,7 @@ category-design =
 design-header = { pane-design-title }
 feature-requires-restart = Per applicare le modifiche è necessario un riavvio
 tab-width = Larghezza minima delle schede
+tab-height = Minimum height of tabs
 preferences-tabs-newtab-position = Nuova posizione scheda
 open-new-tab-use-default = 
     .label = Apri nuove schede nella posizione predefinita

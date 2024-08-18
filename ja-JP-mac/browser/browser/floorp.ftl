@@ -15,6 +15,7 @@ category-design =
 design-header = { pane-design-title }
 feature-requires-restart = 変更を適用するには再起動が必要です
 tab-width = タブの最小幅
+tab-height = タブの最小高さ
 preferences-tabs-newtab-position = 新規タブの位置
 open-new-tab-use-default = 
     .label = デフォルト設定を使用
@@ -122,7 +123,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Microsoft Fluent デザイン (非推奨)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial デザイン (New)
+    .label = { -brand-short-name } Fluerial デザイン (新着)
 
 ## Download Manager
 

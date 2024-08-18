@@ -15,6 +15,7 @@ category-design =
 design-header = { pane-design-title }
 feature-requires-restart = 需要重啟以套用變更
 tab-width = 分頁的最小寬度
+tab-height = Minimum height of tabs
 preferences-tabs-newtab-position = 新分頁位置
 open-new-tab-use-default = 
     .label = 在預設位置開啟新分頁

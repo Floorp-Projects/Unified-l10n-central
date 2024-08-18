@@ -15,6 +15,7 @@ category-design =
 design-header = { pane-design-title }
 feature-requires-restart = A változások alkalmazásához újraindítás szükséges
 tab-width = A fülek minimális szélessége
+tab-height = Minimum height of tabs
 preferences-tabs-newtab-position = New tab position
 open-new-tab-use-default = 
     .label = Új lapok megnyitása alapértelmezett pozícióban

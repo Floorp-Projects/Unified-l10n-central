@@ -15,6 +15,7 @@ category-design =
 design-header = { pane-design-title }
 feature-requires-restart = Do zastosowania zmian wymagany jest restart
 tab-width = Minimalna szerokość kart
+tab-height = Minimum height of tabs
 preferences-tabs-newtab-position = Pozycja nowej karty
 open-new-tab-use-default = 
     .label = Otwórz nowe karty w domyślnej pozycji

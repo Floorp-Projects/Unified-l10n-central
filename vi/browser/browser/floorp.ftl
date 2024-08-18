@@ -15,6 +15,7 @@ category-design =
 design-header = { pane-design-title }
 feature-requires-restart = Khởi động lại để áp dụng thay đổi
 tab-width = Độ rộng tối thiểu của thẻ
+tab-height = Minimum height of tabs
 preferences-tabs-newtab-position = Vị trí của thẻ mới
 open-new-tab-use-default = 
     .label = Mở thẻ mới tại vị trí mặc định
