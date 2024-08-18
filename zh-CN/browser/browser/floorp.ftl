@@ -15,6 +15,7 @@ category-design =
 design-header = { pane-design-title }
 feature-requires-restart = 需要重启以应用更改
 tab-width = 标签页的最小宽度
+tab-height = Minimum height of tabs
 preferences-tabs-newtab-position = 新标签页位置
 open-new-tab-use-default = 
     .label = 在默认位置打开新标签页
