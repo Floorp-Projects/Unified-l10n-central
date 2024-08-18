@@ -15,6 +15,7 @@ category-design =
 design-header = { pane-design-title }
 feature-requires-restart = Diperlukan pengaktifan ulang untuk menerapkan perubahan
 tab-width = Lebar minimum tab
+tab-height = Minimum height of tabs
 preferences-tabs-newtab-position = Posisi tab baru
 open-new-tab-use-default = 
     .label = Membuka tab baru pada posisi bawaan
