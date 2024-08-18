@@ -15,6 +15,7 @@ category-design =
 design-header = { pane-design-title }
 feature-requires-restart = Norint pritaikyti pakeitimus, reikia iš naujo paleisti
 tab-width = Mažiausias skirtukų plotis
+tab-height = Minimum height of tabs
 preferences-tabs-newtab-position = Naujo skirtuko vieta
 open-new-tab-use-default = 
     .label = Atidaryti naujus skirtukus numatytoje padėtyje
