@@ -15,6 +15,7 @@ category-design =
 design-header = { pane-design-title }
 feature-requires-restart = Es necesario reiniciar para aplicar los cambios
 tab-width = Anchura mínima de pestañas
+tab-height = Minimum height of tabs
 preferences-tabs-newtab-position = Posición de pestañas nuevas
 open-new-tab-use-default = 
     .label = Abrir pestañas nuevas en la posición predeterminada
