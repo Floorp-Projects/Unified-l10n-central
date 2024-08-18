@@ -18,6 +18,7 @@ design-header = { pane-design-title }
 feature-requires-restart = A restart is required to apply changes
 
 tab-width = Minimum width of tabs
+tab-height = Minimum height of tabs
 preferences-tabs-newtab-position = New tab position
 open-new-tab-use-default =
  .label = Open new tabs at default position
