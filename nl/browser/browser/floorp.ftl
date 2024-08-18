@@ -15,6 +15,7 @@ category-design =
 design-header = { pane-design-title }
 feature-requires-restart = Een herstart is nodig om wijzigingen toe te passen
 tab-width = Minimale breedte van tabbladen
+tab-height = Minimum height of tabs
 preferences-tabs-newtab-position = New tab position
 open-new-tab-use-default = 
     .label = Open nieuwe tabbladen op de standaardpositie
