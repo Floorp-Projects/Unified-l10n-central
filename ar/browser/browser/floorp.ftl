@@ -15,6 +15,7 @@ category-design =
 design-header = { pane-design-title }
 feature-requires-restart = يتطلب إعادة تشغيل البرنامج لتصبح التغييرات نافذة المفعول
 tab-width = الحد الأدنى لقياس عرض علامات التبويب
+tab-height = Minimum height of tabs
 preferences-tabs-newtab-position = موضع جديد لعلامة التبويب
 open-new-tab-use-default = 
     .label = فتح علامات التبويب الجديدة في الموضع الافتراضي
