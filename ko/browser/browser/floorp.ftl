@@ -15,7 +15,7 @@ category-design =
 design-header = { pane-design-title }
 feature-requires-restart = 변경 사항을 적용하려면 재시작해 주세요.
 tab-width = 탭의 최소 너비
-tab-height = Minimum height of tabs
+tab-height = 탭의 최소 높이
 preferences-tabs-newtab-position = 새 탭 위치
 open-new-tab-use-default = 
     .label = 기본 위치에서 새 탭 열기
@@ -92,7 +92,7 @@ navbar-settings = 네비게이션 바
 show-nav-bar-bottom = 
     .label = { -brand-short-name } 하단에 도구모음 표시(실험적)
 disable-extension-check-compatibility-option = 
-    .label = Do not check for compatibility with add-ons (deprecated)
+    .label = add-ons와의 호환성을 확인하지 않음 (사용 중단됨)
 other-preference = 기타 설정
 search-positon-top = 
     .label = 페이지 상단에 찾기 표시줄을 표시하기
@@ -123,7 +123,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Microsoft Fluent UI (지원 중단됨)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI (New)
+    .label = { -brand-short-name } Fluerial UI (신규)
 
 ## Download Manager
 
@@ -721,7 +721,7 @@ memo-new-title = 새 노트
 chage-view-mode = 보기/편집 모드 전환
 readonly-mode = 오프라인(읽기 전용)
 ######################################################################### Default bookmarks ###############################################################
-default-bookmark-ablaze-support = 애블레이즈 지원
+default-bookmark-ablaze-support = Ablaze 지원
 ######################################################################### Like Chrome Download mgr ###############################################################
 
 floorp-delete-all-downloads = 
@@ -785,7 +785,7 @@ floorp-preferences-label = 설정
 floorp-extensions-label = 확장 기능
 floorp-private-label = 사생활
 change-to-close-workspace-popup-option = 
-    .label = Close Workspaces popup when selecting a Workspace
+    .label = 워크스페이스를 선택하면 워크스페이스 닫기 팝업이 나타납니다.
 manage-workspace-on-bms-option = 
     .label = 브라우저 관리자 사이드바에서 워크스페이스 관리하기
 show-workspace-name-option = 
