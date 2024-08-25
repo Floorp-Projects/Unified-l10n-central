@@ -915,7 +915,7 @@ reorder-this-workspace-to-up =
   .label = Move this Workspace up
   .accesskey = B
 reorder-this-workspace-to-down =
-  .label = Move down this Workspace
+  .label = Move this Workspace down
   .accesskey = A
 
 rename-this-workspace =
