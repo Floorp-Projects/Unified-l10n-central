@@ -302,7 +302,7 @@ newtab-background-selected-one-image =
 
 newtab-background-folder = Use images from this folder:
 
-newtab-background-image = Use image :
+newtab-background-image = Use image:
 
 newtab-choose-image = Choose Image...
 
