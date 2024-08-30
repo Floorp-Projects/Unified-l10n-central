@@ -225,7 +225,8 @@ delete-border-and-roundup-option =
 ## DualTheme
 
 dualtheme-enable = 
-    .label = Abilita Doppio Tema
+    .label = Enable Dual Theme (Deprecated)
+floorp-enable-dualtheme-description = Dual Theme feature may cause problems with extensions. Please use with caution.
 newtab-background = Sfondo Personale di { -brand-short-name }
 newtab-background-random-image = 
     .label = Immagini casuali da Unsplash
