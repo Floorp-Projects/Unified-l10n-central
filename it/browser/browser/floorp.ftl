@@ -225,8 +225,8 @@ delete-border-and-roundup-option =
 ## DualTheme
 
 dualtheme-enable = 
-    .label = Enable Dual Theme (Deprecated)
-floorp-enable-dualtheme-description = Dual Theme feature may cause problems with extensions. Please use with caution.
+    .label = Abilita Tema Doppio (Deprecato)
+floorp-enable-dualtheme-description = La funzione Tema Doppio può causare problemi con le estensioni. Usare con cautela.
 newtab-background = Sfondo Personale di { -brand-short-name }
 newtab-background-random-image = 
     .label = Immagini casuali da Unsplash
@@ -1040,7 +1040,7 @@ open-in_private-container =
 floorp-split-view-open-menu = 
     .label = Apri in vista separata
 floorp-split-view-fixed-menu = 
-    .label = Split this Tab in a Tab without Split View
+    .label = Dividi questa scheda senza usare la vista separata
 floorp-split-view-open-menu-disabled = 
     .label = Necessità vista separata e scheda non selezionata
 split-view-remove-button = Rimuovi vista separata
