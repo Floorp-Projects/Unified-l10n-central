@@ -1039,6 +1039,8 @@ open-in_private-container =
 
 floorp-split-view-open-menu = 
     .label = 分割ビューで開く
+floorp-split-view-fixed-menu = 
+    .label = Split this Tab in a Tab without Split View
 floorp-split-view-open-menu-disabled = 
     .label = 分割ビューに使用していない未選択のタブが必要です
 split-view-remove-button = 分割ビューを解除
