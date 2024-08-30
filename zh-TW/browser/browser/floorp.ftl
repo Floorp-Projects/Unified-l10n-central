@@ -1041,6 +1041,8 @@ open-in_private-container =
 
 floorp-split-view-open-menu = 
     .label = 在分割視圖中開啟
+floorp-split-view-fixed-menu = 
+    .label = Split this Tab in a Tab without Split View
 floorp-split-view-open-menu-disabled = 
     .label = 需要有未分割及未選中的分頁以進行分割視圖
 split-view-remove-button = 移除分割視圖
