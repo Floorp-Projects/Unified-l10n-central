@@ -225,7 +225,8 @@ delete-border-and-roundup-option =
 ## DualTheme
 
 dualtheme-enable = 
-    .label = تمكين السمة الثنائية
+    .label = Enable Dual Theme (Deprecated)
+floorp-enable-dualtheme-description = Dual Theme feature may cause problems with extensions. Please use with caution.
 newtab-background = خلفية الصفحة الرئيسية { -brand-short-name }
 newtab-background-random-image = 
     .label = صور عشوائية من Unsplash
