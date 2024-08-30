@@ -225,7 +225,8 @@ delete-border-and-roundup-option =
 ## DualTheme
 
 dualtheme-enable = 
-    .label = Įjungti dvigubini stilių
+    .label = Enable Dual Theme (Deprecated)
+floorp-enable-dualtheme-description = Dual Theme feature may cause problems with extensions. Please use with caution.
 newtab-background = „{ -brand-short-name }“ pagrindinis fonas
 newtab-background-random-image = 
     .label = Įvairius vaizdus iš „Unsplash“
