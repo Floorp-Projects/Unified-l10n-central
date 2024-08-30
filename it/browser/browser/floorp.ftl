@@ -1039,6 +1039,8 @@ open-in_private-container =
 
 floorp-split-view-open-menu = 
     .label = Apri in vista separata
+floorp-split-view-fixed-menu = 
+    .label = Split this Tab in a Tab without Split View
 floorp-split-view-open-menu-disabled = 
     .label = Necessità vista separata e scheda non selezionata
 split-view-remove-button = Rimuovi vista separata
