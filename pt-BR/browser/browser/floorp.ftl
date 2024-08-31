@@ -5,17 +5,17 @@
 ###################################################################### about:Dialog #################################################################################
 
 about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> é um dos navegadores domésticos desenvolvidos no Japão. Ele é baseado no Firefox e continua a operar sob <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>, para melhorar a web. Quer ajudar? <label data-l10n-name="helpus-donateLink">Faça uma doação</label>
-icon-creator = Criador de ícones <label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> and <label data-l10n-name="brand-logo-twitter">@mwxdxx.</label>
+icon-creator = Criador dos ícones <label data-l10n-name="browser-logo-twitter">@CutterKnife_</label>  e  <label data-l10n-name="brand-logo-twitter">@mwxdxx.</label>
 contributors = Uma lista de colaboradores e desenvolvedores do <label data-l10n-name="about-contributor"></label>
 #################################################################### about:preferences ####################################################################
 
-pane-design-title = Projetar
+pane-design-title = Design
 category-design = 
     .tooltiptext = { pane-design-title }
 design-header = { pane-design-title }
 feature-requires-restart = É necessário reiniciar para aplicar as alterações
 tab-width = Largura mínima das abas
-tab-height = Minimum height of tabs
+tab-height = Altura mínima das abas
 preferences-tabs-newtab-position = Posição da nova aba
 open-new-tab-use-default = 
     .label = Abrir novas abas na posição padrão
@@ -29,8 +29,8 @@ multirow-tabs-newtab =
     .label = Coloque o botão "Abrir uma nova aba" no final da linha inferior de abas
 multirow-tabs-value = Número de linhas quando as abas multi-linhas estão ativadas
 enable-tab-sleep = 
-    .label = Habilitar abas de dormir
-tab-sleep-timeout-minutes-value = As abas durarão após ficar inativo por (minutos)
+    .label = Habilitar Hibernar Abas
+tab-sleep-timeout-minutes-value = As  abas vão hibernar após ficarem inativas por (minutos)
 tab-sleep-settings-button = Configurações...
 tab-sleep-settings-dialog-title = 
     .title = Configurações de abas adormecidas
@@ -123,7 +123,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Microsoft Fluent UI (descontinuado)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI (New)
+    .label = { -brand-short-name } Fluerial UI (Novo)
 
 ## Download Manager
 
@@ -150,7 +150,7 @@ download-mgr-UI =
     .label = Habilitar o Gerenciador de Download SimpleUI
 downloading-red-color = 
     .label = Usar o ícone de downloads vermelhos quando baixar
-sidebar-preferences = Sidebar
+sidebar-preferences = Painel Lateral
 bsb-preferences = Configurações da barra lateral do navegador
 view-sidebar2-right = 
     .label = Exibir a barra lateral Gerenciador de Navegadores à direita
@@ -179,7 +179,7 @@ bsb-context = Usar o seguinte Contêiner
 bsb-userAgent-label = 
     .label = Use o Agente de Usuário Móvel neste Painel Web
 bsb-width = Largura (se definida como 0, o valor global será usado)
-bsb-page = Página a abrir
+bsb-page = Página a ser aberta
 bsb-add = Adicionar Painel Web no Painel lateral Gerenciador de Navegadores
 bsb-setting = Configurações do Web Panel
 bsb-add-title = 
@@ -225,8 +225,8 @@ delete-border-and-roundup-option =
 ## DualTheme
 
 dualtheme-enable = 
-    .label = Enable Dual Theme (Deprecated)
-floorp-enable-dualtheme-description = Dual Theme feature may cause problems with extensions. Please use with caution.
+    .label = Habilitar Tema Duplo (Descontinuado)
+floorp-enable-dualtheme-description = A função de Tema Duplo por causar problemas com extensões. Use com cuidado.
 newtab-background = { -brand-short-name } Fundo Home
 newtab-background-random-image = 
     .label = Imagens aleatórias do Unsplash
@@ -674,7 +674,7 @@ gf-floorp-hide-statusbar-description = Ocultar barra de status
 gf-floorp-show-statusbar-name = [{ -brand-short-name }] Alternar Barra Lateral
 gf-floorp-show-statusbar-description = Exibir ou ocultar barra de status
 gf-floorp-open-extension-sidebar-name = [{ -brand-short-name }] Open selected add-on Sidebar
-gf-floorp-open-extension-sidebar-description = Open selected add-on on the Sidebar
+gf-floorp-open-extension-sidebar-description = Abra a extensão selecionada na barra lateral
 gf-floorp-open-extension-sidebar-settings-addons-id = Complemento da barra lateral
 gf-floorp-open-extension-sidebar-settings-addons-id-description = A extensão do complemento aberto na barra lateral
 gf-floorp-open-extension-sidebar-settings-list-default = Selecione o complemento
@@ -684,9 +684,9 @@ gf-floorp-open-extension-sidebar-settings-list-unknwon = Extensão desconhecida
 update-portable-notification-found-title = Atualizações encontradas!
 update-portable-notification-found-message = Baixando atualizações...
 update-portable-notification-ready-title = Pronto para atualizar!
-update-portable-notification-ready-message = { -brand-short-name } will be updated on the next launch.
+update-portable-notification-ready-message = { -brand-short-name } será atualizado na próxima inicialização
 update-portable-notification-success-title = Atualização bem-sucedida!
-update-portable-notification-success-message = Update succeeded! Hope you enjoy the new version of { -brand-short-name }!
+update-portable-notification-success-message = A atualização foi bem-sucedida! Esperamos que goste da nova versão do { -brand-short-name }!
 update-portable-notification-failed-title = Falha na atualização.
 update-portable-notification-failed-redirector-message = Falha na atualização. Reiniciar seu navegador pode resolver este problema.
 update-portable-notification-failed-prepare-message = Falha ao preparar a atualização.
@@ -711,7 +711,7 @@ open-link-in-external-tab-dialog-message-selected-browser-not-found = O navegado
 new-memo = Novidades
 memo-title-input-placeholder = Escreva um título aqui
 memo-input-placeholder = Escreva ou cole um memorando aqui
-delete-memo = excluir
+delete-memo = Excluir
 save-memo = Guardar
 memo-welcome-title = Bem-vindo!
 memo-first-tip = Welcome to { -brand-short-name } Notes! Here are some instructions on how to use it!
@@ -736,10 +736,10 @@ floorp-show-all-downloads =
 ######################################################################### workspace ###############################################################
 
 workspaces-create-new-workspace-button = 
-    .label = Create new Workspace...
+    .label = Criar Área de trabalho...
     .tooltiptext = Criar área de trabalho
 workspaces-manage-workspaces-button = 
-    .label = Manage Workspaces...
+    .label = Gerenciar Áreas de trabalho
     .tooltiptext = Gerenciar suas áreas de trabalho
 reorder-this-workspace-to-up = 
     .label = Mover área de trabalho acima
@@ -751,7 +751,7 @@ rename-this-workspace =
     .label = Renomear área de trabalho
     .accesskey = R
 delete-this-workspace = 
-    .label = Excluir área de trabalho
+    .label = Excluir Área de trabalho
     .accesskey = D
 manage-this-workspaces = 
     .label = Gerenciar áreas de trabalho...
@@ -801,9 +801,9 @@ sharemode-menuitem =
 welcome-login-to-firefox-account = Entre em sua conta do Firefox
 welcome-to-floorp = Bem-vindo a { -brand-short-name }!
 welcome-describe-floorp = { -brand-short-name } is a feature-rich, flexible browser that supports various environments and is based on Firefox.
-welcome-start-setup = Ready to dive in?
+welcome-start-setup = Está pronto para começar?
 welcome-skip-to-start-browsing = Pular para iniciar a navegação
-welcome-select-preferences-template = Choose a template
+welcome-select-preferences-template = Escolha um template
 welcome-minimum-template = Básico
 welcome-enable-basic-features = Enable basic features and settings for a simple experience.
 welcome-medium-template = Padrão
@@ -1045,11 +1045,11 @@ floorp-split-view-open-menu-disabled =
     .label = Need Unspliting and Unselected tab
 split-view-remove-button = Remove Split View
 split-view-title = Split View Settings
-split-view-position = Position
+split-view-position = Posição
 split-view-flex-type = Flex Type
 split-view-position-top = Top Side
-split-view-position-left = Default
-split-view-position-right = Reverse
+split-view-position-left = Padrão
+split-view-position-right = Inverso
 split-view-flex-column = Vertical
 split-view-flex-row = Horizontal
 ######################################################################### Page Actions ###############################################################
@@ -1062,61 +1062,61 @@ floorp-customize-mode-unified-extensions-button =
 ######################################################################### Progressive Web Apps (SSB) ###############################################################
 
 ssb-page-action = 
-    .label = Install app
-    .tooltiptext = Install this site as an app
-ssb-page-action-title = Install app
+    .label = Instalar aplicativo
+    .tooltiptext = Instale esse site como um aplicativo
+ssb-page-action-title = Instalar aplicativo
 ssb-app-open-button = 
-    .label = Open In App
+    .label = Abrir no Aplicativo
 ssb-app-install-button = 
-    .label = Install
+    .label = Instalar
 ssb-app-cancel-button = 
-    .label = Cancel
+    .label = Cancelar
 floorp-open-manage-ssb-page = 
-    .label = Manage installed Web Apps
+    .label = Gerenciar Aplicativos Web instalados
 appmenuitem-webapps = 
-    .label = Web Apps
-appmenu-open-installed-apps-subheader = Open installed web apps
+    .label = Aplicativos Web
+appmenu-open-installed-apps-subheader = Abrir Aplicativos Web instalados
 appmenuitem-install-current-page = 
-    .label = Install this site as an app
+    .label = Instale esse site como um Aplicativo
 appmenuitem-open-current-page = 
-    .label = Open this site on installed app
+    .label = Abra esse site como um Aplicativo
 appmenuitem-contextmenu-open-app = 
-    .label = Open this app
+    .label = Abra esse Aplicativo
 appmenuitem-contextmenu-uninstall-app = 
-    .label = Uninstall this app
+    .label = Desinstale esse Aplicativo
 
 ## Preferences
 
 category-ssb = 
-    .label = Web Apps
-    .tooltiptext = Web Apps
-category-ssb-title = Web Apps
-floorp-ssb-title = Web Apps
+    .label = Aplicativos Web
+    .tooltiptext = Aplicativos Web
+category-ssb-title = Aplicativos Web
+floorp-ssb-title = Aplicativos Web
 floorp-ssb-description = Web Apps are websites that can be installed as apps. They can be launched from { -brand-short-name }'s menu panel or the Windows Start menu.
-ssb-preferences = Web Apps Settings
+ssb-preferences = Configurações dos Aplicativos Web
 floorp-enable-ssb = 
-    .label = Enable Web Apps
+    .label = Ativar Aplicativos Web
 floorp-enable-ssb-with-experimental = 
-    .label = Enable Web Apps (Experimental)
-floorp-enable-ssb-description = This feature is experimental on Mac and Linux. It is recommended to enable this feature on Windows.
+    .label = Ativar Aplicativos Web (Experimental)
+floorp-enable-ssb-description = Este recurso é experimental no Mac e no Linux. É recomendável ativar este recurso no Windows.
 floorp-disable-toolbars = 
     .label = Disable toolbars on Web Apps Window
 floorp-disable-toolbars-description = This setting will hide all extensions and toolbars on Web Apps Window.
 ssb-installed-list-title = Installed Web Apps
 ssb-uninstall-title = Uninstall Web App
-ssb-uninstall-message = Are you sure you want to uninstall this Web App from { -brand-short-name }?
+ssb-uninstall-message = Você tem certeza de que deseja desinstalar esse Aplicativos Web do  { -brand-short-name }?
 ssb-uninstall-button = 
-    .label = Uninstall
-ssb-uninstall-cancel = Cancel
+    .label = Desinstalar
+ssb-uninstall-cancel = Cancelar
 ######################################################################### Download Notification ###############################################################
-floorp-started-download = Download started
-floorp-finished-download = Download finished
+floorp-started-download = Download iniciado
+floorp-finished-download = Download finalizado
 ######################################################################### Update notify ###############################################################
 
-floorp-notificationTitle-latest = { -brand-short-name } is up to date!
-floorp-notificationContent-latest = { -brand-short-name } is up to date. You are using the latest version of { -brand-short-name }.
-floorp-notificationTitle = New version of { -brand-short-name } is available!
-floorp-notificationContent = Click to download the latest version.
+floorp-notificationTitle-latest = { -brand-short-name } está atualizado!
+floorp-notificationContent-latest = { -brand-short-name } está atualizado. Você está usando a versão mais recente do { -brand-short-name }.
+floorp-notificationTitle = Uma nova versão do { -brand-short-name } está disponível!
+floorp-notificationContent = Clique para baixar a versão mais recente.
 ######################################################################### vertical tab bar ###############################################################
 
 close-tabs-to-the-start-on-vertical-tab-bar = 
