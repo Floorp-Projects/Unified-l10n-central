@@ -225,7 +225,8 @@ delete-border-and-roundup-option =
 ## DualTheme
 
 dualtheme-enable = 
-    .label = Ativar Tema Duplo
+    .label = Ativar tema duplo (obsoleto)
+floorp-enable-dualtheme-description = A funcionalidade Tema duplo pode causar problemas com extensões. Utilize-a com cuidado.
 newtab-background = { -brand-short-name } Fundo Home
 newtab-background-random-image = 
     .label = Imagens aleatórias do Unsplash
@@ -1038,6 +1039,8 @@ open-in_private-container =
 
 floorp-split-view-open-menu = 
     .label = Abrir na vista dividida
+floorp-split-view-fixed-menu = 
+    .label = Dividir este separador num separador sem vista dividida
 floorp-split-view-open-menu-disabled = 
     .label = Need Unspliting and Unselected tab
 split-view-remove-button = Remove Split View

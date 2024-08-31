@@ -225,7 +225,8 @@ delete-border-and-roundup-option =
 ## DualTheme
 
 dualtheme-enable = 
-    .label = Kettős téma engedélyezése
+    .label = Enable Dual Theme (Deprecated)
+floorp-enable-dualtheme-description = Dual Theme feature may cause problems with extensions. Please use with caution.
 newtab-background = { -brand-short-name } Home Háttér
 newtab-background-random-image = 
     .label = Véletlenszerű képek az Unsplash-ről
@@ -1038,6 +1039,8 @@ open-in_private-container =
 
 floorp-split-view-open-menu = 
     .label = Open in Split View
+floorp-split-view-fixed-menu = 
+    .label = Split this Tab in a Tab without Split View
 floorp-split-view-open-menu-disabled = 
     .label = Need Unspliting and Unselected tab
 split-view-remove-button = Remove Split View

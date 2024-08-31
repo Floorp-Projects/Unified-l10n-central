@@ -15,7 +15,7 @@ category-design =
 design-header = { pane-design-title }
 feature-requires-restart = Un redémarrage est nécessaire pour appliquer les modifications
 tab-width = Largeur minimale des onglets
-tab-height = Minimum height of tabs
+tab-height = Hauteur minimale des onglets
 preferences-tabs-newtab-position = Position du nouvel onglet
 open-new-tab-use-default = 
     .label = Ouvrir de nouveaux onglets à la position par défaut
@@ -123,7 +123,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Microsoft Fluent UI (obsolète)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI (New)
+    .label = { -brand-short-name } Interface Fluerial (Nouveau)
 
 ## Download Manager
 
@@ -225,7 +225,8 @@ delete-border-and-roundup-option =
 ## DualTheme
 
 dualtheme-enable = 
-    .label = Activer le double thème
+    .label = Enable Dual Theme (Deprecated)
+floorp-enable-dualtheme-description = Dual Theme feature may cause problems with extensions. Please use with caution.
 newtab-background = Arrière-plan d'accueil { -brand-short-name }
 newtab-background-random-image = 
     .label = Images aléatoires de Unsplash
@@ -1038,6 +1039,8 @@ open-in_private-container =
 
 floorp-split-view-open-menu = 
     .label = Ouvrir en vue partagée
+floorp-split-view-fixed-menu = 
+    .label = Split this Tab in a Tab without Split View
 floorp-split-view-open-menu-disabled = 
     .label = Need Unspliting and Unselected tab
 split-view-remove-button = Remove Split View

@@ -15,7 +15,7 @@ category-design =
 design-header = { pane-design-title }
 feature-requires-restart = 需要重啟以套用變更
 tab-width = 分頁的最小寬度
-tab-height = Minimum height of tabs
+tab-height = 分頁的最小高度
 preferences-tabs-newtab-position = 新分頁位置
 open-new-tab-use-default = 
     .label = 在預設位置開啟新分頁
@@ -123,7 +123,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Microsoft Fluent UI (已終止支援)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI (New)
+    .label = { -brand-short-name } Fluerial UI (新版)
 
 ## Download Manager
 
@@ -225,7 +225,8 @@ delete-border-and-roundup-option =
 ## DualTheme
 
 dualtheme-enable = 
-    .label = 啟用雙重主題
+    .label = Enable Dual Theme (Deprecated)
+floorp-enable-dualtheme-description = Dual Theme feature may cause problems with extensions. Please use with caution.
 newtab-background = { -brand-short-name } 主頁背景
 newtab-background-random-image = 
     .label = 來自Unsplash的隨機圖像
@@ -1040,6 +1041,8 @@ open-in_private-container =
 
 floorp-split-view-open-menu = 
     .label = 在分割視圖中開啟
+floorp-split-view-fixed-menu = 
+    .label = Split this Tab in a Tab without Split View
 floorp-split-view-open-menu-disabled = 
     .label = 需要有未分割及未選中的分頁以進行分割視圖
 split-view-remove-button = 移除分割視圖

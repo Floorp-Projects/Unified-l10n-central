@@ -225,7 +225,8 @@ delete-border-and-roundup-option =
 ## DualTheme
 
 dualtheme-enable = 
-    .label = Çift Temayı Etkinleştir
+    .label = Enable Dual Theme (Deprecated)
+floorp-enable-dualtheme-description = Dual Theme feature may cause problems with extensions. Please use with caution.
 newtab-background = { -brand-short-name } Ana Sayfa Arka Plan
 newtab-background-random-image = 
     .label = Unsplash'tan rastgele görseller
@@ -1038,6 +1039,8 @@ open-in_private-container =
 
 floorp-split-view-open-menu = 
     .label = Open in Split View
+floorp-split-view-fixed-menu = 
+    .label = Split this Tab in a Tab without Split View
 floorp-split-view-open-menu-disabled = 
     .label = Need Unspliting and Unselected tab
 split-view-remove-button = Remove Split View

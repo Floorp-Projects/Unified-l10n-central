@@ -225,7 +225,8 @@ delete-border-and-roundup-option =
 ## DualTheme
 
 dualtheme-enable = 
-    .label = デュアルテーマを有効にする
+    .label = デュアルテーマを有効にする (非推奨)
+floorp-enable-dualtheme-description = デュアルテーマ機能は、拡張機能に問題を引き起こす可能性があります。ご注意ください。
 newtab-background = { -brand-short-name } Home の背景
 newtab-background-random-image = 
     .label = ランダムな Unsplash の画像
@@ -1038,6 +1039,8 @@ open-in_private-container =
 
 floorp-split-view-open-menu = 
     .label = 分割ビューで開く
+floorp-split-view-fixed-menu = 
+    .label = 分割ビューから除外してこのタブを固定表示
 floorp-split-view-open-menu-disabled = 
     .label = 分割ビューに使用していない未選択のタブが必要です
 split-view-remove-button = 分割ビューを解除

@@ -15,7 +15,7 @@ category-design =
 design-header = { pane-design-title }
 feature-requires-restart = 변경 사항을 적용하려면 재시작해 주세요.
 tab-width = 탭의 최소 너비
-tab-height = Minimum height of tabs
+tab-height = 탭의 최소 높이
 preferences-tabs-newtab-position = 새 탭 위치
 open-new-tab-use-default = 
     .label = 기본 위치에서 새 탭 열기
@@ -92,7 +92,7 @@ navbar-settings = 네비게이션 바
 show-nav-bar-bottom = 
     .label = { -brand-short-name } 하단에 도구모음 표시(실험적)
 disable-extension-check-compatibility-option = 
-    .label = Do not check for compatibility with add-ons (deprecated)
+    .label = add-ons와의 호환성을 확인하지 않음 (사용 중단됨)
 other-preference = 기타 설정
 search-positon-top = 
     .label = 페이지 상단에 찾기 표시줄을 표시하기
@@ -123,7 +123,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Microsoft Fluent UI (지원 중단됨)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI (New)
+    .label = { -brand-short-name } Fluerial UI (신규)
 
 ## Download Manager
 
@@ -225,7 +225,8 @@ delete-border-and-roundup-option =
 ## DualTheme
 
 dualtheme-enable = 
-    .label = 듀얼 테마를 사용하기
+    .label = Enable Dual Theme (Deprecated)
+floorp-enable-dualtheme-description = Dual Theme feature may cause problems with extensions. Please use with caution.
 newtab-background = { -brand-short-name } 홈 배경
 newtab-background-random-image = 
     .label = Unsplash의 무작위 이미지
@@ -721,7 +722,7 @@ memo-new-title = 새 노트
 chage-view-mode = 보기/편집 모드 전환
 readonly-mode = 오프라인(읽기 전용)
 ######################################################################### Default bookmarks ###############################################################
-default-bookmark-ablaze-support = 애블레이즈 지원
+default-bookmark-ablaze-support = Ablaze 지원
 ######################################################################### Like Chrome Download mgr ###############################################################
 
 floorp-delete-all-downloads = 
@@ -785,7 +786,7 @@ floorp-preferences-label = 설정
 floorp-extensions-label = 확장 기능
 floorp-private-label = 사생활
 change-to-close-workspace-popup-option = 
-    .label = Close Workspaces popup when selecting a Workspace
+    .label = 워크스페이스를 선택하면 워크스페이스 닫기 팝업이 나타납니다.
 manage-workspace-on-bms-option = 
     .label = 브라우저 관리자 사이드바에서 워크스페이스 관리하기
 show-workspace-name-option = 
@@ -925,7 +926,7 @@ floorp-custom-actions-open-general-preferences = 일반 환경설정 열기
     .label = 일반 환경설정 열기
 floorp-custom-actions-open-privacy-preferences = 개인 정보 기본 설정 열기
     .label = 개인 정보 기본 설정 열기
-floorp-custom-actions-open-workspaces-preferences = Open Workspaces preferences
+floorp-custom-actions-open-workspaces-preferences = 워크스페이스 환경설정 열기
     .label = 작업 공간 환경설정 열기
 floorp-custom-actions-open-containers-preferences = 컨테이너 환경설정 열기
     .label = 컨테이너 환경설정 열기
@@ -969,10 +970,10 @@ floorp-custom-actions-show-sidebar = 사이드바 토글
     .label = 사이드바 토글
 floorp-custom-actions-toggle-sidebar = 사이드바 표시 전환하기
     .label = 사이드바 표시 전환하기
-floorp-custom-actions-open-previous-workspace = Open previous Workspace
-    .label = Open previous Workspace
-floorp-custom-actions-open-next-workspace = Open next Workspace
-    .label = Open next Workspace
+floorp-custom-actions-open-previous-workspace = 이전 워크스페이스 열기
+    .label = 이전 워크스페이스 열기
+floorp-custom-actions-open-next-workspace = 다음 워크스페이스 열기
+    .label = 다음 워크스페이스 열기
 floorp-custom-actions-show-panel-1 = 패널 토글 1
     .label = 패널 토글 1
 floorp-custom-actions-show-panel-2 = 패널 토글 2
@@ -1013,8 +1014,8 @@ floorp-custom-actions-rest-mode = 휴식 모드 사용하기
     .label = 휴식 모드 사용하기
 floorp-custom-actions-hide-user-interface = 유저 인터페이스를 전환하기
     .label = 유저 인터페이스를 전환하기
-floorp-custom-actions-toggle-navigation-panel = Toggle Navigation Panel
-    .label = Toggle Navigation Panel
+floorp-custom-actions-toggle-navigation-panel = 네비게이션 패널 토글
+    .label = 네비게이션 패널 토글
 ##################################################################### Profile Switcher ###############################################################
 
 floorp-open-profile-with-new-instance = 시작
@@ -1038,6 +1039,8 @@ open-in_private-container =
 
 floorp-split-view-open-menu = 
     .label = Open in Split View
+floorp-split-view-fixed-menu = 
+    .label = Split this Tab in a Tab without Split View
 floorp-split-view-open-menu-disabled = 
     .label = Need Unspliting and Unselected tab
 split-view-remove-button = Remove Split View

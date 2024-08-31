@@ -15,7 +15,7 @@ category-design =
 design-header = { pane-design-title }
 feature-requires-restart = Diperlukan pengaktifan ulang untuk menerapkan perubahan
 tab-width = Lebar minimum tab
-tab-height = Minimum height of tabs
+tab-height = Tinggi minimal tab
 preferences-tabs-newtab-position = Posisi tab baru
 open-new-tab-use-default = 
     .label = Membuka tab baru pada posisi bawaan
@@ -225,7 +225,8 @@ delete-border-and-roundup-option =
 ## DualTheme
 
 dualtheme-enable = 
-    .label = Aktifkan Tema Ganda
+    .label = Enable Dual Theme (Deprecated)
+floorp-enable-dualtheme-description = Dual Theme feature may cause problems with extensions. Please use with caution.
 newtab-background = { -brand-short-name } Latar Belakang Rumah
 newtab-background-random-image = 
     .label = Gambar acak dari Unsplash
@@ -1038,6 +1039,8 @@ open-in_private-container =
 
 floorp-split-view-open-menu = 
     .label = Open in Split View
+floorp-split-view-fixed-menu = 
+    .label = Split this Tab in a Tab without Split View
 floorp-split-view-open-menu-disabled = 
     .label = Need Unspliting and Unselected tab
 split-view-remove-button = Remove Split View
