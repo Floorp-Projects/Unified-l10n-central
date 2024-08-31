@@ -108,7 +108,7 @@ preferences-theme-appearance-header = Modo tema
 system-theme-dark = 
     .label = Escuro
 system-theme-light = 
-    .label = Fino
+    .label = Claro
 system-theme-auto = 
     .label = Seguir a aparência do meu sistema
 
