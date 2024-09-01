@@ -9,20 +9,20 @@ icon-creator = Créateurs des icônes, <label data-l10n-name="browser-logo-twitt
 contributors = Une liste de <label data-l10n-name="about-contributor">contributeurs et développeurs</label>
 #################################################################### about:preferences ####################################################################
 
-pane-design-title = Conception
+pane-design-title = Apparence
 category-design = 
     .tooltiptext = { pane-design-title }
 design-header = { pane-design-title }
 feature-requires-restart = Un redémarrage est nécessaire pour appliquer les modifications
 tab-width = Largeur minimale des onglets
 tab-height = Hauteur minimale des onglets
-preferences-tabs-newtab-position = Position du nouvel onglet
+preferences-tabs-newtab-position = Position des nouveaux onglets
 open-new-tab-use-default = 
-    .label = Ouvrir de nouveaux onglets à la position par défaut
+    .label = Ouvrir les nouveaux onglets à la position par défaut
 open-new-tab-at-the-end = 
-    .label = Ouvrir de nouveaux onglets à la fin de la barre d'onglets
+    .label = Ouvrir les nouveaux onglets à la fin de la barre d'onglets
 open-new-tab-next-to-current = 
-    .label = Ouvrir de nouveaux onglets à côté de l'onglet actuel
+    .label = Ouvrir les nouveaux onglets à côté de l'onglet actuel
 multirow-tabs-limit = 
     .label = Activer la limite de lignes pour les onglets multiligne
 multirow-tabs-newtab = 
