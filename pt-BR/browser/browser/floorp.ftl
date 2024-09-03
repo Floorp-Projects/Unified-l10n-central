@@ -525,7 +525,8 @@ about-Facebook-Container = Evite que o Facebook o rastreie através da web. A ex
 
 fingerprint-header = Resistir a Impressões Digitais e vazamentos de endereços IP
 block-fingerprint = A impressão digital é um mecanismo de rastreamento que depende das características únicas do seu navegador e do seu sistema operacional. Esta seção contém configurações para melhorar ainda mais esta proteção além do bloqueio padrão.
-enable-firefox-fingerprint-protections = Ativar uma forte proteção contra impressão digital
+enable-firefox-fingerprint-protections =
+    .label = Ativar uma forte proteção contra impressão digital
 about-firefox-fingerprint-protection = Habilitar a proteção pelo Firefox inclui o modo de luz forçada, desabilitando algumas APIs, etc. Alguns sites podem estar quebrados.
 fingerprint-Protection = 
     .label = Proteção anti-impressão digital

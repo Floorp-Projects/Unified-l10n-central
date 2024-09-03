@@ -525,7 +525,8 @@ about-Facebook-Container = Facebook이 웹에서 사용자를 추적하지 못�
 
 fingerprint-header = 지문 및 IP 주소 유출 방지
 block-fingerprint = 지문 인식은 브라우저와 운영 체제의 고유한 기능에 의존하는 추적 메커니즘입니다. 이 섹션에는 기본 차단을 넘어 이 보호 기능을 더욱 강화하는 설정이 포함되어 있습니다.
-enable-firefox-fingerprint-protections = 지문에 대한 강력한 보호 기능 사용
+enable-firefox-fingerprint-protections =
+    .label = 지문에 대한 강력한 보호 기능 사용
 about-firefox-fingerprint-protection = Firefox에서 보호 기능을 활성화하면 강제 라이트 모드, 일부 API 비활성화 등이 포함됩니다. 일부 사이트가 손상될 수 있습니다.
 fingerprint-Protection = 
     .label = 지문 인식 방지 보호
