@@ -525,8 +525,8 @@ about-Facebook-Container = Ngăn chặn Facebook theo dõi bạn khi đang ở t
 
 fingerprint-header = Ngăn ngừa Fingerprinting và lộ địa chỉ IP
 block-fingerprint = Fingerprinting là một cơ chế theo dõi dựa trên các đặc điểm duy nhất của trình duyệt và hệ điều hành của bạn. Phần này chứa các thiết lập để tăng cường bảo vệ hơn nữa so với trình chặn mặc định.
-enable-firefox-fingerprint-protections =
-    .label = Bật trình bảo vệ mạnh hơn trước Fingerprinting
+enable-firefox-fingerprint-protections = 
+    .label = Enable strong protection against fingerprinting
 about-firefox-fingerprint-protection = Bật bảo vệ do Firefox bao gồm bắt buộc dùng chế độ sáng, vô hiệu hoá một số APIs, etc. Một vài trang có thể bị lỗi.
 fingerprint-Protection = 
     .label = Bảo vệ chống Fingerprinting
