@@ -525,8 +525,8 @@ about-Facebook-Container = Neleiskite „Facebook“ sekti jūsų internete. „
 
 fingerprint-header = Atsispirti pirštų atspaudų paėmimui ir IP adresų nutekėjimui
 block-fingerprint = Pirštų atspaudai - sekimo mechanizmas, pagrįstas unikaliomis jūsų naršyklės ir operacinės sistemos funkcijomis. Šiame skyriuje pateikiami nustatymai, kuriais galima dar labiau sustiprinti šią apsaugą, palyginus su numatytuoju blokavimu.
-enable-firefox-fingerprint-protections =
-    .label = Įgalinti stiprią apsaugą nuo pirštų atspaudų
+enable-firefox-fingerprint-protections = 
+    .label = Enable strong protection against fingerprinting
 about-firefox-fingerprint-protection = Įjungus „Firefox“ apsauga, tai apima priverstinio šviesos rėžimas, išjungiama kai kurių API ir t. t.. Kai kurie puslapiai gali neveikti.
 fingerprint-Protection = 
     .label = Apsauga nuo pirštų atspaudų
