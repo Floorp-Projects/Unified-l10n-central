@@ -525,8 +525,8 @@ about-Facebook-Container = Zabránit Facebooku, aby vás sledoval po celém webu
 
 fingerprint-header = Odhalit otisk prstu a uniknout IP adresy
 block-fingerprint = Fingerprint je sledovací mechanismus, který spoléhá na jedinečné vlastnosti vašeho prohlížeče a operačního systému. Tato sekce obsahuje nastavení pro další zvýšení této ochrany nad rámec výchozího blokování.
-enable-firefox-fingerprint-protections =
-    .label = Povolit silnou ochranu proti snímání otisků prstů
+enable-firefox-fingerprint-protections = 
+    .label = Enable strong protection against fingerprinting
 about-firefox-fingerprint-protection = Povolení ochrany ze strany Firefoxu zahrnuje vynucený světelný režim, zakázání některých API, atd. Některé stránky mohou být rozbité.
 fingerprint-Protection = 
     .label = Ochrana proti snímání otisků prstů
