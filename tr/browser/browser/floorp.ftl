@@ -525,8 +525,8 @@ about-Facebook-Container = Facebook'un sizi web'de izlemesini önleyin. Facebook
 
 fingerprint-header = Parmak izi ve IP adresi sızıntılarına karşı direnç
 block-fingerprint = Parmak izi, tarayıcınızın ve işletim sisteminizin benzersiz özelliklerine dayanan bir izleme mekanizmasıdır. Bu bölüm, varsayılan engellemenin ötesinde bu korumayı daha da geliştirmek için ayarlar içerir.
-enable-firefox-fingerprint-protections =
-    .label = Parmak izine karşı güçlü koruma sağlayın
+enable-firefox-fingerprint-protections = 
+    .label = Enable strong protection against fingerprinting
 about-firefox-fingerprint-protection = Firefox tarafından korumayı etkinleştirmek, zorunlu ışık modunu, bazı API'leri devre dışı bırakmayı vb. içerir. Bazı siteler bozulabilir.
 fingerprint-Protection = 
     .label = Parmak izi bırakmayan korumalar
