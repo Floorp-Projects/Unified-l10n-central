@@ -525,8 +525,8 @@ about-Facebook-Container = Zablokuj Facebookowi śledzenie Cię przez Internet. 
 
 fingerprint-header = Odporny druk linii papilarnych i adres IP
 block-fingerprint = Odciski palców to mechanizm śledzenia oparty na unikalnych funkcjach przeglądarki i systemu operacyjnego. Ta sekcja zawiera ustawienia, aby dalej zwiększać tę ochronę poza domyślnym blokowaniem.
-enable-firefox-fingerprint-protections =
-    .label = Włącz silną ochronę przed pobieraniem odcisków palców
+enable-firefox-fingerprint-protections = 
+    .label = Enable strong protection against fingerprinting
 about-firefox-fingerprint-protection = Włączenie ochrony Firefoksa obejmuje tryb wymuszonego oświetlenia, wyłączenie niektórych API itp. Niektóre strony mogą być uszkodzone.
 fingerprint-Protection = 
     .label = Zabezpieczenia przed odciskiem palców
