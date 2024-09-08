@@ -525,7 +525,8 @@ about-Facebook-Container = 阻止 Facebook 在网络上跟踪您。Facebook 容�
 
 fingerprint-header = 阻止指纹识别和 IP 地址泄漏
 block-fingerprint = 指纹识别是一种依赖于您的浏览器和操作系统独特特征的跟踪机制。本节包含一些设置，可用于在默认屏蔽之外进一步增强此保护。
-enable-firefox-fingerprint-protections = 开启强大的指纹识别保护
+enable-firefox-fingerprint-protections =
+    .label = 开启强大的指纹识别保护
 about-firefox-fingerprint-protection = Firefox 提供的保护包括强制使用浅色模式、禁用某些 API 等。这可能导致某些网站无法正常工作。
 fingerprint-Protection = 
     .label = 防指纹识别保护

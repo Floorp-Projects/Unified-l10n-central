@@ -525,7 +525,8 @@ about-Facebook-Container = Verhindern Sie Facebook daran, Sie im Web zu verfolge
 
 fingerprint-header = Widerstehen von Fingerprinting & IP-Adressenlecks
 block-fingerprint = Fingerprinting ist ein Tracking-Mechanismus, der sich auf die einzigartigen Eigenschaften Ihres Browsers und Betriebssystems stützt. Dieser Abschnitt enthält Einstellungen, mit denen Sie diesen Schutz über die standardmäßige Blockierung hinaus weiter verbessern können.
-enable-firefox-fingerprint-protections = Aktiviere starken Schutz gegen Fingerabdrücke
+enable-firefox-fingerprint-protections =
+    .label = Aktiviere starken Schutz gegen Fingerabdrücke
 about-firefox-fingerprint-protection = Die Aktivierung des Schutzes durch Firefox umfasst den erzwungenen Light-Modus, die Deaktivierung einiger APIs usw. Einige Websites funktionieren unter Umständen nicht wie erwartet.
 fingerprint-Protection = 
     .label = Anti-Fingerprinting-Schutz

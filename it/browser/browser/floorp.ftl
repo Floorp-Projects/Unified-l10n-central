@@ -525,7 +525,8 @@ about-Facebook-Container = Impedisci a Facebook di tracciarti intorno al web. L'
 
 fingerprint-header = Resistenza alle impronte digitali e alle perdite di indirizzo IP
 block-fingerprint = Fingerprinting è un meccanismo di tracciamento che si basa sulle caratteristiche uniche del browser e del sistema operativo. Questa sezione contiene le impostazioni per migliorare ulteriormente questa protezione oltre il blocco predefinito.
-enable-firefox-fingerprint-protections = Abilita una forte protezione contro le impronte digitali
+enable-firefox-fingerprint-protections =
+    .label = Abilita una forte protezione contro le impronte digitali
 about-firefox-fingerprint-protection = Abilitare la protezione da Firefox include la modalità luce forzata, disabilitare alcune API, ecc Alcuni siti potrebbero essere rotti.
 fingerprint-Protection = 
     .label = Protezioni anti-impronte

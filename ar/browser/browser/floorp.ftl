@@ -525,7 +525,8 @@ about-Facebook-Container = منع الفيسبوك من تعقبك حول الو
 
 fingerprint-header = مقاومة تسرب بصمات الأصابع وعنوان IP
 block-fingerprint = البصمة هي آلية تتبع تعتمد على الميزات الفريدة للمتصفح ونظام التشغيل الخاص بك. يحتوي هذا القسم على إعدادات لزيادة تعزيز هذه الحماية بما يتجاوز الحظر الافتراضي.
-enable-firefox-fingerprint-protections = تمكين حماية قوية ضد البصمة
+enable-firefox-fingerprint-protections =
+    .label = تمكين حماية قوية ضد البصمة
 about-firefox-fingerprint-protection = الحماية التمكينية من قبل فايرفوكس تشمل وضع الإضاءة القسرية، وتعطيل بعض API، إلخ. يمكن كسر بعض المواقع.
 fingerprint-Protection = 
     .label = الحماية المضادة للبصمات

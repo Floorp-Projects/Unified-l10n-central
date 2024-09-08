@@ -525,7 +525,8 @@ about-Facebook-Container = Megakadályozhatja, hogy a Facebook nyomon kövesse �
 
 fingerprint-header = Ellenáll az ujjlenyomatok és IP-címek kiszivárgásának
 block-fingerprint = Az ujjlenyomatvétel egy olyan nyomkövető mechanizmus, amely az Ön böngészőjének és operációs rendszerének egyedi jellemzőire támaszkodik. Ez a szakasz olyan beállításokat tartalmaz, amelyekkel tovább fokozhatja ezt a védelmet az alapértelmezett blokkoláson túl.
-enable-firefox-fingerprint-protections = Erős védelem az ujjlenyomatok ellen
+enable-firefox-fingerprint-protections =
+    .label = Erős védelem az ujjlenyomatok ellen
 about-firefox-fingerprint-protection = A védelem Firefox által történő engedélyezése magában foglalja a kényszerített világos üzemmódot, egyes API-k letiltását stb. Egyes webhelyek meghibásodhatnak.
 fingerprint-Protection = 
     .label = Ujjlenyomat elleni védelem

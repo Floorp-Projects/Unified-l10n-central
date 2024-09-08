@@ -525,7 +525,8 @@ about-Facebook-Container = Cegah Facebook melacak Anda di web. Pengaya Facebook 
 
 fingerprint-header = Menahan Sidik Jari & kebocoran alamat IP
 block-fingerprint = Sidik jari adalah mekanisme pelacakan yang bergantung pada fitur unik browser dan sistem operasi Anda. Bagian ini berisi pengaturan untuk lebih meningkatkan perlindungan ini di luar pemblokiran default.
-enable-firefox-fingerprint-protections = Aktifkan perlindungan yang kuat terhadap sidik jari
+enable-firefox-fingerprint-protections =
+    .label = Aktifkan perlindungan yang kuat terhadap sidik jari
 about-firefox-fingerprint-protection = Mengaktifkan perlindungan oleh Firefox termasuk mode cahaya paksa, menonaktifkan beberapa API, dll. Beberapa situs mungkin rusak.
 fingerprint-Protection = 
     .label = Perlindungan anti-sidik jari

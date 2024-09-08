@@ -525,7 +525,8 @@ about-Facebook-Container = Forhindre Facebook i at spore dig rundt på nettet. F
 
 fingerprint-header = Modstå lækager fra fingeraftryk og IP adresse
 block-fingerprint = Fingerprint er en sporingsmekanisme, der er afhængig af de unikke funktioner i din browser og operativsystem. Dette afsnit indeholder indstillinger for yderligere at forbedre denne beskyttelse ud over standard blokering.
-enable-firefox-fingerprint-protections = Aktiver stærk beskyttelse mod fingeraftryk
+enable-firefox-fingerprint-protections =
+    .label = Aktiver stærk beskyttelse mod fingeraftryk
 about-firefox-fingerprint-protection = Aktivering af beskyttelse af Firefox omfatter tvungen lystilstand, deaktivering af nogle API'er, osv. Nogle websteder kan være brudt.
 fingerprint-Protection = 
     .label = Beskyttelse mod fingeraftryk

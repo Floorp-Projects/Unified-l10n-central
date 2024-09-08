@@ -525,7 +525,8 @@ about-Facebook-Container = Facebook がウェブ上であなたを追跡する�
 
 fingerprint-header = フィンガープリント & IP アドレスの漏洩対策
 block-fingerprint = フィンガープリントは、ブラウザーとオペレーティングシステム固有の機能に依存する追跡メカニズムです。このセクションには、既定のブロック機能を超えたより強力な保護を行うための設定が含まれています。
-enable-firefox-fingerprint-protections = フィンガープリントに対する強力な保護を有効にする
+enable-firefox-fingerprint-protections =
+    .label = フィンガープリントに対する強力な保護を有効にする
 about-firefox-fingerprint-protection = Firefox によるフィンガープリント保護を有効すると、ライトモードの強制、一部の API を無効にするなどのデメリットがあります。また、一部のサイトの表示が崩れる可能性があります。
 fingerprint-Protection = 
     .label = フィンガープリント保護
