@@ -225,8 +225,8 @@ delete-border-and-roundup-option =
 ## DualTheme
 
 dualtheme-enable = 
-    .label = Enable Dual Theme (Deprecated)
-floorp-enable-dualtheme-description = Dual Theme feature may cause problems with extensions. Please use with caution.
+    .label = 啟用雙重主題 (已終止支援)
+floorp-enable-dualtheme-description = 雙重主題功能可能引起部分擴充套件出現問題。請謹慎使用。
 newtab-background = { -brand-short-name } 主頁背景
 newtab-background-random-image = 
     .label = 來自Unsplash的隨機圖像
@@ -1043,7 +1043,7 @@ open-in_private-container =
 floorp-split-view-open-menu = 
     .label = 在分割視圖中開啟
 floorp-split-view-fixed-menu = 
-    .label = Split this Tab in a Tab without Split View
+    .label = 將此分頁固定在尚未使用分割視圖的分頁中
 floorp-split-view-open-menu-disabled = 
     .label = 需要有未分割及未選中的分頁以進行分割視圖
 split-view-remove-button = 移除分割視圖
