@@ -525,8 +525,8 @@ about-Facebook-Container = Voorkom dat Facebook u volgt op het web. Facebook Con
 
 fingerprint-header = Lekken van vingerafdrukken & IP-adressen
 block-fingerprint = Vingerafdruk is een volgmechanisme dat afhankelijk is van de unieke functies van uw browser en besturingssysteem. Deze sectie bevat instellingen om deze bescherming verder te verbeteren dan de standaard blokkering.
-enable-firefox-fingerprint-protections =
-    .label = Sterke bescherming tegen vingerafdrukken inschakelen
+enable-firefox-fingerprint-protections = 
+    .label = Enable strong protection against fingerprinting
 about-firefox-fingerprint-protection = Bescherming door Firefox inschakelen bevat geforceerd licht modus, sommige API's, enz. Sommige sites kunnen beschadigd zijn.
 fingerprint-Protection = 
     .label = Bescherming tegen vingerafdrukken
