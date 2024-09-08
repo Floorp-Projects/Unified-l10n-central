@@ -525,8 +525,8 @@ about-Facebook-Container = Empêcher Facebook de vous suivre sur internet. L'ext
 
 fingerprint-header = Résistance aux fuites d'empreintes et d'adresses IP
 block-fingerprint = L'empreinte est un mécanisme de suivi qui repose sur les caractéristiques uniques de votre navigateur et de votre système d'exploitation. Cette section contient des paramètres permettant d'améliorer cette protection au-delà du blocage par défaut.
-enable-firefox-fingerprint-protections =
-    .label = Activer une protection forte contre la prise d'empreintes
+enable-firefox-fingerprint-protections = 
+    .label = Enable strong protection against fingerprinting
 about-firefox-fingerprint-protection = L'activation de la protection par Firefox comprend le mode clair forcé, la désactivation de certaines API, etc. Certains sites peuvent cesser de fonctionner.
 fingerprint-Protection = 
     .label = Protection contre les empreintes
