@@ -226,7 +226,7 @@ delete-border-and-roundup-option =
 
 dualtheme-enable = 
     .label = デュアルテーマを有効にする (非推奨)
-floorp-enable-dualtheme-description = デュアルテーマ機能は、拡張機能に問題を引き起こす可能性があります。ご注意ください。
+floorp-enable-dualtheme-description = デュアルテーマ機能は拡張機能の問題を引き起こす場合があります。注意してご使用ください。
 newtab-background = { -brand-short-name } Home の背景
 newtab-background-random-image = 
     .label = ランダムな Unsplash の画像
