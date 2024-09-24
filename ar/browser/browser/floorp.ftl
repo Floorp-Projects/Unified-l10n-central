@@ -123,7 +123,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = واجهة مستخدم Microsoft Fluent (متوقفة)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI (New)
+    .label = { -brand-short-name } واجهة مستخدم فلوريال (جديدة)
 
 ## Download Manager
 
@@ -462,6 +462,7 @@ floorp-CSK-title = اختصارات لوحة المفاتيح المخصصة
 floorp-CSK-description = Customize { -brand-short-name }'s keyboard shortcuts. { -brand-short-name } provides more than 80 customizable keyboard shortcuts! Duplicate keyboard shortcuts will not work. Restart { -brand-short-name } to apply these settings.
 disable-fx-actions = 
     .label = تعطيل اختصارات لوحة مفاتيح موزيلا فايرفوكس
+floorp-CSK-error = The keybind you entered is already in use. Please try another keybind.
 customize-Action = 
     .label = إضافة اختصار
 remove-Action = 
@@ -525,8 +526,8 @@ about-Facebook-Container = منع الفيسبوك من تعقبك حول الو
 
 fingerprint-header = مقاومة تسرب بصمات الأصابع وعنوان IP
 block-fingerprint = البصمة هي آلية تتبع تعتمد على الميزات الفريدة للمتصفح ونظام التشغيل الخاص بك. يحتوي هذا القسم على إعدادات لزيادة تعزيز هذه الحماية بما يتجاوز الحظر الافتراضي.
-enable-firefox-fingerprint-protections =
-    .label = تمكين حماية قوية ضد البصمة
+enable-firefox-fingerprint-protections = 
+    .label = Enable strong protection against fingerprinting
 about-firefox-fingerprint-protection = الحماية التمكينية من قبل فايرفوكس تشمل وضع الإضاءة القسرية، وتعطيل بعض API، إلخ. يمكن كسر بعض المواقع.
 fingerprint-Protection = 
     .label = الحماية المضادة للبصمات

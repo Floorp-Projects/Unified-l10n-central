@@ -462,6 +462,7 @@ floorp-CSK-title = Custom keyboard shortcuts
 floorp-CSK-description = Customize { -brand-short-name }'s keyboard shortcuts. { -brand-short-name } provides more than 80 customizable keyboard shortcuts! Duplicate keyboard shortcuts will not work. Restart { -brand-short-name } to apply these settings.
 disable-fx-actions = 
     .label = Disable Mozilla Firefox's keyboard shortcuts
+floorp-CSK-error = The keybind you entered is already in use. Please try another keybind.
 customize-Action = 
     .label = Add shortcut
 remove-Action = 
@@ -525,7 +526,7 @@ about-Facebook-Container = Prevent Facebook from tracking you around the web. Fa
 
 fingerprint-header = Resist Fingerprinting & IP address leaks
 block-fingerprint = Fingerprinting is a tracking mechanism that relies on the unique features of your browser and operating system. This section contains settings to further enhance this protection beyond the default blocking.
-enable-firefox-fingerprint-protections =
+enable-firefox-fingerprint-protections = 
     .label = Enable strong protection against fingerprinting
 about-firefox-fingerprint-protection = Enabling protection by Firefox includes forced light mode, disabling some APIs, etc. Some sites may be broken.
 fingerprint-Protection = 

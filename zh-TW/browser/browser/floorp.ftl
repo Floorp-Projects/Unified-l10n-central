@@ -462,6 +462,7 @@ floorp-CSK-title = 自訂鍵盤快捷鍵
 floorp-CSK-description = 客製化 { -brand-short-name } 的鍵盤快捷鍵。 { -brand-short-name } 提供超過80種可自訂的鍵盤快捷鍵位！重複的快捷鍵位將不會生效。請重啟 { -brand-short-name } 套用變更。
 disable-fx-actions = 
     .label = 停用 Mozilla Firefox 原訂的鍵盤快捷鍵
+floorp-CSK-error = The keybind you entered is already in use. Please try another keybind.
 customize-Action = 
     .label = 添加快捷鍵
 remove-Action = 
@@ -525,7 +526,7 @@ about-Facebook-Container = 阻止臉書在網絡上追蹤你。Facebook Containe
 
 fingerprint-header = 制止數位指紋以及 IP 位址洩漏
 block-fingerprint = 數位指紋是一種以採集您的瀏覽器及系統的獨特設定的跟蹤機制。此區域提供比預設防護更加強化隱私的防護選項。
-enable-firefox-fingerprint-protections =
+enable-firefox-fingerprint-protections = 
     .label = 開啟強力數位指紋防護
 about-firefox-fingerprint-protection = 由 Firefox 提供的防護，將強制使用亮色模式，屏蔽部分 API 連結。部分網站頁面可能會出現錯誤。
 fingerprint-Protection = 

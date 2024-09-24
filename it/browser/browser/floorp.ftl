@@ -6,7 +6,7 @@
 
 about-floorp = <label data-l10n-name="floorp-browser-link">{ -brand-product-name }</label> è uno dei browser sviluppati in Giappone. È basato su Firefox e continua a operare sotto <label data-l10n-name="ablaze-Link">{ -vendor-short-name }</label>, per migliorare il web. Vuoi aiutare? <label data-l10n-name="helpus-donateLink">Fai una donazione</label>
 icon-creator = Creatore dell'icona <label data-l10n-name="browser-logo-twitter">@CutterKnife_</label> e <label data-l10n-name="brand-logo-twitter">@mwxdxx.</label>
-contributors = Un elenco di <label data-l10n-name="about-contributor">contributori e sviluppatori</label>
+contributors = Elenco dei <label data-l10n-name="about-contributor">contributori e degli sviluppatori</label>
 #################################################################### about:preferences ####################################################################
 
 pane-design-title = Aspetto
@@ -60,7 +60,7 @@ tabbar-on-bottom =
     .label = Visualizza la barra delle schede nella parte inferiore della finestra
 tabbar-favicon-color = 
     .label = Colora la Barra delle Schede usando il colore dell'icona del sito corrente
-tabbar-style-preference = Stle della Barra delle Schede
+tabbar-style-preference = Stile Barra delle Schede
 horizontal-tabbar = 
     .label = Barra Delle Schede Orizzontale
 tabbar-style-description = È necessario un riavvio di { -brand-short-name } per applicare completamente quest'impostazione.
@@ -110,12 +110,12 @@ system-theme-dark =
 system-theme-light = 
     .label = Chiaro
 system-theme-auto = 
-    .label = Segui l'aspetto del mio sistema
+    .label = Segui l'aspetto del sistema
 
 ## User interface preferences
 
 ui-preference = Aspetto del browser
-preferences-browser-appearance-description = Scegli un design di terze parti preinstallato da usare per { -brand-short-name }. Alcuni design potrebbero non essere compatibili con la tua configurazione.
+preferences-browser-appearance-description = Scegli un tema preinstallato di terze parti da usare per { -brand-short-name }. Alcuni temi potrebbero non essere compatibili con la tua configurazione.
 firefox-proton = 
     .label = Interfaccia Firefox Proton
 firefox-photon-lepton = 
@@ -127,7 +127,7 @@ floorp-fluerialUI =
 
 ## Download Manager
 
-download-notification-preferences = Scarica Notifiche
+download-notification-preferences = Notifiche Download
 start-always-notify = 
     .label = Notifica solo quando si avviano i download
 finish-always-notify = 
@@ -462,6 +462,7 @@ floorp-CSK-title = Scorciatoie da tastiera personalizzate
 floorp-CSK-description = Personalizza le scorciatoie da tastiera di { -brand-short-name }. { -brand-short-name } offre più di 80 scorciatoie da tastiera personalizzabili! Le scorciatoie da tastiera duplicate non funzioneranno. Riavviare { -brand-short-name } per applicare queste impostazioni.
 disable-fx-actions = 
     .label = Disabilita le scorciatoie da tastiera di Mozilla Firefox
+floorp-CSK-error = The keybind you entered is already in use. Please try another keybind.
 customize-Action = 
     .label = Aggiungi scorciatoia
 remove-Action = 
@@ -525,8 +526,8 @@ about-Facebook-Container = Impedisci a Facebook di tracciarti intorno al web. L'
 
 fingerprint-header = Resistenza alle impronte digitali e alle perdite di indirizzo IP
 block-fingerprint = Fingerprinting è un meccanismo di tracciamento che si basa sulle caratteristiche uniche del browser e del sistema operativo. Questa sezione contiene le impostazioni per migliorare ulteriormente questa protezione oltre il blocco predefinito.
-enable-firefox-fingerprint-protections =
-    .label = Abilita una forte protezione contro le impronte digitali
+enable-firefox-fingerprint-protections = 
+    .label = Abilita protezione contro l'identificazione (fingerprinting)
 about-firefox-fingerprint-protection = Abilitare la protezione da Firefox include la modalità luce forzata, disabilitare alcune API, ecc Alcuni siti potrebbero essere rotti.
 fingerprint-Protection = 
     .label = Protezioni anti-impronte

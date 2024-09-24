@@ -226,7 +226,7 @@ delete-border-and-roundup-option =
 
 dualtheme-enable = 
     .label = デュアルテーマを有効にする (非推奨)
-floorp-enable-dualtheme-description = デュアルテーマ機能は、拡張機能に問題を引き起こす可能性があります。ご注意ください。
+floorp-enable-dualtheme-description = デュアルテーマ機能は拡張機能の問題を引き起こす場合があります。注意してご使用ください。
 newtab-background = { -brand-short-name } Home の背景
 newtab-background-random-image = 
     .label = ランダムな Unsplash の画像
@@ -462,6 +462,7 @@ floorp-CSK-title = カスタムショートカットキー
 floorp-CSK-description = { -brand-short-name } のキーボードショートカットをカスタマイズしましょう。 { -brand-short-name } には、80 以上のカスタマイズ可能なキーボードショートカットが用意されています！重複したキーボードショートカットは機能しません。これらの設定を適用するには、 { -brand-short-name } を再起動してください。
 disable-fx-actions = 
     .label = Firefox のキーボードショートカットを無効にする
+floorp-CSK-error = The keybind you entered is already in use. Please try another keybind.
 customize-Action = 
     .label = 追加
 remove-Action = 
@@ -525,7 +526,7 @@ about-Facebook-Container = Facebook がウェブ上であなたを追跡する�
 
 fingerprint-header = フィンガープリント & IP アドレスの漏洩対策
 block-fingerprint = フィンガープリントは、ブラウザーとオペレーティングシステム固有の機能に依存する追跡メカニズムです。このセクションには、デフォルトのブロック機能を超えたより強力な保護を行うための設定が含まれています。
-enable-firefox-fingerprint-protections =
+enable-firefox-fingerprint-protections = 
     .label = フィンガープリントに対する強力な保護を有効にする
 about-firefox-fingerprint-protection = Firefox によるフィンガープリント保護を有効すると、ライトモードの強制、一部の API を無効にするなどのデメリットがあります。また、一部のサイトの表示が崩れる可能性があります。
 fingerprint-Protection = 
