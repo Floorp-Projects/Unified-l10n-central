@@ -462,6 +462,7 @@ floorp-CSK-title = 自訂鍵盤快捷鍵
 floorp-CSK-description = 客製化 { -brand-short-name } 的鍵盤快捷鍵。 { -brand-short-name } 提供超過80種可自訂的鍵盤快捷鍵位！重複的快捷鍵位將不會生效。請重啟 { -brand-short-name } 套用變更。
 disable-fx-actions = 
     .label = 停用 Mozilla Firefox 原訂的鍵盤快捷鍵
+floorp-CSK-error = The keybind you entered is already in use. Please try another keybind.
 customize-Action = 
     .label = 添加快捷鍵
 remove-Action = 
