@@ -462,6 +462,7 @@ floorp-CSK-title = Aangepaste sneltoetsen
 floorp-CSK-description = Pas de sneltoetsen van { -brand-short-name } aan. { -brand-short-name } biedt meer dan 80 aanpasbare sneltoetsen! Gedubliceerde sneltoetsen werken niet. Start { -brand-short-name } opnieuw op om deze instellingen toe te passen.
 disable-fx-actions = 
     .label = Mozilla Firefox's sneltoetsen uitschakelen
+floorp-CSK-error = The keybind you entered is already in use. Please try another keybind.
 customize-Action = 
     .label = Snelkoppeling toevoegen
 remove-Action = 
