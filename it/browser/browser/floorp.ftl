@@ -462,6 +462,7 @@ floorp-CSK-title = Scorciatoie da tastiera personalizzate
 floorp-CSK-description = Personalizza le scorciatoie da tastiera di { -brand-short-name }. { -brand-short-name } offre più di 80 scorciatoie da tastiera personalizzabili! Le scorciatoie da tastiera duplicate non funzioneranno. Riavviare { -brand-short-name } per applicare queste impostazioni.
 disable-fx-actions = 
     .label = Disabilita le scorciatoie da tastiera di Mozilla Firefox
+floorp-CSK-error = The keybind you entered is already in use. Please try another keybind.
 customize-Action = 
     .label = Aggiungi scorciatoia
 remove-Action = 
