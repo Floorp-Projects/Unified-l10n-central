@@ -462,6 +462,7 @@ floorp-CSK-title = Tuỳ chỉnh phím tắt
 floorp-CSK-description = Tuỳ chỉnh phím tắt của { -brand-short-name }. { -brand-short-name } cung cấp hơn 80 phím tắt có thể tuỳ chỉnh! Các phím tắt trùng lặp sẽ không hoạt động. Khởi động lại { -brand-short-name } để áp dụng các cài đặt này.
 disable-fx-actions = 
     .label = Vô hiệu hoá các phím tắt của Mozilla Firefox
+floorp-CSK-error = The keybind you entered is already in use. Please try another keybind.
 customize-Action = 
     .label = Thêm phím tắt
 remove-Action = 
