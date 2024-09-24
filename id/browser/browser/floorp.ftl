@@ -462,6 +462,7 @@ floorp-CSK-title = Pintasan papan ketik khusus
 floorp-CSK-description = Sesuaikan pintasan papan ketik { -brand-short-name }. { -brand-short-name } menyediakan lebih dari 80 pintasan papan ketik yang dapat disesuaikan! Pintasan papan ketik duplikat tidak akan berfungsi. Mulai { -brand-short-name } ulang untuk menerapkan pengaturan ini.
 disable-fx-actions = 
     .label = Nonaktifkan pintasan papan ketik Mozilla Firefox
+floorp-CSK-error = The keybind you entered is already in use. Please try another keybind.
 customize-Action = 
     .label = Tambahkan pintasan
 remove-Action = 
