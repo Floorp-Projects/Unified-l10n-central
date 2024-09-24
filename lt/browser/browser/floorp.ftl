@@ -462,6 +462,7 @@ floorp-CSK-title = Pasirinktinieji klaviatūros spartieji klavišai
 floorp-CSK-description = Pritaikykite „{ -brand-short-name }“ klaviatūros sparčiuosius klavišus. „{ -brand-short-name }“ turi daugiau nei 80 pritaikomų klaviatūros sparčiųjų klavišų! Duplikuoti klaviatūros spartieji klavišai neveiks. Iš naujo paleiskite „{ -brand-short-name }“, kad pritaikytumėte šiuos nustatymus.
 disable-fx-actions = 
     .label = Išjungti „Mozilla Firefox“ klaviatūros sparčiuosius klavišus
+floorp-CSK-error = The keybind you entered is already in use. Please try another keybind.
 customize-Action = 
     .label = Pridėti spartųjį klavišą
 remove-Action = 
