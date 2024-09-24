@@ -462,6 +462,7 @@ floorp-CSK-title = カスタムショートカットキー
 floorp-CSK-description = { -brand-short-name } のキーボードショートカットをカスタマイズしましょう。 { -brand-short-name } には、80 以上のカスタマイズ可能なキーボードショートカットが用意されています！重複したキーボードショートカットは機能しません。これらの設定を適用するには、 { -brand-short-name } を再起動してください。
 disable-fx-actions = 
     .label = Firefox のキーボードショートカットを無効にする
+floorp-CSK-error = The keybind you entered is already in use. Please try another keybind.
 customize-Action = 
     .label = 追加
 remove-Action = 
