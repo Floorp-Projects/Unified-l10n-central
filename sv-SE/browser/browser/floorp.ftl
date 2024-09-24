@@ -462,6 +462,7 @@ floorp-CSK-title = Anpassade kortkommandon
 floorp-CSK-description = Customize { -brand-short-name }'s keyboard shortcuts. { -brand-short-name } provides more than 80 customizable keyboard shortcuts! Duplicate keyboard shortcuts will not work. Restart { -brand-short-name } to apply these settings.
 disable-fx-actions = 
     .label = Inaktivera Mozilla Firefox kortkommandon
+floorp-CSK-error = The keybind you entered is already in use. Please try another keybind.
 customize-Action = 
     .label = Lägg till genväg
 remove-Action = 
