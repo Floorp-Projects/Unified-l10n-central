@@ -462,6 +462,7 @@ floorp-CSK-title = Brugerdefinerede tastaturgenveje
 floorp-CSK-description = Tilpas { -brand-short-name }'s tastaturgenveje. { -brand-short-name } har mere end 80 tastaturgenveje, der kan tilpasses! Duplikerede tastaturgenveje virker ikke. Genstart { -brand-short-name } for at anvende disse indstillinger.
 disable-fx-actions = 
     .label = Deaktivér genveje til Mozilla Firefox
+floorp-CSK-error = The keybind you entered is already in use. Please try another keybind.
 customize-Action = 
     .label = Tilføj genvej
 remove-Action = 
