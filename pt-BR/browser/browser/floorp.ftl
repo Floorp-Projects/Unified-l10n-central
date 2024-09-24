@@ -462,6 +462,7 @@ floorp-CSK-title = Atalhos de teclado personalizados
 floorp-CSK-description = Personalize os atalhos de teclado do { -brand-short-name }. O { -brand-short-name } oferece mais de 80 atalhos de teclado personalizáveis! Atalhos de teclado duplicados não funcionarão. Reinicie o { -brand-short-name } para aplicar essas configurações.
 disable-fx-actions = 
     .label = Desativar atalhos de teclado do Mozilla Firefox
+floorp-CSK-error = The keybind you entered is already in use. Please try another keybind.
 customize-Action = 
     .label = Adicionar atalho
 remove-Action = 
