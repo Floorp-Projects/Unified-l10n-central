@@ -462,6 +462,7 @@ floorp-CSK-title = Niestandardowe skróty klawiszowe
 floorp-CSK-description = Dostosuj skróty klawiszowe przeglądarki { -brand-short-name }. { -brand-short-name } pozwala ci ustawić ponad 80 własnych skrótów klawiszowych! Zduplikowane skróty klawiszowe nie będą działać. Uruchom ponownie { -brand-short-name }, aby zastosować te ustawienia.
 disable-fx-actions = 
     .label = Wyłącz skróty klawiszowe Mozilla Firefox
+floorp-CSK-error = The keybind you entered is already in use. Please try another keybind.
 customize-Action = 
     .label = Dodaj skrót
 remove-Action = 
