@@ -462,6 +462,7 @@ floorp-CSK-title = Benutzerdefinierte Tastaturkürzel
 floorp-CSK-description = Passen Sie die Tastaturkürzel von { -brand-short-name } an. { -brand-short-name } bietet mehr als 80 anpassbare Tastaturkürzel! Doppelte Kurzbefehle werden nicht funktionieren. Starten Sie { -brand-short-name } neu, um diese Einstellungen zu übernehmen.
 disable-fx-actions = 
     .label = Deaktiviere die Tastaturkürzel von Mozilla Firefox
+floorp-CSK-error = The keybind you entered is already in use. Please try another keybind.
 customize-Action = 
     .label = Verknüpfung hinzufügen
 remove-Action = 
