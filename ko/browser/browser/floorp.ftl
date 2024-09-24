@@ -462,6 +462,7 @@ floorp-CSK-title = 커스텀 키보드 단축키
 floorp-CSK-description = { -brand-short-name }의 키보드 단축키를 커스터마이즈하세요. { -brand-short-name }는 80개 이상의 커스터마이즈 가능한 키보드 단축키를 제공합니다! 중복된 키보드 단축키는 작동하지 않습니다. 변경된 설정을 적용하시려면 { -brand-short-name }를 재시작해 주세요.
 disable-fx-actions = 
     .label = Mozilla Firefox의 키보드 단축키 비활성화하기
+floorp-CSK-error = The keybind you entered is already in use. Please try another keybind.
 customize-Action = 
     .label = 바로 가기 추가
 remove-Action = 
