@@ -253,7 +253,7 @@ newtab-background-extensions = Şu dosya uzantılarına sahip resimleri kullan (
 disable-blur-on-newtab = 
     .label = Disable blur effect in { -brand-short-name } Home
 disable-releasenote-on-newtab = 
-    .label = Disable Release Note and Support Links in { -brand-short-name } Home
+    .label = { -brand-short-name } anasayfasındaki sürüm notları ve destek bağlantılarını devre dışı bırakın
 disable-imagecredit-on-newtab = 
     .label = Disable image credit (Unsplash) in { -brand-short-name } Home
 
@@ -322,7 +322,7 @@ urlbar-preferences = Adres Bar
 floorp-lepton-enable-urlbar-icon-move-to-left = 
     .label = Adres Çubuğu simgelerini sol tarafa taşıma
 floorp-lepton-enable-urlname-go_button_when_typing = 
-    .label = When typing, show a "Go" button
+    .label = Yazarken, "Git" düğmesini göster
 floorp-lepton-enable-always-show-page_action = 
     .label = Sayfa eylemlerini her zaman Adres Çubuğunda gösterme
 tabbar-preferences = Sekme Çubuğu
