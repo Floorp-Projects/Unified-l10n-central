@@ -123,7 +123,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Microsoft Fluent UI (已废弃)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI (New)
+    .label = { -brand-short-name } 流体用户界面（新）
 
 ## Download Manager
 
@@ -225,8 +225,8 @@ delete-border-and-roundup-option =
 ## DualTheme
 
 dualtheme-enable = 
-    .label = Enable Dual Theme (Deprecated)
-floorp-enable-dualtheme-description = Dual Theme feature may cause problems with extensions. Please use with caution.
+    .label = 启用双主题（已废弃）
+floorp-enable-dualtheme-description = 双主题功能可能会导致扩展程序出现问题。请谨慎使用。
 newtab-background = { -brand-short-name } 主页背景
 newtab-background-random-image = 
     .label = 来自 Unsplash 的随机图片
@@ -462,7 +462,7 @@ floorp-CSK-title = 自定义键盘快捷键
 floorp-CSK-description = 自定义 { -brand-short-name } 的键盘快捷键。{ -brand-short-name } 提供了 80 多个可自定义的键盘快捷键！重复的键盘快捷键将不起作用。重启 { -brand-short-name } 以应用这些设置。
 disable-fx-actions = 
     .label = 禁用 Mozilla Firefox 的键盘快捷键
-floorp-CSK-error = The keybinding you entered is already in use. Please try a different keybinding.
+floorp-CSK-error = 您输入的绑定键已在使用中。请尝试其他绑定键。
 customize-Action = 
     .label = 添加快捷键
 remove-Action = 
@@ -527,7 +527,7 @@ about-Facebook-Container = 阻止 Facebook 在网络上跟踪您。Facebook 容�
 fingerprint-header = 阻止指纹识别和 IP 地址泄漏
 block-fingerprint = 指纹识别是一种依赖于您的浏览器和操作系统独特特征的跟踪机制。本节包含一些设置，可用于在默认屏蔽之外进一步增强此保护。
 enable-firefox-fingerprint-protections = 
-    .label = Enable strong protection against fingerprinting
+    .label = 启用强大的指纹识别保护
 about-firefox-fingerprint-protection = Firefox 提供的保护包括强制使用浅色模式、禁用某些 API 等。这可能导致某些网站无法正常工作。
 fingerprint-Protection = 
     .label = 防指纹识别保护
@@ -1040,20 +1040,20 @@ open-in_private-container =
 ######################################################################## Split View ###############################################################
 
 floorp-split-view-open-menu = 
-    .label = Open in Split View
+    .label = 打开分屏显示
 floorp-split-view-fixed-menu = 
-    .label = Split this Tab in a Tab without Split View
+    .label = 在不带分屏视图的标签页中拆分此标签页
 floorp-split-view-open-menu-disabled = 
-    .label = Need Unspliting and Unselected tab
-split-view-remove-button = Remove Split View
-split-view-title = Split View Settings
-split-view-position = Position
-split-view-flex-type = Flex Type
-split-view-position-top = Top Side
-split-view-position-left = Default
-split-view-position-right = Reverse
-split-view-flex-column = Vertical
-split-view-flex-row = Horizontal
+    .label = 需要取消分屏和取消选择选项卡
+split-view-remove-button = 移除分屏
+split-view-title = 分屏设置
+split-view-position = 位置
+split-view-flex-type = 弹性类型
+split-view-position-top = 顶部
+split-view-position-left = 默认
+split-view-position-right = 反向
+split-view-flex-column = 垂直
+split-view-flex-row = 水平
 ######################################################################### Page Actions ###############################################################
 qrcode-generate-page-action-title = 使用您的手机扫描二维码
 qrcode-generate-page-action = 
