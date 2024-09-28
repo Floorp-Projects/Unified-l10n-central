@@ -133,14 +133,14 @@ start-always-notify =
 finish-always-notify = 
     .label = Varsle kun når en nedlasting er ferdig
 always-notify = 
-    .label = Notify when starting downloads and when a download finishes
+    .label = Varsle ved start av nedlastinger og når en nedlasting er ferdig
 do-not-notify = 
     .label = Deaktiver nedlastingsvarsler
 
 ## Sidebar
 
 profiles-button-label = Administrer profiler
-floorp-help-button-label = { -brand-short-name } Support
+floorp-help-button-label = { -brand-short-name } brukerstøtte
 appmenuitem-reboot = 
     .label = Omstart
 
@@ -214,9 +214,9 @@ use-icon-provider-option-hatena =
     .label = Hatena (tilgjengelig i Kina)
 memory-and-performance = Minne og prestasjon
 min-memory = 
-    .label = Minimum Memory Usage (low performance)
+    .label = Minimum minnebruk (lav ytelse)
 balance-memory = 
-    .label = Balance Memory Usage and Performance
+    .label = Balanser minnebruk og ytelse
 max-memory = 
     .label = Best Performance (high memory usage)
 delete-border-and-roundup-option = 
@@ -239,15 +239,15 @@ newtab-background-selected-image =
 newtab-background-selected-one-image = 
     .label = Egendefinert bilde...
 newtab-background-folder = Use images from this folder:
-newtab-background-image = Use image :
+newtab-background-image = Bruk bilde :
 newtab-choose-image = Velg bilde...
 newtab-background-folder-reload = 
-    .label = Reload images
+    .label = Last inn bilder på nytt
 newtab-background-folder-default = 
-    .label = Restore Defaults
+    .label = Last inn standardinnstillinger
 newtab-background-folder-open = 
     .label = Åpne mappe
-newtab-background-folder-choose = Choose images folder...
+newtab-background-folder-choose = Velg bildemappe...
 newtab-background-image-choose = Velg bilde...
 newtab-background-extensions = Use images with these file extensions (separated by ",")
 disable-blur-on-newtab = 
@@ -259,16 +259,16 @@ disable-imagecredit-on-newtab =
 
 ## Lepton Preferences
 
-about-lepton = Customize { -brand-short-name } with Lepton
+about-lepton = Tilpass { -brand-short-name } med Lepton
 lepton-preference-button = 
-    .label = Lepton Settings...
+    .label = Innstillinger for Lepton...
     .accesskey = L
-lepton-header = Lepton Settings
-lepton-preference = Lepton Settings
+lepton-header = Innstillinger for Lepton
+lepton-preference = Innstillinger for Lepton
 photon-mode = 
-    .label = Use Photon design
+    .label = Bruk Photon utseende
 lepton-mode = 
-    .label = Use Lepton design
+    .label = Bruk Photon utseende
 protonfix-mode = 
     .label = Use tweaked Proton design
 autohide-preference = Automatically hide browser elements
@@ -313,7 +313,7 @@ floorp-lepton-disable-userChrome-menu-icon =
     .label = Enable Lepton's context menu icons
 positon-preferences = Position adjustments
 floorp-lepton-enable-centered-tab = 
-    .label = Center labels in tabs
+    .label = Sentrer etiketter på faner
 floorp-lepton-enable-centered-urlbar = 
     .label = Center text in the Address Bar
 floorp-lepton-enable-centered-bookmarkbar = 
@@ -364,7 +364,7 @@ apply-userjs-attention = Applying a new user.js will overwrite your current user
 apply-userjs-attention2 = Please back up your current user.js file before continuing.
 userjs-button = user.js Settings...
 userjs-select-option = Manage the user.js currently used in { -brand-short-name } to improve performance and privacy.
-apply-userjs-button = Apply
+apply-userjs-button = Bruk
 
 ## userjs Options
 
@@ -470,11 +470,11 @@ remove-Action =
 CSK-reset-title = Reset custom keyboard shortcuts
 CSK-reset-description = Reset custom keyboard shortcuts to { -brand-short-name }'s defaults.
 CSK-reset-label = Reset custom keyboard shortcuts
-CSK-reset-button = Restore Defaults
+CSK-reset-button = Last inn standardinnstillinger
 CSK-manage-title = Manage keyboard shortcuts
 CSK-remove-shortcutkey = Remove custom keyboard shortcut?
 CSK-remove-shortcutkey-description = Are you sure you want to remove this keyboard shortcut?
-CSK-restore-default = Restore Defaults?
+CSK-restore-default = Last inn standardinnstillinger?
 CSK-restore-default-description = Restore { -brand-short-name }'s default keyboard shortcuts? Your current shortcuts will be lost.
 CSK-reboot-browser-label = Restart { -brand-short-name } to apply these settings
 CSK-reboot-browser-button = Restart { -brand-short-name }
@@ -638,10 +638,10 @@ edit-userContentCss-editor =
 not-found-editor-path = Could not find a CSS file editor
 set-pref-description = Input the file location of the CSS file editor you want to use:
 rebuild-complete = Rebuild has been completed.
-please-enter-filename = Please enter a file name.
+please-enter-filename = Vennligst skriv inn et filnavn.
 ################################################################### Undo-Closed-Tab ###############################################################
 
-undo-closed-tab = Reopen closed tab
+undo-closed-tab = Gjenåpne lukket fane
 ################################################################### about:addons ###############################################################
 
 # Dual Theme
@@ -683,7 +683,7 @@ gf-floorp-open-extension-sidebar-settings-list-default = Please select add-on
 gf-floorp-open-extension-sidebar-settings-list-unknwon = Unknown add-on
 ##################################################################### { -brand-short-name } System Update Portable Version ###############################################################
 
-update-portable-notification-found-title = Updates found!
+update-portable-notification-found-title = Oppdateringer funnet!
 update-portable-notification-found-message = Downloading updates...
 update-portable-notification-ready-title = Klar for oppdatering!
 update-portable-notification-ready-message = { -brand-short-name } will be updated on the next launch.
@@ -691,10 +691,10 @@ update-portable-notification-success-title = Update succeeded!
 update-portable-notification-success-message = Update succeeded! Hope you enjoy the new version of { -brand-short-name }!
 update-portable-notification-failed-title = Oppdateringen mislyktes.
 update-portable-notification-failed-redirector-message = Update failed. Restarting your browser may solve this problem.
-update-portable-notification-failed-prepare-message = Failed to prepare the update.
+update-portable-notification-failed-prepare-message = Kunne ikke forberede oppdateringen.
 ##################################################################### { -brand-short-name } Portable Preferences ###############################################################
 
-floorp-portable-update-application-allow = { -brand-short-name } Portable Update
+floorp-portable-update-application-allow = { -brand-short-name } Portabel oppdatering
 floorp-update-application-auto-enabled-option = 
     .label = Automatically check for updates to { -brand-short-name } portable. (Recommended)
 ##################################################################### Open link in external ###############################################################
@@ -805,7 +805,7 @@ welcome-to-floorp = Velkommen til { -brand-short-name }!
 welcome-describe-floorp = { -brand-short-name } is a feature-rich, flexible browser that supports various environments and is based on Firefox.
 welcome-start-setup = Ready to dive in?
 welcome-skip-to-start-browsing = Skip to Start Browsing
-welcome-select-preferences-template = Choose a template
+welcome-select-preferences-template = Vel ein mal
 welcome-minimum-template = Enkelt
 welcome-enable-basic-features = Enable basic features and settings for a simple experience.
 welcome-medium-template = Standard
@@ -827,7 +827,7 @@ welcome-import-data-skip = Hopp over import
 welcome-select-button = Velg
 welcome-finish-setup = Konfigurering fullført!
 welcome-finish-setup-description = You're all set! Other features like Vertical Tabs & Workspaces can be found in { -brand-short-name }'s Settings. Enjoy { -brand-short-name }!
-welcomet-finish-setup = Start Browsing the Web
+welcomet-finish-setup = Start surfing på nettet
 ############################################################# Custom Shortcutkey ###############################################################
 
 category-CSK = 
@@ -982,48 +982,48 @@ floorp-custom-actions-show-panel-2 = Toggle panel 2
     .label = Toggle panel 2
 floorp-custom-actions-show-panel-3 = Toggle panel 3
     .label = Toggle panel 3
-floorp-custom-actions-show-panel-4 = Toggle panel 4
-    .label = Toggle panel 4
-floorp-custom-actions-show-panel-5 = Toggle panel 5
-    .label = Toggle panel 5
-floorp-custom-actions-show-panel-6 = Toggle panel 6
-    .label = Toggle panel 6
-floorp-custom-actions-show-panel-7 = Toggle panel 7
-    .label = Toggle panel 7
-floorp-custom-actions-show-panel-8 = Toggle panel 8
-    .label = Toggle panel 8
-floorp-custom-actions-show-panel-9 = Toggle panel 9
-    .label = Toggle panel 9
-floorp-custom-actions-show-panel-10 = Toggle panel 10
-    .label = Toggle panel 10
+floorp-custom-actions-show-panel-4 = Skru av/på panel 4
+    .label = Skru av/på panel 4
+floorp-custom-actions-show-panel-5 = Skru av/på panel 5
+    .label = Skru av/på panel 5
+floorp-custom-actions-show-panel-6 = Skru av/på panel 6
+    .label = Skru av/på panel 6
+floorp-custom-actions-show-panel-7 = Skru av/på panel 7
+    .label = Skru av/på panel 7
+floorp-custom-actions-show-panel-8 = Skru av/på panel 8
+    .label = Skru av/på panel 8
+floorp-custom-actions-show-panel-9 = Skru av/på panel 9
+    .label = Skru av/på panel 9
+floorp-custom-actions-show-panel-10 = Skru av/på panel 10
+    .label = Skru av/på panel 10
 floorp-custom-actions-open-split-view-on-left = Open current tab on left in split view
     .label = Open current tab on left in split view
 floorp-custom-actions-open-split-view-on-right = Open current tab on right in split view
     .label = Open current tab on right in split view
-floorp-custom-actions-close-split-view = Close split view
-    .label = Close split view
-floorp-custom-actions-custom-action-1 = Custom action 1
-    .label = Custom action 1
-floorp-custom-actions-custom-action-2 = Custom action 2
-    .label = Custom action 2
-floorp-custom-actions-custom-action-3 = Custom action 3
-    .label = Custom action 3
-floorp-custom-actions-custom-action-4 = Custom action 4
-    .label = Custom action 4
-floorp-custom-actions-custom-action-5 = Custom action 5
-    .label = Custom action 5
-floorp-custom-actions-rest-mode = Enable rest mode
-    .label = Enable rest mode
-floorp-custom-actions-hide-user-interface = Toggle User Interface
-    .label = Toggle User Interface
-floorp-custom-actions-toggle-navigation-panel = Toggle Navigation Panel
-    .label = Toggle Navigation Panel
+floorp-custom-actions-close-split-view = Lukk splittvisning
+    .label = Lukk splittvisning
+floorp-custom-actions-custom-action-1 = Egendefinert handling 1
+    .label = Egendefinert handling 1
+floorp-custom-actions-custom-action-2 = Egendefinert handling 2
+    .label = Egendefinert handling 2
+floorp-custom-actions-custom-action-3 = Egendefinert handling 3
+    .label = Egendefinert handling 3
+floorp-custom-actions-custom-action-4 = Egendefinert handling 4
+    .label = Egendefinert handling 4
+floorp-custom-actions-custom-action-5 = Egendefinert handling 5
+    .label = Egendefinert handling 5
+floorp-custom-actions-rest-mode = Aktiver hvilemodus
+    .label = Aktiver hvilemodus
+floorp-custom-actions-hide-user-interface = Veksle brukergrensesnitt
+    .label = Veksle brukergrensesnitt
+floorp-custom-actions-toggle-navigation-panel = Vis/skjul navigasjonspanel
+    .label = Vis/skjul navigasjonspanel
 ##################################################################### Profile Switcher ###############################################################
 
-floorp-open-profile-with-new-instance = Launch
-    .tooltiptext = Launch { -brand-short-name } with this profile
+floorp-open-profile-with-new-instance = Start
+    .tooltiptext = Start { -brand-short-name } med denne profilen
 floorp-profiles-in-use = Denne profilen er i bruk.
-floorp-profiles-title = Profiles
+floorp-profiles-title = Profiler
 floorp-profile-manager = Profile Manager
 floorp-profiles-create = Opprett Profil
 floorp-profile = Profil
