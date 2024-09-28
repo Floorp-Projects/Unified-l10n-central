@@ -1044,14 +1044,14 @@ floorp-split-view-open-menu =
 floorp-split-view-fixed-menu = 
     .label = Split this Tab in a Tab without Split View
 floorp-split-view-open-menu-disabled = 
-    .label = Need Unspliting and Unselected tab
+    .label = Need Unsplitting and Unselected tab
 split-view-remove-button = Remove Split View
 split-view-title = Split View Settings
 split-view-position = Position
 split-view-flex-type = Flex Type
 split-view-position-top = Top Side
 split-view-position-left = Default
-split-view-position-right = Reverse
+split-view-position-right = Reversed
 split-view-flex-column = Vertical
 split-view-flex-row = Horizontal
 ######################################################################### Page Actions ###############################################################
