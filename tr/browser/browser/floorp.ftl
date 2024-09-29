@@ -456,7 +456,7 @@ workspace-icon-moon =
 workspace-icon-music = 
     .label = Music
 workspace-icon-user = 
-    .label = User
+    .label = Kullanıcı
 # Custom Keyboard Shortcuts
 floorp-CSK-title = Özel klavye kısayolları
 floorp-CSK-description = { -brand-short-name } klavye kısayollarını özelleştirin. { -brand-short-name } 80'den fazla özelleştirilebilir klavye kısayolu sunar! Tekrarlanan klavye kısayolları çalışmayacaktır. Bu ayarları uygulamak için { -brand-short-name }'u yeniden başlatın.
