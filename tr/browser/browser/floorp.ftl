@@ -225,7 +225,7 @@ delete-border-and-roundup-option =
 ## DualTheme
 
 dualtheme-enable = 
-    .label = Enable Dual Theme (Deprecated)
+    .label = Çift Temayı Etkinleştir (Kullanımdan kaldırıldı)
 floorp-enable-dualtheme-description = Dual Theme feature may cause problems with extensions. Please use with caution.
 newtab-background = { -brand-short-name } Ana Sayfa Arka Plan
 newtab-background-random-image = 
@@ -251,7 +251,7 @@ newtab-background-folder-choose = Resimler klasörünü seç...
 newtab-background-image-choose = Resim seç...
 newtab-background-extensions = Şu dosya uzantılarına sahip resimleri kullan ("," ile ayırılır)
 disable-blur-on-newtab = 
-    .label = Disable blur effect in { -brand-short-name } Home
+    .label = { -brand-short-name } Anasayfa'da bulanıklaştırma efektini devre dışı bırakın
 disable-releasenote-on-newtab = 
     .label = { -brand-short-name } anasayfasındaki sürüm notları ve destek bağlantılarını devre dışı bırakın
 disable-imagecredit-on-newtab = 
@@ -368,7 +368,7 @@ apply-userjs-button = Başvurmak
 
 ## userjs Options
 
-default-userjs-label = { -brand-short-name } Default
+default-userjs-label = { -brand-short-name } Varsayılan
 about-default-userjs = Telemetri devre dışı. Çeşitli özelleştirmelerin etkin olduğu iyi dengelenmiş { -brand-short-name } .
 Securefox-label = Yokoffing Securefox
 about-Securefox = Varsayılan HTTPS. Site izolasyonu ile Tam Çerez Koruması. Geliştirilmiş durum ve ağ bölümleme. Çeşitli diğer geliştirmeler.
