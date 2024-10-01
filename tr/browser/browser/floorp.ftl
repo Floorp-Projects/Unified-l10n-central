@@ -226,7 +226,7 @@ delete-border-and-roundup-option =
 
 dualtheme-enable = 
     .label = Çift Temayı Etkinleştir (Kullanımdan kaldırıldı)
-floorp-enable-dualtheme-description = Dual Theme feature may cause problems with extensions. Please use with caution.
+floorp-enable-dualtheme-description = Çift Tema özelliği uzantılar ile ilgili sorunlara neden olabilir. Lütfen dikkatli kullanın.
 newtab-background = { -brand-short-name } Ana Sayfa Arka Plan
 newtab-background-random-image = 
     .label = Unsplash'tan rastgele görseller
