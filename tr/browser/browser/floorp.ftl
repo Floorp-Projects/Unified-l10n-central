@@ -501,7 +501,7 @@ floorp-custom-actions-custom-action = Özel Eylemler (Deneysel)
 ## Mouse Gestures
 
 mouse-gesture = Fare Hareketleri
-mouse-gesture-description = { -brand-short-name }ile fare hareketlerini kullanmak için Gesturefy yüklenmelidir.
+mouse-gesture-description = { -brand-short-name } ile fare hareketlerini kullanmak için Gesturefy yüklenmelidir.
 Gesturefy = Gesturefy
 about-Gesturefy = Gesturefy, tarayıcınıza fare hareketleri ekleyen bir eklentidir. { -brand-short-name } bu eklentinin yüklendiğini algılarsa, Gesturefy'a sadece { -brand-short-name } Tarayıcısında bulunan hareket komutlarını yükleyecektir. Bu eklenti ayrıca yeni sekmeler de oluşturabilir!
 # Translate
@@ -1100,13 +1100,13 @@ floorp-enable-ssb =
     .label = Web Uygulamalarını Etkinleştir
 floorp-enable-ssb-with-experimental = 
     .label = Web Uygulamalarını Etkinleştir (Deneysel)
-floorp-enable-ssb-description = This feature is experimental on Mac and Linux. It is recommended to enable this feature on Windows.
+floorp-enable-ssb-description = Bu özellik, Mac ve Linux'ta deneyseldir. Windows'ta etkinleştirilmesi önerilir.
 floorp-disable-toolbars = 
     .label = Web Uygulamaları Penceresindeki araç çubuklarını devre dışı bırak
 floorp-disable-toolbars-description = Bu ayar Web Uygulamaları Penceresindeki bütün eklentileri ve araç çubuklarını gizleyecektir.
 ssb-installed-list-title = Yüklenen Web Uygulamaları
 ssb-uninstall-title = Web Uygulamasını kaldır
-ssb-uninstall-message = Are you sure you want to uninstall this Web App from { -brand-short-name }?
+ssb-uninstall-message = Bu Web Uygulamasını { -brand-short-name }'dan kaldırmak istediğinizden emin misiniz?
 ssb-uninstall-button = 
     .label = Uninstall
 ssb-uninstall-cancel = Cancel
