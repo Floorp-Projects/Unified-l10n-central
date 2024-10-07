@@ -495,7 +495,7 @@ floorp-custom-actions-downloads-action = İndirmeler Eylemler
 floorp-custom-actions-sidebar-action = Kenar Çubuğu Eylemleri
 floorp-custom-actions-bms-action = Tarayıcı Yöneticisi Kenar Çubuğu Eylemleri
 floorp-custom-actions-split-view-action = Split View Actions
-floorp-custom-actions-workspaces-action = Workspaces Actions
+floorp-custom-actions-workspaces-action = Çalışma Alanları Eylemleri
 floorp-custom-actions-custom-action = Özel Eylemler (Deneysel)
 
 ## Mouse Gestures
@@ -940,7 +940,7 @@ floorp-custom-actions-open-task-manager = Görev yöneticisini açın
     .label = { -brand-short-name }'un Görev Yöneticisini açın
 floorp-custom-actions-open-home-page = { -brand-short-name }'un ana sayfasını açın
     .label = { -brand-short-name }'un ana sayfasını açın
-floorp-custom-actions-open-addons-manager = Open add-ons and themes
+floorp-custom-actions-open-addons-manager = Eklentiler ve temaları açma
     .label = Eklentileri ve temaları açın
 floorp-custom-actions-forget-history = Tarihi unutun
     .label = Tarihi unutun
