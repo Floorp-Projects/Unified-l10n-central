@@ -251,9 +251,9 @@ newtab-background-folder-choose = Resimler klasörünü seç...
 newtab-background-image-choose = Resim seç...
 newtab-background-extensions = Şu dosya uzantılarına sahip resimleri kullan ("," ile ayırılır)
 disable-blur-on-newtab = 
-    .label = { -brand-short-name } Anasayfa'da bulanıklaştırma efektini devre dışı bırakın
+    .label = { -brand-short-name } Ana Sayfa'da bulanıklaştırma efektini devre dışı bırakın
 disable-releasenote-on-newtab = 
-    .label = { -brand-short-name } anasayfasındaki sürüm notları ve destek bağlantılarını devre dışı bırakın
+    .label = { -brand-short-name } Ana Sayfa'da sürüm notları ve destek bağlantılarını devre dışı bırakın
 disable-imagecredit-on-newtab = 
     .label = Disable image credit (Unsplash) in { -brand-short-name } Home
 
