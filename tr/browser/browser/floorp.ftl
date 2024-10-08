@@ -657,9 +657,9 @@ status-bar =
 
 gf-floorp-open-tree-style-tab-name = [{ -brand-short-name }] Open Tree Style Tab Panel
 gf-floorp-open-tree-style-tab-description = Open Tree Style Tab Panel on the Sidebar
-gf-floorp-open-bookmarks-sidebar-name = [{ -brand-short-name }] Open Bookmarks Panel
+gf-floorp-open-bookmarks-sidebar-name = [{ -brand-short-name }] Yer İmleri Panelini Aç
 gf-floorp-open-bookmarks-sidebar-description = Open Bookmarks Panel on the Sidebar
-gf-floorp-open-history-sidebar-name = [{ -brand-short-name }] Open History Panel
+gf-floorp-open-history-sidebar-name = [{ -brand-short-name }] Geçmiş Panelini Aç
 gf-floorp-open-history-sidebar-description = Open History Panel on the Sidebar
 gf-floorp-open-synctabs-sidebar-name = [{ -brand-short-name }] Open Synced Tabs Panel
 gf-floorp-open-synctabs-sidebar-description = Open Synced Tabs Panel on the Sidebar
