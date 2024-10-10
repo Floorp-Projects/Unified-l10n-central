@@ -225,8 +225,8 @@ delete-border-and-roundup-option =
 ## DualTheme
 
 dualtheme-enable = 
-    .label = Enable Dual Theme (Deprecated)
-floorp-enable-dualtheme-description = Dual Theme feature may cause problems with extensions. Please use with caution.
+    .label = Çift Temayı Etkinleştir (Kullanımdan kaldırıldı)
+floorp-enable-dualtheme-description = Çift Tema özelliği uzantılar ile ilgili sorunlara neden olabilir. Lütfen dikkatli kullanın.
 newtab-background = { -brand-short-name } Ana Sayfa Arka Plan
 newtab-background-random-image = 
     .label = Unsplash'tan rastgele görseller
@@ -251,9 +251,9 @@ newtab-background-folder-choose = Resimler klasörünü seç...
 newtab-background-image-choose = Resim seç...
 newtab-background-extensions = Şu dosya uzantılarına sahip resimleri kullan ("," ile ayırılır)
 disable-blur-on-newtab = 
-    .label = Disable blur effect in { -brand-short-name } Home
+    .label = { -brand-short-name } Ana Sayfa'da bulanıklaştırma efektini devre dışı bırakın
 disable-releasenote-on-newtab = 
-    .label = { -brand-short-name } anasayfasındaki sürüm notları ve destek bağlantılarını devre dışı bırakın
+    .label = { -brand-short-name } Ana Sayfa'da sürüm notları ve destek bağlantılarını devre dışı bırakın
 disable-imagecredit-on-newtab = 
     .label = Disable image credit (Unsplash) in { -brand-short-name } Home
 
@@ -368,7 +368,7 @@ apply-userjs-button = Başvurmak
 
 ## userjs Options
 
-default-userjs-label = { -brand-short-name } Default
+default-userjs-label = { -brand-short-name } Varsayılan
 about-default-userjs = Telemetri devre dışı. Çeşitli özelleştirmelerin etkin olduğu iyi dengelenmiş { -brand-short-name } .
 Securefox-label = Yokoffing Securefox
 about-Securefox = Varsayılan HTTPS. Site izolasyonu ile Tam Çerez Koruması. Geliştirilmiş durum ve ağ bölümleme. Çeşitli diğer geliştirmeler.
@@ -495,13 +495,13 @@ floorp-custom-actions-downloads-action = İndirmeler Eylemler
 floorp-custom-actions-sidebar-action = Kenar Çubuğu Eylemleri
 floorp-custom-actions-bms-action = Tarayıcı Yöneticisi Kenar Çubuğu Eylemleri
 floorp-custom-actions-split-view-action = Split View Actions
-floorp-custom-actions-workspaces-action = Workspaces Actions
+floorp-custom-actions-workspaces-action = Çalışma Alanları Eylemleri
 floorp-custom-actions-custom-action = Özel Eylemler (Deneysel)
 
 ## Mouse Gestures
 
 mouse-gesture = Fare Hareketleri
-mouse-gesture-description = { -brand-short-name }ile fare hareketlerini kullanmak için Gesturefy yüklenmelidir.
+mouse-gesture-description = { -brand-short-name } ile fare hareketlerini kullanmak için Gesturefy yüklenmelidir.
 Gesturefy = Gesturefy
 about-Gesturefy = Gesturefy, tarayıcınıza fare hareketleri ekleyen bir eklentidir. { -brand-short-name } bu eklentinin yüklendiğini algılarsa, Gesturefy'a sadece { -brand-short-name } Tarayıcısında bulunan hareket komutlarını yükleyecektir. Bu eklenti ayrıca yeni sekmeler de oluşturabilir!
 # Translate
@@ -657,9 +657,9 @@ status-bar =
 
 gf-floorp-open-tree-style-tab-name = [{ -brand-short-name }] Open Tree Style Tab Panel
 gf-floorp-open-tree-style-tab-description = Open Tree Style Tab Panel on the Sidebar
-gf-floorp-open-bookmarks-sidebar-name = [{ -brand-short-name }] Open Bookmarks Panel
+gf-floorp-open-bookmarks-sidebar-name = [{ -brand-short-name }] Yer İmleri Panelini Aç
 gf-floorp-open-bookmarks-sidebar-description = Open Bookmarks Panel on the Sidebar
-gf-floorp-open-history-sidebar-name = [{ -brand-short-name }] Open History Panel
+gf-floorp-open-history-sidebar-name = [{ -brand-short-name }] Geçmiş Panelini Aç
 gf-floorp-open-history-sidebar-description = Open History Panel on the Sidebar
 gf-floorp-open-synctabs-sidebar-name = [{ -brand-short-name }] Open Synced Tabs Panel
 gf-floorp-open-synctabs-sidebar-description = Open Synced Tabs Panel on the Sidebar
@@ -717,8 +717,8 @@ delete-memo = Silme
 save-memo = Kaydet
 memo-welcome-title = Hoş geldiniz!
 memo-first-tip = Welcome to { -brand-short-name } Notes! Here are some instructions on how to use it!
-memo-second-tip = { -brand-short-name } Notes is a notepad that lets you store multiple notes that sync across devices. To enable synchronization, you need to sign in to { -brand-short-name } with your Firefox account.
-memo-third-tip = { -brand-short-name } Notes will be saved in your { -brand-short-name } settings and synchronized across devices using Firefox Sync. Firefox Sync encrypts the contents of the sync with your Firefox account password, so no one but you know its contents.
+memo-second-tip = { -brand-short-name } Notlar, cihazlar arası senkronize olan, birden fazla not saklamanıza olanak tanıyan bir not defteridir. Senkronizasyonu etkinleştirmek için Firefox hesabınız ile { -brand-short-name }'a giriş yapmanız gerekmektedir.
+memo-third-tip = { -brand-short-name } Notlar, { -brand-short-name } ayarlarınıza kaydedilecek ve Firefox Sync kullanılarak cihazlar arası senkronize edilecektir. Firefox Sync senkronizasyonun içeriğini sizin Firefox hesap parolanız ile şifreler, böylece sizden başka kimse içeriğini bilemez.
 memo-import-data-tip = Firefox Sync bir yedekleme hizmeti değildir. Yedekleme oluşturmanızı öneririz.
 memo-new-title = Yeni Not
 chage-view-mode = Görünüm/Düzenleme Modunu Değiştir
@@ -940,7 +940,7 @@ floorp-custom-actions-open-task-manager = Görev yöneticisini açın
     .label = { -brand-short-name }'un Görev Yöneticisini açın
 floorp-custom-actions-open-home-page = { -brand-short-name }'un ana sayfasını açın
     .label = { -brand-short-name }'un ana sayfasını açın
-floorp-custom-actions-open-addons-manager = Open add-ons and themes
+floorp-custom-actions-open-addons-manager = Eklentiler ve temaları açma
     .label = Eklentileri ve temaları açın
 floorp-custom-actions-forget-history = Tarihi unutun
     .label = Tarihi unutun
@@ -1074,10 +1074,10 @@ ssb-app-install-button =
 ssb-app-cancel-button = 
     .label = Cancel
 floorp-open-manage-ssb-page = 
-    .label = Manage installed Web Apps
+    .label = Yüklü Web Uygulamalarını yönet
 appmenuitem-webapps = 
-    .label = Web Apps
-appmenu-open-installed-apps-subheader = Open installed web apps
+    .label = Web Uygulamaları
+appmenu-open-installed-apps-subheader = Yüklü web uygulamalarını aç
 appmenuitem-install-current-page = 
     .label = Install this site as an app
 appmenuitem-open-current-page = 
@@ -1090,23 +1090,23 @@ appmenuitem-contextmenu-uninstall-app =
 ## Preferences
 
 category-ssb = 
-    .label = Web Apps
-    .tooltiptext = Web Apps
-category-ssb-title = Web Apps
-floorp-ssb-title = Web Apps
-floorp-ssb-description = Web Apps are websites that can be installed as apps. They can be launched from { -brand-short-name }'s menu panel or the Windows Start menu.
-ssb-preferences = Web Apps Settings
+    .label = Web Uygulamaları
+    .tooltiptext = Web Uygulamaları
+category-ssb-title = Web Uygulamaları
+floorp-ssb-title = Web Uygulamaları
+floorp-ssb-description = Web Uygulamaları, uygulama olarak yüklenebilen web siteleridir. Bunlar { -brand-short-name } menü panelinden veya Windows Başlat Menüsünden başlatılabilir.
+ssb-preferences = Web Uygulamaları Ayarları
 floorp-enable-ssb = 
-    .label = Enable Web Apps
+    .label = Web Uygulamalarını Etkinleştir
 floorp-enable-ssb-with-experimental = 
-    .label = Enable Web Apps (Experimental)
-floorp-enable-ssb-description = This feature is experimental on Mac and Linux. It is recommended to enable this feature on Windows.
+    .label = Web Uygulamalarını Etkinleştir (Deneysel)
+floorp-enable-ssb-description = Bu özellik, Mac ve Linux'ta deneyseldir. Windows'ta etkinleştirilmesi önerilir.
 floorp-disable-toolbars = 
-    .label = Disable toolbars on Web Apps Window
-floorp-disable-toolbars-description = This setting will hide all extensions and toolbars on Web Apps Window.
-ssb-installed-list-title = Installed Web Apps
-ssb-uninstall-title = Uninstall Web App
-ssb-uninstall-message = Are you sure you want to uninstall this Web App from { -brand-short-name }?
+    .label = Web Uygulamaları Penceresindeki araç çubuklarını devre dışı bırak
+floorp-disable-toolbars-description = Bu ayar Web Uygulamaları Penceresindeki bütün eklentileri ve araç çubuklarını gizleyecektir.
+ssb-installed-list-title = Yüklenen Web Uygulamaları
+ssb-uninstall-title = Web Uygulamasını kaldır
+ssb-uninstall-message = Bu Web Uygulamasını { -brand-short-name }'dan kaldırmak istediğinizden emin misiniz?
 ssb-uninstall-button = 
     .label = Uninstall
 ssb-uninstall-cancel = Cancel
