@@ -123,7 +123,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Microsoft Fluent Teması (kullanımdan kaldırılmıştır)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI (New)
+    .label = { -brand-short-name } Fluerial Teması (Yeni)
 
 ## Download Manager
 
@@ -904,9 +904,9 @@ floorp-custom-actions-open-migration-wizard = Geçiş sihirbazını açın
     .label = Geçiş sihirbazını açın
 floorp-custom-actions-quit-from-application = Uygulamadan çıkma
     .label = Bırak { -brand-short-name }
-floorp-custom-actions-enter-into-customize-mode = Customize Toolbar
+floorp-custom-actions-enter-into-customize-mode = Araç Çubuğunu özelleştir
     .label = Özelleştir'i açın { -brand-short-name }
-floorp-custom-actions-enter-into-offline-mode = Enter offline mode
+floorp-custom-actions-enter-into-offline-mode = Çevrimdışı moda geçin
     .label = Çevrimdışı moda girin
 floorp-custom-actions-open-screen-capture = Ekran yakalama aracını açın
     .label = Ekran görüntüsü alın
@@ -1083,9 +1083,9 @@ appmenuitem-install-current-page =
 appmenuitem-open-current-page = 
     .label = Open this site on installed app
 appmenuitem-contextmenu-open-app = 
-    .label = Open this app
+    .label = Bu uygulamayı aç
 appmenuitem-contextmenu-uninstall-app = 
-    .label = Uninstall this app
+    .label = Bu uygulamayı kaldır
 
 ## Preferences
 
@@ -1109,14 +1109,14 @@ ssb-uninstall-title = Web Uygulamasını kaldır
 ssb-uninstall-message = Bu Web Uygulamasını { -brand-short-name }'dan kaldırmak istediğinizden emin misiniz?
 ssb-uninstall-button = 
     .label = Uninstall
-ssb-uninstall-cancel = Cancel
+ssb-uninstall-cancel = İptal
 ######################################################################### Download Notification ###############################################################
 floorp-started-download = İndirme başladı
 floorp-finished-download = İndirme tamamlandı
 ######################################################################### Update notify ###############################################################
 
-floorp-notificationTitle-latest = { -brand-short-name } is up to date!
-floorp-notificationContent-latest = { -brand-short-name } is up to date. You are using the latest version of { -brand-short-name }.
+floorp-notificationTitle-latest = { -brand-short-name } güncel!
+floorp-notificationContent-latest = { -brand-short-name } güncel. { -brand-short-name }'un en son sürümünü kullanıyorsunuz.
 floorp-notificationTitle = { -brand-short-name }'un yeni sürümü çıktı!
 floorp-notificationContent = En son sürümü indirmek için tıkla.
 ######################################################################### vertical tab bar ###############################################################
