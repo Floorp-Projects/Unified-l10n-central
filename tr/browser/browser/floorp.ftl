@@ -1111,14 +1111,14 @@ ssb-uninstall-button =
     .label = Uninstall
 ssb-uninstall-cancel = Cancel
 ######################################################################### Download Notification ###############################################################
-floorp-started-download = Download started
-floorp-finished-download = Download finished
+floorp-started-download = İndirme başladı
+floorp-finished-download = İndirme tamamlandı
 ######################################################################### Update notify ###############################################################
 
 floorp-notificationTitle-latest = { -brand-short-name } is up to date!
 floorp-notificationContent-latest = { -brand-short-name } is up to date. You are using the latest version of { -brand-short-name }.
-floorp-notificationTitle = New version of { -brand-short-name } is available!
-floorp-notificationContent = Click to download the latest version.
+floorp-notificationTitle = { -brand-short-name }'un yeni sürümü çıktı!
+floorp-notificationContent = En son sürümü indirmek için tıkla.
 ######################################################################### vertical tab bar ###############################################################
 
 close-tabs-to-the-start-on-vertical-tab-bar = 
