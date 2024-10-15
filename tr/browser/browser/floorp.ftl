@@ -656,14 +656,14 @@ status-bar =
 ##################################################################### Gesturefy ###############################################################
 
 gf-floorp-open-tree-style-tab-name = [{ -brand-short-name }] Open Tree Style Tab Panel
-gf-floorp-open-tree-style-tab-description = Open Tree Style Tab Panel on the Sidebar
+gf-floorp-open-tree-style-tab-description = Kenar Çubuğunda Ağaç Stili Sekmesi Panelini Aç
 gf-floorp-open-bookmarks-sidebar-name = [{ -brand-short-name }] Yer İmleri Panelini Aç
-gf-floorp-open-bookmarks-sidebar-description = Open Bookmarks Panel on the Sidebar
+gf-floorp-open-bookmarks-sidebar-description = Kenar Çubuğunda Yer İmleri Panelini Aç
 gf-floorp-open-history-sidebar-name = [{ -brand-short-name }] Geçmiş Panelini Aç
-gf-floorp-open-history-sidebar-description = Open History Panel on the Sidebar
-gf-floorp-open-synctabs-sidebar-name = [{ -brand-short-name }] Open Synced Tabs Panel
-gf-floorp-open-synctabs-sidebar-description = Open Synced Tabs Panel on the Sidebar
-gf-floorp-close-sidebar-name = [{ -brand-short-name }] Close Sidebar
+gf-floorp-open-history-sidebar-description = Kenar Çubuğunda Geçmiş Panelini Aç
+gf-floorp-open-synctabs-sidebar-name = [{ -brand-short-name }] Senkronize Sekmeler Panelini Aç
+gf-floorp-open-synctabs-sidebar-description = Kenar Çubuğunda Senkronize Sekmeler Panelini Aç
+gf-floorp-close-sidebar-name = [{ -brand-short-name }] Kenar Çubuğunu Kapat
 gf-floorp-close-sidebar-description = Kenar Çubuğunu Kapat
 gf-floorp-open-browser-manager-sidebar-name = [{ -brand-short-name }] Open BMS
 gf-floorp-open-browser-manager-sidebar-description = Open Browser Manager Sidebar if the Web Panel of Browser Manager Sidebar is loaded
@@ -738,8 +738,8 @@ floorp-show-all-downloads =
 ######################################################################### workspace ###############################################################
 
 workspaces-create-new-workspace-button = 
-    .label = Create new Workspace...
-    .tooltiptext = Create a new Workspace
+    .label = Yeni Çalışma Alanı Oluştur...
+    .tooltiptext = Yeni Bir Çalışma Alanı Oluştur
 workspaces-manage-workspaces-button = 
     .label = Manage Workspaces...
     .tooltiptext = Manage your Workspaces
