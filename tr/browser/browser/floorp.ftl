@@ -475,7 +475,7 @@ CSK-manage-title = Klavye kısayollarını yönetme
 CSK-remove-shortcutkey = Özel klavye kısayolunu kaldırayım mı?
 CSK-remove-shortcutkey-description = Bu klavye kısayolunu kaldırmak istediğinizden emin misiniz?
 CSK-restore-default = Varsayılanları Geri Yükle?
-CSK-restore-default-description = Restore { -brand-short-name }'s default keyboard shortcuts? Your current shortcuts will be lost.
+CSK-restore-default-description = { -brand-short-name }'un varsayılan klavye ayarlarını geri yükle. Mevcut kısayollar kaybolacaktır.
 CSK-reboot-browser-label = Bu ayarları uygulamak için { -brand-short-name } adresini yeniden başlatın
 CSK-reboot-browser-button = { -brand-short-name }adresini yeniden başlatın
 # Exist shortcut key: "S", "shift"
