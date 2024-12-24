@@ -15,7 +15,7 @@ category-design =
 design-header = { pane-design-title }
 feature-requires-restart = Es necesario reiniciar para aplicar los cambios
 tab-width = Anchura mínima de pestañas
-tab-height = Minimum height of tabs
+tab-height = Altura mínima de pestañas
 preferences-tabs-newtab-position = Posición de pestañas nuevas
 open-new-tab-use-default = 
     .label = Abrir pestañas nuevas en la posición predeterminada
@@ -92,7 +92,7 @@ navbar-settings = Barra de navegación
 show-nav-bar-bottom = 
     .label = Mostrar la barra de herramientas en la parte inferior de { -brand-short-name } (experimental)
 disable-extension-check-compatibility-option = 
-    .label = Do not check for compatibility with add-ons (deprecated)
+    .label = No comprobar la compatibilidad de los complementos (obsoleto)
 other-preference = Otras preferencias
 search-positon-top = 
     .label = Mostrar barra de búsqueda en la parte superior de la página
@@ -123,7 +123,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Fluent UI de Microsoft (obsolescido)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI (New)
+    .label = { -brand-short-name } Fluerial UI (Nuevo)
 
 ## Download Manager
 
