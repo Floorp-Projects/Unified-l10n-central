@@ -1036,7 +1036,7 @@ floorp-toggle-private-container =
     .label = Genåbn i Privat/Ingen Beholder
     .accesskey = P
 open-in_private-container = 
-    .label = Åbn i nyt faneblad med privat beholder
+    .label = Åbn i ny fane med privat beholder
 ######################################################################## Split View ###############################################################
 
 floorp-split-view-open-menu = 
@@ -1055,12 +1055,12 @@ split-view-position-right = Reverse
 split-view-flex-column = Lodret
 split-view-flex-row = Vandret
 ######################################################################### Page Actions ###############################################################
-qrcode-generate-page-action-title = Skan QR-kode med din telefon
+qrcode-generate-page-action-title = Scan QR-kode med din telefon
 qrcode-generate-page-action = 
     .tooltiptext = Del denne side med din telefon
 ######################################################################### Customize Mode ###############################################################
 floorp-customize-mode-unified-extensions-button = 
-    .label = Knap For Samlede Udvidelser
+    .label = Knap til Samlede Udvidelser
 ######################################################################### Progressive Web Apps (SSB) ###############################################################
 
 ssb-page-action = 
