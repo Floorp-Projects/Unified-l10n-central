@@ -1051,7 +1051,7 @@ split-view-position = Position
 split-view-flex-type = Flex-type
 split-view-position-top = Top Side
 split-view-position-left = Standard
-split-view-position-right = Reverse
+split-view-position-right = Omvendt
 split-view-flex-column = Lodret
 split-view-flex-row = Vandret
 ######################################################################### Page Actions ###############################################################
