@@ -19,58 +19,58 @@
 
 -brand-shorter-name =
     { $case ->
-       *[nom] Firefox
-        [gen] Firefoksa
-        [dat] Firefoksowi
-        [acc] Firefoksa
-        [ins] Firefoksem
-        [loc] Firefoksie
+       *[nom] Floorp
+        [gen] Floorpa
+        [dat] Floorpowi
+        [acc] Floorpowi
+        [ins] Floorpem
+        [loc] Floorpie
     }
 -brand-short-name =
     { $case ->
-       *[nom] Firefox
-        [gen] Firefoksa
-        [dat] Firefoksowi
-        [acc] Firefoksa
-        [ins] Firefoksem
-        [loc] Firefoksie
+       *[nom] Floorp
+        [gen] Floorpa
+        [dat] Floorpowi
+        [acc] Floorpa
+        [ins] Floorpem
+        [loc] Floorpie
     }
 -brand-shortcut-name =
     { $case ->
-       *[nom] Firefox
-        [gen] Firefoksa
-        [dat] Firefoksowi
-        [acc] Firefoksa
-        [ins] Firefoksem
-        [loc] Firefoksie
+       *[nom] Floorp
+        [gen] Floorpa
+        [dat] Floorpowi
+        [acc] Floorpa
+        [ins] Floorpem
+        [loc] Floorpie
     }
 -brand-full-name =
     { $case ->
-       *[nom] Mozilla Firefox
-        [gen] Mozilli Firefox
-        [dat] Mozilli Firefox
-        [acc] Mozillę Firefox
-        [ins] Mozillą Firefox
-        [loc] Mozilli Firefox
+       *[nom] Ablaze Floorp
+        [gen] Ablaze Floorpa
+        [dat] Ablaze Floorpowi
+        [acc] Ablaze Floorpa
+        [ins] Ablaze Floorpem
+        [loc] Ablaze Floorpie
     }
 # This brand name can be used in messages where the product name needs to
 # remain unchanged across different versions (Nightly, Beta, etc.).
 -brand-product-name =
     { $case ->
-       *[nom] Firefox
-        [gen] Firefoksa
-        [dat] Firefoksowi
-        [acc] Firefoksa
-        [ins] Firefoksem
-        [loc] Firefoksie
+       *[nom] Floorp
+        [gen] Floorpa
+        [dat] Floorpowi
+        [acc] Floorpa
+        [ins] Floorpem
+        [loc] Floorpie
     }
 -vendor-short-name =
     { $case ->
-       *[nom] Mozilla
-        [gen] Mozilli
-        [dat] Mozilli
-        [acc] Mozillę
-        [ins] Mozillą
-        [loc] Mozilli
+       *[nom] Ablaze
+        [gen] Ablaze
+        [dat] Ablaze
+        [acc] Ablaze
+        [ins] Ablaze
+        [loc] Ablaze
     }
 trademarkInfo = Floorp oraz logotyp Firefox to znaki towarowe Mozilla Foundation.
