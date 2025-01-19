@@ -253,7 +253,7 @@ newtab-background-extensions = 使用擁有以下副檔名的圖像 (以","分�
 disable-blur-on-newtab = 
     .label = 在 { -brand-short-name } 主頁上停用模糊效果
 disable-releasenote-on-newtab = 
-    .label = 在 { -brand-short-name } 首頁不顯示版本資訊及支援鏈接
+    .label = 在 { -brand-short-name } 首頁不顯示版本資訊及支援鏈結
 disable-imagecredit-on-newtab = 
     .label = 在 { -brand-short-name } 首頁不顯示 (Unsplash) 圖像來源
 
@@ -609,7 +609,7 @@ sidebar2-keep-width-for-global =
 bsb-context-add = 
     .label = 將此頁面添加為 Web 面板...
 bsb-context-link-add = 
-    .label = 將鏈接添加為 Web 面板...
+    .label = 將鏈結添加為 Web 面板...
 #################################################################### menu panel ############################################################
 
 open-profile-dir = 
