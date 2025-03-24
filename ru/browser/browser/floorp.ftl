@@ -123,7 +123,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Microsoft Fluent UI (устаревший)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI (Новый)
+    .label = Интерфейс { -brand-short-name } Fluerial (новый)
 
 ## Download Manager
 
@@ -226,7 +226,7 @@ delete-border-and-roundup-option =
 
 dualtheme-enable = 
     .label = Включить двойную тему (устарело)
-floorp-enable-dualtheme-description = Функция Dual Theme может вызвать проблемы с расширениями. Используйте ее с осторожностью.
+floorp-enable-dualtheme-description = Функция двойной темы может вызвать проблемы с расширениями. Используйте её с осторожностью.
 newtab-background = Фоновое изображение на домашней странице { -brand-short-name }
 newtab-background-random-image = 
     .label = Случайное изображение с Unsplash
