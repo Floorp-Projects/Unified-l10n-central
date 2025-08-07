@@ -1031,7 +1031,7 @@ floorp-profile = プロファイル
     .tooltiptext = プロファイルマネージャーを開く
 fxa-not-signed-in = ログインしていません
 ######################################################################### Floorp 12 Upgrade ###############################################################
-floorp-upgrade-to-12-ready = Floorp 12 が準備できました！
+floorp-upgrade-to-12-ready = Floorp 12 の準備ができました！
 floorp-upgrade-to-12-description = 最新の { -brand-short-name } をダウンロードして、強化されたパフォーマンスと新機能を体験しましょう。無料でオープンソースです！
 floorp-upgrade-to-12-features-header = 最新の { -brand-short-name } の機能:
 floorp-upgrade-to-12-feature-1 = • 改善されたパフォーマンスとページの読み込み速度
