@@ -1202,6 +1202,21 @@ floorp-custom-actions-hide-user-interface = Toggle User Interface
   .label = Toggle User Interface
 floorp-custom-actions-toggle-navigation-panel = Toggle Navigation Panel
   .label = Toggle Navigation Panel
+
+######################################################################### Floorp 12 Upgrade ###############################################################
+
+floorp-upgrade-to-12-ready = Floorp 12 is ready
+floorp-upgrade-to-12-description = Get the latest version of Floorp with enhanced performance and new features—and it's still free and open source!
+floorp-upgrade-to-12-features-header = The newest Floorp features:
+floorp-upgrade-to-12-feature-1 = • Improved performance and faster page loading
+floorp-upgrade-to-12-feature-2 = • Based on Firefox Rapid Release
+floorp-upgrade-to-12-feature-3 = • Mouse Gesture and Re-created New Tab Page
+floorp-upgrade-to-12-feature-4 = • New Preferences Page
+floorp-upgrade-to-12-learn-more =
+    .label = Learn more
+floorp-upgrade-to-12-enable-checkbox =
+    .label = Enable upgrade to Floorp 12 when available!
+floorp-upgrade-to-12-info = WARNING: Upgrading may result in loss of tab information or missing workspaces. Please perform the upgrade when you have time, and be sure to back up your data first!
 ##################################################################### Profile Switcher ###############################################################
 
 floorp-open-profile-with-new-instance = Launch
