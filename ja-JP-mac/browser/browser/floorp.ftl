@@ -1032,17 +1032,17 @@ floorp-profile = プロファイル
 fxa-not-signed-in = ログインしていません
 ######################################################################### Floorp 12 Upgrade ###############################################################
 floorp-upgrade-to-12-ready = Floorp 12 の準備ができました！
-floorp-upgrade-to-12-description = 最新の { -brand-short-name } をダウンロードして、強化されたパフォーマンスと新機能を体験しましょう。無料でオープンソースです！
+floorp-upgrade-to-12-description = 最新の { -brand-short-name } をダウンロードして、強化されたパフォーマンスと新機能を体験しましょう。もちろん、無料でオープンソースです！
 floorp-upgrade-to-12-features-header = 最新の { -brand-short-name } の機能:
-floorp-upgrade-to-12-feature-1 = • 改善されたパフォーマンスとページの読み込み速度
-floorp-upgrade-to-12-feature-2 = • Firefox の最新の機能がベース
-floorp-upgrade-to-12-feature-3 = • マウスジェスチャーと新しいタブページの再作成
-floorp-upgrade-to-12-feature-4 = • 新しい設定ページの追加
+floorp-upgrade-to-12-feature-1 = • パフォーマンスとページの読み込み速度を改善
+floorp-upgrade-to-12-feature-2 = • ラピッドリリース版 Firefox をもとに設計
+floorp-upgrade-to-12-feature-3 = • マウスジェスチャーと再作成された新規タブページ
+floorp-upgrade-to-12-feature-4 = • 新しい設定ページ
 floorp-upgrade-to-12-learn-more =
     .label = 詳細
 floorp-upgrade-to-12-enable-checkbox =
-    .label = 利用可能な場合は { -brand-short-name } 12 へのアップグレードを有効にする！
-floorp-upgrade-to-12-info = 警告: アップグレードすると、タブ情報の損失やワークスペースの欠落が発生する可能性があります。お時間をおいてアップグレードを実行し、データをバックアップしてください！
+    .label = 利用可能な場合は { -brand-short-name } 12 へアップグレードする！
+floorp-upgrade-to-12-info = 警告: アップグレードすると、タブの情報やワークスペースが失われる可能性があります。必ず事前にバックアップを取り、お時間の余裕があるときにアップグレードを開始してください！
 ###################################################################### Private Container ##############################################################
 floorp-private-container-name = プライベート
 floorp-toggle-private-container = 
