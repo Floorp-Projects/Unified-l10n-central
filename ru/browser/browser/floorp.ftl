@@ -123,7 +123,7 @@ firefox-photon-lepton =
 floorp-fluentUI = 
     .label = Microsoft Fluent UI (устаревший)
 floorp-fluerialUI = 
-    .label = { -brand-short-name } Fluerial UI (Новый)
+    .label = Интерфейс { -brand-short-name } Fluerial (новый)
 
 ## Download Manager
 
@@ -226,7 +226,7 @@ delete-border-and-roundup-option =
 
 dualtheme-enable = 
     .label = Включить двойную тему (устарело)
-floorp-enable-dualtheme-description = Функция Dual Theme может вызвать проблемы с расширениями. Используйте ее с осторожностью.
+floorp-enable-dualtheme-description = Функция двойной темы может вызвать проблемы с расширениями. Используйте её с осторожностью.
 newtab-background = Фоновое изображение на домашней странице { -brand-short-name }
 newtab-background-random-image = 
     .label = Случайное изображение с Unsplash
@@ -1042,14 +1042,14 @@ open-in_private-container =
 floorp-split-view-open-menu = 
     .label = Открыть в режиме раздельного просмотра
 floorp-split-view-fixed-menu = 
-    .label = Разделить эту вкладку во вкладке без разделенного вида
+    .label = Открыть содержимое текущей вкладки в отдельной вкладке без разделённого просмотра
 floorp-split-view-open-menu-disabled = 
-    .label = Нужно снять выделение и отменить выбор вкладки
-split-view-remove-button = Удалить разделенный вид
+    .label = Нужно отменить разделение и убрать выбор вкладки
+split-view-remove-button = Выключить разделённый просмотр
 split-view-title = Настройки раздельного просмотра
 split-view-position = Расположение
 split-view-flex-type = Тип разметки
-split-view-position-top = Верхняя часть
+split-view-position-top = Сверху
 split-view-position-left = По умолчанию
 split-view-position-right = Обратный
 split-view-flex-column = Вертикальный
